@@ -6,17 +6,15 @@ Created on Tue Oct 22 23:07:01 2019
 @author: nish03, Sharang Iyer, Kartik Bhide
 """
 
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 final=[]
 df=pd.read_csv('data.csv')      #replace with your file name
 X1=df[['d','a']]                #column names
-X=(X1/np.max(X1))               
+X=(X1/np.max(X1))               #scaling
 y1=np.array((df['e']),dtype=float)[:, np.newaxis]
-y = y1/(np.max(y1))
+y = y1/(np.max(y1))                #scaling
 pd.set_option('display.max_rows',None)
 pd.set_option('display.max_columns',None)
 pd.set_option('display.width',None)
@@ -72,6 +70,10 @@ class Neural_Network(object):
     def train(self, X_train, y_train):          #training
         o = self.forward(X_train)
         self.backward(X_train, y_train, o)
+        
+    def saveWeights(self):
+        np.savetxt("w1.txt", self.W1, fmt="%s")
+        np.savetxt("w2.txt", self.W2, fmt="%s")
     
     def predict(self):                  #prediction
         print( "Predicted data based on trained weights: ")
@@ -83,12 +85,14 @@ class Neural_Network(object):
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.9, random_state=98)          #splitting
 error=[]
 NN = Neural_Network()
-for i in range(10000):          #loop according to requirement
-      err=np.mean(((np.abs(y_test - NN.forward(X_test)))/y_test)*100)
-      print("% Loss:" + str(np.mean(((np.abs(y_test - NN.forward(X_test)))/y_test)*100))+"\n")
-      error.append(err)
+for i in range(10000):          #training ; loop according to requirement
+      print ("# " + str(i) + "\n")
+      print ("Input (scaled): \n" + str(X_train))
+      print ("Actual Output: \n" + str(y_train))
+      print ("Predicted Output: \n" + str(NN.forward(X_test)))
+      print ("Loss: \n" + str(np.mean(np.square(y - NN.forward(X))))) # mean sum squared loss
+      print ("\n")
       NN.train(X_train, y_train)
-a=np.min(error)
-print(np.min(error))
-final.append(a)
-print(final)
+ 
+NN.saveWeights()
+NN.predict()
