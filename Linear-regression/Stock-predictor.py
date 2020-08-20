@@ -7,7 +7,7 @@ Created on Fri Oct 25 21:48:19 2019
 """
 
 import quandl, math, datetime
-quandl.ApiConfig.api_key = "EgEJz2nhZEdgxkLwdDzr"
+quandl.ApiConfig.api_key = #enter api_key from quandl by creating account
 import numpy as np
 import pandas as pd
 import sklearn
