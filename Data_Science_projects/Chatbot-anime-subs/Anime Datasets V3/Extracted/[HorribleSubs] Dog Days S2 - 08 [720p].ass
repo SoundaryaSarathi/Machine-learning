@@ -1,0 +1,366 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DogDays-main,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: DogDays-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-internal,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-narrator,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: DogDays-song,Amira,35,&H00FFFFFF,&H000000FF,&H005E039F,&H00EDDAFB,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-ep-title,Amira,37,&H00F9FFFF,&H000000FF,&H00647C99,&H009C98C5,0,0,0,0,90,100,0,0,1,2,0,1,0082,0020,0092,0
+Style: DogDays-next-ep-title,Amira,40,&H00FFFEFF,&H000000FF,&H00E436EE,&H00647E8F,1,0,0,0,100,100,0,0,1,2,0,9,0020,0050,0025,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Basic Black - Big,Amira,45,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0010,0050,0020,1
+Style: Basic Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0010,0050,0020,1
+Style: Basic kanji Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0010,1
+Style: Basic Kanji white - Big,Amira,47,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: Basic Kanji white - Small,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: orange note,Amira,27,&H00AABDF4,&H000000FF,&H00101A24,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: location,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,0,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0050,0
+Style: blue note,Amira,27,&H00D69289,&H000000FF,&H00420E12,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: yellow note,Amira,27,&H00A8D6E1,&H000000FF,&H001A3A3F,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: violet note,Amira,27,&H00DA91CB,&H000000FF,&H00391A2C,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: grey note,Amira,27,&H00CFCFCF,&H000000FF,&H003E3E3E,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: green note,Amira,27,&H00A4F3A1,&H000000FF,&H00213F1A,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: teal note,Amira,27,&H00E7F3C0,&H000000FF,&H00212900,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.25,0:00:06.61,DogDays-main,Cou,0000,0000,0000,,I'm counting on you then, Millihi-nee.
+Dialogue: 0,0:00:06.92,0:00:07.73,DogDays-main,Mill,0000,0000,0000,,Sure.
+Dialogue: 0,0:00:07.73,0:00:08.92,DogDays-main,Cou,0000,0000,0000,,You too, Rebecca.
+Dialogue: 0,0:00:08.92,0:00:10.99,DogDays-main,Cou,0000,0000,0000,,I'm counting on you to \Nguard and escort my sister.
+Dialogue: 0,0:00:10.99,0:00:13.52,DogDays-main,Reb,0000,0000,0000,,You can count on me.
+Dialogue: 0,0:00:13.52,0:00:17.68,DogDays-narrator,Reb,0000,0000,0000,,This is a traditional event \Nheld once a year in Pastillage.
+Dialogue: 0,0:00:17.68,0:00:20.01,DogDays-narrator,Reb,0000,0000,0000,,The Esnart Arts and Music Festival.
+Dialogue: 0,0:00:21.16,0:00:23.88,DogDays-narrator,Reb,0000,0000,0000,,Held in their greatest concert hall,
+Dialogue: 0,0:00:23.88,0:00:25.89,DogDays-narrator,Reb,0000,0000,0000,,this is their biggest musical event.
+Dialogue: 0,0:00:26.21,0:00:28.08,DogDays-narrator,Reb,0000,0000,0000,,People come from all over
+Dialogue: 0,0:00:28.08,0:00:31.30,DogDays-narrator,Reb,0000,0000,0000,,and the entire town is infected \Nwith the spirit of festival.
+Dialogue: 0,0:00:31.63,0:00:33.27,DogDays-narrator,Reb,0000,0000,0000,,The princess has also been invited
+Dialogue: 0,0:00:33.27,0:00:37.00,DogDays-narrator,Reb,0000,0000,0000,,to perform on stage as a singer.
+Dialogue: 0,0:02:13.27,0:02:17.07,DogDays-ep-title,Title,0000,0000,0000,,{\fad(400,1)}Esnart Arts and Music Festival
+Dialogue: 0,0:02:17.25,0:02:21.37,DogDays-main,Ecl,0000,0000,0000,,These clothes and shoes \Nsure are easy to move in.
+Dialogue: 0,0:02:21.37,0:02:22.32,DogDays-main,Sink,0000,0000,0000,,Yeah, huh?
+Dialogue: 0,0:02:22.32,0:02:24.95,DogDays-main,Sink,0000,0000,0000,,It's good that you wear \Nthe same size as Nanami.
+Dialogue: 0,0:02:25.22,0:02:27.00,DogDays-main,Ecl,0000,0000,0000,,That's perfect.
+Dialogue: 0,0:02:27.59,0:02:30.43,DogDays-main,Sink,0000,0000,0000,,I guess the clothes are a little \Nbig, since they're mine.
+Dialogue: 0,0:02:30.43,0:02:32.46,DogDays-main,Ecl,0000,0000,0000,,No, they're just right.
+Dialogue: 0,0:02:32.46,0:02:35.11,DogDays-main,Ecl,0000,0000,0000,,You even made an opening for my tail.
+Dialogue: 0,0:02:35.11,0:02:36.63,DogDays-main,Sink,0000,0000,0000,,Becky did that.
+Dialogue: 0,0:02:37.23,0:02:39.35,DogDays-main,Ecl,0000,0000,0000,,Is everything okay with the princess?
+Dialogue: 0,0:02:39.35,0:02:41.64,DogDays-main,Sink,0000,0000,0000,,I talked to her a bit, before she left.
+Dialogue: 0,0:02:42.10,0:02:46.23,DogDays-main,Sink,0000,0000,0000,,Besides, Becky will be \Nby the princess's side today.
+Dialogue: 0,0:02:47.17,0:02:51.13,DogDays-main,Mill,0000,0000,0000,,My walk with Rebecca was so much fun.
+Dialogue: 0,0:02:51.13,0:02:52.72,DogDays-main,Maid,0000,0000,0000,,I'm glad to hear it.
+Dialogue: 0,0:02:53.48,0:02:55.12,DogDays-main,Maid,0000,0000,0000,,And what did you do today?
+Dialogue: 0,0:02:55.12,0:02:56.62,DogDays-main,Becky,0000,0000,0000,,We played catch
+Dialogue: 0,0:02:56.62,0:03:00.07,DogDays-main,Becky,0000,0000,0000,,and then we both got on Mercurius \Nand rode through the sky.
+Dialogue: 0,0:03:00.31,0:03:02.02,DogDays-main,Maid,0000,0000,0000,,That does indeed sound like fun.
+Dialogue: 0,0:03:02.02,0:03:03.07,DogDays-main,Mill,0000,0000,0000,,It was!
+Dialogue: 0,0:03:07.52,0:03:09.18,DogDays-main,Mill,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:03:09.18,0:03:11.40,DogDays-main,Mill,0000,0000,0000,,We'll get in the bath ourselves,
+Dialogue: 0,0:03:11.40,0:03:13.30,DogDays-main,Mill,0000,0000,0000,,so you may all go ahead and take a break.
+Dialogue: 0,0:03:13.30,0:03:14.38,DogDays-main,All,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:15.32,0:03:16.87,DogDays-main,Becky,0000,0000,0000,,I do apologize though.
+Dialogue: 0,0:03:16.87,0:03:18.45,DogDays-main,Becky,0000,0000,0000,,I know your morning walk
+Dialogue: 0,0:03:18.45,0:03:21.49,DogDays-main,Becky,0000,0000,0000,,is your time to go out \Ntogether with Sink.
+Dialogue: 0,0:03:22.55,0:03:25.39,DogDays-main,Mill,0000,0000,0000,,I have fun with you, too.
+Dialogue: 0,0:03:25.39,0:03:26.39,DogDays-main,Becky,0000,0000,0000,,Really?
+Dialogue: 0,0:03:26.39,0:03:27.51,DogDays-main,Mill,0000,0000,0000,,Of course!
+Dialogue: 0,0:03:33.13,0:03:35.03,DogDays-main,Becky,0000,0000,0000,,That reminds me.
+Dialogue: 0,0:03:35.03,0:03:37.63,DogDays-main,Becky,0000,0000,0000,,You're not spending as much \Ntime with Sink as I expected.
+Dialogue: 0,0:03:37.63,0:03:42.40,DogDays-main,Mill,0000,0000,0000,,Yes. His work and my work are \Njust so completely different.
+Dialogue: 0,0:03:43.88,0:03:45.99,DogDays-main,Mill,0000,0000,0000,,But every day this summer,
+Dialogue: 0,0:03:45.99,0:03:47.95,DogDays-main,Mill,0000,0000,0000,,we've made sure to begin \Nand end the day together.
+Dialogue: 0,0:03:47.95,0:03:49.25,DogDays-main,Mill,0000,0000,0000,,In the morning we take our walk,
+Dialogue: 0,0:03:49.25,0:03:51.48,DogDays-main,Mill,0000,0000,0000,,and in the evening we study together.
+Dialogue: 0,0:03:51.48,0:03:53.39,DogDays-main,Mill,0000,0000,0000,,We enjoy each day.
+Dialogue: 0,0:03:53.39,0:03:54.47,DogDays-main,Becky,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:03:54.47,0:03:56.44,DogDays-main,Becky,0000,0000,0000,,You study in your room, don't you?
+Dialogue: 0,0:03:56.44,0:03:59.82,DogDays-main,Mill,0000,0000,0000,,I can already write all the \Nhiragana and the alphabet.
+Dialogue: 0,0:03:59.82,0:04:01.30,DogDays-main,Becky,0000,0000,0000,,That's great!
+Dialogue: 0,0:04:01.93,0:04:06.22,DogDays-main,Mill,0000,0000,0000,,I always think I'm very lucky \Nto have Sink as our hero.
+Dialogue: 0,0:04:06.22,0:04:07.74,DogDays-main,Becky,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:08.90,0:04:11.27,DogDays-main,Becky,0000,0000,0000,,So Princess...
+Dialogue: 0,0:04:11.27,0:04:12.85,DogDays-main,Mill,0000,0000,0000,,Yes?
+Dialogue: 0,0:04:12.85,0:04:16.93,DogDays-main,Becky,0000,0000,0000,,Have you ever thought you might like \Nto marry Sink at some point?
+Dialogue: 0,0:04:16.93,0:04:19.05,DogDays-main,Mill,0000,0000,0000,,Rebecca-san!
+Dialogue: 0,0:04:19.05,0:04:23.00,DogDays-main,Mill,0000,0000,0000,,I still haven't... I haven't \Neven considered such a thing.
+Dialogue: 0,0:04:23.81,0:04:25.49,DogDays-main,Becky,0000,0000,0000,,You say "still", so does that mean
+Dialogue: 0,0:04:25.49,0:04:26.83,DogDays-main,Becky,0000,0000,0000,,you'd consider it in the future?
+Dialogue: 0,0:04:26.83,0:04:28.08,DogDays-main,Mill,0000,0000,0000,,That's not what I meant.
+Dialogue: 0,0:04:28.33,0:04:30.29,DogDays-main,Becky,0000,0000,0000,,No need to be shy.
+Dialogue: 0,0:04:30.29,0:04:33.70,DogDays-main,Mill,0000,0000,0000,,I think it would be nice, if it happened,
+Dialogue: 0,0:04:33.70,0:04:36.14,DogDays-main,Mill,0000,0000,0000,,but Sink is from Earth after all.
+Dialogue: 0,0:04:36.14,0:04:38.67,DogDays-main,Mill,0000,0000,0000,,You're here, too.
+Dialogue: 0,0:04:38.67,0:04:40.56,DogDays-main,Becky,0000,0000,0000,,It doesn't bother me at all.
+Dialogue: 0,0:04:40.56,0:04:45.11,DogDays-main,Becky,0000,0000,0000,,If you love Sink and he loves you,
+Dialogue: 0,0:04:45.11,0:04:47.28,DogDays-main,Becky,0000,0000,0000,,then I support you both \Nwith all my heart.
+Dialogue: 0,0:04:47.28,0:04:48.85,DogDays-main,Mill,0000,0000,0000,,That's not okay!
+Dialogue: 0,0:04:48.85,0:04:52.01,DogDays-main,Mill,0000,0000,0000,,After all, you love him, too.
+Dialogue: 0,0:04:52.60,0:04:53.43,DogDays-main,Becky,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:53.43,0:04:55.14,DogDays-main,Mill,0000,0000,0000,,You say you're all right with it,
+Dialogue: 0,0:04:55.14,0:04:58.67,DogDays-main,Mill,0000,0000,0000,,but I bet you'd be very sad \Nif it ever actually happened.
+Dialogue: 0,0:04:59.93,0:05:03.61,DogDays-main,Becky,0000,0000,0000,,I guess it would be a lie if I said it \Nwouldn't make me feel lonely at all.
+Dialogue: 0,0:05:06.63,0:05:09.91,DogDays-main,Becky,0000,0000,0000,,Sink and I are basically family.
+Dialogue: 0,0:05:09.91,0:05:14.37,DogDays-main,Becky,0000,0000,0000,,It guess I'm also afraid of \Nchanging what we have now...
+Dialogue: 0,0:05:14.37,0:05:15.99,DogDays-main,Mill,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:15.99,0:05:20.56,DogDays-main,Mill,0000,0000,0000,,The truth is, I really like our \Nrelationship right now, too.
+Dialogue: 0,0:05:20.56,0:05:25.02,DogDays-main,Mill,0000,0000,0000,,It's so warm, and exciting, \Nand just plain nice.
+Dialogue: 0,0:05:25.02,0:05:27.92,DogDays-main,Becky,0000,0000,0000,,Being together is so fun and pleasant.
+Dialogue: 0,0:05:27.92,0:05:28.76,DogDays-main,Mill,0000,0000,0000,,Exactly.
+Dialogue: 0,0:05:29.05,0:05:31.68,DogDays-main,Mill,0000,0000,0000,,So I'm afraid that we might lose that,
+Dialogue: 0,0:05:31.68,0:05:33.59,DogDays-main,Mill,0000,0000,0000,,if I try to change something,
+Dialogue: 0,0:05:33.59,0:05:36.44,DogDays-main,Mill,0000,0000,0000,,and I wouldn't know what to do then...
+Dialogue: 0,0:05:36.44,0:05:38.19,DogDays-main,Becky,0000,0000,0000,,That's exactly what I mean!
+Dialogue: 0,0:05:40.90,0:05:44.68,DogDays-main,Becky,0000,0000,0000,,I bet Sink wants \Nto focus on athletics
+Dialogue: 0,0:05:44.68,0:05:48.20,DogDays-main,Becky,0000,0000,0000,,and his role as Hero for a while.
+Dialogue: 0,0:05:48.40,0:05:50.28,DogDays-main,Mill,0000,0000,0000,,I know what you mean.
+Dialogue: 0,0:05:50.64,0:05:55.58,DogDays-main,Becky,0000,0000,0000,,That's why I let a few years go by \Nwithout being able to say anything.
+Dialogue: 0,0:05:55.58,0:05:57.02,DogDays-main,Becky,0000,0000,0000,,That's me.
+Dialogue: 0,0:05:58.21,0:06:02.29,DogDays-main,Becky,0000,0000,0000,,Still, I actually like the \Nway we are now, too.
+Dialogue: 0,0:06:02.82,0:06:05.10,DogDays-main,Becky,0000,0000,0000,,We're childhood friends \Nwho are more than friends,
+Dialogue: 0,0:06:05.10,0:06:06.69,DogDays-main,Becky,0000,0000,0000,,but not quite family...
+Dialogue: 0,0:06:06.69,0:06:10.05,DogDays-main,Becky,0000,0000,0000,,I get just a little bit \Nof special treatment...
+Dialogue: 0,0:06:10.87,0:06:13.10,DogDays-main,Becky,0000,0000,0000,,What used to scare me the most
+Dialogue: 0,0:06:13.63,0:06:17.15,DogDays-main,Becky,0000,0000,0000,,was being the third wheel,
+Dialogue: 0,0:06:17.15,0:06:20.06,DogDays-main,Becky,0000,0000,0000,,if he ever fell in love with someone.
+Dialogue: 0,0:06:21.66,0:06:26.44,DogDays-main,Becky,0000,0000,0000,,That I'd have to keep my distance \Nand give up a lot of things...
+Dialogue: 0,0:06:26.77,0:06:28.23,DogDays-main,Mill,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:28.23,0:06:30.45,DogDays-main,Becky,0000,0000,0000,,Which is why you have to be
+Dialogue: 0,0:06:30.70,0:06:34.24,DogDays-main,Becky,0000,0000,0000,,that most important person for him.
+Dialogue: 0,0:06:34.87,0:06:39.71,DogDays-main,Mill,0000,0000,0000,,It's not easy though.
+Dialogue: 0,0:06:39.71,0:06:41.74,DogDays-main,Mill,0000,0000,0000,,I've gotten to like you so much, too.
+Dialogue: 0,0:06:41.74,0:06:44.34,DogDays-main,Becky,0000,0000,0000,,You're so kind, Princess.
+Dialogue: 0,0:06:44.34,0:06:45.84,DogDays-main,Becky,0000,0000,0000,,I love you, too!
+Dialogue: 0,0:06:52.79,0:06:56.89,DogDays-main,Becky,0000,0000,0000,,In the end, it's all up to Sink,
+Dialogue: 0,0:06:56.89,0:07:00.98,DogDays-main,Becky,0000,0000,0000,,but he just loves everybody he meets.
+Dialogue: 0,0:07:01.28,0:07:04.19,DogDays-main,Mill,0000,0000,0000,,That's what's so wonderful about him.
+Dialogue: 0,0:07:04.49,0:07:06.57,DogDays-main,Mill,0000,0000,0000,,He loves everyone,
+Dialogue: 0,0:07:06.57,0:07:10.70,DogDays-main,Mill,0000,0000,0000,,he's always so positive,\N and that's what I love about him.
+Dialogue: 0,0:07:10.70,0:07:12.61,DogDays-main,Becky,0000,0000,0000,,Yeah. Me, too.
+Dialogue: 0,0:07:13.78,0:07:18.37,DogDays-main,Becky,0000,0000,0000,,Then again, it's not like I \Ndon't have my problems with him.
+Dialogue: 0,0:07:18.37,0:07:20.37,DogDays-main,Mill,0000,0000,0000,,Really? Like what?
+Dialogue: 0,0:07:20.68,0:07:24.75,DogDays-main,Becky,0000,0000,0000,,Like... but this is between us, okay?
+Dialogue: 0,0:07:28.19,0:07:31.01,DogDays-main,Mill,0000,0000,0000,,Oh really. I can see that.
+Dialogue: 0,0:07:31.33,0:07:36.31,DogDays-main,Becky,0000,0000,0000,,Well, I just hope he notices one day.
+Dialogue: 0,0:07:36.31,0:07:39.27,DogDays-main,Mill,0000,0000,0000,,We can't tell him though.
+Dialogue: 0,0:07:39.55,0:07:41.15,DogDays-main,Mill,0000,0000,0000,,I promise I'll keep it a secret,
+Dialogue: 0,0:07:41.15,0:07:43.65,DogDays-main,Mill,0000,0000,0000,,so that maybe he'll see it himself.
+Dialogue: 0,0:07:43.65,0:07:46.47,DogDays-main,Becky,0000,0000,0000,,Yeah. It'll be our secret.
+Dialogue: 0,0:07:48.82,0:07:52.40,location,txt,0000,0000,0000,,Galette Northeast - Near the Border \NMithha Mountain
+Dialogue: 0,0:07:54.76,0:07:57.55,DogDays-main,Val,0000,0000,0000,,Looks like a band of \Nhighwayman-rabbits to me.
+Dialogue: 0,0:07:57.55,0:07:59.75,DogDays-main,Val,0000,0000,0000,,They seem to be peaceful though.
+Dialogue: 0,0:08:00.24,0:08:04.75,DogDays-main,Isu,0000,0000,0000,,Nanami and I caught the ones \Nwho stumbled into Ayase.
+Dialogue: 0,0:08:05.00,0:08:10.15,DogDays-main,Isu,0000,0000,0000,,This is their original habitat, \Nso we just brought them back.
+Dialogue: 0,0:08:10.15,0:08:13.26,DogDays-main,Val,0000,0000,0000,,Their boss looks sick or something.
+Dialogue: 0,0:08:13.26,0:08:14.27,DogDays-main,Brio,0000,0000,0000,,Big brother.
+Dialogue: 0,0:08:14.27,0:08:15.51,DogDays-main,Brio,0000,0000,0000,,Valerie.
+Dialogue: 0,0:08:15.51,0:08:16.76,DogDays-main,Val,0000,0000,0000,,Yes?
+Dialogue: 0,0:08:17.07,0:08:19.26,DogDays-main,Ade,0000,0000,0000,,I'm sorry we kept you waiting.
+Dialogue: 0,0:08:20.21,0:08:22.41,DogDays-main,Isu,0000,0000,0000,,How's the base of the hill looking?
+Dialogue: 0,0:08:22.41,0:08:25.19,DogDays-main,Brio,0000,0000,0000,,It seems no harm was done.
+Dialogue: 0,0:08:26.59,0:08:29.61,DogDays-main,Ade,0000,0000,0000,,We did notice one thing...
+Dialogue: 0,0:08:30.77,0:08:34.78,DogDays-main,Ade,0000,0000,0000,,Apparently, one of them had \Na rather strange form.
+Dialogue: 0,0:08:34.78,0:08:37.27,DogDays-main,Brio,0000,0000,0000,,She looked like a young girl
+Dialogue: 0,0:08:37.27,0:08:41.62,DogDays-main,Brio,0000,0000,0000,,and seemed very close to the boss-rabbit.
+Dialogue: 0,0:08:42.17,0:08:46.88,DogDays-main,Ade,0000,0000,0000,,However, nobody has seen her lately.
+Dialogue: 0,0:08:46.88,0:08:48.94,DogDays-main,Ade,0000,0000,0000,,The band has split up to look for her
+Dialogue: 0,0:08:48.94,0:08:51.63,DogDays-main,Ade,0000,0000,0000,,and entered human settlements.
+Dialogue: 0,0:08:51.81,0:08:55.30,DogDays-main,Isu,0000,0000,0000,,Do you think she's in a \Nhuman settlement, too?
+Dialogue: 0,0:08:55.30,0:08:59.30,DogDays-main,Brio,0000,0000,0000,,I just hope it's not some \Nkind of dangerous demon.
+Dialogue: 0,0:09:09.51,0:09:12.36,DogDays-main,Man,0000,0000,0000,,Ma'am, how about these?
+Dialogue: 0,0:09:14.76,0:09:15.59,DogDays-main,,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:23.95,0:09:25.59,DogDays-main,Girl,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:09:26.52,0:09:27.50,DogDays-main,Man,0000,0000,0000,,This is bad!
+Dialogue: 0,0:09:30.61,0:09:35.82,DogDays-narrator,Ann,0000,0000,0000,,Princess Millihiore, our special guest \Nat the opening day of our music festival,
+Dialogue: 0,0:09:35.82,0:09:38.72,DogDays-narrator,Ann,0000,0000,0000,,has just arrived at Eschenbach Palace.
+Dialogue: 0,0:09:38.72,0:09:43.28,DogDays-narrator,Ann,0000,0000,0000,,Her clothing and accessories \Nare as adorable as always.
+Dialogue: 0,0:09:55.11,0:09:57.79,DogDays-main,Lucia,0000,0000,0000,,The number of people here is crazy.
+Dialogue: 0,0:09:57.79,0:10:00.33,DogDays-main,Guy,0000,0000,0000,,Even the outdoor seating is full.
+Dialogue: 0,0:10:00.33,0:10:02.59,DogDays-main,Guy,0000,0000,0000,,There are, apparently, over twice \Nas many people here as last year.
+Dialogue: 0,0:10:02.59,0:10:04.87,DogDays-main,Lucia,0000,0000,0000,,We'll need to keep security tight.
+Dialogue: 0,0:10:04.87,0:10:05.87,DogDays-main,cara,0000,0000,0000,,Yeah!
+Dialogue: 0,0:10:10.13,0:10:13.62,DogDays-main,Becky,0000,0000,0000,,You won't be going out until pretty \Nlate in the second half, right?
+Dialogue: 0,0:10:13.62,0:10:14.85,DogDays-main,Mill,0000,0000,0000,,Yes,
+Dialogue: 0,0:10:14.85,0:10:16.88,DogDays-main,Mill,0000,0000,0000,,so we can relax for a bit.
+Dialogue: 0,0:10:17.16,0:10:19.58,DogDays-main,Becky,0000,0000,0000,,It's really amazing though,
+Dialogue: 0,0:10:19.58,0:10:22.89,DogDays-main,Becky,0000,0000,0000,,that you'll be singing in \Nfront of all those people.
+Dialogue: 0,0:10:23.12,0:10:25.15,DogDays-main,Mill,0000,0000,0000,,I do love to sing,
+Dialogue: 0,0:10:25.15,0:10:27.89,DogDays-main,Mill,0000,0000,0000,,and I am happy if they're \Nletting me sing.
+Dialogue: 0,0:10:28.14,0:10:30.39,DogDays-main,Becky,0000,0000,0000,,But still...
+Dialogue: 0,0:10:30.39,0:10:30.91,DogDays-main,Becky,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:31.02,0:10:34.15,DogDays-main,Mill,0000,0000,0000,,I still get nervous when \NI'm getting up on stage.
+Dialogue: 0,0:10:34.40,0:10:36.06,DogDays-main,Mill,0000,0000,0000,,What if I screw up the plan,
+Dialogue: 0,0:10:36.06,0:10:39.47,DogDays-main,Mill,0000,0000,0000,,or what if I read the crowd wrong?
+Dialogue: 0,0:10:40.33,0:10:42.43,DogDays-main,Becky,0000,0000,0000,,You'll be fine, Princess.
+Dialogue: 0,0:10:42.43,0:10:43.24,DogDays-main,Becky,0000,0000,0000,,I got it.
+Dialogue: 0,0:10:43.24,0:10:44.87,DogDays-main,Becky,0000,0000,0000,,Why don't we call Sink?
+Dialogue: 0,0:10:49.20,0:10:50.76,DogDays-main,Sink,0000,0000,0000,,Yes? Sink here.
+Dialogue: 0,0:10:50.76,0:10:51.92,DogDays-main,Becky,0000,0000,0000,,Hi, Sink.
+Dialogue: 0,0:10:51.92,0:10:53.01,DogDays-main,Becky,0000,0000,0000,,Are you in the middle of work?
+Dialogue: 0,0:10:53.01,0:10:53.63,DogDays-main,Sink,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:53.98,0:10:56.80,DogDays-main,Sink,0000,0000,0000,,I'm helping Rico and the others \Nset up the vendor stalls.
+Dialogue: 0,0:10:56.80,0:10:57.77,DogDays-main,Sink,0000,0000,0000,,Is something going on?
+Dialogue: 0,0:10:57.77,0:11:00.14,DogDays-main,Becky,0000,0000,0000,,Well, the princess is nervous
+Dialogue: 0,0:11:00.14,0:11:01.89,DogDays-main,Becky,0000,0000,0000,,and she could use some cheering up.
+Dialogue: 0,0:11:01.89,0:11:02.89,DogDays-main,Sink,0000,0000,0000,,Roger!
+Dialogue: 0,0:11:03.58,0:11:07.39,DogDays-main,Mill,0000,0000,0000,,I'm sorry to bother you during work.
+Dialogue: 0,0:11:07.39,0:11:08.60,DogDays-main,Sink,0000,0000,0000,,You're not bothering me at all.
+Dialogue: 0,0:11:08.60,0:11:11.27,DogDays-main,Sink,0000,0000,0000,,Don't worry, Princess. \NJust give it your best.
+Dialogue: 0,0:11:11.48,0:11:12.56,DogDays-main,Mill,0000,0000,0000,,I will!
+Dialogue: 0,0:11:12.56,0:11:15.27,DogDays-main,Mill,0000,0000,0000,,I'll try to sing like I always do.
+Dialogue: 0,0:11:36.77,0:11:38.33,DogDays-main,A,0000,0000,0000,,Are you performing here?
+Dialogue: 0,0:11:38.33,0:11:39.96,DogDays-main,B,0000,0000,0000,,Regular guests are not \Nallowed back here...
+Dialogue: 0,0:11:51.92,0:11:52.69,DogDays-main,Mill,0000,0000,0000,,Yes?
+Dialogue: 0,0:11:54.23,0:11:56.19,DogDays-main,Becky,0000,0000,0000,,It's one of the knights.
+Dialogue: 0,0:11:56.19,0:11:57.52,DogDays-main,Becky,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:12:13.07,0:12:13.83,DogDays-main,Becky,0000,0000,0000,,I'm so sorry.
+Dialogue: 0,0:12:13.83,0:12:15.15,DogDays-main,Becky,0000,0000,0000,,Are you all right, Princess?
+Dialogue: 0,0:12:15.15,0:12:16.55,DogDays-main,Mill,0000,0000,0000,,Yes, are you all right?
+Dialogue: 0,0:12:20.06,0:12:22.47,DogDays-main,Becky,0000,0000,0000,,Stop right there, you jewel thief!
+Dialogue: 0,0:12:39.58,0:12:41.36,DogDays-main,Becky,0000,0000,0000,,No!
+Dialogue: 0,0:12:51.60,0:12:54.21,DogDays-main,Becky,0000,0000,0000,,These are very precious to...
+Dialogue: 0,0:12:55.60,0:12:58.80,DogDays-main,Becky,0000,0000,0000,,Cou-sama, the princess, and everybody!
+Dialogue: 0,0:13:11.76,0:13:13.91,DogDays-main,Cara,0000,0000,0000,,This is an emergency call \Nto all security personnel.
+Dialogue: 0,0:13:13.91,0:13:15.65,DogDays-main,Cara,0000,0000,0000,,A young female robber
+Dialogue: 0,0:13:15.65,0:13:17.77,DogDays-main,Cara,0000,0000,0000,,has invaded Princess \NMillihiore's green room.
+Dialogue: 0,0:13:17.77,0:13:19.92,DogDays-main,Cara,0000,0000,0000,,She was beaten back by Rebecca-sama.
+Dialogue: 0,0:13:19.92,0:13:22.52,DogDays-main,Cara,0000,0000,0000,,Both she and the princess are fine.
+Dialogue: 0,0:13:22.90,0:13:24.27,DogDays-main,Cara,0000,0000,0000,,The robber uses magic
+Dialogue: 0,0:13:24.27,0:13:26.50,DogDays-main,Cara,0000,0000,0000,,to control the bodies of her opponents.
+Dialogue: 0,0:13:26.91,0:13:29.23,DogDays-main,Rico,0000,0000,0000,,Could this be some kind of demon?
+Dialogue: 0,0:13:29.23,0:13:32.01,DogDays-main,Yuki,0000,0000,0000,,No. If she controls the \Nbodies of her victims,
+Dialogue: 0,0:13:32.01,0:13:32.91,DogDays-main,Yuki,0000,0000,0000,,then she must be a...
+Dialogue: 0,0:13:49.83,0:13:50.68,DogDays-main,guard,0000,0000,0000,,Catch her!
+Dialogue: 0,0:14:35.14,0:14:36.39,DogDays-main,Sink,0000,0000,0000,,Transform!
+Dialogue: 0,0:14:36.39,0:14:38.85,DogDays-main,Sink,0000,0000,0000,,Hero Crystal Hero Time.
+Dialogue: 0,0:14:39.64,0:14:40.90,DogDays-main,Rico,0000,0000,0000,,The Hero...
+Dialogue: 0,0:14:49.80,0:14:51.57,DogDays-main,Rico,0000,0000,0000,,You're deflecting her control?
+Dialogue: 0,0:14:51.57,0:14:53.47,DogDays-main,Rico,0000,0000,0000,,Is this the power of the Hero Crystal?!
+Dialogue: 0,0:14:54.02,0:14:57.64,DogDays-main,Sink,0000,0000,0000,,Now you're going to give \Nback all the things you stole.
+Dialogue: 0,0:15:00.22,0:15:01.42,DogDays-main,Sink,0000,0000,0000,,Eclair, let's get her!
+Dialogue: 0,0:15:01.42,0:15:02.42,DogDays-main,Ecla,0000,0000,0000,,Yeah!
+Dialogue: 0,0:15:09.09,0:15:10.47,DogDays-main,Sink,0000,0000,0000,,She sure is fast!
+Dialogue: 0,0:15:10.47,0:15:13.42,DogDays-main,Ecla,0000,0000,0000,,Judging by her skills, I'd say \Nshe's the child of a local god.
+Dialogue: 0,0:15:13.42,0:15:15.51,DogDays-main,Ecla,0000,0000,0000,,Most likely, a descendant of a cat god.
+Dialogue: 0,0:15:15.51,0:15:17.10,DogDays-main,Sink,0000,0000,0000,,Local god, you say?
+Dialogue: 0,0:15:17.10,0:15:19.19,DogDays-main,Sink,0000,0000,0000,,Then we can't be too rough with her.
+Dialogue: 0,0:15:19.19,0:15:22.61,DogDays-main,Ecla,0000,0000,0000,,But we have to get back \Neverything she stole.
+Dialogue: 0,0:15:22.61,0:15:24.77,DogDays-main,Ecla,0000,0000,0000,,If we're careful, we can \Ndo it without getting hurt.
+Dialogue: 0,0:15:24.77,0:15:27.03,DogDays-main,Sink,0000,0000,0000,,Then let's go get her!
+Dialogue: 0,0:15:32.49,0:15:34.07,DogDays-main,Ecla,0000,0000,0000,,Fast Wind Blade!
+Dialogue: 0,0:15:50.99,0:15:52.29,DogDays-main,Sink,0000,0000,0000,,Good job, Eclair.
+Dialogue: 0,0:15:53.03,0:15:55.51,DogDays-main,Ecla,0000,0000,0000,,Oh, that was nothing.
+Dialogue: 0,0:15:56.13,0:15:58.71,DogDays-main,Louisa,0000,0000,0000,,It looks like they caught the thief!
+Dialogue: 0,0:15:59.61,0:16:02.52,DogDays-main,Louisa,0000,0000,0000,,They also recovered all \Nthe items she stole.
+Dialogue: 0,0:16:02.76,0:16:04.77,DogDays-main,Mill,0000,0000,0000,,That's wonderful!
+Dialogue: 0,0:16:08.82,0:16:12.36,DogDays-main,Yuki,0000,0000,0000,,I guess she really \Nwas a lost local god.
+Dialogue: 0,0:16:12.36,0:16:14.95,DogDays-main,Rico,0000,0000,0000,,I'm glad she didn't get hurt.
+Dialogue: 0,0:16:15.34,0:16:20.70,DogDays-main,Guy,0000,0000,0000,,We will make sure to bring this \Ncat god safely back to Mithha.
+Dialogue: 0,0:16:20.70,0:16:22.55,DogDays-main,Sink,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:16:22.55,0:16:23.21,DogDays-main,Sink,0000,0000,0000,,Just one moment.
+Dialogue: 0,0:16:26.01,0:16:28.67,DogDays-main,Sink,0000,0000,0000,,This is for you, cat god.
+Dialogue: 0,0:16:29.32,0:16:32.47,DogDays-main,Sink,0000,0000,0000,,I got it as a souvenir \Nat one of the booths,
+Dialogue: 0,0:16:32.65,0:16:34.41,DogDays-main,Sink,0000,0000,0000,,but I'll give it to you.
+Dialogue: 0,0:16:37.19,0:16:39.10,DogDays-main,Sink,0000,0000,0000,,Owwowowowow!
+Dialogue: 0,0:16:40.03,0:16:43.73,DogDays-main,Rico,0000,0000,0000,,No cat god! You're not \Nsupposed to bite it!
+Dialogue: 0,0:16:44.10,0:16:47.01,DogDays-main,Yuki,0000,0000,0000,,I don't think a young, wild cat god
+Dialogue: 0,0:16:47.01,0:16:50.10,DogDays-main,Yuki,0000,0000,0000,,understands too many words.
+Dialogue: 0,0:16:50.10,0:16:51.24,DogDays-main,Ecla,0000,0000,0000,,Yeah, huh?
+Dialogue: 0,0:16:57.99,0:17:00.63,DogDays-main,Ecla,0000,0000,0000,,I guess, even if we go back now,
+Dialogue: 0,0:17:00.63,0:17:03.32,DogDays-main,Ecla,0000,0000,0000,,we won't make it in time \Nfor the princess's performance.
+Dialogue: 0,0:17:03.32,0:17:05.87,DogDays-main,Yuki,0000,0000,0000,,I guess we can watch a recording.
+Dialogue: 0,0:17:08.57,0:17:09.96,DogDays-main,Sink,0000,0000,0000,,We'll make it.
+Dialogue: 0,0:17:09.96,0:17:10.90,DogDays-main,Sink,0000,0000,0000,,Get on!
+Dialogue: 0,0:17:10.90,0:17:12.86,DogDays-main,Sink,0000,0000,0000,,It's the Hero Super \NExpress, Hyper Edition!
+Dialogue: 0,0:17:12.86,0:17:14.38,DogDays-main,Rico,0000,0000,0000,,What he said!
+Dialogue: 0,0:17:18.05,0:17:21.19,DogDays-main,Rico,0000,0000,0000,,Wow, this is incredible!
+Dialogue: 0,0:17:21.19,0:17:23.38,DogDays-main,Yuki,0000,0000,0000,,This brings back memories.
+Dialogue: 0,0:17:23.38,0:17:26.85,DogDays-main,Yuki,0000,0000,0000,,This is just like when \Nwe first met, Sink.
+Dialogue: 0,0:17:26.85,0:17:27.65,DogDays-main,Sink,0000,0000,0000,,Yeah, huh.
+Dialogue: 0,0:17:27.93,0:17:30.52,DogDays-main,Yuki,0000,0000,0000,,You've grown up, Sink.
+Dialogue: 0,0:17:30.52,0:17:33.00,DogDays-main,Yuki,0000,0000,0000,,I'm overcome with emotion...
+Dialogue: 0,0:17:33.00,0:17:37.02,DogDays-main,Sink,0000,0000,0000,,No, no, I think you've \Ngot that a bit wrong.
+Dialogue: 0,0:17:37.02,0:17:42.41,DogDays-main,Rico,0000,0000,0000,,Normal Hero or big Hero, \Nthey're both great!
+Dialogue: 0,0:17:42.79,0:17:43.96,DogDays-main,Ecla,0000,0000,0000,,Jeez.
+Dialogue: 0,0:17:47.83,0:17:48.88,DogDays-main,Sink,0000,0000,0000,,Ecle?
+Dialogue: 0,0:17:48.88,0:17:50.35,DogDays-main,Rico,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:17:50.35,0:17:52.68,DogDays-main,Ecla,0000,0000,0000,,It's nothing!
+Dialogue: 0,0:17:53.91,0:17:55.66,DogDays-main,Rico,0000,0000,0000,,There's something in our path!
+Dialogue: 0,0:17:56.80,0:17:57.70,DogDays-main,Sink,0000,0000,0000,,Evade!
+Dialogue: 0,0:17:57.70,0:17:59.77,DogDays-main,Ecla,0000,0000,0000,,Watch where you're going!
+Dialogue: 0,0:18:02.85,0:18:04.43,DogDays-main,Mill,0000,0000,0000,,Good evening, everyone!
+Dialogue: 0,0:18:05.04,0:18:08.48,DogDays-main,Mill,0000,0000,0000,,I just want to tell you how \Nabsolutely wonderful it is
+Dialogue: 0,0:18:08.48,0:18:12.37,DogDays-main,Mill,0000,0000,0000,,to stand on Pastillage's legendary \Nstage again this year.
+Dialogue: 0,0:18:12.37,0:18:14.69,DogDays-main,Mill,0000,0000,0000,,I am so, so very happy \Nto see you all, again.
+Dialogue: 0,0:18:17.21,0:18:18.91,DogDays-main,Yuki,0000,0000,0000,,We made it.
+Dialogue: 0,0:18:18.91,0:18:21.08,DogDays-main,Rico,0000,0000,0000,,Quiet now.
+Dialogue: 0,0:18:21.43,0:18:22.77,DogDays-main,Mill,0000,0000,0000,,The day after tomorrow,
+Dialogue: 0,0:18:22.77,0:18:25.78,DogDays-main,Mill,0000,0000,0000,,the three nations of Pastillage, \NBiscotti, and Galette
+Dialogue: 0,0:18:25.78,0:18:30.20,DogDays-main,Mill,0000,0000,0000,,will combine forces to \Nhost one huge event.
+Dialogue: 0,0:18:31.82,0:18:33.59,DogDays-main,Mill,0000,0000,0000,,Of course we will be there,
+Dialogue: 0,0:18:33.59,0:18:38.61,DogDays-main,Mill,0000,0000,0000,,as well as knights, Heroes, \Nand everybody else,
+Dialogue: 0,0:18:38.61,0:18:40.83,DogDays-main,Mill,0000,0000,0000,,all ensuring that it \Nwill be a great event!
+Dialogue: 0,0:18:43.34,0:18:47.49,DogDays-main,Mill,0000,0000,0000,,Now, please listen \Nto the Union Fest song,
+Dialogue: 0,0:18:48.11,0:18:49.79,DogDays-main,Mill,0000,0000,0000,,"Heart Relation".
+Dialogue: 0,0:19:08.16,0:19:11.34,DogDays-song,Song,0000,0000,0000,,You were always by my side,
+Dialogue: 0,0:19:11.34,0:19:14.59,DogDays-song,Song,0000,0000,0000,,always right next to me.
+Dialogue: 0,0:19:14.59,0:19:17.43,DogDays-song,Song,0000,0000,0000,,That's why we could
+Dialogue: 0,0:19:17.43,0:19:21.01,DogDays-song,Song,0000,0000,0000,,embrace the same hopes.
+Dialogue: 0,0:19:24.18,0:19:25.18,DogDays-song,Song,0000,0000,0000,,I want to stretch
+Dialogue: 0,0:19:25.18,0:19:27.50,DogDays-song,Song,0000,0000,0000,,out this hand
+Dialogue: 0,0:19:27.50,0:19:30.39,DogDays-song,Song,0000,0000,0000,,and touch you.
+Dialogue: 0,0:19:30.39,0:19:31.99,DogDays-song,Song,0000,0000,0000,,Listen to the
+Dialogue: 0,0:19:31.99,0:19:33.41,DogDays-song,Song,0000,0000,0000,,first beat
+Dialogue: 0,0:19:33.41,0:19:35.98,DogDays-song,Song,0000,0000,0000,,of my heart.
+Dialogue: 0,0:19:36.92,0:19:37.88,DogDays-song,Song,0000,0000,0000,,I'm sure
+Dialogue: 0,0:19:37.88,0:19:39.99,DogDays-song,Song,0000,0000,0000,,we'll have a connection.
+Dialogue: 0,0:19:39.99,0:19:40.95,DogDays-song,Song,0000,0000,0000,,Inscribe
+Dialogue: 0,0:19:40.95,0:19:43.16,DogDays-song,Song,0000,0000,0000,,it in the sky.
+Dialogue: 0,0:19:43.16,0:19:46.20,DogDays-song,Song,0000,0000,0000,,Gather more courage.
+Dialogue: 0,0:19:46.20,0:19:47.62,DogDays-song,Song,0000,0000,0000,,Be strong.
+Dialogue: 0,0:19:47.62,0:19:49.16,DogDays-song,Song,0000,0000,0000,,Be strong,
+Dialogue: 0,0:19:49.16,0:19:52.58,DogDays-song,Song,0000,0000,0000,,so that we can bind
+Dialogue: 0,0:19:52.58,0:19:56.59,DogDays-song,Song,0000,0000,0000,,our hearts!
+Dialogue: 0,0:19:59.62,0:20:04.42,DogDays-song,Song,0000,0000,0000,,Under the blue sky...
+Dialogue: 0,0:20:02.87,0:20:06.51,DogDays-song,Song,0000,0000,0000,,{\i1}Under the blue sky...
+Dialogue: 0,0:20:05.90,0:20:10.48,DogDays-song,Song,0000,0000,0000,,The echo of the bell...
+Dialogue: 0,0:20:10.05,0:20:15.84,DogDays-song,Song,0000,0000,0000,,{\i1}The echo of the bell...
+Dialogue: 0,0:20:12.48,0:20:16.44,DogDays-song,Song,0000,0000,0000,,Listen to it.
+Dialogue: 0,0:20:16.66,0:20:20.74,DogDays-song,Song,0000,0000,0000,,The beginning
+Dialogue: 0,0:20:20.74,0:20:25.16,DogDays-song,Song,0000,0000,0000,,is right there.
+Dialogue: 0,0:20:28.01,0:20:29.02,DogDays-song,Song,0000,0000,0000,,I'm sure
+Dialogue: 0,0:20:29.02,0:20:31.12,DogDays-song,Song,0000,0000,0000,,we'll have a connection.
+Dialogue: 0,0:20:31.12,0:20:34.33,DogDays-song,Song,0000,0000,0000,,Let it reverberate through the sky.
+Dialogue: 0,0:20:34.33,0:20:37.34,DogDays-song,Song,0000,0000,0000,,Gather your love and courage.
+Dialogue: 0,0:20:37.34,0:20:38.89,DogDays-song,Song,0000,0000,0000,,Be strong.
+Dialogue: 0,0:20:38.89,0:20:40.55,DogDays-song,Song,0000,0000,0000,,Be strong,
+Dialogue: 0,0:20:40.55,0:20:42.12,DogDays-song,Song,0000,0000,0000,,so that our hearts
+Dialogue: 0,0:20:42.12,0:20:49.59,DogDays-song,Song,0000,0000,0000,,will never part.
+Dialogue: 0,0:21:01.31,0:21:05.36,DogDays-narrator,Becky,0000,0000,0000,,The musical festival was a huge success,
+Dialogue: 0,0:21:05.36,0:21:07.23,DogDays-narrator,Becky,0000,0000,0000,,but there wasn't much \Ntime to rest afterwards
+Dialogue: 0,0:21:07.23,0:21:09.55,DogDays-narrator,Becky,0000,0000,0000,,because the next huge event was upon us.
+Dialogue: 0,0:21:11.40,0:21:14.95,DogDays-main,Cou,0000,0000,0000,,Finally, tomorrow we have the three \Ncountries' great joint event.
+Dialogue: 0,0:21:14.95,0:21:16.71,DogDays-main,Cou,0000,0000,0000,,Let's give it all we've got.
+Dialogue: 0,0:21:16.71,0:21:17.71,DogDays-main,Becky,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:20.00,0:21:24.61,DogDays-main,Leo,0000,0000,0000,,It is Galette's pride to win anything \Nthat bears the war moniker!
+Dialogue: 0,0:21:24.61,0:21:27.09,DogDays-main,Nanami,0000,0000,0000,,It is obvious that we will win!
+Dialogue: 0,0:21:33.25,0:21:35.48,DogDays-main,Mill,0000,0000,0000,,Let's do our best, Sink.
+Dialogue: 0,0:21:35.48,0:21:38.36,DogDays-main,Sink,0000,0000,0000,,Let's, Princess!
+Dialogue: 0,0:23:33.46,0:23:35.92,DogDays-main,mill,0000,0000,0000,,Oh no, my body isn't obeying me...
+Dialogue: 0,0:23:35.10,0:23:45.00,DogDays-next-ep-title,Title,0000,0000,0000,,{\fad(500,1)}Union Fest
+Dialogue: 0,0:23:35.92,0:23:39.32,DogDays-main,Reb,0000,0000,0000,,Princess, even now your \Ndance moves are so elegant.

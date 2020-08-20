@@ -1,0 +1,603 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,1
+Style: Seito_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Seito_Main-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,100,100,28,0
+Style: dum,Open Sans Semibold,27,&H002B27BE,&H000000FF,&H002B27BE,&H00FFF4F8,1,0,0,0,100,100,0,0,1,1,0,8,0,240,53,1
+Style: tweet,Open Sans Semibold,27,&H001A5BE1,&H00B572E4,&H00326AE7,&H00FBFBFB,0,0,0,0,100,100,0,0,1,1,0,9,0,187,93,1
+Style: Seito_Show_Title,Open Sans Semibold,36,&H00EFF3F0,&H000000FF,&H00DECD3D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,200,13,60,1
+Style: Seito_Ep_TitleB,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00B572ED,&H00231A2E,1,0,0,0,100,100,0,0,1,0,3,9,0,307,100,1
+Style: square,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,2,8,53,47,13,1
+Style: square2,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,2,1,53,47,133,1
+Style: Stamp,Open Sans Semibold,45,&H000010EB,&H000000FF,&H00EFF2FB,&H00000000,1,0,0,0,100,100,0,20,1,2,0,8,13,400,80,1
+Style: stamp-left,Open Sans Semibold,39,&H000012ED,&H000000FF,&H00E9F8FF,&H00231A2E,1,0,0,0,100,100,0,0,1,2,0,7,133,13,27,1
+Style: stamp-right,Open Sans Semibold,39,&H000012ED,&H000000FF,&H00E9F8FF,&H00231A2E,1,0,0,0,100,100,0,0,1,2,0,9,13,67,67,1
+Style: stamp-right-middle,Open Sans Semibold,39,&H000012ED,&H000000FF,&H00E9F8FF,&H00231A2E,1,0,0,0,100,100,0,0,1,2,0,6,13,267,27,1
+Style: stamp-middle,Open Sans Semibold,39,&H000012ED,&H000000FF,&H00E9F8FF,&H00231A2E,1,0,0,0,100,100,0,0,1,2,0,8,67,13,133,1
+Style: stamp-mini,Open Sans Semibold,24,&H000012ED,&H000000FF,&H00E9F8FF,&H00231A2E,1,0,0,0,100,100,0,20,1,2,0,3,13,120,93,1
+Style: stamp-left-sand,Open Sans Semibold,39,&H00233E4B,&H000000FF,&H00EEFAFF,&H00231A2E,1,0,0,0,100,100,0,5,1,2,0,7,133,13,67,1
+Style: stamp-right-sand,Open Sans Semibold,39,&H00233E4B,&H000000FF,&H00EEFAFF,&H00231A2E,1,0,0,0,100,100,0,350,1,2,0,9,13,67,67,1
+Style: shopping2,Open Sans Semibold,53,&H00F7FEF8,&H000000FF,&H00BF346E,&H00000000,1,1,0,0,100,100,0,0,1,1,0,6,13,133,80,1
+Style: council,Open Sans Semibold,38,&H003C3223,&H000000FF,&H00F35093,&H00000000,1,0,0,0,100,100,0,4,1,0,0,1,187,107,160,1
+Style: squid,Open Sans Semibold,33,&H0046FFF7,&H000000FF,&H001415B5,&H00960006,1,0,0,0,100,100,0,350,1,2,2,7,133,15,27,1
+Style: tako,Open Sans Semibold,42,&H00212FD4,&H000000FF,&H00B0FFFC,&H00000000,1,1,0,0,100,100,0,0,1,2,1,1,160,13,127,1
+Style: nude,Open Sans Semibold,60,&H00D861EE,&H000000FF,&H00FFF7FF,&H0056F2F9,1,0,0,0,100,100,0,25,1,2,2,3,13,67,67,1
+Style: SuzuHead,Open Sans Semibold,27,&H00281796,&H000000FF,&H00150849,&H00150849,1,0,0,0,100,100,0,5,1,1,2,1,20,67,107,1
+Style: SuzuHead2,Open Sans Semibold,30,&H003AFDF9,&H000000FF,&H00099CA5,&H000F256A,1,0,0,0,100,100,0,0,1,1,0,9,27,40,173,1
+Style: Suzu_head3,Open Sans Semibold,30,&H0069EBA5,&H000000FF,&H0021211E,&H0021211E,1,0,0,0,100,100,0,0,1,1,2,1,20,0,27,1
+Style: Suzu_head4,Open Sans Semibold,38,&H002BFF50,&H000000FF,&H00116B25,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,133,27,1
+Style: Suzu_bubble,Open Sans Semibold,27,&H009D4052,&H000000FF,&H00F1F8EE,&H006F8685,1,0,0,0,100,100,0,0,1,4,0,6,67,67,67,1
+Style: Suzu_head5,Open Sans Semibold,33,&H00D91AE6,&H000000FF,&H004B0050,&H000548A8,1,0,0,0,100,100,0,0,1,2,0,1,133,13,27,1
+Style: tako head,Open Sans Semibold,33,&H00EB8C1C,&H000000FF,&H00723323,&H00AB6723,1,0,0,0,100,100,0,0,1,2,0,1,133,13,27,1
+Style: tako head 2,Open Sans Semibold,33,&H00EB8C1C,&H000000FF,&H00723323,&H00AB6723,1,0,0,0,100,100,0,0,1,2,0,3,13,133,27,1
+Style: leak,Open Sans Semibold,33,&H00F3D854,&H000000FF,&H00AC9D5E,&H00090D50,1,0,0,0,100,100,0,0,1,1,0,5,0,0,80,1
+Style: run,Open Sans Semibold,38,&H002820BE,&H000000FF,&H00191C63,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,0,0,67,1
+Style: serious,Open Sans Semibold,90,&H001819BA,&H000000FF,&H000E085B,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,13,13,27,1
+Style: paper1,Open Sans Semibold,33,&H00050003,&H000000FF,&H00C6CBC9,&H00AE4D0D,1,0,0,0,100,100,0,0,1,2,4,7,40,13,27,1
+Style: paper2,Open Sans Semibold,27,&H00060505,&H000000FF,&H00BDA45C,&H00000000,1,0,0,0,100,100,0,0,1,4,0,6,27,120,27,1
+Style: haha,Open Sans Semibold,45,&H00D8348C,&H0011269C,&H0062093A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,9,0,27,20,1
+Style: phone,Open Sans Semibold,38,&H005D5927,&H0011269C,&H00FDFFD5,&H00000000,0,0,0,0,100,100,0,13,1,4,0,7,240,0,53,1
+Style: phone2,Open Sans Semibold,30,&H00FFFFFA,&H000000FF,&H00DDB585,&H00000000,0,0,0,0,100,100,0,344,1,0,0,5,0,0,0,1
+Style: phone3,Open Sans Semibold,45,&H005D5927,&H000000FF,&H00902871,&H00000000,1,0,0,0,100,100,0,346,1,0,0,2,0,133,40,1
+Style: lost,Open Sans Semibold,27,&H00727371,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,160,27,147,1
+Style: laugh1,Open Sans Semibold,18,&H00000000,&H000000FF,&H00B2BE97,&H00A77D86,1,0,0,0,100,100,0,0,1,2,0,9,0,293,80,1
+Style: bang,Open Sans Semibold,41,&H00301EB7,&H0011269C,&H00241A63,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,27,27,27,1
+Style: yay,Open Sans Semibold,30,&H002B2AB9,&H0011269C,&H00DE7B85,&H00000000,1,0,0,0,100,100,0,5,1,0,0,8,133,0,40,1
+Style: cook,Open Sans Semibold,27,&H00000000,&H0011269C,&H00DE7B85,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0,0,27,1
+Style: school,Open Sans Semibold,15,&H005BA5BE,&H0011269C,&H00262D34,&H00C2E2F2,1,0,0,0,100,100,0,0,1,3,2,3,0,227,220,1
+Style: hug,Open Sans Semibold,45,&H003125B2,&H000000FF,&H001D325A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,200,13,53,1
+Style: shift,Open Sans Semibold,38,&H00BA6CDF,&H000000FF,&H00965297,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,267,13,67,1
+Style: throw,Open Sans Semibold,45,&H003125B2,&H000000FF,&H00E9DEF6,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,133,40,40,1
+Style: click,Open Sans Semibold,75,&H00C6724F,&H000000FF,&H00C6724F,&H00C0BB36,1,0,0,0,100,100,0,15,1,1,0,8,13,213,27,1
+Style: swoosh,Open Sans Semibold,33,&H008479EE,&H000000FF,&H00323386,&H00000000,1,0,0,0,100,100,1,0,1,1,0,9,107,133,27,1
+Style: eat,Open Sans Semibold,45,&H00E47E5E,&H000000FF,&H00B37560,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,0,0,27,0
+Style: nibble,Open Sans Semibold,38,&H00212156,&H000000FF,&H00FFFFE9,&H00000000,1,0,0,0,100,100,0,20,1,0,0,8,13,13,133,1
+Style: broom,Open Sans Semibold,30,&H00A99547,&H000000FF,&H00C6A586,&H00000000,1,0,0,0,100,100,0,10,1,1,0,7,27,13,40,1
+Style: santa,Open Sans Semibold,30,&H00CB724D,&H000000FF,&H009A4A31,&H00030A09,1,0,0,0,100,100,0,0,1,1,0,7,67,27,27,1
+Style: dog,Open Sans Semibold,35,&H00295AE1,&H000000FF,&H001E625C,&H00000000,1,0,0,0,100,100,0,330,1,1,0,9,0,27,120,1
+Style: haunted,Open Sans Semibold,38,&H000F3EEC,&H000000FF,&H007CFAFC,&HFFFFFFFF,1,0,0,0,100,100,0,7,1,2,0,7,133,0,53,1
+Style: door,Open Sans Semibold,38,&H0003080E,&H000000FF,&H00EEF3F2,&H00000000,1,0,0,0,100,100,0,3,1,4,0,5,1,13,1,1
+Style: prem,Open Sans Semibold,38,&H00B32F2D,&H000000FF,&H00F9F9F9,&H00FFFFFF,1,0,0,0,100,100,0,0,1,4,0,7,13,27,27,1
+Style: ha,Open Sans Semibold,45,&H00FA8D01,&H000000FF,&H00FFF2AF,&H00000000,1,0,0,0,100,100,0,0,1,1,2,8,27,27,27,1
+Style: tighto,Open Sans Semibold,60,&H00000000,&H000000FF,&H00F8FDF3,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,27,0,80,1
+Style: crap,Open Sans Semibold,33,&H004D4D4D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,227,13,27,1
+Style: cake,Open Sans Semibold,27,&H00414D61,&H000000FF,&H00DEE1EE,&H00000000,1,0,0,0,100,100,0,15,1,4,0,8,13,133,53,1
+Style: boo,Open Sans Semibold,27,&H00000000,&H000000FF,&H00020202,&H00000000,1,0,0,0,100,100,0,22,1,0,0,7,133,13,193,1
+Style: aria,Open Sans Semibold,53,&H00242AC8,&H000000FF,&H00A0B9F5,&H00000000,1,0,0,0,100,100,0,0,1,0,0,4,27,27,27,1
+Style: disclaimer,Open Sans Semibold,53,&H00FAFEFA,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,27,13,93,1
+Style: squid-mini,Open Sans Semibold,27,&H003DF0FF,&H000000FF,&H001C26C4,&H00960006,1,0,0,0,100,100,0,0,1,1,2,1,93,13,20,1
+Style: Seito_mini-top,Open Sans Semibold,21,&H00268FF2,&H000000FF,&H00000000,&H00A424D5,0,0,0,0,100,100,0,0,1,2,1,9,13,20,20,0
+Style: Seito_end-top,Open Sans Semibold,27,&H00268FF2,&H000000FF,&H00000000,&H00A424D5,0,0,0,0,100,100,0,0,1,2,1,7,27,0,160,0
+Style: Seito_Preview,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,3,100,100,28,1
+Style: Seito_Next_Ep_Titles,Open Sans Semibold,30,&H00494D40,&H000000FF,&H00ECDAF4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,80,1
+Style: end,Open Sans Semibold,38,&H00000000,&H000000FF,&H00EFF2FB,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,227,13,87,1
+Style: end - 2 lines,Open Sans Semibold,38,&H00000000,&H000000FF,&H00EFF2FB,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,227,13,63,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.80,0:00:07.95,Seito_Main,Shino,0000,0000,0000,,So you can fish at \Nthis park, supposedly.
+Dialogue: 0,0:00:09.16,0:00:12.11,Seito_Main,Tsuda,0000,0000,0000,,I'd like to try my rod out here.
+Dialogue: 0,0:00:12.11,0:00:16.23,Seito_Main,Shino,0000,0000,0000,,Huh? You have a rod, don't you?
+Dialogue: 0,0:00:16.23,0:00:18.14,Seito_Main,Tsuda,0000,0000,0000,,You know, one with a line.
+Dialogue: 0,0:00:19.03,0:00:22.12,Seito_Main,Shino,0000,0000,0000,,A line of pus*y juice? \NThat's weird...
+Dialogue: 0,0:00:22.12,0:00:24.12,Seito_Main,Tsuda,0000,0000,0000,,You just don't stop, do you?!
+Dialogue: 0,0:00:24.12,0:00:24.60,dum,,0000,0000,0000,,{\fad(1,250)}Dum
+Dialogue: 0,0:00:26.31,0:00:38.45,tweet,,0000,0000,0000,,{\fad(1,250)}Tweet
+Dialogue: 0,0:00:27.24,0:00:30.97,Seito_Main,Shino,0000,0000,0000,,Ousai Academy Student Council Rules,
+Dialogue: 0,0:00:30.97,0:00:34.13,Seito_Main,Shino,0000,0000,0000,,Article Two, Paragraph Eleven:
+Dialogue: 0,0:00:33.11,0:00:38.45,dum,,0000,0000,0000,,{\fad(1,250)}Dum
+Dialogue: 0,0:00:34.12,0:00:37.16,Seito_Main,Shino,0000,0000,0000,,You have to support each other... \Nwhen you're doing a seated cowgirl.
+Dialogue: 0,0:00:37.16,0:00:39.50,Seito_Main,Tsuda,0000,0000,0000,,You're one rotten fruit.
+Dialogue: 0,0:00:40.01,0:00:42.09,Seito_Main,,0000,0000,0000,,Do you know what cherry \Nblossoms stand for?
+Dialogue: 0,0:00:42.09,0:00:43.50,Seito_Main,,0000,0000,0000,,No, I didn't know they \Nstood for something.
+Dialogue: 0,0:00:43.50,0:00:44.91,Seito_Main,,0000,0000,0000,,Tell her, Shino-chan.
+Dialogue: 0,0:00:44.91,0:00:47.23,Seito_Main,,0000,0000,0000,,Being well-cultured, noble, \Npure, and innocent.
+Dialogue: 0,0:00:47.81,0:00:49.48,Seito_Main,,0000,0000,0000,,Ultimate legendary days!
+Dialogue: 0,0:02:00.35,0:02:02.08,Seito_Main,,0000,0000,0000,,Do you remember what I told you?
+Dialogue: 0,0:02:02.08,0:02:03.22,Seito_Main,,0000,0000,0000,,No problem here.
+Dialogue: 0,0:02:03.22,0:02:04.18,Seito_Main,,0000,0000,0000,,Of course.
+Dialogue: 0,0:02:04.70,0:02:06.81,Seito_Main,,0000,0000,0000,,Well-cultured, noble, \Npure, and innocent!
+Dialogue: 0,0:02:10.49,0:02:13.69,Seito_Main,Tsuda,0000,0000,0000,,It gets cold in \NNovember, doesn't it?
+Dialogue: 0,0:02:13.69,0:02:16.74,Seito_Main,Shino,0000,0000,0000,,Yeah, everyone starts \Nputting on extra layers.
+Dialogue: 0,0:02:17.52,0:02:20.04,Seito_Main,Shino,0000,0000,0000,,I guess guys don't \Nreally like it, though?
+Dialogue: 0,0:02:20.04,0:02:21.86,Seito_Main,Tsuda,0000,0000,0000,,Not at all.
+Dialogue: 0,0:02:21.28,0:02:23.49,SuzuHead,,0000,0000,0000,,Autumn\NSuzu Head
+Dialogue: 0,0:02:21.86,0:02:23.49,Seito_Main,Aria,0000,0000,0000,,It's okay, Tsuda-kun!
+Dialogue: 0,0:02:24.36,0:02:28.07,Seito_Main,Aria,0000,0000,0000,,The more someone's wearing, \Nthe more you have to take off!
+Dialogue: 0,0:02:28.07,0:02:29.45,Seito_Main,Shino,0000,0000,0000,,I see.
+Dialogue: 0,0:02:29.45,0:02:31.88,Seito_Main,Tsuda,0000,0000,0000,,Why are they trying to \Ncheer me up, exactly?
+Dialogue: 0,0:02:31.88,0:02:32.38,Seito_Show_Title,,0000,0000,0000,,Seitokai Yakuindomo
+Dialogue: 0,0:02:32.38,0:02:34.88,Seito_Ep_TitleB,,0000,0000,0000,,A pure reaction to\N a double entendre
+Dialogue: 0,0:02:35.33,0:02:39.90,Seito_Main,Shino,0000,0000,0000,,We've had new rules \Nsince we became co-ed,
+Dialogue: 0,0:02:40.45,0:02:42.06,Seito_Main,Shino,0000,0000,0000,,but I don't think many \Npeople are aware of them.
+Dialogue: 0,0:02:42.59,0:02:45.89,Seito_Main,Shino,0000,0000,0000,,I think we should write that in \Nthe next student council article.
+Dialogue: 0,0:02:46.21,0:02:51.23,Seito_Main,Tsuda,0000,0000,0000,,But I don't think it'd be possible \Nfor us to write all of them out.
+Dialogue: 0,0:02:52.41,0:02:54.40,Seito_Main,Shino,0000,0000,0000,,I guess we can always shorten them.
+Dialogue: 0,0:02:54.81,0:02:58.20,Seito_Main,Shino,0000,0000,0000,,Okay, Hagimura, go over \Nthe first new rule.
+Dialogue: 0,0:02:59.27,0:03:02.41,Seito_Main,Suzu,0000,0000,0000,,Any romance between students \Nis forbidden on school grounds.
+Dialogue: 0,0:03:02.41,0:03:04.22,Seito_Main,Shino,0000,0000,0000,,People shouldn't have lives.
+Dialogue: 0,0:03:04.22,0:03:05.91,Seito_Main,Tsuda,0000,0000,0000,,Well, that was direct.
+Dialogue: 0,0:03:06.24,0:03:10.03,Seito_Main,Suzu,0000,0000,0000,,It is forbidden to touch another \Npart of the opposite sex's body
+Dialogue: 0,0:03:10.03,0:03:11.29,Seito_Main,Suzu,0000,0000,0000,,other than the hand and arms.
+Dialogue: 0,0:03:11.29,0:03:13.62,Seito_Main,Tsuda,0000,0000,0000,,Huh? I didn't know that.
+Dialogue: 0,0:03:13.62,0:03:15.42,Seito_Main,Shino,0000,0000,0000,,That's pretty strict...
+Dialogue: 0,0:03:15.42,0:03:20.67,square,,0000,0000,0000,,{\an6}Looking\Nback
+Dialogue: 0,0:03:16.05,0:03:18.81,Seito_Main,Tsuda,0000,0000,0000,,We've come in contact quite a bit.
+Dialogue: 0,0:03:18.81,0:03:20.67,Seito_Main,Shino,0000,0000,0000,,People normally don't \Nthink about that.
+Dialogue: 0,0:03:21.04,0:03:23.56,Seito_Main,Aria,0000,0000,0000,,I guess that means \NI can't step on Tsuda-kun.
+Dialogue: 0,0:03:23.56,0:03:25.30,Seito_Main,Tsuda,0000,0000,0000,,What were you planning?
+Dialogue: 0,0:03:25.79,0:03:28.40,Seito_Main,Kaede,0000,0000,0000,,It'd a good thing for everyone \Nto understand that they should judge
+Dialogue: 0,0:03:28.40,0:03:29.68,Seito_Main,Kaede,0000,0000,0000,,their distance from others.
+Dialogue: 0,0:03:30.00,0:03:34.32,Seito_Main,Kaede,0000,0000,0000,,People seem to be acting \Ninappropriately lately.
+Dialogue: 0,0:03:34.32,0:03:36.48,Seito_Main,Kaede,0000,0000,0000,,Here's the report you needed.
+Dialogue: 0,0:03:36.48,0:03:37.07,Seito_Main,Shino,0000,0000,0000,,Right.
+Dialogue: 0,0:03:37.62,0:03:38.58,Seito_Main,Aria,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:03:38.58,0:03:39.19,Seito_Main,Kaede,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:39.19,0:03:40.52,Seito_Main,Aria,0000,0000,0000,,To be honest,
+Dialogue: 0,0:03:40.52,0:03:42.63,Seito_Main,Aria,0000,0000,0000,,every time I see your braids,
+Dialogue: 0,0:03:42.63,0:03:44.62,Seito_Main,Aria,0000,0000,0000,,it feels like my butt is \Njust calling out for them.
+Dialogue: 0,0:03:45.24,0:03:46.95,Seito_Main,Suzu,0000,0000,0000,,She's out cold again.
+Dialogue: 0,0:03:47.36,0:03:49.09,Seito_Main,Shino,0000,0000,0000,,Igarashi is here.
+Dialogue: 0,0:03:49.09,0:03:50.99,Seito_Main,Tsuda,0000,0000,0000,,She's not exactly paying attention.
+Dialogue: 0,0:03:50.99,0:03:52.84,Seito_Main,Shino,0000,0000,0000,,Let's head to the conference room.
+Dialogue: 0,0:03:52.84,0:03:54.24,Seito_Main,Tsuda,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:03:55.33,0:03:56.20,Seito_Main,Suzu,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:56.68,0:03:59.37,Seito_Main,Suzu,0000,0000,0000,,Tsuda, your jacket's folded back.
+Dialogue: 0,0:03:59.37,0:04:01.47,Seito_Main,Tsuda,0000,0000,0000,,Huh? Well, that makes me look bad.
+Dialogue: 0,0:04:02.05,0:04:04.12,Seito_Main,Suzu,0000,0000,0000,,Guess I'll have to help.
+Dialogue: 0,0:04:04.12,0:04:06.97,Seito_Main,Suzu,0000,0000,0000,,I'll hold it down for you \Nuntil you get it fixed.
+Dialogue: 0,0:04:08.93,0:04:10.47,Seito_Main,Aria,0000,0000,0000,,That's kind of sweet.
+Dialogue: 0,0:04:10.47,0:04:11.98,Seito_Main,R,0000,0000,0000,,That's nice!
+Dialogue: 0,0:04:13.14,0:04:13.60,Seito_Main,Tsuda,0000,0000,0000,,Oh.
+Dialogue: 0,0:04:14.39,0:04:15.98,Seito_Main,Tsuda,0000,0000,0000,,A tennis ball fell here.
+Dialogue: 0,0:04:16.48,0:04:17.51,Seito_Main,Tsuda,0000,0000,0000,,I guess I'll...
+Dialogue: 0,0:04:18.99,0:04:19.89,Seito_Main,Tsuda,0000,0000,0000,,give it back later.
+Dialogue: 0,0:04:19.89,0:04:20.56,Seito_Main,Shino,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:20.56,0:04:21.61,Seito_Main,Shino,0000,0000,0000,,Tsuda...
+Dialogue: 0,0:04:21.97,0:04:24.37,Seito_Main,Shino,0000,0000,0000,,It looks weird in your \Npocket like that.
+Dialogue: 0,0:04:24.37,0:04:24.99,Seito_Main,Tsuda,0000,0000,0000,,Oh.
+Dialogue: 0,0:04:25.73,0:04:28.07,Seito_Main,Shino,0000,0000,0000,,Put one in your other pocket!
+Dialogue: 0,0:04:28.07,0:04:29.62,Seito_Main,Tsuda,0000,0000,0000,,I refuse!
+Dialogue: 0,0:04:30.60,0:04:32.12,Seito_Main,Aria,0000,0000,0000,,I guess this'll do.
+Dialogue: 0,0:04:32.51,0:04:36.21,Seito_Main,Shino,0000,0000,0000,,Aria, we'll put the tables we're \Nnot going to use against the wall.
+Dialogue: 0,0:04:36.21,0:04:37.13,Seito_Main,Shino,0000,0000,0000,,Help me out.
+Dialogue: 0,0:04:37.13,0:04:38.63,Seito_Main,Aria,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:39.92,0:04:41.51,Seito_Main,Aria,0000,0000,0000,,Here goes.
+Dialogue: 0,0:04:41.51,0:04:44.26,Seito_Main,Shino,0000,0000,0000,,No one said anything \Nabout moving your boobs!
+Dialogue: 0,0:04:44.65,0:04:48.93,Seito_Main,Kaede,0000,0000,0000,,Here's the schedule for the \Nend of the year cleaning.
+Dialogue: 0,0:04:48.93,0:04:49.64,Seito_Main,Shino,0000,0000,0000,,Right.
+Dialogue: 0,0:04:50.28,0:04:54.07,Seito_Main,Kaede,0000,0000,0000,,If we made sure we were \Nclean all year round,
+Dialogue: 0,0:04:54.63,0:04:57.82,Seito_Main,Kaede,0000,0000,0000,,we wouldn't need to have \Nthis cleaning spree, but...
+Dialogue: 0,0:04:57.40,0:04:58.90,SuzuHead2,,0000,0000,0000,,Suzu Head
+Dialogue: 0,0:04:57.82,0:04:58.90,Seito_Main,,0000,0000,0000,,I agree.
+Dialogue: 0,0:04:59.37,0:05:01.05,Seito_Main,Shino,0000,0000,0000,,There's no helping it.
+Dialogue: 0,0:05:01.05,0:05:03.53,Seito_Main,Shino,0000,0000,0000,,People are just like that.
+Dialogue: 0,0:05:03.90,0:05:06.76,Seito_Main,Shino,0000,0000,0000,,They want to defile anything pure.
+Dialogue: 0,0:05:06.76,0:05:08.13,Seito_Main,Shino,0000,0000,0000,,Right?
+Dialogue: 0,0:05:08.13,0:05:10.27,Seito_Main,Tsuda,0000,0000,0000,,Don't look at me.
+Dialogue: 0,0:05:10.27,0:05:11.66,Seito_Main,Tsuda,0000,0000,0000,,Now everyone's looking at me.
+Dialogue: 0,0:05:11.66,0:05:16.76,Seito_Main,Shino,0000,0000,0000,,Tsuda, how are the volunteers \Nfor the cleaning squad going?
+Dialogue: 0,0:05:16.76,0:05:19.17,Seito_Main,Tsuda,0000,0000,0000,,I've gotten the fliers together.
+Dialogue: 0,0:05:21.58,0:05:24.54,Seito_Main,Shino,0000,0000,0000,,Well, these aren't bad...
+Dialogue: 0,0:05:24.54,0:05:27.30,Seito_Main,Shino,0000,0000,0000,,I'd like something that \Ndraws a bit more attention.
+Dialogue: 0,0:05:27.91,0:05:29.27,Seito_Main,Shino,0000,0000,0000,,Oh, I know.
+Dialogue: 0,0:05:29.27,0:05:32.91,Seito_Main,Shino,0000,0000,0000,,How about we make fliers \Nprinted on pink paper?　
+Dialogue: 0,0:05:32.91,0:05:35.85,Seito_Main,Tsuda,0000,0000,0000,,I think a lot of people will \Ntake that the wrong way,
+Dialogue: 0,0:05:35.85,0:05:37.19,Seito_Main,Tsuda,0000,0000,0000,,so maybe not the best idea.
+Dialogue: 0,0:05:37.78,0:05:39.69,Seito_Main,Hata,0000,0000,0000,,La, la, la.
+Dialogue: 0,0:05:40.09,0:05:46.07,Seito_Main,Kaede,0000,0000,0000,,About the surprise inspection we were \Nplanning for all the club rooms tomorrow...
+Dialogue: 0,0:05:46.50,0:05:50.46,Seito_Main,Kaede,0000,0000,0000,,It's possible that \Ninformation was leaked.
+Dialogue: 0,0:05:50.46,0:05:51.64,Seito_Main,Shino,0000,0000,0000,,What was that?
+Dialogue: 0,0:05:51.62,0:05:52.83,Suzu_bubble,,0000,0000,0000,,{\fad(200,1)}Rustle...
+Dialogue: 0,0:05:51.64,0:05:52.83,Seito_Main,Shino,0000,0000,0000,,Rustle, rustle.
+Dialogue: 0,0:05:51.87,0:05:52.83,Suzu_bubble,,0000,0000,0000,,{\fad(200,1)\an8}Rustle...
+Dialogue: 0,0:05:52.37,0:05:52.83,Suzu_bubble,,0000,0000,0000,,{\fad(200,1)\an4}Rustle...
+Dialogue: 0,0:05:53.45,0:05:56.10,Seito_Main,Shino,0000,0000,0000,,So we have a leak, then...
+Dialogue: 0,0:05:56.62,0:05:58.46,Seito_Main,Shino,0000,0000,0000,,I don't like that sound of that.
+Dialogue: 0,0:05:59.23,0:06:01.81,Seito_Main,Shino,0000,0000,0000,,You should only have a \Nleak while taking a leak!
+Dialogue: 0,0:06:01.15,0:06:01.81,leak,,0000,0000,0000,,Clench
+Dialogue: 0,0:06:01.81,0:06:05.35,Seito_Main,Aria,0000,0000,0000,,Or if you want to let \Nsomeone know you're horny!
+Dialogue: 0,0:06:06.20,0:06:08.47,Seito_Main,Tsuda,0000,0000,0000,,Pretend this didn't happen.
+Dialogue: 0,0:06:10.76,0:06:11.60,Seito_Main,Shino,0000,0000,0000,,So...
+Dialogue: 0,0:06:12.06,0:06:14.01,Seito_Main,Shino,0000,0000,0000,,How did this happen?
+Dialogue: 0,0:06:14.01,0:06:15.06,Seito_Main,Kaede,0000,0000,0000,,In all likelihood,
+Dialogue: 0,0:06:15.06,0:06:19.35,Seito_Main,Kaede,0000,0000,0000,,someone involved mentioned \Nit out in the open.
+Dialogue: 0,0:06:19.76,0:06:22.33,Seito_Main,Suzu,0000,0000,0000,,I wouldn't let that happen.
+Dialogue: 0,0:06:22.33,0:06:25.49,Seito_Main,Suzu,0000,0000,0000,,I don't let my work get \Ninvolved in my personal life.
+Dialogue: 0,0:06:26.10,0:06:28.38,Seito_Main,Aria,0000,0000,0000,,That's unfortunate.
+Dialogue: 0,0:06:28.38,0:06:30.61,Seito_Main,Aria,0000,0000,0000,,When you tell people you're \Non the student council,
+Dialogue: 0,0:06:30.61,0:06:33.49,Seito_Main,Aria,0000,0000,0000,,it gets you a lot of "moe" points.
+Dialogue: 0,0:06:33.49,0:06:36.12,Seito_Main,Suzu,0000,0000,0000,,I'll negate them all.
+Dialogue: 0,0:06:36.51,0:06:38.73,Seito_Main,All,0000,0000,0000,,Hm...
+Dialogue: 0,0:06:39.72,0:06:41.84,Seito_Main,Suzu,0000,0000,0000,,Can I voice my thoughts?
+Dialogue: 0,0:06:41.84,0:06:42.75,Seito_Main,Kaede,0000,0000,0000,,Take the floor.
+Dialogue: 0,0:06:44.50,0:06:46.32,Seito_Main,Suzu,0000,0000,0000,,I am standing up...
+Dialogue: 0,0:06:46.32,0:06:47.51,Seito_Main,Shino,0000,0000,0000,,R-Right.
+Dialogue: 0,0:06:48.10,0:06:50.81,Seito_Main,Suzu,0000,0000,0000,,In order to prevent \Ninformation from leaking,
+Dialogue: 0,0:06:50.81,0:06:56.39,Seito_Main,Suzu,0000,0000,0000,,how about we use a code \Nthat only we understand?
+Dialogue: 0,0:06:56.73,0:06:59.05,Seito_Main,Tsuda,0000,0000,0000,,That might be kind of nifty.
+Dialogue: 0,0:06:59.05,0:07:01.52,Seito_Main,Aria,0000,0000,0000,,But how would we do that?
+Dialogue: 0,0:07:01.52,0:07:03.55,Seito_Main,Shino,0000,0000,0000,,Let's see...
+Dialogue: 0,0:07:03.55,0:07:05.73,Seito_Main,Shino,0000,0000,0000,,Since we're raiding \Nthese clubrooms,
+Dialogue: 0,0:07:06.21,0:07:07.78,Seito_Main,Shino,0000,0000,0000,,how about we call \Nourselves the tops,
+Dialogue: 0,0:07:08.32,0:07:10.91,Seito_Main,Shino,0000,0000,0000,,and whoever we're going \Nto raid, the bottoms?
+Dialogue: 0,0:07:10.91,0:07:13.49,Seito_Main,Tsuda,0000,0000,0000,,I think almost all of us can \Nagree that isn't going to fly!
+Dialogue: 0,0:07:15.29,0:07:17.03,Seito_Main,Hata,0000,0000,0000,,Bottoms... Bottoms...
+Dialogue: 0,0:07:18.70,0:07:21.93,Seito_Main,Shino,0000,0000,0000,,Okay, please submit the \Nfinal report later.
+Dialogue: 0,0:07:21.93,0:07:22.91,Seito_Main,Kaede,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:23.81,0:07:25.19,Seito_Main,Aria,0000,0000,0000,,Would you like some help?
+Dialogue: 0,0:07:25.19,0:07:27.04,Seito_Main,Kaede,0000,0000,0000,,Thank you,
+Dialogue: 0,0:07:27.04,0:07:29.02,Seito_Main,Kaede,0000,0000,0000,,but I'm fine.
+Dialogue: 0,0:07:29.57,0:07:32.21,Seito_Main,Tsuda,0000,0000,0000,,Okay, thanks.
+Dialogue: 0,0:07:32.21,0:07:33.64,Seito_Main,Kaede,0000,0000,0000,,R-Right.
+Dialogue: 0,0:07:33.64,0:07:39.14,run,,0000,0000,0000,,Run
+Dialogue: 0,0:07:34.88,0:07:37.60,Seito_Main,Tsuda,0000,0000,0000,,If you didn't know she \Nwas scared of men,
+Dialogue: 0,0:07:37.60,0:07:39.14,Seito_Main,Tsuda,0000,0000,0000,,you might get the wrong idea here.
+Dialogue: 0,0:07:40.20,0:07:44.90,Seito_Main,Yokoshima,0000,0000,0000,,This is the first time I've heard \Nabout an inspection tomorrow.
+Dialogue: 0,0:07:44.90,0:07:47.58,Seito_Main,Shino,0000,0000,0000,,We didn't tell you.
+Dialogue: 0,0:07:47.58,0:07:50.15,Seito_Main,Tsuda,0000,0000,0000,,We thought you'd be the \Nfirst to tell people.
+Dialogue: 0,0:07:50.46,0:07:54.53,Seito_Main,Yokoshima,0000,0000,0000,,Come on! I'm the student \Ncouncil adviser!
+Dialogue: 0,0:07:53.16,0:07:54.53,serious,,0000,0000,0000,,Serious
+Dialogue: 0,0:07:55.35,0:07:58.72,Seito_Main,Yokoshima,0000,0000,0000,,Sure, I might give away the goods \Nwith my butt, but not my mouth!
+Dialogue: 0,0:07:58.72,0:08:00.54,Seito_Main,Tsuda,0000,0000,0000,,I'm not sure that \Ncounts for anything...
+Dialogue: 0,0:08:00.96,0:08:02.65,Seito_Main,Aria,0000,0000,0000,,Shino-chan, how many...
+Dialogue: 0,0:08:02.65,0:08:03.92,Seito_Main,Shino,0000,0000,0000,,18.
+Dialogue: 0,0:08:04.31,0:08:07.64,Seito_Main,Aria,0000,0000,0000,,Not that. I wanted to know \Nhow much sugar you wanted.
+Dialogue: 0,0:08:07.64,0:08:11.05,Seito_Main,Shino,0000,0000,0000,,Oh, crap. I just gave \Nthe standard response.
+Dialogue: 0,0:08:11.45,0:08:13.43,Seito_Main,Tsuda,0000,0000,0000,,Hagimura, how old are you?
+Dialogue: 0,0:08:13.85,0:08:15.35,Seito_Main,Suzu,0000,0000,0000,,How old do I look?
+Dialogue: 0,0:08:15.35,0:08:17.30,Seito_Main,Tsuda,0000,0000,0000,,That response...
+Dialogue: 0,0:08:19.06,0:08:21.31,Seito_Main,Tsuda,0000,0000,0000,,Prez, this is bad.
+Dialogue: 0,0:08:21.69,0:08:24.89,Seito_Main,Tsuda,0000,0000,0000,,It seems like the information \Nfrom that meeting we had leaked.
+Dialogue: 0,0:08:24.89,0:08:25.81,Seito_Main,Shino,0000,0000,0000,,What?
+Dialogue: 0,0:08:25.81,0:08:27.81,Seito_Main,Hata,0000,0000,0000,,Hahaha...
+Dialogue: 0,0:08:27.81,0:08:30.69,Seito_Main,Hata,0000,0000,0000,,Tops and bottoms, tops and \Nbottoms.... La, la, la...
+Dialogue: 0,0:08:27.81,0:08:30.69,paper2,,0000,0000,0000,,They \Ndid \Nkind \Nof \Nfeel \Nlike \Nthat
+Dialogue: 0,0:08:28.77,0:08:30.69,paper1,,0000,0000,0000,,The Vice-President is a bottom, and President is a top!
+Dialogue: 0,0:08:30.69,0:08:39.83,Suzu_head3,,0000,0000,0000,,Suzu Head
+Dialogue: 0,0:08:31.92,0:08:35.71,Seito_Main,Tsuda,0000,0000,0000,,Sorry, I must have misheard...
+Dialogue: 0,0:08:35.71,0:08:37.78,Seito_Main,Shino,0000,0000,0000,,Well, I guess it's fine.
+Dialogue: 0,0:08:37.78,0:08:39.85,Seito_Main,Shino,0000,0000,0000,,The actual plan \Nwasn't made public.
+Dialogue: 0,0:08:39.85,0:08:41.75,Seito_Main,Suzu,0000,0000,0000,,Tsuda, you panic too much.
+Dialogue: 0,0:08:41.75,0:08:43.08,Seito_Main,Tsuda,0000,0000,0000,,Sorry.
+Dialogue: 0,0:08:43.76,0:08:46.60,Seito_Main,Shino,0000,0000,0000,,Besides, I think this \Nworked out pretty good.
+Dialogue: 0,0:08:46.60,0:08:47.46,Seito_Main,Tsuda,0000,0000,0000,,No, stop!
+Dialogue: 0,0:08:47.46,0:08:49.81,Seito_Main,Hata,0000,0000,0000,,Huh? It wasn't true?
+Dialogue: 0,0:08:49.81,0:08:50.84,Seito_Main,Tsuda,0000,0000,0000,,No!
+Dialogue: 0,0:08:51.17,0:08:52.84,Stamp,,0000,0000,0000,,{\fad(250,1)}The newspaper club \Ndidn't understand \Nwhat was wrong
+Dialogue: 0,0:08:53.36,0:08:53.91,Seito_Main,Tsuda,0000,0000,0000,,Oh,
+Dialogue: 0,0:08:54.72,0:08:58.36,Seito_Main,Tsuda,0000,0000,0000,,there's a turtle living \Nin the school's pond here.
+Dialogue: 0,0:08:58.87,0:09:00.47,Seito_Main,Suzu,0000,0000,0000,,You just found this out?
+Dialogue: 0,0:09:00.90,0:09:04.41,Seito_Main,Aria,0000,0000,0000,,Can turtles learn tricks?
+Dialogue: 0,0:09:04.41,0:09:06.10,Seito_Main,Shino,0000,0000,0000,,What would you want to teach it?
+Dialogue: 0,0:09:06.10,0:09:07.56,Seito_Main,Aria,0000,0000,0000,,Sausage fetch!
+Dialogue: 0,0:09:09.20,0:09:11.13,Seito_Main,Shino,0000,0000,0000,,For a loggerhead, too!
+Dialogue: 0,0:09:10.54,0:09:13.99,haha,,0000,0000,0000,,Hahahaha
+Dialogue: 0,0:09:12.01,0:09:13.99,Seito_Main,Tsuda,0000,0000,0000,,She thought that was funny?
+Dialogue: 0,0:09:13.99,0:09:15.49,council,,0000,0000,0000,,Student Council
+Dialogue: 0,0:09:14.60,0:09:16.00,Seito_Main,Shino,0000,0000,0000,,Let's see...
+Dialogue: 0,0:09:16.00,0:09:17.17,Seito_Main,Shino,0000,0000,0000,,Next I...
+Dialogue: 0,0:09:20.33,0:09:22.66,Seito_Main,Shino,0000,0000,0000,,Wait, I messed up.
+Dialogue: 0,0:09:21.66,0:09:22.66,phone,,0000,0000,0000,,Receiving Message
+Dialogue: 0,0:09:24.41,0:09:26.20,Seito_Main,Shino,0000,0000,0000,,Someone sent me a message?!
+Dialogue: 0,0:09:27.16,0:09:30.42,Seito_Main,Shino,0000,0000,0000,,Did I just lose the \Ntext I was writing?
+Dialogue: 0,0:09:31.06,0:09:33.13,Seito_Main,Shino,0000,0000,0000,,What should I do, Tsuda?!
+Dialogue: 0,0:09:33.13,0:09:35.27,Seito_Main,Tsuda,0000,0000,0000,,It's fine.
+Dialogue: 0,0:09:35.27,0:09:36.90,Seito_Main,Tsuda,0000,0000,0000,,Let me see.
+Dialogue: 0,0:09:36.90,0:09:38.30,Seito_Main,Shino,0000,0000,0000,,R-Right.
+Dialogue: 0,0:09:38.79,0:09:42.56,Seito_Main,Tsuda,0000,0000,0000,,The message should be saved.
+Dialogue: 0,0:09:42.06,0:09:42.56,phone2,,0000,0000,0000,,One new message\NUomii
+Dialogue: 0,0:09:42.56,0:09:44.06,phone3,,0000,0000,0000,,How about taking\NTsuda's dick together?
+Dialogue: 0,0:09:46.26,0:09:47.08,Seito_Main,Shino,0000,0000,0000,,No!
+Dialogue: 0,0:09:47.08,0:09:49.00,Seito_Main,Shino,0000,0000,0000,,I was trying to write \Nsomething else!
+Dialogue: 0,0:09:49.00,0:09:52.17,Seito_Main,Shino,0000,0000,0000,,I wanted to write "taking \NTsuda walking together!"
+Dialogue: 0,0:09:52.17,0:09:54.44,Seito_Main,Tsuda,0000,0000,0000,,Run away!
+Dialogue: 0,0:09:53.94,0:09:54.44,Seito_Show_Title,,0000,0000,0000,,Seitokai Yakuindomo
+Dialogue: 0,0:09:54.44,0:09:56.95,Seito_Ep_TitleB,,0000,0000,0000,,That happens in some countries
+Dialogue: 0,0:09:57.54,0:09:59.89,Seito_Main,Shino,0000,0000,0000,,Oh, it's from Uomii.
+Dialogue: 0,0:10:00.45,0:10:00.82,Seito_Main,Shino,0000,0000,0000,,Hm?
+Dialogue: 0,0:10:00.82,0:10:03.40,Seito_Main,Shino,0000,0000,0000,,So I guess Eiryou has its \Ncultural fair next week.
+Dialogue: 0,0:10:03.40,0:10:04.36,Seito_Main,Uomii,0000,0000,0000,,Hi there.
+Dialogue: 0,0:10:04.36,0:10:05.68,Seito_Main,Shino,0000,0000,0000,,So she's inviting us.
+Dialogue: 0,0:10:05.68,0:10:07.33,Seito_Main,Uomii,0000,0000,0000,,Uomii here.
+Dialogue: 0,0:10:08.14,0:10:12.36,Seito_Main,Suzu,0000,0000,0000,,It might be nice to see another \Nschool's cultural fair.
+Dialogue: 0,0:10:12.36,0:10:13.84,Seito_Main,Aria,0000,0000,0000,,Sounds like fun.
+Dialogue: 0,0:10:14.71,0:10:16.84,Seito_Main,Shino,0000,0000,0000,,There's more.
+Dialogue: 0,0:10:16.84,0:10:19.04,Seito_Main,Shino,0000,0000,0000,,There's a lot of events outdoors,
+Dialogue: 0,0:10:19.04,0:10:21.60,Seito_Main,Shino,0000,0000,0000,,so you should probably \Nwear a jacket.
+Dialogue: 0,0:10:22.06,0:10:22.84,Seito_Main,Shino,0000,0000,0000,,Also,
+Dialogue: 0,0:10:22.84,0:10:27.38,Seito_Main,Shino,0000,0000,0000,,any lost children will be taken to \Nthe first classroom on the right.
+Dialogue: 0,0:10:27.38,0:10:29.85,Seito_Main,Suzu,0000,0000,0000,,Why would she write that?
+Dialogue: 0,0:10:29.85,0:10:32.23,square2,,0000,0000,0000,,{\an3}One week later
+Dialogue: 0,0:10:35.16,0:10:37.58,Seito_Main,Shino,0000,0000,0000,,That really is quite the hill.
+Dialogue: 0,0:10:37.58,0:10:40.34,Seito_Main,Suzu,0000,0000,0000,,It's worse than the one \Nfor Ousai. Longer, too.
+Dialogue: 0,0:10:40.34,0:10:41.41,Seito_Main,Tsuda,0000,0000,0000,,I know, right?
+Dialogue: 0,0:10:41.41,0:10:44.62,Seito_Main,Kotomi,0000,0000,0000,,So Eiryou's the school on the hill.
+Dialogue: 0,0:10:48.82,0:10:51.86,Seito_Main,Shino,0000,0000,0000,,There's so many booths to look at.
+Dialogue: 0,0:10:49.44,0:10:54.11,Seito_Main-top,Kotomi,0000,0000,0000,,Meat!
+Dialogue: 0,0:10:51.86,0:10:53.13,Seito_Main,Tsuda,0000,0000,0000,,I know, right.
+Dialogue: 0,0:10:54.64,0:10:57.84,Seito_Main,Suzu,0000,0000,0000,,You look like you're \Nfrom out in the country
+Dialogue: 0,0:10:57.84,0:10:59.63,Seito_Main,Suzu,0000,0000,0000,,when you're fidgeting like that.
+Dialogue: 0,0:10:59.63,0:11:03.60,Seito_Main,Aria,0000,0000,0000,,I forgot to wear a skirt,
+Dialogue: 0,0:11:03.60,0:11:05.88,Seito_Main,Aria,0000,0000,0000,,so I'm getting nervous \Nwhen people look at me.
+Dialogue: 0,0:11:05.88,0:11:07.52,Seito_Main,Suzu,0000,0000,0000,,And no panties either, huh?
+Dialogue: 0,0:11:11.95,0:11:13.40,Seito_Main,Kotomi,0000,0000,0000,,How about we go in here?
+Dialogue: 0,0:11:13.40,0:11:17.65,lost,,0000,0000,0000,,Lost children
+Dialogue: 0,0:11:13.81,0:11:16.04,Seito_Main,Tsuda,0000,0000,0000,,This is for lost children.
+Dialogue: 0,0:11:16.04,0:11:17.65,Seito_Main,Suzu,0000,0000,0000,,What are you going to do in there?
+Dialogue: 0,0:11:17.65,0:11:21.72,Seito_Main,Kotomi,0000,0000,0000,,Huh? I'll get lost with them.
+Dialogue: 0,0:11:21.72,0:11:23.91,Seito_Main,Tsuda,0000,0000,0000,,That's not what they're here for.
+Dialogue: 0,0:11:24.60,0:11:26.91,Seito_Main,Uomi,0000,0000,0000,,Hello, Ousai students.
+Dialogue: 0,0:11:26.91,0:11:28.35,Seito_Main,Tsuda,0000,0000,0000,,Uomi-san.
+Dialogue: 0,0:11:28.35,0:11:28.91,Seito_Main,Uomii,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:29.27,0:11:30.69,Seito_Main,Uomii,0000,0000,0000,,Taka-kun.
+Dialogue: 0,0:11:30.69,0:11:33.07,Seito_Main,Uomii,0000,0000,0000,,I'm "onee-chan," right?
+Dialogue: 0,0:11:32.94,0:11:35.67,laugh1,,0000,0000,0000,,{\fad(200,1)}So it wasn't a joke...
+Dialogue: 0,0:11:33.48,0:11:35.67,Seito_Main,Tsuda,0000,0000,0000,,Right, "onee-chan."
+Dialogue: 0,0:11:36.34,0:11:37.65,bang,,0000,0000,0000,,{\fad(150,150)}Bang
+Dialogue: 0,0:11:36.42,0:11:37.79,Seito_Main,Uomi,0000,0000,0000,,Good job!
+Dialogue: 0,0:11:37.79,0:11:40.96,Seito_Main,Uomi,0000,0000,0000,,Oh, I was just trying \Nto making a thumbs up.
+Dialogue: 0,0:11:40.96,0:11:44.74,Seito_Main,Uomi,0000,0000,0000,,I wasn't really trying to shove my \Nfinger up your as*, or anything.
+Dialogue: 0,0:11:44.74,0:11:48.18,Seito_Main,Uomi,0000,0000,0000,,Seriously. I wasn't.
+Dialogue: 0,0:11:45.41,0:11:48.18,Seito_Main-top,Tsuda,0000,0000,0000,,Did you seriously think \NI would think that?
+Dialogue: 0,0:11:48.18,0:11:53.06,Seito_Main,Uomi,0000,0000,0000,,Oh, I was greeting \Nyou as my relative.
+Dialogue: 0,0:11:53.06,0:11:54.48,Seito_Main,Uomi,0000,0000,0000,,I should do this again.
+Dialogue: 0,0:11:55.00,0:11:56.94,Seito_Main,Uomi,0000,0000,0000,,Thank you for coming again \Nwhen you're so busy.
+Dialogue: 0,0:11:57.44,0:11:59.53,Seito_Main,Shino,0000,0000,0000,,Don't be so formal.
+Dialogue: 0,0:11:59.53,0:12:01.88,Seito_Main,Shino,0000,0000,0000,,We're friends, aren't we?
+Dialogue: 0,0:12:03.04,0:12:04.77,Seito_Main,Uomi,0000,0000,0000,,Amakusa...
+Dialogue: 0,0:12:05.70,0:12:06.95,Seito_Main,Uomi,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:07.30,0:12:09.87,Seito_Main,Both,0000,0000,0000,,Our hym*ns have the same shape.
+Dialogue: 0,0:12:09.87,0:12:12.71,Seito_Main,Tsuda,0000,0000,0000,,Aren't you guys supposed to be \Nstudent council presidents?!
+Dialogue: 0,0:12:12.71,0:12:17.06,square2,,0000,0000,0000,,{\an1}Chemistry
+Dialogue: 0,0:12:13.14,0:12:16.72,Seito_Main,C,0000,0000,0000,,Would you like take part in a fun \Nexperiment by the chemistry club?
+Dialogue: 0,0:12:17.06,0:12:20.84,square2,,0000,0000,0000,,{\an1}Arts \Nand\NCrafts
+Dialogue: 0,0:12:17.60,0:12:20.84,Seito_Main,A,0000,0000,0000,,We're making hand puppets!
+Dialogue: 0,0:12:21.51,0:12:27.30,Seito_Main,Uomi,0000,0000,0000,,The idea behind this fair \Nis to have fun doing things.
+Dialogue: 0,0:12:27.30,0:12:29.19,Seito_Main,Suzu,0000,0000,0000,,You've sure thought about this.
+Dialogue: 0,0:12:29.92,0:12:31.98,Seito_Main,Suzu,0000,0000,0000,,Um, you don't really have \Nto look into my eyes.
+Dialogue: 0,0:12:31.98,0:12:35.85,square2,,0000,0000,0000,,{\an3}Nurse's\Noffice
+Dialogue: 0,0:12:31.98,0:12:35.85,Seito_Main,Aria,0000,0000,0000,,Yay, yay.
+Dialogue: 0,0:12:31.98,0:12:35.85,yay,,0000,0000,0000,,Yay
+Dialogue: 0,0:12:32.92,0:12:35.85,Seito_Main,Tsuda,0000,0000,0000,,I don't think there's \Nanything you want in there.
+Dialogue: 0,0:12:35.85,0:12:41.74,square2,,0000,0000,0000,,{\an3}Cooking
+Dialogue: 0,0:12:36.34,0:12:38.84,Seito_Main,Co,0000,0000,0000,,We're doing a cooking class.
+Dialogue: 0,0:12:38.84,0:12:40.39,Seito_Main,Shino,0000,0000,0000,,That sounds fun.
+Dialogue: 0,0:12:40.39,0:12:41.74,Seito_Main,Uomi,0000,0000,0000,,Want to give it a try?
+Dialogue: 0,0:12:41.74,0:12:43.99,cook,,0000,0000,0000,,Cooking class
+Dialogue: 0,0:12:41.74,0:12:43.99,Seito_Main,Kotomi,0000,0000,0000,,All right. Let's do this.
+Dialogue: 0,0:12:45.60,0:12:46.82,Seito_Main,Tsuda,0000,0000,0000,,Uh...
+Dialogue: 0,0:12:47.24,0:12:47.95,Seito_Main,Tsuda,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:47.95,0:12:48.74,Seito_Main,Shino,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:12:48.74,0:12:51.62,Seito_Main,Tsuda,0000,0000,0000,,There's no board...
+Dialogue: 0,0:12:51.62,0:12:54.12,Seito_Main,Shino,0000,0000,0000,,You think so?
+Dialogue: 0,0:12:54.12,0:12:57.00,Seito_Main,Shino,0000,0000,0000,,I've been growing lately. I'm happy.
+Dialogue: 0,0:12:57.00,0:12:58.50,Seito_Main,Tsuda,0000,0000,0000,,What would you...
+Dialogue: 0,0:13:00.25,0:13:03.26,Seito_Main,Band,0000,0000,0000,,You wanna keep going, right?
+Dialogue: 0,0:13:03.88,0:13:06.24,Seito_Main,Shino,0000,0000,0000,,They had a lot of passion.
+Dialogue: 0,0:13:06.24,0:13:08.64,Seito_Main,Shino,0000,0000,0000,,I'm all excited now.
+Dialogue: 0,0:13:08.64,0:13:09.89,Seito_Main,Tsuda,0000,0000,0000,,Me, too.
+Dialogue: 0,0:13:10.85,0:13:12.69,Seito_Main,A,0000,0000,0000,,That's a chupacabra.
+Dialogue: 0,0:13:12.69,0:13:14.26,Seito_Main,B,0000,0000,0000,,What?!
+Dialogue: 0,0:13:17.81,0:13:19.87,Seito_Main,Shino,0000,0000,0000,,I'm laughing so much \Nmy stomach hurts.
+Dialogue: 0,0:13:20.50,0:13:22.54,Seito_Main,Shino,0000,0000,0000,,I thought my period came.
+Dialogue: 0,0:13:22.54,0:13:24.78,Seito_Main,Tsuda,0000,0000,0000,,I'm not sure that's a good thing.
+Dialogue: 0,0:13:24.78,0:13:29.37,school,,0000,0000,0000,,Eiryou High School
+Dialogue: 0,0:13:25.46,0:13:27.96,Seito_Main,Uomi,0000,0000,0000,,Thank you for coming.
+Dialogue: 0,0:13:27.96,0:13:29.88,Seito_Main,Shino,0000,0000,0000,,No, we had a great time.
+Dialogue: 0,0:13:29.88,0:13:31.68,Seito_Main,Uomi,0000,0000,0000,,Taka-kun, Kotomi-chan,
+Dialogue: 0,0:13:31.68,0:13:32.55,Seito_Main,Uomi,0000,0000,0000,,see you again.
+Dialogue: 0,0:13:32.55,0:13:33.65,Seito_Main,Kotomi,0000,0000,0000,,Right!
+Dialogue: 0,0:13:33.65,0:13:35.25,Seito_Main,Tsuda,0000,0000,0000,,I don't think I'm going \Nto get used to that.
+Dialogue: 0,0:13:36.60,0:13:37.90,Seito_Main,Suzu,0000,0000,0000,,Um..
+Dialogue: 0,0:13:38.59,0:13:41.13,Seito_Main,Suzu,0000,0000,0000,,Do you go to Tsuda's house a lot?
+Dialogue: 0,0:13:41.13,0:13:41.90,Seito_Main,Uomi,0000,0000,0000,,Hug.
+Dialogue: 0,0:13:41.42,0:13:43.76,hug,,0000,0000,0000,,{\fad(250,1)}Hug
+Dialogue: 0,0:13:41.90,0:13:42.59,Seito_Main,Suzu,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:42.59,0:13:43.76,Seito_Main,Suzu,0000,0000,0000,,Why all of a sudden...
+Dialogue: 0,0:13:44.09,0:13:45.85,Seito_Main,Uomi,0000,0000,0000,,That's a secwet.
+Dialogue: 0,0:13:46.36,0:13:48.08,Seito_Main,Suzu,0000,0000,0000,,The "secwet" I want to know\Nis why you
+Dialogue: 0,0:13:48.08,0:13:50.14,Seito_Main,Suzu,0000,0000,0000,,do this to me every single time.
+Dialogue: 0,0:13:50.77,0:13:52.99,Seito_Main,Shino,0000,0000,0000,,You're sure aggressive.
+Dialogue: 0,0:13:51.39,0:13:55.13,Seito_Main-top,Suzu(BG),0000,0000,0000,,She's holding me...
+Dialogue: 0,0:13:53.75,0:13:56.27,Seito_Main,Uomi,0000,0000,0000,,I wasn't always like this.
+Dialogue: 0,0:13:57.40,0:14:01.49,Seito_Main,Uomi,0000,0000,0000,,I wasn't outgoing when I was a kid.
+Dialogue: 0,0:14:02.56,0:14:04.66,Seito_Main,Uomi,0000,0000,0000,,I thought that was just who I was,
+Dialogue: 0,0:14:04.66,0:14:06.40,Seito_Main,Uomi,0000,0000,0000,,and continued down that bad path.
+Dialogue: 0,0:14:06.93,0:14:09.16,Seito_Main,Uomi,0000,0000,0000,,But then I became a \Nhigh school student,
+Dialogue: 0,0:14:09.16,0:14:12.40,Seito_Main,Uomi,0000,0000,0000,,and thought I needed to change.
+Dialogue: 0,0:14:12.82,0:14:16.16,Seito_Main,Uomi,0000,0000,0000,,That's when I decided to act like this.
+Dialogue: 0,0:14:16.53,0:14:18.51,Seito_Main,Shino,0000,0000,0000,,I see.
+Dialogue: 0,0:14:18.51,0:14:20.79,Seito_Main,Tsuda,0000,0000,0000,,That's a nice story.
+Dialogue: 0,0:14:20.79,0:14:23.93,Seito_Main,Aria,0000,0000,0000,,But I don't think it'd be wrong\N to become a "bad girl".
+Dialogue: 0,0:14:23.93,0:14:26.92,Seito_Main,Suzu,0000,0000,0000,,She wasn't talking about that.
+Dialogue: 0,0:14:37.73,0:14:40.19,Seito_Main,Shino,0000,0000,0000,,I need more motivation \Nto get out of bed.
+Dialogue: 0,0:14:40.98,0:14:43.37,Seito_Main,Shino,0000,0000,0000,,Maybe I'll change \Nunder the covers.
+Dialogue: 0,0:14:43.11,0:14:46.17,shift,,0000,0000,0000,,{\fad(150,150)}Shift
+Dialogue: 0,0:14:44.21,0:14:47.34,Seito_Main,Shino,0000,0000,0000,,I wouldn't want someone \Nto see me doing this.
+Dialogue: 0,0:14:47.89,0:14:51.57,Seito_Main,Shino,0000,0000,0000,,I mean, it's not like someone would \Nreel back if they saw me naked!
+Dialogue: 0,0:14:48.46,0:14:50.47,throw,,0000,0000,0000,,Throw
+Dialogue: 0,0:14:54.55,0:14:55.95,Seito_Main,Shino,0000,0000,0000,,Oh.
+Dialogue: 0,0:14:56.42,0:14:58.20,Seito_Main,Tsuda,0000,0000,0000,,That's a lot of snow.
+Dialogue: 0,0:14:58.90,0:15:01.13,Seito_Main,Tsuda,0000,0000,0000,,That's going to make \Nthis morning hard.
+Dialogue: 0,0:15:02.08,0:15:02.67,Seito_Main,Tsuda,0000,0000,0000,,Hm?
+Dialogue: 0,0:15:06.80,0:15:09.36,Seito_Main,Tsuda,0000,0000,0000,,Prez, good morning.
+Dialogue: 0,0:15:09.36,0:15:11.33,Seito_Main,Shino,0000,0000,0000,,So you're awake, Tsuda.
+Dialogue: 0,0:15:11.33,0:15:14.28,Seito_Main,Shino,0000,0000,0000,,We should go to school \Nearly because of the snow.
+Dialogue: 0,0:15:14.28,0:15:16.10,Seito_Main,Tsuda,0000,0000,0000,,Yes, I know.
+Dialogue: 0,0:15:16.10,0:15:17.49,Seito_Main,Shino,0000,0000,0000,,We need to have a snowball fight!
+Dialogue: 0,0:15:17.49,0:15:19.45,Seito_Main,Shino,0000,0000,0000,,Before it melts!
+Dialogue: 0,0:15:19.45,0:15:21.52,Seito_Main,Tsuda,0000,0000,0000,,Okay, I guess I didn't know.
+Dialogue: 0,0:15:22.06,0:15:22.56,Seito_Show_Title,,0000,0000,0000,,Seitokai Yakuindomo
+Dialogue: 0,0:15:22.56,0:15:25.07,Seito_Ep_TitleB,,0000,0000,0000,,Play with the snow, Santa's Heirs!
+Dialogue: 0,0:15:26.55,0:15:30.58,Seito_Main,Shino,0000,0000,0000,,Okay, we need to shovel the snow \Naway before the ending ceremony.
+Dialogue: 0,0:15:30.58,0:15:32.45,Seito_Main,Tsuda,0000,0000,0000,,This is going to be hard.
+Dialogue: 0,0:15:32.85,0:15:36.47,Seito_Main,Shino,0000,0000,0000,,Tsuda, what job do we do?
+Dialogue: 0,0:15:36.47,0:15:37.58,Seito_Main,Tsuda,0000,0000,0000,,We're the student council.
+Dialogue: 0,0:15:38.01,0:15:39.57,Seito_Main,Shino,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:39.57,0:15:42.92,Seito_Main,Shino,0000,0000,0000,,Our job is to pave the way.
+Dialogue: 0,0:15:43.59,0:15:44.58,Seito_Main,Shino,0000,0000,0000,,Blush.
+Dialogue: 0,0:15:44.58,0:15:47.28,Seito_Main,Tsuda,0000,0000,0000,,You didn't have to say it if you \Nwere just going to get embarrassed.
+Dialogue: 0,0:15:47.28,0:15:49.80,Seito_Main,Shino,0000,0000,0000,,I'm red because it's cold.
+Dialogue: 0,0:15:49.80,0:15:51.24,Seito_Main,Yokoshima,0000,0000,0000,,All right.
+Dialogue: 0,0:15:51.24,0:15:52.91,Seito_Main,Yokoshima,0000,0000,0000,,You guys are here.
+Dialogue: 0,0:15:52.91,0:15:55.43,Seito_Main,Yokoshima,0000,0000,0000,,Let's get this done.
+Dialogue: 0,0:15:55.43,0:15:57.59,Seito_Main,Shino,0000,0000,0000,,Why are you acting like a teacher?
+Dialogue: 0,0:15:57.59,0:15:59.05,Seito_Main,Yokoshima,0000,0000,0000,,I am a teacher.
+Dialogue: 0,0:16:04.79,0:16:05.69,Seito_Main,Yokoshima,0000,0000,0000,,It's cold out.
+Dialogue: 0,0:16:06.90,0:16:07.94,Seito_Main,Tsuda,0000,0000,0000,,It's cold.
+Dialogue: 0,0:16:08.36,0:16:09.82,Seito_Main,Tsuda,0000,0000,0000,,I want to drink something warm.
+Dialogue: 0,0:16:08.37,0:16:09.82,Seito_Main-top,Yokoshima(OVERLAP),0000,0000,0000,,I've gotta pee.
+Dialogue: 0,0:16:10.54,0:16:11.97,Seito_Main,Yokoshima,0000,0000,0000,,Looks like we both have \Nsomething to gain here.
+Dialogue: 0,0:16:11.97,0:16:13.70,Seito_Main,Tsuda,0000,0000,0000,,No, I don't think so.
+Dialogue: 0,0:16:15.89,0:16:18.62,Seito_Main,Suzu,0000,0000,0000,,It's slippery, so be careful.
+Dialogue: 0,0:16:19.95,0:16:23.58,Seito_Main,Aria,0000,0000,0000,,It feels so cold in my butt.
+Dialogue: 0,0:16:23.58,0:16:25.21,Seito_Main,Suzu,0000,0000,0000,,I must have misheard her.
+Dialogue: 0,0:16:25.21,0:16:30.40,Seito_Main,Suzu,0000,0000,0000,,I remember when I was playing in the\Nsnow and made a snowman.
+Dialogue: 0,0:16:30.40,0:16:32.52,Seito_Main,Tsuda,0000,0000,0000,,I guess I had snowball fights.
+Dialogue: 0,0:16:32.52,0:16:34.22,Seito_Main,Aria,0000,0000,0000,,Riding sleds, for me.
+Dialogue: 0,0:16:34.86,0:16:37.09,Seito_Main,Shino,0000,0000,0000,,I made shaved ice.
+Dialogue: 0,0:16:37.09,0:16:38.78,Seito_Main,Tsuda,0000,0000,0000,,I did that.
+Dialogue: 0,0:16:38.78,0:16:41.86,Seito_Main,Shino,0000,0000,0000,,I peed on it and pretended \Nit was lemon flavored.
+Dialogue: 0,0:16:41.86,0:16:43.60,Seito_Main,Tsuda,0000,0000,0000,,I didn't do that.
+Dialogue: 0,0:16:44.05,0:16:45.25,Seito_Main,Shino,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:16:45.25,0:16:47.22,Seito_Main,Shino,0000,0000,0000,,Winter break starts tomorrow.
+Dialogue: 0,0:16:47.22,0:16:49.73,Seito_Main,Yokoshima,0000,0000,0000,,I can finally head back \Nto my parents' place.
+Dialogue: 0,0:16:50.29,0:16:51.97,Seito_Main,Yokoshima,0000,0000,0000,,It's scary living alone,
+Dialogue: 0,0:16:51.97,0:16:53.09,Seito_Main,Yokoshima,0000,0000,0000,,so that'll be nice.
+Dialogue: 0,0:16:53.09,0:16:56.87,Seito_Main,Shino,0000,0000,0000,,I guess you have another side,\NYokoshima-sensei.
+Dialogue: 0,0:16:56.87,0:16:58.09,Seito_Main,Shino,0000,0000,0000,,That was surprising.
+Dialogue: 0,0:16:58.09,0:16:58.99,Seito_Main,Yokoshima,0000,0000,0000,,I do.
+Dialogue: 0,0:16:59.42,0:17:01.20,Seito_Main,Yokoshima,0000,0000,0000,,I especially get scared at night.
+Dialogue: 0,0:17:01.66,0:17:06.14,Seito_Main,Yokoshima,0000,0000,0000,,Restless, not knowing if I'll be alone\Nfor another year...
+Dialogue: 0,0:17:06.14,0:17:08.01,Seito_Main,Shino,0000,0000,0000,,I don't know what to say.
+Dialogue: 0,0:17:08.47,0:17:10.24,Seito_Main,Shino,0000,0000,0000,,I guess this'll do.
+Dialogue: 0,0:17:10.24,0:17:11.88,Seito_Main,Tsuda,0000,0000,0000,,It turned out well.
+Dialogue: 0,0:17:13.13,0:17:15.09,Seito_Main,Shino,0000,0000,0000,,So this year's about \Nto come to an end.
+Dialogue: 0,0:17:15.09,0:17:17.64,Seito_Main,Aria,0000,0000,0000,,A year passes by pretty fast.
+Dialogue: 0,0:17:18.37,0:17:21.24,Seito_Main,Shino,0000,0000,0000,,I think we say this every year.
+Dialogue: 0,0:17:21.24,0:17:23.52,Seito_Main,Aria,0000,0000,0000,,We could probably shorten it down.
+Dialogue: 0,0:17:23.52,0:17:25.39,Seito_Main,Shino,0000,0000,0000,,Done already?
+Dialogue: 0,0:17:25.39,0:17:26.74,Seito_Main,Aria,0000,0000,0000,,So soon...
+Dialogue: 0,0:17:27.20,0:17:29.15,Seito_Main,Tsuda,0000,0000,0000,,Why are you saying that \Nwhile looking at me?
+Dialogue: 0,0:17:29.96,0:17:33.07,Seito_Main,Tsuda,0000,0000,0000,,It's going to be pretty \Ncold going home.
+Dialogue: 0,0:17:33.07,0:17:35.65,Seito_Main,Aria,0000,0000,0000,,I'd like to eat some stew.
+Dialogue: 0,0:17:35.65,0:17:39.22,Suzu_head4,,0000,0000,0000,,Suzu Head
+Dialogue: 0,0:17:35.65,0:17:39.22,tako head,,0000,0000,0000,,Takatoshi Head
+Dialogue: 0,0:17:36.19,0:17:37.50,Seito_Main-top,Suzu,0000,0000,0000,,That'd be nice.
+Dialogue: 0,0:17:37.50,0:17:38.53,Seito_Main-top,Suzu,0000,0000,0000,,Some oden, or something.
+Dialogue: 0,0:17:38.53,0:17:39.92,Seito_Main-top,Tsuda,0000,0000,0000,,Tofu stew...
+Dialogue: 0,0:17:39.22,0:17:41.99,tako head 2,,0000,0000,0000,,Takatoshi Head
+Dialogue: 0,0:17:39.22,0:17:41.99,Suzu_head5,,0000,0000,0000,,Aria Head
+Dialogue: 0,0:17:39.92,0:17:41.99,Seito_Main-top,Aria,0000,0000,0000,,Maybe some sukiyaki.
+Dialogue: 0,0:17:42.30,0:17:43.16,Seito_Main,Shino,0000,0000,0000,,All right.
+Dialogue: 0,0:17:43.16,0:17:46.21,Seito_Main,Shino,0000,0000,0000,,Let's all have surprise stew party.
+Dialogue: 0,0:17:46.21,0:17:48.75,Seito_Main,Tsuda,0000,0000,0000,,Huh? That's what you want to do?
+Dialogue: 0,0:17:52.38,0:17:54.30,Seito_Main,Shino,0000,0000,0000,,The broth's a bit strong.
+Dialogue: 0,0:17:55.10,0:17:56.60,Seito_Main,Shino,0000,0000,0000,,Oh, well.
+Dialogue: 0,0:17:57.56,0:18:00.47,Seito_Main,Shino,0000,0000,0000,,I wanted to make this dangerous.
+Dialogue: 0,0:18:00.47,0:18:02.43,Seito_Main,Tsuda,0000,0000,0000,,Don't put that in!
+Dialogue: 0,0:18:02.96,0:18:05.35,Seito_Main,Suzu,0000,0000,0000,,I know we're doing a \Nsurprise stew party,
+Dialogue: 0,0:18:06.04,0:18:10.98,Seito_Main,Suzu,0000,0000,0000,,but how about we only put things \Nin that will actually taste decent.
+Dialogue: 0,0:18:10.98,0:18:12.44,Seito_Main,Kotomi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:12.82,0:18:14.94,Seito_Main,Kotomi,0000,0000,0000,,All right, let's put our stuff in.
+Dialogue: 0,0:18:14.94,0:18:15.21,click,,0000,0000,0000,,Click
+Dialogue: 0,0:18:15.63,0:18:16.97,Seito_Main,Suzu,0000,0000,0000,,It's dark!
+Dialogue: 0,0:18:16.97,0:18:19.36,Seito_Main,Aria,0000,0000,0000,,Can't see anything...
+Dialogue: 0,0:18:18.84,0:18:22.83,swoosh,,0000,0000,0000,,Swoosh
+Dialogue: 0,0:18:19.36,0:18:22.83,Seito_Main,Aria,0000,0000,0000,,Have to make sure you don't put \Nsomething in the wrong spot.
+Dialogue: 0,0:18:22.83,0:18:29.02,Seito_Main,Dejima,0000,0000,0000,,I put something in the wrong spot \Nonce, in a situation like this.
+Dialogue: 0,0:18:29.02,0:18:31.75,Seito_Main,Tsuda,0000,0000,0000,,How about you never \Nmention this again?
+Dialogue: 0,0:18:32.29,0:18:34.30,Seito_Main,All,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:18:32.29,0:18:34.30,throw,,0000,0000,0000,,Boil
+Dialogue: 0,0:18:36.28,0:18:37.90,Seito_Main,Suzu,0000,0000,0000,,I guess this is oyster?
+Dialogue: 0,0:18:39.12,0:18:41.10,Seito_Main,Tsuda,0000,0000,0000,,This chicken is good...
+Dialogue: 0,0:18:41.10,0:18:45.93,Seito_Main,Tsuda,0000,0000,0000,,I just put in our leftovers, \Nso I feel kind of bad.
+Dialogue: 0,0:18:45.93,0:18:47.75,Seito_Main,Shino,0000,0000,0000,,What's that?
+Dialogue: 0,0:18:45.93,0:18:50.33,swoosh,,0000,0000,0000,,{\an5}abalone
+Dialogue: 0,0:18:47.75,0:18:50.17,Seito_Main,Tsuda,0000,0000,0000,,That's from the Shichijous.
+Dialogue: 0,0:18:51.94,0:18:59.32,eat,,0000,0000,0000,,Eat
+Dialogue: 0,0:18:52.31,0:18:56.09,Seito_Main,Shino,0000,0000,0000,,I thought Kotomi was quiet...
+Dialogue: 0,0:18:56.09,0:18:59.32,Seito_Main,Suzu,0000,0000,0000,,I guess crab really \Ndoes make people quiet.
+Dialogue: 0,0:18:59.32,0:19:02.29,Seito_Main,Kotomi,0000,0000,0000,,I'm trying to be one of those \Ncharacters who never talks.
+Dialogue: 0,0:19:02.29,0:19:05.45,Seito_Main,Suzu,0000,0000,0000,,If you're telling us you're \Ntrying, you're not succeeding.
+Dialogue: 0,0:19:07.28,0:19:09.21,Seito_Main,Aria,0000,0000,0000,,This wiener is really big.
+Dialogue: 0,0:19:09.85,0:19:13.44,nibble,,0000,0000,0000,,Nibble
+Dialogue: 0,0:19:14.89,0:19:18.30,Seito_Main,Tsuda,0000,0000,0000,,Dejima-san, you're drooling.
+Dialogue: 0,0:19:15.48,0:19:18.97,nibble,,0000,0000,0000,,Nibble
+Dialogue: 0,0:19:18.30,0:19:18.97,Seito_Main,Dejima,0000,0000,0000,,Oh.
+Dialogue: 0,0:19:19.76,0:19:22.91,Seito_Main,Dejima,0000,0000,0000,,That was a clever way of saying \Nyou noticed that I got wet.
+Dialogue: 0,0:19:23.39,0:19:25.13,Seito_Main,Dejima,0000,0000,0000,,I'm going to go change my underwear.
+Dialogue: 0,0:19:25.13,0:19:26.35,Seito_Main,Tsuda,0000,0000,0000,,You're terrible!
+Dialogue: 0,0:19:26.66,0:19:28.35,Seito_Main,All,0000,0000,0000,,That was good.
+Dialogue: 0,0:19:31.11,0:19:32.98,Seito_Main,Shino,0000,0000,0000,,It's warm, so I'm going \Nto take this off.
+Dialogue: 0,0:19:33.75,0:19:35.48,Seito_Main,Aria,0000,0000,0000,,I took something off, too.
+Dialogue: 0,0:19:35.95,0:19:39.10,Seito_Main,Shino,0000,0000,0000,,You're wearing a \None-piece today, right?
+Dialogue: 0,0:19:39.36,0:19:40.51,broom,,0000,0000,0000,,{\fad(50,350)}Phew
+Dialogue: 0,0:19:40.84,0:19:42.49,Seito_Main,Kotomi,0000,0000,0000,,I'm full.
+Dialogue: 0,0:19:43.07,0:19:45.70,Seito_Main,Tsuda,0000,0000,0000,,You're going to get fat if you \Ngo to sleep right after eating.
+Dialogue: 0,0:19:45.70,0:19:47.62,Seito_Main,Kotomi,0000,0000,0000,,No, I won't.
+Dialogue: 0,0:19:47.62,0:19:49.76,Seito_Main,Suzu,0000,0000,0000,,If you go to sleep \Nright after eating,
+Dialogue: 0,0:19:49.76,0:19:51.80,Seito_Main,Suzu,0000,0000,0000,,your stomach acid will \Nenter your esophagus,
+Dialogue: 0,0:19:51.80,0:19:54.38,Seito_Main,Suzu,0000,0000,0000,,inflaming it, which is \Nknown to cause cancer.
+Dialogue: 0,0:21:27.90,0:21:28.59,Seito_Main,Shino,0000,0000,0000,,All right.
+Dialogue: 0,0:21:29.12,0:21:30.25,Seito_Main,Shino,0000,0000,0000,,Let's get started.
+Dialogue: 0,0:21:30.25,0:21:31.22,Seito_Main,Tsuda,0000,0000,0000,,Get what started?
+Dialogue: 0,0:21:31.75,0:21:35.60,Seito_Main,Shino,0000,0000,0000,,I'm going to give everyone presents.
+Dialogue: 0,0:21:35.60,0:21:37.54,Seito_Main,Shino,0000,0000,0000,,It's going to be a surprise.
+Dialogue: 0,0:21:37.54,0:21:39.67,Seito_Main,Shino,0000,0000,0000,,I wanted to tell you,
+Dialogue: 0,0:21:39.67,0:21:41.36,Seito_Main,Shino,0000,0000,0000,,since you live here.
+Dialogue: 0,0:21:42.20,0:21:43.53,Seito_Main,Tsuda,0000,0000,0000,,I see.
+Dialogue: 0,0:21:44.52,0:21:46.36,Seito_Main,Tsuda,0000,0000,0000,,Well, good luck, then.
+Dialogue: 0,0:21:48.42,0:21:51.74,Seito_Main,Shino,0000,0000,0000,,I guess I'm own my own with this...
+Dialogue: 0,0:21:57.91,0:21:59.59,Seito_Main,Shino,0000,0000,0000,,This is kind of hot...
+Dialogue: 0,0:22:00.22,0:22:01.84,Seito_Main,Shino,0000,0000,0000,,Boobs really help.
+Dialogue: 0,0:22:02.36,0:22:05.30,Seito_Main,Tsuda,0000,0000,0000,,The grass is always greener \Non the other side.
+Dialogue: 0,0:22:06.44,0:22:09.32,Seito_Main,Shino,0000,0000,0000,,I don't see any "grass" down here.
+Dialogue: 0,0:22:09.32,0:22:10.30,Seito_Main,Tsuda,0000,0000,0000,,She's going to wake up.
+Dialogue: 0,0:22:16.52,0:22:20.35,Seito_Main,Both,0000,0000,0000,,I checked to see if she \Nhad any stockings up.
+Dialogue: 0,0:22:20.35,0:22:22.94,Seito_Main,Both,0000,0000,0000,,I mean, she probably \Nbelieves in Santa.
+Dialogue: 0,0:22:20.48,0:22:22.94,santa,,0000,0000,0000,,{\fad(400,1)}Probably believes in Santa
+Dialogue: 0,0:22:25.15,0:22:28.57,Seito_Main,Aria,0000,0000,0000,,Hm? Why are you dressed like that?
+Dialogue: 0,0:22:29.21,0:22:31.40,Seito_Main,Shino,0000,0000,0000,,I'm Santa's daughter.
+Dialogue: 0,0:22:31.40,0:22:32.77,Seito_Main,Shino,0000,0000,0000,,You've got the wrong person.
+Dialogue: 0,0:22:32.77,0:22:35.31,Seito_Main,Aria,0000,0000,0000,,Santa's a foreigner.
+Dialogue: 0,0:22:36.12,0:22:37.51,Seito_Main,Shino,0000,0000,0000,,I'm the daughter of his mistress.
+Dialogue: 0,0:22:37.51,0:22:38.83,Seito_Main,Tsuda,0000,0000,0000,,Is this some sort of soap opera?!
+Dialogue: 0,0:22:39.75,0:22:42.73,Seito_Main,Shino,0000,0000,0000,,So I guess you can't get to \Nsleep with a different pillow.
+Dialogue: 0,0:22:42.73,0:22:43.96,Seito_Main,Aria,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:43.96,0:22:48.22,dog,,0000,0000,0000,,Dog body pillow
+Dialogue: 0,0:22:44.32,0:22:47.37,Seito_Main,Aria,0000,0000,0000,,Also, I use a body pillow, so...
+Dialogue: 0,0:22:47.37,0:22:48.22,Seito_Main,Shino,0000,0000,0000,,I see.
+Dialogue: 0,0:22:48.59,0:22:51.92,Seito_Main,Shino,0000,0000,0000,,I want to help, since I'm Santa.
+Dialogue: 0,0:22:52.42,0:22:53.48,Seito_Main,Shino,0000,0000,0000,,Hm...
+Dialogue: 0,0:22:53.48,0:22:54.10,Seito_Main,Shino,0000,0000,0000,,Oh.
+Dialogue: 0,0:22:54.74,0:22:57.70,Seito_Main,Shino,0000,0000,0000,,Wouldn't hugging Hagimura feel good?
+Dialogue: 0,0:22:57.70,0:22:59.35,Seito_Main,Aria,0000,0000,0000,,Oh.
+Dialogue: 0,0:23:00.10,0:23:01.48,Seito_Main,Aria,0000,0000,0000,,Suzu-chan.
+Dialogue: 0,0:23:01.48,0:23:02.79,Seito_Main,Aria,0000,0000,0000,,Suzu-chan.
+Dialogue: 0,0:23:09.38,0:23:10.36,Seito_Main,Aria,0000,0000,0000,,Let me sleep with you!
+Dialogue: 0,0:23:13.10,0:23:16.33,Seito_Main,Shino,0000,0000,0000,,Don't get the wrong idea, Hagimura.
+Dialogue: 0,0:23:16.33,0:23:18.20,Seito_Main,Shino,0000,0000,0000,,No, she wants to \Nshare your bed!
+Dialogue: 0,0:23:19.91,0:23:21.57,Seito_Main,Kaede,0000,0000,0000,,Igarashi Kaede here.
+Dialogue: 0,0:23:19.91,0:23:34.93,Seito_end-top,,0000,0000,0000,,Sei{\c&H16FAFD&}to{\c&HE3FFFF&}kai {\c&HFFFFFF&}Ya{\c&HE3FFFF&}ku{\c&H16FAFD&}ind{\c&H268FF2&}omo
+Dialogue: 0,0:23:19.91,0:23:34.93,Seito_Preview,,0000,0000,0000,,Next Episode Preview
+Dialogue: 0,0:23:21.57,0:23:22.73,Seito_Main,Kaede,0000,0000,0000,,Ever since we've become co-ed,
+Dialogue: 0,0:23:22.73,0:23:24.74,Seito_Main,Kaede,0000,0000,0000,,people have been \Nbehaving so indecently.
+Dialogue: 0,0:23:24.74,0:23:26.08,Seito_Main,Kaede,0000,0000,0000,,Just gives me a headache.
+Dialogue: 0,0:23:26.08,0:23:27.26,Seito_Main,Tsuda,0000,0000,0000,,Really?
+Dialogue: 0,0:23:27.26,0:23:32.30,Seito_Main,Kaede,0000,0000,0000,,N-Next time, we'll be using \NVolume 5 #119 from the manga.
+Dialogue: 0,0:23:31.93,0:23:34.93,Seito_Next_Ep_Titles,,0000,0000,0000,,It's happy New Year\N What it takes to stand \Nabove someone\N Vir*in\N I can't believe \Nyou're washing that
+Dialogue: 0,0:23:32.30,0:23:33.42,Seito_Main,Tsuda,0000,0000,0000,,Hey, where are you going?!
+Dialogue: 0,0:23:33.42,0:23:34.93,Seito_Main,Tsuda,0000,0000,0000,,Watch out! Watch out!
+Dialogue: 0,0:23:34.93,0:23:40.75,end - 2 lines,,0000,0000,0000,,I always cut my \Nfingernails really short!
+Dialogue: 0,0:23:40.75,0:23:42.75,end - 2 lines,,0000,0000,0000,,

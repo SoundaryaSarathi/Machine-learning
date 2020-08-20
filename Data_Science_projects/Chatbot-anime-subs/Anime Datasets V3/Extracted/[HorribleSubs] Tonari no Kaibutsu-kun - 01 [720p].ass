@@ -1,0 +1,523 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Tonari-main,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Tonari-main-top,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0010,0
+Style: Tonari-internal/narrator,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-announcer,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,0
+Style: Tonari-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Tonari-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: Tonari-Sign-top,Amira,40,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0010,0
+Style: Tonari-ep-title-black,Amira,40,&H00000000,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,9,0020,0020,0020,0
+Style: Tonari-ep-title-2-lines,Amira,50,&H00FFFFFF,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0055,0
+Style: Tonari-NextEpisode,Amira,36,&H00FFFFFF,&H000000FF,&H00000000,&H005E6E5A,1,0,0,0,100,100,0,0,1,0,0,7,0050,0010,0010,0
+Style: Tonari-Next-ep-title,Amira,60,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,0,0,4,0150,0100,0015,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Class,Amira,35,&H0045432D,&H000000FF,&H00EBE9F5,&H00000000,0,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: handwriting,Amira,28,&H002C2F2F,&H000000FF,&H00D1CECF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,6,0020,0020,0020,1
+Style: handwriting 2,Amira,50,&H001D1C16,&H000000FF,&H00E7ECEC,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,0020,0020,0020,1
+Style: Chalkboard,Amira,30,&H00F0F4E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,4,0020,0050,0020,1
+Style: Chalkboard-small,Amira,20,&H00A7BC98,&H000000FF,&H005D723B,&H00000000,1,0,0,0,100,100,0,0,1,4,0,5,0020,0050,0020,1
+Style: Location,Amira,40,&H00E8E8E8,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,0020,0040,0085,1
+Style: cellphone,Amira,25,&H0045463B,&H000000FF,&H00D0CFBB,&H00192C3E,0,0,0,0,100,100,0,0,1,4,0,8,0100,0020,0100,0
+Style: cellphone2,Amira,25,&H0045463B,&H000000FF,&H00EAEDEB,&H00192C3E,0,0,0,0,100,100,0,0,1,4,0,5,0050,0020,0010,0
+Style: station,Amira,40,&H00978F8A,&H000000FF,&H00AEACA8,&H00000000,0,0,0,0,100,100,1,0,1,1,2,8,0020,0020,0010,1
+Style: Income,Amira,35,&H0045432D,&H000000FF,&H00E6EAEC,&H00000000,0,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: little-nines,Amira,34,&H009FA3A5,&H000000FF,&H003B6891,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0050,0020,0007,1
+Style: misawa,Amira,32,&H005F2B1D,&H000000FF,&H001155EE,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0070,0010,0015,0
+Style: receipt,Amira,32,&H00232B2F,&H000000FF,&H00E5FFCE,&H00000000,0,0,0,0,110,100,0,0,1,4,0,7,0020,0010,0015,0
+Style: hit,Amira,32,&H002022D1,&H000000FF,&H0062C9D4,&H00000000,0,0,0,0,110,100,0,0,1,4,0,7,0070,0080,0030,0
+Style: monja,Amira,34,&H001E3AAF,&H000000FF,&H00FFFFFB,&H003FAEDC,1,0,0,0,100,100,0,0,1,1,2,9,0050,0020,0007,1
+Style: cookies,Amira,26,&H00FFFFFF,&H000000FF,&H0035413E,&H003FAEDC,0,0,0,0,100,100,0,0,1,4,0,1,0020,0020,0080,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.40,0:00:06.50,Tonari-internal/narrator,Shi,0000,0000,0000,,There's so much I need to talk about.
+Dialogue: 0,0:00:07.84,0:00:09.19,Tonari-internal/narrator,Shi,0000,0000,0000,,About her.
+Dialogue: 0,0:00:10.10,0:00:11.32,Tonari-internal/narrator,Shi,0000,0000,0000,,Him.
+Dialogue: 0,0:00:12.32,0:00:13.36,Tonari-internal/narrator,Shi,0000,0000,0000,,Him.
+Dialogue: 0,0:00:14.54,0:00:15.91,Tonari-internal/narrator,Shi,0000,0000,0000,,Her.
+Dialogue: 0,0:00:17.07,0:00:18.33,Tonari-internal/narrator,Shi,0000,0000,0000,,Him.
+Dialogue: 0,0:00:19.50,0:00:20.67,Tonari-main,Haru,0000,0000,0000,,Hey!
+Dialogue: 0,0:00:21.06,0:00:22.44,Tonari-internal/narrator,Shi,0000,0000,0000,,And him.
+Dialogue: 0,0:00:23.41,0:00:25.96,Tonari-internal/narrator,Shi,0000,0000,0000,,But it wouldn't make \Nsense to start here.
+Dialogue: 0,0:00:26.54,0:00:28.51,Tonari-internal/narrator,Shi,0000,0000,0000,,Let's go back to the beginning.
+Dialogue: 0,0:01:59.05,0:02:04.06,Tonari-ep-title-black,Caption,0000,0000,0000,,Sitting Next To \NYoshida-kun
+Dialogue: 0,0:02:04.69,0:02:07.04,Tonari-internal/narrator,Shi,0000,0000,0000,,My name is Mizutani Shizuku.
+Dialogue: 0,0:02:07.04,0:02:09.20,Tonari-internal/narrator,Shi,0000,0000,0000,,I'm a first-year at Syoyo High School.
+Dialogue: 0,0:02:09.20,0:02:11.16,Tonari-internal/narrator,Shi,0000,0000,0000,,I sit next to Yoshida-kun,
+Dialogue: 0,0:02:11.16,0:02:14.11,Tonari-internal/narrator,,0000,0000,0000,,who hasn't come to class once
+Dialogue: 0,0:02:14.11,0:02:16.27,Tonari-internal/narrator,Shi,0000,0000,0000,,after spilling blood on\N the first day of school.
+Dialogue: 0,0:02:19.79,0:02:21.92,Tonari-main-top,A,0000,0000,0000,,I heard he was covered \Nin blood and laughing.
+Dialogue: 0,0:02:21.39,0:02:23.87,Tonari-internal/narrator,Shi,0000,0000,0000,,Now, Yoshida Haru
+Dialogue: 0,0:02:21.92,0:02:23.87,Tonari-main-top,B,0000,0000,0000,,They say he hangs out with scary people.
+Dialogue: 0,0:02:23.87,0:02:26.62,Tonari-main-top,C,0000,0000,0000,,He can shatter concrete with \Na sideways karate chop.
+Dialogue: 0,0:02:23.87,0:02:27.96,Tonari-internal/narrator,Shi,0000,0000,0000,,is the hot topic of the school \Nas "the phantom first-year."
+Dialogue: 0,0:02:28.85,0:02:33.54,Tonari-internal/narrator,Shi,0000,0000,0000,,A month ago, he put several \Nupperclassmen in the hospital,
+Dialogue: 0,0:02:34.44,0:02:37.53,Tonari-internal/narrator,Shi,0000,0000,0000,,and you can still find \Nlingering evidence of
+Dialogue: 0,0:02:37.53,0:02:39.12,Tonari-internal/narrator,,0000,0000,0000,,the carnage at the crime scene.
+Dialogue: 0,0:02:40.22,0:02:42.29,Tonari-internal/narrator,Shi,0000,0000,0000,,However, none of that mattered to me.
+Dialogue: 0,0:02:43.14,0:02:45.57,Tonari-main,Shi,0000,0000,0000,,I could use a new study guide...
+Dialogue: 0,0:02:46.01,0:02:51.35,Income,Caption,0000,0000,0000,,{\b1}10,000,000 Yen Annual Income\N{\b0}1st Grade Class 1, Mizutani Shizuku
+Dialogue: 0,0:02:47.29,0:02:48.79,Tonari-internal/narrator,Shi,0000,0000,0000,,I have a dream.
+Dialogue: 0,0:02:49.47,0:02:51.35,Tonari-internal/narrator,Shi,0000,0000,0000,,In order to achieve that dream,
+Dialogue: 0,0:02:52.19,0:02:56.00,Tonari-internal/narrator,Shi,0000,0000,0000,,I am completely focused on \Ncalculus for the time being.
+Dialogue: 0,0:02:56.00,0:02:58.12,Tonari-internal/narrator,Shi,0000,0000,0000,,I don't have time to pay \Nattention to other people.
+Dialogue: 0,0:02:58.12,0:02:58.90,Tonari-main,Sae,0000,0000,0000,,Mizutani-san.
+Dialogue: 0,0:03:05.66,0:03:12.92,little-nines,Caption,0000,0000,0000,,Little Nines
+Dialogue: 0,0:03:06.26,0:03:09.44,Tonari-main,Shi,0000,0000,0000,,Excuse me.  My name is Mizutani.
+Dialogue: 0,0:03:09.95,0:03:11.04,Tonari-main,Shi,0000,0000,0000,,Is Yoshida-kun here?
+Dialogue: 0,0:03:11.57,0:03:13.21,Tonari-main,Mi,0000,0000,0000,,Haru?  He's...
+Dialogue: 0,0:03:14.51,0:03:16.91,Tonari-main,Haru,0000,0000,0000,,It's your fault that Marco died!
+Dialogue: 0,0:03:16.91,0:03:18.10,Tonari-main,Mi,0000,0000,0000,,Haru!
+Dialogue: 0,0:03:18.10,0:03:20.68,Tonari-main,Mi,0000,0000,0000,,I told you to control yourself in here!
+Dialogue: 0,0:03:20.68,0:03:21.78,Tonari-main,Haru,0000,0000,0000,,But Mi-chan!
+Dialogue: 0,0:03:21.78,0:03:22.83,Tonari-main,Haru,0000,0000,0000,,He...
+Dialogue: 0,0:03:22.83,0:03:25.03,Tonari-main,Mi,0000,0000,0000,,You can't blame Marco's \Ndeath on anyone else.
+Dialogue: 0,0:03:25.03,0:03:26.66,Tonari-main,Mi,0000,0000,0000,,You just suck.
+Dialogue: 0,0:03:26.66,0:03:27.60,Tonari-main,Mi,0000,0000,0000,,Anyway, here.
+Dialogue: 0,0:03:28.04,0:03:28.95,Tonari-main,Mi,0000,0000,0000,,You have a guest.
+Dialogue: 0,0:03:28.95,0:03:29.80,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:41.33,0:03:42.88,Tonari-main,Shi,0000,0000,0000,,Oh, here you go.
+Dialogue: 0,0:03:43.39,0:03:45.16,Tonari-main,Shi,0000,0000,0000,,I was asked to drop these off.
+Dialogue: 0,0:03:45.18,0:03:50.04,misawa,Caption,0000,0000,0000,,Misawa GAME\NBatting Center
+Dialogue: 0,0:03:45.81,0:03:47.52,Tonari-main,Mi,0000,0000,0000,,Thanks for coming out here.
+Dialogue: 0,0:04:00.51,0:04:02.93,Tonari-main,Haru,0000,0000,0000,,Hey!  Are you a spy for the school?
+Dialogue: 0,0:04:03.42,0:04:04.13,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:04.13,0:04:05.13,Tonari-main,Haru,0000,0000,0000,,Don't play dumb!
+Dialogue: 0,0:04:05.13,0:04:05.81,Tonari-main,Shi,0000,0000,0000,,Ow!
+Dialogue: 0,0:04:05.81,0:04:06.94,Tonari-main,Shi,0000,0000,0000,,That hurts!
+Dialogue: 0,0:04:06.94,0:04:08.86,Tonari-main,Shi,0000,0000,0000,,I was just dropping off some handouts!
+Dialogue: 0,0:04:08.86,0:04:10.07,Tonari-main,Haru,0000,0000,0000,,Handouts?
+Dialogue: 0,0:04:12.32,0:04:13.86,Tonari-main,Haru,0000,0000,0000,,You better not be lying to me.
+Dialogue: 0,0:04:16.57,0:04:19.22,Tonari-main,Haru,0000,0000,0000,,I thought you were going to tell me
+Dialogue: 0,0:04:19.22,0:04:21.04,Tonari-main,,0000,0000,0000,,to go to school like \Nthat one teacher lady.
+Dialogue: 0,0:04:21.69,0:04:22.50,Tonari-main,Haru,0000,0000,0000,,Hey.
+Dialogue: 0,0:04:23.08,0:04:24.35,Tonari-main,Haru,0000,0000,0000,,What's your name?
+Dialogue: 0,0:04:24.35,0:04:26.16,Tonari-main,Shi,0000,0000,0000,,Mi-Mizutani Shizuku.
+Dialogue: 0,0:04:28.25,0:04:29.16,Tonari-main,Haru,0000,0000,0000,,Shizuku?
+Dialogue: 0,0:04:29.16,0:04:29.66,Tonari-main,Shi,0000,0000,0000,,Hmm?
+Dialogue: 0,0:04:30.10,0:04:34.04,Tonari-main,Haru,0000,0000,0000,,S-So this is like when someone gets sick
+Dialogue: 0,0:04:34.04,0:04:37.04,Tonari-main,,0000,0000,0000,,and a friend brings him handouts?
+Dialogue: 0,0:04:37.77,0:04:39.57,Tonari-main,Haru,0000,0000,0000,,Oh, you can call me Haru!
+Dialogue: 0,0:04:40.05,0:04:42.17,Tonari-main,Haru,0000,0000,0000,,S-Since we're friends!
+Dialogue: 0,0:04:43.93,0:04:46.16,Tonari-main,Haru,0000,0000,0000,,See you later, Shizuku!
+Dialogue: 0,0:04:46.16,0:04:47.10,Tonari-internal/narrator,Shi,0000,0000,0000,,Incomprehensible.
+Dialogue: 0,0:04:47.10,0:04:48.20,Tonari-internal/narrator,Shi,0000,0000,0000,,Disturbing.
+Dialogue: 0,0:04:48.71,0:04:51.06,Tonari-internal/narrator,Shi,0000,0000,0000,,That was my first impression.
+Dialogue: 0,0:04:51.08,0:04:56.02,receipt,Caption,0000,0000,0000,,{\fad(1,120)}Receipt\NNinomiya Saeko\NFor study guide\NPurchased on May 10th
+Dialogue: 0,0:04:51.75,0:04:53.80,Tonari-main,Shi,0000,0000,0000,,Pay up, Saeko-sensei.
+Dialogue: 0,0:04:53.80,0:04:55.89,Tonari-main,Shi,0000,0000,0000,,You promised to buy me a study \Nguide if I ran an errand for you.
+Dialogue: 0,0:04:56.76,0:04:59.09,Tonari-main,Sae,0000,0000,0000,,Thank you, Mizutani-san!
+Dialogue: 0,0:04:59.09,0:05:00.76,Tonari-main,Sae,0000,0000,0000,,I didn't know what to do because
+Dialogue: 0,0:05:00.76,0:05:02.18,Tonari-main,,0000,0000,0000,,he refused to see me.
+Dialogue: 0,0:05:02.62,0:05:04.30,Tonari-main,Sae,0000,0000,0000,,How did it go?
+Dialogue: 0,0:05:04.30,0:05:05.95,Tonari-main,Shi,0000,0000,0000,,He called me a friend.
+Dialogue: 0,0:05:06.54,0:05:08.53,Tonari-main,Sae,0000,0000,0000,,What?  That's amazing!
+Dialogue: 0,0:05:08.53,0:05:11.24,Tonari-main,Sae,0000,0000,0000,,In that case, can you persuade \Nhim to come to school?
+Dialogue: 0,0:05:11.63,0:05:12.66,Tonari-main,Shi,0000,0000,0000,,Persuade?
+Dialogue: 0,0:05:13.89,0:05:18.02,Tonari-main,Sae,0000,0000,0000,,You see, Yoshida-kun's suspension \Nhas already been lifted.
+Dialogue: 0,0:05:18.02,0:05:20.50,Tonari-main,Sae,0000,0000,0000,,He did get a bit carried away,
+Dialogue: 0,0:05:20.50,0:05:22.95,Tonari-main,Sae,0000,0000,0000,,but the upperclassmen were at fault.
+Dialogue: 0,0:05:23.47,0:05:27.01,Tonari-main,Sae,0000,0000,0000,,When it happened, he was \Nsuspended without any discussion,
+Dialogue: 0,0:05:27.01,0:05:30.16,Tonari-main,Sae,0000,0000,0000,,so he doesn't trust the school anymore.
+Dialogue: 0,0:05:30.94,0:05:32.59,Tonari-main,Sae,0000,0000,0000,,I'd have trouble sleeping at night
+Dialogue: 0,0:05:32.59,0:05:34.18,Tonari-main,,0000,0000,0000,,if he quits school as a result.
+Dialogue: 0,0:05:34.18,0:05:35.47,Tonari-main,Sae,0000,0000,0000,,So persuade him to come back.
+Dialogue: 0,0:05:35.47,0:05:36.77,Tonari-main,Sae,0000,0000,0000,,Okay, Mizutani-san?
+Dialogue: 0,0:05:37.19,0:05:38.02,Tonari-main,Shi,0000,0000,0000,,I refuse.
+Dialogue: 0,0:05:38.40,0:05:39.87,Tonari-main,Sae,0000,0000,0000,,Wh-Why?!
+Dialogue: 0,0:05:39.87,0:05:41.39,Tonari-main,Sae,0000,0000,0000,,I really need your help!
+Dialogue: 0,0:05:41.39,0:05:43.21,Tonari-main,Sae,0000,0000,0000,,Are you telling me to go persuade him?!
+Dialogue: 0,0:05:43.21,0:05:44.03,Tonari-main,Sae,0000,0000,0000,,Are you a blizzard?!
+Dialogue: 0,0:05:43.88,0:05:45.03,Tonari-internaloverlap,Shi,0000,0000,0000,,Out of the question.
+Dialogue: 0,0:05:44.03,0:05:45.03,Tonari-main,Sae,0000,0000,0000,,A raging blizzard!
+Dialogue: 0,0:05:45.03,0:05:46.24,Tonari-main,Sae,0000,0000,0000,,Blizzard!
+Dialogue: 0,0:05:45.53,0:05:46.24,Tonari-internaloverlap,Shi,0000,0000,0000,,Never again.
+Dialogue: 0,0:05:47.11,0:05:48.92,Tonari-internal/narrator,Shi,0000,0000,0000,,I'm staying clear of that guy.
+Dialogue: 0,0:05:58.67,0:05:59.69,Tonari-main,Haru,0000,0000,0000,,No funny moves.
+Dialogue: 0,0:05:59.69,0:06:01.10,Tonari-main,Haru,0000,0000,0000,,Make one peep and I rape you.
+Dialogue: 0,0:06:02.27,0:06:03.17,Tonari-main,Haru,0000,0000,0000,,Good.
+Dialogue: 0,0:06:08.08,0:06:09.02,Tonari-main,Haru,0000,0000,0000,,Follow me.
+Dialogue: 0,0:06:11.69,0:06:12.92,Tonari-main,Shi,0000,0000,0000,,Um...
+Dialogue: 0,0:06:12.92,0:06:14.72,Tonari-main,Shi,0000,0000,0000,,Why did you bring me out here?
+Dialogue: 0,0:06:14.72,0:06:16.82,Tonari-main,Haru,0000,0000,0000,,I found a stray dog on the way over.
+Dialogue: 0,0:06:17.23,0:06:18.56,Tonari-main,Haru,0000,0000,0000,,So I hid it here.
+Dialogue: 0,0:06:18.91,0:06:19.79,Tonari-main,Shi,0000,0000,0000,,A dog?!
+Dialogue: 0,0:06:20.27,0:06:21.14,Tonari-main,Haru,0000,0000,0000,,What?
+Dialogue: 0,0:06:22.39,0:06:23.27,Tonari-internal/narrator,Shi,0000,0000,0000,,You see...
+Dialogue: 0,0:06:23.79,0:06:24.77,Tonari-internal/narrator,Shi,0000,0000,0000,,I'm not too
+Dialogue: 0,0:06:25.39,0:06:26.53,Tonari-internal/narrator,Shi,0000,0000,0000,,fond of dogs...
+Dialogue: 0,0:06:27.43,0:06:29.48,Tonari-internal/narrator,Shi,0000,0000,0000,,Actually, I'm not fond \Nof animals in general.
+Dialogue: 0,0:06:30.65,0:06:31.58,Tonari-flashback,A,0000,0000,0000,,Sensei!
+Dialogue: 0,0:06:32.28,0:06:33.64,Tonari-flashback,A,0000,0000,0000,,She died!
+Dialogue: 0,0:06:34.10,0:06:37.06,Tonari-flashback,Teach,0000,0000,0000,,Yes, Mimi lived a happy life,
+Dialogue: 0,0:06:37.06,0:06:39.09,Tonari-flashback,Teach,0000,0000,0000,,since she had so many friends.
+Dialogue: 0,0:06:40.40,0:06:41.76,Tonari-flashback,Teach,0000,0000,0000,,What's wrong, Mizutani?
+Dialogue: 0,0:06:42.35,0:06:43.84,Tonari-flashback,Shi,0000,0000,0000,,I need to do my homework,
+Dialogue: 0,0:06:43.84,0:06:45.50,Tonari-flashback,,0000,0000,0000,,so can I go home now?
+Dialogue: 0,0:06:47.41,0:06:51.97,Tonari-internal/narrator,Shi,0000,0000,0000,,After that, my classmates \Nbegan calling me Dry Ice.
+Dialogue: 0,0:06:52.78,0:06:54.47,Tonari-internal/narrator,Shi,0000,0000,0000,,What was I supposed to do?
+Dialogue: 0,0:06:54.47,0:06:56.29,Tonari-internal/narrator,Shi,0000,0000,0000,,I didn't feel sad at all.
+Dialogue: 0,0:06:57.12,0:06:58.74,Tonari-main,Haru,0000,0000,0000,,Oh, there it is!
+Dialogue: 0,0:06:59.94,0:07:02.40,Tonari-main,Haru,0000,0000,0000,,Were you sick of waiting?
+Dialogue: 0,0:07:02.40,0:07:04.48,Tonari-main,Haru,0000,0000,0000,,Your breath really stinks!
+Dialogue: 0,0:07:05.78,0:07:07.86,Tonari-main,Shi,0000,0000,0000,,That's probably not a stray!
+Dialogue: 0,0:07:08.90,0:07:12.49,Tonari-internal/narrator,Shi,0000,0000,0000,,I managed to return \Nthe dog to its owner.
+Dialogue: 0,0:07:16.41,0:07:18.26,Tonari-internal/narrator,Shi,0000,0000,0000,,Why am I here?
+Dialogue: 0,0:07:18.85,0:07:19.62,Tonari-internal/narrator,Shi,0000,0000,0000,,And wait...
+Dialogue: 0,0:07:20.06,0:07:22.06,Tonari-internal/narrator,Shi,0000,0000,0000,,Who are these guys?
+Dialogue: 0,0:07:22.64,0:07:23.63,Tonari-main,Ken,0000,0000,0000,,Yo, Haru.
+Dialogue: 0,0:07:24.05,0:07:25.64,Tonari-main,Haru,0000,0000,0000,,What's up, Yamaken?
+Dialogue: 0,0:07:25.64,0:07:26.69,Tonari-main,Ken,0000,0000,0000,,Who's that?
+Dialogue: 0,0:07:26.69,0:07:28.09,Tonari-main,Haru,0000,0000,0000,,My friend Shizuku.
+Dialogue: 0,0:07:28.49,0:07:29.57,Tonari-main,Ken,0000,0000,0000,,Friend?
+Dialogue: 0,0:07:30.18,0:07:31.05,Tonari-main,Ken,0000,0000,0000,,Heh...
+Dialogue: 0,0:07:31.55,0:07:33.95,Tonari-main,Ma,0000,0000,0000,,So Haru, could you lend me some money?
+Dialogue: 0,0:07:33.95,0:07:35.41,Tonari-main,Haru,0000,0000,0000,,Again?
+Dialogue: 0,0:07:35.41,0:07:39.06,Tonari-main,Ma,0000,0000,0000,,I screwed up and my allowance was cut.
+Dialogue: 0,0:07:40.97,0:07:43.41,Tonari-main,Ma,0000,0000,0000,,Come on, aren't we friends?
+Dialogue: 0,0:07:46.01,0:07:48.23,Tonari-internal/narrator,Shi,0000,0000,0000,,This guy is an idiot.
+Dialogue: 0,0:07:56.73,0:07:58.37,Tonari-main,Haru,0000,0000,0000,,So, what's it like?
+Dialogue: 0,0:07:58.37,0:07:58.91,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:59.42,0:08:01.48,Tonari-main,Haru,0000,0000,0000,,Don't play dumb!
+Dialogue: 0,0:08:01.48,0:08:04.49,Tonari-main,Haru,0000,0000,0000,,I know you went to school today!
+Dialogue: 0,0:08:04.49,0:08:06.04,Tonari-main,Shi,0000,0000,0000,,Wh-What's your point?!
+Dialogue: 0,0:08:06.57,0:08:10.12,Tonari-main,Haru,0000,0000,0000,,W-Was school fun?
+Dialogue: 0,0:08:10.12,0:08:10.98,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:12.13,0:08:14.55,Tonari-main,Haru,0000,0000,0000,,S-So, this is kinda like
+Dialogue: 0,0:08:14.55,0:08:18.31,Tonari-main,,0000,0000,0000,,hanging out with a \Nfriend after school, huh?
+Dialogue: 0,0:08:19.43,0:08:21.89,Tonari-main,Shi,0000,0000,0000,,Yoshida-kun, are you saying that
+Dialogue: 0,0:08:21.89,0:08:23.81,Tonari-main,Shi,0000,0000,0000,,you want to go to school?
+Dialogue: 0,0:08:26.26,0:08:28.07,Tonari-main,Shi,0000,0000,0000,,If you want to know what \Nit's like, just go.
+Dialogue: 0,0:08:31.28,0:08:32.49,Tonari-main,Haru,0000,0000,0000,,I'm scared.
+Dialogue: 0,0:08:33.28,0:08:36.82,Tonari-main,Haru,0000,0000,0000,,Everyone is always afraid \Nof me for some reason.
+Dialogue: 0,0:08:37.48,0:08:39.55,Tonari-main,Haru,0000,0000,0000,,It doesn't take long before \Nthey all start avoiding me.
+Dialogue: 0,0:08:40.32,0:08:42.28,Tonari-main,Haru,0000,0000,0000,,That's why I don't want to go to school.
+Dialogue: 0,0:08:45.00,0:08:48.96,Tonari-main,Haru,0000,0000,0000,,But you're the first person \Nwho came to my home,
+Dialogue: 0,0:08:50.25,0:08:51.88,Tonari-main,Haru,0000,0000,0000,,and those guys were
+Dialogue: 0,0:08:51.88,0:08:55.01,Tonari-main,,0000,0000,0000,,the first people to hang out with \Nme without acting scared,
+Dialogue: 0,0:08:55.59,0:08:58.81,Tonari-main,Haru,0000,0000,0000,,so I don't need to go to school now.
+Dialogue: 0,0:08:59.96,0:09:02.93,Tonari-main,Shi,0000,0000,0000,,You're the only one \Nwho sees it that way.
+Dialogue: 0,0:09:02.93,0:09:03.64,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:04.23,0:09:07.61,Tonari-main,Shi,0000,0000,0000,,Real friends wouldn't use you for money.
+Dialogue: 0,0:09:08.64,0:09:11.06,Tonari-main,Shi,0000,0000,0000,,I don't have any friends, \Nso I'm no expert,
+Dialogue: 0,0:09:11.83,0:09:14.58,Tonari-main,Shi,0000,0000,0000,,but I'd rather have no friends \Nthan have friends like them.
+Dialogue: 0,0:09:27.04,0:09:29.71,Tonari-main,Haru,0000,0000,0000,,You're a bad person.
+Dialogue: 0,0:09:45.65,0:09:46.88,Tonari-internal/narrator,Shi,0000,0000,0000,,What's his problem?
+Dialogue: 0,0:09:47.27,0:09:49.56,Tonari-internal/narrator,Shi,0000,0000,0000,,I was just stating the facts.
+Dialogue: 0,0:09:51.09,0:09:52.55,Tonari-internal/narrator,Shi,0000,0000,0000,,Why was he so mad?
+Dialogue: 0,0:09:55.13,0:09:56.27,Tonari-main,Sae,0000,0000,0000,,Mizutani-san.
+Dialogue: 0,0:09:57.05,0:09:59.10,Tonari-main,Sae,0000,0000,0000,,Did you ask him to come to school?
+Dialogue: 0,0:09:59.49,0:10:00.16,Tonari-main,Shi,0000,0000,0000,,No.
+Dialogue: 0,0:10:00.75,0:10:01.70,Tonari-main,Sae,0000,0000,0000,,I see...
+Dialogue: 0,0:10:02.22,0:10:04.93,Tonari-main,Sae,0000,0000,0000,,He's refusing to take my calls...
+Dialogue: 0,0:10:04.93,0:10:08.19,Tonari-main,Sae,0000,0000,0000,,The way things are looking, \Nhe'll probably be expelled.
+Dialogue: 0,0:10:13.46,0:10:14.59,Tonari-main,Mi,0000,0000,0000,,Welcome.
+Dialogue: 0,0:10:14.59,0:10:15.90,Tonari-main,Mi,0000,0000,0000,,Haru isn't here.
+Dialogue: 0,0:10:15.90,0:10:16.55,Tonari-main,Shi,0000,0000,0000,,Oh.
+Dialogue: 0,0:10:17.02,0:10:19.15,Tonari-main,Shi,0000,0000,0000,,No, um...
+Dialogue: 0,0:10:20.46,0:10:23.59,Tonari-main,Shi,0000,0000,0000,,Can you tell Yoshida-kun\N he'll be expelled
+Dialogue: 0,0:10:23.59,0:10:25.81,Tonari-main,,0000,0000,0000,,if he keeps skipping school?
+Dialogue: 0,0:10:28.25,0:10:28.89,Tonari-main,Shi,0000,0000,0000,,Bye.
+Dialogue: 0,0:10:30.32,0:10:31.27,Tonari-main,Mi,0000,0000,0000,,Hold on.
+Dialogue: 0,0:10:32.57,0:10:34.57,Tonari-main,Mi,0000,0000,0000,,Want a go at it?
+Dialogue: 0,0:10:34.59,0:10:37.32,hit,Caption,0000,0000,0000,,{\an7}Left Hit
+Dialogue: 0,0:10:34.59,0:10:37.32,hit,Caption,0000,0000,0000,,{\an9}Right Hit
+Dialogue: 0,0:10:38.85,0:10:40.77,Tonari-internal/narrator,Shi,0000,0000,0000,,I can't hit the ball...
+Dialogue: 0,0:10:40.77,0:10:42.37,Tonari-internal/narrator,Shi,0000,0000,0000,,Why am I doing this?
+Dialogue: 0,0:10:43.08,0:10:44.67,Tonari-internal/narrator,Shi,0000,0000,0000,,I shouldn't have come here.
+Dialogue: 0,0:10:44.67,0:10:47.04,Tonari-main,Ma,0000,0000,0000,,Man, what's up with Haru?
+Dialogue: 0,0:10:48.06,0:10:50.23,Tonari-main,Ma,0000,0000,0000,,He stopped giving me money.
+Dialogue: 0,0:10:50.23,0:10:50.96,Tonari-main,Tomi,0000,0000,0000,,Really?
+Dialogue: 0,0:10:51.36,0:10:52.89,Tonari-main,Ken,0000,0000,0000,,Does it matter?
+Dialogue: 0,0:10:52.89,0:10:54.75,Tonari-main,Ken,0000,0000,0000,,It's not like you're broke or anything.
+Dialogue: 0,0:10:54.75,0:10:56.46,Tonari-main,Ma,0000,0000,0000,,But it's lame.
+Dialogue: 0,0:10:56.92,0:10:59.65,Tonari-main,Ma,0000,0000,0000,,No point in bothering with him anymore.
+Dialogue: 0,0:11:00.06,0:11:02.43,Tonari-internal/narrator,Shi,0000,0000,0000,,See?  Told you so.
+Dialogue: 0,0:11:02.43,0:11:03.95,Tonari-main,Shi,0000,0000,0000,,Idiot!
+Dialogue: 0,0:11:10.91,0:11:12.19,Tonari-internal/narrator,Shi,0000,0000,0000,,Oh...
+Dialogue: 0,0:11:12.19,0:11:14.74,Tonari-internal/narrator,Shi,0000,0000,0000,,So he actually has feelings.
+Dialogue: 0,0:11:18.78,0:11:20.99,Tonari-internal/narrator,Shi,0000,0000,0000,,Not that I care.
+Dialogue: 0,0:11:22.37,0:11:25.07,Tonari-main,Ma,0000,0000,0000,,The dog was kidnapped!
+Dialogue: 0,0:11:25.07,0:11:26.16,Tonari-main,Tomi,0000,0000,0000,,Seriously?
+Dialogue: 0,0:11:26.38,0:11:29.02,Tonari-internal/narrator,Shi,0000,0000,0000,,{\a6}Something's wrong with me today...
+Dialogue: 0,0:11:26.64,0:11:29.46,Tonari-main,Tomi,0000,0000,0000,,The collar should have told \Nhim that it wasn't a stray.
+Dialogue: 0,0:11:32.94,0:11:35.53,Tonari-internal/narrator,Shi,0000,0000,0000,,Yes, really.
+Dialogue: 0,0:11:34.81,0:11:35.97,Tonari-main,Ma,0000,0000,0000,,What do you want?
+Dialogue: 0,0:11:35.97,0:11:37.55,Tonari-internal/narrator,Shi,0000,0000,0000,,Why am I doing this?
+Dialogue: 0,0:11:35.97,0:11:37.55,Tonari-main,Tomi,0000,0000,0000,,Oh, isn't she...
+Dialogue: 0,0:11:38.15,0:11:40.30,Tonari-main,Tomi,0000,0000,0000,,the girl who was with Haru?
+Dialogue: 0,0:11:39.46,0:11:40.30,Tonari-internal/narrator,Shi,0000,0000,0000,,But...
+Dialogue: 0,0:11:40.97,0:11:42.43,Tonari-internal/narrator,Shi,0000,0000,0000,,After seeing that look on his face...
+Dialogue: 0,0:11:44.43,0:11:49.43,Tonari-main,Shi,0000,0000,0000,,Yo-Yoshida-kun thinks you \Nguys are his friends.
+Dialogue: 0,0:11:50.57,0:11:54.69,Tonari-main,Shi,0000,0000,0000,,So, if you consider him a friend,
+Dialogue: 0,0:11:55.26,0:11:58.78,Tonari-main,Shi,0000,0000,0000,,you should be honest with him!
+Dialogue: 0,0:12:02.51,0:12:03.53,Tonari-main,Ma,0000,0000,0000,,What's her problem?
+Dialogue: 0,0:12:06.74,0:12:08.41,Tonari-main,Ma,0000,0000,0000,,Ha-Haru?!
+Dialogue: 0,0:12:11.22,0:12:13.44,Tonari-main,Haru,0000,0000,0000,,You guys should leave.
+Dialogue: 0,0:12:21.28,0:12:22.74,Tonari-internal/narrator,Shi,0000,0000,0000,,Afterwards,
+Dialogue: 0,0:12:22.74,0:12:25.27,Tonari-internal/narrator,,0000,0000,0000,,Yoshida-kun walked me home \Nwithout saying a word.
+Dialogue: 0,0:12:29.54,0:12:32.06,Tonari-main,Shi,0000,0000,0000,,Y-You don't need to cry!
+Dialogue: 0,0:12:33.12,0:12:34.25,Tonari-main,Haru,0000,0000,0000,,No...
+Dialogue: 0,0:12:34.76,0:12:36.36,Tonari-main,Haru,0000,0000,0000,,I was so happy.
+Dialogue: 0,0:12:37.63,0:12:38.87,Tonari-internal/narrator,Shi,0000,0000,0000,,I don't understand...
+Dialogue: 0,0:12:40.45,0:12:42.90,Tonari-internal/narrator,Shi,0000,0000,0000,,I didn't shed a single \Ntear when that happened,
+Dialogue: 0,0:12:44.10,0:12:47.14,Tonari-internal/narrator,Shi,0000,0000,0000,,but now, I'm about to break down...
+Dialogue: 0,0:12:52.38,0:12:53.93,Tonari-main,Shi,0000,0000,0000,,It's okay.
+Dialogue: 0,0:12:54.77,0:12:58.59,Tonari-main,Shi,0000,0000,0000,,It won't be long before you're \Nsurrounded by lots of people.
+Dialogue: 0,0:13:08.85,0:13:11.62,Tonari-main,Haru,0000,0000,0000,,If you're there,
+Dialogue: 0,0:13:11.62,0:13:13.52,Tonari-main,Haru,0000,0000,0000,,I'll try going to school.
+Dialogue: 0,0:13:14.22,0:13:15.81,Tonari-main,Shi,0000,0000,0000,,I'm glad to hear that.
+Dialogue: 0,0:13:15.81,0:13:17.53,Tonari-main,Haru,0000,0000,0000,,My heart is beating really fast.
+Dialogue: 0,0:13:17.53,0:13:17.98,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:18.34,0:13:20.40,Tonari-main,Haru,0000,0000,0000,,I think I like you.
+Dialogue: 0,0:13:20.40,0:13:21.44,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:21.44,0:13:24.24,Tonari-main,Shi,0000,0000,0000,,Y-You mean in a friend kind of way?
+Dialogue: 0,0:13:24.24,0:13:25.57,Tonari-main,Haru,0000,0000,0000,,In a sexual way!
+Dialogue: 0,0:13:25.57,0:13:27.77,Tonari-main,Shi,0000,0000,0000,,W-Wait a second!
+Dialogue: 0,0:13:27.77,0:13:30.74,Tonari-main,Shi,0000,0000,0000,,I-It's probably just something \Nlike an imprinted sentiment.
+Dialogue: 0,0:13:30.74,0:13:32.14,Tonari-main,Shi,0000,0000,0000,,You're misunderstanding \Nyour own feelings
+Dialogue: 0,0:13:32.14,0:13:33.96,Tonari-main,,0000,0000,0000,,because you've never \Nhad any friends before.
+Dialogue: 0,0:13:33.96,0:13:35.06,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:36.93,0:13:39.87,Tonari-main,Haru,0000,0000,0000,,So once I make more friends, \Nyou'll believe me?
+Dialogue: 0,0:13:39.87,0:13:41.67,Tonari-main,Shi,0000,0000,0000,,I-I guess...
+Dialogue: 0,0:13:42.27,0:13:43.35,Tonari-main,Haru,0000,0000,0000,,Fine,
+Dialogue: 0,0:13:44.29,0:13:46.51,Tonari-main,Haru,0000,0000,0000,,but my feelings won't change.
+Dialogue: 0,0:13:47.39,0:13:51.10,Tonari-main,Haru,0000,0000,0000,,I'll always love you.
+Dialogue: 0,0:13:52.68,0:13:54.58,Tonari-internal/narrator,Shi,0000,0000,0000,,It was a beautiful spring day
+Dialogue: 0,0:13:54.58,0:13:57.77,Tonari-internal/narrator,Shi,0000,0000,0000,,when I received my first \Nconfession of love in my life.
+Dialogue: 0,0:13:59.53,0:14:03.25,Tonari-internal/narrator,Shi,0000,0000,0000,,The next day, Yoshida-kun \Nshowed up at school.
+Dialogue: 0,0:14:04.26,0:14:05.69,Tonari-main,Haru,0000,0000,0000,,Shi-Shizuku!
+Dialogue: 0,0:14:05.69,0:14:07.94,Tonari-main,Haru,0000,0000,0000,,I'm so nervous that\N I can't move my legs!
+Dialogue: 0,0:14:07.94,0:14:10.07,Tonari-main,Shi,0000,0000,0000,,What are you doing here?!
+Dialogue: 0,0:14:10.43,0:14:12.58,Location,Caption,0000,0000,0000,,{\fad(450,1)}One Month Later
+Dialogue: 0,0:14:11.68,0:14:12.58,Tonari-main,Haru,0000,0000,0000,,Shizuku!
+Dialogue: 0,0:14:12.98,0:14:14.08,Tonari-main,Haru,0000,0000,0000,,Help!
+Dialogue: 0,0:14:14.08,0:14:15.63,Tonari-main,Haru,0000,0000,0000,,I'm being robbed!
+Dialogue: 0,0:14:15.63,0:14:17.87,Tonari-main,Haru,0000,0000,0000,,They told me to give them money!
+Dialogue: 0,0:14:19.03,0:14:19.79,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:19.81,0:14:22.54,Chalkboard,Caption,0000,0000,0000,,3. Modern Japanese\N4. Gym (Co-ed)\N5. Math
+Dialogue: 0,0:14:20.66,0:14:22.54,Tonari-main,Haru,0000,0000,0000,,Where are you going, Shizuku?
+Dialogue: 0,0:14:22.88,0:14:23.91,Tonari-main,Shi,0000,0000,0000,,Gym.
+Dialogue: 0,0:14:25.10,0:14:26.48,Tonari-main,Haru,0000,0000,0000,,O-Oh...
+Dialogue: 0,0:14:26.48,0:14:27.56,Tonari-main,Haru,0000,0000,0000,,It's finally come...
+Dialogue: 0,0:14:27.56,0:14:30.16,Tonari-main,Haru,0000,0000,0000,,But this is normal...
+Dialogue: 0,0:14:31.06,0:14:32.46,Tonari-main,Haru,0000,0000,0000,,There!
+Dialogue: 0,0:14:38.22,0:14:39.60,Tonari-main,Shi,0000,0000,0000,,What are you doing?!
+Dialogue: 0,0:14:39.60,0:14:41.23,Tonari-main,Haru,0000,0000,0000,,What?!  But Mi-chan said that...
+Dialogue: 0,0:14:42.50,0:14:43.92,Tonari-internal/narrator,Shi,0000,0000,0000,,Over the past month,
+Dialogue: 0,0:14:43.92,0:14:46.66,Tonari-internal/narrator,Shi,0000,0000,0000,,I've come to realize that there's \Nno end to the wacky behavior
+Dialogue: 0,0:14:46.66,0:14:47.84,Tonari-internal/narrator,Shi,0000,0000,0000,,that arises from
+Dialogue: 0,0:14:47.84,0:14:50.76,Tonari-internal/narrator,Shi,0000,0000,0000,,Haru's misguided notions about school.
+Dialogue: 0,0:14:50.76,0:14:51.49,Tonari-internal/narrator,Shi,0000,0000,0000,,But...
+Dialogue: 0,0:14:52.10,0:14:54.70,Tonari-internal/narrator,Shi,0000,0000,0000,,None of it mattered to me.
+Dialogue: 0,0:14:55.17,0:14:56.33,Tonari-internal/narrator,Shi,0000,0000,0000,,The problem was that...
+Dialogue: 0,0:14:56.33,0:14:58.08,monja,Caption,0000,0000,0000,,May - Monja Special\N20 monja places you must visit
+Dialogue: 0,0:14:56.81,0:14:58.08,Tonari-main,Haru,0000,0000,0000,,Take me here.
+Dialogue: 0,0:14:58.50,0:14:59.33,Tonari-main,Shi,0000,0000,0000,,No.
+Dialogue: 0,0:14:59.33,0:15:00.67,Tonari-main,Haru,0000,0000,0000,,Why not?!
+Dialogue: 0,0:15:00.67,0:15:02.31,Tonari-main,Haru,0000,0000,0000,,We're talking monja!  Monja!
+Dialogue: 0,0:15:02.31,0:15:04.11,Tonari-main,Shi,0000,0000,0000,,Like I already explained,
+Dialogue: 0,0:15:04.11,0:15:06.30,Tonari-main,Shi,0000,0000,0000,,I want to study after school!
+Dialogue: 0,0:15:06.30,0:15:11.30,Tonari-main,Haru,0000,0000,0000,,Monja!  Monja!  Monja!  Monja!
+Dialogue: 0,0:15:06.65,0:15:09.95,Tonari-internal/narrator,Shi,0000,0000,0000,,Yes, ever since returning to school,
+Dialogue: 0,0:15:09.95,0:15:11.30,Tonari-internal/narrator,Shi,0000,0000,0000,,he's been following me around,
+Dialogue: 0,0:15:11.77,0:15:13.67,Tonari-internal/narrator,Shi,0000,0000,0000,,and I'm having trouble studying.
+Dialogue: 0,0:15:13.67,0:15:15.06,Tonari-main,Sae,0000,0000,0000,,Oh, Mizutani-san.
+Dialogue: 0,0:15:15.06,0:15:15.87,Tonari-main,Haru,0000,0000,0000,,Eh?
+Dialogue: 0,0:15:16.90,0:15:18.17,Tonari-main,Haru,0000,0000,0000,,What are you looking at?
+Dialogue: 0,0:15:18.17,0:15:19.60,Tonari-main,Shi,0000,0000,0000,,Okay, no need to intimidate her.
+Dialogue: 0,0:15:19.60,0:15:21.21,Tonari-main,Haru,0000,0000,0000,,I don't like you!
+Dialogue: 0,0:15:21.21,0:15:22.44,Tonari-main,Haru,0000,0000,0000,,Get lost!
+Dialogue: 0,0:15:22.88,0:15:24.19,Tonari-main,Shi,0000,0000,0000,,You should join her.
+Dialogue: 0,0:15:25.16,0:15:25.72,Tonari-main,Sae,0000,0000,0000,,Wait!
+Dialogue: 0,0:15:25.72,0:15:26.98,Tonari-main,Sae,0000,0000,0000,,Stop!  Stop!
+Dialogue: 0,0:15:26.98,0:15:30.00,Tonari-main,Sae,0000,0000,0000,,Yo-Yoshida-kun, you're supposed \Nto treat girls with care!
+Dialogue: 0,0:15:30.00,0:15:32.99,Tonari-main,Sae,0000,0000,0000,,I'll lend you one of my favorite books!
+Dialogue: 0,0:15:32.99,0:15:33.95,Tonari-main,Sae,0000,0000,0000,,Okay?
+Dialogue: 0,0:15:34.27,0:15:36.14,Tonari-main,Sae,0000,0000,0000,,Get along now!
+Dialogue: 0,0:15:36.14,0:15:37.55,Tonari-main,Haru,0000,0000,0000,,"That was when he placed
+Dialogue: 0,0:15:37.55,0:15:40.87,Tonari-main,,0000,0000,0000,,his arms around me in a gentle embrace,
+Dialogue: 0,0:15:40.87,0:15:42.92,Tonari-main,Haru,0000,0000,0000,,and my heart began to pound..."
+Dialogue: 0,0:15:47.89,0:15:49.67,Tonari-flashback,Haru,0000,0000,0000,,My feelings won't change.
+Dialogue: 0,0:15:50.18,0:15:52.97,Tonari-flashback,Haru,0000,0000,0000,,I'll always love you.
+Dialogue: 0,0:15:53.64,0:15:57.16,Tonari-internal/narrator,Shi,0000,0000,0000,,After thinking, thinking, \Nand thinking some more
+Dialogue: 0,0:15:57.16,0:15:58.98,Tonari-internal/narrator,,0000,0000,0000,,about what he meant...
+Dialogue: 0,0:15:58.98,0:16:00.02,Tonari-main,Haru,0000,0000,0000,,Sensei!
+Dialogue: 0,0:16:00.02,0:16:02.56,Tonari-main,,0000,0000,0000,,What does it mean to treat \Nsomeone with care?!
+Dialogue: 0,0:16:02.56,0:16:04.86,Tonari-main,Teach,0000,0000,0000,,You need to be considerate.
+Dialogue: 0,0:16:04.86,0:16:07.23,Tonari-main,Haru,0000,0000,0000,,What do you do to be considerate?
+Dialogue: 0,0:16:07.23,0:16:09.87,Tonari-main,Teach,0000,0000,0000,,You should do nice things.
+Dialogue: 0,0:16:08.15,0:16:09.87,Tonari-internal/narrator,Shi,0000,0000,0000,,For the first time in my life,
+Dialogue: 0,0:16:10.55,0:16:12.55,Tonari-internal/narrator,Shi,0000,0000,0000,,I gave up on a question \NI couldn't solve.
+Dialogue: 0,0:16:15.74,0:16:17.87,Tonari-main,Haru,0000,0000,0000,,They look like they're having fun.
+Dialogue: 0,0:16:18.29,0:16:22.72,Tonari-main,Haru,0000,0000,0000,,I bet they get to eat dinner \Nor play dodgeball together.
+Dialogue: 0,0:16:22.72,0:16:25.13,Tonari-main,Haru,0000,0000,0000,,I wish I got to do something...
+Dialogue: 0,0:16:25.13,0:16:26.59,Tonari-main,Haru,0000,0000,0000,,Come on, Shizuku...
+Dialogue: 0,0:16:26.59,0:16:29.24,Tonari-main,Shi,0000,0000,0000,,I already said that I'm not going!
+Dialogue: 0,0:16:29.24,0:16:30.86,Tonari-main,Shi,0000,0000,0000,,Midterms are coming up.
+Dialogue: 0,0:16:31.97,0:16:34.80,Tonari-main,Haru,0000,0000,0000,,It's not just about monja.
+Dialogue: 0,0:16:35.62,0:16:37.81,Tonari-main,Haru,0000,0000,0000,,Friends are supposed to \Nhang out together, right?
+Dialogue: 0,0:16:39.14,0:16:41.28,Tonari-main,Haru,0000,0000,0000,,I want to go with you.
+Dialogue: 0,0:16:42.16,0:16:44.90,Tonari-main,Haru,0000,0000,0000,,Nobody else is willing \Nto look me in the eye.
+Dialogue: 0,0:16:45.49,0:16:47.75,Tonari-main,Shi,0000,0000,0000,,That's because you're either \Nglaring at them, threatening them,
+Dialogue: 0,0:16:47.75,0:16:49.23,Tonari-main,,0000,0000,0000,,or beating them up.
+Dialogue: 0,0:16:51.25,0:16:53.69,Tonari-main,Shi,0000,0000,0000,,There was a speech during \Nthe opening ceremony
+Dialogue: 0,0:16:54.44,0:16:56.97,Tonari-main,Shi,0000,0000,0000,,that was given by the first-year \Nwith the highest score.
+Dialogue: 0,0:16:58.18,0:17:01.75,Tonari-main,Shi,0000,0000,0000,,I've always had the highest grades.
+Dialogue: 0,0:17:02.11,0:17:04.21,Tonari-main,Shi,0000,0000,0000,,I worked very hard \Nto make that happen.
+Dialogue: 0,0:17:04.21,0:17:07.54,Tonari-flashback,A,0000,0000,0000,,Next, we have a speech \Nfrom the first year class.
+Dialogue: 0,0:17:06.29,0:17:07.54,Tonari-overlap,A,0000,0000,0000,,But this time...
+Dialogue: 0,0:17:08.79,0:17:10.33,Tonari-main,Shi,0000,0000,0000,,it wasn't me.
+Dialogue: 0,0:17:14.76,0:17:15.97,Tonari-main,Shi,0000,0000,0000,,So...
+Dialogue: 0,0:17:16.50,0:17:18.81,Tonari-main,,0000,0000,0000,,I have to redeem myself during midterms.
+Dialogue: 0,0:17:19.41,0:17:21.49,Tonari-main,Shi,0000,0000,0000,,I don't have time to waste on monja.
+Dialogue: 0,0:17:22.09,0:17:23.14,Tonari-main,Haru,0000,0000,0000,,Oh.
+Dialogue: 0,0:17:23.57,0:17:25.91,Tonari-main,,0000,0000,0000,,First, you find the coordinates \Nfor the intersection.
+Dialogue: 0,0:17:26.37,0:17:28.23,Tonari-main,Haru,0000,0000,0000,,And this answer is wrong.
+Dialogue: 0,0:17:28.88,0:17:32.15,Tonari-main,Haru,0000,0000,0000,,It should be b=4, not b=8.
+Dialogue: 0,0:17:33.57,0:17:34.78,Tonari-internal/narrator,Shi,0000,0000,0000,,I remember now...
+Dialogue: 0,0:17:35.77,0:17:38.99,Tonari-internal/narrator,Shi,0000,0000,0000,,The first-year speaker...
+Dialogue: 0,0:17:38.99,0:17:41.01,Tonari-flashback,A,0000,0000,0000,,Please step forward.
+Dialogue: 0,0:17:41.39,0:17:42.79,Tonari-internal/narrator,Shi,0000,0000,0000,,...never showed up.
+Dialogue: 0,0:17:42.79,0:17:46.99,Tonari-flashback,A,0000,0000,0000,,First-year speaker, Yoshida Haru!
+Dialogue: 0,0:17:46.99,0:17:47.83,Tonari-main,Haru,0000,0000,0000,,Hmm?
+Dialogue: 0,0:17:51.06,0:17:52.60,Tonari-main,Haru,0000,0000,0000,,Oh!  Shizuku!
+Dialogue: 0,0:17:52.60,0:17:55.22,Tonari-main,Haru,0000,0000,0000,,Why did you go home without \Ntelling me yesterday?!
+Dialogue: 0,0:17:59.05,0:18:00.00,Tonari-main,Haru,0000,0000,0000,,What?!
+Dialogue: 0,0:18:00.45,0:18:03.40,Tonari-main,Shi,0000,0000,0000,,Sorry, but until midterms \Nare over, you're my enemy.
+Dialogue: 0,0:18:04.05,0:18:05.85,Tonari-main,Shi,0000,0000,0000,,I need you to stop distracting \Nme from my studies.
+Dialogue: 0,0:18:10.04,0:18:12.01,Tonari-main,Haru,0000,0000,0000,,What's so special about studying?
+Dialogue: 0,0:18:12.79,0:18:15.10,Tonari-main,Haru,0000,0000,0000,,Every problem has an answer. \N How hard can it be?
+Dialogue: 0,0:18:16.77,0:18:18.82,Tonari-main,Haru,0000,0000,0000,,You must really hate me.
+Dialogue: 0,0:18:23.79,0:18:25.45,Tonari-main,Shi,0000,0000,0000,,Man, seriously!
+Dialogue: 0,0:18:26.11,0:18:29.79,Tonari-main,Shi,0000,0000,0000,,Why am I so upset?!
+Dialogue: 0,0:18:33.66,0:18:35.13,Tonari-main,Shi,0000,0000,0000,,I should study.
+Dialogue: 0,0:18:35.49,0:18:38.19,Tonari-internal/narrator,Shi,0000,0000,0000,,Right.  Other people don't matter.
+Dialogue: 0,0:18:38.63,0:18:40.47,Tonari-internal/narrator,Shi,0000,0000,0000,,That's the philosophy \NI've always followed.
+Dialogue: 0,0:18:44.82,0:18:45.62,Tonari-main,Haru,0000,0000,0000,,Hey.
+Dialogue: 0,0:18:45.62,0:18:46.65,Tonari-main,Natsu,0000,0000,0000,,Yes?
+Dialogue: 0,0:18:46.65,0:18:48.04,Tonari-main,Haru,0000,0000,0000,,Where's Shizuku?
+Dialogue: 0,0:18:48.04,0:18:49.65,Tonari-main,Natsu,0000,0000,0000,,I-I don't know...
+Dialogue: 0,0:18:49.65,0:18:51.69,Tonari-main,Sasa,0000,0000,0000,,Oh, I saw her a second ago.
+Dialogue: 0,0:18:53.04,0:18:55.45,Tonari-main,A,0000,0000,0000,,Man, why did you bring her here?
+Dialogue: 0,0:18:55.86,0:18:59.21,Tonari-main,B,0000,0000,0000,,Aren't you mad about that \Nfirst-year beating us up?
+Dialogue: 0,0:18:57.99,0:19:02.57,cookies,Caption,0000,0000,0000,,{\fad(2000,1)}Pumpkin\N Pudding\N Cookies
+Dialogue: 0,0:18:59.21,0:19:01.13,Tonari-main,C,0000,0000,0000,,How adorable. \NAre you a first-year?
+Dialogue: 0,0:19:01.13,0:19:02.57,Tonari-main,D,0000,0000,0000,,Want something to eat?
+Dialogue: 0,0:19:02.86,0:19:04.93,Tonari-main,A,0000,0000,0000,,{\a6}You always act without thinking.
+Dialogue: 0,0:19:02.86,0:19:07.24,Tonari-internal/narrator,Shi,0000,0000,0000,,They're the ones Haru beat \Nup for robbing him.
+Dialogue: 0,0:19:07.94,0:19:08.81,Tonari-main,Shi,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:19:09.47,0:19:11.34,Tonari-main,Shi,0000,0000,0000,,Do you mind if I study?
+Dialogue: 0,0:19:11.34,0:19:11.95,Tonari-main,B,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:11.95,0:19:13.34,Tonari-main,A,0000,0000,0000,,Er, go ahead.
+Dialogue: 0,0:19:14.48,0:19:15.34,Tonari-internal/narrator,Shi,0000,0000,0000,,Right.
+Dialogue: 0,0:19:16.33,0:19:17.97,Tonari-internal/narrator,Shi,0000,0000,0000,,Everything has gone wrong
+Dialogue: 0,0:19:17.97,0:19:20.09,Tonari-internal/narrator,,0000,0000,0000,,since he came into the picture.
+Dialogue: 0,0:19:20.32,0:19:21.95,Tonari-internal/narrator,Shi,0000,0000,0000,,I just want
+Dialogue: 0,0:19:21.95,0:19:23.35,Tonari-internal/narrator,Shi,0000,0000,0000,,some peace and quiet
+Dialogue: 0,0:19:23.79,0:19:25.48,Tonari-internal/narrator,Shi,0000,0000,0000,,to study.
+Dialogue: 0,0:19:26.96,0:19:28.78,Tonari-main,Haru,0000,0000,0000,,Where is Shizuku?!
+Dialogue: 0,0:19:30.24,0:19:31.28,Tonari-main,Haru,0000,0000,0000,,Shizuku!
+Dialogue: 0,0:19:32.11,0:19:33.32,Tonari-main,Haru,0000,0000,0000,,Bastards!
+Dialogue: 0,0:19:33.32,0:19:34.78,Tonari-main,Haru,0000,0000,0000,,What did you do to her?!
+Dialogue: 0,0:19:34.22,0:19:35.76,Tonari-overlap,Shi,0000,0000,0000,,Forget it.  Let's go.
+Dialogue: 0,0:19:35.76,0:19:37.14,Tonari-main,Haru,0000,0000,0000,,I can't let this slide!
+Dialogue: 0,0:19:37.14,0:19:39.95,Tonari-main,Haru,0000,0000,0000,,I'm going to kill them!
+Dialogue: 0,0:19:39.95,0:19:41.05,Tonari-main,Shi,0000,0000,0000,,It's okay.
+Dialogue: 0,0:19:41.05,0:19:42.07,Tonari-main,Shi,0000,0000,0000,,Stop it...
+Dialogue: 0,0:19:42.07,0:19:43.38,Tonari-main,Haru,0000,0000,0000,,Shut up!
+Dialogue: 0,0:19:49.89,0:19:51.36,Tonari-main,A,0000,0000,0000,,W-Wait!
+Dialogue: 0,0:19:51.36,0:19:52.58,Tonari-main,B,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:19:55.93,0:19:57.19,Tonari-main,Shi,0000,0000,0000,,I've...
+Dialogue: 0,0:19:58.24,0:19:59.59,Tonari-main,Shi,0000,0000,0000,,had enough.
+Dialogue: 0,0:20:00.93,0:20:02.13,Tonari-main,Shi,0000,0000,0000,,We're finished.
+Dialogue: 0,0:20:03.93,0:20:07.39,Tonari-main,Shi,0000,0000,0000,,I'm sick of your friendship games.
+Dialogue: 0,0:20:08.68,0:20:10.39,Tonari-main,Shi,0000,0000,0000,,Just disappear.
+Dialogue: 0,0:20:13.63,0:20:15.25,Tonari-main,Shi,0000,0000,0000,,Maybe you thought
+Dialogue: 0,0:20:15.25,0:20:18.19,Tonari-main,,0000,0000,0000,,I could provide you with the \Nconnection you always wanted,
+Dialogue: 0,0:20:19.07,0:20:21.70,Tonari-main,Shi,0000,0000,0000,,but I can't give you that,
+Dialogue: 0,0:20:22.82,0:20:26.33,Tonari-main,Shi,0000,0000,0000,,because I think it's a waste of time.
+Dialogue: 0,0:20:31.06,0:20:32.28,Tonari-main,Haru,0000,0000,0000,,So that's how it is...
+Dialogue: 0,0:20:43.88,0:20:46.89,Chalkboard-small,Caption,0000,0000,0000,,Midterms\N1st Period - Modern Japanese\N2nd Period - English\N3rd Period - Math
+Dialogue: 0,0:20:58.27,0:21:01.40,Tonari-note,Caption,0000,0000,0000,,{\a6}Midterm Grades - First Year\N1st Mizutani Shizuku\N2nd Sawada Riku\N3rd Kasano Masamune
+Dialogue: 0,0:20:59.19,0:21:00.14,Tonari-main,Shi,0000,0000,0000,,Yes!
+Dialogue: 0,0:21:00.96,0:21:02.04,Tonari-main,Shi,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:04.14,0:21:05.29,Tonari-internal/narrator,Shi,0000,0000,0000,,I don't understand...
+Dialogue: 0,0:21:06.40,0:21:07.81,Tonari-internal/narrator,Shi,0000,0000,0000,,I came in first.
+Dialogue: 0,0:21:09.12,0:21:10.89,Tonari-internal/narrator,Shi,0000,0000,0000,,I should be happy.
+Dialogue: 0,0:21:13.42,0:21:14.56,Tonari-main,Mi,0000,0000,0000,,Man...
+Dialogue: 0,0:21:14.56,0:21:17.84,Tonari-main,Mi,0000,0000,0000,,If you're not being victimized, \Nyou're picking fights.
+Dialogue: 0,0:21:18.62,0:21:20.54,Tonari-main,Mi,0000,0000,0000,,Just look at what happened \Nwith those kids.
+Dialogue: 0,0:21:22.14,0:21:26.09,Tonari-flashback,Shi,0000,0000,0000,,You should be honest with him!
+Dialogue: 0,0:21:32.65,0:21:34.18,Tonari-main,Mi,0000,0000,0000,,Oh, welcome.
+Dialogue: 0,0:21:35.45,0:21:36.29,Tonari-main,Shi,0000,0000,0000,,First.
+Dialogue: 0,0:21:36.86,0:21:38.97,Tonari-main,Haru,0000,0000,0000,,Huh?  What's your point?
+Dialogue: 0,0:21:39.63,0:21:42.78,Tonari-main,Haru,0000,0000,0000,,You hate me so much that you \Nwanted to rub it in my face?
+Dialogue: 0,0:21:44.52,0:21:45.73,Tonari-main,Shi,0000,0000,0000,,I don't hate you.
+Dialogue: 0,0:21:47.16,0:21:50.00,Tonari-main,Shi,0000,0000,0000,,I don't hate you, Haru.
+Dialogue: 0,0:21:52.56,0:21:54.83,Tonari-flashback,Shi,0000,0000,0000,,Y-You don't need to cry!
+Dialogue: 0,0:21:55.42,0:21:56.33,Tonari-flashback,Haru,0000,0000,0000,,No.
+Dialogue: 0,0:21:56.76,0:21:58.51,Tonari-flashback,Haru,0000,0000,0000,,I was so happy.
+Dialogue: 0,0:21:58.51,0:22:00.01,Tonari-internal/narrator,Shi,0000,0000,0000,,In that moment,
+Dialogue: 0,0:22:01.42,0:22:04.25,Tonari-internal/narrator,Shi,0000,0000,0000,,I could feel my heart move.
+Dialogue: 0,0:22:06.41,0:22:08.01,Tonari-main,Shi,0000,0000,0000,,I forgot to tell you:
+Dialogue: 0,0:22:08.62,0:22:10.80,Tonari-main,Shi,0000,0000,0000,,Thank you for coming to save me.
+Dialogue: 0,0:22:12.31,0:22:13.56,Tonari-main,Shi,0000,0000,0000,,You made me happy.
+Dialogue: 0,0:22:15.15,0:22:16.31,Tonari-internal/narrator,Shi,0000,0000,0000,,After that...
+Dialogue: 0,0:22:16.73,0:22:20.62,Tonari-internal/narrator,Shi,0000,0000,0000,,The general consensus \Nis that Yoshida Haru
+Dialogue: 0,0:22:20.62,0:22:22.27,Tonari-internal/narrator,,0000,0000,0000,,has calmed down.
+Dialogue: 0,0:22:26.30,0:22:28.00,Tonari-main,Shi,0000,0000,0000,,You're quiet today.
+Dialogue: 0,0:22:28.00,0:22:30.05,Tonari-main,Haru,0000,0000,0000,,Yep, you bet.
+Dialogue: 0,0:22:30.05,0:22:31.48,Tonari-main,Haru,0000,0000,0000,,Because you care
+Dialogue: 0,0:22:31.48,0:22:34.08,Tonari-main,,0000,0000,0000,,about studying a lot, \Nfor some reason, right?
+Dialogue: 0,0:22:34.47,0:22:36.07,Tonari-main,Haru,0000,0000,0000,,If it's something you care about,
+Dialogue: 0,0:22:36.07,0:22:37.58,Tonari-main,,0000,0000,0000,,it's something I care about.
+Dialogue: 0,0:22:39.38,0:22:40.59,Tonari-internal/narrator,Shi,0000,0000,0000,,I see.
+Dialogue: 0,0:22:41.14,0:22:43.42,Tonari-internal/narrator,Shi,0000,0000,0000,,So that's what it means to \Ntreat someone with care.
+Dialogue: 0,0:22:46.99,0:22:48.00,Tonari-internal/narrator,Shi,0000,0000,0000,,Which means...
+Dialogue: 0,0:22:48.55,0:22:51.19,Tonari-internal/narrator,Shi,0000,0000,0000,,I'm being cared about right now?
+Dialogue: 0,0:22:54.51,0:22:56.52,Tonari-main,Haru,0000,0000,0000,,What is it?  Are you done?
+Dialogue: 0,0:22:57.35,0:22:59.08,Tonari-main,Shi,0000,0000,0000,,A-Are you hungry?
+Dialogue: 0,0:23:01.43,0:23:04.74,Tonari-main,Haru,0000,0000,0000,,Monja!  Monja!  Monja!
+Dialogue: 0,0:23:05.23,0:23:09.80,Tonari-main,Haru,0000,0000,0000,,You must be really hungry \Nif you stopped studying.
+Dialogue: 0,0:23:09.80,0:23:11.43,Tonari-main,Shi,0000,0000,0000,,Oh.  Well...
+Dialogue: 0,0:23:11.86,0:23:14.31,Tonari-main,Shi,0000,0000,0000,,I wasn't getting any studying done.
+Dialogue: 0,0:23:14.31,0:23:15.12,Tonari-main,Haru,0000,0000,0000,,Hmm?
+Dialogue: 0,0:23:16.60,0:23:18.62,Tonari-main,Shi,0000,0000,0000,,Plus, you look happy.
+Dialogue: 0,0:23:22.59,0:23:23.46,Tonari-main,Shi,0000,0000,0000,,What?
+Dialogue: 0,0:23:36.44,0:23:37.14,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:37.96,0:23:39.27,Tonari-main,Haru,0000,0000,0000,,My heart isn't pounding.
+Dialogue: 0,0:23:39.93,0:23:40.78,Tonari-main,Haru,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:40.78,0:23:41.87,Tonari-main,Haru,0000,0000,0000,,Why not?
+Dialogue: 0,0:23:42.31,0:23:44.09,Tonari-main,Haru,0000,0000,0000,,So I've noticed that
+Dialogue: 0,0:23:44.09,0:23:46.44,Tonari-main,Haru,0000,0000,0000,,you don't make my heart flutter.
+Dialogue: 0,0:23:46.44,0:23:47.23,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:47.75,0:23:49.62,Tonari-main,Haru,0000,0000,0000,,I wonder why.
+Dialogue: 0,0:23:50.05,0:23:52.45,Tonari-main,Haru,0000,0000,0000,,My heart was jumping out \Nof my chest before.
+Dialogue: 0,0:23:53.15,0:23:55.92,Tonari-main,Haru,0000,0000,0000,,But I still love you.
+Dialogue: 0,0:23:58.18,0:24:01.24,Tonari-main,Haru,0000,0000,0000,,Hey.  Let's hurry up, Shizuku.
+Dialogue: 0,0:24:03.49,0:24:04.44,Tonari-main,Shi,0000,0000,0000,,Huh?
+Dialogue: 0,0:24:08.76,0:24:10.53,Tonari-main,Haru,0000,0000,0000,,Ooh, a rooster.
+Dialogue: 0,0:24:10.53,0:24:11.78,Tonari-main,Haru,0000,0000,0000,,Wait, are you a stray?
+Dialogue: 0,0:24:11.78,0:24:14.15,Tonari-main,Haru,0000,0000,0000,,Well, you'll catch a cold if \Nyou stay out in the rain.
+Dialogue: 0,0:24:14.15,0:24:14.76,Tonari-main,Haru,0000,0000,0000,,Come in here.
+Dialogue: 0,0:24:15.55,0:24:17.41,Tonari-main,Haru,0000,0000,0000,,You don't want to? \NI took a bath yesterday...
+Dialogue: 0,0:24:17.10,0:24:21.10,Tonari-NextEpisode,Caption,0000,0000,0000,,Next Episode
+Dialogue: 0,0:24:17.10,0:24:21.10,Tonari-Next-ep-title,Caption,0000,0000,0000,,Weird
+Dialogue: 0,0:24:17.41,0:24:18.40,Tonari-main,Haru,0000,0000,0000,,Ow!  Ow!
+Dialogue: 0,0:24:18.40,0:24:19.29,Tonari-main,Haru,0000,0000,0000,,Watch the claws!
+Dialogue: 0,0:24:19.29,0:24:20.58,Tonari-main,Haru,0000,0000,0000,,That's a sensitive area!

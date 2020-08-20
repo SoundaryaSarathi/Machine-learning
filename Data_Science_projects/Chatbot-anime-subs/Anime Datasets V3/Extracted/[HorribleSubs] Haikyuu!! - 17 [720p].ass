@@ -1,0 +1,475 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: volley-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-main-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-internal-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000026,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: volley-internaloverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashbackoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-show-title,Open Sans Semibold,130,&H00030302,&H000000FF,&H00215EF2,&H00222A17,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: volley-ep-title,Open Sans Semibold,32,&H00FFFFFF,&H000000FF,&H00222A17,&H00222A17,0,1,0,0,100,100,0,0,1,1,1,3,7,63,67,0
+Style: volley-eyecatch-a,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,7,75,61,127,0
+Style: volley-eyecatch-b,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,1,75,61,127,0
+Style: volley-preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-next-ep-title,Open Sans Semibold,32,&H00000000,&H000000FF,&H003C78B9,&H00000A2D,1,1,0,0,100,100,0,0,1,1,1,3,0,61,73,0
+Style: location,Open Sans Semibold,58,&H00FFFFFF,&H000000FF,&H00555857,&H00555857,1,0,0,0,100,100,0,0,1,0,2,2,13,35,113,0
+Style: chalkboard,Open Sans Semibold,35,&H00E8EEDF,&H000000FF,&H004F5738,&H006F808B,0,0,0,0,100,100,0,1,1,4,0,8,67,67,53,0
+Style: scoreboard,Open Sans Semibold,32,&H00303030,&H000000FF,&H00B6B6B6,&H006F808B,1,0,0,0,100,100,0,0,1,0,0,2,32,0,40,0
+Style: scoreboard2,Open Sans Semibold,29,&H00282826,&H000000FF,&H00E2E3E0,&H006F808B,1,0,0,0,100,100,0,0,1,0,0,2,40,0,27,0
+Style: scoreboard3,Open Sans Semibold,26,&H002F2F2D,&H000000FF,&H00E2E3E0,&H006F808B,1,0,0,0,100,100,0,358,1,0,0,2,0,67,80,0
+Style: big score,Open Sans Semibold,87,&H00FFFFFF,&H000000FF,&H00282826,&H006F808B,0,0,0,0,100,100,0,30,1,3,0,5,0,0,23,0
+Style: equip,Open Sans Semibold,24,&H00898A88,&H000000FF,&H00E9ECEB,&H00505B5E,1,0,0,0,100,100,0,340,1,4,0,8,53,13,53,0
+Style: notepad,Open Sans Semibold,15,&H00929290,&H000000FF,&H00FDFDFD,&H005C574B,0,0,0,0,100,100,0,9,1,4,0,8,13,107,93,0
+Style: store,Open Sans Semibold,26,&H00577A82,&H000000FF,&H004B4E57,&H00566F74,1,0,0,0,100,100,0,350,1,2,2,2,27,67,173,0
+Style: school,Open Sans Semibold,29,&H00929397,&H000000FF,&H00404249,&H00D1FDFF,0,0,0,0,100,100,0,354,1,2,0,7,27,27,127,0
+Style: fly,Open Sans Semibold,58,&H00E5E9EB,&H000000FF,&H00282120,&H005C574B,0,0,0,0,100,100,0,0,1,4,0,8,27,27,40,0
+Style: kuro-jersey,Open Sans Semibold,29,&H00E8E8E3,&H000000FF,&H00343230,&H00D1FDFF,1,0,0,0,100,100,0,0,1,4,0,8,67,0,133,0
+Style: date-jersey,Open Sans Semibold,35,&H00262424,&H000000FF,&H00C1B8B8,&H00D1FDFF,1,0,0,0,100,100,0,0,1,4,0,8,0,0,73,0
+Style: shirt,Open Sans Semibold,41,&H00252522,&H000000FF,&H00CBC0A4,&H00D1FDFF,1,0,0,0,100,100,0,0,1,2,0,4,267,13,13,0
+Style: polish,Open Sans Semibold,26,&H003FD0E6,&H000000FF,&H00726942,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,20,13,160,0
+Style: ironwallbanner,Open Sans Semibold,44,&H002D2F22,&H000000FF,&H00B3BC92,&H00000000,1,0,0,0,100,100,0,348,1,4,0,1,160,27,187,0
+Style: chart,Open Sans Semibold,25,&H00484848,&H000000FF,&H00F3F3F3,&H00D1FDFF,1,0,0,0,100,100,0,0,1,4,0,6,40,27,67,0
+Style: tokobanner,Open Sans Semibold,29,&H00ECEFEC,&H000000FF,&H00D2BD96,&H00000000,1,0,0,0,100,100,0,2,1,3,0,7,40,27,60,0
+Style: prefec,Open Sans Semibold,22,&H004A4947,&H000000FF,&H00E4D9D7,&H00D1FDFF,1,0,0,0,100,100,0,0,1,4,0,8,0,0,27,0
+Style: ironwallbanner2,Open Sans Semibold,44,&H002D2F22,&H000000FF,&H00B3BC92,&H00000000,1,0,0,0,100,100,0,0,1,4,0,4,27,27,27,0
+Style: ironwallbanner3,Open Sans Semibold,44,&H002D2F22,&H000000FF,&H00B3BC92,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,27,27,160,0
+Style: karasunobasket,Open Sans Semibold,36,&H001A1C1C,&H000000FF,&H00CBD5D8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,133,0
+Style: big score1,Open Sans Semibold,87,&H00FFFFFF,&H000000FF,&H00282826,&H006F808B,0,0,0,0,100,100,0,-30,1,3,0,5,0,0,23,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.00,volley-main,Tanaka (overlap),0000,0000,0000,,That was pretty good, Hinata.
+Dialogue: 0,0:00:00.00,0:00:00.00,volley-main,Nishi (overlap),0000,0000,0000,,You bastard!
+Dialogue: 0,0:00:00.98,0:00:04.48,scoreboard,Scoreboard left to right,0000,0000,0000,,Dateko                   Karasuno
+Dialogue: 0,0:00:09.19,0:00:12.24,volley-internal,Asahi,0000,0000,0000,,The powerful iron wall \Ndefeated us three months ago.
+Dialogue: 0,0:00:13.00,0:00:15.11,volley-flashback,Hinata,0000,0000,0000,,All the blockers vanish from sight...
+Dialogue: 0,0:00:15.11,0:00:18.24,volley-flashback,Hinata,0000,0000,0000,,And the view of the other side\N of the net opens up.
+Dialogue: 0,0:00:19.79,0:00:23.50,volley-internal,Asahi,0000,0000,0000,,That's what I used to see, too,
+Dialogue: 0,0:00:25.01,0:00:29.29,volley-internal,Asahi,0000,0000,0000,,until the iron wall blocked my view.
+Dialogue: 0,0:00:31.10,0:00:35.24,volley-internal,Asahi,0000,0000,0000,,What does the other side \Nof the iron wall look like?
+Dialogue: 0,0:00:36.72,0:00:38.51,volley-main,Nishi,0000,0000,0000,,Rolling...
+Dialogue: 0,0:00:40.52,0:00:42.64,volley-main,Nishi,0000,0000,0000,,...Thunder...
+Dialogue: 0,0:00:42.64,0:00:43.77,volley-main,Nishi,0000,0000,0000,,Again!
+Dialogue: 0,0:00:46.87,0:00:50.27,volley-main,Nishi,0000,0000,0000,,All right. There's nothing to worry about.
+Dialogue: 0,0:00:51.33,0:00:53.24,volley-main,Nishi,0000,0000,0000,,All of you, keep your eyes forward.
+Dialogue: 0,0:00:54.09,0:00:56.57,volley-main,Nishi,0000,0000,0000,,Because you have me guarding your backs.
+Dialogue: 0,0:00:59.83,0:01:01.79,volley-main,Kage/Hin/Tan,0000,0000,0000,,A-Awesome!
+Dialogue: 0,0:01:04.91,0:01:06.67,fly,Banners top to bottom,0000,0000,0000,,Fly
+Dialogue: 0,0:01:04.91,0:01:06.67,ironwallbanner3,Banners top to bottom,0000,0000,0000,,Iron Wall of Date
+Dialogue: 0,0:01:05.82,0:01:06.67,volley-main,Sawa,0000,0000,0000,,Line up.
+Dialogue: 0,0:01:13.14,0:01:14.83,volley-main,All,0000,0000,0000,,Let's play!
+Dialogue: 0,0:01:20.26,0:01:26.02,volley-show-title,Team,0000,0000,0000,,{\fad(1900,150)}Haikyu!!
+Dialogue: 0,0:02:47.02,0:02:51.06,volley-ep-title,Caption,0000,0000,0000,,{\fad(500,500)}Episode 7: The Iron Wall
+Dialogue: 0,0:02:49.98,0:02:53.19,volley-main-top,Background,0000,0000,0000,,Go! Go! Let's go! Let's go, Dateko!
+Dialogue: 0,0:02:49.98,0:02:53.19,ironwallbanner,Banner,0000,0000,0000,,Iron Wall of Date
+Dialogue: 0,0:02:51.35,0:02:53.19,volley-main,Oiwake,0000,0000,0000,,All right, listen up.
+Dialogue: 0,0:02:53.59,0:02:56.21,volley-main,Oiwake,0000,0000,0000,,I admit, Karasuno's quicks were amazing.
+Dialogue: 0,0:02:56.64,0:02:59.40,volley-main,Oiwake,0000,0000,0000,,But they were amazing only \Nbecause of that guy's height.
+Dialogue: 0,0:03:00.30,0:03:04.44,volley-main,Oiwake,0000,0000,0000,,He jumps high, but the quicks \Nthemselves are nothing extraordinary.
+Dialogue: 0,0:03:04.44,0:03:06.66,volley-main,Oiwake,0000,0000,0000,,Don't get mesmerized by him.
+Dialogue: 0,0:03:06.66,0:03:09.41,volley-main,Oiwake,0000,0000,0000,,Shut him down completely, \Nlike you did their ace!
+Dialogue: 0,0:03:10.71,0:03:15.26,volley-main,Oiwake,0000,0000,0000,,Show them the iron wall again.
+Dialogue: 0,0:03:15.26,0:03:16.42,volley-main,Team,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:16.44,0:03:19.51,karasunobasket,Kei,0000,0000,0000,,Karasuno
+Dialogue: 0,0:03:17.56,0:03:19.51,volley-main,Kei,0000,0000,0000,,Gauging from their first match,
+Dialogue: 0,0:03:19.51,0:03:22.58,volley-main,Kei,0000,0000,0000,,they'll start off with a powerful serve.
+Dialogue: 0,0:03:22.92,0:03:24.31,volley-main,Kei,0000,0000,0000,,The serve breaks your formation,
+Dialogue: 0,0:03:24.31,0:03:25.72,volley-main,Kei,0000,0000,0000,,then they block your return.
+Dialogue: 0,0:03:25.72,0:03:29.78,volley-main,Kei,0000,0000,0000,,Dateko's strategy is to attack\N those who can't keep up.
+Dialogue: 0,0:03:30.25,0:03:31.50,volley-main,Kei,0000,0000,0000,,So, for the first serve,
+Dialogue: 0,0:03:31.50,0:03:33.49,volley-main,Kei,0000,0000,0000,,make sure your receive is solid.
+Dialogue: 0,0:03:33.49,0:03:34.40,volley-main,Team,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:35.34,0:03:37.80,volley-main,Kei,0000,0000,0000,,You know what to do. Right, Kageyama?
+Dialogue: 0,0:03:37.80,0:03:38.52,volley-main,Kage,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:39.51,0:03:40.36,volley-main,Kei,0000,0000,0000,,All right.
+Dialogue: 0,0:03:40.77,0:03:43.69,volley-main,Kei,0000,0000,0000,,Now, go tear down the iron wall!
+Dialogue: 0,0:03:43.69,0:03:44.68,volley-main,Team,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:45.56,0:03:47.23,volley-main,Sawa,0000,0000,0000,,Karasuno.
+Dialogue: 0,0:03:47.58,0:03:48.33,volley-main,Sawa,0000,0000,0000,,Fight.
+Dialogue: 0,0:03:48.74,0:03:50.37,volley-main,Team,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:53.30,0:03:55.79,volley-main,Mizoguchi,0000,0000,0000,,Karasuno's ace starts as rear guard.
+Dialogue: 0,0:03:56.13,0:04:00.68,volley-main,Irihata,0000,0000,0000,,Yeah. They're starting with their\N best receiving formation.
+Dialogue: 0,0:04:01.59,0:04:04.40,volley-main,Irihata,0000,0000,0000,,But Dateko's formation is the \Nsame as in the first match.
+Dialogue: 0,0:04:10.31,0:04:11.27,volley-internal,Kiyoko,0000,0000,0000,,Do your best.
+Dialogue: 0,0:04:14.06,0:04:15.14,volley-main,Nishi,0000,0000,0000,,Bring it on.
+Dialogue: 0,0:04:15.14,0:04:15.90,volley-main,Tanaka,0000,0000,0000,,Let's do this.
+Dialogue: 0,0:04:15.90,0:04:17.11,volley-main,Moniwa,0000,0000,0000,,Kamasaki, nice serve.
+Dialogue: 0,0:04:16.83,0:04:17.65,volley-overlap,Sasaya,0000,0000,0000,,Nice serve.
+Dialogue: 0,0:04:19.84,0:04:20.77,volley-main,Nishi,0000,0000,0000,,Daichi-san.
+Dialogue: 0,0:04:21.91,0:04:22.74,volley-main,Kage,0000,0000,0000,,Nice receive.
+Dialogue: 0,0:04:24.40,0:04:25.99,volley-internal,Oiwake,0000,0000,0000,,His form is clean.
+Dialogue: 0,0:04:25.99,0:04:28.66,volley-internal,,0000,0000,0000,,I can't tell where he's going to toss.
+Dialogue: 0,0:04:41.06,0:04:43.55,volley-main,Tanaka,0000,0000,0000,,All right. Nice spike, Hinata.
+Dialogue: 0,0:04:46.63,0:04:47.81,volley-main,Takeda,0000,0000,0000,,Too bad.
+Dialogue: 0,0:04:47.81,0:04:51.56,volley-main,,0000,0000,0000,,I thought that blocker was one step behind.
+Dialogue: 0,0:04:52.65,0:04:54.80,volley-main,Takeda,0000,0000,0000,,Is that what you call read blocking?
+Dialogue: 0,0:04:54.80,0:04:56.91,volley-main,Takeda,0000,0000,0000,,When they jump as soon as they see the toss?
+Dialogue: 0,0:04:56.91,0:04:57.94,volley-main,Kei,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:58.51,0:05:00.24,volley-main,Kei,0000,0000,0000,,All of our opponents so far
+Dialogue: 0,0:05:00.24,0:05:04.40,volley-main,,0000,0000,0000,,only used commit blocks. They jumped\N after they knew who would get the toss.
+Dialogue: 0,0:05:04.40,0:05:07.11,volley-main,Kei,0000,0000,0000,,But Dateko has perfected the read block.
+Dialogue: 0,0:05:07.76,0:05:10.45,volley-main,Kei,0000,0000,0000,,They jump as soon as the toss goes up.
+Dialogue: 0,0:05:10.98,0:05:11.95,volley-main,Kei,0000,0000,0000,,In other words...
+Dialogue: 0,0:05:13.04,0:05:16.28,volley-main,Kei,0000,0000,0000,,They're not easy to trick with decoys.
+Dialogue: 0,0:05:17.50,0:05:21.42,volley-main,Kei,0000,0000,0000,,That would leave their blocks\N one step behind, if not for #7.
+Dialogue: 0,0:05:21.42,0:05:23.24,volley-main,Kei,0000,0000,0000,,He quickly makes up the difference.
+Dialogue: 0,0:05:23.72,0:05:25.45,volley-main,Kei,0000,0000,0000,,He's not only tall, but fast as well.
+Dialogue: 0,0:05:25.45,0:05:26.93,volley-main,Takeda,0000,0000,0000,,H-He's scary.
+Dialogue: 0,0:05:27.79,0:05:30.26,volley-main,Mizoguchi,0000,0000,0000,,Those read blocks\N are going to be tricky.
+Dialogue: 0,0:05:30.26,0:05:32.08,volley-main,Mizoguchi,0000,0000,0000,,I wonder how Karasuno's \Ngoing to deal with them.
+Dialogue: 0,0:05:32.08,0:05:33.14,volley-main,Irihata,0000,0000,0000,,We'll see.
+Dialogue: 0,0:05:33.14,0:05:37.35,volley-main,,0000,0000,0000,,They haven't played their trump card yet.
+Dialogue: 0,0:05:37.35,0:05:39.31,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                         Dateko
+Dialogue: 0,0:05:40.28,0:05:41.82,volley-main,Sawa,0000,0000,0000,,Kageyama, nice serve.
+Dialogue: 0,0:05:41.82,0:05:43.28,volley-main,Hinata,0000,0000,0000,,Nice serve. Let's score.
+Dialogue: 0,0:05:48.38,0:05:49.96,volley-main,Kage,0000,0000,0000,,I hit it to the libero.
+Dialogue: 0,0:05:50.92,0:05:53.44,volley-main,Irihata,0000,0000,0000,,His serve is as powerful as ever.
+Dialogue: 0,0:05:53.44,0:05:56.75,volley-main,Irihata,0000,0000,0000,,He'll be scary when he \Nlearns how to control it.
+Dialogue: 0,0:06:00.03,0:06:00.83,volley-main,Guy1,0000,0000,0000,,He saved it.
+Dialogue: 0,0:06:00.83,0:06:01.75,volley-main,Guy2,0000,0000,0000,,Amazing.
+Dialogue: 0,0:06:02.01,0:06:03.32,volley-main,Nishi,0000,0000,0000,,Ryu, sorry. Cover.
+Dialogue: 0,0:06:03.32,0:06:03.92,volley-main,Tanaka,0000,0000,0000,,All right.
+Dialogue: 0,0:06:04.33,0:06:05.17,volley-main,Asahi,0000,0000,0000,,Back!
+Dialogue: 0,0:06:05.57,0:06:06.90,volley-internal,Oiwake,0000,0000,0000,,A back attack?
+Dialogue: 0,0:06:06.90,0:06:09.39,volley-internal,,0000,0000,0000,,They didn't use that in the last match.
+Dialogue: 0,0:06:09.76,0:06:10.84,volley-main,Tanaka,0000,0000,0000,,Asahi-san.
+Dialogue: 0,0:06:17.56,0:06:18.27,volley-main,Nishi,0000,0000,0000,,Damn.
+Dialogue: 0,0:06:19.69,0:06:21.73,volley-main,Kei,0000,0000,0000,,Don't worry about it.\N Don't worry! Switch it up.
+Dialogue: 0,0:06:22.34,0:06:24.94,volley-main,Nishi,0000,0000,0000,,I'm sorry, Asahi-san! \NI'll save the next one.
+Dialogue: 0,0:06:26.62,0:06:29.36,volley-main,Asahi,0000,0000,0000,,Yeah. I'm counting on you, \Nbut I'll score next time.
+Dialogue: 0,0:06:29.71,0:06:33.64,volley-main,Futakuchi,0000,0000,0000,,Hey, what was that? \NHe's supposed to get dejected.
+Dialogue: 0,0:06:33.64,0:06:35.84,volley-main,Moniwa,0000,0000,0000,,Quit being mean-spirited, Futakuchi.
+Dialogue: 0,0:06:35.84,0:06:36.83,volley-main,Futakuchi,0000,0000,0000,,Ouch.
+Dialogue: 0,0:06:36.83,0:06:39.04,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                          Dateko
+Dialogue: 0,0:06:46.71,0:06:47.49,volley-main,Tanaka,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:48.97,0:06:50.05,volley-main,Team,0000,0000,0000,,All right.
+Dialogue: 0,0:06:50.05,0:06:51.38,volley-main,Moniwa,0000,0000,0000,,Net violation...
+Dialogue: 0,0:06:52.00,0:06:53.89,volley-main,Moniwa,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:06:54.69,0:06:57.50,volley-main,Mizoguchi,0000,0000,0000,,Dateko touched the net.
+Dialogue: 0,0:06:57.50,0:06:59.69,volley-main,Mizoguchi,0000,0000,0000,,That was a close call for Karasuno.
+Dialogue: 0,0:07:00.18,0:07:02.02,volley-main,Irihata,0000,0000,0000,,But they sure are fast.
+Dialogue: 0,0:07:02.02,0:07:05.69,volley-main,Irihata,0000,0000,0000,,Two blockers are immediately ready, \Nno matter how fast the attack.
+Dialogue: 0,0:07:06.33,0:07:08.30,volley-main,Irihata,0000,0000,0000,,This is going to be a tough one.
+Dialogue: 0,0:07:10.89,0:07:12.05,volley-main,Moniwa,0000,0000,0000,,Nice receive.
+Dialogue: 0,0:07:12.05,0:07:13.08,volley-main,Moniwa,0000,0000,0000,,Futakuchi.
+Dialogue: 0,0:07:15.32,0:07:16.19,volley-main,Asahi,0000,0000,0000,,Open.
+Dialogue: 0,0:07:16.19,0:07:16.87,volley-main,Sawa,0000,0000,0000,,Asahi.
+Dialogue: 0,0:07:24.85,0:07:25.68,volley-main,Takeda,0000,0000,0000,,Was that out?
+Dialogue: 0,0:07:25.68,0:07:27.11,volley-main,Takeda,0000,0000,0000,,Was that our point?
+Dialogue: 0,0:07:27.11,0:07:28.59,volley-main,Kei,0000,0000,0000,,Nice, Azumane.
+Dialogue: 0,0:07:33.43,0:07:37.89,scoreboard3,Scoreboard left to right,0000,0000,0000,,Karasuno               Dateko
+Dialogue: 0,0:07:34.38,0:07:37.89,volley-main-top,Mizoguchi,0000,0000,0000,,Karasuno is two points ahead,
+Dialogue: 0,0:07:38.45,0:07:41.54,volley-main,Mizoguchi,0000,0000,0000,,but they're barely avoiding being shut down.
+Dialogue: 0,0:07:41.54,0:07:43.94,volley-main,Mizoguchi,0000,0000,0000,,They're not scoring with ease.
+Dialogue: 0,0:07:45.39,0:07:49.94,volley-main,Irihata,0000,0000,0000,,They're barely getting by the blockers.\NAnd if that blocking keeps up,
+Dialogue: 0,0:07:48.93,0:07:49.94,volley-main-top,,0000,0000,0000,,Nice receive.
+Dialogue: 0,0:07:49.94,0:07:52.19,volley-main,Irihata,0000,0000,0000,,they'll lose momentum quickly.
+Dialogue: 0,0:07:52.14,0:07:52.82,volley-main-top,Moniwa,0000,0000,0000,,Futakuchi.
+Dialogue: 0,0:07:54.04,0:07:55.45,volley-main,Tanaka,0000,0000,0000,,Nice one touch, Hinata.
+Dialogue: 0,0:07:55.45,0:07:56.53,volley-main,Futakuchi,0000,0000,0000,,For real?
+Dialogue: 0,0:07:57.14,0:07:58.23,volley-main,Nishi,0000,0000,0000,,Chance ball.
+Dialogue: 0,0:07:59.10,0:08:01.70,volley-internal,Oiwake,0000,0000,0000,,When they think they're about to score,
+Dialogue: 0,0:08:01.70,0:08:04.21,volley-internal,Oiwake,0000,0000,0000,,we score instead.
+Dialogue: 0,0:08:05.03,0:08:09.17,volley-internal,Oiwake,0000,0000,0000,,That breaks their spirit, \Nand boosts our morale.
+Dialogue: 0,0:08:09.98,0:08:13.09,volley-internal,Oiwake,0000,0000,0000,,It's the ultimate defense, \Nthe fastest offense.
+Dialogue: 0,0:08:13.67,0:08:14.51,volley-internal,Oiwake,0000,0000,0000,,That's what you call...
+Dialogue: 0,0:08:18.10,0:08:19.14,volley-internal,Oiwake,0000,0000,0000,,...blocking.
+Dialogue: 0,0:08:21.06,0:08:23.77,ironwallbanner,Oiwake,0000,0000,0000,,Iron Wall of Date
+Dialogue: 0,0:08:24.20,0:08:25.73,volley-main,Obara,0000,0000,0000,,Nice block.
+Dialogue: 0,0:08:26.13,0:08:27.73,volley-main,Moniwa,0000,0000,0000,,Nice, Aone.
+Dialogue: 0,0:08:29.69,0:08:33.65,volley-main,Irihata,0000,0000,0000,,A high, fast, and expansive wall...
+Dialogue: 0,0:08:36.24,0:08:37.32,volley-main,Kei,0000,0000,0000,,Truly...
+Dialogue: 0,0:08:39.02,0:08:40.40,volley-main,Kei,0000,0000,0000,,...an iron wall.
+Dialogue: 0,0:08:44.77,0:08:46.38,volley-main,Hinata,0000,0000,0000,,Damn it.
+Dialogue: 0,0:08:46.38,0:08:48.36,volley-main,Kage,0000,0000,0000,,Don't worry about it.\NOn to the next.
+Dialogue: 0,0:08:48.36,0:08:49.13,volley-main,Hinata,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:49.63,0:08:51.84,volley-main,Kage,0000,0000,0000,,We'll definitely score\N with the next one.
+Dialogue: 0,0:08:52.27,0:08:53.26,volley-main,Hinata,0000,0000,0000,,Definitely?
+Dialogue: 0,0:08:54.43,0:08:55.76,volley-main,,0000,0000,0000,,Are we doing it?
+Dialogue: 0,0:08:55.76,0:08:57.55,volley-main,Hinata,0000,0000,0000,,Are we gonna zoom? Are we?
+Dialogue: 0,0:08:58.15,0:08:59.89,volley-main,Kage,0000,0000,0000,,It's about time.
+Dialogue: 0,0:09:00.66,0:09:04.23,volley-main,Kage,0000,0000,0000,,Do your best jump, go as fast as you can,
+Dialogue: 0,0:09:04.23,0:09:05.17,volley-main,Kage,0000,0000,0000,,and fly.
+Dialogue: 0,0:09:05.97,0:09:07.48,volley-main,Kage,0000,0000,0000,,I'll get the ball...
+Dialogue: 0,0:09:08.59,0:09:09.68,volley-main,,0000,0000,0000,,...to you.
+Dialogue: 0,0:09:08.59,0:09:09.68,volley-main,Kage,0000,0000,0000,,Commercial break
+Dialogue: 0,0:09:28.00,0:09:31.44,volley-internal,Oiwake,0000,0000,0000,,Karasuno's fastest attacker \Nis probably that #10.
+Dialogue: 0,0:09:32.63,0:09:36.34,volley-internal,Oiwake,0000,0000,0000,,He knows his quicks are \Nup against our wall,
+Dialogue: 0,0:09:37.00,0:09:40.55,volley-internal,Oiwake,0000,0000,0000,,so why doesn't he appear nervous?
+Dialogue: 0,0:09:42.07,0:09:43.89,volley-flashback,Kei,0000,0000,0000,,When we faced Nekoma,
+Dialogue: 0,0:09:44.30,0:09:47.10,volley-flashback,Kei,0000,0000,0000,,our freak quicks got blocked. Why is that?
+Dialogue: 0,0:09:47.28,0:09:49.56,volley-flashback,Hinata,0000,0000,0000,,I know. Because Inuoka was awesome.
+Dialogue: 0,0:09:50.12,0:09:53.78,volley-flashback,Kei,0000,0000,0000,,Well... sure, let's assume that's true.
+Dialogue: 0,0:09:54.35,0:09:58.11,volley-flashback,Kage,0000,0000,0000,,It's because Nekoma's middle blocker \Ngot accustomed to Hinata's moves.
+Dialogue: 0,0:09:58.42,0:10:00.25,volley-flashback,Kei,0000,0000,0000,,That's right. He got used to it.
+Dialogue: 0,0:10:01.00,0:10:06.14,volley-flashback,Kei,0000,0000,0000,,But I also think it's because Nekoma\N had a really smart player.
+Dialogue: 0,0:10:06.14,0:10:07.04,volley-flashback,Kei,0000,0000,0000,,It was
+Dialogue: 0,0:10:08.04,0:10:09.79,volley-flashback,,0000,0000,0000,,probably the pudding-head.
+Dialogue: 0,0:10:10.07,0:10:11.25,volley-flashback,Hinata,0000,0000,0000,,You mean Kenma?
+Dialogue: 0,0:10:12.63,0:10:14.21,volley-flashback,Inuoka,0000,0000,0000,,Kenma-san's caught a cold.
+Dialogue: 0,0:10:14.21,0:10:16.72,volley-flashback,Kozume,0000,0000,0000,,Shut up, Inuoka. I don't have a cold.
+Dialogue: 0,0:10:17.09,0:10:20.98,volley-flashback,Kei,0000,0000,0000,,To be honest, I never thought \Nthey'd regroup that fast.
+Dialogue: 0,0:10:20.98,0:10:26.43,volley-flashback,Kei,0000,0000,0000,,But fast or slow, any team will get used\N to our freak quick.
+Dialogue: 0,0:10:27.13,0:10:31.43,volley-flashback,Kei,0000,0000,0000,,Your quicks are powerful weapons, \Nbut they aren't invincible.
+Dialogue: 0,0:10:32.20,0:10:33.90,volley-flashback,Kei,0000,0000,0000,,What matters is...
+Dialogue: 0,0:10:34.61,0:10:35.95,volley-internal,Kage,0000,0000,0000,,...how we use them.
+Dialogue: 0,0:10:37.11,0:10:38.82,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                        Dateko
+Dialogue: 0,0:10:42.85,0:10:43.61,volley-main,Nishi,0000,0000,0000,,Ryu.
+Dialogue: 0,0:10:43.61,0:10:44.12,volley-main,Tanaka,0000,0000,0000,,All right.
+Dialogue: 0,0:10:45.28,0:10:47.16,volley-internal,Kage,0000,0000,0000,,I don't care how fast your reflexes are...
+Dialogue: 0,0:10:47.16,0:10:50.12,volley-internal,Kage,0000,0000,0000,,Your read block won't be fast enough.
+Dialogue: 0,0:11:01.13,0:11:02.58,volley-main,Guy,0000,0000,0000,,What was that?
+Dialogue: 0,0:11:04.51,0:11:05.46,volley-main,Hinata,0000,0000,0000,,All right.
+Dialogue: 0,0:11:05.46,0:11:06.31,volley-main,Kage,0000,0000,0000,,Good.
+Dialogue: 0,0:11:06.31,0:11:08.63,volley-main,Iwaizumi,0000,0000,0000,,And there you have it. The monster quick!
+Dialogue: 0,0:11:08.63,0:11:10.13,volley-main,Mizoguchi,0000,0000,0000,,It sure is powerful.
+Dialogue: 0,0:11:10.13,0:11:12.52,volley-main,Irihata,0000,0000,0000,,It's scary. It's awful.
+Dialogue: 0,0:11:13.25,0:11:15.98,volley-main,Oikawa,0000,0000,0000,,That genius gets on my nerves...
+Dialogue: 0,0:11:16.51,0:11:18.58,volley-main,Coach,0000,0000,0000,,What a reckless toss.
+Dialogue: 0,0:11:18.58,0:11:22.27,volley-main,Coach,0000,0000,0000,,He made a random toss to thwart \NAone by brute force.
+Dialogue: 0,0:11:22.27,0:11:25.43,volley-main,Oiwake,0000,0000,0000,,But the spiker was there to hit it.
+Dialogue: 0,0:11:25.43,0:11:28.40,volley-main,Coach,0000,0000,0000,,He must've spiked it by sheer luck.
+Dialogue: 0,0:11:28.40,0:11:29.62,volley-main,Oiwake,0000,0000,0000,,That #10...
+Dialogue: 0,0:11:30.23,0:11:31.77,volley-main,Oiwake,0000,0000,0000,,Do you know who he is?
+Dialogue: 0,0:11:32.05,0:11:35.88,volley-main,Coach,0000,0000,0000,,No. I never saw him in \Njunior high tournaments, either.
+Dialogue: 0,0:11:36.26,0:11:38.72,volley-internal,Oiwake,0000,0000,0000,,Was it luck or by design?
+Dialogue: 0,0:11:39.81,0:11:41.18,volley-main,Nishi,0000,0000,0000,,We're counting on you, Tsukishima.
+Dialogue: 0,0:11:41.18,0:11:41.76,volley-main,Tsuki,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:42.50,0:11:45.61,volley-main,Tsuki,0000,0000,0000,,King. Toss a little away from the net.
+Dialogue: 0,0:11:45.61,0:11:47.54,volley-main,,0000,0000,0000,,I don't want to get blocked.
+Dialogue: 0,0:11:51.08,0:11:51.77,volley-main,Tsuki,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:51.77,0:11:53.54,volley-main,Kage,0000,0000,0000,,I said, "Okay."
+Dialogue: 0,0:11:53.54,0:11:55.90,volley-main,Tsuki,0000,0000,0000,,You didn't say it clearly.
+Dialogue: 0,0:11:55.90,0:11:58.53,volley-main,Tsuki,0000,0000,0000,,You don't want to take orders \Nfrom peasants. Is that it?
+Dialogue: 0,0:11:58.53,0:11:59.40,volley-main,Kage,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:00.19,0:12:02.49,volley-main,Tanaka,0000,0000,0000,,You guys, stop it.\N Don't you ever learn?
+Dialogue: 0,0:12:02.76,0:12:05.80,volley-main,Mizoguchi,0000,0000,0000,,Kageyama finally used that quick.
+Dialogue: 0,0:12:05.80,0:12:08.41,volley-main,Irihata,0000,0000,0000,,Dateko must be confused right now.
+Dialogue: 0,0:12:08.41,0:12:12.29,volley-main,Irihata,0000,0000,0000,,You won't see a quick like that \Nanywhere else in the whole world.
+Dialogue: 0,0:12:13.08,0:12:15.28,volley-main,Irihata,0000,0000,0000,,It's a scary thing to have to anticipate.
+Dialogue: 0,0:12:17.02,0:12:18.46,volley-main-top,Hinata,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:12:18.46,0:12:20.60,volley-main-top,Kage (overlap),0000,0000,0000,,Airhead! Hinata, you lousy airhead!
+Dialogue: 0,0:12:18.71,0:12:21.51,volley-main,Irihata,0000,0000,0000,,But, other than that, \Nthey need a lot of work.
+Dialogue: 0,0:12:20.60,0:12:21.51,volley-main-top,Asahi (overlap),0000,0000,0000,,Don't worry. Don't worry.
+Dialogue: 0,0:12:21.51,0:12:22.81,volley-main,Hinata,0000,0000,0000,,Noya-san, I'm sorry.
+Dialogue: 0,0:12:22.81,0:12:23.72,volley-main,Nishi,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:12:23.72,0:12:26.68,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                         Dateko
+Dialogue: 0,0:12:25.20,0:12:26.68,volley-main,Moniwa,0000,0000,0000,,Aone, nice serve.
+Dialogue: 0,0:12:31.14,0:12:32.04,volley-main,Team,0000,0000,0000,,All right.
+Dialogue: 0,0:12:32.04,0:12:33.80,volley-main,Futakuchi,0000,0000,0000,,That one was an ordinary toss.
+Dialogue: 0,0:12:35.42,0:12:37.08,volley-main,Moniwa,0000,0000,0000,,Was the last one just luck?
+Dialogue: 0,0:12:37.08,0:12:39.27,volley-main,Moniwa,0000,0000,0000,,Or is #10 the only one who can do it?
+Dialogue: 0,0:12:39.62,0:12:40.73,volley-main,Sakunami,0000,0000,0000,,Good job.
+Dialogue: 0,0:12:43.48,0:12:45.78,volley-main,Hinata,0000,0000,0000,,Nice, Tsukishima. One more.
+Dialogue: 0,0:12:45.78,0:12:46.95,volley-main,Yama,0000,0000,0000,,Tsukki, nice.
+Dialogue: 0,0:12:52.91,0:12:55.25,volley-main,Kamasaki,0000,0000,0000,,All right. If they score, we score back.
+Dialogue: 0,0:12:55.61,0:12:56.76,volley-main,Moniwa,0000,0000,0000,,Nice, Kamasaki.
+Dialogue: 0,0:12:56.76,0:12:58.06,volley-main,Sasaya,0000,0000,0000,,Way to go, Kama.
+Dialogue: 0,0:12:59.06,0:13:00.49,volley-main,Tanaka,0000,0000,0000,,We'll score back.
+Dialogue: 0,0:13:00.49,0:13:01.42,volley-main,Nishi,0000,0000,0000,,All right.
+Dialogue: 0,0:13:02.34,0:13:05.68,big score1,Word/captions left to right,0000,0000,0000,,{\fad(500,500)}{\fs30}Karasuno{\fs60} 6 - 4 {\fs30}Dateko
+Dialogue: 0,0:13:05.68,0:13:09.35,big score,Word/captions left to right,0000,0000,0000,,{\fad(500,500)}{\fs30}Karasuno{\fs60} 6 - 5 {\fs30}Dateko
+Dialogue: 0,0:13:09.35,0:13:12.52,big score1,Word/captions left to right,0000,0000,0000,,{\fad(500,500)}{\fs30}Karasuno{\fs60} 7 - 5 {\fs30}Dateko
+Dialogue: 0,0:13:13.20,0:13:15.26,volley-main,Mizoguchi,0000,0000,0000,,The point spread isn't budging.
+Dialogue: 0,0:13:15.26,0:13:17.31,volley-main,Irihata,0000,0000,0000,,Look at their rotation.
+Dialogue: 0,0:13:17.31,0:13:20.82,volley-main,Irihata,0000,0000,0000,,Karasuno's #10 is vanguard again.
+Dialogue: 0,0:13:21.16,0:13:23.03,volley-main,Oiwake,0000,0000,0000,,There he is, #10...
+Dialogue: 0,0:13:23.03,0:13:27.44,volley-main,Coach,0000,0000,0000,,Kageyama hasn't done that \Nsuper-fast toss since.
+Dialogue: 0,0:13:27.44,0:13:30.70,volley-main,Coach,0000,0000,0000,,I just remembered. \NHe was in Kitagawa Daiichi Junior High.
+Dialogue: 0,0:13:31.07,0:13:37.18,volley-main,Coach,0000,0000,0000,,I saw him do a similar toss,\Nbut it was too fast for the spikers.
+Dialogue: 0,0:13:38.16,0:13:43.32,volley-main,Oiwake,0000,0000,0000,,That toss makes me think he's \Nreverted to a bad junior high habit.
+Dialogue: 0,0:13:43.70,0:13:44.67,volley-main,Oiwake,0000,0000,0000,,But...
+Dialogue: 0,0:13:45.52,0:13:47.33,volley-main,,0000,0000,0000,,That #10 spiked it.
+Dialogue: 0,0:13:50.23,0:13:52.18,volley-main,Oiwake,0000,0000,0000,,He spiked it effortlessly.
+Dialogue: 0,0:13:53.33,0:13:54.35,volley-main,Moniwa,0000,0000,0000,,Futakuchi.
+Dialogue: 0,0:13:55.48,0:13:57.39,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                        Dateko
+Dialogue: 0,0:13:56.20,0:13:57.39,volley-main-top,Kamasaki,0000,0000,0000,,Nice, Futakuchi.
+Dialogue: 0,0:13:57.80,0:13:59.88,volley-main,Guy,0000,0000,0000,,You can't keep Dateko down for long.
+Dialogue: 0,0:14:00.39,0:14:03.21,volley-main,Guy2,0000,0000,0000,,As soon as Karasuno's #10 \Nrotated to vanguard,
+Dialogue: 0,0:14:03.21,0:14:07.20,volley-main,Guy2,0000,0000,0000,,Dateko made that awesome \N#7 blocker the vanguard.
+Dialogue: 0,0:14:08.67,0:14:11.75,volley-main,Guy2,0000,0000,0000,,It's the iron wall\N versus the super-quick!
+Dialogue: 0,0:14:13.00,0:14:17.75,volley-internal,Kei,0000,0000,0000,,We used the freak quick only once.\NThey must think we just got lucky.
+Dialogue: 0,0:14:17.96,0:14:19.44,volley-main,Kage,0000,0000,0000,,Let's do another one.
+Dialogue: 0,0:14:19.44,0:14:20.21,volley-main,Hinata,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:24.25,0:14:25.68,volley-main,Sawa,0000,0000,0000,,Let serve! Move up!
+Dialogue: 0,0:14:26.90,0:14:27.97,volley-main,Guy,0000,0000,0000,,He saved it.
+Dialogue: 0,0:14:27.97,0:14:31.01,volley-main,Guy,0000,0000,0000,,But a quick would be impossible.
+Dialogue: 0,0:14:31.33,0:14:32.47,volley-main,Guy,0000,0000,0000,,Who can he toss toー
+Dialogue: 0,0:14:37.94,0:14:39.06,volley-main,Kage,0000,0000,0000,,All right.
+Dialogue: 0,0:14:39.20,0:14:41.21,volley-main-top,Sawa (overlap),0000,0000,0000,,Nice, Hinata, Kageyama.
+Dialogue: 0,0:14:40.02,0:14:41.58,volley-main,Coach,0000,0000,0000,,That toss again.
+Dialogue: 0,0:14:41.58,0:14:45.04,volley-main,Coach,0000,0000,0000,,And this time from the back of the court!
+Dialogue: 0,0:14:46.62,0:14:49.24,volley-main,Oiwake,0000,0000,0000,,It wasn't... luck?
+Dialogue: 0,0:14:52.92,0:14:55.67,volley-main,Guy2,0000,0000,0000,,And Dateko calls a time out.
+Dialogue: 0,0:14:55.67,0:14:57.99,volley-main,Guy,0000,0000,0000,,Karasuno's #10 is amazing.
+Dialogue: 0,0:14:57.99,0:14:59.92,volley-main,,0000,0000,0000,,Who can hit a toss like that?
+Dialogue: 0,0:15:00.22,0:15:05.65,volley-main,Iwaizumi,0000,0000,0000,,The setter is the amazing one, for\Ngetting his toss perfectly to the spiker.
+Dialogue: 0,0:15:06.67,0:15:09.52,volley-main,Hanamaki,0000,0000,0000,,Who would expect a incredible \Ntechnique like that?
+Dialogue: 0,0:15:09.52,0:15:11.64,volley-main,Hanamaki,0000,0000,0000,,We certainly didn't, at first.
+Dialogue: 0,0:15:11.64,0:15:16.10,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno             Dateko
+Dialogue: 0,0:15:12.00,0:15:16.10,volley-main-top,Oiwake,0000,0000,0000,,If those quicks are intentional, \Nour read block will be too slow.
+Dialogue: 0,0:15:16.79,0:15:21.06,volley-main,Oiwake,0000,0000,0000,,And yet, if we abandon that, \Nthey'll start pummeling us.
+Dialogue: 0,0:15:21.56,0:15:27.20,volley-main,Oiwake,0000,0000,0000,,When #10 might be about to spike,\N mark him instead of the toss.
+Dialogue: 0,0:15:27.20,0:15:29.41,volley-main,Oiwake,0000,0000,0000,,Jump when you can anticipate\N the toss's trajectory.
+Dialogue: 0,0:15:29.41,0:15:32.61,volley-main,Oiwake,0000,0000,0000,,But it's also possible those spikes\N were just lucky.
+Dialogue: 0,0:15:32.61,0:15:34.64,volley-main,Oiwake,0000,0000,0000,,Remain calm, and be ready for anything.
+Dialogue: 0,0:15:34.64,0:15:35.59,volley-main,Team,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:37.19,0:15:39.68,volley-main,Sasaya,0000,0000,0000,,I've never seen a quick like that, ever.
+Dialogue: 0,0:15:39.68,0:15:42.27,volley-main,Moniwa,0000,0000,0000,,I wonder if #10 is the \Nonly guy who can do it?
+Dialogue: 0,0:15:43.09,0:15:46.67,volley-main,Moniwa,0000,0000,0000,,If that wasn't by luck, then he's a monster.
+Dialogue: 0,0:15:47.18,0:15:49.34,volley-main,Kamasaki,0000,0000,0000,,Sure, those quicks were jaw-dropping,
+Dialogue: 0,0:15:49.34,0:15:53.26,volley-main,Kamasaki,0000,0000,0000,,but their ordinary quicks \Nare nothing to sneeze at.
+Dialogue: 0,0:15:53.26,0:15:57.12,volley-main,Futakuchi,0000,0000,0000,,Anyway, all we have to do is stop #10.
+Dialogue: 0,0:15:58.03,0:16:00.15,volley-main,Kamasaki,0000,0000,0000,,You're taking the matter too lightly.
+Dialogue: 0,0:16:00.15,0:16:03.44,volley-main,Futakuchi,0000,0000,0000,,Better than being too serious.\NThat's never popular with girls.
+Dialogue: 0,0:16:03.44,0:16:05.01,volley-main,Kamasaki,0000,0000,0000,,What did you say?
+Dialogue: 0,0:16:05.01,0:16:06.14,volley-main,Moniwa,0000,0000,0000,,Stop them, Aone.
+Dialogue: 0,0:16:06.14,0:16:07.07,volley-main,Kamasaki,0000,0000,0000,,You bastard.
+Dialogue: 0,0:16:09.97,0:16:13.75,volley-main,Guy1,0000,0000,0000,,But then again, all they \Nhave to do is stop #10.
+Dialogue: 0,0:16:14.20,0:16:16.28,volley-main,Guy1,0000,0000,0000,,#10's the only guy drawing attention.
+Dialogue: 0,0:16:16.28,0:16:19.33,volley-main,Guy1,0000,0000,0000,,Against the others, Dateko's \Nblockers are definitely winning.
+Dialogue: 0,0:16:19.33,0:16:20.47,volley-main,Guy2,0000,0000,0000,,For sure.
+Dialogue: 0,0:16:21.06,0:16:23.62,volley-main,Moniwa,0000,0000,0000,,Stop that #10, no matter what.
+Dialogue: 0,0:16:23.95,0:16:25.02,volley-main,Team,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:26.65,0:16:28.25,volley-internal,Oiwake,0000,0000,0000,,We must stop #10...
+Dialogue: 0,0:16:28.87,0:16:29.92,volley-internal,,0000,0000,0000,,That #10...
+Dialogue: 0,0:16:30.47,0:16:31.67,volley-internal,All,0000,0000,0000,,That #10...
+Dialogue: 0,0:16:31.67,0:16:33.43,ironwallbanner,Mon/Fut,0000,0000,0000,,Iron Wall of Date
+Dialogue: 0,0:16:32.22,0:16:33.43,volley-internal,Mon/Fut,0000,0000,0000,,That #10...
+Dialogue: 0,0:16:34.93,0:16:36.51,volley-internal,All,0000,0000,0000,,That #10...
+Dialogue: 0,0:16:39.45,0:16:44.58,volley-flashback,Kei,0000,0000,0000,,"That little #10" gets a big reaction.
+Dialogue: 0,0:16:45.20,0:16:47.06,volley-flashback,Kei,0000,0000,0000,,The bigger, the better.
+Dialogue: 0,0:16:47.49,0:16:48.71,volley-main,Hinata (overlap),0000,0000,0000,,Bring it!
+Dialogue: 0,0:16:48.71,0:16:50.75,volley-flashbackinternal,Kei,0000,0000,0000,,The more Hinata shines,
+Dialogue: 0,0:16:51.83,0:16:54.63,volley-flashbackinternal,,0000,0000,0000,,the more the blockers are blinded.
+Dialogue: 0,0:16:57.92,0:17:00.63,volley-main,Shimada,0000,0000,0000,,We're late! What if we missed the match?
+Dialogue: 0,0:17:00.63,0:17:02.68,volley-main,Taki,0000,0000,0000,,Who knew it would be so packed?
+Dialogue: 0,0:17:02.68,0:17:03.94,volley-main,Michimiya,0000,0000,0000,,Hurry, hurry.
+Dialogue: 0,0:17:03.94,0:17:04.62,volley-main,Taki/Shim,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:04.97,0:17:07.84,volley-main,Michimiya,0000,0000,0000,,Oh, good. The boys' second match is still on.
+Dialogue: 0,0:17:07.84,0:17:09.83,volley-main,Aya,0000,0000,0000,,Awesome! They're beating Dateko.
+Dialogue: 0,0:17:09.83,0:17:11.34,volley-main,Hinata,0000,0000,0000,,Bring it on.
+Dialogue: 0,0:17:15.85,0:17:17.79,volley-main,Futakuchi,0000,0000,0000,,Damn, that was fast.
+Dialogue: 0,0:17:17.79,0:17:19.37,volley-main,Futakuchi,0000,0000,0000,,Tough break, huh, Aone?
+Dialogue: 0,0:17:20.36,0:17:22.44,volley-main,Michimiya,0000,0000,0000,,What was that?
+Dialogue: 0,0:17:22.44,0:17:23.69,volley-main,Member2,0000,0000,0000,,A quick?
+Dialogue: 0,0:17:23.69,0:17:25.69,volley-main,Member3,0000,0000,0000,,He's a first-year, isn't he?
+Dialogue: 0,0:17:25.69,0:17:28.12,volley-main,Aya,0000,0000,0000,,Wasn't that little boy's jump amazing?
+Dialogue: 0,0:17:30.11,0:17:31.82,volley-main,Shimada,0000,0000,0000,,What are you smirking about?
+Dialogue: 0,0:17:32.11,0:17:33.85,volley-main,Suga,0000,0000,0000,,Good job, Hinata.
+Dialogue: 0,0:17:33.85,0:17:34.53,volley-main,Michimiya,0000,0000,0000,,Oh?
+Dialogue: 0,0:17:34.95,0:17:37.49,volley-main,Suga,0000,0000,0000,,Way to go. Give us another one.
+Dialogue: 0,0:17:38.05,0:17:39.52,volley-main-top,Yamaguchi,0000,0000,0000,,Nice serve, one more!
+Dialogue: 0,0:17:38.93,0:17:40.67,volley-main,Michimiya,0000,0000,0000,,Sugawara is on the bench...
+Dialogue: 0,0:17:42.02,0:17:42.91,volley-main,Asahi,0000,0000,0000,,Nishinoya.
+Dialogue: 0,0:17:44.77,0:17:45.44,volley-main,Tanaka,0000,0000,0000,,B!
+Dialogue: 0,0:17:45.44,0:17:46.33,volley-main,Hinata,0000,0000,0000,,Send me the toss.
+Dialogue: 0,0:17:46.64,0:17:47.98,volley-internal,Futaguchi,0000,0000,0000,,A two-way attack.
+Dialogue: 0,0:17:47.98,0:17:48.71,volley-internal,Moniwa,0000,0000,0000,,Who's gonna spike?
+Dialogue: 0,0:17:49.76,0:17:50.50,volley-internal,Futakuchi,0000,0000,0000,,He's gonna jump.
+Dialogue: 0,0:17:52.65,0:17:53.42,volley-internal,Futakuchi,0000,0000,0000,,He didn't jump?
+Dialogue: 0,0:17:58.58,0:18:00.62,volley-main,Aya,0000,0000,0000,,That was an ordinary quick.
+Dialogue: 0,0:18:00.62,0:18:03.77,volley-main,Member2,0000,0000,0000,,They can change the\N speed of their tosses?
+Dialogue: 0,0:18:04.64,0:18:08.06,volley-flashback,Sawa,0000,0000,0000,,Well, we actually have some rather \Ninteresting first-years...
+Dialogue: 0,0:18:08.47,0:18:10.29,volley-flashback,Sawa,0000,0000,0000,,If those guys start playing their part,
+Dialogue: 0,0:18:10.29,0:18:13.24,volley-flashback,Sawa,0000,0000,0000,,I feel Karasuno is going \Nto improve explosively.
+Dialogue: 0,0:18:13.24,0:18:14.49,volley-flashback,,0000,0000,0000,,That's what I think.
+Dialogue: 0,0:18:16.72,0:18:17.87,volley-main,Michimiya,0000,0000,0000,,Amazing.
+Dialogue: 0,0:18:18.88,0:18:21.27,volley-main,Sasaya,0000,0000,0000,,Damn, what's with that #10?
+Dialogue: 0,0:18:22.15,0:18:23.50,volley-main,Moniwa,0000,0000,0000,,Hey, hey, hey.
+Dialogue: 0,0:18:24.50,0:18:25.66,volley-main,Moniwa,0000,0000,0000,,Don't get overwhelmed.
+Dialogue: 0,0:18:26.26,0:18:28.48,volley-main,Moniwa,0000,0000,0000,,Our attacks are scoring, too.
+Dialogue: 0,0:18:29.08,0:18:31.43,volley-main,Moniwa,0000,0000,0000,,Sure, that #10's a shocker,
+Dialogue: 0,0:18:31.43,0:18:34.30,volley-main,,0000,0000,0000,,but you've ground all\N kinds of spikers into the dust!
+Dialogue: 0,0:18:34.81,0:18:36.38,volley-main,Moniwa,0000,0000,0000,,Even Karasuno's ace!
+Dialogue: 0,0:18:36.70,0:18:38.43,volley-main,Moniwa,0000,0000,0000,,You can stop them again.
+Dialogue: 0,0:18:39.63,0:18:40.51,volley-main,Team,0000,0000,0000,,Yes.
+Dialogue: 0,0:18:40.87,0:18:44.00,volley-main,Futakuchi,0000,0000,0000,,Don't say "you." Say "we."
+Dialogue: 0,0:18:44.95,0:18:47.51,volley-main,Moniwa,0000,0000,0000,,Futakuchi, I'm sorry to have thought
+Dialogue: 0,0:18:47.51,0:18:49.10,volley-main,,0000,0000,0000,,you were just a damned cocky \Nunderclassman all this time.
+Dialogue: 0,0:18:49.47,0:18:51.23,volley-main,Moniwa,0000,0000,0000,,You were thinking that?
+Dialogue: 0,0:19:07.87,0:19:10.79,ironwallbanner,Takeda,0000,0000,0000,,Iron Wall of Date
+Dialogue: 0,0:19:12.08,0:19:13.50,volley-main,Takeda,0000,0000,0000,,He jumped twice!
+Dialogue: 0,0:19:13.50,0:19:17.80,volley-main,Takeda,0000,0000,0000,,He's so tall, he can reach above the net\Nwith just a slight jump.
+Dialogue: 0,0:19:18.26,0:19:21.55,volley-main,Kei,0000,0000,0000,,He's not just tall. His arms are long, \Nand his shoulders are broad.
+Dialogue: 0,0:19:21.55,0:19:22.94,volley-main,,0000,0000,0000,,Those are all powerful weapons,
+Dialogue: 0,0:19:23.39,0:19:25.51,volley-main,Kei,0000,0000,0000,,but that's not all.
+Dialogue: 0,0:19:26.57,0:19:29.07,volley-main,Kei,0000,0000,0000,,He stays calm and avoids tunnel vision.
+Dialogue: 0,0:19:29.07,0:19:31.15,volley-main,,0000,0000,0000,,He has the will to block no matter what.
+Dialogue: 0,0:19:32.11,0:19:35.56,volley-main,Kei,0000,0000,0000,,He has it all. \NThat's why he blocks so well.
+Dialogue: 0,0:19:37.33,0:19:39.86,volley-main,Shimada,0000,0000,0000,,Hey, that block was bad news.
+Dialogue: 0,0:19:39.86,0:19:42.70,volley-main,Taki,0000,0000,0000,,Blocks like that can\N change a match's momentum.
+Dialogue: 0,0:19:42.70,0:19:46.54,volley-main,Taki,0000,0000,0000,,If we don't score the next one, \NDateko could break our rhythm.
+Dialogue: 0,0:19:46.80,0:19:48.20,volley-main,Moniwa,0000,0000,0000,,Let's stop them again.
+Dialogue: 0,0:19:48.20,0:19:49.25,volley-main,All,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:49.56,0:19:51.12,volley-main,Yama,0000,0000,0000,,Stay calm!
+Dialogue: 0,0:19:51.49,0:19:52.71,volley-main,Suga,0000,0000,0000,,One more!
+Dialogue: 0,0:19:54.92,0:19:57.63,scoreboard2,Scoreboard left to right,0000,0000,0000,,Karasuno                        Dateko
+Dialogue: 0,0:19:55.60,0:19:57.63,volley-main-top,Moniwa,0000,0000,0000,,Futakuchi, don't hold back!
+Dialogue: 0,0:20:01.03,0:20:02.25,volley-main,Sawa,0000,0000,0000,,Sorry! Cover!
+Dialogue: 0,0:20:02.25,0:20:02.87,volley-main,Nishi,0000,0000,0000,,Ryu.
+Dialogue: 0,0:20:02.87,0:20:03.43,volley-main,Tanaka,0000,0000,0000,,All right.
+Dialogue: 0,0:20:03.43,0:20:04.60,volley-main,Hinata,0000,0000,0000,,Center.
+Dialogue: 0,0:20:04.60,0:20:05.34,volley-main,Tanaka,0000,0000,0000,,Hinata.
+Dialogue: 0,0:20:05.34,0:20:05.80,volley-main,Hinata,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:08.94,0:20:10.46,volley-main,Nishi,0000,0000,0000,,All right.
+Dialogue: 0,0:20:10.46,0:20:11.97,volley-main,Suga,0000,0000,0000,,Nishinoya.
+Dialogue: 0,0:20:13.34,0:20:14.25,volley-main,Nishi,0000,0000,0000,,Kageyama.
+Dialogue: 0,0:20:14.25,0:20:14.77,volley-main,Kage,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:15.20,0:20:16.73,volley-internal,Moniwa,0000,0000,0000,,Three Karasuno vanguards...
+Dialogue: 0,0:20:17.35,0:20:18.19,volley-internal,Moniwa,0000,0000,0000,,Who will it be?
+Dialogue: 0,0:20:18.84,0:20:21.36,volley-main,Hinata,0000,0000,0000,,Bring it!
+Dialogue: 0,0:20:26.95,0:20:28.58,volley-main,Aone,0000,0000,0000,,#10!
+Dialogue: 0,0:20:38.24,0:20:39.76,volley-internal,Kage,0000,0000,0000,,Clearing the path...
+Dialogue: 0,0:20:40.77,0:20:41.86,volley-internal,Kage,0000,0000,0000,,...for the ace.
+Dialogue: 0,0:20:46.38,0:20:47.97,volley-flashback,Hinata,0000,0000,0000,,The view of the other side of the net
+Dialogue: 0,0:20:49.56,0:20:50.70,volley-flashbackinternal,Hinata,0000,0000,0000,,opens up.
+Dialogue: 0,0:20:53.89,0:20:54.99,volley-internal,Asahi,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:56.38,0:20:57.40,volley-internal,,0000,0000,0000,,This is the view.
+Dialogue: 0,0:21:07.70,0:21:09.63,volley-main,Kei,0000,0000,0000,,All right!
+Dialogue: 0,0:21:14.69,0:21:16.53,volley-main,Shimada,0000,0000,0000,,That was the pipe Nekoma used.
+Dialogue: 0,0:21:19.59,0:21:20.97,volley-main,Nishi,0000,0000,0000,,Asahi-san.
+Dialogue: 0,0:21:20.07,0:21:20.97,volley-overlap,Sawa,0000,0000,0000,,Asahi.
+Dialogue: 0,0:21:20.25,0:21:20.97,volley-main-top,Tanaka,0000,0000,0000,,Asahi-san.
+Dialogue: 0,0:21:21.30,0:21:23.92,volley-main,Asahi,0000,0000,0000,,You guys... are awesome.
+Dialogue: 0,0:21:25.16,0:21:26.42,volley-main,Asahi,0000,0000,0000,,Thank you.
+Dialogue: 0,0:21:27.12,0:21:30.04,volley-main,Nishi,0000,0000,0000,,What are you talking about? \NYou're the one who scored, Asahi-san!
+Dialogue: 0,0:21:27.85,0:21:29.41,volley-main-top,Yama (overlap),0000,0000,0000,,Nice, Asahi-san.
+Dialogue: 0,0:21:30.04,0:21:31.35,volley-main,Nishi,0000,0000,0000,,Be proud of it. Come on.
+Dialogue: 0,0:21:32.26,0:21:34.71,volley-flashback,Suga,0000,0000,0000,,Please open the way for the ace!
+Dialogue: 0,0:21:38.17,0:21:39.57,volley-main,Suga,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:40.04,0:21:41.64,volley-main,Kage,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:21:42.28,0:21:45.31,volley-main,Hinata,0000,0000,0000,,It wasn't me that scored...
+Dialogue: 0,0:21:45.99,0:21:49.56,volley-main,Hinata,0000,0000,0000,,I didn't even spike the ball, but...
+Dialogue: 0,0:21:50.92,0:21:52.35,volley-flashback,Aone,0000,0000,0000,,#10!
+Dialogue: 0,0:21:54.82,0:21:56.02,volley-main,Hinata,0000,0000,0000,,That...
+Dialogue: 0,0:21:57.28,0:21:58.64,volley-main,,0000,0000,0000,,...felt incredible.
+Dialogue: 0,0:22:02.53,0:22:06.26,volley-main,Kage,0000,0000,0000,,Being the best decoy ever\N is as cool as being the ace.
+Dialogue: 0,0:22:09.69,0:22:13.51,volley-main,Hinata,0000,0000,0000,,"The best decoy ever."
+Dialogue: 0,0:22:14.83,0:22:19.40,volley-main,Kei,0000,0000,0000,,All our secret weapons are out in the open.
+Dialogue: 0,0:22:22.11,0:22:25.40,volley-main,Kei,0000,0000,0000,,The moment of truth is near.
+Dialogue: 0,0:23:57.87,0:24:00.04,volley-preview,Caption,0000,0000,0000,,Next Episode Preview
+Dialogue: 0,0:23:58.91,0:24:00.04,volley-main,Aone,0000,0000,0000,,It's different.
+Dialogue: 0,0:24:00.04,0:24:01.44,volley-main,Futakuchi,0000,0000,0000,,What's different, Aone?
+Dialogue: 0,0:24:01.44,0:24:02.29,volley-main,Aone,0000,0000,0000,,Karasuno's ...
+Dialogue: 0,0:24:02.29,0:24:03.25,volley-main,Futakuchi,0000,0000,0000,,I know.
+Dialogue: 0,0:24:03.25,0:24:06.50,volley-main,,0000,0000,0000,,That setter and shrimp make \Nit hard to target blocks.
+Dialogue: 0,0:24:06.50,0:24:08.17,volley-main,Aone,0000,0000,0000,,...lady manager's hairstyle.
+Dialogue: 0,0:24:08.17,0:24:09.46,volley-main,Futakuchi,0000,0000,0000,,Is that what you meant?
+Dialogue: 0,0:24:09.46,0:24:12.09,volley-main-top,,0000,0000,0000,,Next time on {\i1}Haikyu!!{\i0}: \N"Guarding Your Back."
+Dialogue: 0,0:24:09.99,0:24:12.80,volley-next-ep-title,Caption,0000,0000,0000,,Episode 18: Guarding Your Back
+Dialogue: 0,0:24:12.80,0:24:14.80,volley-main,,0000,0000,0000,,

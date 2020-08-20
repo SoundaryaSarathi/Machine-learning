@@ -1,0 +1,486 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: volley-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-main-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-internal-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000026,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: volley-internaloverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-flashbackoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: volley-show-title,Open Sans Semibold,130,&H00030302,&H000000FF,&H00215EF2,&H00222A17,1,0,0,0,100,100,0,0,1,2,0,2,27,27,53,0
+Style: volley-ep-title,Open Sans Semibold,32,&H00FFFFFF,&H000000FF,&H001D1D1D,&H001D1D1D,0,0,0,0,100,100,0,0,1,1,1,3,7,63,67,0
+Style: volley-eyecatch-a,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,3,75,61,127,0
+Style: volley-eyecatch-b,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,1,84,61,127,0
+Style: volley-preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: volley-next-ep-title,Open Sans Semibold,32,&H00000000,&H000000FF,&H003C78B9,&H00000A2D,1,1,0,0,100,100,0,0,1,1,1,3,0,63,73,0
+Style: location,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100,100,0,0,1,1,1,2,40,0,73,0
+Style: chalkboard,Open Sans Semibold,32,&H00EFF2F0,&H000000FF,&H0044483C,&H006F808B,0,0,0,0,100,100,0,1,1,4,0,8,67,67,53,0
+Style: chalkboard2,Open Sans Semibold,29,&H00E8EEDF,&H000000FF,&H004F5738,&H006F808B,0,0,0,0,100,100,0,10,1,4,0,8,13,40,93,0
+Style: chalkboard3,Open Sans Semibold,29,&H00E8EEDF,&H000000FF,&H004F5738,&H006F808B,0,0,0,0,100,100,0,1,1,4,0,8,67,67,47,0
+Style: scoreboard,Open Sans Semibold,25,&H0030312E,&H000000FF,&H00B6B6B6,&H006F808B,1,0,0,0,100,100,0,0,1,0,0,2,27,0,101,0
+Style: big score,Open Sans Semibold,87,&H00FFFFFF,&H000000FF,&H00282826,&H006F808B,1,0,0,0,100,100,0,0,1,3,0,8,0,0,23,0
+Style: equip,Open Sans Semibold,35,&H00595A55,&H000000FF,&H00E3E7E2,&H00505B5E,1,0,0,0,100,100,0,351,1,4,0,8,13,13,67,0
+Style: notepad,Open Sans Semibold,25,&H00000000,&H000000FF,&H00FFFFFF,&H005C574B,1,0,0,0,100,100,0,0,1,4,0,8,13,80,27,0
+Style: notepad2,Open Sans Semibold,25,&H006C7070,&H000000FF,&H00D7DCDB,&H005C574B,0,0,0,0,100,100,0,0,1,4,0,4,533,27,0,0
+Style: store,Open Sans Semibold,26,&H002B3432,&H000000FF,&H001E1E1E,&H00566F74,1,0,0,0,100,100,0,0,1,4,0,8,27,27,133,0
+Style: school,Open Sans Semibold,22,&H0029294B,&H000000FF,&H00353658,&H00D1FDFF,0,0,0,0,100,100,0,352,1,1,0,3,27,67,107,0
+Style: fly,Open Sans Semibold,29,&H00E5E9EB,&H000000FF,&H00282120,&H005C574B,1,0,0,0,100,100,0,0,1,4,0,7,133,27,67,0
+Style: positions,Open Sans Semibold,19,&H00484848,&H000000FF,&H00F3F3F3,&H00D1FDFF,1,0,0,0,100,100,0,0,1,0,0,5,40,27,67,0
+Style: positions-upper,Open Sans Semibold,19,&H00484848,&H000000FF,&H00F3F3F3,&H00D1FDFF,1,0,0,0,100,100,0,0,1,0,0,8,40,27,107,0
+Style: kuro-jersey,Open Sans Semibold,36,&H00E8E8E3,&H000000FF,&H00343230,&H00D1FDFF,1,0,0,0,100,100,0,0,1,4,0,5,13,13,40,0
+Style: shira jersey,Open Sans Semibold,26,&H004E3843,&H000000FF,&H00EED3DF,&H00D1FDFF,1,0,0,0,100,100,0,0,1,3,0,4,27,200,27,0
+Style: kids,Open Sans Semibold,26,&H00342CD2,&H000000FF,&H00D7E783,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,8,267,27,27,0
+Style: wood,Open Sans Semibold,44,&H0005030B,&H000000FF,&H00303E4A,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: booze,Open Sans Semibold,18,&H000F111A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,2,8,27,80,27,0
+Style: staff-room,Open Sans Semibold,35,&H00424742,&H000000FF,&H00E3E7E2,&H00000000,1,0,0,0,100,100,0,345,1,4,0,8,13,67,67,0
+Style: class-room,Open Sans Semibold,35,&H00424742,&H000000FF,&H00E3E7E2,&H00000000,1,0,0,0,100,100,0,347,1,4,0,8,13,80,107,0
+Style: neko-school,Open Sans Semibold,24,&H00434842,&H000000FF,&H00767F72,&H006F808B,0,0,0,0,100,100,0,0,1,4,0,5,620,40,67,0
+Style: ruckus,Open Sans Semibold,22,&H00494A48,&H000000FF,&H00EDEBEB,&H00EDEBEB,1,0,0,0,100,100,0,0,1,4,0,9,27,27,27,0
+Style: ahirt,Open Sans Semibold,18,&H00494E4D,&H000000FF,&H00EAEDEC,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,7,107,27,133,0
+Style: gym1,Open Sans Semibold,29,&H001C1A1B,&H000000FF,&H00504C4A,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: vids,Open Sans Semibold,18,&H008F705C,&H000000FF,&H00E7E3DB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: board1,Open Sans Semibold,22,&H007E8A88,&H000000FF,&H00E3F0EE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,160,13,27,0
+Style: shirt,Open Sans Semibold,22,&H004A4C48,&H000000FF,&H00EAEDEC,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,1,67,27,27,0
+Style: pig,Open Sans Semibold,36,&H00291713,&H000000FF,&H00574C40,&H00000000,1,0,0,0,100,100,0,347,1,4,0,9,27,200,133,0
+Style: report,Open Sans Semibold,36,&H00000000,&H000000FF,&H00BAC3B2,&H00000000,1,0,0,0,100,100,0,22,1,0,0,8,27,27,120,0
+Style: report2,Open Sans Semibold,22,&H00000000,&H000000FF,&H00DCDCDC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,3,13,27,27,0
+Style: ice,Open Sans Semibold,44,&H003427D3,&H000000FF,&H005B5E5D,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,160,27,0
+Style: woof,Open Sans Semibold,35,&H00FFE491,&H000000FF,&H00473C2B,&H001B201F,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: iza,Open Sans Semibold,22,&H00212625,&H000000FF,&H0091A5A6,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,0,97,67,0
+Style: sign1,Open Sans Semibold,15,&H0052574E,&H000000FF,&H00FDFDFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,93,27,0
+Style: chalkboard - Copy,Open Sans Semibold,26,&H00E8EEDF,&H000000FF,&H004F5738,&H006F808B,0,0,0,0,100,100,0,1,1,4,0,8,67,67,80,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:05.75,0:00:07.43,volley-main,hina,0000,0000,0000,,Where are we going, Coach?
+Dialogue: 0,0:00:08.18,0:00:09.90,volley-main,ukai,0000,0000,0000,,You'll know when we get there.
+Dialogue: 0,0:00:14.11,0:00:17.58,kids,sign,0000,0000,0000,,Youth Volleyball Class
+Dialogue: 0,0:00:14.88,0:00:16.33,volley-main,boy,0000,0000,0000,,Let's go home and practice!
+Dialogue: 0,0:00:16.33,0:00:17.58,volley-main,boy,0000,0000,0000,,That was so much fun!
+Dialogue: 0,0:00:27.73,0:00:28.79,volley-main,kage,0000,0000,0000,,Sorry.
+Dialogue: 0,0:00:29.50,0:00:31.73,volley-main-top,kid,0000,0000,0000,,Hey, you made him cry.
+Dialogue: 0,0:00:29.59,0:00:33.80,volley-internal,kage,0000,0000,0000,,What am I even doing here?
+Dialogue: 0,0:00:31.73,0:00:33.82,volley-main-top,parent,0000,0000,0000,,Shh, stop that.
+Dialogue: 0,0:00:33.82,0:00:35.76,volley-internal,,0000,0000,0000,,The class is already over.
+Dialogue: 0,0:00:36.19,0:00:38.51,volley-main,kid,0000,0000,0000,,Toru! Show me how to serve!
+Dialogue: 0,0:00:38.51,0:00:40.97,volley-main,oikawa,0000,0000,0000,,Hey! How about showing some respect first?
+Dialogue: 0,0:00:41.59,0:00:44.46,volley-main,kage,0000,0000,0000,,O-Oikawa-san!
+Dialogue: 0,0:00:47.46,0:00:49.90,volley-main,ukai,0000,0000,0000,,Come on! Move those legs!
+Dialogue: 0,0:00:51.44,0:00:52.89,volley-main,yuu,0000,0000,0000,,Nice receive!
+Dialogue: 0,0:00:52.89,0:00:53.61,volley-main,ukai,0000,0000,0000,,One more!
+Dialogue: 0,0:00:54.00,0:00:55.56,volley-main-top,tsun,0000,0000,0000,,Whoa, I can't get that!
+Dialogue: 0,0:00:54.58,0:00:56.08,volley-main,keishn,0000,0000,0000,,Are you sure you're supposed
+Dialogue: 0,0:00:55.56,0:00:56.94,volley-main-top,yuu,0000,0000,0000,,I'm tired!
+Dialogue: 0,0:00:56.08,0:00:58.32,volley-main,,0000,0000,0000,,to be moving around like that right \Nafter getting out of the hospital?
+Dialogue: 0,0:00:58.67,0:01:00.81,volley-main,ukai,0000,0000,0000,,What? If they let you out of the hospital,
+Dialogue: 0,0:01:00.81,0:01:03.80,volley-main,,0000,0000,0000,,it means they're giving you permission \Nto move around all you want.
+Dialogue: 0,0:01:05.71,0:01:07.10,volley-main,kei,0000,0000,0000,,He's my grandpa.
+Dialogue: 0,0:01:08.10,0:01:08.88,volley-main,hina,0000,0000,0000,,Huh?!
+Dialogue: 0,0:01:09.28,0:01:10.22,volley-main,hina,0000,0000,0000,,Gra...
+Dialogue: 0,0:01:11.17,0:01:12.95,volley-main,hina,0000,0000,0000,,Coach Ukai?!
+Dialogue: 0,0:01:28.77,0:01:33.82,volley-show-title,,0000,0000,0000,,{\fad(190,1)}Haikyu!!
+Dialogue: 0,0:02:45.01,0:02:48.02,wood,sign,0000,0000,0000,,Ukai
+Dialogue: 0,0:02:47.08,0:02:48.02,volley-main,ukai,0000,0000,0000,,So...
+Dialogue: 0,0:02:48.48,0:02:51.12,volley-main-top,,0000,0000,0000,,You couldn't figure out what to do
+Dialogue: 0,0:02:48.56,0:02:54.61,volley-ep-title,title,0000,0000,0000,,{\fad(487,500)}Episode 06: "Tempo"
+Dialogue: 0,0:02:51.12,0:02:55.43,volley-main-top,,0000,0000,0000,,with this weirdo quick attack and \Nhelplessly ran away, eh, Coach?
+Dialogue: 0,0:02:57.16,0:03:00.60,volley-main,ukai,0000,0000,0000,,That's your team, you weakling!
+Dialogue: 0,0:03:00.60,0:03:01.91,volley-main,hina,0000,0000,0000,,Coach?!
+Dialogue: 0,0:03:03.26,0:03:06.87,volley-flashback,tana,0000,0000,0000,,He's the great commander that led \Nthe nameless Karasuno to nationals.
+Dialogue: 0,0:03:08.62,0:03:12.20,volley-flashback,tana,0000,0000,0000,,The name "Karasuno's Ukai" was super famous.
+Dialogue: 0,0:03:13.76,0:03:16.34,volley-flashback,tana,0000,0000,0000,,They said he owned a fierce pack of crows.
+Dialogue: 0,0:03:18.05,0:03:20.57,volley-main,hina,0000,0000,0000,,P-Please help me!
+Dialogue: 0,0:03:21.22,0:03:22.26,volley-main,ukai,0000,0000,0000,,With what?
+Dialogue: 0,0:03:22.80,0:03:25.51,volley-main,ukai,0000,0000,0000,,I don't go around smacking random people.
+Dialogue: 0,0:03:25.51,0:03:27.15,volley-main,,0000,0000,0000,,Just weaklings.
+Dialogue: 0,0:03:27.15,0:03:29.23,volley-main,kei,0000,0000,0000,,You shitty old man...
+Dialogue: 0,0:03:29.55,0:03:34.89,volley-main,hina,0000,0000,0000,,I-I came here to learn to fight on my own!
+Dialogue: 0,0:03:35.74,0:03:39.32,volley-main,ukai,0000,0000,0000,,You want to master mid-air battles? \NWhen you're only that tall?
+Dialogue: 0,0:03:39.32,0:03:40.99,volley-main,hina,0000,0000,0000,,It's because I'm only this tall!
+Dialogue: 0,0:03:45.16,0:03:48.25,volley-main,hina,0000,0000,0000,,I might sound like I'm saying \Nsomething weird, but...
+Dialogue: 0,0:03:49.13,0:03:50.55,volley-main,ukai,0000,0000,0000,,What's weird about it?
+Dialogue: 0,0:03:52.64,0:03:55.75,volley-main,ukai,0000,0000,0000,,No matter what kind of genius \Nsetter you're dealing with,
+Dialogue: 0,0:03:56.22,0:03:58.70,volley-main,ukai,0000,0000,0000,,in what we call a quick attack,
+Dialogue: 0,0:03:58.70,0:04:00.46,volley-main,,0000,0000,0000,,the one that's the absolute leader
+Dialogue: 0,0:04:01.20,0:04:02.14,volley-main,ukai,0000,0000,0000,,is you.
+Dialogue: 0,0:04:04.80,0:04:08.68,volley-main,ukai,0000,0000,0000,,Stop spacing out!\NYou're the coach, damn it!
+Dialogue: 0,0:04:12.51,0:04:15.63,volley-main,kage,0000,0000,0000,,O-Oikawa-san, what are you doing here?
+Dialogue: 0,0:04:15.63,0:04:17.23,volley-main,oi,0000,0000,0000,,I'm watching my nephew.
+Dialogue: 0,0:04:17.23,0:04:18.09,volley-main,takeru,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:18.09,0:04:20.88,volley-main,kage,0000,0000,0000,,H-Hey... What about club?
+Dialogue: 0,0:04:20.88,0:04:23.05,volley-main,oi,0000,0000,0000,,We usually have Mondays off.
+Dialogue: 0,0:04:23.05,0:04:26.03,volley-main,kage,0000,0000,0000,,Y-You take a day off during the week?\NThat's such a waste!
+Dialogue: 0,0:04:26.35,0:04:28.89,volley-main,oi,0000,0000,0000,,Resting and skipping are \Ntwo different things.
+Dialogue: 0,0:04:28.89,0:04:29.56,volley-main,oi,0000,0000,0000,,See ya.
+Dialogue: 0,0:04:30.28,0:04:32.25,volley-main,kage,0000,0000,0000,,O-Oikawa-san, um...
+Dialogue: 0,0:04:32.25,0:04:34.09,volley-main,oi,0000,0000,0000,,Nope! Stupid!
+Dialogue: 0,0:04:34.09,0:04:35.93,volley-main,,0000,0000,0000,,You're stupid! You stupid face!
+Dialogue: 0,0:04:35.93,0:04:37.46,volley-main,kage,0000,0000,0000,,I haven't even said anything yet!
+Dialogue: 0,0:04:37.74,0:04:38.56,volley-main,kage,0000,0000,0000,,Oikawa-san—
+Dialogue: 0,0:04:38.56,0:04:41.42,volley-main,oikawa,0000,0000,0000,,Nope! Can't hear you! Can't hear a thing!
+Dialogue: 0,0:04:43.80,0:04:46.57,volley-main,kage,0000,0000,0000,,Please listen to me for a second.
+Dialogue: 0,0:04:47.10,0:04:51.05,volley-main,oikawa,0000,0000,0000,,Why should I have to listen \Nto what my opponent has to say?
+Dialogue: 0,0:04:52.17,0:04:53.75,volley-main,kage,0000,0000,0000,,Please, Oikawa-san!
+Dialogue: 0,0:04:54.39,0:04:57.35,volley-main,,0000,0000,0000,,Please! Please!
+Dialogue: 0,0:04:59.11,0:05:01.48,volley-main,kage,0000,0000,0000,,Please!
+Dialogue: 0,0:05:06.56,0:05:07.36,volley-main,oika,0000,0000,0000,,Takeru.
+Dialogue: 0,0:05:07.36,0:05:08.19,volley-main,take,0000,0000,0000,,What?
+Dialogue: 0,0:05:08.19,0:05:09.32,volley-main,oika,0000,0000,0000,,Take a picture.
+Dialogue: 0,0:05:09.32,0:05:11.59,volley-main,,0000,0000,0000,,Hold it like this... And press this button.
+Dialogue: 0,0:05:11.59,0:05:12.75,volley-main,oi,0000,0000,0000,,Don't move, Tobio.
+Dialogue: 0,0:05:12.75,0:05:17.67,volley-main,oi,0000,0000,0000,,Yay! I'll call this, "Tobio is\N No Match For Oikawa-san!"
+Dialogue: 0,0:05:18.73,0:05:22.25,volley-main,take,0000,0000,0000,,Toru, you're actually happy \Nabout this picture? Lame.
+Dialogue: 0,0:05:24.54,0:05:26.09,volley-main,oika,0000,0000,0000,,Well, what do you want?
+Dialogue: 0,0:05:26.09,0:05:27.56,volley-main,,0000,0000,0000,,I'm busy, you know.
+Dialogue: 0,0:05:27.56,0:05:30.16,volley-main,take,0000,0000,0000,,You said your girlfriend dumped \Nyou, so you had free time!
+Dialogue: 0,0:05:30.16,0:05:32.56,volley-main,oi,0000,0000,0000,,Takeru! Shut up!
+Dialogue: 0,0:05:32.56,0:05:35.28,volley-main,take,0000,0000,0000,,What? But when you came, you said you \Ndidn't know what you did wrong...
+Dialogue: 0,0:05:35.28,0:05:37.37,volley-main,oi,0000,0000,0000,,I said, "Shut up!"
+Dialogue: 0,0:05:37.96,0:05:43.66,volley-main,kage,0000,0000,0000,,So, uh, what if you were close \Nto a tournament, and, uh...
+Dialogue: 0,0:05:44.31,0:05:47.69,volley-main,kage,0000,0000,0000,,And Iwaizumi-san said he was going \Nto try some impossible attack...
+Dialogue: 0,0:05:47.69,0:05:48.80,volley-main,oi,0000,0000,0000,,Hey.
+Dialogue: 0,0:05:48.80,0:05:50.49,volley-main,oi,0000,0000,0000,,If you want to talk to me about something,
+Dialogue: 0,0:05:50.49,0:05:53.45,volley-main,,0000,0000,0000,,quit with the lame "what if" story\Nand just tell me flat out.
+Dialogue: 0,0:05:56.95,0:05:59.61,volley-main,age,0000,0000,0000,,Hinata said he wants to hit \Nour quick with his own will,
+Dialogue: 0,0:06:00.07,0:06:02.87,volley-main,kage,0000,0000,0000,,even though he had been closing \Nhis eyes this whole time.
+Dialogue: 0,0:06:03.39,0:06:05.53,volley-main,oi,0000,0000,0000,,Oh, really? That'd be pretty \Nimpressive if he could do it.
+Dialogue: 0,0:06:05.53,0:06:06.41,volley-main,oi,0000,0000,0000,,Why not let him?
+Dialogue: 0,0:06:06.41,0:06:08.79,volley-main,kage,0000,0000,0000,,Please don't make it sound so easy!
+Dialogue: 0,0:06:08.79,0:06:10.68,volley-main,kage,0000,0000,0000,,Hinata doesn't have any technique!
+Dialogue: 0,0:06:11.33,0:06:15.25,volley-main,oi,0000,0000,0000,,So you told him, "Just do as I say"?
+Dialogue: 0,0:06:15.25,0:06:16.81,volley-main,oi,0000,0000,0000,,You sound like a dictator.
+Dialogue: 0,0:06:18.08,0:06:19.61,volley-main,oi,0000,0000,0000,,Have you put any thought into it?
+Dialogue: 0,0:06:20.13,0:06:23.70,volley-main,oi,0000,0000,0000,,Are you giving the shrimp\N the exact tosses he wants?
+Dialogue: 0,0:06:24.26,0:06:26.20,volley-main,oi,0000,0000,0000,,Have you even tried to?
+Dialogue: 0,0:06:27.09,0:06:27.78,volley-flashback,hina,0000,0000,0000,,Kageyama...
+Dialogue: 0,0:06:29.85,0:06:31.95,volley-flashback,hina,0000,0000,0000,,Give me a toss.
+Dialogue: 0,0:06:32.88,0:06:36.20,volley-main,oi,0000,0000,0000,,If you're thinking the situation as good as it\Ncan be and you're being defensive about it,
+Dialogue: 0,0:06:36.20,0:06:38.03,volley-main,oi,0000,0000,0000,,you're basically a coward.
+Dialogue: 0,0:06:39.26,0:06:40.89,volley-main,oi,0000,0000,0000,,Don't get the wrong idea.
+Dialogue: 0,0:06:41.52,0:06:43.75,volley-main,oi,0000,0000,0000,,The one who has leadership \Nin an attack isn't you...
+Dialogue: 0,0:06:44.53,0:06:46.71,volley-main,oi,0000,0000,0000,,It's the little shrimp.
+Dialogue: 0,0:06:49.60,0:06:51.64,volley-main,oi,0000,0000,0000,,If you can't understand that,
+Dialogue: 0,0:06:51.64,0:06:54.76,volley-main,,0000,0000,0000,,you're just regressing back\N to playing the tyrant king.
+Dialogue: 0,0:06:54.76,0:06:56.02,volley-main,oi,0000,0000,0000,,Let's go, Takeru.
+Dialogue: 0,0:07:05.17,0:07:06.89,volley-main,take,0000,0000,0000,,Are you in a good mood, Toru?
+Dialogue: 0,0:07:07.72,0:07:11.64,volley-main,oi,0000,0000,0000,,I'm happy that Tobio's more run \Ndown that I thought he was.
+Dialogue: 0,0:07:13.44,0:07:15.33,volley-main,oi,0000,0000,0000,,I'm totally blurry!
+Dialogue: 0,0:07:16.53,0:07:19.75,volley-main,ukai,0000,0000,0000,,You'll need awareness before\N you improve your technique.
+Dialogue: 0,0:07:20.89,0:07:25.17,volley-main,ukai,0000,0000,0000,,What do you personally think \Nabout this weirdo quick of yours?
+Dialogue: 0,0:07:25.17,0:07:30.12,volley-main,hina,0000,0000,0000,,Um... I go whoosh, and then\N jump up as high as I can, like {\i1}pop{\i0},
+Dialogue: 0,0:07:30.12,0:07:32.67,volley-main,hina,0000,0000,0000,,and then the set comes toward me, like {\i1}slash{\i0},
+Dialogue: 0,0:07:32.67,0:07:33.74,volley-main,hina,0000,0000,0000,,and then if I wave my arm, like {\i1}swoosh{\i0},
+Dialogue: 0,0:07:33.74,0:07:36.65,volley-main,hina,0000,0000,0000,,my hand happens to perfectly \Nmake contact, like {\i1}whack{\i0}.
+Dialogue: 0,0:07:36.65,0:07:40.27,volley-main,kei,0000,0000,0000,,Er, what he's trying to say is when \Nhe jumps up with his eyes closed,
+Dialogue: 0,0:07:40.27,0:07:43.12,volley-main,kei,0000,0000,0000,,our setter, Kageyama, tosses\N the ball directly to him—
+Dialogue: 0,0:07:43.12,0:07:45.11,volley-main,ukai,0000,0000,0000,,I get what you're trying to say.
+Dialogue: 0,0:07:45.69,0:07:47.90,volley-main,ukai,0000,0000,0000,,But you're wrong, Shrimpy.
+Dialogue: 0,0:07:48.81,0:07:50.92,volley-main,ukai,0000,0000,0000,,So long as that weirdo quick \Nis indeed a quick attack,
+Dialogue: 0,0:07:50.92,0:07:54.87,volley-main,ukai,0000,0000,0000,,you still hold the initiative in this.
+Dialogue: 0,0:07:55.26,0:07:58.38,volley-main,ukai,0000,0000,0000,,You need to get that through your head.
+Dialogue: 0,0:07:58.38,0:08:01.08,volley-main,ukai,0000,0000,0000,,Don't think of your weapon \Nas something that's unknown.
+Dialogue: 0,0:08:02.56,0:08:06.12,volley-main,ukai,0000,0000,0000,,Well, I guess it's faster to just show you.
+Dialogue: 0,0:08:06.12,0:08:08.50,volley-main,ukai,0000,0000,0000,,Shrimpy, try blocking.
+Dialogue: 0,0:08:09.04,0:08:12.22,volley-main,ukai,0000,0000,0000,,You're a middle blocker, \Naren't ya? Try stopping it.
+Dialogue: 0,0:08:13.59,0:08:14.89,volley-main,yuu,0000,0000,0000,,You're in junior high?
+Dialogue: 0,0:08:14.89,0:08:15.69,volley-main,taka,0000,0000,0000,,What school?
+Dialogue: 0,0:08:15.69,0:08:17.30,volley-main,hina,0000,0000,0000,,I'm in high school!
+Dialogue: 0,0:08:17.79,0:08:18.86,volley-main,ukai,0000,0000,0000,,All right, here we go!
+Dialogue: 0,0:08:18.86,0:08:20.38,volley-main,kids,0000,0000,0000,,Okay!
+Dialogue: 0,0:08:20.38,0:08:22.49,volley-internal,hina,0000,0000,0000,,Is this height for grade school kids?
+Dialogue: 0,0:08:22.49,0:08:24.23,volley-internal,,0000,0000,0000,,I feel a bit taller.
+Dialogue: 0,0:08:25.93,0:08:27.15,volley-main,ukai,0000,0000,0000,,Third tempo.
+Dialogue: 0,0:08:27.61,0:08:28.86,volley-internal,hina,0000,0000,0000,,"Third tempo"?
+Dialogue: 0,0:08:35.81,0:08:37.40,volley-main,taka,0000,0000,0000,,That's an amazing jump!
+Dialogue: 0,0:08:37.40,0:08:39.05,volley-main,,0000,0000,0000,,Your face was totally above the net.
+Dialogue: 0,0:08:39.05,0:08:39.99,volley-main,hina,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:08:40.36,0:08:43.21,volley-main,ukai,0000,0000,0000,,You've definitely got some \Nspring in your step...
+Dialogue: 0,0:08:43.55,0:08:44.41,volley-main,ukai,0000,0000,0000,,All right, next!
+Dialogue: 0,0:08:44.96,0:08:46.12,volley-main,ukai,0000,0000,0000,,Second tempo.
+Dialogue: 0,0:08:49.79,0:08:51.71,volley-internal,hina,0000,0000,0000,,They're coming faster than before, but...
+Dialogue: 0,0:08:55.50,0:08:56.34,volley-main,ukai,0000,0000,0000,,All right, next!
+Dialogue: 0,0:08:56.91,0:08:58.05,volley-main,ukai,0000,0000,0000,,First tempo!
+Dialogue: 0,0:09:08.01,0:09:08.72,volley-main,ukai,0000,0000,0000,,Well?
+Dialogue: 0,0:09:08.72,0:09:09.80,volley-main,hina,0000,0000,0000,,It's fast!
+Dialogue: 0,0:09:09.80,0:09:10.97,volley-main,ukai,0000,0000,0000,,Can you block that?
+Dialogue: 0,0:09:10.97,0:09:14.28,volley-main,hina,0000,0000,0000,,If anything, I don't think \NI could do it on my own.
+Dialogue: 0,0:09:14.92,0:09:16.91,volley-main,ukai,0000,0000,0000,,In the three tempos you just saw,
+Dialogue: 0,0:09:16.91,0:09:19.48,volley-main,ukai,0000,0000,0000,,was there a big difference \Nin how the spiker hit?
+Dialogue: 0,0:09:19.48,0:09:21.33,volley-main,hina,0000,0000,0000,,No! I don't think...
+Dialogue: 0,0:09:21.68,0:09:23.14,volley-main,ukai,0000,0000,0000,,Then what was different?
+Dialogue: 0,0:09:32.21,0:09:35.01,volley-main,hina,0000,0000,0000,,The timing of their running approach?
+Dialogue: 0,0:09:35.32,0:09:37.47,volley-main,ukai,0000,0000,0000,,Correct! That's what the tempo is.
+Dialogue: 0,0:09:38.44,0:09:43.28,volley-main,ukai,0000,0000,0000,,Listen. The agility in any attack \Nis determined by its tempo.
+Dialogue: 0,0:09:43.28,0:09:46.57,volley-main,ukai,0000,0000,0000,,It's not how fast or slow the toss may be,
+Dialogue: 0,0:09:46.57,0:09:50.06,volley-main,ukai,0000,0000,0000,,it's the timing of the\N spiker's running approach.
+Dialogue: 0,0:09:50.83,0:09:53.32,volley-main,ukai,0000,0000,0000,,The fastest is the first tempo.
+Dialogue: 0,0:09:53.92,0:09:57.00,volley-main,ukai,0000,0000,0000,,It's the best way to get \Naround the opponent's block,
+Dialogue: 0,0:09:57.00,0:10:00.16,volley-main,ukai,0000,0000,0000,,and is probably the attack you \Nwere doing without realizing it.
+Dialogue: 0,0:10:00.57,0:10:04.54,volley-main,ukai,0000,0000,0000,,But you need to actually understand it.
+Dialogue: 0,0:10:05.35,0:10:08.75,volley-main,ukai,0000,0000,0000,,You need to start your running approach \Nbefore the setter's toss goes up...
+Dialogue: 0,0:10:08.75,0:10:12.20,volley-main,ukai,0000,0000,0000,,The setter tosses to the spiker...
+Dialogue: 0,0:10:13.19,0:10:17.34,volley-main,ukai,0000,0000,0000,,Which means, your weirdo quick is also \Nan attack where the spiker leads.
+Dialogue: 0,0:10:18.89,0:10:20.91,volley-main,hina,0000,0000,0000,,First... tempo...
+Dialogue: 0,0:10:22.88,0:10:28.31,volley-main,ukai,0000,0000,0000,,And... I don't know what kind \Nof attack this weirdo quick is,
+Dialogue: 0,0:10:28.68,0:10:30.56,volley-main,ukai,0000,0000,0000,,but this much is certain.
+Dialogue: 0,0:10:31.24,0:10:35.53,volley-main,ukai,0000,0000,0000,,There's no better toss than one \Nthat the spiker can easily hit.
+Dialogue: 0,0:10:44.72,0:10:46.49,volley-main,ukai,0000,0000,0000,,It can't be one-sided.
+Dialogue: 0,0:10:46.49,0:10:47.18,volley-main,hina,0000,0000,0000,,Eh?
+Dialogue: 0,0:10:47.18,0:10:49.23,volley-main,ukai,0000,0000,0000,,Hinata, practice here for a bit!
+Dialogue: 0,0:10:49.23,0:10:50.46,volley-main,hina,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:10:50.46,0:10:52.29,volley-main,tsun,0000,0000,0000,,What a weirdo.
+Dialogue: 0,0:10:54.31,0:10:58.46,volley-main,hina,0000,0000,0000,,The timing of the spiker's\N running approach is everything.
+Dialogue: 0,0:10:59.91,0:11:01.51,volley-main,hina,0000,0000,0000,,One centimeter,
+Dialogue: 0,0:11:01.51,0:11:02.96,volley-main,hina,0000,0000,0000,,one millimeter...
+Dialogue: 0,0:11:02.96,0:11:05.61,volley-main,hina,0000,0000,0000,,One second faster to the top...
+Dialogue: 0,0:11:06.66,0:11:09.22,volley-main,hina,0000,0000,0000,,But that's not enough.
+Dialogue: 0,0:11:09.68,0:11:13.64,volley-main,hina,0000,0000,0000,,Up until now, I was only working \Nto get to the top, but...
+Dialogue: 0,0:11:15.46,0:11:16.78,volley-main,ukai,0000,0000,0000,,So from now on,
+Dialogue: 0,0:11:16.78,0:11:19.69,volley-main,ukai,0000,0000,0000,,you want to fight at the top, too.
+Dialogue: 0,0:11:22.15,0:11:23.31,volley-main,ukai,0000,0000,0000,,In order for that to happen,
+Dialogue: 0,0:11:23.31,0:11:26.11,volley-main,,0000,0000,0000,,your partner's gonna need \Nsome improvement, as well.
+Dialogue: 0,0:11:26.11,0:11:26.62,volley-main,hina,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:27.36,0:11:30.83,volley-main,ukai,0000,0000,0000,,I'm sure Keishin will \Ndo something about that.
+Dialogue: 0,0:11:31.91,0:11:35.54,volley-main,hina,0000,0000,0000,,Kageyama's an amazing guy, \Nso I'm sure he can do it.
+Dialogue: 0,0:11:37.01,0:11:39.34,volley-main,hina,0000,0000,0000,,I don't want to be left behind...
+Dialogue: 0,0:11:40.16,0:11:43.35,volley-main,hina,0000,0000,0000,,Please teach me how to \Nfight when I'm at the top.
+Dialogue: 0,0:11:47.81,0:11:49.47,volley-flashbackinternal,oi,0000,0000,0000,,Don't get the wrong idea.
+Dialogue: 0,0:11:50.04,0:11:52.46,volley-flashback,oi,0000,0000,0000,,The one who has leadership \Nin an attack isn't you...
+Dialogue: 0,0:11:52.90,0:11:54.69,volley-flashback,,0000,0000,0000,,It's the little shrimp.
+Dialogue: 0,0:11:55.34,0:11:57.34,volley-flashbackinternal,oi,0000,0000,0000,,If you can't understand that,
+Dialogue: 0,0:11:57.34,0:12:00.25,volley-flashbackinternal,,0000,0000,0000,,you're just regressing back\N to playing the tyrant king.
+Dialogue: 0,0:12:04.90,0:12:05.40,volley-main,kage,0000,0000,0000,,Yes, hello—
+Dialogue: 0,0:12:05.40,0:12:07.50,volley-main,kei,0000,0000,0000,,Kageyama! Where are you right now?!
+Dialogue: 0,0:12:07.50,0:12:08.86,volley-main,kage,0000,0000,0000,,Ukai-san?
+Dialogue: 0,0:12:08.86,0:12:10.92,volley-main,,0000,0000,0000,,I'm heading to the school right now.
+Dialogue: 0,0:12:10.92,0:12:12.15,volley-main,kei,0000,0000,0000,,What?!
+Dialogue: 0,0:12:12.64,0:12:15.37,volley-main,kage,0000,0000,0000,,I was gonna see if they were done \Nwith the inspection of the gym yet.
+Dialogue: 0,0:12:15.37,0:12:16.71,volley-main,kei,0000,0000,0000,,Ah!
+Dialogue: 0,0:12:16.71,0:12:18.48,volley-main,kei,0000,0000,0000,,Kageyama!
+Dialogue: 0,0:12:18.48,0:12:19.34,volley-main,kage,0000,0000,0000,,Whoa.
+Dialogue: 0,0:12:19.71,0:12:22.01,volley-main,kei,0000,0000,0000,,Stop walking! Come with me!
+Dialogue: 0,0:12:22.38,0:12:23.38,volley-main,kage,0000,0000,0000,,I'm sorry?!
+Dialogue: 0,0:12:24.20,0:12:25.62,volley-main,kei,0000,0000,0000,,A toss that stops!
+Dialogue: 0,0:12:27.06,0:12:34.02,volley-eyecatch-b,,0000,0000,0000,,{\fad(200,1)}Haikyu!!
+Dialogue: 0,0:12:34.06,0:12:41.03,volley-eyecatch-b,,0000,0000,0000,,{\fad(200,1)}Haikyu!!
+Dialogue: 0,0:12:42.53,0:12:43.74,volley-main,ukai,0000,0000,0000,,Shrimpy,
+Dialogue: 0,0:12:44.49,0:12:47.52,volley-main,ukai,0000,0000,0000,,if you're gonna fight at the top on your own,
+Dialogue: 0,0:12:47.52,0:12:50.45,volley-main,ukai,0000,0000,0000,,you're gonna have to start\N with the fundamentals.
+Dialogue: 0,0:12:51.07,0:12:55.11,volley-main,ukai,0000,0000,0000,,Therefore, you're gonna be hitting \None quick after another.
+Dialogue: 0,0:12:55.11,0:12:57.42,volley-main,ukai,0000,0000,0000,,You're going to get in all the\N practice that you missed before.
+Dialogue: 0,0:12:57.42,0:12:59.33,volley-main,ono,0000,0000,0000,,Hello!
+Dialogue: 0,0:12:57.42,0:12:59.33,volley-main,daiki,0000,0000,0000,,Heyo!
+Dialogue: 0,0:12:59.33,0:13:00.83,volley-main,ukai,0000,0000,0000,,There you are.
+Dialogue: 0,0:13:00.83,0:13:02.13,volley-main,hina,0000,0000,0000,,Hi!
+Dialogue: 0,0:13:02.68,0:13:04.84,volley-main,ukai,0000,0000,0000,,Shrimpy, your assignment right now
+Dialogue: 0,0:13:05.15,0:13:07.07,volley-main,ukai,0000,0000,0000,,is to do first tempo with anyone.
+Dialogue: 0,0:13:07.07,0:13:08.05,volley-main,hina,0000,0000,0000,,Got it!
+Dialogue: 0,0:13:08.75,0:13:10.10,volley-main-top,daiki,0000,0000,0000,,A newbie?
+Dialogue: 0,0:13:08.76,0:13:11.74,volley-main,ukai,0000,0000,0000,,Your genius setter isn't here to toss to you,
+Dialogue: 0,0:13:10.10,0:13:13.05,volley-main-top,yuu,0000,0000,0000,,He's in junior... Oh, he's in high school.
+Dialogue: 0,0:13:11.74,0:13:13.58,volley-main,ukai,0000,0000,0000,,so it's not gonna be easy.
+Dialogue: 0,0:13:13.05,0:13:13.94,volley-main-top,ono,0000,0000,0000,,Ah...
+Dialogue: 0,0:13:13.58,0:13:14.52,volley-main,hina,0000,0000,0000,,Right!
+Dialogue: 0,0:13:14.97,0:13:15.98,volley-main,ukai,0000,0000,0000,,Also,
+Dialogue: 0,0:13:15.98,0:13:18.24,volley-main,ukai,0000,0000,0000,,in order to get used to the ball,
+Dialogue: 0,0:13:18.24,0:13:19.48,volley-main,ukai,0000,0000,0000,,you need to always be touching it.
+Dialogue: 0,0:13:19.48,0:13:20.52,volley-main,ukai,0000,0000,0000,,Always.
+Dialogue: 0,0:13:21.16,0:13:22.01,volley-main,hina,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:22.45,0:13:23.99,volley-main,ukai,0000,0000,0000,,It can be with your hands or feet.
+Dialogue: 0,0:13:24.53,0:13:26.76,volley-main,uai,0000,0000,0000,,Volleyball is a sport where \Nyou can't hold the ball.
+Dialogue: 0,0:13:27.28,0:13:30.66,volley-main,ukai,0000,0000,0000,,You're only allowed to touch \Nthe ball for a few seconds...
+Dialogue: 0,0:13:31.99,0:13:33.99,volley-main,ukai,0000,0000,0000,,You need to control that moment,
+Dialogue: 0,0:13:34.45,0:13:37.07,volley-main,ukai,0000,0000,0000,,as though ball were a part of your body.
+Dialogue: 0,0:13:38.22,0:13:39.61,volley-main,hina,0000,0000,0000,,Because your body is small,
+Dialogue: 0,0:13:39.61,0:13:41.73,volley-main,,0000,0000,0000,,use everything else possible \Nto make up for that.
+Dialogue: 0,0:13:41.73,0:13:42.54,volley-main,hina,0000,0000,0000,,Right!
+Dialogue: 0,0:13:42.88,0:13:46.13,store,sign,0000,0000,0000,,Sakanoshita Shop
+Dialogue: 0,0:13:44.58,0:13:46.13,volley-main,kage,0000,0000,0000,,Tempo?
+Dialogue: 0,0:13:48.42,0:13:49.39,volley-main-top,mom,0000,0000,0000,,Welcome.
+Dialogue: 0,0:13:48.69,0:13:51.74,volley-main,kei,0000,0000,0000,,Well, I have the basic \Ntheory of it in my head,
+Dialogue: 0,0:13:51.74,0:13:53.69,volley-main,kei,0000,0000,0000,,but I was never able to apply it.
+Dialogue: 0,0:13:54.71,0:13:57.56,volley-main,kei,0000,0000,0000,,I treated your quick attack as something \Nspecial when I shouldn't have,
+Dialogue: 0,0:13:57.56,0:13:59.96,volley-main,kei,0000,0000,0000,,and almost forgot something very basic.
+Dialogue: 0,0:14:00.58,0:14:02.73,volley-main,kage,0000,0000,0000,,I think I get the basics of tempo,
+Dialogue: 0,0:14:03.31,0:14:05.15,volley-main,kage,0000,0000,0000,,but what do you mean by a toss that stops?
+Dialogue: 0,0:14:06.40,0:14:07.82,volley-main,kei,0000,0000,0000,,Listen. First...
+Dialogue: 0,0:14:08.24,0:14:10.65,volley-main,kei,0000,0000,0000,,When you're tossing for your weirdo quick,
+Dialogue: 0,0:14:10.32,0:14:14.95,booze,sign,0000,0000,0000,,Point of Impact
+Dialogue: 0,0:14:10.65,0:14:13.13,volley-main,kei,0000,0000,0000,,it's a toss that passes through the \Nspiker's point of impact.
+Dialogue: 0,0:14:13.89,0:14:14.58,volley-main,kage,0000,0000,0000,,Right...
+Dialogue: 0,0:14:15.28,0:14:17.46,volley-main,kei,0000,0000,0000,,But you're going to stop it right there,
+Dialogue: 0,0:14:17.46,0:14:18.75,volley-main,kei,0000,0000,0000,,at the point of impact.
+Dialogue: 0,0:14:20.48,0:14:21.96,volley-main,kei,0000,0000,0000,,So, basically...
+Dialogue: 0,0:14:22.64,0:14:25.15,volley-main,,0000,0000,0000,,You're going to make the spiker's \Nhighest point of impact
+Dialogue: 0,0:14:25.15,0:14:27.59,volley-main,,0000,0000,0000,,the place you're going to aim for.
+Dialogue: 0,0:14:29.66,0:14:31.00,volley-main,kei,0000,0000,0000,,You're not going to use so much force
+Dialogue: 0,0:14:31.00,0:14:33.67,volley-main,,0000,0000,0000,,that that the ball passes through \Nthe spiker's point of impact,
+Dialogue: 0,0:14:33.67,0:14:36.28,volley-main,kei,0000,0000,0000,,You'll use just enough force to get to\Nthe spiker's point of impact, and then...
+Dialogue: 0,0:14:36.28,0:14:37.14,volley-main,kage,0000,0000,0000,,...kill it?
+Dialogue: 0,0:14:39.27,0:14:42.60,volley-main,kei,0000,0000,0000,,The difficulty in controlling your power \Nand how much backspin you put on it
+Dialogue: 0,0:14:42.60,0:14:44.14,volley-main,kei,0000,0000,0000,,isn't going to be like before.
+Dialogue: 0,0:14:44.14,0:14:47.25,volley-main,kei,0000,0000,0000,,Not to mention B-quick, \ND-quick, and slide hits...
+Dialogue: 0,0:14:47.25,0:14:50.45,volley-main,kie,0000,0000,0000,,The farther out you get, the more \Ndifficult they'll become.
+Dialogue: 0,0:14:51.16,0:14:52.17,volley-main,kei,0000,0000,0000,,Can you do it?
+Dialogue: 0,0:14:53.73,0:14:57.26,volley-flashback,oi,0000,0000,0000,,Are you giving the shrimp\N the exact tosses he wants?
+Dialogue: 0,0:14:57.72,0:14:59.92,volley-flashback,oi,0000,0000,0000,,Have you even tried to?
+Dialogue: 0,0:14:59.92,0:15:03.13,ruckus,sign,0000,0000,0000,,Don't Cause a Ruckus
+Dialogue: 0,0:15:01.28,0:15:02.63,volley-main,kage,0000,0000,0000,,I'll give it a try.
+Dialogue: 0,0:15:07.43,0:15:08.59,volley-main,hinata,0000,0000,0000,,Tanaka-san!
+Dialogue: 0,0:15:09.00,0:15:09.79,volley-main,tana,0000,0000,0000,,Oh?
+Dialogue: 0,0:15:09.79,0:15:12.67,volley-main,hina,0000,0000,0000,,I-I'm sorry about the other day!
+Dialogue: 0,0:15:12.67,0:15:15.36,volley-main,tana,0000,0000,0000,,No problem! Kageyama just came by, too.
+Dialogue: 0,0:15:15.36,0:15:16.81,volley-main,,0000,0000,0000,,I'm sorry for hitting you guys.
+Dialogue: 0,0:15:16.81,0:15:19.18,volley-flashback,tana,0000,0000,0000,,Stop!
+Dialogue: 0,0:15:19.18,0:15:22.40,volley-main,tana,0000,0000,0000,,I got too worked up trying to \Nstop you guys from fighting.
+Dialogue: 0,0:15:22.40,0:15:24.52,volley-main,hina,0000,0000,0000,,Your punch really worked, Tanaka-san.
+Dialogue: 0,0:15:24.52,0:15:27.95,volley-main-top,tana,0000,0000,0000,,But don't fight in front of girls!
+Dialogue: 0,0:15:27.95,0:15:30.25,volley-main-top,tana,0000,0000,0000,,Yacchan's face was as pale as a ghost.
+Dialogue: 0,0:15:28.88,0:15:30.25,volley-flashback,yachi,0000,0000,0000,,T-T-Tanaka-shan!
+Dialogue: 0,0:15:30.25,0:15:33.24,volley-flashback,,0000,0000,0000,,They're gonna die! They're gonna die!
+Dialogue: 0,0:15:32.00,0:15:33.24,volley-flashbackoverlap,tana,0000,0000,0000,,What is? You're scary!
+Dialogue: 0,0:15:33.83,0:15:36.41,volley-main,tana,0000,0000,0000,,Also, don't fight in front of \Nthe Vice Principal, either.
+Dialogue: 0,0:15:36.41,0:15:37.76,volley-main,,0000,0000,0000,,Fight anywhere else.
+Dialogue: 0,0:15:37.76,0:15:38.87,volley-main,hina,0000,0000,0000,,Right!
+Dialogue: 0,0:15:38.87,0:15:40.82,volley-main,kei,0000,0000,0000,,Hinata, come here a sec.
+Dialogue: 0,0:15:42.48,0:15:43.17,volley-main,kei,0000,0000,0000,,All right...
+Dialogue: 0,0:15:43.82,0:15:47.13,volley-main,kei,0000,0000,0000,,When we're doing practice games, Hinata, \Nyou'll be on the B team for a while.
+Dialogue: 0,0:15:47.51,0:15:48.68,volley-main,kei,0000,0000,0000,,Sugawara, I'm counting on you.
+Dialogue: 0,0:15:49.24,0:15:49.84,volley-main,suga,0000,0000,0000,,Right!
+Dialogue: 0,0:15:50.69,0:15:52.24,volley-main,kei,0000,0000,0000,,All right, let's get this started!
+Dialogue: 0,0:15:52.24,0:15:53.30,volley-main,,0000,0000,0000,,Make sure you stay hydrated!
+Dialogue: 0,0:15:53.30,0:15:54.66,volley-main,all,0000,0000,0000,,Right!
+Dialogue: 0,0:16:00.49,0:16:02.04,volley-main,yachi,0000,0000,0000,,Um, Hinata...
+Dialogue: 0,0:16:03.34,0:16:06.31,volley-main,yachi,0000,0000,0000,,U-Um, I was wondering if you were okay...
+Dialogue: 0,0:16:06.31,0:16:09.78,volley-main,yachi,0000,0000,0000,,You and Kageyama-kun, um, uh...
+Dialogue: 0,0:16:11.78,0:16:12.99,volley-main,hina,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:16:21.91,0:16:23.62,class-room,sign,0000,0000,0000,,Year 3  Class 1
+Dialogue: 0,0:16:22.48,0:16:25.56,volley-main,girl,0000,0000,0000,,Yui! Sawamura-kun's here.
+Dialogue: 0,0:16:27.62,0:16:28.90,volley-main,yui,0000,0000,0000,,What?
+Dialogue: 0,0:16:28.90,0:16:29.59,volley-main,sawa,0000,0000,0000,,Hey...
+Dialogue: 0,0:16:30.05,0:16:31.53,volley-main,sawa,0000,0000,0000,,Once the girls finish practice,
+Dialogue: 0,0:16:31.53,0:16:33.90,volley-main,,0000,0000,0000,,I was wondering if we could borrow the court
+Dialogue: 0,0:16:33.90,0:16:36.40,volley-main,sawa,0000,0000,0000,,until the gym closes,\Neven just for a little bit.
+Dialogue: 0,0:16:36.40,0:16:38.76,volley-main,yui,0000,0000,0000,,Oh, sure. I'll go ask.
+Dialogue: 0,0:16:39.15,0:16:41.20,volley-main,yui,0000,0000,0000,,Did something happen to\Nthe second gymnasium?
+Dialogue: 0,0:16:41.20,0:16:42.64,volley-main,sawa,0000,0000,0000,,No, it's just...
+Dialogue: 0,0:16:43.07,0:16:45.96,volley-main,sawa,0000,0000,0000,,A lot of the guys are doing their own practices.
+Dialogue: 0,0:16:45.96,0:16:47.81,volley-main,sawa,0000,0000,0000,,so we don't have enough room.
+Dialogue: 0,0:16:49.42,0:16:50.30,volley-main,azu,0000,0000,0000,,Damn it.
+Dialogue: 0,0:16:53.15,0:16:55.60,volley-internal,azu,0000,0000,0000,,Serving is the ultimate attack...
+Dialogue: 0,0:16:56.66,0:16:58.44,volley-internal,azu,0000,0000,0000,,The only one at Karasuno
+Dialogue: 0,0:16:58.44,0:17:01.45,volley-internal,,0000,0000,0000,,who can safely use a jump serve is Kageyama.
+Dialogue: 0,0:17:02.40,0:17:05.51,volley-internal,azu,0000,0000,0000,,I'm not good enough to be able\N to use it safely in matches.
+Dialogue: 0,0:17:05.51,0:17:07.05,volley-internal,azu,0000,0000,0000,,But then...
+Dialogue: 0,0:17:07.05,0:17:07.88,volley-internal,azu,0000,0000,0000,,I couldn't call it a weapon!
+Dialogue: 0,0:17:09.28,0:17:11.42,volley-main,nishi,0000,0000,0000,,Asahi-san!
+Dialogue: 0,0:17:11.42,0:17:15.30,ahirt,sign,0000,0000,0000,,A Match for a Thousand
+Dialogue: 0,0:17:15.70,0:17:16.86,volley-main,nishi,0000,0000,0000,,Mind if I join you?
+Dialogue: 0,0:17:16.86,0:17:18.96,volley-main,azu,0000,0000,0000,,Oh, yeah. Sure.
+Dialogue: 0,0:17:18.96,0:17:21.51,volley-internal,azu,0000,0000,0000,,He casually scooped it up \Nupon entering... Damn it.
+Dialogue: 0,0:17:22.22,0:17:25.23,volley-main,nishi,0000,0000,0000,,Would you mind hitting some of my tosses?
+Dialogue: 0,0:17:25.53,0:17:27.15,volley-main,azu,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:17:27.59,0:17:29.65,volley-main,azu,0000,0000,0000,,Uh, wait, what?
+Dialogue: 0,0:17:30.18,0:17:32.36,volley-main,azu,0000,0000,0000,,You're going to toss?
+Dialogue: 0,0:17:32.92,0:17:34.07,volley-internal,azu,0000,0000,0000,,Could it be...
+Dialogue: 0,0:17:34.69,0:17:36.81,volley-internal,azu,0000,0000,0000,,He's gonna try what \NSeijoh's libero was doing?
+Dialogue: 0,0:17:37.53,0:17:40.06,volley-main,nishi,0000,0000,0000,,I'll help you with your \Nserves, too, Asahi-san.
+Dialogue: 0,0:17:40.60,0:17:42.87,volley-internal,azu,0000,0000,0000,,I can't be left behind...
+Dialogue: 0,0:17:43.31,0:17:44.63,volley-main,azu,0000,0000,0000,,Sure. Let's do this.
+Dialogue: 0,0:17:44.63,0:17:46.08,volley-main,nishi,0000,0000,0000,,All right!
+Dialogue: 0,0:17:46.08,0:17:49.79,gym1,sign,0000,0000,0000,,First Gymnasium
+Dialogue: 0,0:17:46.38,0:17:48.04,volley-main,girls,0000,0000,0000,,We'll leave the rest up to you guys.
+Dialogue: 0,0:17:48.04,0:17:49.79,volley-main,guys,0000,0000,0000,,Thanks!
+Dialogue: 0,0:17:49.79,0:17:52.50,vids,sign,0000,0000,0000,,Mens' Volleyball Brazil Compilation \N{\c&H929187&}Views: 4419\N\N{\c&H8F705C&}World Volleyball Simultaneous Attack From Various Positions Compilation \N {\c&H929187&}Views 87872
+Dialogue: 0,0:17:50.60,0:17:52.50,volley-main,kei,0000,0000,0000,,Oh, here it is.
+Dialogue: 0,0:17:53.88,0:17:56.42,volley-main,suga,0000,0000,0000,,Is this a video of Brazil's attacks?
+Dialogue: 0,0:17:57.16,0:17:58.47,volley-main,suga,0000,0000,0000,,They all started moving at once.
+Dialogue: 0,0:17:59.34,0:18:02.41,volley-main,sawa,0000,0000,0000,,Shinzen's attack was like this, too.
+Dialogue: 0,0:18:02.41,0:18:03.56,volley-main,uga,0000,0000,0000,,Um...
+Dialogue: 0,0:18:04.00,0:18:05.77,volley-main,sawa,0000,0000,0000,,A synchronized attack.
+Dialogue: 0,0:18:16.35,0:18:17.31,volley-main,kage,0000,0000,0000,,Next, please.
+Dialogue: 0,0:18:17.31,0:18:18.11,volley-main,yachi,0000,0000,0000,,Got it!
+Dialogue: 0,0:18:19.28,0:18:20.57,volley-main,hina,0000,0000,0000,,Good evening!
+Dialogue: 0,0:18:20.83,0:18:22.08,volley-main,yuu,0000,0000,0000,,Sho-chan.
+Dialogue: 0,0:18:22.08,0:18:23.54,volley-main,ukai,0000,0000,0000,,There you are, Shrimpy.
+Dialogue: 0,0:18:23.99,0:18:25.88,volley-main,hina,0000,0000,0000,,Um, Coach Ukai,
+Dialogue: 0,0:18:25.88,0:18:28.12,volley-main,hina,0000,0000,0000,,I've been meaning to tell you...
+Dialogue: 0,0:18:28.12,0:18:30.43,volley-main,hina,0000,0000,0000,,But I'm not "Shrimpy."
+Dialogue: 0,0:18:30.43,0:18:32.81,volley-main,ukai,0000,0000,0000,,It's a good enough name for \Na crappy player like you.
+Dialogue: 0,0:18:36.21,0:18:37.59,volley-main,ukai,0000,0000,0000,,Come on! Let's go, Shrimpy!
+Dialogue: 0,0:18:38.11,0:18:39.26,volley-main,hina,0000,0000,0000,,I'm ready!
+Dialogue: 0,0:18:43.12,0:18:45.56,volley-main,ukai,0000,0000,0000,,You need to put all your thought \Ninto jumping with all your might.
+Dialogue: 0,0:18:52.32,0:18:54.11,volley-main,ukai,0000,0000,0000,,There you go.
+Dialogue: 0,0:18:54.11,0:18:56.92,volley-main,ukai,0000,0000,0000,,You need to be able to hit the \Nball at any time, at will,
+Dialogue: 0,0:18:56.92,0:18:58.75,volley-main,,0000,0000,0000,,regardless of who the setter is.
+Dialogue: 0,0:18:58.75,0:18:59.53,volley-main,hina,0000,0000,0000,,Right!
+Dialogue: 0,0:19:03.92,0:19:05.37,volley-main,ukai,0000,0000,0000,,Don't try to match them!
+Dialogue: 0,0:19:05.37,0:19:07.12,volley-main,ukai,0000,0000,0000,,You need to jump at your own pace,
+Dialogue: 0,0:19:07.60,0:19:08.91,volley-main,ukai,0000,0000,0000,,not anyone else's.
+Dialogue: 0,0:19:08.91,0:19:10.71,volley-main,ukai,0000,0000,0000,,You need to fight with your own will!
+Dialogue: 0,0:19:12.36,0:19:13.59,volley-main,hina,0000,0000,0000,,Let's go!
+Dialogue: 0,0:19:16.36,0:19:17.74,volley-main,yama,0000,0000,0000,,Hey, Tsukki.
+Dialogue: 0,0:19:19.10,0:19:20.67,volley-main,yama,0000,0000,0000,,I'm gonna head this way.
+Dialogue: 0,0:19:20.67,0:19:23.26,volley-main,yama,0000,0000,0000,,I'm gonna go practice serves \Nat Shimada-san's place.
+Dialogue: 0,0:19:23.52,0:19:25.17,volley-main,tsukki,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:25.17,0:19:26.06,volley-main,tsuki,0000,0000,0000,,See ya.
+Dialogue: 0,0:19:47.95,0:19:50.83,board1,sign,0000,0000,0000,,Tempo
+Dialogue: 0,0:19:47.95,0:19:50.83,shirt,sign,0000,0000,0000,,Veteran
+Dialogue: 0,0:19:52.71,0:19:54.33,pig,sign,0000,0000,0000,,Shimada Mart
+Dialogue: 0,0:20:05.85,0:20:08.47,report,sign,0000,0000,0000,,Report Card
+Dialogue: 0,0:20:05.85,0:20:08.47,report2,sign,0000,0000,0000,,Karasuno High School
+Dialogue: 0,0:20:17.52,0:20:20.03,ice,sign,0000,0000,0000,,Ice
+Dialogue: 0,0:20:25.37,0:20:27.45,woof,sign,0000,0000,0000,,{\fad(250,1)}Woof
+Dialogue: 0,0:20:32.56,0:20:34.67,volley-main,ono,0000,0000,0000,,Oh, sorry! It might be a bit short!
+Dialogue: 0,0:20:38.99,0:20:41.35,volley-main,ono,0000,0000,0000,,That's amazing, Sho-kun! Nice cover.
+Dialogue: 0,0:20:42.68,0:20:46.11,volley-main,yuu,0000,0000,0000,,You used to panic so quickly, \Neven if it was just a little off.
+Dialogue: 0,0:20:42.96,0:20:46.11,volley-main-top,hina,0000,0000,0000,,Oh, no. Oh, no.
+Dialogue: 0,0:20:46.11,0:20:47.01,volley-main,hina,0000,0000,0000,,Shut up!
+Dialogue: 0,0:20:47.58,0:20:50.49,volley-main,hina,0000,0000,0000,,Up until now, I was able to \Nhit without thinking too much
+Dialogue: 0,0:20:50.49,0:20:52.79,volley-main,,0000,0000,0000,,because of my amazing setter...
+Dialogue: 0,0:20:52.79,0:20:55.24,volley-main,hina,0000,0000,0000,,But now, all of your techniques \Nand habits are different,
+Dialogue: 0,0:20:55.24,0:20:57.35,volley-main,,0000,0000,0000,,so I have to make it work in mid-air.
+Dialogue: 0,0:20:58.43,0:21:01.46,volley-main,hina,0000,0000,0000,,It's just a little, but I can \Nsee the ball better than before.
+Dialogue: 0,0:21:02.42,0:21:04.87,volley-main,ukai,0000,0000,0000,,Give me a hand, Shrimpo.
+Dialogue: 0,0:21:05.72,0:21:07.92,volley-main,daiki,0000,0000,0000,,It went from "Shrimpy" to "Shrimpo."
+Dialogue: 0,0:21:07.92,0:21:08.97,volley-main,,0000,0000,0000,,He's been promoted!
+Dialogue: 0,0:21:08.97,0:21:10.12,volley-main,yuu,0000,0000,0000,,Is that really a promotion?
+Dialogue: 0,0:21:12.92,0:21:14.84,volley-main,ukai,0000,0000,0000,,You're going to Tokyo the day \Nafter tomorrow, aren't ya?
+Dialogue: 0,0:21:15.22,0:21:16.48,volley-main,ukai,0000,0000,0000,,Nekoma's coming, too, right?
+Dialogue: 0,0:21:16.48,0:21:17.13,volley-main,hina,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:17.85,0:21:21.20,volley-main,hina,0000,0000,0000,,Sensei told us that Coach Nekomata's \Nthe one who invited us over.
+Dialogue: 0,0:21:21.20,0:21:25.55,volley-main,ukai,0000,0000,0000,,He's hard to get along with, but \Nhis volleyball sense is second to none.
+Dialogue: 0,0:21:26.58,0:21:31.03,volley-main,ukai,0000,0000,0000,,The players he's leading aren't \Ngoing to be easy to handle.
+Dialogue: 0,0:21:32.29,0:21:34.23,volley-main,ukai,0000,0000,0000,,Let the push you to your limits.
+Dialogue: 0,0:21:34.83,0:21:35.69,volley-main,hina,0000,0000,0000,,Right!
+Dialogue: 0,0:21:36.44,0:21:38.15,gym1,sign,0000,0000,0000,,First Gymnasium
+Dialogue: 0,0:21:41.27,0:21:42.36,volley-main,kage,0000,0000,0000,,All right!
+Dialogue: 0,0:21:42.88,0:21:44.68,volley-main,kage,0000,0000,0000,,Next, please!
+Dialogue: 0,0:21:44.68,0:21:45.80,volley-main,take,0000,0000,0000,,You got it!
+Dialogue: 0,0:21:49.60,0:21:54.25,volley-main,take,0000,0000,0000,,Now, that it's summer vacation, \N we can practice from morning to night.
+Dialogue: 0,0:21:54.57,0:21:58.00,volley-main,take,0000,0000,0000,,And starting tomorrow, we'll \Nresume the Tokyo away games.
+Dialogue: 0,0:22:01.17,0:22:03.55,volley-main,take,0000,0000,0000,,This time, we'll be there for a solid week!
+Dialogue: 0,0:22:03.55,0:22:05.90,volley-main,take,0000,0000,0000,,This is the first and last \Nlong-term training camp
+Dialogue: 0,0:22:05.90,0:22:07.18,volley-main,take,0000,0000,0000,,before the spring tournament prelims.
+Dialogue: 0,0:22:07.97,0:22:10.39,volley-main,take,0000,0000,0000,,Let's make the most of this opportunity,
+Dialogue: 0,0:22:11.01,0:22:13.75,volley-main,take,0000,0000,0000,,so we have no regrets entering \Nthe spring tournament prelims.
+Dialogue: 0,0:23:46.78,0:23:49.19,volley-main,tana,0000,0000,0000,,Noya-san, you started practicing tossing?
+Dialogue: 0,0:23:49.19,0:23:52.03,volley-main,nishi,0000,0000,0000,,Yep! I'm gonna do a running \Napproach to here...
+Dialogue: 0,0:23:52.03,0:23:54.37,volley-main,nishi,0000,0000,0000,,Then Jumping Thunder Toss!
+Dialogue: 0,0:23:54.37,0:23:55.28,volley-main,nishi,0000,0000,0000,,Uh, wait. Where'd the ball go?
+Dialogue: 0,0:23:55.28,0:23:58.08,volley-main-top,tana,0000,0000,0000,,How about you start by \Npracticing normal tosses?
+Dialogue: 0,0:23:56.49,0:24:01.04,volley-next-ep-title,sign,0000,0000,0000,,{\fad(500,1)}Episode 07: "Moonrise"
+Dialogue: 0,0:23:58.08,0:24:00.26,volley-main-top,tana,0000,0000,0000,,Next time on {\i1}Haikyu!!{\i0}:\N "Moonrise."

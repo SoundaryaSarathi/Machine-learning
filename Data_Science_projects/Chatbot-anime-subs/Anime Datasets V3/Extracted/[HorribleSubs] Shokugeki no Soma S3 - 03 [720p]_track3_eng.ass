@@ -1,0 +1,616 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_24_1_The_Third_Dish,Open Sans Semibold,39,&H007F7F7F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,100,40,27,1
+Style: sign_34621_499_Totsuki,Open Sans Semibold,33,&H002B8E97,&H000000FF,&H00153138,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,407,40,260,1
+Style: sign_6424_110_Food_Wars,Open Sans Semibold,45,&H002837E3,&H000000FF,&H00EEFBFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_6424_111_The_Third_Plate,Open Sans Semibold,39,&H00481C0B,&H000000FF,&H00FDFEF6,&H005B86AB,1,0,0,0,100,100,0,0,1,3,2,2,40,40,27,1
+Style: sign_24_2_Two,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,453,200,1
+Style: sign_250_4_Totsuki_Culinary,Open Sans Semibold,36,&H00606163,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_1424_21_Kuga_Restaurant,Open Sans Semibold,33,&H005B807A,&H000000FF,&H004C4852,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_4062_33_Moon_Banquet_Fes,Open Sans Semibold,30,&H00FAFBFF,&H000000FF,&H00466A68,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,80,40,133,1
+Style: sign_4042_32_The_92nd_Moon_Fe,Open Sans Semibold,30,&H002D84E9,&H000000FF,&H00F7FFF7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,40,27,1
+Style: sign_5691_62_Kuga_Restaurant,Open Sans Semibold,27,&H0039587B,&H000000FF,&H00060A1A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_5835_66_Kuga_Restaurant,Open Sans Semibold,33,&H00637683,&H000000FF,&H003F3844,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_7515_88_Kuga_Restaurant,Open Sans Semibold,33,&H000F3F8F,&H000000FF,&H00000111,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_7657_91_Missing_1,Open Sans Semibold,39,&H000F1A3C,&H000000FF,&H00210EAE,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,427,27,1
+Style: sign_7657_92_M_i_s_s_i_n_g___,Open Sans Semibold,36,&H00508EA6,&H00191F90,&H0015178A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,427,40,27,1
+Style: sign_9354_118_Missing_1,Open Sans Semibold,24,&H004619A1,&H000000FF,&H00C4DFE0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,427,27,1
+Style: sign_9354_119_Missing_2,Open Sans Semibold,30,&H00755B4A,&H000000FF,&H00B8D7D9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,427,40,27,1
+Style: sign_9591_125_B_o_o_t_h_s___W_,Open Sans Semibold,18,&H00252139,&H000000FF,&H00FAFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,683,149,287,1
+Style: sign_9591_125_Booths_With_Day_,Open Sans Semibold,24,&H00050505,&H000000FF,&H00EBEBEB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,633,40,40,1
+Style: sign_9591_126_Yukihira_Soma__C,Open Sans Semibold,18,&H00000000,&H000000FF,&H00EBEBEB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,287,40,1
+Style: sign_9639_127_Main_Tournament_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,1
+Style: sign_9639_128_Main_Tournament_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,1
+Style: sign_9639_129_Prelims_Top_8,Open Sans Semibold,18,&H00000000,&H000000FF,&H00F8F4F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,640,147,200,1
+Style: sign_9639_130_Prelims_Top_8,Open Sans Semibold,18,&H00000000,&H000000FF,&H00F8F4F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,121,615,133,1
+Style: sign_9639_131_Main_Tournament_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,1
+Style: sign_9639_132_Lost_Money,Open Sans Semibold,18,&H000100DF,&H000000FF,&H00E0E4F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,607,147,200,1
+Style: sign_9639_132_Lost__Money,Open Sans Semibold,18,&H000100DF,&H000000FF,&H00E0E4F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,707,87,133,1
+Style: sign_9639_133_Lost_Money,Open Sans Semibold,18,&H000100DF,&H000000FF,&H00E0E4F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,253,547,207,1
+Style: sign_9639_134_Lost__Money,Open Sans Semibold,18,&H000100DF,&H000000FF,&H00E0E4F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,753,287,1
+Style: sign_12895_193_Five_Spice_Powde,Open Sans Semibold,18,&H00020508,&H000000FF,&H00FFFFFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,447,193,273,1
+Style: sign_12970_194_Anise,Open Sans Semibold,18,&H00020508,&H000000FF,&H00FFFFFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,220,593,273,1
+Style: sign_13284_199_Testing_in_Progr,Open Sans Semibold,30,&H005F5D46,&H000000FF,&H00B6B492,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_13983_211_Totsuki_Sports_E,Open Sans Semibold,30,&H00834223,&H000000FF,&H00E7E8EB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,453,40,180,1
+Style: sign_13983_212_92nd_Moon_Festiv,Open Sans Semibold,36,&H000800A1,&H000000FF,&H00DFE0D7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,3,40,453,180,1
+Style: sign_14072_214_Day_1_Sales_Rank,Open Sans Semibold,45,&H00F9FBF6,&H000000FF,&H0042443F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_14072_215_1st_Place___Akag,Open Sans Semibold,30,&H00040200,&H000000FF,&H00FAFBFA,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,133,40,133,1
+Style: sign_14356_221_Totsuki_Sports_E,Open Sans Semibold,21,&H00834223,&H000000FF,&H00E7E8EB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,413,40,180,1
+Style: sign_14527_223_92nd_Moon_Festiv,Open Sans Semibold,24,&H001E0CA7,&H000000FF,&H00DFE0D7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,3,40,653,147,1
+Style: sign_14527_222_Totsuki_Sports_E,Open Sans Semibold,18,&H0072472A,&H000000FF,&H00E7E8EB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,247,40,147,1
+Style: sign_16538_262_Kitchen_No_2,Open Sans Semibold,42,&H003E2616,&H000000FF,&H00FDC969,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_17310_279_An_Evening_of_Ta,Open Sans Semibold,24,&H009CD9E0,&H000000FF,&H001E5458,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_17600_285_An_Evening_of_Ta,Open Sans Semibold,39,&H0098F2F6,&H000000FF,&H002B3E40,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_17635_286_Sexy_Sideburns,Open Sans Semibold,36,&H009AD7DD,&H000000FF,&H00134A59,&H004806C9,1,0,0,0,100,100,0,0,1,3,3,8,40,40,27,1
+Style: sign_17775_290_Taro_Stew_Booth_,Open Sans Semibold,42,&H009AD7DD,&H000000FF,&H00134A59,&H004806C9,1,0,0,0,100,100,0,0,1,3,3,8,221,221,27,1
+Style: sign_17834_291_The_Staff_of_You,Open Sans Semibold,45,&H0091DAD5,&H000000FF,&H000E4B41,&H004806C9,1,0,0,0,100,100,0,0,1,3,0,7,40,40,27,1
+Style: sign_18545_312_Dried_Fish_Store,Open Sans Semibold,39,&H007B2E68,&H000000FF,&H00FDFFFF,&H006540D2,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_18876_315_Dried_Fish_Store,Open Sans Semibold,30,&H007B2E68,&H000000FF,&H00FDFFFF,&H006540D2,1,0,0,0,100,100,0,0,1,3,0,8,200,40,27,1
+Style: sign_19019_318_Entrancing_Gourm,Open Sans Semibold,36,&H001F2334,&H000000FF,&H00576B7A,&H006540D2,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_19346_325_Kuga_Restaurant,Open Sans Semibold,33,&H00607170,&H000000FF,&H00463A41,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_20497_344_34th_Dairy_Produ,Open Sans Semibold,30,&H00000000,&H000000FF,&H00E7E7E7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,133,40,133,1
+Style: sign_25668_430_Eating_Well_With,Open Sans Semibold,33,&H00000000,&H000000FF,&H00F2FFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_25988_433_Yukihira_Style_S,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00363B37,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,40,40,147,1
+Style: sign_26835_441_Diner_Yukihira__,Open Sans Semibold,24,&H001D283E,&H000000FF,&H00545F97,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,200,40,27,1
+Style: sign_27170_446_Kuga_Restaurant,Open Sans Semibold,27,&H00445578,&H000000FF,&H000E071D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_28893_472_20_000_yen,Open Sans Semibold,45,&H00010100,&H000000FF,&H00E8FEFA,&H00000000,1,1,0,0,100,100,0,7,1,3,0,3,40,467,267,1
+Style: sign_33947_524_Missing,Open Sans Semibold,27,&H005C5964,&H000000FF,&H00A19B9D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_34381_534_Diner_Yukihira,Open Sans Semibold,30,&H002D212A,&H000000FF,&H00B6ACA5,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_34668_536_Food_Wars,Open Sans Semibold,33,&H001A30D3,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,113,587,207,1
+Style: sign_34668_537_The_Third_Plate,Open Sans Semibold,24,&H008B492A,&H000000FF,&H00FFFFFB,&H0064929D,1,0,0,0,100,100,0,0,1,2,2,2,120,580,24,1
+Style: sign_34668_538_Next_Episode__Th,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H001C1D1B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,379,40,140,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_1_The_Third_Dish,Sign,0000,0000,0000,,The Third Plate
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_2_Two,Sign,0000,0000,0000,,Three
+Dialogue: 0,0:00:07.81,0:00:10.40,Main Dialogue,Customers,0000,0000,0000,,So good!
+Dialogue: 0,0:00:10.40,0:00:15.78,sign_250_4_Totsuki_Culinary,Sign 0013,0000,0000,0000,,Totsuki Culinary Teahouse Academy \N{\fs28\c&H7D77EA&}Famous Taiwanese\N Black Pepper Buns
+Dialogue: 0,0:00:10.85,0:00:13.46,Main Dialogue,Customers,0000,0000,0000,,Oh, so this is Yukihira Soma's booth.
+Dialogue: 0,0:00:13.46,0:00:15.78,Main Dialogue,Customers,0000,0000,0000,,He's the one who made \Nit to the finals, right?
+Dialogue: 0,0:00:16.10,0:00:18.19,Main Dialogue,Customers,0000,0000,0000,,That smells really good!
+Dialogue: 0,0:00:18.19,0:00:19.54,Main Dialogue,Customers,0000,0000,0000,,Black pepper buns, huh.
+Dialogue: 0,0:00:19.87,0:00:22.37,Main Dialogue,M,0000,0000,0000,,They're piping hot and delicious!
+Dialogue: 0,0:00:22.37,0:00:24.75,Italics Dialogue,M,0000,0000,0000,,Please come eat here!
+Dialogue: 0,0:00:24.75,0:00:28.21,Main Dialogue,Kuga,0000,0000,0000,,Black pepper buns,\N a Taiwanese specialty, huh.
+Dialogue: 0,0:00:28.21,0:00:31.80,Main Dialogue,Kuga,0000,0000,0000,,I do think it's a good angle, \Nif I have to be honest.
+Dialogue: 0,0:00:32.26,0:00:36.56,Main Dialogue,Kuga,0000,0000,0000,,It lets you distinguish yourself \Nfrom my forte, Sichuan cuisine,
+Dialogue: 0,0:00:36.56,0:00:38.80,Main Dialogue,Kuga,0000,0000,0000,,despite choosing Chinese cuisine.
+Dialogue: 0,0:00:39.29,0:00:43.25,Main Dialogue,Kuga,0000,0000,0000,,After all, its strong peppery \Nbite and the juiciness of the meat
+Dialogue: 0,0:00:43.25,0:00:45.77,Main Dialogue,Kuga,0000,0000,0000,,will tend to enthrall those who taste it.
+Dialogue: 0,0:00:46.14,0:00:51.48,Main Dialogue,Kuga,0000,0000,0000,,But you know, it's pointless \Nif no one shows up to eat it.
+Dialogue: 0,0:00:52.18,0:00:54.18,Main Dialogue,Kuga,0000,0000,0000,,Listen up, Yukihira-chin.
+Dialogue: 0,0:00:54.18,0:00:57.02,Main Dialogue,Kuga,0000,0000,0000,,The Moon Festival \Nis different from a Shokugeki,
+Dialogue: 0,0:00:57.02,0:00:59.37,Main Dialogue,Kuga,0000,0000,0000,,where it's guaranteed that \Nthe judges will eat your food.
+Dialogue: 0,0:00:59.37,0:01:02.30,Main Dialogue,Customers,0000,0000,0000,,Whoa, what's this imposing booth?
+Dialogue: 0,0:00:59.37,0:01:04.87,sign_1424_21_Kuga_Restaurant,Sign 0102,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:01:02.30,0:01:04.87,Main Dialogue,Customers,0000,0000,0000,,It's Sichuan cuisine by the \NElite Ten's Eighth Seat.
+Dialogue: 0,0:01:04.87,0:01:06.33,Main Dialogue,Customers,0000,0000,0000,,Maybe I'll go here.
+Dialogue: 0,0:01:06.33,0:01:07.58,Main Dialogue,Customers,0000,0000,0000,,The Elite Ten, huh.
+Dialogue: 0,0:01:07.58,0:01:08.90,Main Dialogue,Customers,0000,0000,0000,,I think I'll go there after all.
+Dialogue: 0,0:01:08.90,0:01:09.34,Main Dialogue,M,0000,0000,0000,,Oh.
+Dialogue: 0,0:01:09.34,0:01:12.80,Main Dialogue,Kuga,0000,0000,0000,,Customers will only favor the strong.
+Dialogue: 0,0:01:13.40,0:01:15.01,Main Dialogue,Kuga,0000,0000,0000,,Isn't it obvious?
+Dialogue: 0,0:01:30.90,0:01:35.74,sign_6424_110_Food_Wars,,0000,0000,0000,,{\fad(316,232)}Food Wars
+Dialogue: 0,0:01:30.90,0:01:35.74,sign_6424_111_The_Third_Plate,,0000,0000,0000,,{\fad(316,232)}The Third Plate
+Dialogue: 0,0:02:48.56,0:02:51.83,sign_4042_32_The_92nd_Moon_Fe,Sign 0249,0000,0000,0000,,{\fad(233,1)}The 92nd\N{\fs30\c&H0000C5&}Moon Festival
+Dialogue: 0,0:02:49.44,0:02:53.90,sign_4062_33_Moon_Banquet_Fes,Sign 0253,0000,0000,0000,,{\fad(479,1)}Moon Festival
+Dialogue: 0,0:02:51.39,0:02:53.90,Main Dialogue,I,0000,0000,0000,,Everyone, the Moon Festival's finally here!
+Dialogue: 0,0:02:53.90,0:02:56.49,Main Dialogue,I,0000,0000,0000,,Let's use this opportunity to \Nenjoy student life to the hilt
+Dialogue: 0,0:02:56.49,0:02:58.86,Main Dialogue,I,0000,0000,0000,,while ensuring that our \Ncustomers are fully satisfied!
+Dialogue: 0,0:02:58.86,0:03:00.82,Main Dialogue,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:01.37,0:03:03.03,Main Dialogue,E,0000,0000,0000,,It finally begins, Hisako.
+Dialogue: 0,0:03:03.03,0:03:04.28,Main Dialogue,Hisako,0000,0000,0000,,Yes, Erina-sama.
+Dialogue: 0,0:03:04.69,0:03:07.50,Main Dialogue,Ikumi,0000,0000,0000,,Let's kick all the other booths to \Nthe curb with our ultra-premium donburi!
+Dialogue: 0,0:03:07.50,0:03:09.10,Main Dialogue,Ikumi,0000,0000,0000,,Put your backs to it!
+Dialogue: 0,0:03:09.10,0:03:09.62,Main Dialogue,All,0000,0000,0000,,Yes'm!
+Dialogue: 0,0:03:10.18,0:03:12.84,Main Dialogue,Isami,0000,0000,0000,,Hey, are you all ready?
+Dialogue: 0,0:03:12.84,0:03:14.00,Main Dialogue,Girls,0000,0000,0000,,Ready!
+Dialogue: 0,0:03:14.00,0:03:15.29,Main Dialogue,Takumi,0000,0000,0000,,Okay, let's get started!
+Dialogue: 0,0:03:16.39,0:03:19.85,Italics Dialogue,Hayama,0000,0000,0000,,What's with all this turmeric?
+Dialogue: 0,0:03:19.85,0:03:21.85,Main Dialogue,Ryo,0000,0000,0000,,We only have two tomatoes...
+Dialogue: 0,0:03:21.85,0:03:23.82,Main Dialogue,Hayama,0000,0000,0000,,Who handled the order?
+Dialogue: 0,0:03:23.82,0:03:25.51,Main Dialogue,Ryo,0000,0000,0000,,Well, that'd be...
+Dialogue: 0,0:03:25.90,0:03:30.17,Main Dialogue,Alice,0000,0000,0000,,Hey, where's the outlet for the centrifuge?
+Dialogue: 0,0:03:30.17,0:03:31.26,Main Dialogue,Hayama,0000,0000,0000,,This is a nightmare.
+Dialogue: 0,0:03:31.26,0:03:32.35,Main Dialogue,Ryo,0000,0000,0000,,It's reality.
+Dialogue: 0,0:03:33.69,0:03:36.61,Main Dialogue,Staff,0000,0000,0000,,Hup! Hup! Hup!
+Dialogue: 0,0:03:36.61,0:03:40.95,Main Dialogue Top,Staff,0000,0000,0000,,Hup! Hup! Hup!
+Dialogue: 0,0:03:36.61,0:03:40.95,Main Dialogue,Kuga,0000,0000,0000,,Come, come! Please savor this \Nseductive Sichuan cuisine!
+Dialogue: 0,0:03:41.29,0:03:43.95,Main Dialogue,Kuga,0000,0000,0000,,In addition to our main \Nattraction, mapo tofu,
+Dialogue: 0,0:03:43.95,0:03:47.66,Main Dialogue,Kuga,0000,0000,0000,,we have spicy water spinach, spicy dumplings,\Nand steamed chicken with chili sauce!
+Dialogue: 0,0:03:51.04,0:03:52.72,Main Dialogue,Customers,0000,0000,0000,,So spicy!
+Dialogue: 0,0:03:52.72,0:03:54.00,Main Dialogue,Customers,0000,0000,0000,,Water! Water!
+Dialogue: 0,0:03:54.38,0:03:55.55,Main Dialogue,Customers,0000,0000,0000,,But...
+Dialogue: 0,0:03:56.35,0:03:57.34,Main Dialogue,Customers,0000,0000,0000,,I can't stop eating it!
+Dialogue: 0,0:03:57.34,0:04:01.22,sign_5691_62_Kuga_Restaurant,,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:03:57.71,0:04:01.22,Main Dialogue,M,0000,0000,0000,,Black pepper buns! Who wants to try some?
+Dialogue: 0,0:04:01.22,0:04:03.34,Main Dialogue,M,0000,0000,0000,,Get them while they're piping hot!
+Dialogue: 0,0:04:03.34,0:04:07.01,sign_5835_66_Kuga_Restaurant,,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:04:03.79,0:04:05.99,Main Dialogue,M,0000,0000,0000,,Just one plum ticket!
+Dialogue: 0,0:04:05.99,0:04:07.89,Main Dialogue,S,0000,0000,0000,,Come one, come all!
+Dialogue: 0,0:04:16.30,0:04:19.36,Main Dialogue,Kuga,0000,0000,0000,,One ticket, two tickets.
+Dialogue: 0,0:04:19.36,0:04:21.32,Main Dialogue,Kuga,0000,0000,0000,,So many.
+Dialogue: 0,0:04:21.32,0:04:23.42,Main Dialogue,Kuga,0000,0000,0000,,Wow, nice. So many.
+Dialogue: 0,0:04:23.42,0:04:26.32,Main Dialogue,Kuga,0000,0000,0000,,I'm glad you had so many customers come.
+Dialogue: 0,0:04:26.32,0:04:29.08,Main Dialogue,Kuga,0000,0000,0000,,I'm happy for you as your senior.
+Dialogue: 0,0:04:29.08,0:04:32.20,Main Dialogue,Kuga,0000,0000,0000,,Totsuki's future is bright \Nwith students like you!
+Dialogue: 0,0:04:32.85,0:04:35.46,Italics Dialogue,M,0000,0000,0000,,The Chinese Cuisine RS made so much more.
+Dialogue: 0,0:04:35.46,0:04:38.01,Main Dialogue,Kuga,0000,0000,0000,,If only you'd decided not \Nto pick a fight with me
+Dialogue: 0,0:04:38.01,0:04:41.17,Main Dialogue,Kuga,0000,0000,0000,,and chosen a different spot for your booth,
+Dialogue: 0,0:04:41.59,0:04:46.93,Main Dialogue,Kuga,0000,0000,0000,,you'd have had a really fun \Nschool festival. Too bad.
+Dialogue: 0,0:04:47.57,0:04:51.97,Main Dialogue,Kuga,0000,0000,0000,,All right, the prep team should \Nstart on what we need for tomorrow.
+Dialogue: 0,0:04:51.97,0:04:52.89,Main Dialogue,Staff,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:04:55.60,0:04:57.34,Italics Dialogue,M,0000,0000,0000,,Wh-Wh-Wh-Wh-What to do?!
+Dialogue: 0,0:04:57.34,0:04:59.44,Italics Dialogue,M,0000,0000,0000,,We're super guaranteed to\Nend the first day with a net loss!
+Dialogue: 0,0:04:59.44,0:05:02.61,Main Dialogue,M,0000,0000,0000,,Soma-kun, this decides whether \Nyou can stay at Totsuki!
+Dialogue: 0,0:05:02.61,0:05:06.70,Main Dialogue,S,0000,0000,0000,,Well, I didn't think we'd come out \Nstrong on the first day, but...
+Dialogue: 0,0:05:03.27,0:05:04.69,Main Dialogue Top,M,0000,0000,0000,,Oh, my god!
+Dialogue: 0,0:05:07.17,0:05:10.08,Main Dialogue,S,0000,0000,0000,,I didn't think we'd struggle this much!
+Dialogue: 0,0:05:10.08,0:05:11.83,Main Dialogue,M,0000,0000,0000,,Hey, this is no laughing matter!
+Dialogue: 0,0:05:12.48,0:05:13.41,Main Dialogue,S,0000,0000,0000,,Yeah...
+Dialogue: 0,0:05:13.41,0:05:16.37,sign_7515_88_Kuga_Restaurant,,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:05:14.39,0:05:15.85,Main Dialogue,S,0000,0000,0000,,You're right.
+Dialogue: 0,0:05:19.34,0:05:22.30,Italics Dialogue,Yua,0000,0000,0000,,Everyone, we have an announcement.
+Dialogue: 0,0:05:19.34,0:05:22.30,sign_7657_91_Missing_1,,0000,0000,0000,,Teppanyaki
+Dialogue: 0,0:05:22.72,0:05:24.22,Italics Dialogue,Yua,0000,0000,0000,,We have finished tallying
+Dialogue: 0,0:05:24.22,0:05:28.01,Italics Dialogue,Yua,0000,0000,0000,,first day sales as of six o'clock \Nfor the Moon Festival.
+Dialogue: 0,0:05:28.37,0:05:31.96,Main Dialogue,Yua,0000,0000,0000,,We will now announce\Nsales rankings for each area.
+Dialogue: 0,0:05:31.96,0:05:34.06,Main Dialogue,U,0000,0000,0000,,The Main Avenue area's first!
+Dialogue: 0,0:05:34.06,0:05:36.41,Main Dialogue,U,0000,0000,0000,,Third place—
+Dialogue: 0,0:05:38.97,0:05:40.11,Italics Dialogue,U,0000,0000,0000,,goes to Don RS!
+Dialogue: 0,0:05:40.97,0:05:43.94,Main Dialogue,Konishi,0000,0000,0000,,Don RS! We were this close to shutting down!
+Dialogue: 0,0:05:43.94,0:05:45.32,Main Dialogue,Konishi,0000,0000,0000,,Look at us now!
+Dialogue: 0,0:05:45.32,0:05:47.11,Main Dialogue,Ikumi,0000,0000,0000,,Third place is nothing to be this happy about!
+Dialogue: 0,0:05:47.11,0:05:49.66,Italics Dialogue,U,0000,0000,0000,,Second place goes to Skewers RS!
+Dialogue: 0,0:05:49.66,0:05:51.41,Main Dialogue,U,0000,0000,0000,,And now, first place!
+Dialogue: 0,0:05:51.41,0:05:53.94,Italics Dialogue,U,0000,0000,0000,,The winner is Pop-up Trattoria Aldini!
+Dialogue: 0,0:05:53.94,0:05:55.97,Main Dialogue,I,0000,0000,0000,,We're first, bro!
+Dialogue: 0,0:05:55.97,0:05:58.93,Main Dialogue,I,0000,0000,0000,,I guess having someone who advanced \Nto the main tournament as our lead
+Dialogue: 0,0:05:58.93,0:06:00.29,Main Dialogue,I,0000,0000,0000,,was a good attraction!
+Dialogue: 0,0:06:00.79,0:06:03.55,Main Dialogue,Takumi,0000,0000,0000,,Nah, it's because we all worked together.
+Dialogue: 0,0:06:04.66,0:06:07.54,Italics Dialogue,Yua,0000,0000,0000,,The Central Area's next!
+Dialogue: 0,0:06:07.54,0:06:08.30,Main Dialogue,Takumi,0000,0000,0000,,How'd Yukihira do?!
+Dialogue: 0,0:06:08.64,0:06:11.47,Italics Dialogue,U,0000,0000,0000,,Third place goes to\N Yo-Yo Restaurant by Western Cuisine RS!
+Dialogue: 0,0:06:11.82,0:06:14.60,Italics Dialogue,U,0000,0000,0000,,Second place goes to\N El Fuego by Spanish Cuisine RS!
+Dialogue: 0,0:06:14.60,0:06:19.77,Italics Dialogue,U,0000,0000,0000,,And first place goes to\N Kuga Restaurant by Chinese Cuisine RS!
+Dialogue: 0,0:06:19.77,0:06:23.02,Italics Dialogue,U,0000,0000,0000,,Their sales were more than double that \Nof the booths in second place and below!
+Dialogue: 0,0:06:23.02,0:06:24.53,Italics Dialogue,Ikumi,0000,0000,0000,,Yukihira...
+Dialogue: 0,0:06:24.53,0:06:27.07,Italics Dialogue,Ikumi,0000,0000,0000,,Guess you couldn't take customers \Naway from Kuga Terunori.
+Dialogue: 0,0:06:27.07,0:06:30.11,Italics Dialogue,Takumi,0000,0000,0000,,I was hoping he'd at least \Nbe in the top three.
+Dialogue: 0,0:06:30.11,0:06:32.38,Main Dialogue,Mitsuru,0000,0000,0000,,Extra! Extra from {\i1}Totsuki Sports{\i0}!
+Dialogue: 0,0:06:30.11,0:06:36.08,sign_9354_118_Missing_1,,0000,0000,0000,,92nd Moon Festival Begins
+Dialogue: 0,0:06:32.38,0:06:36.08,Main Dialogue,Mitsuru,0000,0000,0000,,We have first day sales rankings that \Ninclude those below third place.
+Dialogue: 0,0:06:36.48,0:06:38.04,Main Dialogue,Students,0000,0000,0000,,Hey, look!
+Dialogue: 0,0:06:38.04,0:06:40.00,Main Dialogue,Students,0000,0000,0000,,There are two booths that \Ncouldn't turn a profit!
+Dialogue: 0,0:06:40.00,0:06:41.49,Main Dialogue,Students,0000,0000,0000,,What idiots!
+Dialogue: 0,0:06:40.00,0:06:42.25,sign_9591_125_Booths_With_Day_,Sign 0641,0000,0000,0000,,{\fad(1,516)}Booths\NWith\NDay\NOne\N{\c&H0500E0&}Losses
+Dialogue: 0,0:06:40.00,0:06:42.25,sign_9591_126_Yukihira_Soma__C,Sign 0641,0000,0000,0000,,{\fad(1,516)}Yukihira Soma\N(Chinese Cuisine)\N \NShiomi Research Group\N(Creative Curry)
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_127_Main_Tournament_,Sign 0643,0000,0000,0000,,{\fad(526,1)}Main Tournament\NFinalist\N(Winner)
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_128_Main_Tournament_,Sign 0643,0000,0000,0000,,{\fad(526,1)}Main Tournament\NFinalist
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_129_Prelims_Top_8,Sign 0643,0000,0000,0000,,{\fad(526,1)}Prelims\NTop 8
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_130_Prelims_Top_8,Sign 0643,0000,0000,0000,,{\fad(526,1)}Prelims Top 8
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_131_Main_Tournament_,Sign 0643,0000,0000,0000,,{\fad(526,1)}Main Tournament\N Finalist
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_132_Lost__Money,Sign 0643,0000,0000,0000,,{\fad(526,1)}Lost\N Money
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_133_Lost_Money,Sign 0643,0000,0000,0000,,{\fad(526,1)}Lost\NMoney
+Dialogue: 0,0:06:41.75,0:06:44.96,sign_9639_134_Lost__Money,Sign 0643,0000,0000,0000,,{\fad(526,1)}Lost\N Money
+Dialogue: 0,0:06:43.29,0:06:44.96,Main Dialogue,E,0000,0000,0000,,What is the meaning of this?!
+Dialogue: 0,0:06:45.29,0:06:48.34,Main Dialogue,E,0000,0000,0000,,All of you advanced to the Autumn \NElections' main tournament!
+Dialogue: 0,0:06:48.70,0:06:51.81,Main Dialogue,E,0000,0000,0000,,It is already an embarrassment that three \Nfinalists are in last place in sales.
+Dialogue: 0,0:06:51.81,0:06:53.46,Main Dialogue,E,0000,0000,0000,,But you all actually lost money!
+Dialogue: 0,0:06:53.46,0:06:56.68,Main Dialogue,E,0000,0000,0000,,Are you trying to demean the \Nprestigious Autumn Elections?!
+Dialogue: 0,0:06:57.49,0:06:59.18,Main Dialogue,M,0000,0000,0000,,S-Sor... I'm so sorry!
+Dialogue: 0,0:06:59.18,0:07:01.81,Main Dialogue,E,0000,0000,0000,,I... I wasn't speaking to you \Nspecifically, Tadokoro-san.
+Dialogue: 0,0:07:02.17,0:07:04.35,Main Dialogue,Hayama,0000,0000,0000,,How are you going to take responsibility \Nfor this, eh, Nakiri?
+Dialogue: 0,0:07:04.35,0:07:06.80,Main Dialogue,Hayama,0000,0000,0000,,You made a crap-ton of mistakes \Nordering ingredients!
+Dialogue: 0,0:07:06.80,0:07:10.21,Main Dialogue,Alice,0000,0000,0000,,But you were supposed to \Ncheck the order, Hayama-kun!
+Dialogue: 0,0:07:10.21,0:07:13.44,Main Dialogue,Ryo,0000,0000,0000,,I think you said you'd do that too, miss.
+Dialogue: 0,0:07:13.44,0:07:15.61,Main Dialogue,Alice,0000,0000,0000,,Hey, whose side on you on?!
+Dialogue: 0,0:07:15.61,0:07:16.77,Main Dialogue,Hayama,0000,0000,0000,,Hey, Kurokiba.
+Dialogue: 0,0:07:16.77,0:07:18.54,Main Dialogue,Hayama,0000,0000,0000,,What's up with your mistress?
+Dialogue: 0,0:07:18.54,0:07:21.45,Main Dialogue,Hayama,0000,0000,0000,,She kept changing the menu \Nlineup until the day before!
+Dialogue: 0,0:07:21.45,0:07:23.69,Main Dialogue,Hayama,0000,0000,0000,,That's why she made mistakes like this!
+Dialogue: 0,0:07:24.84,0:07:26.72,Main Dialogue,Ryo,0000,0000,0000,,You don't know what you're talking about.
+Dialogue: 0,0:07:26.72,0:07:29.21,Main Dialogue,Ryo,0000,0000,0000,,She'll keep doing it tomorrow and forever.
+Dialogue: 0,0:07:30.30,0:07:34.82,Main Dialogue,Alice,0000,0000,0000,,Anyway, we'll just have to turn \Na profit starting tomorrow.
+Dialogue: 0,0:07:34.82,0:07:36.10,Main Dialogue,Alice,0000,0000,0000,,Okay, let's switch gears.
+Dialogue: 0,0:07:36.10,0:07:38.32,Main Dialogue,Hayama,0000,0000,0000,,This is basically your fault!
+Dialogue: 0,0:07:38.32,0:07:40.15,Main Dialogue,Hayama,0000,0000,0000,,Are you even sorry?!
+Dialogue: 0,0:07:40.15,0:07:42.77,Italics Dialogue,Takumi/Ikumi,0000,0000,0000,,They've got zero teamwork!
+Dialogue: 0,0:07:43.21,0:07:46.30,Main Dialogue,Ikumi,0000,0000,0000,,Megumi, are you okay?
+Dialogue: 0,0:07:46.30,0:07:48.09,Main Dialogue,Ikumi,0000,0000,0000,,You're not even getting to \Nchallenge the Elite Ten.
+Dialogue: 0,0:07:48.09,0:07:49.85,Main Dialogue,Ikumi,0000,0000,0000,,And you might end up being expelled together.
+Dialogue: 0,0:07:49.85,0:07:51.57,Main Dialogue,M,0000,0000,0000,,Oh, y-yeah...
+Dialogue: 0,0:07:51.57,0:07:53.78,Main Dialogue,S,0000,0000,0000,,Well, I'm sure we'll figure something out.
+Dialogue: 0,0:07:53.78,0:07:55.17,Main Dialogue,Ikumi,0000,0000,0000,,Yukihira?!
+Dialogue: 0,0:07:55.17,0:07:56.62,Main Dialogue,Takumi,0000,0000,0000,,Where have you been?!
+Dialogue: 0,0:07:56.97,0:07:59.70,Main Dialogue,S,0000,0000,0000,,Oh, I just had to take care of something.
+Dialogue: 0,0:07:59.70,0:08:01.62,Main Dialogue,S,0000,0000,0000,,By the way, aren't you guys hungry?
+Dialogue: 0,0:08:02.62,0:08:05.44,Main Dialogue,S,0000,0000,0000,,I made black pepper buns using \Nleftover filling from today.
+Dialogue: 0,0:08:05.44,0:08:06.75,Main Dialogue,S,0000,0000,0000,,Let's have dinner.
+Dialogue: 0,0:08:06.75,0:08:08.72,Main Dialogue,Alice,0000,0000,0000,,Sure, I'll have some.
+Dialogue: 0,0:08:08.72,0:08:09.59,Main Dialogue,Ikumi,0000,0000,0000,,Where'd the tension go?!
+Dialogue: 0,0:08:10.00,0:08:12.06,Main Dialogue,I,0000,0000,0000,,Good work, everyone!
+Dialogue: 0,0:08:12.06,0:08:14.05,Main Dialogue,I,0000,0000,0000,,Let's start closing up shop for today.
+Dialogue: 0,0:08:14.05,0:08:16.45,Main Dialogue,Yuki,0000,0000,0000,,Huh? We're stopping already?
+Dialogue: 0,0:08:16.45,0:08:19.53,Main Dialogue,Ryoko,0000,0000,0000,,But the crowd's just starting to \Nbuild up in the Yamanote Area.
+Dialogue: 0,0:08:19.53,0:08:20.93,Main Dialogue,Ryoko,0000,0000,0000,,Why not keep going for a bit longer?
+Dialogue: 0,0:08:21.35,0:08:25.22,Main Dialogue,I,0000,0000,0000,,Our primary goal is to have fun.
+Dialogue: 0,0:08:25.22,0:08:27.02,Main Dialogue,I,0000,0000,0000,,We shouldn't overdo it on the first day.
+Dialogue: 0,0:08:27.69,0:08:28.65,Main Dialogue,I,0000,0000,0000,,Besides...
+Dialogue: 0,0:08:29.27,0:08:32.36,Main Dialogue,I,0000,0000,0000,,There's something I want to \Nprepare for tomorrow, too.
+Dialogue: 0,0:08:32.90,0:08:35.20,Main Dialogue,S,0000,0000,0000,,Hey, the other half of the \NNakiris should eat, too.
+Dialogue: 0,0:08:35.20,0:08:37.04,Main Dialogue,E,0000,0000,0000,,I said don't call us that!
+Dialogue: 0,0:08:37.04,0:08:38.53,Main Dialogue,E,0000,0000,0000,,I'm not eating anything!
+Dialogue: 0,0:08:38.53,0:08:40.56,Main Dialogue,E,0000,0000,0000,,I inadvertently helped \Nyou with taste-testing,
+Dialogue: 0,0:08:40.56,0:08:42.79,Main Dialogue,E,0000,0000,0000,,but I have not acknowledged \Nyour cooking as legitimate!
+Dialogue: 0,0:08:42.79,0:08:43.66,Main Dialogue,S,0000,0000,0000,,'Kay...
+Dialogue: 0,0:08:43.66,0:08:45.75,Main Dialogue,Alice,0000,0000,0000,,Oh, but Erina, it's good.
+Dialogue: 0,0:08:45.75,0:08:50.13,Main Dialogue,Hisako,0000,0000,0000,,The meat filling benefits from the \Nfragrance of black pepper and sesame oil.
+Dialogue: 0,0:08:50.13,0:08:53.45,Main Dialogue,Ryo,0000,0000,0000,,Well, it'd taste better if I'd done it.
+Dialogue: 0,0:08:53.45,0:08:54.26,Main Dialogue,S,0000,0000,0000,,Huh?!
+Dialogue: 0,0:08:54.26,0:08:55.86,Main Dialogue,Hayama,0000,0000,0000,,In addition to black pepper,
+Dialogue: 0,0:08:55.86,0:08:59.10,Main Dialogue,Hayama,0000,0000,0000,,the filling contains the five spice powder \Nessential to Chinese cuisine,
+Dialogue: 0,0:08:57.82,0:09:03.73,sign_12895_193_Five_Spice_Powde,Sign 0900,0000,0000,0000,,{\fad(217,1)}Five Spice Powder
+Dialogue: 0,0:08:59.10,0:09:02.67,Main Dialogue,Hayama,0000,0000,0000,,and anise, which helps enhance flavor.
+Dialogue: 0,0:09:00.95,0:09:03.73,sign_12970_194_Anise,Sign 0902,0000,0000,0000,,{\fad(215,1)}Anise
+Dialogue: 0,0:09:02.67,0:09:03.73,Main Dialogue,S,0000,0000,0000,,Yeah, bingo!
+Dialogue: 0,0:09:04.22,0:09:07.56,Main Dialogue,S,0000,0000,0000,,Chinese seasonings are basically just spices.
+Dialogue: 0,0:09:07.56,0:09:11.16,Main Dialogue,S,0000,0000,0000,,I was able to use what I learned during \Nthe curry match in the prelims.
+Dialogue: 0,0:09:11.16,0:09:13.86,Main Dialogue,S,0000,0000,0000,,Oh, Nikumi helped, too.
+Dialogue: 0,0:09:14.05,0:09:17.36,sign_13284_199_Testing_in_Progr,Sign 0915,0000,0000,0000,,{\fad(378,1)}Testing in Progress
+Dialogue: 0,0:09:14.17,0:09:17.36,Flashback Dialogue,Ikumi,0000,0000,0000,,There are other seasonings used \Nin Chinese cuisine, you know.
+Dialogue: 0,0:09:17.79,0:09:22.57,Flashback Dialogue,Ikumi,0000,0000,0000,,Oyster sauce, XO sauce, and \Ntoo many spices to name.
+Dialogue: 0,0:09:22.57,0:09:23.08,Flashback Dialogue,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:23.53,0:09:25.75,Flashback Dialogue,S,0000,0000,0000,,Let's try a bunch!
+Dialogue: 0,0:09:25.75,0:09:29.46,Flashback Dialogue,S,0000,0000,0000,,Wrap this up in dough with some \Nfinely-sliced green onions, then bake them.
+Dialogue: 0,0:09:29.46,0:09:30.86,Flashback Dialogue,Ikumi,0000,0000,0000,,Damn!
+Dialogue: 0,0:09:30.86,0:09:32.50,Flashback Dialogue,Ikumi,0000,0000,0000,,It's damn good, Yukihira!
+Dialogue: 0,0:09:32.50,0:09:34.68,Main Dialogue,S,0000,0000,0000,,Thanks for your help, Nikumi!
+Dialogue: 0,0:09:34.68,0:09:37.18,Main Dialogue,Ikumi,0000,0000,0000,,Hey, you can't just grab my hand like that!
+Dialogue: 0,0:09:37.18,0:09:39.53,Main Dialogue,Takumi,0000,0000,0000,,Yukihira, why didn't you call {\i1}me{\i0} to help?
+Dialogue: 0,0:09:39.53,0:09:41.64,Main Dialogue,Isami,0000,0000,0000,,Bro, why don't you ask him directly?
+Dialogue: 0,0:09:43.18,0:09:46.89,sign_13983_211_Totsuki_Sports_E,Sign 0945,0000,0000,0000,,Delivering the inspiration of food from Totsuki: \NFrom the students to the customers
+Dialogue: 0,0:09:43.18,0:09:46.89,sign_13983_212_92nd_Moon_Festiv,Sign 0945,0000,0000,0000,,92nd Moon Festival Begins
+Dialogue: 0,0:09:43.50,0:09:46.89,Main Dialogue,S,0000,0000,0000,,So these are the sales rankings \Nfor the first day, huh.
+Dialogue: 0,0:09:46.89,0:09:47.84,Main Dialogue,S,0000,0000,0000,,Wow!
+Dialogue: 0,0:09:46.89,0:09:51.61,sign_14072_214_Day_1_Sales_Rank,Sign 0948,0000,0000,0000,,Day 1 Sales Rankings \N~ Yamanote Area ~
+Dialogue: 0,0:09:46.89,0:09:51.61,sign_14072_215_1st_Place___Akag,Sign 0948,0000,0000,0000,,1st Place   Akanegakubo Momo   3rd Yr H.S. 4th Seat\N2nd Place   Nakiri Erina   1st Yr H.S. 10th Seat\N3rd Place   Megishima Tosuke   3rd Yr H.S. 3rd Seat\N 4th Place   Kinokuni Nene   2nd Yr H.S. 6th Seat\N 5th Place   Tsukasa Eishi   3rd Yr H.S. 1st Seat
+Dialogue: 0,0:09:47.84,0:09:49.18,Main Dialogue,S,0000,0000,0000,,So many of the Elite Ten rank
+Dialogue: 0,0:09:49.18,0:09:50.89,Main Dialogue,S,0000,0000,0000,,as top sellers in the Yamanote Area!
+Dialogue: 0,0:09:50.89,0:09:54.46,Main Dialogue,M,0000,0000,0000,,The fourth seat, Akanegakubo-senpai, \Nis in first place.
+Dialogue: 0,0:09:54.99,0:09:57.81,Default,S,0000,0000,0000,,The first seat, Tsukasa-senpai, \Nis in fifth place.
+Dialogue: 0,0:09:58.74,0:10:04.46,Main Dialogue,S,0000,0000,0000,,Oh, I don't see the second seat, Kobayashi \NRindo-senpai, or Eizan-senpai on the list.
+Dialogue: 0,0:09:58.74,0:10:05.87,sign_14356_221_Totsuki_Sports_E,Sign 0945,0000,0000,0000,,Delivering the inspiration of food from Totsuki: \NFrom the students to the customers
+Dialogue: 0,0:10:04.46,0:10:05.87,Main Dialogue,S,0000,0000,0000,,I wonder if they're not participating.
+Dialogue: 0,0:10:05.87,0:10:09.40,Main Dialogue,S,0000,0000,0000,,So one of the Nakiris was \Nin second place, huh.
+Dialogue: 0,0:10:05.87,0:10:15.84,sign_14527_222_Totsuki_Sports_E,Sign 0945,0000,0000,0000,,Delivering the inspiration of food from Totsuki: \NFrom the students to the customers
+Dialogue: 0,0:10:05.87,0:10:15.84,sign_14527_223_92nd_Moon_Festiv,Sign 0945,0000,0000,0000,,92nd Moon\NFestival Begins
+Dialogue: 0,0:10:09.40,0:10:11.15,Main Dialogue,S,0000,0000,0000,,That's super amazing.
+Dialogue: 0,0:10:11.15,0:10:12.77,Main Dialogue,S,0000,0000,0000,,I'll show up. Let me try your food.
+Dialogue: 0,0:10:12.77,0:10:15.84,Main Dialogue,E,0000,0000,0000,,If you want to dine at my establishment, \Nyou'd better come with plenty of pine tickets!
+Dialogue: 0,0:10:16.26,0:10:19.25,Main Dialogue,Hisako,0000,0000,0000,,Erina-sama's booth is by reservation only.
+Dialogue: 0,0:10:19.25,0:10:21.96,Main Dialogue,Hisako,0000,0000,0000,,We do not accept walk-ins.
+Dialogue: 0,0:10:21.96,0:10:25.22,Main Dialogue,Hisako,0000,0000,0000,,If we had, we would have been in first place.
+Dialogue: 0,0:10:25.22,0:10:26.06,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:10:26.39,0:10:31.21,Main Dialogue,E,0000,0000,0000,,Not all participants are trying \Nto compete for sales, like you.
+Dialogue: 0,0:10:31.21,0:10:34.69,Main Dialogue,E,0000,0000,0000,,There are many students who \Nseek to hone their own cooking skills.
+Dialogue: 0,0:10:34.69,0:10:37.07,Main Dialogue,S,0000,0000,0000,,Huh, guess it takes all kinds.
+Dialogue: 0,0:10:37.57,0:10:38.77,Main Dialogue,E,0000,0000,0000,,Anyway!
+Dialogue: 0,0:10:38.77,0:10:41.94,Main Dialogue,E,0000,0000,0000,,Now's not the time for you to be paying \Nattention to booths in other areas, is it?
+Dialogue: 0,0:10:41.94,0:10:45.08,Main Dialogue,E,0000,0000,0000,,You must focus on beating \NKuga-san in the Central Area.
+Dialogue: 0,0:10:45.44,0:10:46.33,Main Dialogue,S,0000,0000,0000,,Do I?
+Dialogue: 0,0:10:46.33,0:10:47.58,Main Dialogue,E,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:51.09,0:10:51.79,Main Dialogue,Ikumi,0000,0000,0000,,What?
+Dialogue: 0,0:10:51.79,0:10:53.06,Main Dialogue,Konishi,0000,0000,0000,,Nikumi!
+Dialogue: 0,0:10:53.06,0:10:55.51,Main Dialogue,Konishi,0000,0000,0000,,Our booth tent broke!
+Dialogue: 0,0:10:55.51,0:10:58.38,Main Dialogue,Konishi,0000,0000,0000,,Come right away!
+Dialogue: 0,0:10:56.73,0:10:58.78,Main Dialogue Top,Ikumi,0000,0000,0000,,You wimp! Stop crying!
+Dialogue: 0,0:10:58.78,0:10:59.77,Main Dialogue,Ikumi,0000,0000,0000,,Hang on, I'll be right there!
+Dialogue: 0,0:10:59.77,0:11:03.71,Main Dialogue,Isami,0000,0000,0000,,Bro, we should start the \Nmeeting for tomorrow.
+Dialogue: 0,0:11:03.71,0:11:05.15,Main Dialogue,Isami,0000,0000,0000,,Everyone's waiting for us.
+Dialogue: 0,0:11:05.15,0:11:06.39,Main Dialogue,Takumi,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:11:06.70,0:11:08.79,Main Dialogue,Alice,0000,0000,0000,,Then we should meet and strategize, too.
+Dialogue: 0,0:11:08.79,0:11:10.31,Main Dialogue,Ryo,0000,0000,0000,,A'ight.
+Dialogue: 0,0:11:10.31,0:11:14.55,Main Dialogue,Takumi,0000,0000,0000,,Yukihira, above all,\N focus on turning a profit!
+Dialogue: 0,0:11:14.55,0:11:16.92,Main Dialogue,Ikumi,0000,0000,0000,,Yeah! Don't get Megumi expelled!
+Dialogue: 0,0:11:16.92,0:11:18.52,Main Dialogue,S,0000,0000,0000,,Yup, I'll give it my best shot!
+Dialogue: 0,0:11:18.52,0:11:19.88,Main Dialogue,Takumi,0000,0000,0000,,I have to say, you're just—
+Dialogue: 0,0:11:19.88,0:11:23.16,Main Dialogue,Isami,0000,0000,0000,,Bro, let's go.
+Dialogue: 0,0:11:20.25,0:11:22.27,Main Dialogue,Takumi,0000,0000,0000,,Hey, wait, Isami!
+Dialogue: 0,0:11:22.27,0:11:23.16,Main Dialogue,Takumi,0000,0000,0000,,Hey, Yukihira!
+Dialogue: 0,0:11:23.16,0:11:27.09,Main Dialogue Top,Takumi,0000,0000,0000,,Don't forget that I am your rival!
+Dialogue: 0,0:11:24.09,0:11:27.09,Main Dialogue,S,0000,0000,0000,,Tadokoro, guess we should \Nprep for tomorrow, too.
+Dialogue: 0,0:11:27.09,0:11:27.62,Main Dialogue,M,0000,0000,0000,,Yup!
+Dialogue: 0,0:11:29.75,0:11:31.71,sign_16538_262_Kitchen_No_2,Sign 1131,0000,0000,0000,,Kitchen No.2
+Dialogue: 0,0:11:30.38,0:11:31.71,Main Dialogue,M,0000,0000,0000,,Hup!
+Dialogue: 0,0:11:31.71,0:11:32.96,Main Dialogue,M,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:33.28,0:11:37.10,Main Dialogue,M,0000,0000,0000,,I thought there'd be more leftover filling.
+Dialogue: 0,0:11:37.10,0:11:39.55,Main Dialogue,M,0000,0000,0000,,Maybe we used it all up earlier at dinner?
+Dialogue: 0,0:11:42.03,0:11:42.51,Main Dialogue,M,0000,0000,0000,,Oh.
+Dialogue: 0,0:11:43.27,0:11:44.17,Main Dialogue,M,0000,0000,0000,,Um, Soma-k...
+Dialogue: 0,0:11:44.17,0:11:45.94,Main Dialogue,S,0000,0000,0000,,Oh, thanks.
+Dialogue: 0,0:11:45.94,0:11:46.89,Main Dialogue,S,0000,0000,0000,,Okay, here.
+Dialogue: 0,0:11:47.35,0:11:48.89,Main Dialogue,S,0000,0000,0000,,I'm counting on you.
+Dialogue: 0,0:11:51.89,0:11:53.77,Main Dialogue,M,0000,0000,0000,,Soma-kun, what was that about just now?
+Dialogue: 0,0:11:54.37,0:11:55.81,Main Dialogue,S,0000,0000,0000,,Oh, Tadokoro!
+Dialogue: 0,0:11:55.81,0:11:57.85,Main Dialogue,S,0000,0000,0000,,I need to pick your brains \Nabout the rest of the festival.
+Dialogue: 0,0:11:57.85,0:11:58.28,Main Dialogue,S,0000,0000,0000,,Have time?
+Dialogue: 0,0:11:58.60,0:11:59.50,Main Dialogue,M,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:59.50,0:12:00.87,Main Dialogue,M,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:12:01.95,0:12:12.08,sign_17310_279_An_Evening_of_Ta,,0000,0000,0000,,An Evening of Taro Stew\N With Isshiki Satoshi
+Dialogue: 0,0:12:02.47,0:12:03.49,Main Dialogue,I,0000,0000,0000,,All right, everyone!
+Dialogue: 0,0:12:03.49,0:12:05.20,Main Dialogue,I,0000,0000,0000,,It's day two of the Moon Festival!
+Dialogue: 0,0:12:05.20,0:12:07.61,Main Dialogue,I,0000,0000,0000,,I added a new direction to our booth!
+Dialogue: 0,0:12:07.61,0:12:12.08,Main Dialogue,I,0000,0000,0000,,Let's increase customer satisfaction \N{\i1}and{\i0} further enjoy student life!
+Dialogue: 0,0:12:12.08,0:12:14.04,Main Dialogue,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:14.04,0:12:15.50,sign_17600_285_An_Evening_of_Ta,Sign 1215,0000,0000,0000,,An Evening of Taro Stew\N With Isshiki Satoshi
+Dialogue: 0,0:12:15.50,0:12:16.96,sign_17635_286_Sexy_Sideburns,Sign 1215,0000,0000,0000,,Sexy Sideburns
+Dialogue: 0,0:12:15.50,0:12:16.96,Main Dialogue,Ladies,0000,0000,0000,,Daigo-chan!
+Dialogue: 0,0:12:16.96,0:12:18.42,sign_17635_286_Sexy_Sideburns,Sign 1218,0000,0000,0000,,His Gaze Cuts Like a Knife
+Dialogue: 0,0:12:16.96,0:12:18.42,Main Dialogue,Ladies,0000,0000,0000,,Shoji-nyan!
+Dialogue: 0,0:12:18.42,0:12:19.88,sign_17635_286_Sexy_Sideburns,Sign 1219,0000,0000,0000,,Mysterious & Charming
+Dialogue: 0,0:12:18.42,0:12:19.88,Main Dialogue,Ladies,0000,0000,0000,,Shun-sama!
+Dialogue: 0,0:12:19.88,0:12:21.34,sign_17635_286_Sexy_Sideburns,Sign 1220,0000,0000,0000,,Intelligence Is the True Measure of a Man
+Dialogue: 0,0:12:19.88,0:12:21.34,Main Dialogue,Ladies,0000,0000,0000,,Zenji!
+Dialogue: 0,0:12:21.34,0:12:23.36,sign_17775_290_Taro_Stew_Booth_,Sign 1222,0000,0000,0000,,Taro Stew Booth Manager
+Dialogue: 0,0:12:21.34,0:12:23.80,Main Dialogue,Ladies,0000,0000,0000,,Isshiki-kun!
+Dialogue: 0,0:12:23.80,0:12:25.26,sign_17834_291_The_Staff_of_You,Sign 1225,0000,0000,0000,,The Staff\Nof Your Choice\N Will Serve You
+Dialogue: 0,0:12:23.80,0:12:27.11,Main Dialogue,Y,0000,0000,0000,,I-It feels like a host club for some reason.
+Dialogue: 0,0:12:27.11,0:12:30.39,Main Dialogue,Ryoko,0000,0000,0000,,But he sure knows his customers.
+Dialogue: 0,0:12:30.80,0:12:33.52,Main Dialogue,Yuki,0000,0000,0000,,We might make it into the top five today.
+Dialogue: 0,0:12:33.52,0:12:35.98,Main Dialogue,Ikumi,0000,0000,0000,,Four orders of ultra-premium donburi, stat!
+Dialogue: 0,0:12:35.98,0:12:37.75,Main Dialogue,Takumi,0000,0000,0000,,If you want something lighter,
+Dialogue: 0,0:12:37.75,0:12:39.48,Main Dialogue,Takumi,0000,0000,0000,,how about a calzone?
+Dialogue: 0,0:12:39.82,0:12:41.57,Main Dialogue,Hayama,0000,0000,0000,,We don't have any naan!
+Dialogue: 0,0:12:42.04,0:12:45.50,Main Dialogue,Hayama,0000,0000,0000,,I let you handle the naan because you \Nsaid you'd take care of it, Nakiri!
+Dialogue: 0,0:12:45.50,0:12:47.29,Main Dialogue,Alice,0000,0000,0000,,And I did, see?
+Dialogue: 0,0:12:47.29,0:12:49.54,Main Dialogue,Alice,0000,0000,0000,,Here's candy that crystallizes \Neverything naan represents!
+Dialogue: 0,0:12:49.54,0:12:51.58,Main Dialogue,Hayama,0000,0000,0000,,How would curry go with that?!
+Dialogue: 0,0:12:51.58,0:12:53.47,Main Dialogue,Ryo,0000,0000,0000,,It sure does taste like naan.
+Dialogue: 0,0:12:53.46,0:12:56.69,sign_18545_312_Dried_Fish_Store,Sign 1254,0000,0000,0000,,Dried Fish Store of Darkness \N{\fs20\c&H96B4C6&}Kusaya \N Buy Take-Home Gifts Here
+Dialogue: 0,0:12:53.47,0:12:55.27,Main Dialogue,Men,0000,0000,0000,,I love this stench!
+Dialogue: 0,0:12:55.27,0:12:56.35,Main Dialogue,Men,0000,0000,0000,,Give me five!
+Dialogue: 0,0:12:56.35,0:12:57.29,Main Dialogue,Men,0000,0000,0000,,Gimme two!
+Dialogue: 0,0:12:58.63,0:13:03.05,Italics Dialogue,Nao,0000,0000,0000,,My Dried Fish Store of Darkness \Nis really popular today, too.
+Dialogue: 0,0:13:03.56,0:13:07.26,Italics Dialogue,Nao,0000,0000,0000,,I'm kind of concerned that my \Ncustomer base seems skewed, but...
+Dialogue: 0,0:13:07.26,0:13:11.52,Main Dialogue,Student,0000,0000,0000,,Sadatsuka was serious about doing \Nthat in the Main Avenue area?
+Dialogue: 0,0:13:07.26,0:13:13.23,sign_18876_315_Dried_Fish_Store,Sign 1254,0000,0000,0000,,Dried Fish Store of Darkness \N{\fs12\c&H96B4C6&}Kusaya \N Buy Take-Home Gifts Here
+Dialogue: 0,0:13:11.52,0:13:13.23,Main Dialogue,Student,0000,0000,0000,,There'll be complaints about the smell.
+Dialogue: 0,0:13:13.23,0:13:21.19,sign_19019_318_Entrancing_Gourm,Sign 1316,0000,0000,0000,,Entrancing\N{\fs30} Gourmet Insect Dishes \N{\fs20}— Entomophagy RS —
+Dialogue: 0,0:13:13.55,0:13:15.59,Main Dialogue,Rindo,0000,0000,0000,,Hey, this isn't bad!
+Dialogue: 0,0:13:15.59,0:13:17.59,Main Dialogue,Rindo,0000,0000,0000,,It feels like a sweeter version of soft roe.
+Dialogue: 0,0:13:17.59,0:13:18.67,Main Dialogue,RS,0000,0000,0000,,That's right!
+Dialogue: 0,0:13:18.67,0:13:21.19,Main Dialogue,RS,0000,0000,0000,,Asian giant hornet larvae \Ntaste good, don't they?
+Dialogue: 0,0:13:21.57,0:13:24.15,Main Dialogue,Rindo,0000,0000,0000,,Thanks for the taste!
+Dialogue: 0,0:13:24.15,0:13:25.94,Main Dialogue,Rindo,0000,0000,0000,,Okay, next up...
+Dialogue: 0,0:13:25.94,0:13:29.45,Main Dialogue,Rindo,0000,0000,0000,,Oh, this line must be for Kuga's booth!
+Dialogue: 0,0:13:26.86,0:13:29.45,sign_19346_325_Kuga_Restaurant,,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:13:31.33,0:13:35.12,Italics Dialogue,Kuga,0000,0000,0000,,There's a never-ending line that's \Neven longer than yesterday's!
+Dialogue: 0,0:13:35.45,0:13:38.83,Italics Dialogue,Kuga,0000,0000,0000,,I'm getting such steady business! \N It's hard being so business savvy!
+Dialogue: 0,0:13:39.87,0:13:42.30,Main Dialogue,Rindo,0000,0000,0000,,Well, guess I can come by later.
+Dialogue: 0,0:13:42.30,0:13:44.32,Main Dialogue,Rindo,0000,0000,0000,,Oh, there it is.
+Dialogue: 0,0:13:44.32,0:13:46.21,Main Dialogue,Rindo,0000,0000,0000,,Yukihira Soma's little stall.
+Dialogue: 0,0:13:44.32,0:13:47.58,Main Dialogue Top,M,0000,0000,0000,,Piping hot black pepper buns, anyone?
+Dialogue: 0,0:13:46.76,0:13:48.50,Main Dialogue,Rindo,0000,0000,0000,,Black pepper buns, huh.
+Dialogue: 0,0:13:48.50,0:13:49.98,Main Dialogue,Rindo,0000,0000,0000,,Looks good.
+Dialogue: 0,0:13:49.98,0:13:50.72,Main Dialogue,Rindo,0000,0000,0000,,Hm?
+Dialogue: 0,0:13:50.72,0:13:53.46,Main Dialogue,Rindo,0000,0000,0000,,They're eating something with chopsticks?
+Dialogue: 0,0:13:55.51,0:13:56.89,Italics Dialogue,U,0000,0000,0000,,Here it comes!
+Dialogue: 0,0:13:56.89,0:14:00.36,Italics Dialogue,U,0000,0000,0000,,The Central Area's top seller \Non day two of the festival is...
+Dialogue: 0,0:14:00.36,0:14:02.43,Italics Dialogue,U,0000,0000,0000,,Chinese Cuisine RS's Kuga Restaurant!
+Dialogue: 0,0:14:02.43,0:14:04.32,Italics Dialogue,U,0000,0000,0000,,They were by far the top earner today, too!
+Dialogue: 0,0:14:04.32,0:14:06.69,Main Dialogue,Kuga,0000,0000,0000,,Well, no surprise there.
+Dialogue: 0,0:14:06.69,0:14:10.69,Main Dialogue,Kuga,0000,0000,0000,,But I'm starting to feel a \Nbit sorry for Yukihira-chin.
+Dialogue: 0,0:14:10.69,0:14:13.91,Main Dialogue,Kuga,0000,0000,0000,,He was dead last in fortieth place yesterday.
+Dialogue: 0,0:14:14.87,0:14:19.08,sign_20497_344_34th_Dairy_Produ,Sign 1417,0000,0000,0000,,34th Dairy Product RS \N 35th Yukihira Soma \N 36th Wild Vegetables RS
+Dialogue: 0,0:14:15.19,0:14:16.58,Main Dialogue,Kuga,0000,0000,0000,,Thirty-fifth place?
+Dialogue: 0,0:14:16.58,0:14:19.08,Main Dialogue,Kuga,0000,0000,0000,,Oh, guess he tried some on the second day.
+Dialogue: 0,0:14:19.85,0:14:21.54,Main Dialogue,Kuga,0000,0000,0000,,Oh, he's not here.
+Dialogue: 0,0:14:21.85,0:14:22.99,Main Dialogue,Kuga,0000,0000,0000,,Hey, hey, hey.
+Dialogue: 0,0:14:22.99,0:14:25.61,Main Dialogue,Kuga,0000,0000,0000,,Did any of you get a look at \NYukihira-chin's booth today?
+Dialogue: 0,0:14:25.61,0:14:29.37,Main Dialogue,Staff,0000,0000,0000,,Come to think of it, I think he \Nhad more customers than yesterday.
+Dialogue: 0,0:14:29.37,0:14:32.64,Main Dialogue,Staff,0000,0000,0000,,There was another item on the menu.\NIt looked like a noodle dish.
+Dialogue: 0,0:14:33.51,0:14:34.60,Main Dialogue,Kuga,0000,0000,0000,,Hm.
+Dialogue: 0,0:14:34.60,0:14:36.67,Main Dialogue,Nao,0000,0000,0000,,Everything sold out today, too.
+Dialogue: 0,0:14:36.67,0:14:40.99,Main Dialogue,Nao,0000,0000,0000,,Food that speaks to people \Nwho love smelly cuisine does well.
+Dialogue: 0,0:14:47.10,0:14:48.18,Main Dialogue,Nao,0000,0000,0000,,That's...
+Dialogue: 0,0:14:48.18,0:14:48.90,Main Dialogue,S,0000,0000,0000,,Sir!
+Dialogue: 0,0:14:49.43,0:14:52.05,Main Dialogue,S,0000,0000,0000,,Would you like a black \Npepper bun before you go?
+Dialogue: 0,0:14:52.05,0:14:53.41,Main Dialogue,S,0000,0000,0000,,It'll be on us.
+Dialogue: 0,0:14:53.41,0:14:55.57,Main Dialogue,Dad,0000,0000,0000,,Oh, you don't want tickets for that?
+Dialogue: 0,0:14:55.57,0:14:56.13,Main Dialogue,S,0000,0000,0000,,Nope!
+Dialogue: 0,0:14:56.13,0:14:56.79,Main Dialogue,S,0000,0000,0000,,Go ahead!
+Dialogue: 0,0:14:59.25,0:15:01.46,Main Dialogue,Mom,0000,0000,0000,,Juicy and spicy!
+Dialogue: 0,0:15:01.46,0:15:02.42,Main Dialogue,Kid,0000,0000,0000,,This is great!
+Dialogue: 0,0:15:02.42,0:15:04.89,Main Dialogue,Dad,0000,0000,0000,,It's so juicy!
+Dialogue: 0,0:15:04.89,0:15:06.98,Main Dialogue,Gramps,0000,0000,0000,,If it's free, may I have one, too?
+Dialogue: 0,0:15:06.98,0:15:08.34,Main Dialogue,M,0000,0000,0000,,Yes, of course!
+Dialogue: 0,0:15:08.34,0:15:10.23,Main Dialogue,Man,0000,0000,0000,,You're baking them in a stone oven?
+Dialogue: 0,0:15:09.21,0:15:10.78,Main Dialogue,Man,0000,0000,0000,,It's great.
+Dialogue: 0,0:15:10.23,0:15:11.82,Main Dialogue,Man,0000,0000,0000,,May I have one, too?
+Dialogue: 0,0:15:10.78,0:15:12.47,Main Dialogue,Man,0000,0000,0000,,Yeah, juicy!
+Dialogue: 0,0:15:11.82,0:15:13.22,Main Dialogue,Man,0000,0000,0000,,Piping hot!
+Dialogue: 0,0:15:13.22,0:15:15.60,Main Dialogue,Nao,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:15:15.91,0:15:17.06,Main Dialogue,M,0000,0000,0000,,Sadatsuka-san?!
+Dialogue: 0,0:15:17.06,0:15:19.77,Main Dialogue,Nao,0000,0000,0000,,Calamari with peanut sauce?! Disgusting!
+Dialogue: 0,0:15:19.77,0:15:22.48,Main Dialogue,S,0000,0000,0000,,Your kusaya is super smelly too, Sadatsuka.
+Dialogue: 0,0:15:22.48,0:15:24.94,Main Dialogue,Nao,0000,0000,0000,,Smelly, but addictive, right?
+Dialogue: 0,0:15:26.87,0:15:29.15,Main Dialogue,M,0000,0000,0000,,They make quite a pair.
+Dialogue: 0,0:15:30.33,0:15:35.53,Main Dialogue,Nao,0000,0000,0000,,Kiviak and surströmming are two of the\N smelliest and tastiest dishes in the world.
+Dialogue: 0,0:15:35.53,0:15:39.83,Main Dialogue,Nao,0000,0000,0000,,My ambition is to create something that's \Neven more grotesque and delicious!
+Dialogue: 0,0:15:39.83,0:15:42.11,Main Dialogue,S,0000,0000,0000,,You get it, huh!
+Dialogue: 0,0:15:42.11,0:15:45.13,Main Dialogue,S,0000,0000,0000,,Taste-test my next ultra-disgusting \Nmasterpiece next time!
+Dialogue: 0,0:15:45.13,0:15:46.33,Main Dialogue,Nao,0000,0000,0000,,Very well.
+Dialogue: 0,0:15:46.33,0:15:49.71,Main Dialogue,Nao,0000,0000,0000,,I'll let you taste my grotesque \Nand delicious creations as well.
+Dialogue: 0,0:15:49.71,0:15:53.62,Italics Dialogue,M,0000,0000,0000,,I feel like these two never should have met.
+Dialogue: 0,0:15:54.80,0:15:57.39,Main Dialogue,S,0000,0000,0000,,Oh, I was testing new dishes last night
+Dialogue: 0,0:15:57.39,0:16:00.77,Main Dialogue,S,0000,0000,0000,,by carting this stall around, too.
+Dialogue: 0,0:16:01.19,0:16:05.19,Main Dialogue,S,0000,0000,0000,,Other booths hand out samples on the street.
+Dialogue: 0,0:16:05.19,0:16:07.01,Main Dialogue,S,0000,0000,0000,,There shouldn't be any problems
+Dialogue: 0,0:16:07.01,0:16:09.25,Main Dialogue,S,0000,0000,0000,,with me taking my stall around \Nto hand out samples, right?
+Dialogue: 0,0:16:09.25,0:16:10.99,Main Dialogue,Nao,0000,0000,0000,,You're a clever one.
+Dialogue: 0,0:16:10.99,0:16:14.24,Main Dialogue,S,0000,0000,0000,,This'll let me see how customers \Nare reacting to my dishes, too.
+Dialogue: 0,0:16:14.24,0:16:17.83,Main Dialogue,S,0000,0000,0000,,And I kind of wanted a change of pace.
+Dialogue: 0,0:16:18.65,0:16:21.16,Main Dialogue,S,0000,0000,0000,,I think I can glimpse something I can't
+Dialogue: 0,0:16:21.68,0:16:24.00,Main Dialogue,S,0000,0000,0000,,when I'm right next to \Nthe Chinese Cuisine RS.
+Dialogue: 0,0:16:24.00,0:16:26.19,Main Dialogue,M,0000,0000,0000,,Would you like one?
+Dialogue: 0,0:16:26.19,0:16:27.57,Main Dialogue,Man,0000,0000,0000,,Black pepper buns, huh.
+Dialogue: 0,0:16:27.57,0:16:29.43,Main Dialogue,Man,0000,0000,0000,,Hmm, that feels kind of heavy.
+Dialogue: 0,0:16:29.43,0:16:32.34,Main Dialogue,Man,0000,0000,0000,,If you have something that'd just \Ngo right down without a hitch...
+Dialogue: 0,0:16:32.34,0:16:34.30,Main Dialogue,S,0000,0000,0000,,Oh, I have just the thing!
+Dialogue: 0,0:16:34.30,0:16:35.76,Main Dialogue,S,0000,0000,0000,,Please wait a moment!
+Dialogue: 0,0:16:36.26,0:16:37.22,Main Dialogue,S,0000,0000,0000,,Here we go!
+Dialogue: 0,0:16:37.22,0:16:37.93,Main Dialogue,Customers,0000,0000,0000,,Oh!
+Dialogue: 0,0:16:37.93,0:16:39.46,Main Dialogue,Customers,0000,0000,0000,,What's this? Hand-made noodles?
+Dialogue: 0,0:16:39.46,0:16:41.77,Main Dialogue,Customers,0000,0000,0000,,Ah, the student's making his own noodles!
+Dialogue: 0,0:16:42.20,0:16:43.73,Main Dialogue,Nao,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:16:43.73,0:16:46.60,Main Dialogue,Nao,0000,0000,0000,,You're thinly slicing the dough for \Nthe black pepper buns into noodles?!
+Dialogue: 0,0:16:48.29,0:16:49.52,Main Dialogue,S,0000,0000,0000,,Thanks for waiting!
+Dialogue: 0,0:16:50.29,0:16:51.48,Main Dialogue,Man,0000,0000,0000,,Ah...
+Dialogue: 0,0:16:51.48,0:16:54.95,Main Dialogue,Man,0000,0000,0000,,I can smell the shrimp stock and garlic!
+Dialogue: 0,0:17:02.11,0:17:03.07,Main Dialogue,Man,0000,0000,0000,,Delicious!
+Dialogue: 0,0:17:03.07,0:17:04.91,Main Dialogue,Man,0000,0000,0000,,Though light, it has deep flavor!
+Dialogue: 0,0:17:05.97,0:17:09.07,Main Dialogue,Man,0000,0000,0000,,I've been eating the whole day, \Nbut this just goes straight down!
+Dialogue: 0,0:17:09.07,0:17:11.55,Main Dialogue,Man,0000,0000,0000,,It's a great way to end the day!
+Dialogue: 0,0:17:11.55,0:17:16.13,Main Dialogue,Nao,0000,0000,0000,,The topping is the ground pork \Nfilling for the black pepper buns?
+Dialogue: 0,0:17:16.13,0:17:17.38,Main Dialogue,S,0000,0000,0000,,That's right!
+Dialogue: 0,0:17:17.38,0:17:21.49,Main Dialogue,S,0000,0000,0000,,I just put the dish together yesterday \Nwhile listening to what customers wanted.
+Dialogue: 0,0:17:21.49,0:17:22.93,Main Dialogue,M,0000,0000,0000,,Thanks to this noodle dish,
+Dialogue: 0,0:17:22.93,0:17:25.27,Main Dialogue,M,0000,0000,0000,,our sales did much better on the second day.
+Dialogue: 0,0:17:25.27,0:17:28.23,Main Dialogue,Nao,0000,0000,0000,,I wouldn't have expected you to \Nmake the dough into noodles...
+Dialogue: 0,0:17:28.23,0:17:31.61,Main Dialogue,Nao,0000,0000,0000,,and you improvised on the fly.
+Dialogue: 0,0:17:31.61,0:17:33.57,Main Dialogue,S,0000,0000,0000,,Well, to be honest,
+Dialogue: 0,0:17:33.57,0:17:37.43,Main Dialogue,S,0000,0000,0000,,there's a very similar noodle dish in Taiwan.
+Dialogue: 0,0:17:37.43,0:17:38.57,Main Dialogue,Nao,0000,0000,0000,,Danzi noodles!
+Dialogue: 0,0:17:38.57,0:17:39.77,Main Dialogue,S,0000,0000,0000,,That's right!
+Dialogue: 0,0:17:39.77,0:17:45.02,Main Dialogue,S,0000,0000,0000,,They're wheat noodles in a light broth made \Nfrom shrimp shells and bonito flakes,
+Dialogue: 0,0:17:45.02,0:17:48.18,Main Dialogue,S,0000,0000,0000,,topped with ground pork and sliced scallions.
+Dialogue: 0,0:17:48.18,0:17:50.54,Main Dialogue,S,0000,0000,0000,,They're served in very small bowls \Nthat are almost like tea cups.
+Dialogue: 0,0:17:50.87,0:17:55.51,Main Dialogue,M,0000,0000,0000,,There's a phrase in Taiwan that means \N"eating well without getting tired of it."
+Dialogue: 0,0:17:55.51,0:17:58.76,Main Dialogue,M,0000,0000,0000,,That's why the portion size is manageable.
+Dialogue: 0,0:17:58.76,0:18:00.49,Main Dialogue,S,0000,0000,0000,,If I had to name this dish,
+Dialogue: 0,0:18:00.49,0:18:03.39,Main Dialogue,S,0000,0000,0000,,it'd be "Yukihira-Style \NSorta-Danzi Noodles"!
+Dialogue: 0,0:18:03.91,0:18:05.48,sign_25988_433_Yukihira_Style_S,,0000,0000,0000,,Yukihira-Style Sorta-Danzi Noodles
+Dialogue: 0,0:18:21.62,0:18:24.45,Main Dialogue,M,0000,0000,0000,,A lot of customers came by!
+Dialogue: 0,0:18:24.45,0:18:26.58,Main Dialogue,M,0000,0000,0000,,Though I guess it was all free,
+Dialogue: 0,0:18:26.58,0:18:28.79,Main Dialogue,M,0000,0000,0000,,so maybe it's not worth celebrating.
+Dialogue: 0,0:18:29.97,0:18:31.00,Main Dialogue,S,0000,0000,0000,,I guess so.
+Dialogue: 0,0:18:31.00,0:18:35.07,Main Dialogue,S,0000,0000,0000,,But this was how it felt when \NDad went around with black pepper buns
+Dialogue: 0,0:18:35.07,0:18:36.94,Main Dialogue,S,0000,0000,0000,,at the summer festival.
+Dialogue: 0,0:18:37.82,0:18:39.22,Main Dialogue,M,0000,0000,0000,,How it felt?
+Dialogue: 0,0:18:39.22,0:18:43.27,Main Dialogue,S,0000,0000,0000,,At first, we had a handful of people \Nwho were curious about the stone oven.
+Dialogue: 0,0:18:39.22,0:18:53.19,sign_26835_441_Diner_Yukihira__,Sign,0000,0000,0000,,Diner Yukihira\N{\c&H6A9BB2&\fs26}Taiwanese Black Pepper Buns
+Dialogue: 0,0:18:43.27,0:18:46.42,Main Dialogue,S,0000,0000,0000,,Then the reactions of customers who \Ntried our buns drew more people.
+Dialogue: 0,0:18:46.42,0:18:49.99,Main Dialogue,S,0000,0000,0000,,Eventually, we had a steady \Ncrowd around our stall.
+Dialogue: 0,0:18:50.42,0:18:53.19,Main Dialogue,S,0000,0000,0000,,That's what I was hoping for,
+Dialogue: 0,0:18:53.19,0:18:59.15,sign_27170_446_Kuga_Restaurant,,0000,0000,0000,,Kuga Restaurant
+Dialogue: 0,0:18:53.53,0:18:56.58,Main Dialogue,S,0000,0000,0000,,but given how we have that really showy \NChinese Cuisine RS right in front of us,
+Dialogue: 0,0:18:56.58,0:18:59.15,Main Dialogue,S,0000,0000,0000,,of course it wouldn't go the same way.
+Dialogue: 0,0:18:59.48,0:19:02.62,Main Dialogue,S,0000,0000,0000,,The stone oven isn't enough of an attraction.
+Dialogue: 0,0:19:02.62,0:19:08.30,Main Dialogue,M,0000,0000,0000,,Oh, and I guess black pepper buns are \Nfun to watch when they're being baked,
+Dialogue: 0,0:19:08.30,0:19:11.01,Main Dialogue,M,0000,0000,0000,,but unless you see someone eating them,
+Dialogue: 0,0:19:11.01,0:19:13.09,Main Dialogue,M,0000,0000,0000,,it might be hard to imagine \Nhow they'd actually taste.
+Dialogue: 0,0:19:13.09,0:19:13.96,Main Dialogue,S,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:14.39,0:19:17.07,Main Dialogue,S,0000,0000,0000,,Kuga-senpai's Sichuan cuisine, \Non the other hand...
+Dialogue: 0,0:19:17.07,0:19:20.68,Main Dialogue,S,0000,0000,0000,,It's pretty easy to imagine how it \Ntastes when you first look at it.
+Dialogue: 0,0:19:21.14,0:19:23.94,Flashback Dialogue,Kuga,0000,0000,0000,,The Moon Festival is\Ndifferent from a Shokugeki,
+Dialogue: 0,0:19:23.94,0:19:26.47,Flashback Dialogue,Kuga,0000,0000,0000,,where it's guaranteed that \Nthe judges will eat your food.
+Dialogue: 0,0:19:26.47,0:19:32.63,Main Dialogue,M,0000,0000,0000,,Should we think up new menu items with flavors\N our customers can imagine more easily?
+Dialogue: 0,0:19:32.63,0:19:35.53,Main Dialogue,S,0000,0000,0000,,Or something with great enough impact
+Dialogue: 0,0:19:35.53,0:19:38.69,Main Dialogue,S,0000,0000,0000,,that it'd drew customers away from the\Nspiciness of the Chinese Cuisine RS's food.
+Dialogue: 0,0:19:39.31,0:19:41.32,Main Dialogue,S,0000,0000,0000,,If I could serve a dish like that,
+Dialogue: 0,0:19:41.32,0:19:43.78,Main Dialogue,S,0000,0000,0000,,maybe we can find a way to get through this.
+Dialogue: 0,0:19:44.74,0:19:45.74,Main Dialogue,Alice,0000,0000,0000,,I had an inspiration!
+Dialogue: 0,0:19:46.23,0:19:49.27,Main Dialogue,Alice,0000,0000,0000,,We'll put the beef for the main dish
+Dialogue: 0,0:19:49.27,0:19:51.60,Main Dialogue,Alice,0000,0000,0000,,in a sous vide bath for two hours.
+Dialogue: 0,0:19:51.60,0:19:53.74,Main Dialogue,Alice,0000,0000,0000,,Then we'll process each vegetable \Nin a steam convection oven
+Dialogue: 0,0:19:53.74,0:19:56.21,Main Dialogue,Alice,0000,0000,0000,,to reach its optimal cooking temperature.
+Dialogue: 0,0:19:56.56,0:19:59.42,Main Dialogue,Alice,0000,0000,0000,,We'll use the spice mixes Hayama-kun \Nconcocted to season everything—
+Dialogue: 0,0:19:59.42,0:20:02.86,Main Dialogue,Hayama,0000,0000,0000,,And how much are we going to charge for this?
+Dialogue: 0,0:20:02.86,0:20:05.67,Main Dialogue,Alice,0000,0000,0000,,Um, to turn a profit...
+Dialogue: 0,0:20:05.05,0:20:07.01,sign_28893_472_20_000_yen,Sign 2006,0000,0000,0000,,20,000 yen
+Dialogue: 0,0:20:05.67,0:20:07.16,Main Dialogue,Alice,0000,0000,0000,,About 20,000 yen.
+Dialogue: 0,0:20:07.16,0:20:08.01,Main Dialogue,Hayama,0000,0000,0000,,We can't sell that!
+Dialogue: 0,0:20:08.01,0:20:09.39,Main Dialogue,Hayama,0000,0000,0000,,We're in the Main Avenue area!
+Dialogue: 0,0:20:09.39,0:20:11.41,Main Dialogue,Alice,0000,0000,0000,,We won't know for sure until we try!
+Dialogue: 0,0:20:11.41,0:20:12.37,Main Dialogue,Hayama,0000,0000,0000,,Vetoed!
+Dialogue: 0,0:20:12.37,0:20:14.40,Main Dialogue,Hayama,0000,0000,0000,,I can just see our losses snowball!
+Dialogue: 0,0:20:14.40,0:20:16.98,Main Dialogue,Alice,0000,0000,0000,,But it'd make such a good story!
+Dialogue: 0,0:20:16.98,0:20:18.54,Main Dialogue,Hayama,0000,0000,0000,,Pouting won't change anything.
+Dialogue: 0,0:20:18.54,0:20:19.90,Main Dialogue,Hayama,0000,0000,0000,,This is the Moon Festival.
+Dialogue: 0,0:20:19.90,0:20:22.87,Main Dialogue,Hayama,0000,0000,0000,,If you just want to make whatever\Nwithout considering the customers at all,
+Dialogue: 0,0:20:22.87,0:20:24.53,Main Dialogue,Hayama,0000,0000,0000,,just quit already!
+Dialogue: 0,0:20:25.26,0:20:26.55,Main Dialogue,Ryo,0000,0000,0000,,Hey, Hayama.
+Dialogue: 0,0:20:26.55,0:20:26.99,Main Dialogue,Hayama,0000,0000,0000,,What?
+Dialogue: 0,0:20:26.99,0:20:30.73,Main Dialogue,Ryo,0000,0000,0000,,Try to... be more positive \Nabout the miss when you talk.
+Dialogue: 0,0:20:30.73,0:20:32.54,Main Dialogue,Ryo,0000,0000,0000,,Get her in a good mood.
+Dialogue: 0,0:20:32.54,0:20:34.70,Main Dialogue,Ryo,0000,0000,0000,,You don't have to believe what you're saying.
+Dialogue: 0,0:20:34.70,0:20:38.10,Main Dialogue,Hayama,0000,0000,0000,,This is all because of how\N you've been spoiling her.
+Dialogue: 0,0:20:38.10,0:20:39.83,Main Dialogue,Hayama,0000,0000,0000,,You should feel more responsible—
+Dialogue: 0,0:20:39.02,0:20:41.01,Main Dialogue,Alice,0000,0000,0000,,I withdraw my proposal.
+Dialogue: 0,0:20:41.01,0:20:43.81,Main Dialogue,Alice,0000,0000,0000,,It's just like you said, Hayama-kun.
+Dialogue: 0,0:20:43.81,0:20:47.94,Main Dialogue,Alice,0000,0000,0000,,Let's go back to square one and create \Na dish that would please customers
+Dialogue: 0,0:20:47.94,0:20:49.35,Main Dialogue,Alice,0000,0000,0000,,coming to the Moon Festival.
+Dialogue: 0,0:20:50.01,0:20:51.89,Main Dialogue,S,0000,0000,0000,,What to do...
+Dialogue: 0,0:20:51.89,0:20:54.41,Main Dialogue,S,0000,0000,0000,,A dish that'd trump Chinese Cuisine RS
+Dialogue: 0,0:20:54.41,0:20:56.35,Main Dialogue,S,0000,0000,0000,,in terms of impact and visual appeal?
+Dialogue: 0,0:20:56.35,0:21:00.29,Main Dialogue,M,0000,0000,0000,,In addition to their signature mapo tofu,
+Dialogue: 0,0:21:00.29,0:21:02.32,Main Dialogue,M,0000,0000,0000,,Chinese Cuisine RS has a \Npretty intimidating line-up.
+Dialogue: 0,0:21:02.32,0:21:04.30,Main Dialogue,S,0000,0000,0000,,Mapo tofu, huh.
+Dialogue: 0,0:21:05.21,0:21:06.45,Main Dialogue,S,0000,0000,0000,,Hey, Tadokoro.
+Dialogue: 0,0:21:06.45,0:21:08.70,Main Dialogue,S,0000,0000,0000,,What'd you think of Yukihira's mapo tofu?
+Dialogue: 0,0:21:08.70,0:21:09.43,Main Dialogue,M,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:09.43,0:21:11.99,Main Dialogue,M,0000,0000,0000,,I thought it was delicious.
+Dialogue: 0,0:21:11.99,0:21:13.66,Main Dialogue,M,0000,0000,0000,,But if memory serves, Nakiri-san thought...
+Dialogue: 0,0:21:14.15,0:21:16.87,Flashback Dialogue,E,0000,0000,0000,,Your dish lacks both ma and \Nla by a significant margin.
+Dialogue: 0,0:21:16.87,0:21:20.05,Main Dialogue,S,0000,0000,0000,,Yeah, she said I could never win.
+Dialogue: 0,0:21:20.65,0:21:24.87,Main Dialogue,S,0000,0000,0000,,But the reason why Yukihira's\N mapo tofu isn't that spicy
+Dialogue: 0,0:21:24.87,0:21:30.51,Main Dialogue,S,0000,0000,0000,,is because Dad wanted flavors that all the \Ndiner's regulars would enjoy.
+Dialogue: 0,0:21:30.51,0:21:35.52,Main Dialogue,S,0000,0000,0000,,Kuga-senpai may go above and beyond \Nin terms of strong flavors, but...
+Dialogue: 0,0:21:36.02,0:21:38.53,Main Dialogue,S,0000,0000,0000,,That's not to say Dad's cooking is inferior.
+Dialogue: 0,0:21:38.53,0:21:39.48,Main Dialogue,M,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:21:40.25,0:21:44.86,Main Dialogue,S,0000,0000,0000,,If I can build on that mapo tofu \Nand add some ideas of my own,
+Dialogue: 0,0:21:45.31,0:21:48.24,Main Dialogue,S,0000,0000,0000,,I think we'll find a way to break \Nthrough our current stalemate.
+Dialogue: 0,0:21:48.24,0:21:50.83,Main Dialogue,M,0000,0000,0000,,Like what, though?
+Dialogue: 0,0:21:52.07,0:21:54.44,Main Dialogue,S,0000,0000,0000,,Sorry, Tadokoro.
+Dialogue: 0,0:21:54.44,0:21:57.54,Main Dialogue,S,0000,0000,0000,,You might end up losing\N sleep from here on out.
+Dialogue: 0,0:21:57.54,0:21:58.36,Main Dialogue,M,0000,0000,0000,,What?
+Dialogue: 0,0:21:58.36,0:22:00.01,Main Dialogue,S,0000,0000,0000,,There's something I want to try.
+Dialogue: 0,0:22:00.46,0:22:02.88,Main Dialogue,S,0000,0000,0000,,Yukihira's new mapo tofu
+Dialogue: 0,0:22:03.25,0:22:05.84,Main Dialogue,S,0000,0000,0000,,will strike at the heart \Nof Kuga-senpai's operation!
+Dialogue: 0,0:23:35.85,0:23:38.05,Main Dialogue,Aki,0000,0000,0000,,Man, I'm hungry.
+Dialogue: 0,0:23:35.85,0:23:40.06,sign_33947_524_Missing,,0000,0000,0000,,Sumire Avenue
+Dialogue: 0,0:23:38.05,0:23:38.99,Main Dialogue,Mayumi,0000,0000,0000,,Me, too.
+Dialogue: 0,0:23:38.99,0:23:42.31,Main Dialogue,Mayumi,0000,0000,0000,,Hey, want to get a Sumire Mark Karaage Roll?
+Dialogue: 0,0:23:42.31,0:23:43.82,Main Dialogue,Aki,0000,0000,0000,,Oh, good idea!
+Dialogue: 0,0:23:43.82,0:23:44.87,Main Dialogue,Aki,0000,0000,0000,,Let's go!
+Dialogue: 0,0:23:44.87,0:23:45.86,Main Dialogue,Mayumi,0000,0000,0000,,Yeah!
+Dialogue: 0,0:23:45.86,0:23:46.52,Main Dialogue,Mayumi,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:46.52,0:23:49.17,Main Dialogue,Mayumi,0000,0000,0000,,The lights are on at Yukihira Diner.
+Dialogue: 0,0:23:49.17,0:23:50.33,Main Dialogue,Aki,0000,0000,0000,,You're right!
+Dialogue: 0,0:23:50.33,0:23:51.99,Main Dialogue,Aki,0000,0000,0000,,Is Yukihira back?
+Dialogue: 0,0:23:51.99,0:23:53.95,Main Dialogue,Mayumi,0000,0000,0000,,Yukihira-kun's back?
+Dialogue: 0,0:23:53.95,0:23:57.24,sign_34381_534_Diner_Yukihira,Sign 2356,0000,0000,0000,,Diner\N{\fs30} Yukihira
+Dialogue: 0,0:23:57.97,0:23:59.66,Main Dialogue,Sign 2356,0000,0000,0000,,Y-Yukihira-kun?
+Dialogue: 0,0:24:03.92,0:24:05.92,sign_34621_499_Totsuki,,0000,0000,0000,,Totsuki
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_536_Food_Wars,Sign2407,0000,0000,0000,,Food Wars
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_537_The_Third_Plate,Sign2407,0000,0000,0000,,The Third Plate
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_538_Next_Episode__Th,Sign2407,0000,0000,0000,,Next Episode: {\fs20}A Pride of Young Lions
+Dialogue: 0,0:24:07.10,0:24:10.92,Main Dialogue Top,M,0000,0000,0000,,I hope you savor the next episode!

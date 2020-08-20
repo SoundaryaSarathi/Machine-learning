@@ -1,0 +1,543 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00CDAC98,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00D8CFCD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,53,133,113,0
+Style: EyecatchA,Open Sans Semibold,36,&H005C8194,&H000000FF,&H00E1F6F8,&H0079671A,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H002072D7,&H000000FF,&H00102967,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00F6FFEA,&H000000FF,&H00759846,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Sunakawa,Open Sans Semibold,30,&H0036281C,&H000000FF,&H00F4F9F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Kurihara,Open Sans Semibold,30,&H0020405E,&H000000FF,&H005BC0C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-GrayWhite,Open Sans Semibold,27,&H0071706B,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,30,&H00E2ECC4,&H000000FF,&H00759B73,&H00F7F2E1,1,0,0,0,100,100,0,0,1,2,0,9,53,107,24,0
+Style: SFX-Red,Open Sans Semibold,27,&H00C9ACEA,&H000000FF,&H0062458B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,200,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,80,33,0
+Style: SFX-BlackRed,Open Sans Semibold,24,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,24,0
+Style: SFX-BrownWhite,Open Sans Semibold,27,&H00262C4A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,80,24,0
+Style: SFX - WhiteBlack,Open Sans Semibold,27,&H00E3F0F4,&H000000FF,&H00193443,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignA,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,53,53,24,0
+Style: SignB,Open Sans Semibold,27,&H007E7C8B,&H000000FF,&H00E9E8F0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignC,Open Sans Semibold,27,&H00E3F0F4,&H000000FF,&H00193443,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,53,53,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.98,0:00:05.23,Phone,Sign 0004,0000,0000,0000,,{\fad(772,643)}Are you free on 3/14? \NLet's meet up if you aren't busy.
+Dialogue: 0,0:00:05.23,0:00:09.02,Phone,Sign 0006,0000,0000,0000,,{\fad(275,1)}White Day?? \N\NI said it! \NI was trying to pretend I didn't know. \NBut I did notice—so much for that.
+Dialogue: 0,0:00:09.02,0:00:10.53,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:00:12.92,0:00:14.67,Default,Y,0000,0000,0000,,Oh, I'm so happy!
+Dialogue: 0,0:00:14.67,0:00:15.91,Default,Y,0000,0000,0000,,Thanks!
+Dialogue: 0,0:00:16.43,0:00:18.41,SFX-BlackWhite,Sign 0017,0000,0000,0000,,{\fad(161,101)\an7}This box...
+Dialogue: 0,0:00:16.61,0:00:18.58,Default,Y,0000,0000,0000,,Oh, wait...
+Dialogue: 0,0:00:18.58,0:00:19.91,Default,Y,0000,0000,0000,,Did you make this?
+Dialogue: 0,0:00:19.91,0:00:23.43,Default - italics,T,0000,0000,0000,,Wow, she can tell just from looking at the box?
+Dialogue: 0,0:00:21.04,0:00:22.15,Default,Y,0000,0000,0000,,I want to see!
+Dialogue: 0,0:00:22.15,0:00:23.43,Default,Y,0000,0000,0000,,Can I open it?
+Dialogue: 0,0:00:23.43,0:00:24.16,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:00:26.57,0:00:27.40,Default,T,0000,0000,0000,,Sorry...
+Dialogue: 0,0:00:27.40,0:00:30.65,Default,T,0000,0000,0000,,When I baked them for the specified \Ntime, they looked a little pale.
+Dialogue: 0,0:00:30.65,0:00:33.63,Default,T,0000,0000,0000,,But when I baked them a little longer,
+Dialogue: 0,0:00:33.63,0:00:37.51,Default,T,0000,0000,0000,,they looked okay at first, but then they \Ngot scorched and hard-looking.
+Dialogue: 0,0:00:37.51,0:00:39.32,Default,Y,0000,0000,0000,,I can't eat these!
+Dialogue: 0,0:00:39.32,0:00:40.85,Default,Y,0000,0000,0000,,They're too precious!
+Dialogue: 0,0:00:42.85,0:00:44.19,Default,Y,0000,0000,0000,,But I want to try one!
+Dialogue: 0,0:00:44.19,0:00:45.43,Default,Y,0000,0000,0000,,Can I?
+Dialogue: 0,0:00:45.43,0:00:46.31,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:00:49.24,0:00:50.82,Default,T,0000,0000,0000,,Isn't it rock-solid?
+Dialogue: 0,0:00:51.62,0:00:53.32,Default,Y,0000,0000,0000,,It's super good!
+Dialogue: 0,0:00:54.41,0:00:55.50,Default,Y,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:00:55.50,0:00:58.31,Default,T,0000,0000,0000,,Oh, I was just thinking it's nice to have
+Dialogue: 0,0:00:58.31,0:01:00.08,Default,T,0000,0000,0000,,someone eat something you made.
+Dialogue: 0,0:01:00.47,0:01:03.82,Default - italics,T,0000,0000,0000,,To have the girl you like happily \Neat what you made...
+Dialogue: 0,0:01:04.27,0:01:06.71,Default,Y,0000,0000,0000,,That's what it's always like for me!
+Dialogue: 0,0:01:08.06,0:01:09.28,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:02:40.09,0:02:44.56,Title1,Sign 0242,0000,0000,0000,,{\fad(487,563)}The Letter and Me
+Dialogue: 0,0:02:41.42,0:02:43.16,Default,S,0000,0000,0000,,Did she like the cookies?
+Dialogue: 0,0:02:42.80,0:02:45.26,SignA,Sign 0244,0000,0000,0000,,{\fad(1,512)}Thanks for helping me
+Dialogue: 0,0:02:43.16,0:02:44.27,Default,T,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:44.27,0:02:47.27,Default,T,0000,0000,0000,,I hope you'll find a girl you like soon!
+Dialogue: 0,0:02:47.27,0:02:49.56,Default,T,0000,0000,0000,,And I hope that girl will like
+Dialogue: 0,0:02:49.56,0:02:51.64,Default,T,0000,0000,0000,,home-made rice crackers.
+Dialogue: 0,0:02:52.26,0:02:53.26,Default,S,0000,0000,0000,,Rice crackers?
+Dialogue: 0,0:02:53.26,0:02:54.65,Default,T,0000,0000,0000,,My bad.
+Dialogue: 0,0:02:54.65,0:02:57.90,Default - italics,T,0000,0000,0000,,If it's a girl who'd smile and eat cookies,
+Dialogue: 0,0:02:55.44,0:02:57.90,SFX-BlackWhite,Sign 0256,0000,0000,0000,,{\fad(235,1)\an9}That was way off
+Dialogue: 0,0:02:57.90,0:03:01.20,Default - italics,T,0000,0000,0000,,which are as hard as rice crackers, with you...
+Dialogue: 0,0:03:03.09,0:03:05.94,Default,T,0000,0000,0000,,Suna, you go on ahead.
+Dialogue: 0,0:03:05.94,0:03:07.23,Default,S,0000,0000,0000,,Okay, later.
+Dialogue: 0,0:03:10.79,0:03:12.42,Default,T,0000,0000,0000,,You need something?
+Dialogue: 0,0:03:12.42,0:03:14.92,Default,T,0000,0000,0000,,Hey, do you need something?
+Dialogue: 0,0:03:18.76,0:03:20.31,SFX-GrayWhite,Sign 0320,0000,0000,0000,,To Sunakawa Makoto-sama
+Dialogue: 0,0:03:20.02,0:03:21.13,Default - italics,T,0000,0000,0000,,A letter?
+Dialogue: 0,0:03:21.49,0:03:24.64,Default,Yu,0000,0000,0000,,I wanted to give it to Sunakawa-kun...
+Dialogue: 0,0:03:24.52,0:03:25.14,SFX-BlackWhite,Sign 0325,0000,0000,0000,,{\an7}Suna?!
+Dialogue: 0,0:03:25.14,0:03:26.56,Default,T,0000,0000,0000,,Sorry!
+Dialogue: 0,0:03:25.81,0:03:26.56,Default,Yu,0000,0000,0000,,What?
+Dialogue: 0,0:03:29.64,0:03:31.14,SFX-GrayWhite,Sign 0331,0000,0000,0000,,To Sunakawa Makoto-sama
+Dialogue: 0,0:03:32.10,0:03:34.10,SignB,Sign 0333,0000,0000,0000,,I don't need anything in return, \Nso please like me.
+Dialogue: 0,0:03:34.65,0:03:36.57,SFX-GrayWhite,Sign 0336,0000,0000,0000,,{\fad(356,354)}To Sunakawa-kun \N\NI don't need chocolates in return, \Nso please like me.
+Dialogue: 0,0:03:43.36,0:03:45.49,Default,T,0000,0000,0000,,Sorry that I misread you.
+Dialogue: 0,0:03:45.84,0:03:47.49,Default,T,0000,0000,0000,,And I saw this.
+Dialogue: 0,0:03:48.97,0:03:53.85,Default - italics,T,0000,0000,0000,,So this is the girl who's been sending Suna \Nanonymous letters all this time.
+Dialogue: 0,0:03:54.57,0:03:57.38,Default,T,0000,0000,0000,,I'm sorry for what happened to your letter.
+Dialogue: 0,0:03:58.75,0:04:00.85,Default,Yu,0000,0000,0000,,I can just write one again—
+Dialogue: 0,0:04:00.85,0:04:01.55,Default,T,0000,0000,0000,,No!
+Dialogue: 0,0:04:01.55,0:04:03.10,Default,T,0000,0000,0000,,Let me make it up to you somehow!
+Dialogue: 0,0:04:03.10,0:04:04.17,Default,T,0000,0000,0000,,Tell me how.
+Dialogue: 0,0:04:05.01,0:04:09.73,Default,T,0000,0000,0000,,Okay, just let me know if \Nthere's anything I can do.
+Dialogue: 0,0:04:09.73,0:04:10.54,Default,T,0000,0000,0000,,Later!
+Dialogue: 0,0:04:10.54,0:04:11.36,Default,Yu,0000,0000,0000,,Oh...
+Dialogue: 0,0:04:12.91,0:04:14.35,Default,Yu,0000,0000,0000,,T-Takeo-kun!
+Dialogue: 0,0:04:14.35,0:04:15.98,Default - italics,T,0000,0000,0000,,"Takeo-kun"?
+Dialogue: 0,0:04:15.98,0:04:20.03,Default,Yu,0000,0000,0000,,Th-Then, can you please hear me out?
+Dialogue: 0,0:04:20.62,0:04:23.90,Default,Yu,0000,0000,0000,,Let me tell you about Sunakawa-kun!
+Dialogue: 0,0:04:23.90,0:04:25.47,Default,T,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:04:25.47,0:04:28.49,Default,Yuki,0000,0000,0000,,Oh, of course you don't recognize me.
+Dialogue: 0,0:04:28.90,0:04:32.81,Default,Yuki,0000,0000,0000,,We were in the same cherry class, in kindergarten.
+Dialogue: 0,0:04:33.34,0:04:34.96,Default,Yuki,0000,0000,0000,,I'm Amami Yukika.
+Dialogue: 0,0:04:34.96,0:04:37.46,Default - italics,T,0000,0000,0000,,Amami Yukika...
+Dialogue: 0,0:04:37.46,0:04:41.71,SFX-BlueBlue,Sign 0440,0000,0000,0000,,{\an7}Argh...
+Dialogue: 0,0:04:38.44,0:04:41.71,Default,Yuki,0000,0000,0000,,Y-You don't have to try so hard to remember.
+Dialogue: 0,0:04:42.42,0:04:44.34,Default,T,0000,0000,0000,,I think I remember!
+Dialogue: 0,0:04:44.04,0:04:45.97,SFX-RedBlack,Sign 0445,0000,0000,0000,,{\fad(661,1)\fs26\an8\c&HFFFFFF&}Haze
+Dialogue: 0,0:04:46.01,0:04:48.23,Default,T,0000,0000,0000,,Amami Yukika-chan!
+Dialogue: 0,0:04:48.69,0:04:49.39,Default,Yu,0000,0000,0000,,Right.
+Dialogue: 0,0:04:54.23,0:04:56.82,Default - italics,T,0000,0000,0000,,Why isn't she saying anything?
+Dialogue: 0,0:04:56.82,0:04:58.35,Default - italics,T,0000,0000,0000,,Does she need some opportunity?
+Dialogue: 0,0:04:58.35,0:05:00.08,Default - italics,T,0000,0000,0000,,Should I just say something?
+Dialogue: 0,0:05:02.17,0:05:04.07,Default - italics,T,0000,0000,0000,,I'm not good at this sort of thing, either...
+Dialogue: 0,0:05:04.71,0:05:06.70,Default - italics,T,0000,0000,0000,,But no, I should try...
+Dialogue: 0,0:05:07.14,0:05:08.32,Default,T,0000,0000,0000,,Give me all you've got!
+Dialogue: 0,0:05:10.12,0:05:11.00,Default,T,0000,0000,0000,,Sorry.
+Dialogue: 0,0:05:11.00,0:05:14.21,Default,Yu,0000,0000,0000,,No, I'm sorry for making you worry.
+Dialogue: 0,0:05:14.21,0:05:16.46,Default,Yu,0000,0000,0000,,I'm just not very good at talking with boys.
+Dialogue: 0,0:05:16.46,0:05:18.08,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:05:18.08,0:05:20.52,Default,Yu,0000,0000,0000,,Even all the way back in kindergarten,
+Dialogue: 0,0:05:20.52,0:05:23.39,Default,Yu,0000,0000,0000,,boys would tear up the sandbox, even if \Ngirls were playing house there.
+Dialogue: 0,0:05:23.39,0:05:24.41,Default - italics,T,0000,0000,0000,,I might have done that.
+Dialogue: 0,0:05:24.41,0:05:26.02,Default,Yu,0000,0000,0000,,Boys would bring bugs and stuff to class.
+Dialogue: 0,0:05:26.02,0:05:26.77,Default - italics,T,0000,0000,0000,,I've done that.
+Dialogue: 0,0:05:26.77,0:05:28.09,Default,Yu,0000,0000,0000,,They'd be muddy, even in the morning.
+Dialogue: 0,0:05:28.09,0:05:28.73,Default - italics,T,0000,0000,0000,,That'd be me.
+Dialogue: 0,0:05:28.73,0:05:29.91,Default,Yu,0000,0000,0000,,Their socks were all dirty.
+Dialogue: 0,0:05:29.91,0:05:31.40,Default - italics,T,0000,0000,0000,,That was also me.
+Dialogue: 0,0:05:31.40,0:05:34.91,Default,Yu,0000,0000,0000,,But Sunakawa-kun was different.
+Dialogue: 0,0:05:34.91,0:05:36.73,Default,Yu,0000,0000,0000,,He had this presence.
+Dialogue: 0,0:05:37.14,0:05:40.90,SFX-GrayWhite,Sign 0539,0000,0000,0000,,{\fad(1,602)}Presence... Presence?
+Dialogue: 0,0:05:37.27,0:05:39.14,Default,Yu,0000,0000,0000,,He was often reading picture books.
+Dialogue: 0,0:05:39.14,0:05:42.72,Default,Yu,0000,0000,0000,,I'd read the same books,
+Dialogue: 0,0:05:42.72,0:05:45.76,Default,Yu,0000,0000,0000,,just to learn what kind of books he liked.
+Dialogue: 0,0:05:47.24,0:05:50.90,Default,Yu,0000,0000,0000,,He was always so tidy when \Nhe ate school lunches, too.
+Dialogue: 0,0:05:50.90,0:05:53.62,Default,Yu,0000,0000,0000,,And he was good at dodgeball!
+Dialogue: 0,0:05:53.98,0:05:55.99,Default,Yu,0000,0000,0000,,He was really nimble on his feet.
+Dialogue: 0,0:05:55.99,0:05:57.58,Default,Yu,0000,0000,0000,,He'd always be the last one standing.
+Dialogue: 0,0:05:57.58,0:06:00.25,Default,Yu,0000,0000,0000,,I was so amazed by him.
+Dialogue: 0,0:06:01.09,0:06:02.75,Default,Yu,0000,0000,0000,,But just once...
+Dialogue: 0,0:06:05.11,0:06:07.05,Default - flashback,Boy,0000,0000,0000,,Sunakawa, you're out!
+Dialogue: 0,0:06:07.05,0:06:12.97,Default,Yu,0000,0000,0000,,I was behind Sunakawa-kun, so I didn't \Nsee the ball being thrown at all.
+Dialogue: 0,0:06:12.97,0:06:14.84,Default,Yu,0000,0000,0000,,If Sunakawa-kun had dodged the ball,
+Dialogue: 0,0:06:14.84,0:06:17.21,Default,Yu,0000,0000,0000,,I think it would've hit me.
+Dialogue: 0,0:06:17.21,0:06:18.64,Default - italics,T,0000,0000,0000,,That sounds like him.
+Dialogue: 0,0:06:18.64,0:06:20.48,Default,Yu,0000,0000,0000,,Afterward...
+Dialogue: 0,0:06:20.95,0:06:22.57,Default - flashback,Yu,0000,0000,0000,,Um, I'm so sorry.
+Dialogue: 0,0:06:22.57,0:06:24.61,Default - flashback,Yu,0000,0000,0000,,You got hit because of me.
+Dialogue: 0,0:06:24.87,0:06:27.78,Default - flashback,S,0000,0000,0000,,I just thought you might get \Nhurt if it hit your glasses.
+Dialogue: 0,0:06:29.74,0:06:32.74,Default,Yu,0000,0000,0000,,I really fell for him! Hard!
+Dialogue: 0,0:06:33.11,0:06:34.87,Default - italics,T,0000,0000,0000,,I can see why.
+Dialogue: 0,0:06:34.87,0:06:38.82,Default,Yu,0000,0000,0000,,That's the last time I ever \Ntalked to Sunakawa-kun.
+Dialogue: 0,0:06:38.82,0:06:40.92,Default,T,0000,0000,0000,,You haven't spoken to him since?
+Dialogue: 0,0:06:41.50,0:06:43.47,Default,T,0000,0000,0000,,That was back in elementary school, right?
+Dialogue: 0,0:06:43.47,0:06:44.57,Default,Yu,0000,0000,0000,,No, kindergarten.
+Dialogue: 0,0:06:44.57,0:06:45.44,Default,T,0000,0000,0000,,Kindergarten?!
+Dialogue: 0,0:06:45.44,0:06:48.01,Default,Yu,0000,0000,0000,,Since I'm in high school now, \Nthat makes it ten years ago.
+Dialogue: 0,0:06:48.01,0:06:49.23,Default,T,0000,0000,0000,,Ten years?!
+Dialogue: 0,0:06:49.23,0:06:50.63,Default,T,0000,0000,0000,,What have you been doing all these years?
+Dialogue: 0,0:06:50.63,0:06:52.14,Default,Yu,0000,0000,0000,,Watching.
+Dialogue: 0,0:06:53.21,0:06:55.37,Default,Yu,0000,0000,0000,,During sports festivals...
+Dialogue: 0,0:06:55.37,0:06:56.89,Default,Yu,0000,0000,0000,,Or even when nothing is happening.
+Dialogue: 0,0:06:57.30,0:07:00.23,Default,Yu,0000,0000,0000,,I've been watching Sunakawa-kun live his life.
+Dialogue: 0,0:07:01.44,0:07:05.69,Default,Yu,0000,0000,0000,,I also gathered all the information I could, \Nand tried to read his fortune.
+Dialogue: 0,0:07:05.69,0:07:07.01,Default - italics,T,0000,0000,0000,,She's a fortuneteller?
+Dialogue: 0,0:07:07.01,0:07:09.49,Default,T,0000,0000,0000,,But you could've at least tried to talk to him.
+Dialogue: 0,0:07:09.83,0:07:12.44,Default,Yu,0000,0000,0000,,I can't even talk to a normal guy!
+Dialogue: 0,0:07:12.44,0:07:15.24,Default,Yu,0000,0000,0000,,How can I talk to a guy I like?
+Dialogue: 0,0:07:16.20,0:07:18.65,Default,T,0000,0000,0000,,Then what are you going to do?
+Dialogue: 0,0:07:18.65,0:07:20.51,Default,Yu,0000,0000,0000,,There's nothing I can do.
+Dialogue: 0,0:07:20.51,0:07:22.05,Default,Yu,0000,0000,0000,,I don't have the courage to talk to him
+Dialogue: 0,0:07:22.05,0:07:24.06,Default,Yu,0000,0000,0000,,or tell him how I feel.
+Dialogue: 0,0:07:24.06,0:07:27.65,Default,Yu,0000,0000,0000,,All the way through kindergarten, elementary \Nschool, junior high, and high school,
+Dialogue: 0,0:07:27.65,0:07:30.88,Default,Yu,0000,0000,0000,,every time Sunakawa-kun turned \Ndown a girl, I'd feel relieved.
+Dialogue: 0,0:07:31.25,0:07:32.90,Default,Yu,0000,0000,0000,,If he can't be mine,
+Dialogue: 0,0:07:32.90,0:07:36.44,Default,Yu,0000,0000,0000,,sometimes, I don't want him to date \Nanyone for the rest of his life.
+Dialogue: 0,0:07:36.44,0:07:37.35,Default - italics,T,0000,0000,0000,,Is that a curse?
+Dialogue: 0,0:07:38.16,0:07:40.70,Default,Yu,0000,0000,0000,,Still, every time Valentine's Day comes around,
+Dialogue: 0,0:07:40.70,0:07:43.31,Default,Yu,0000,0000,0000,,I consider telling him how I feel.
+Dialogue: 0,0:07:43.31,0:07:46.73,Default,Yu,0000,0000,0000,,But I can never find the courage \Nto write my name.
+Dialogue: 0,0:07:47.59,0:07:50.33,Default,Yu,0000,0000,0000,,Since I'm not brave enough to talk to him,
+Dialogue: 0,0:07:50.33,0:07:53.61,Default,Yu,0000,0000,0000,,I'm always just circling him.
+Dialogue: 0,0:07:54.06,0:07:55.61,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:07:55.61,0:07:57.43,Default - italics,T,0000,0000,0000,,Ten years... That's amazing.
+Dialogue: 0,0:07:57.43,0:07:59.43,Default,Yu,0000,0000,0000,,Your girlfriend, Yamato-san.
+Dialogue: 0,0:07:59.43,0:08:01.05,Default,Yu,0000,0000,0000,,She seems like a nice person.
+Dialogue: 0,0:08:01.05,0:08:02.25,Default,T,0000,0000,0000,,Y-Yeah!
+Dialogue: 0,0:08:01.33,0:08:02.25,SFX - WhiteBlack,Sign,0000,0000,0000,,{\an7}Why did Yamato come up suddenly?
+Dialogue: 0,0:08:02.83,0:08:06.00,Default,Yu,0000,0000,0000,,Seeing you two so happy together,
+Dialogue: 0,0:08:06.00,0:08:07.88,Default,Yu,0000,0000,0000,,it makes me envious.
+Dialogue: 0,0:08:08.42,0:08:11.01,Default,Yu,0000,0000,0000,,It's nice when two people feel the \Nsame way about each other.
+Dialogue: 0,0:08:11.55,0:08:15.57,Default,Yu,0000,0000,0000,,I couldn't write my name this year, either.
+Dialogue: 0,0:08:15.57,0:08:19.72,Default,Yu,0000,0000,0000,,so I was hoping to give him the letter in person.
+Dialogue: 0,0:08:20.20,0:08:23.44,Default,Yu,0000,0000,0000,,But I just ended up carrying \Nit around for a month.
+Dialogue: 0,0:08:23.35,0:08:25.98,SFX-GrayWhite,Sign,0000,0000,0000,,{\fad(695,1)}To Sunakawa Makoto-sama
+Dialogue: 0,0:08:23.44,0:08:25.47,Default,Yu,0000,0000,0000,,I don't have the courage to hand it to him.
+Dialogue: 0,0:08:26.39,0:08:31.02,Default,Sign,0000,0000,0000,,Sunakawa-kun is always so calm and cool.
+Dialogue: 0,0:08:31.02,0:08:33.94,Default,Sign,0000,0000,0000,,He never does anything strange.
+Dialogue: 0,0:08:33.97,0:08:35.60,Default,T,0000,0000,0000,,That isn't true.
+Dialogue: 0,0:08:35.60,0:08:38.33,Default,T,0000,0000,0000,,He does some pretty random things.
+Dialogue: 0,0:08:40.66,0:08:42.14,Default - flashback,T,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:08:42.14,0:08:45.96,Default - flashback,S,0000,0000,0000,,I just thought it'd be fun if she started calling \Nyou "brother" in English out of the blue.
+Dialogue: 0,0:08:46.34,0:08:47.79,Default,Yu,0000,0000,0000,,You're right.
+Dialogue: 0,0:08:47.79,0:08:50.88,Default,Yu,0000,0000,0000,,When he's with you, he often laughs.
+Dialogue: 0,0:08:51.21,0:08:52.63,Default,Yu,0000,0000,0000,,I'm jealous...
+Dialogue: 0,0:08:52.63,0:08:55.89,Default,Yu,0000,0000,0000,,I wish I lived next to him.
+Dialogue: 0,0:08:55.89,0:08:58.22,Default,Yu,0000,0000,0000,,Then we would have ridden \Nthe same kindergarten bus,
+Dialogue: 0,0:08:58.22,0:09:01.16,Default,Yu,0000,0000,0000,,and we could've taken baths together.
+Dialogue: 0,0:09:01.16,0:09:02.89,Default,T,0000,0000,0000,,Not that we do that anymore.
+Dialogue: 0,0:09:02.89,0:09:04.91,Default,Yu,0000,0000,0000,,You could take each other's photos in the bathtub...
+Dialogue: 0,0:09:04.91,0:09:06.56,Default,T,0000,0000,0000,,We never did that!
+Dialogue: 0,0:09:07.50,0:09:10.06,Default,Yu,0000,0000,0000,,I've been envious of you for a very long time.
+Dialogue: 0,0:09:10.65,0:09:12.44,Default,T,0000,0000,0000,,I see, sorry.
+Dialogue: 0,0:09:12.89,0:09:15.57,Default,T,0000,0000,0000,,But I need Suna, too.
+Dialogue: 0,0:09:17.08,0:09:19.06,Default,T,0000,0000,0000,,It's true that Suna's cool.
+Dialogue: 0,0:09:19.06,0:09:20.08,Default,Yu,0000,0000,0000,,Oh, yes.
+Dialogue: 0,0:09:20.08,0:09:21.14,Default,Yu,0000,0000,0000,,He is.
+Dialogue: 0,0:09:21.14,0:09:23.97,Default,Yu,0000,0000,0000,,He really is a perfect ideal.
+Dialogue: 0,0:09:23.97,0:09:25.17,Default - italics,T,0000,0000,0000,,Ideal...
+Dialogue: 0,0:09:25.62,0:09:28.42,Default,T,0000,0000,0000,,Sure, he's cool, but he's a normal human being.
+Dialogue: 0,0:09:28.42,0:09:29.59,Default,T,0000,0000,0000,,He trips sometimes.
+Dialogue: 0,0:09:30.00,0:09:32.39,Default,T,0000,0000,0000,,Are you sure you haven't idealized him?
+Dialogue: 0,0:09:32.39,0:09:33.96,Default,Yu,0000,0000,0000,,I haven't.
+Dialogue: 0,0:09:34.65,0:09:37.81,Default,Yu,0000,0000,0000,,It isn't that my ideal is Sunakawa-kun.
+Dialogue: 0,0:09:38.35,0:09:42.10,Default,Yu,0000,0000,0000,,Sunakawa-kun became my ideal.
+Dialogue: 0,0:09:43.71,0:09:44.43,Default,S,0000,0000,0000,,Takeo?
+Dialogue: 0,0:09:44.43,0:09:45.50,Default,S,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:09:45.50,0:09:46.73,Default,T,0000,0000,0000,,Oh, well...
+Dialogue: 0,0:09:46.73,0:09:47.52,Default - italics,T,0000,0000,0000,,She vanished!
+Dialogue: 0,0:09:47.87,0:09:49.61,Default - italics,T,0000,0000,0000,,No, I can still sense her presence.
+Dialogue: 0,0:09:47.94,0:09:49.61,SFX - WhiteBlack,Sign 0949,0000,0000,0000,,{\fad(314,1)\an9}What's with your wet pants?
+Dialogue: 0,0:09:48.73,0:09:49.61,SignC,Sign 0949,0000,0000,0000,,{\fad(233,1)}Well...
+Dialogue: 0,0:09:50.77,0:09:51.84,Default,S,0000,0000,0000,,You aren't going home?
+Dialogue: 0,0:09:51.84,0:09:53.03,Default,T,0000,0000,0000,,Yeah, I am.
+Dialogue: 0,0:09:53.03,0:09:54.19,Default,T,0000,0000,0000,,Let's go home.
+Dialogue: 0,0:09:54.63,0:09:56.20,Default,S,0000,0000,0000,,Your feet are really big.
+Dialogue: 0,0:09:57.87,0:09:58.57,Default,Yuriko,0000,0000,0000,,Take!
+Dialogue: 0,0:09:58.92,0:10:01.83,Default,Yuriko,0000,0000,0000,,When are you going to stop \Ngetting your clothes all dirty?
+Dialogue: 0,0:10:03.91,0:10:06.78,Default - flashback,Yu,0000,0000,0000,,It isn't that my ideal is Sunakawa-kun.
+Dialogue: 0,0:10:06.78,0:10:10.38,Default - flashback,Yu,0000,0000,0000,,Sunakawa-kun became my ideal.
+Dialogue: 0,0:10:11.55,0:10:12.48,Default,S,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:10:12.48,0:10:14.13,Default,T,0000,0000,0000,,Nothing.
+Dialogue: 0,0:10:15.26,0:10:16.55,SFX - WhiteBlack,Sign 1016,0000,0000,0000,,{\c&HF4F9C1&}Memories
+Dialogue: 0,0:10:16.41,0:10:19.51,Default - italics,T,0000,0000,0000,,She's in photos with him a lot \Nmore than I expected.
+Dialogue: 0,0:10:16.55,0:10:18.09,SFX-BlackWhite,Sign 1018,0000,0000,0000,,Field Trip
+Dialogue: 0,0:10:21.05,0:10:23.39,Default,T,0000,0000,0000,,Suna, maybe people
+Dialogue: 0,0:10:23.75,0:10:28.45,Default,T,0000,0000,0000,,all have a hot, molten core inside their hearts,
+Dialogue: 0,0:10:28.45,0:10:31.91,Default,T,0000,0000,0000,,and they just live their lives, \Nnever showing it to the world,
+Dialogue: 0,0:10:31.91,0:10:34.90,Default,T,0000,0000,0000,,as if nothing is really going on.
+Dialogue: 0,0:10:35.53,0:10:36.30,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:36.96,0:10:39.15,Default,S,0000,0000,0000,,Though maybe not everyone's like that.
+Dialogue: 0,0:10:45.36,0:10:46.58,Default,Yu,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:10:47.16,0:10:49.19,Default - italics,T,0000,0000,0000,,You aren't hiding?
+Dialogue: 0,0:10:47.16,0:10:50.54,SFX-BlackWhite,Sign 1049,0000,0000,0000,,We're in the same high school...
+Dialogue: 0,0:10:49.53,0:10:55.76,Default,Yu,0000,0000,0000,,Um, I think I'll talk to Sunakawa-kun, after all...
+Dialogue: 0,0:10:55.76,0:10:56.47,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:10:56.47,0:10:59.58,Default,Yu,0000,0000,0000,,And I want your help.
+Dialogue: 0,0:10:59.58,0:11:00.33,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:00.33,0:11:04.40,Default,Yu,0000,0000,0000,,I thought of a way to start a conversation \Nwith him as naturally as possible.
+Dialogue: 0,0:11:04.40,0:11:06.07,Default,Yu,0000,0000,0000,,Will you hear me out?
+Dialogue: 0,0:11:06.07,0:11:07.02,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:11:07.02,0:11:08.72,Default,Yu,0000,0000,0000,,Can we make it
+Dialogue: 0,0:11:08.72,0:11:12.36,Default,Yu,0000,0000,0000,,so that you got lost, and I helped you out?
+Dialogue: 0,0:11:12.36,0:11:13.41,Default,T,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:11:13.41,0:11:14.61,Default - italics,T,0000,0000,0000,,That's really roundabout.
+Dialogue: 0,0:11:15.13,0:11:17.61,Default,Yu,0000,0000,0000,,I don't have the courage to tell him how I feel,
+Dialogue: 0,0:11:18.08,0:11:22.21,Default,Yu,0000,0000,0000,,but I want him to acknowledge me, just once.
+Dialogue: 0,0:11:23.49,0:11:28.99,Default,Yu,0000,0000,0000,,My world and his have never crossed, so...
+Dialogue: 0,0:11:30.46,0:11:31.64,Default,T,0000,0000,0000,,All right.
+Dialogue: 0,0:11:31.64,0:11:33.34,Default,T,0000,0000,0000,,Would tonight, early evening, work?
+Dialogue: 0,0:11:35.36,0:11:38.59,Default,T,0000,0000,0000,,Around once every three days, Suna goes \Nto the convenience store.
+Dialogue: 0,0:11:38.59,0:11:39.97,Default,Yu,0000,0000,0000,,Right, I know.
+Dialogue: 0,0:11:40.94,0:11:42.47,Default,T,0000,0000,0000,,Suna!
+Dialogue: 0,0:11:42.47,0:11:45.13,Default,T,0000,0000,0000,,I got lost at the train station!
+Dialogue: 0,0:11:45.13,0:11:48.11,Default,T,0000,0000,0000,,This nice girl helped me back here.
+Dialogue: 0,0:11:48.11,0:11:50.31,Default,T,0000,0000,0000,,She's a very kind girl.
+Dialogue: 0,0:11:50.59,0:11:52.25,Default,S,0000,0000,0000,,Girl?
+Dialogue: 0,0:11:52.25,0:11:53.19,Default,S,0000,0000,0000,,You mean Amami-san?
+Dialogue: 0,0:11:54.62,0:11:56.19,Default,S,0000,0000,0000,,We've been in the same school since kindergarten.
+Dialogue: 0,0:11:56.19,0:11:58.07,Default,T,0000,0000,0000,,O-Oh, I see.
+Dialogue: 0,0:11:58.07,0:11:59.07,Default,Yu,0000,0000,0000,,I love you.
+Dialogue: 0,0:12:00.07,0:12:02.33,Default,Yu,0000,0000,0000,,I love you, Sunakawa-kun!
+Dialogue: 0,0:12:02.33,0:12:06.58,Default,Yu,0000,0000,0000,,I don't need anything, so please like me!
+Dialogue: 0,0:12:13.92,0:12:15.21,Default,T,0000,0000,0000,,Hey!
+Dialogue: 0,0:12:19.46,0:12:20.96,EyecatchA,Sign 1221,0000,0000,0000,,Love
+Dialogue: 0,0:12:20.96,0:12:22.47,EyecatchA,Sign 1222,0000,0000,0000,,{\an7}Longing
+Dialogue: 0,0:12:23.61,0:12:26.41,Default - italics,T,0000,0000,0000,,I thought you didn't have the courage \Nto tell him how you feel!
+Dialogue: 0,0:12:26.41,0:12:27.85,Default - italics,T,0000,0000,0000,,Well, not that it matters...
+Dialogue: 0,0:12:27.85,0:12:29.81,Default - italics,T,0000,0000,0000,,But why are you running away?
+Dialogue: 0,0:12:30.31,0:12:32.31,Default,T,0000,0000,0000,,Watch out!
+Dialogue: 0,0:12:34.56,0:12:36.02,Default,T,0000,0000,0000,,Don't give me that!
+Dialogue: 0,0:12:36.02,0:12:38.02,Default,T,0000,0000,0000,,I thought you were going to fall.
+Dialogue: 0,0:12:38.77,0:12:40.67,Default,Yu,0000,0000,0000,,I wish I had...
+Dialogue: 0,0:12:41.15,0:12:43.08,Default,Yu,0000,0000,0000,,I want to fall in and cool my head!
+Dialogue: 0,0:12:43.08,0:12:45.41,Default,T,0000,0000,0000,,It isn't that kind of river!
+Dialogue: 0,0:12:46.10,0:12:48.24,Default,Yu,0000,0000,0000,,I wasn't planning on telling him...
+Dialogue: 0,0:12:48.24,0:12:49.91,Default,T,0000,0000,0000,,Yeah, I was shocked, too.
+Dialogue: 0,0:12:50.25,0:12:54.05,Default,Yu,0000,0000,0000,,I didn't think he'd remember me at all.
+Dialogue: 0,0:12:54.39,0:12:56.62,Default,Yu,0000,0000,0000,,But when he did...
+Dialogue: 0,0:12:56.62,0:12:58.79,Default,Yu,0000,0000,0000,,I got so overwhelmed, I just blurted it all out.
+Dialogue: 0,0:12:59.47,0:13:01.20,Default,T,0000,0000,0000,,Well, just let it go.
+Dialogue: 0,0:13:01.20,0:13:03.13,Default,T,0000,0000,0000,,You can't undo what's happened.
+Dialogue: 0,0:13:03.13,0:13:06.12,Default,Yu,0000,0000,0000,,Can't I wipe his memory somehow?
+Dialogue: 0,0:13:06.12,0:13:06.89,Default,T,0000,0000,0000,,Nope.
+Dialogue: 0,0:13:06.89,0:13:08.59,Default,Yu,0000,0000,0000,,Can't I fudge it somehow?
+Dialogue: 0,0:13:08.59,0:13:09.89,Default,T,0000,0000,0000,,Nope!
+Dialogue: 0,0:13:10.25,0:13:13.27,Default,T,0000,0000,0000,,Yukika-chan, are you okay \Nletting things end this way?
+Dialogue: 0,0:13:13.27,0:13:15.43,Default,T,0000,0000,0000,,Don't you want to tell him properly?
+Dialogue: 0,0:13:16.40,0:13:20.62,Default,T,0000,0000,0000,,Do you think what you've felt for him \Nover the years really came through?
+Dialogue: 0,0:13:21.59,0:13:24.97,Default,T,0000,0000,0000,,Don't you want it to?
+Dialogue: 0,0:13:26.37,0:13:29.68,Default,Yu,0000,0000,0000,,I've been stalking him for ten years...
+Dialogue: 0,0:13:29.68,0:13:31.74,Default,Yu,0000,0000,0000,,You don't think he'll find me creepy?
+Dialogue: 0,0:13:31.74,0:13:34.23,Default,T,0000,0000,0000,,He'd never say anything like that.
+Dialogue: 0,0:13:36.51,0:13:39.63,Default,Yu,0000,0000,0000,,I'll go tell Sunakawa-kun how I feel.
+Dialogue: 0,0:13:40.86,0:13:42.45,Default,Yu,0000,0000,0000,,I'll go tell him properly,
+Dialogue: 0,0:13:42.45,0:13:44.63,Default,Yu,0000,0000,0000,,and I'll go get turned down properly.
+Dialogue: 0,0:13:45.23,0:13:46.76,Default,Yu,0000,0000,0000,,I'll end it.
+Dialogue: 0,0:13:50.44,0:13:51.31,Default - italics,T,0000,0000,0000,,He's still there!
+Dialogue: 0,0:13:51.72,0:13:53.31,Default,S,0000,0000,0000,,Amami-san,
+Dialogue: 0,0:13:53.31,0:13:57.69,Default,S,0000,0000,0000,,were you the one who always gave \Nme chocolates for Valentine's
+Dialogue: 0,0:13:57.69,0:13:59.84,Default,S,0000,0000,0000,,with an unsigned letter?
+Dialogue: 0,0:13:59.84,0:14:00.67,Default,Yu,0000,0000,0000,,Yes!
+Dialogue: 0,0:14:01.01,0:14:02.20,Default,S,0000,0000,0000,,I see.
+Dialogue: 0,0:14:02.20,0:14:04.81,Default,S,0000,0000,0000,,If you'd signed your name, \NI would have responded.
+Dialogue: 0,0:14:06.50,0:14:06.99,Default,S,0000,0000,0000,,Amami-sa—
+Dialogue: 0,0:14:06.99,0:14:10.45,Default,Yu,0000,0000,0000,,Um, do you not like me?
+Dialogue: 0,0:14:11.17,0:14:13.53,Default,S,0000,0000,0000,,No, it isn't like that.
+Dialogue: 0,0:14:13.53,0:14:14.45,Default,Yu,0000,0000,0000,,Isn't it?!
+Dialogue: 0,0:14:14.45,0:14:15.90,Default,Yu,0000,0000,0000,,That's it...
+Dialogue: 0,0:14:15.90,0:14:20.63,Default,Yu,0000,0000,0000,,You don't know enough about me \Nto feel one way or the other!
+Dialogue: 0,0:14:20.63,0:14:24.07,Default,Yu,0000,0000,0000,,So I don't want your response right now!
+Dialogue: 0,0:14:22.75,0:14:23.75,SFX-BlackWhite,Sign 1423,0000,0000,0000,,{\an9}Yukika-chan?
+Dialogue: 0,0:14:24.07,0:14:24.89,Default,Yu,0000,0000,0000,,So...
+Dialogue: 0,0:14:24.89,0:14:26.38,Default,Yu,0000,0000,0000,,Please learn more about me!
+Dialogue: 0,0:14:26.38,0:14:29.26,Default,Yu,0000,0000,0000,,Please give me your response after that.
+Dialogue: 0,0:14:29.93,0:14:30.98,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:14:30.98,0:14:33.63,Default - italics,T,0000,0000,0000,,That's one way to think about it.
+Dialogue: 0,0:14:33.63,0:14:37.02,Default - italics,T,0000,0000,0000,,But you've changed your mind again, Yukika-chan.
+Dialogue: 0,0:14:40.07,0:14:42.40,Default,S,0000,0000,0000,,You're right. Okay, I understand.
+Dialogue: 0,0:14:43.13,0:14:45.09,Default,S,0000,0000,0000,,Then I'll give you my cell phone number.
+Dialogue: 0,0:14:45.09,0:14:45.78,Default,Yu,0000,0000,0000,,Okay!
+Dialogue: 0,0:14:46.20,0:14:48.40,Default,S,0000,0000,0000,,I'm pretty flexible with times.
+Dialogue: 0,0:14:48.03,0:14:50.16,SFX - WhiteBlack,Sign 1449,0000,0000,0000,,{\an7}There are times that won't work, but...
+Dialogue: 0,0:14:48.40,0:14:50.16,Default,Yu,0000,0000,0000,,Okay, thank you!
+Dialogue: 0,0:14:51.25,0:14:52.78,Default,S,0000,0000,0000,,You don't have to be so polite.
+Dialogue: 0,0:14:53.83,0:14:55.54,Default,S,0000,0000,0000,,Then, I'll get going.
+Dialogue: 0,0:14:59.98,0:15:01.17,Default,T,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:15:01.17,0:15:03.86,Default,Yu,0000,0000,0000,,H-How could I've done what I just did?
+Dialogue: 0,0:15:03.86,0:15:05.00,Default,Yu,0000,0000,0000,,I scare myself!
+Dialogue: 0,0:15:04.91,0:15:07.17,SFX-BlackWhite,Sign,0000,0000,0000,,{\an9}You were really persuasive
+Dialogue: 0,0:15:05.00,0:15:07.17,Default,T,0000,0000,0000,,Yeah, I was shocked, too.
+Dialogue: 0,0:15:07.67,0:15:09.68,Default,T,0000,0000,0000,,But I'm happy for you.
+Dialogue: 0,0:15:09.68,0:15:11.49,Default,T,0000,0000,0000,,It isn't over yet.
+Dialogue: 0,0:15:11.49,0:15:12.47,Default,Yu,0000,0000,0000,,Right!
+Dialogue: 0,0:15:13.90,0:15:15.77,Default - italics,T,0000,0000,0000,,If you liked someone for ten years,
+Dialogue: 0,0:15:15.77,0:15:18.43,Default - italics,T,0000,0000,0000,,of course you wouldn't want \Nthings to end so easily.
+Dialogue: 0,0:15:18.43,0:15:20.85,Default - italics,T,0000,0000,0000,,I'm glad you weren't turned down.
+Dialogue: 0,0:15:23.27,0:15:23.98,Default,T,0000,0000,0000,,Why?
+Dialogue: 0,0:15:24.80,0:15:27.53,Default,T,0000,0000,0000,,Suna, why didn't you turn her down?
+Dialogue: 0,0:15:27.77,0:15:31.28,SFX-BlackWhite,Sign 1529,0000,0000,0000,,{\an9}The pressure...
+Dialogue: 0,0:15:27.88,0:15:29.58,Default,T,0000,0000,0000,,Were you persuaded or something?
+Dialogue: 0,0:15:29.82,0:15:31.28,Default,S,0000,0000,0000,,Well, I guess.
+Dialogue: 0,0:15:31.28,0:15:32.91,Default - italics,T,0000,0000,0000,,You guess?
+Dialogue: 0,0:15:31.28,0:15:35.91,SFX-BlackWhite,Sign 1532,0000,0000,0000,,Stare...
+Dialogue: 0,0:15:32.91,0:15:35.01,Default,S,0000,0000,0000,,Maybe I'm more of a pushover than I thought.
+Dialogue: 0,0:15:35.01,0:15:35.91,Default - italics,T,0000,0000,0000,,Maybe?
+Dialogue: 0,0:15:36.29,0:15:38.79,Default,S,0000,0000,0000,,Actually, why were you with Amami-san?
+Dialogue: 0,0:15:39.29,0:15:39.96,Default,T,0000,0000,0000,,Oh...
+Dialogue: 0,0:15:39.96,0:15:42.31,Default,T,0000,0000,0000,,It was like this, this, and that.
+Dialogue: 0,0:15:42.31,0:15:43.67,Default,S,0000,0000,0000,,I got the gist of it.
+Dialogue: 0,0:15:44.18,0:15:46.87,Default,T,0000,0000,0000,,I guess you were good at dodgeball.
+Dialogue: 0,0:15:46.87,0:15:47.83,Default,T,0000,0000,0000,,At dodging, anyway.
+Dialogue: 0,0:15:47.83,0:15:48.61,Default,S,0000,0000,0000,,Ah...
+Dialogue: 0,0:15:48.61,0:15:50.52,Default,T,0000,0000,0000,,Yukika-chan told me.
+Dialogue: 0,0:15:50.52,0:15:52.55,Default,S,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:15:53.46,0:15:56.56,Default - italics,T,0000,0000,0000,,It's hard to know what Suna's thinking.
+Dialogue: 0,0:15:57.10,0:15:57.89,Default,T,0000,0000,0000,,What?
+Dialogue: 0,0:15:57.89,0:16:00.77,Default,S,0000,0000,0000,,Oh, I was just remembering \Nhow you played dodgeball.
+Dialogue: 0,0:16:00.77,0:16:01.39,Default,T,0000,0000,0000,,Me?
+Dialogue: 0,0:16:01.39,0:16:05.33,Default,S,0000,0000,0000,,You only targeted the really strong players.
+Dialogue: 0,0:16:05.33,0:16:09.03,SFX-GrayWhite,Sign 1607,0000,0000,0000,,{\fad(677,479)\c&H42704B&}There! There!
+Dialogue: 0,0:16:06.00,0:16:09.08,Default,S,0000,0000,0000,,You'd end up being in a showdown \Nwith the strongest player.
+Dialogue: 0,0:16:09.08,0:16:10.99,Default,S,0000,0000,0000,,Even if they threw the ball at someone else,
+Dialogue: 0,0:16:10.99,0:16:13.20,Default,S,0000,0000,0000,,you'd fly sideways to catch it.
+Dialogue: 0,0:16:12.95,0:16:16.03,SFX-BlackWhite,Sign 1614,0000,0000,0000,,{\fad(481,1)}Shingo! Shingo!                            Takeo! Takeo!
+Dialogue: 0,0:16:13.20,0:16:16.03,Default,S,0000,0000,0000,,In the end, you made it into \Na totally different game.
+Dialogue: 0,0:16:16.03,0:16:17.88,Default,T,0000,0000,0000,,I did stuff like that?
+Dialogue: 0,0:16:17.88,0:16:19.54,Default,S,0000,0000,0000,,Yeah, you did.
+Dialogue: 0,0:16:20.24,0:16:21.58,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:16:21.58,0:16:24.72,Default - italics,T,0000,0000,0000,,Suna's really observant about people.
+Dialogue: 0,0:16:24.72,0:16:30.63,Default - italics,T,0000,0000,0000,,But I guess he didn't notice the incident \Nthat made Yukika-chan fall for him.
+Dialogue: 0,0:16:31.42,0:16:33.17,Default - italics,T,0000,0000,0000,,I won't tell him,
+Dialogue: 0,0:16:33.17,0:16:37.68,Default - italics,T,0000,0000,0000,,because it's something Yukika-chan \Nshould tell Suna in the future.
+Dialogue: 0,0:16:41.23,0:16:43.06,SFX-BlackWhite,Sign 1643,0000,0000,0000,,Presence Detected
+Dialogue: 0,0:16:41.55,0:16:43.06,Default - italics,T,0000,0000,0000,,Yukika-chan's here!
+Dialogue: 0,0:16:43.06,0:16:43.92,Default,S,0000,0000,0000,,Takeo?
+Dialogue: 0,0:16:43.92,0:16:45.69,Default,T,0000,0000,0000,,No, it's nothing.
+Dialogue: 0,0:16:48.44,0:16:50.78,Default - italics,T,0000,0000,0000,,Why doesn't she come and talk to him?
+Dialogue: 0,0:16:51.78,0:16:53.32,Default - italics,T,0000,0000,0000,,Does she need an opening?
+Dialogue: 0,0:16:53.70,0:16:55.20,Default - italics,T,0000,0000,0000,,Is that it?
+Dialogue: 0,0:17:00.58,0:17:01.39,Default - italics,T,0000,0000,0000,,All right!
+Dialogue: 0,0:17:01.39,0:17:03.39,Default - italics,T,0000,0000,0000,,Yukika-chan, Suna's coming that way!
+Dialogue: 0,0:17:04.20,0:17:04.71,SFX-BlackWhite,Sign 1705,0000,0000,0000,,{\an9}Thanks
+Dialogue: 0,0:17:04.71,0:17:06.21,Default - italics,T,0000,0000,0000,,What're you doing?!
+Dialogue: 0,0:17:08.28,0:17:11.01,Default,T,0000,0000,0000,,Suna, wait here for a sec.
+Dialogue: 0,0:17:11.01,0:17:11.59,Default,S,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:11.59,0:17:14.05,Default,T,0000,0000,0000,,Yukika...
+Dialogue: 0,0:17:14.05,0:17:15.55,Default,T,0000,0000,0000,,There you are!
+Dialogue: 0,0:17:16.11,0:17:17.12,Default,T,0000,0000,0000,,Don't give me that!
+Dialogue: 0,0:17:17.12,0:17:18.14,Default,T,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:17:18.14,0:17:20.38,Default,T,0000,0000,0000,,Weren't you going to let Suna \Nlearn more about you?
+Dialogue: 0,0:17:20.38,0:17:21.31,Default,Yu,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:17:21.31,0:17:22.58,Default,T,0000,0000,0000,,Go!
+Dialogue: 0,0:17:22.58,0:17:23.91,Default,T,0000,0000,0000,,Go make him learn!
+Dialogue: 0,0:17:23.91,0:17:25.31,Default,Yu,0000,0000,0000,,O-Okay!
+Dialogue: 0,0:17:25.82,0:17:26.56,Default,T,0000,0000,0000,,Suna!
+Dialogue: 0,0:17:26.97,0:17:28.01,Default,T,0000,0000,0000,,Here's Yukika-chan.
+Dialogue: 0,0:17:28.01,0:17:29.19,Default,T,0000,0000,0000,,Walk home with her.
+Dialogue: 0,0:17:29.56,0:17:31.19,Default,S,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:17:31.90,0:17:33.25,Default,S,0000,0000,0000,,Let's go.
+Dialogue: 0,0:17:33.25,0:17:34.98,Default,S,0000,0000,0000,,Is this on your way home, too?
+Dialogue: 0,0:17:34.98,0:17:36.20,Default,Yu,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:17:37.16,0:17:39.45,Default - italics,T,0000,0000,0000,,Good luck, Yukika-chan.
+Dialogue: 0,0:17:39.45,0:17:42.00,Default - italics,T,0000,0000,0000,,I hope you can get through to him.
+Dialogue: 0,0:17:42.00,0:17:42.70,Default - italics,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:43.66,0:17:45.60,Default - italics,T,0000,0000,0000,,Why is she so far from him?
+Dialogue: 0,0:17:45.60,0:17:48.48,Default,S,0000,0000,0000,,Amami-san, you live around here?
+Dialogue: 0,0:17:48.48,0:17:49.46,Default,Yu,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:49.91,0:17:53.39,Default - italics,T,0000,0000,0000,,And he's walking really slowly today.
+Dialogue: 0,0:17:55.21,0:17:57.06,Default,S,0000,0000,0000,,I'm going to take the train from here.
+Dialogue: 0,0:17:57.06,0:17:58.26,Default,S,0000,0000,0000,,What about you, Amami-san?
+Dialogue: 0,0:17:58.26,0:17:59.09,Default,Yu,0000,0000,0000,,No...
+Dialogue: 0,0:17:59.89,0:18:01.10,Default,S,0000,0000,0000,,Okay, see you later.
+Dialogue: 0,0:18:02.05,0:18:02.72,Default,Yu,0000,0000,0000,,Yes.
+Dialogue: 0,0:18:05.44,0:18:08.59,Default,T,0000,0000,0000,,Hey, weren't you going to have \Nhim learn who you are?
+Dialogue: 0,0:18:08.59,0:18:10.27,Default,Yu,0000,0000,0000,,I... I'm sorry.
+Dialogue: 0,0:18:11.04,0:18:14.09,Default,Yu,0000,0000,0000,,Being right next to him, I could \Nbarely remember to breathe.
+Dialogue: 0,0:18:14.81,0:18:16.44,Default,Yu,0000,0000,0000,,Sunakawa-kun was...
+Dialogue: 0,0:18:16.44,0:18:20.45,Default,Yu,0000,0000,0000,,{\i1}The{\i0} Sunakawa-kun was talking to me!
+Dialogue: 0,0:18:20.45,0:18:21.39,Default,Yu,0000,0000,0000,,Sunakawa—
+Dialogue: 0,0:18:21.39,0:18:23.54,Default,T,0000,0000,0000,,Keep it together!
+Dialogue: 0,0:18:21.83,0:18:22.45,SFX-BlueBlue,Sign,0000,0000,0000,,Grab
+Dialogue: 0,0:18:24.06,0:18:24.97,Default,Y,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:18:24.97,0:18:25.95,Default,Y,0000,0000,0000,,It's me.
+Dialogue: 0,0:18:25.95,0:18:26.88,Default,Y,0000,0000,0000,,Where are you right now?
+Dialogue: 0,0:18:26.88,0:18:28.48,Default,T,0000,0000,0000,,I'm at Shuuei Station now.
+Dialogue: 0,0:18:28.48,0:18:29.29,Default,Y,0000,0000,0000,,Really?
+Dialogue: 0,0:18:29.29,0:18:30.53,Default,Y,0000,0000,0000,,What were you up to?
+Dialogue: 0,0:18:30.53,0:18:31.15,Default,T,0000,0000,0000,,I'm—
+Dialogue: 0,0:18:31.15,0:18:32.04,Default - italics,T,0000,0000,0000,,A girl!
+Dialogue: 0,0:18:31.25,0:18:32.04,SFX-Red,Sign 1831,0000,0000,0000,,{\an9}A Girl
+Dialogue: 0,0:18:32.40,0:18:33.65,Default,T,0000,0000,0000,,Hang on a second.
+Dialogue: 0,0:18:33.65,0:18:34.39,Default,Y,0000,0000,0000,,Sure.
+Dialogue: 0,0:18:34.39,0:18:37.34,Default,T,0000,0000,0000,,Sorry, but can I tell Yamato what's going on?
+Dialogue: 0,0:18:37.83,0:18:40.68,Default,T,0000,0000,0000,,I'm not good at keeping things under wraps,
+Dialogue: 0,0:18:40.68,0:18:41.85,Default,T,0000,0000,0000,,and I don't really want to.
+Dialogue: 0,0:18:42.97,0:18:45.12,Default,Yu,0000,0000,0000,,Sure, please tell her.
+Dialogue: 0,0:18:45.12,0:18:46.45,Default,T,0000,0000,0000,,Thanks.
+Dialogue: 0,0:18:46.45,0:18:47.61,Default,T,0000,0000,0000,,Hey, Yamato?
+Dialogue: 0,0:18:47.61,0:18:52.05,Default,T,0000,0000,0000,,I was just talking to a girl named \NYukika-chan who likes Suna.
+Dialogue: 0,0:18:52.05,0:18:53.62,Default,Y,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:18:53.62,0:18:55.80,Default,Y,0000,0000,0000,,Um, is that okay for me to know?
+Dialogue: 0,0:18:55.80,0:18:58.11,Default,Yu,0000,0000,0000,,I'd even like her to give me advice!
+Dialogue: 0,0:19:01.62,0:19:04.37,Default,Y,0000,0000,0000,,Your explanation was easy to understand.
+Dialogue: 0,0:19:04.37,0:19:05.48,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:05.48,0:19:08.81,Default,T,0000,0000,0000,,I thought you'd talk to Suna like you've \Ntalked with Yamato and me.
+Dialogue: 0,0:19:08.81,0:19:11.02,Default,T,0000,0000,0000,,But you didn't talk to him at all.
+Dialogue: 0,0:19:11.02,0:19:12.48,Default,Yu,0000,0000,0000,,It's impossible...
+Dialogue: 0,0:19:12.48,0:19:15.07,Default,Yu,0000,0000,0000,,I barely managed to walk with him \Nwithout dying, then and there.
+Dialogue: 0,0:19:15.07,0:19:16.26,Default,Y,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:19:16.66,0:19:20.51,Default,Y,0000,0000,0000,,I was super nervous when I first \Ntalked to Takeo-kun, too.
+Dialogue: 0,0:19:21.85,0:19:23.60,Default,Y,0000,0000,0000,,Standing in front of his apartment,
+Dialogue: 0,0:19:23.60,0:19:26.68,Default,Y,0000,0000,0000,,I couldn't ring the doorbell and \Nstood there for a long time.
+Dialogue: 0,0:19:26.68,0:19:27.79,Default,Y,0000,0000,0000,,When I called him,
+Dialogue: 0,0:19:27.79,0:19:30.46,Default,Y,0000,0000,0000,,my heart was pounding so hard.
+Dialogue: 0,0:19:32.27,0:19:34.17,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:19:34.76,0:19:38.03,Default - italics,T,0000,0000,0000,,I didn't know any of that then,
+Dialogue: 0,0:19:38.03,0:19:42.13,Default - italics,T,0000,0000,0000,,but I was a lucky man.
+Dialogue: 0,0:19:43.82,0:19:45.83,SFX-GrayWhite,Sign 1945,0000,0000,0000,,To Sunakawa-kun \N\NI don't need anything in return, \Nso please like me.
+Dialogue: 0,0:19:49.35,0:19:52.08,Default,Y,0000,0000,0000,,If you can't talk to him, how about smiling?
+Dialogue: 0,0:19:52.55,0:19:55.09,Default,Yu,0000,0000,0000,,I don't think I can smile that well...
+Dialogue: 0,0:19:55.09,0:19:57.85,Default,Y,0000,0000,0000,,How about letters and texts?
+Dialogue: 0,0:19:57.85,0:20:00.37,Default,Yu,0000,0000,0000,,If it's anonymous, I can write...
+Dialogue: 0,0:20:00.37,0:20:02.13,Default,Y,0000,0000,0000,,I see...
+Dialogue: 0,0:20:00.71,0:20:07.60,SFX-BlackWhite,Sign 2003,0000,0000,0000,,{\fad(1,226)}Hmm!
+Dialogue: 0,0:20:02.13,0:20:04.25,Default,Y,0000,0000,0000,,How can I help?
+Dialogue: 0,0:20:04.86,0:20:07.93,Default,T,0000,0000,0000,,Why not go somewhere together?
+Dialogue: 0,0:20:07.93,0:20:10.85,Default,T,0000,0000,0000,,That's fun enough, in and of itself.
+Dialogue: 0,0:20:10.85,0:20:11.66,Default,Y,0000,0000,0000,,That's right!
+Dialogue: 0,0:20:11.66,0:20:13.19,Default,Y,0000,0000,0000,,Nice idea, Takeo-kun!
+Dialogue: 0,0:20:13.19,0:20:15.48,Default,Yu,0000,0000,0000,,Going somewhere with Sunakawa-kun!
+Dialogue: 0,0:20:15.48,0:20:16.49,Default,T,0000,0000,0000,,Suna!
+Dialogue: 0,0:20:16.49,0:20:18.15,Default,T,0000,0000,0000,,Did you get any texts from Yukika-chan?
+Dialogue: 0,0:20:18.77,0:20:19.55,Default,S,0000,0000,0000,,No.
+Dialogue: 0,0:20:20.55,0:20:21.90,Default,S,0000,0000,0000,,Oh, just got one.
+Dialogue: 0,0:20:21.90,0:20:34.92,Phone,Sign 2023,0000,0000,0000,,Sender: Amami Yukika \NSubject: Good Evening
+Dialogue: 0,0:20:22.30,0:20:23.60,Message Body - Default,Yu,0000,0000,0000,,This is Amami.
+Dialogue: 0,0:20:23.60,0:20:26.22,Message Body - Default,Yu,0000,0000,0000,,Thank you for earlier today.
+Dialogue: 0,0:20:26.22,0:20:28.51,Message Body - Default,Yu,0000,0000,0000,,Would you like to go to the zoo sometime?
+Dialogue: 0,0:20:28.51,0:20:31.21,Message Body - Default,Yu,0000,0000,0000,,Gouda-kun and Yamato-san can accompany us.
+Dialogue: 0,0:20:31.21,0:20:34.92,Message Body - Default,Yu,0000,0000,0000,,If you'd like, please let me know what \Ndates and times work best for you.
+Dialogue: 0,0:20:34.92,0:20:36.89,Default - italics,T,0000,0000,0000,,She's so formal.
+Dialogue: 0,0:20:36.89,0:20:38.00,Default,S,0000,0000,0000,,Why are you reading it?
+Dialogue: 0,0:20:39.09,0:20:42.49,Default,S,0000,0000,0000,,It says Yamato-san and you are \Nalso invited. Is that okay?
+Dialogue: 0,0:20:42.49,0:20:43.59,Default,T,0000,0000,0000,,S-Sure.
+Dialogue: 0,0:20:43.59,0:20:44.39,Default,T,0000,0000,0000,,Great! Just great!
+Dialogue: 0,0:20:45.71,0:20:46.55,Default,S,0000,0000,0000,,Do you know something?
+Dialogue: 0,0:20:46.55,0:20:47.87,Default,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:47.87,0:20:49.36,Default,S,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:20:49.36,0:20:50.88,Default,S,0000,0000,0000,,Okay, let's all go together.
+Dialogue: 0,0:20:50.88,0:20:52.31,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:52.31,0:20:53.81,Default - italics,T,0000,0000,0000,,Nice job, Yukika-chan.
+Dialogue: 0,0:20:56.34,0:20:59.57,Default,T,0000,0000,0000,,Suna, are you really okay with this?
+Dialogue: 0,0:21:00.28,0:21:01.07,Default,S,0000,0000,0000,,With what?
+Dialogue: 0,0:21:01.94,0:21:03.92,Default,T,0000,0000,0000,,If you don't want to go,
+Dialogue: 0,0:21:03.92,0:21:06.20,Default,T,0000,0000,0000,,I think you can say no.
+Dialogue: 0,0:21:06.54,0:21:08.86,Default,T,0000,0000,0000,,How you feel is what's important here.
+Dialogue: 0,0:21:11.56,0:21:13.46,Default,S,0000,0000,0000,,If I didn't want to, I wouldn't go.
+Dialogue: 0,0:21:13.87,0:21:15.69,Default,T,0000,0000,0000,,Then you want to?
+Dialogue: 0,0:21:15.69,0:21:16.32,Default,S,0000,0000,0000,,I guess.
+Dialogue: 0,0:21:16.32,0:21:18.01,Default,T,0000,0000,0000,,Isn't that amazing?
+Dialogue: 0,0:21:18.01,0:21:19.46,Default,S,0000,0000,0000,,Maybe.
+Dialogue: 0,0:21:19.80,0:21:21.38,Default,T,0000,0000,0000,,I'm fine to go whenever.
+Dialogue: 0,0:21:21.38,0:21:23.33,Default,T,0000,0000,0000,,When you reply, be sure to tell her that.
+Dialogue: 0,0:21:23.33,0:21:24.47,Default,S,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:29.11,0:21:30.70,Default - italics,T,0000,0000,0000,,He said he wants to go.
+Dialogue: 0,0:21:31.53,0:21:34.50,Default - italics,T,0000,0000,0000,,Good luck, Yukika-chan.
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign,0000,0000,0000,,{\fad(1,515)}A Letter to Me
+Dialogue: 0,0:22:47.00,0:22:49.32,Default,S,0000,0000,0000,,Next time: A Letter to Me.

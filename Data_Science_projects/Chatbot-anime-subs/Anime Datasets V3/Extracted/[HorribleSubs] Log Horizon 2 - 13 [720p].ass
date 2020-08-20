@@ -1,0 +1,496 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Location,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,27,51,0
+Style: Inventory,Open Sans Semibold,33,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: HUD Big,Open Sans Semibold,42,&H00F1EDEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Open Sans Semibold,36,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Monsters,Open Sans Semibold,30,&H00BAB6DE,&H000000FF,&H001F2151,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,37,0
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Open Sans Semibold,27,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Open Sans Semibold,27,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Open Sans Semibold,33,&H005C34C9,&H000000FF,&H00FD995E,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignB,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SignC,Open Sans Semibold,33,&H002F2318,&H000000FF,&H00E1ECF1,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignD,Open Sans Semibold,30,&H002F2318,&H000000FF,&H00E1ECE9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: SignE,Open Sans Semibold,33,&H005C34C9,&H000000FF,&H00AEC8DB,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:05.04,0:00:06.48,Default,M,0000,0000,0000,,Everyone's having a great time!
+Dialogue: 0,0:00:05.21,0:00:06.48,SignA,,0000,0000,0000,,Chocolate
+Dialogue: 0,0:00:06.78,0:00:08.73,Default,H,0000,0000,0000,,It's Valentine's Day, after all.
+Dialogue: 0,0:00:09.64,0:00:11.50,Default,M,0000,0000,0000,,I'm gonna do my best, too!
+Dialogue: 0,0:01:42.76,0:01:43.99,Default,Se,0000,0000,0000,,It's so expensive!
+Dialogue: 0,0:01:43.99,0:01:46.62,Default,Se,0000,0000,0000,,Everything is more expensive than yesterday.
+Dialogue: 0,0:01:46.89,0:01:50.16,Default,Se,0000,0000,0000,,I guess everyone's thinking the same thing.
+Dialogue: 0,0:01:50.47,0:01:52.69,Default,Ny,0000,0000,0000,,Oh, Serara...
+Dialogue: 0,0:01:53.09,0:01:54.21,Default,Se,0000,0000,0000,,Nyanta!
+Dialogue: 0,0:01:54.21,0:01:56.01,Default,Ny,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:01:56.99,0:01:59.21,Default,Se,0000,0000,0000,,No... Um...
+Dialogue: 0,0:01:59.21,0:02:02.06,Default,Ny,0000,0000,0000,,Oh, coconia fruit, is it?
+Dialogue: 0,0:02:02.06,0:02:06.79,Default,Ny,0000,0000,0000,,It's a southern fruit used \Nto make all kinds of things,
+Dialogue: 0,0:02:06.79,0:02:09.02,Default,,0000,0000,0000,,like sweets and drinks.
+Dialogue: 0,0:02:09.02,0:02:11.15,Default,Se,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:02:11.15,0:02:12.65,Default - italics,Se,0000,0000,0000,,I knew that, though.
+Dialogue: 0,0:02:12.95,0:02:18.78,Default,Ny,0000,0000,0000,,And People of the Land have a legend about them.
+Dialogue: 0,0:02:19.21,0:02:21.41,Default,Ny,0000,0000,0000,,If you get the one you love to eat them
+Dialogue: 0,0:02:21.41,0:02:23.85,Default,,0000,0000,0000,,on February 14, your love will be returned.
+Dialogue: 0,0:02:24.54,0:02:29.58,Default,Ny,0000,0000,0000,,Come to think of it, in the old world, \Ntoday was Valentine's Day.
+Dialogue: 0,0:02:29.58,0:02:31.13,Default,Se,0000,0000,0000,,Th-That's right.
+Dialogue: 0,0:02:31.13,0:02:34.44,Default,Se,0000,0000,0000,,Anyway, um, I have things to do!
+Dialogue: 0,0:02:36.09,0:02:36.97,Default,,0000,0000,0000,,Meow...
+Dialogue: 0,0:02:37.67,0:02:43.51,Title,Se,0000,0000,0000,,{\fad(1614,1)}2.14  A Sweet Trap
+Dialogue: 0,0:02:38.31,0:02:40.78,Default,Se,0000,0000,0000,,2.14  A Sweet Trap.
+Dialogue: 0,0:02:48.33,0:02:49.70,Default,T,0000,0000,0000,,Master Naotsugu,
+Dialogue: 0,0:02:49.70,0:02:51.61,Default,T,0000,0000,0000,,please train me again today!
+Dialogue: 0,0:02:52.48,0:02:54.02,Default,N,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:02:54.64,0:02:56.42,Default,N,0000,0000,0000,,I have something to do today.
+Dialogue: 0,0:02:57.53,0:02:59.15,Default,S,0000,0000,0000,,Marie wants to see you, right?
+Dialogue: 0,0:02:59.51,0:03:00.55,Default,N,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:00.84,0:03:02.70,Default,N,0000,0000,0000,,You know, it's Valentine's Day...
+Dialogue: 0,0:03:04.99,0:03:06.68,Default,S,0000,0000,0000,,Valentine's Day, huh?
+Dialogue: 0,0:03:06.68,0:03:08.52,Default,S,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:03:08.52,0:03:11.04,Default,,0000,0000,0000,,we were once put through \Nserious hell over that.
+Dialogue: 0,0:03:11.32,0:03:13.53,Default,T,0000,0000,0000,,That was Kanami, right?
+Dialogue: 0,0:03:14.98,0:03:20.01,Default,T,0000,0000,0000,,You were in the legendary Debauchery \NTea Party, weren't you, Shiroe?
+Dialogue: 0,0:03:20.01,0:03:21.18,Default,N,0000,0000,0000,,So was I.
+Dialogue: 0,0:03:21.18,0:03:22.38,Default,N,0000,0000,0000,,And get off me.
+Dialogue: 0,0:03:22.68,0:03:26.04,Default,T,0000,0000,0000,,I heard Kanami was the leader of the Party.
+Dialogue: 0,0:03:26.04,0:03:29.10,Default,T,0000,0000,0000,,And she was beautiful and everyone loved her...
+Dialogue: 0,0:03:29.10,0:03:31.47,Default,T,0000,0000,0000,,And she was older than you.
+Dialogue: 0,0:03:31.47,0:03:35.77,Default,T,0000,0000,0000,,Hey, could she be...
+Dialogue: 0,0:03:35.97,0:03:37.78,Default,T,0000,0000,0000,,Your girlfriend?
+Dialogue: 0,0:03:38.99,0:03:40.70,Default,S,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:03:40.70,0:03:42.03,Default,S,0000,0000,0000,,It wasn't like that.
+Dialogue: 0,0:03:42.26,0:03:44.92,Default,T (Background),0000,0000,0000,,{\an8}Really? But you still like her, right?
+Dialogue: 0,0:03:42.30,0:03:44.01,Default - italics,A,0000,0000,0000,,I've never heard this.
+Dialogue: 0,0:03:44.01,0:03:46.56,Default - italics,A,0000,0000,0000,,Who is this woman, exactly?
+Dialogue: 0,0:03:44.92,0:03:46.84,Default,T (Background),0000,0000,0000,,{\an8}It's written all over your face!
+Dialogue: 0,0:03:46.56,0:03:49.96,Default - italics,A,0000,0000,0000,,And my lord, who never reacts \Nto anything, is freaking out.
+Dialogue: 0,0:03:46.84,0:03:47.99,Default,S (Background),0000,0000,0000,,{\an8}It is not.
+Dialogue: 0,0:03:47.99,0:03:51.36,Default,T (Background),0000,0000,0000,,{\an8}Liar! You can't fool me!
+Dialogue: 0,0:03:49.96,0:03:52.04,Default - italics,A,0000,0000,0000,,Could she really be his love?
+Dialogue: 0,0:03:52.25,0:03:53.33,Default - italics,Mi,0000,0000,0000,,Older than he is?
+Dialogue: 0,0:03:53.33,0:03:54.50,Default - italics,Mi,0000,0000,0000,,Broad-minded?
+Dialogue: 0,0:03:54.86,0:03:56.36,Default,N,0000,0000,0000,,Hey, Tetra...
+Dialogue: 0,0:03:56.36,0:04:00.11,Default,N,0000,0000,0000,,If you're a girl, have a little modesty.
+Dialogue: 0,0:04:00.91,0:04:05.47,Default,T,0000,0000,0000,,{\an8}A girl will wilt if she doesn't have \Ngood food and tales of love.
+Dialogue: 0,0:04:04.36,0:04:10.33,Default,To,0000,0000,0000,,Hey, has Master Naotsugu really \Nnot realized that Tetra is a guy?
+Dialogue: 0,0:04:10.68,0:04:11.89,Default,R,0000,0000,0000,,Seems that way.
+Dialogue: 0,0:04:12.14,0:04:14.16,Default,To,0000,0000,0000,,It's so obvious, though!
+Dialogue: 0,0:04:14.16,0:04:16.02,Default,To,0000,0000,0000,,Should I tell him?
+Dialogue: 0,0:04:16.02,0:04:17.84,Default,R,0000,0000,0000,,I'm not sure what to do.
+Dialogue: 0,0:04:18.25,0:04:22.18,Default,R,0000,0000,0000,,Is it "Miss Tetra" or "Mr. Tetra"?
+Dialogue: 0,0:04:22.18,0:04:26.88,Default,To,0000,0000,0000,,And I'm not sure if it'd be \N"Big Sis Tetra" or "Big Bro Tetra."
+Dialogue: 0,0:04:23.40,0:04:24.95,HUD1,To,0000,0000,0000,,{\an9}Brother
+Dialogue: 0,0:04:24.95,0:04:27.49,SignB,To,0000,0000,0000,,Sister                                                                   Brother
+Dialogue: 0,0:04:27.26,0:04:29.24,Default,T,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:04:29.59,0:04:32.08,Default,To,0000,0000,0000,,N-Nothing, Big Sibro Tetra!
+Dialogue: 0,0:04:32.50,0:04:33.60,Default,T,0000,0000,0000,,"Sibro"?
+Dialogue: 0,0:04:33.60,0:04:35.75,Default - italics,To,0000,0000,0000,,Crap! I combined "Sis" and "Bro"!
+Dialogue: 0,0:04:36.17,0:04:40.96,Default,R,0000,0000,0000,,Actually, we were talking about what \Nit would be best to call you.
+Dialogue: 0,0:04:41.25,0:04:43.09,Default,T,0000,0000,0000,,That's an easy one.
+Dialogue: 0,0:04:43.35,0:04:45.61,Default,T,0000,0000,0000,,Just call me "Tetra"!
+Dialogue: 0,0:04:49.51,0:04:51.31,Default,I,0000,0000,0000,,I figured it wouldn't work.
+Dialogue: 0,0:04:51.31,0:04:55.89,Default,Ny,0000,0000,0000,,It's rare to see you in the kitchen, Isuzu.
+Dialogue: 0,0:04:56.17,0:04:58.02,Default,I,0000,0000,0000,,Rare?
+Dialogue: 0,0:04:58.02,0:04:59.90,Default,Ny,0000,0000,0000,,What brings you here?
+Dialogue: 0,0:05:00.16,0:05:04.12,Default,I,0000,0000,0000,,Actually, I wanted to use these \Nto make some sweets.
+Dialogue: 0,0:05:05.51,0:05:07.41,Default,Ny,0000,0000,0000,,Are these coconia fruits?
+Dialogue: 0,0:05:07.70,0:05:08.68,Default,I,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:08.68,0:05:11.13,Default,I,0000,0000,0000,,I don't really mean anything by it,
+Dialogue: 0,0:05:11.13,0:05:14.31,Default,,0000,0000,0000,,but I'm thinking of making some for Rudy.
+Dialogue: 0,0:05:14.31,0:05:15.33,Default,Ny,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:05:15.73,0:05:18.13,Default,I,0000,0000,0000,,But I'm not a cook.
+Dialogue: 0,0:05:18.37,0:05:22.00,Default,Ny,0000,0000,0000,,Then why don't we make them together?
+Dialogue: 0,0:05:23.21,0:05:26.66,Default,I,0000,0000,0000,,If I make them, they turn into gel...
+Dialogue: 0,0:05:26.66,0:05:29.26,Default,Ny,0000,0000,0000,,I've got the perfect item.
+Dialogue: 0,0:05:29.82,0:05:32.31,HUD1,Ny,0000,0000,0000,,{\fad(382,1)}Newlywed's Apron Dress
+Dialogue: 0,0:05:29.99,0:05:32.59,Default,Ny,0000,0000,0000,,The Newlywed's Apron Dress.
+Dialogue: 0,0:05:32.73,0:05:34.72,Default,Ny,0000,0000,0000,,I'll lend it to you.
+Dialogue: 0,0:05:34.72,0:05:35.60,Default,I,0000,0000,0000,,Oh!
+Dialogue: 0,0:05:35.98,0:05:38.86,Default,Ny,0000,0000,0000,,In exchange for a temporary level drop,
+Dialogue: 0,0:05:38.86,0:05:42.86,Default,Ny,0000,0000,0000,,it gives you a moderate cooking sub-skill.
+Dialogue: 0,0:05:43.15,0:05:44.76,Default,I,0000,0000,0000,,Wow!
+Dialogue: 0,0:05:44.76,0:05:47.72,Default,I,0000,0000,0000,,Even I'll be able to cook!
+Dialogue: 0,0:05:47.72,0:05:49.87,Default,Ny,0000,0000,0000,,It looks great on you.
+Dialogue: 0,0:05:50.07,0:05:53.22,Default,I,0000,0000,0000,,But why do you have this, Chief?
+Dialogue: 0,0:05:53.22,0:05:55.87,Default,,0000,0000,0000,,It was a quest reward.
+Dialogue: 0,0:05:56.72,0:05:57.72,Default,Ny,0000,0000,0000,,Now, then.
+Dialogue: 0,0:05:58.30,0:06:01.12,Default,,0000,0000,0000,,Since you've professed that \Nyou're not a good cook,
+Dialogue: 0,0:06:01.12,0:06:04.13,Default,Ny,0000,0000,0000,,I'll start by teaching you how \Nto make simple sweets.
+Dialogue: 0,0:06:04.82,0:06:07.62,Default,Ny,0000,0000,0000,,First, peel the coconia fruits and
+Dialogue: 0,0:06:07.62,0:06:10.00,Default,Ny,0000,0000,0000,,cut them into slices, and then boil them.
+Dialogue: 0,0:06:10.65,0:06:13.39,Default,Ny,0000,0000,0000,,Once you can stick a toothpick clean through,
+Dialogue: 0,0:06:14.41,0:06:15.89,Default,Ny,0000,0000,0000,,move them to a bowl,
+Dialogue: 0,0:06:15.89,0:06:18.38,Default,Ny,0000,0000,0000,,and mash them with a spatula \Nwhile they're still warm.
+Dialogue: 0,0:06:18.78,0:06:23.07,Default,Ny,0000,0000,0000,,If you strain them now, \Nthe taste will be much smoother.
+Dialogue: 0,0:06:23.07,0:06:24.15,Default,I,0000,0000,0000,,I see!
+Dialogue: 0,0:06:24.76,0:06:29.38,Default,Ny,0000,0000,0000,,Add sugar, egg yolks, cream, then butter,
+Dialogue: 0,0:06:29.38,0:06:30.77,Default,Ny,0000,0000,0000,,and mix them up.
+Dialogue: 0,0:06:31.39,0:06:33.09,Default,Ny,0000,0000,0000,,Once they've cooled,
+Dialogue: 0,0:06:33.09,0:06:35.16,Default,Ny,0000,0000,0000,,roll them into balls with your hands,
+Dialogue: 0,0:06:35.16,0:06:38.16,Default,,0000,0000,0000,,and brush on some egg yolk.
+Dialogue: 0,0:06:38.59,0:06:42.37,Default,Ny,0000,0000,0000,,Then put them into an oven warmed \Nwith salamander heat,
+Dialogue: 0,0:06:42.37,0:06:45.17,Default,Ny,0000,0000,0000,,and cook them until they turn brown.
+Dialogue: 0,0:06:45.49,0:06:49.40,Default,Ny,0000,0000,0000,,And you've got sweet potato-style coconia.
+Dialogue: 0,0:06:50.33,0:06:51.68,Default,I,0000,0000,0000,,It smells so good!
+Dialogue: 0,0:06:53.00,0:06:55.74,Default,I,0000,0000,0000,,I'll go give them to Rudy before they get cold.
+Dialogue: 0,0:06:55.74,0:06:57.68,Default,I,0000,0000,0000,,Thanks, Chief!
+Dialogue: 0,0:06:58.58,0:06:59.71,Default,Ny,0000,0000,0000,,Now, then...
+Dialogue: 0,0:06:59.71,0:07:03.86,Default,Ny,0000,0000,0000,,It's still early in the day. I guess I'll clean.
+Dialogue: 0,0:07:04.51,0:07:08.49,Default - italics,Mi,0000,0000,0000,,It's Valentine's Day, so I'd like \Nto give Shiroe a present.
+Dialogue: 0,0:07:08.84,0:07:12.70,Default - italics,Mi,0000,0000,0000,,But if he takes it in a weird way, \Nit'd be embarrassing...
+Dialogue: 0,0:07:12.70,0:07:16.72,Default - italics,Mi,0000,0000,0000,,No, if he doesn't do anything, \Nthat'd be even worse.
+Dialogue: 0,0:07:16.72,0:07:19.50,Default - italics,Mi,0000,0000,0000,,In any event, it's just to thank him.
+Dialogue: 0,0:07:19.75,0:07:21.50,Default - flashback,Mi,0000,0000,0000,,Could she be...
+Dialogue: 0,0:07:21.50,0:07:23.38,Default - flashback,Mi,0000,0000,0000,,Your girlfriend?
+Dialogue: 0,0:07:31.75,0:07:33.00,Default,A,0000,0000,0000,,Kanami...
+Dialogue: 0,0:07:34.36,0:07:35.64,Default,T,0000,0000,0000,,Hey, there!
+Dialogue: 0,0:07:36.07,0:07:38.47,Default,A,0000,0000,0000,,Tetra, did you need something?
+Dialogue: 0,0:07:38.47,0:07:41.62,Default,T,0000,0000,0000,,You're curious about Kanami, aren't you?
+Dialogue: 0,0:07:41.62,0:07:43.37,Default,A,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:07:44.05,0:07:46.15,Default,T,0000,0000,0000,,You're so easy to read.
+Dialogue: 0,0:07:46.15,0:07:48.88,Default,T,0000,0000,0000,,Why not make it clear?
+Dialogue: 0,0:07:49.47,0:07:50.66,Default,A,0000,0000,0000,,No, no.
+Dialogue: 0,0:07:50.66,0:07:52.78,Default,A,0000,0000,0000,,Make what clear, exactly?
+Dialogue: 0,0:07:53.76,0:07:54.45,Default,T,0000,0000,0000,,Here.
+Dialogue: 0,0:07:55.52,0:07:57.31,Default,T,0000,0000,0000,,It's called a coconia fruit.
+Dialogue: 0,0:07:57.31,0:08:00.81,Default,T,0000,0000,0000,,They say it has a special \Neffect on Valentine's Day.
+Dialogue: 0,0:08:01.22,0:08:02.96,Default,A,0000,0000,0000,,A special effect?
+Dialogue: 0,0:08:03.32,0:08:06.77,Default,T,0000,0000,0000,,Here! Look at the flavor text!
+Dialogue: 0,0:08:07.31,0:08:08.71,Default,A,0000,0000,0000,,"Coconia Fruit."
+Dialogue: 0,0:08:08.71,0:08:10.73,Default,A,0000,0000,0000,,"A southern fruit,
+Dialogue: 0,0:08:10.73,0:08:14.59,Default,,0000,0000,0000,,used for many applications, such as \Nmaking various dishes and drinks.
+Dialogue: 0,0:08:14.59,0:08:17.30,Default,A,0000,0000,0000,,If you feed them to someone on Valentine's Day,
+Dialogue: 0,0:08:17.30,0:08:19.22,Default,,0000,0000,0000,,you may find out who they heart-heart."
+Dialogue: 0,0:08:20.49,0:08:21.73,Default,A,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:08:22.35,0:08:26.35,Default,T,0000,0000,0000,,You've heard that flavor text has \Nbeen coming true lately, right?
+Dialogue: 0,0:08:26.35,0:08:30.86,Default,T,0000,0000,0000,,Which means you might figure \Nout who Shiroe loves.
+Dialogue: 0,0:08:31.46,0:08:33.56,Default,T,0000,0000,0000,,Wouldn't it be better to find out
+Dialogue: 0,0:08:33.56,0:08:37.62,Default,,0000,0000,0000,,from Shiroe himself, rather than \Nsit here alone and suffer?
+Dialogue: 0,0:08:37.62,0:08:38.77,Default,T,0000,0000,0000,,Bye!
+Dialogue: 0,0:08:39.78,0:08:41.42,Default - italics,A,0000,0000,0000,,Coconia fruit...
+Dialogue: 0,0:08:44.71,0:08:46.49,Default - italics,Mi,0000,0000,0000,,Coconia fruit!
+Dialogue: 0,0:08:47.88,0:08:50.50,Default,H,0000,0000,0000,,Even if you have stat boosts from the item,
+Dialogue: 0,0:08:50.89,0:08:53.51,Default,H,0000,0000,0000,,you're still doing quite well at this.
+Dialogue: 0,0:08:53.91,0:08:57.08,Default,M,0000,0000,0000,,Today's the day girls work hardest, after all.
+Dialogue: 0,0:08:57.41,0:08:58.76,Default,H,0000,0000,0000,,Girls?
+Dialogue: 0,0:08:58.98,0:09:01.79,Default,Si,0000,0000,0000,,Wh-Who is she making them for?
+Dialogue: 0,0:09:02.77,0:09:06.77,Default,I,0000,0000,0000,,It's been six weeks since the magic \Ncircle protecting Akihabara vanished.
+Dialogue: 0,0:09:07.23,0:09:09.52,Default,I,0000,0000,0000,,It's more peaceful than I expected.
+Dialogue: 0,0:09:09.52,0:09:13.43,Default,S,0000,0000,0000,,Akihabara was always a place \Nfor high-level adventurers.
+Dialogue: 0,0:09:14.11,0:09:16.95,Default,S,0000,0000,0000,,No monster would willingly wander in,
+Dialogue: 0,0:09:16.95,0:09:19.03,Default,S,0000,0000,0000,,and any that did were wiped out immediately.
+Dialogue: 0,0:09:19.03,0:09:23.04,Default,I,0000,0000,0000,,The Round Table hasn't received \Nany reports about PKs, either.
+Dialogue: 0,0:09:23.41,0:09:25.08,Default,I,0000,0000,0000,,Eins was really worried
+Dialogue: 0,0:09:24.56,0:09:30.03,SignC,I,0000,0000,0000,,We Have {\c&H3256CA&}Chocolate!
+Dialogue: 0,0:09:25.08,0:09:27.78,Default,,0000,0000,0000,,when the Royal Guard system went out of whack,
+Dialogue: 0,0:09:27.78,0:09:30.04,Default,I,0000,0000,0000,,but it's actually working out.
+Dialogue: 0,0:09:30.04,0:09:33.41,Default,S,0000,0000,0000,,Still, we need to keep an eye out to ensure
+Dialogue: 0,0:09:33.41,0:09:35.55,Default,,0000,0000,0000,,that no People of the Land get hurt.
+Dialogue: 0,0:09:35.55,0:09:40.55,Default,I,0000,0000,0000,,Well, the combat guilds are \Ntaking shifts to handle that.
+Dialogue: 0,0:09:40.90,0:09:42.01,Default,S,0000,0000,0000,,That's right.
+Dialogue: 0,0:09:42.73,0:09:45.41,Default,S,0000,0000,0000,,By the way, who's on duty today?
+Dialogue: 0,0:09:45.41,0:09:46.86,Default,I,0000,0000,0000,,West Wind, I think.
+Dialogue: 0,0:09:47.99,0:09:49.94,Default,I,0000,0000,0000,,Come to think of it, I haven't seen them.
+Dialogue: 0,0:09:49.94,0:09:52.57,Default,S,0000,0000,0000,,Today, of all days...
+Dialogue: 0,0:09:53.32,0:09:54.57,Default,Girls,0000,0000,0000,,Soujirou!
+Dialogue: 0,0:09:54.57,0:09:56.57,SignD,Girls,0000,0000,0000,,Leave Your Valentine's Day Chocolate Here
+Dialogue: 0,0:09:54.57,0:09:56.76,Default,Girls,0000,0000,0000,,Please accept this as a sign of my love!
+Dialogue: 0,0:09:56.76,0:09:58.37,Default,Girls,0000,0000,0000,,Wait, I was here first!
+Dialogue: 0,0:09:58.37,0:09:59.73,Default,Girls,0000,0000,0000,,I was! Sou!
+Dialogue: 0,0:09:59.73,0:10:00.89,Default,Girls,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:10:00.89,0:10:02.30,Default,Girls,0000,0000,0000,,Stay in line.
+Dialogue: 0,0:10:02.30,0:10:03.19,Default,S,0000,0000,0000,,Thanks.
+Dialogue: 0,0:10:03.61,0:10:05.22,Default,S,0000,0000,0000,,I'll make sure to eat it, okay?
+Dialogue: 0,0:10:05.22,0:10:08.00,Default,Gi,0000,0000,0000,,Soujirou, thank you!
+Dialogue: 0,0:10:08.78,0:10:10.87,Default,Gi,0000,0000,0000,,Hey, no cutting!
+Dialogue: 0,0:10:11.74,0:10:15.24,Default - italics,L,0000,0000,0000,,Crusty's been missing ever since that day.
+Dialogue: 0,0:10:16.30,0:10:20.69,Default,L,0000,0000,0000,,Jeez, where is that monster? \NAnd what is he doing?
+Dialogue: 0,0:10:21.09,0:10:24.62,Default,L,0000,0000,0000,,I bet if he wanted to, he could \Ncome back right away.
+Dialogue: 0,0:10:24.62,0:10:28.73,Default,E,0000,0000,0000,,Princess Lenessia, why are you \Nin such sloppy dress again?
+Dialogue: 0,0:10:28.73,0:10:30.60,Default,E,0000,0000,0000,,It's past noon.
+Dialogue: 0,0:10:30.60,0:10:32.78,Default,L,0000,0000,0000,,I don't have any public duties today.
+Dialogue: 0,0:10:32.78,0:10:35.01,Default,E,0000,0000,0000,,That isn't the problem.
+Dialogue: 0,0:10:35.01,0:10:37.36,Default,E,0000,0000,0000,,It's important to remember your station.
+Dialogue: 0,0:10:38.38,0:10:42.87,Default,E,0000,0000,0000,,Coconia fruits were sold out today, \Nso I used something else.
+Dialogue: 0,0:10:43.29,0:10:44.97,Default,E,0000,0000,0000,,Here, have some.
+Dialogue: 0,0:10:44.97,0:10:46.51,Default,L,0000,0000,0000,,Thanks, Elissa.
+Dialogue: 0,0:10:47.97,0:10:49.47,Default - italics,L,0000,0000,0000,,Honestly...
+Dialogue: 0,0:10:49.47,0:10:52.99,Default - italics,L,0000,0000,0000,,What does he think a knight's \Npledge means, anyway?
+Dialogue: 0,0:10:54.92,0:10:56.51,Default,L,0000,0000,0000,,It's sweet and delicious!
+Dialogue: 0,0:10:58.42,0:10:59.47,Default,Gu,0000,0000,0000,,Well?
+Dialogue: 0,0:10:59.84,0:11:02.25,Default,Gi,0000,0000,0000,,I feel like I'm getting the hang of it.
+Dialogue: 0,0:11:02.25,0:11:03.22,Default,Gi,0000,0000,0000,,I'm glad.
+Dialogue: 0,0:11:03.54,0:11:05.88,Default,Gu,0000,0000,0000,,There's still more to be done, but...
+Dialogue: 0,0:11:05.88,0:11:10.23,Default,Gu,0000,0000,0000,,I'll look for ingredients that don't \Nput so much stress on the body.
+Dialogue: 0,0:11:10.47,0:11:15.25,Default,Gu,0000,0000,0000,,We at Radio Market are working with \Nthe Roderic Merchant Guild on it.
+Dialogue: 0,0:11:15.25,0:11:17.53,Default,Gu,0000,0000,0000,,Don't worry. It'll work.
+Dialogue: 0,0:11:17.53,0:11:18.93,Default,Gi,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:19.26,0:11:23.24,Default,Gi,0000,0000,0000,,But where did my right arm go?
+Dialogue: 0,0:11:23.51,0:11:26.79,Default,Gu,0000,0000,0000,,From the fact that healing magic doesn't work,
+Dialogue: 0,0:11:26.79,0:11:31.94,Default,,0000,0000,0000,,we can be certain it isn't a type of \Ndamage that was in the old game.
+Dialogue: 0,0:11:31.94,0:11:38.40,Default,Gu,0000,0000,0000,,We can only guess that it's in the same \Nplace as Crusty, wherever he is.
+Dialogue: 0,0:11:39.29,0:11:42.39,Default,Gu,0000,0000,0000,,Either way, this is a very extraordinary case.
+Dialogue: 0,0:11:42.39,0:11:43.67,Default,Gi,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:11:43.67,0:11:46.01,Default,Gi,0000,0000,0000,,Just focus on getting better.
+Dialogue: 0,0:11:46.47,0:11:50.08,Default,Gi,0000,0000,0000,,I'll work super hard until my lord returns!
+Dialogue: 0,0:11:50.61,0:11:52.39,Default,Gi,0000,0000,0000,,Yeah, thanks.
+Dialogue: 0,0:11:55.57,0:11:56.50,Default - italics,Gi,0000,0000,0000,,My lord...
+Dialogue: 0,0:12:01.53,0:12:02.82,Default,Mi,0000,0000,0000,,Nyanta!
+Dialogue: 0,0:12:04.74,0:12:07.33,Default,,0000,0000,0000,,They were cheap, so I bought a lot.
+Dialogue: 0,0:12:07.63,0:12:10.00,Default - italics,Ny,0000,0000,0000,,I bet they weren't cheap at all.
+Dialogue: 0,0:12:10.36,0:12:11.62,Default,Mi,0000,0000,0000,,Nyanta!
+Dialogue: 0,0:12:11.62,0:12:12.71,Default,Ny,0000,0000,0000,,Yes?
+Dialogue: 0,0:12:12.94,0:12:18.21,Default,Mi,0000,0000,0000,,Since Shiroe is always so good to me,
+Dialogue: 0,0:12:18.21,0:12:20.42,Default,,0000,0000,0000,,I wanted to make something for him...
+Dialogue: 0,0:12:20.42,0:12:21.23,Default,,0000,0000,0000,,Meow?
+Dialogue: 0,0:12:21.23,0:12:22.82,Default,Mi,0000,0000,0000,,N-Not like that!
+Dialogue: 0,0:12:22.82,0:12:24.65,Default,Mi,0000,0000,0000,,It's nothing special!
+Dialogue: 0,0:12:25.64,0:12:28.74,Default,Ny,0000,0000,0000,,I understand how you feel.
+Dialogue: 0,0:12:28.74,0:12:30.89,Default,Ny,0000,0000,0000,,I'd be glad to help.
+Dialogue: 0,0:12:31.29,0:12:32.60,Default,Mi,0000,0000,0000,,Nyanta...
+Dialogue: 0,0:12:33.68,0:12:35.10,Default,A,0000,0000,0000,,Excuse me, master.
+Dialogue: 0,0:12:35.53,0:12:39.46,Default,A,0000,0000,0000,,I've returned from a training quest.
+Dialogue: 0,0:12:39.85,0:12:42.02,Default,A,0000,0000,0000,,As a reward, I just happened
+Dialogue: 0,0:12:42.02,0:12:45.11,Default,,0000,0000,0000,,to receive a large number of coconia fruits, so...
+Dialogue: 0,0:12:45.11,0:12:47.80,Default,Ny,0000,0000,0000,,You just happened to get all those?
+Dialogue: 0,0:12:47.80,0:12:49.58,Default,A,0000,0000,0000,,I wanted to make my lord some...
+Dialogue: 0,0:12:49.95,0:12:50.97,Default,A,0000,0000,0000,,Minori?
+Dialogue: 0,0:12:51.35,0:12:52.45,Default,Mi,0000,0000,0000,,Akatsuki?
+Dialogue: 0,0:12:54.66,0:12:56.44,Default - italics,A,0000,0000,0000,,She has coconia fruits, too.
+Dialogue: 0,0:12:56.44,0:12:58.04,Default - italics,A,0000,0000,0000,,For my lord?
+Dialogue: 0,0:12:58.63,0:13:00.57,Default - italics,Mi,0000,0000,0000,,Look how beaten up she got.
+Dialogue: 0,0:13:00.95,0:13:02.59,Default - italics,Mi,0000,0000,0000,,Does she also...
+Dialogue: 0,0:13:06.74,0:13:08.88,Default - italics,Ny,0000,0000,0000,,Wh-What a problem.
+Dialogue: 0,0:13:08.88,0:13:12.52,Default - italics,Ny,0000,0000,0000,,This is one of the worst things to \Nhappen in Log Horizon's history.
+Dialogue: 0,0:13:14.51,0:13:15.39,Default - italics,T,0000,0000,0000,,Oh, man.
+Dialogue: 0,0:13:15.39,0:13:17.40,Default - italics,T,0000,0000,0000,,This is too funny.
+Dialogue: 0,0:13:17.40,0:13:18.81,Default - italics,T,0000,0000,0000,,They're rivals in love.
+Dialogue: 0,0:13:18.81,0:13:19.90,Default,T,0000,0000,0000,,Okay, then!
+Dialogue: 0,0:13:21.72,0:13:25.78,Default,T,0000,0000,0000,,In that case, why not work together?
+Dialogue: 0,0:13:25.78,0:13:28.28,Default,T,0000,0000,0000,,You're both after the same thing.
+Dialogue: 0,0:13:28.54,0:13:29.96,Default,Both,0000,0000,0000,,Work together?
+Dialogue: 0,0:13:29.96,0:13:36.79,Default,Ny,0000,0000,0000,,That's a great idea, but I only have \None Newlywed's Apron Dress.
+Dialogue: 0,0:13:38.66,0:13:39.76,Default,T,0000,0000,0000,,Look!
+Dialogue: 0,0:13:39.76,0:13:42.42,Default,T,0000,0000,0000,,I got one from Marielle!
+Dialogue: 0,0:13:42.42,0:13:44.59,Default,A,0000,0000,0000,,Very well. Master, please teach me.
+Dialogue: 0,0:13:44.59,0:13:45.49,Default - italics,T,0000,0000,0000,,Fast!
+Dialogue: 0,0:13:45.49,0:13:46.68,Default,Mi,0000,0000,0000,,M-Me, too.
+Dialogue: 0,0:13:46.89,0:13:48.37,Default,Ny,0000,0000,0000,,All right.
+Dialogue: 0,0:13:48.37,0:13:51.28,Default,T,0000,0000,0000,,Go! Go! Maidens!
+Dialogue: 0,0:13:51.67,0:13:54.89,Default,T,0000,0000,0000,,But remember that I'm the center of the galaxy!
+Dialogue: 0,0:13:55.20,0:13:56.89,Default,I,0000,0000,0000,,That's strange...
+Dialogue: 0,0:13:57.19,0:13:59.56,Default,I,0000,0000,0000,,Where did Rudy go?
+Dialogue: 0,0:14:04.51,0:14:05.59,Default,I,0000,0000,0000,,Oh, well.
+Dialogue: 0,0:14:05.94,0:14:07.03,Default,I,0000,0000,0000,,I'll head back.
+Dialogue: 0,0:14:07.63,0:14:08.91,Default,N,0000,0000,0000,,Sorry for keeping you.
+Dialogue: 0,0:14:08.91,0:14:10.16,Default,M,0000,0000,0000,,Naotsugu!
+Dialogue: 0,0:14:10.64,0:14:13.06,Default,M,0000,0000,0000,,Today's Valentine's Day, you know, right?
+Dialogue: 0,0:14:13.06,0:14:14.50,Default,N,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:14:15.16,0:14:17.26,Default,M,0000,0000,0000,,So... So...
+Dialogue: 0,0:14:17.89,0:14:20.17,Default,M,0000,0000,0000,,I made you a present! Candy!
+Dialogue: 0,0:14:20.64,0:14:21.90,Default,N,0000,0000,0000,,Thanks.
+Dialogue: 0,0:14:24.45,0:14:28.30,Default,M,0000,0000,0000,,Naotsugu, you know, I... Um...
+Dialogue: 0,0:14:28.30,0:14:30.68,Default,M,0000,0000,0000,,Lately, I've been thinking...
+Dialogue: 0,0:14:31.16,0:14:35.34,Default,M,0000,0000,0000,,You have that cute girl in your guild now.
+Dialogue: 0,0:14:35.34,0:14:38.31,Default,M,0000,0000,0000,,I mean, she doesn't bother me, but...
+Dialogue: 0,0:14:38.97,0:14:43.15,Default,,0000,0000,0000,,What kind of girl is your type?
+Dialogue: 0,0:14:43.44,0:14:44.15,Default,N,0000,0000,0000,,O...
+Dialogue: 0,0:14:44.15,0:14:45.03,Default - italics,M,0000,0000,0000,,"O"?
+Dialogue: 0,0:14:45.54,0:14:46.15,Default,,0000,0000,0000,,O...
+Dialogue: 0,0:14:46.30,0:14:47.74,Default - italics,M,0000,0000,0000,,"Original style?"
+Dialogue: 0,0:14:48.30,0:14:49.22,Default,N,0000,0000,0000,,Pa...
+Dialogue: 0,0:14:49.22,0:14:49.91,Default - italics,M,0000,0000,0000,,"Pa"?
+Dialogue: 0,0:14:49.91,0:14:50.91,Default,N,0000,0000,0000,,...nti—
+Dialogue: 0,0:14:52.02,0:14:54.16,Default,M,0000,0000,0000,,What happened, Naotsugu?!
+Dialogue: 0,0:14:54.55,0:14:56.25,Default,Gu,0000,0000,0000,,A new type of Royal Guard system?
+Dialogue: 0,0:14:57.65,0:14:58.79,Default,Mi,0000,0000,0000,,Akatsuki?
+Dialogue: 0,0:14:58.79,0:15:00.69,Default,Mi,0000,0000,0000,,For a second, it looked like you vanished.
+Dialogue: 0,0:15:00.69,0:15:01.67,Default,Gu,0000,0000,0000,,You imagined it.
+Dialogue: 0,0:15:02.28,0:15:03.16,Default,,0000,0000,0000,,I swear...
+Dialogue: 0,0:15:04.07,0:15:05.71,Default,M,0000,0000,0000,,Naotsugu's such a jerk!
+Dialogue: 0,0:15:05.71,0:15:09.58,Default,M,0000,0000,0000,,Even if he wanted to dodge the question, \Nthere must be better ways to do it!
+Dialogue: 0,0:15:10.41,0:15:11.38,Default,M,0000,0000,0000,,Shouryuu?
+Dialogue: 0,0:15:12.21,0:15:13.16,Default,Sh,0000,0000,0000,,Hi.
+Dialogue: 0,0:15:13.55,0:15:14.43,Default,M,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:15:14.43,0:15:15.91,Default,M,0000,0000,0000,,Want some candy?
+Dialogue: 0,0:15:15.91,0:15:17.52,Default,M,0000,0000,0000,,I made too much.
+Dialogue: 0,0:15:18.36,0:15:19.27,Default,Sh,0000,0000,0000,,For me?
+Dialogue: 0,0:15:20.73,0:15:21.78,Default,M,0000,0000,0000,,Bye.
+Dialogue: 0,0:15:22.35,0:15:24.65,Default,Sh,0000,0000,0000,,I-It still makes me happy!
+Dialogue: 0,0:15:25.17,0:15:26.02,Default,N,0000,0000,0000,,I'm back!
+Dialogue: 0,0:15:26.29,0:15:27.15,Default,S,0000,0000,0000,,I'm back.
+Dialogue: 0,0:15:27.36,0:15:29.89,Default,N,0000,0000,0000,,What the hell was that about?
+Dialogue: 0,0:15:29.89,0:15:30.87,Default,S,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:15:30.87,0:15:33.34,Default,N,0000,0000,0000,,I just got kicked, out of nowhere.
+Dialogue: 0,0:15:33.34,0:15:35.05,Default,Ny,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:15:38.38,0:15:39.69,Default,N,0000,0000,0000,,That looks good!
+Dialogue: 0,0:15:39.69,0:15:40.32,Default,N,0000,0000,0000,,Let me take a—
+Dialogue: 0,0:15:40.32,0:15:41.80,Default,A,0000,0000,0000,,It's not for you!
+Dialogue: 0,0:15:42.61,0:15:45.79,Default,A,0000,0000,0000,,This is an offering from us to my lord.
+Dialogue: 0,0:15:45.79,0:15:46.83,Default,S,0000,0000,0000,,For me?
+Dialogue: 0,0:15:46.83,0:15:47.99,Default,Ny,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:47.99,0:15:52.63,Default,Ny,0000,0000,0000,,These two made this special cake for you.
+Dialogue: 0,0:15:52.94,0:15:54.31,Default,S,0000,0000,0000,,They made it?
+Dialogue: 0,0:15:54.31,0:15:56.60,Default,S,0000,0000,0000,,You mean they cooked it?
+Dialogue: 0,0:15:56.96,0:15:58.33,Default,Ny,0000,0000,0000,,Indeed.
+Dialogue: 0,0:15:58.33,0:16:00.99,Default,Ny,0000,0000,0000,,I gave them the necessary items
+Dialogue: 0,0:16:00.99,0:16:03.32,Default,Ny,0000,0000,0000,,and helped a little. That was all.
+Dialogue: 0,0:16:03.32,0:16:04.86,Default,T,0000,0000,0000,,I cheered them on, too.
+Dialogue: 0,0:16:05.25,0:16:06.34,Default,T,0000,0000,0000,,Come on!
+Dialogue: 0,0:16:06.34,0:16:07.73,Default,T,0000,0000,0000,,Sit down.
+Dialogue: 0,0:16:08.98,0:16:10.82,Default,Both,0000,0000,0000,,Stare.
+Dialogue: 0,0:16:11.20,0:16:13.31,Default - italics,S,0000,0000,0000,,What is going on here?
+Dialogue: 0,0:16:13.31,0:16:15.46,Default - italics,S,0000,0000,0000,,And I have mild trauma when it comes to cakes.
+Dialogue: 0,0:16:15.46,0:16:17.33,Default,A,0000,0000,0000,,My lord, hurry.
+Dialogue: 0,0:16:17.33,0:16:18.83,Default,Mi,0000,0000,0000,,Please taste it.
+Dialogue: 0,0:16:19.83,0:16:21.26,Default,S,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:16:22.09,0:16:23.33,Default,S,0000,0000,0000,,I'll try it.
+Dialogue: 0,0:16:28.81,0:16:29.84,Default,S,0000,0000,0000,,This is...
+Dialogue: 0,0:16:30.25,0:16:31.41,Default,S,0000,0000,0000,,It's good!
+Dialogue: 0,0:16:31.81,0:16:32.92,Default,Mi,0000,0000,0000,,All right!
+Dialogue: 0,0:16:32.92,0:16:35.04,Default,Mi,0000,0000,0000,,Isn't that great, Akatsuki?
+Dialogue: 0,0:16:35.04,0:16:35.47,Default,A,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:39.21,0:16:40.04,Default,,0000,0000,0000,,Meow?
+Dialogue: 0,0:16:40.18,0:16:41.51,Default,T,0000,0000,0000,,This is it!
+Dialogue: 0,0:16:42.77,0:16:46.69,Default - italics,A,0000,0000,0000,,This is the Valentine's Day-only \Neffect of the coconia fruit.
+Dialogue: 0,0:16:47.35,0:16:49.77,Default,T,0000,0000,0000,,He'll answer anything we ask him now!
+Dialogue: 0,0:16:49.77,0:16:51.07,Default,T,0000,0000,0000,,Quickly, quickly!
+Dialogue: 0,0:16:51.67,0:16:55.00,Default - italics,A,0000,0000,0000,,But what should I ask?
+Dialogue: 0,0:16:55.00,0:16:56.99,Default - italics,Mi,0000,0000,0000,,Who he likes?
+Dialogue: 0,0:16:56.99,0:16:58.92,Default - italics,Mi,0000,0000,0000,,If it's Akatsuki...
+Dialogue: 0,0:16:59.29,0:17:01.64,Default - italics,Mi,0000,0000,0000,,No! I'm too scared to ask!
+Dialogue: 0,0:17:02.05,0:17:04.90,Default - italics,A,0000,0000,0000,,What if he says "Kanami"?
+Dialogue: 0,0:17:04.90,0:17:07.43,Default - italics,A,0000,0000,0000,,Who is Kanami, anyway?
+Dialogue: 0,0:17:08.85,0:17:09.71,Default,A,0000,0000,0000,,It's no use.
+Dialogue: 0,0:17:09.71,0:17:11.13,Default,Mi,0000,0000,0000,,I can't do it.
+Dialogue: 0,0:17:11.13,0:17:12.55,Default,I,0000,0000,0000,,Jeez, that Rudy...
+Dialogue: 0,0:17:12.94,0:17:15.32,Default,I,0000,0000,0000,,I never did find him.
+Dialogue: 0,0:17:15.32,0:17:19.60,Default,T,0000,0000,0000,,And I spent all day training. I'm so hungry...
+Dialogue: 0,0:17:19.60,0:17:20.97,Default,T,0000,0000,0000,,I'm starved.
+Dialogue: 0,0:17:20.97,0:17:22.98,Default,T,0000,0000,0000,,What's for dinner tonight?
+Dialogue: 0,0:17:25.25,0:17:27.48,Default,S,0000,0000,0000,,I like curry!
+Dialogue: 0,0:17:30.05,0:17:33.22,Default,N,0000,0000,0000,,Shiro, we all know that. Why say it?
+Dialogue: 0,0:17:33.98,0:17:35.76,Default,S,0000,0000,0000,,Did I say something?
+Dialogue: 0,0:17:35.76,0:17:37.05,Default,Ny,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:37.05,0:17:39.24,Default,Ny,0000,0000,0000,,Okay, let's have curry today, then.
+Dialogue: 0,0:17:39.64,0:17:42.83,Default,T,0000,0000,0000,,Huh, so Shiroe likes curry more than love, huh?
+Dialogue: 0,0:17:44.53,0:17:46.22,Default,A,0000,0000,0000,,But you know...
+Dialogue: 0,0:17:46.70,0:17:48.52,Default,Mi,0000,0000,0000,,This may have been for the best.
+Dialogue: 0,0:17:51.73,0:17:53.26,Default,Ny,0000,0000,0000,,This is for me?
+Dialogue: 0,0:17:53.67,0:17:54.50,Default,Se,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:54.50,0:17:58.25,Default,Se,0000,0000,0000,,I saw them being sold in the market, \Nand I thought they were pretty.
+Dialogue: 0,0:17:58.76,0:18:02.87,Default - italics,Se,0000,0000,0000,,I was going to make him some sweets,
+Dialogue: 0,0:18:02.16,0:18:05.50,SignE,Se,0000,0000,0000,,{\fad(208,209)}Coconia
+Dialogue: 0,0:18:02.87,0:18:05.14,Default - italics,Se,0000,0000,0000,,but coconia fruits were all sold out.
+Dialogue: 0,0:18:05.14,0:18:09.24,Default - italics,Se,0000,0000,0000,,And I couldn't find a Newlywed's \NApron Dress anywhere...
+Dialogue: 0,0:18:12.82,0:18:15.11,Default,Ny,0000,0000,0000,,These flowers have thorns.
+Dialogue: 0,0:18:15.11,0:18:18.03,Default,Ny,0000,0000,0000,,Did you pick them just for me?
+Dialogue: 0,0:18:19.08,0:18:21.28,Default,Ny,0000,0000,0000,,I'm very grateful.
+Dialogue: 0,0:18:21.69,0:18:24.78,Default,Ny,0000,0000,0000,,Oh, we're having curry tonight, by the way.
+Dialogue: 0,0:18:25.33,0:18:27.99,Default,Ny,0000,0000,0000,,Why not join us?
+Dialogue: 0,0:18:29.14,0:18:30.40,Default,Se,0000,0000,0000,,Can I?
+Dialogue: 0,0:18:30.40,0:18:31.82,Default,Ny,0000,0000,0000,,Of course.
+Dialogue: 0,0:18:31.82,0:18:33.58,Default,Se,0000,0000,0000,,Thank you!
+Dialogue: 0,0:18:33.58,0:18:35.73,Default,Se,0000,0000,0000,,I'll help!
+Dialogue: 0,0:18:35.73,0:18:37.96,Default,Se,0000,0000,0000,,I would appreciate that.
+Dialogue: 0,0:18:37.96,0:18:39.14,Default,Se,0000,0000,0000,,Okay!
+Dialogue: 0,0:18:40.75,0:18:41.67,Default,R,0000,0000,0000,,I'm back.
+Dialogue: 0,0:18:41.67,0:18:45.06,Default,I,0000,0000,0000,,Where the heck have you been all day?
+Dialogue: 0,0:18:45.33,0:18:46.92,Default,R,0000,0000,0000,,Oh, sorry...
+Dialogue: 0,0:18:46.92,0:18:48.08,Default,R,0000,0000,0000,,I had something to do.
+Dialogue: 0,0:18:48.08,0:18:49.66,Default,I,0000,0000,0000,,Oh, whatever.
+Dialogue: 0,0:18:49.66,0:18:50.23,Default,I,0000,0000,0000,,Here.
+Dialogue: 0,0:18:50.70,0:18:52.49,Default,R,0000,0000,0000,,What is this?
+Dialogue: 0,0:18:53.88,0:18:56.34,Default,I,0000,0000,0000,,Sweet potato-style coconia fruit.
+Dialogue: 0,0:18:56.34,0:18:58.82,Default,I,0000,0000,0000,,It's not quite dinnertime, \Nbut since I made them, try one.
+Dialogue: 0,0:18:59.14,0:19:00.91,Default,R,0000,0000,0000,,That was nice of you.
+Dialogue: 0,0:19:00.91,0:19:02.38,Default,R,0000,0000,0000,,Okay, I'll try one.
+Dialogue: 0,0:19:04.22,0:19:05.83,Default,R,0000,0000,0000,,This is great!
+Dialogue: 0,0:19:05.83,0:19:07.33,Default,R,0000,0000,0000,,Thanks, Miss Isuzu.
+Dialogue: 0,0:19:07.33,0:19:08.91,Default,I,0000,0000,0000,,Good!
+Dialogue: 0,0:19:10.04,0:19:10.58,Default,I,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:10.94,0:19:12.68,Default,I,0000,0000,0000,,Er... Rudy?
+Dialogue: 0,0:19:13.63,0:19:16.34,Default,R,0000,0000,0000,,I love you all!
+Dialogue: 0,0:19:16.93,0:19:17.84,Default,A,0000,0000,0000,,I see.
+Dialogue: 0,0:19:18.37,0:19:21.35,Default,A,0000,0000,0000,,So it isn't limited to romantic love.
+Dialogue: 0,0:19:23.08,0:19:25.43,Default,T,0000,0000,0000,,I love you, too, Big Bro Rudy.
+Dialogue: 0,0:19:26.34,0:19:27.80,Default,R,0000,0000,0000,,I see! I see!
+Dialogue: 0,0:19:27.80,0:19:29.31,Default,N,0000,0000,0000,,What's gotten into them?
+Dialogue: 0,0:19:29.31,0:19:30.10,Default,S,0000,0000,0000,,No idea.
+Dialogue: 0,0:19:42.50,0:19:43.91,Default,Gi,0000,0000,0000,,Shiro...
+Dialogue: 0,0:19:47.49,0:19:48.58,Default,Gi,0000,0000,0000,,Nureha...
+Dialogue: 0,0:19:49.32,0:19:51.33,Default,Gi,0000,0000,0000,,You're not using your bed again.
+Dialogue: 0,0:19:51.84,0:19:53.17,Default,Gi,0000,0000,0000,,Intix?
+Dialogue: 0,0:19:54.16,0:19:56.96,Default,Gi,0000,0000,0000,,Were you thinking about Shiroe?
+Dialogue: 0,0:19:58.20,0:20:00.09,Default,Gi,0000,0000,0000,,Were you?
+Dialogue: 0,0:20:00.53,0:20:02.09,Default,Gi,0000,0000,0000,,Don't talk about him.
+Dialogue: 0,0:20:03.64,0:20:05.10,Default,Gi,0000,0000,0000,,I told you.
+Dialogue: 0,0:20:05.43,0:20:07.12,Default,Gi,0000,0000,0000,,I told you, didn't I?
+Dialogue: 0,0:20:07.12,0:20:08.84,Default,Gi,0000,0000,0000,,He's no good.
+Dialogue: 0,0:20:09.42,0:20:12.20,Default,Gi,0000,0000,0000,,He's a man who can't be connected to any group.
+Dialogue: 0,0:20:12.64,0:20:14.34,Default,Gi,0000,0000,0000,,He isn't even a player.
+Dialogue: 0,0:20:14.34,0:20:16.61,Default,Gi,0000,0000,0000,,Just powerful interference.
+Dialogue: 0,0:20:17.31,0:20:20.15,Default,Gi,0000,0000,0000,,He is not a man you can have.
+Dialogue: 0,0:20:20.15,0:20:21.80,Default,Gi,0000,0000,0000,,He's just a traitor.
+Dialogue: 0,0:20:22.22,0:20:23.53,Default,Gi,0000,0000,0000,,But he is smart.
+Dialogue: 0,0:20:23.53,0:20:25.37,Default,Gi,0000,0000,0000,,You could say he's fastidious.
+Dialogue: 0,0:20:25.65,0:20:28.37,Default,Gi,0000,0000,0000,,So he knows the smell of the gutter.
+Dialogue: 0,0:20:29.40,0:20:32.62,Default,Gi,0000,0000,0000,,Do you honestly think anyone \Nwill ever care about you?
+Dialogue: 0,0:20:33.32,0:20:37.84,Default,Gi,0000,0000,0000,,Given how dirty, selfish, and ugly you are?
+Dialogue: 0,0:20:37.84,0:20:38.84,Default,Gi,0000,0000,0000,,Stop it!
+Dialogue: 0,0:20:41.16,0:20:43.53,Default,Gi,0000,0000,0000,,You're covered in lies.
+Dialogue: 0,0:20:44.16,0:20:46.85,Default,Gi,0000,0000,0000,,There isn't the tiniest bit of truth in you.
+Dialogue: 0,0:20:47.20,0:20:48.96,Default,Gi,0000,0000,0000,,Once someone gets to know you,
+Dialogue: 0,0:20:48.96,0:20:52.85,Default,,0000,0000,0000,,they'll find your past smells worse than a sewer.
+Dialogue: 0,0:20:53.46,0:21:00.36,Default,Gi,0000,0000,0000,,You, who just kept staring longingly \Nat us with that creepy smile...
+Dialogue: 0,0:21:00.68,0:21:01.61,Default,Gi,0000,0000,0000,,Stop it!
+Dialogue: 0,0:21:01.61,0:21:02.99,Default,Gi,0000,0000,0000,,Please understand.
+Dialogue: 0,0:21:04.10,0:21:08.33,Default,Gi,0000,0000,0000,,Don't be arrogant enough to \Nthink that someone like you
+Dialogue: 0,0:21:08.33,0:21:10.52,Default,,0000,0000,0000,,could ever be connected to anyone.
+Dialogue: 0,0:21:10.52,0:21:16.50,Default,Gi,0000,0000,0000,,I'm the only one who would make a contract \Nwith a filthy woman like you.
+Dialogue: 0,0:21:18.93,0:21:23.47,Default,Gi,0000,0000,0000,,You're the perfect princess for \Nlooking at from a distance.
+Dialogue: 0,0:21:23.72,0:21:25.58,Default,Gi,0000,0000,0000,,Please realize that things
+Dialogue: 0,0:21:25.58,0:21:29.10,Default,,0000,0000,0000,,aren't like they were when this was your salon.
+Dialogue: 0,0:21:29.36,0:21:31.56,Default,Gi,0000,0000,0000,,Not here in Plant Hwyaden.
+Dialogue: 0,0:21:32.65,0:21:36.81,Default,,0000,0000,0000,,You'll collect lots of wooden dolls \Nand make yourself a castle.
+Dialogue: 0,0:21:37.38,0:21:41.17,Default,Gi,0000,0000,0000,,And I will gain the entire Yamato server.
+Dialogue: 0,0:21:41.71,0:21:44.45,Default,Gi,0000,0000,0000,,That was the deal, right?
+Dialogue: 0,0:21:44.45,0:21:47.54,Default,Gi,0000,0000,0000,,You're going to create a place \Nwhere you belong, aren't you?
+Dialogue: 0,0:21:48.48,0:21:51.55,Default,Gi,0000,0000,0000,,The Council of Ten Seats is about to begin.
+Dialogue: 0,0:21:52.19,0:21:55.13,Default,Gi,0000,0000,0000,,Well, you're only a figurehead,
+Dialogue: 0,0:21:55.13,0:21:57.34,Default,Gi,0000,0000,0000,,so just come if you feel like it.
+Dialogue: 0,0:22:02.53,0:22:03.76,Default - italics,Gi,0000,0000,0000,,No.
+Dialogue: 0,0:22:04.51,0:22:06.01,Default - italics,Gi,0000,0000,0000,,Not anymore,
+Dialogue: 0,0:22:06.95,0:22:08.21,Default - italics,,0000,0000,0000,,Intix.
+Dialogue: 0,0:22:08.79,0:22:11.02,Default - italics,Gi,0000,0000,0000,,It isn't just about my contract with you.
+Dialogue: 0,0:22:11.65,0:22:13.02,Default - italics,Gi,0000,0000,0000,,I...
+Dialogue: 0,0:22:13.39,0:22:18.16,Default - flashback,S,0000,0000,0000,,I can give you what you want more \Neasily as a foe than a friend.
+Dialogue: 0,0:22:19.42,0:22:23.76,Default - flashback,S,0000,0000,0000,,I'll be your enemy, whenever you \Ndecide to find a reason.
+Dialogue: 0,0:22:26.41,0:22:30.30,Default,Gi,0000,0000,0000,,I have a promise!
+Dialogue: 0,0:24:07.04,0:24:08.87,Default,Preview,0000,0000,0000,,This is the China server.
+Dialogue: 0,0:24:08.87,0:24:11.84,Default,Preview,0000,0000,0000,,The chaos of the Apocalypse \Ncontinues across the world.
+Dialogue: 0,0:24:12.16,0:24:16.96,Default,Preview,0000,0000,0000,,But one adventurer gathers friends, \Nand fights to protect the people.
+Dialogue: 0,0:24:17.51,0:24:21.64,Default,Preview,0000,0000,0000,,She is the former leader of \Nthe Debauchery Tea Party.
+Dialogue: 0,0:24:21.94,0:24:23.10,Default,Preview,0000,0000,0000,,Her name is...
+Dialogue: 0,0:24:23.60,0:24:25.88,Default,Next time,0000,0000,0000,,Next time: Kanami, Go East.
+Dialogue: 0,0:24:23.60,0:24:30.94,Title,Next time,0000,0000,0000,,Kanami, Go East
+Dialogue: 0,0:24:26.49,0:24:28.29,Default,Next time,0000,0000,0000,,I have friends to run with me.

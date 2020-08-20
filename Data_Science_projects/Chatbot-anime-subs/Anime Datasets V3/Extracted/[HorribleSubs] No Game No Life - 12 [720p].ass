@@ -1,0 +1,470 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ngnl-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-main-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-internal-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000026,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: ngnl-internaloverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashbackoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-ep-title,Open Sans Semibold,36,&H00F9FFFD,&H000000FF,&H009E29F0,&H00D1FDFF,0,0,0,0,100,100,0,0,1,2,0,3,87,95,127,0
+Style: ngnl-eyecatch,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,1,75,61,127,0
+Style: ngnl-preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-next-ep-title,Open Sans Semibold,38,&H00F8FFEB,&H000000FF,&H00D200DB,&H00000A2D,1,0,0,0,100,100,0,0,1,2,0,3,88,67,113,0
+Style: ngnl-red text,Open Sans Semibold,29,&H00E9E4F3,&H000000FF,&H006B4BAE,&H00222A17,0,0,0,0,100,100,0,0,1,2,0,4,27,27,0,0
+Style: location,Open Sans Semibold,26,&H00E9E4F3,&H000000FF,&H00894EC6,&H00894EC6,1,0,0,0,100,100,0,0,1,1,1,2,0,0,93,0
+Style: rule,Open Sans Semibold,22,&H00FBDFFA,&H000000FF,&H00E37BED,&H0047505D,0,0,0,0,100,100,0,0,1,2,0,9,13,147,40,0
+Style: swwear,Open Sans Semibold,51,&H00FFFFFF,&H000000FF,&H00C72FF9,&H00894EC6,0,0,0,0,100,100,0,0,1,2,0,8,13,13,133,0
+Style: elukia,Open Sans Semibold,35,&H00152594,&H000000FF,&H003DB1D6,&H00D1FDFF,1,0,0,0,100,100,0,0,1,2,0,8,13,100,60,0
+Style: ef,Open Sans Semibold,35,&H00152594,&H000000FF,&H0049B0D7,&H00D1FDFF,1,0,0,0,100,100,0,0,1,2,0,7,127,0,53,0
+Style: fed,Open Sans Semibold,35,&H00152594,&H000000FF,&H0049B0D7,&H00D1FDFF,1,0,0,0,100,100,0,0,1,2,0,8,0,0,53,0
+Style: phone,Open Sans Semibold,26,&H00D2B09F,&H000000FF,&H00F6EEED,&H00D1FDFF,0,0,0,0,100,100,0,0,1,4,0,7,267,13,60,0
+Style: together,Open Sans Semibold,22,&H007473E1,&H000000FF,&H00E6F3FF,&H00A24C6C,1,0,0,0,100,100,0,0,1,3,0,4,80,0,80,0
+Style: cute,Open Sans Semibold,47,&H005D23E6,&H000000FF,&H008980D9,&H00E4EEFC,1,0,0,0,100,100,0,0,1,1,4,9,20,67,20,0
+Style: ael,Open Sans Semibold,26,&H00CC28DE,&H000000FF,&H00FCB6F6,&H00F5F2F3,1,0,0,0,100,100,0,0,1,1,2,7,27,160,193,0
+Style: ten,Open Sans Semibold,35,&H00C2ADED,&H000000FF,&H00000000,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,7,133,27,53,0
+Style: pledges,Open Sans Semibold,24,&H008261C5,&H000000FF,&H00000000,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,4,84,27,67,0
+Style: pledges - Copy,Open Sans Semibold,24,&H008261C5,&H000000FF,&H00000000,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,4,84,27,0,0
+Style: pledges - tet,Open Sans Semibold,24,&H00FFEFCB,&H000000FF,&H00000000,&H006F808B,1,0,0,0,100,100,0,0,1,0,0,1,84,27,200,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.93,0:00:03.60,ngnl-flashback,S,0000,0000,0000,,Hey, Izuna.
+Dialogue: 0,0:00:03.95,0:00:05.76,ngnl-flashback,Iz,0000,0000,0000,,What, please?
+Dialogue: 0,0:00:05.76,0:00:09.95,ngnl-flashback,S,0000,0000,0000,,When's the last time you \Nthought a game was fun?
+Dialogue: 0,0:00:12.33,0:00:14.99,ngnl-flashback,S,0000,0000,0000,,Sorry, Izuna, but you're going to lose.
+Dialogue: 0,0:00:16.21,0:00:18.76,ngnl-flashbackinternal,Sh,0000,0000,0000,,Blank doesn't lose.
+Dialogue: 0,0:00:30.95,0:00:33.51,ngnl-main,I,0000,0000,0000,,This is fun!
+Dialogue: 0,0:00:37.09,0:00:38.52,ngnl-main,S,0000,0000,0000,,What?
+Dialogue: 0,0:00:39.75,0:00:41.61,ngnl-main,S,0000,0000,0000,,A double jump? You've gotta be kidding!
+Dialogue: 0,0:00:41.61,0:00:42.52,ngnl-main,Sh,0000,0000,0000,,Cheater!
+Dialogue: 0,0:01:02.39,0:01:05.21,ngnl-main,C,0000,0000,0000,,I-Is that...
+Dialogue: 0,0:01:05.99,0:01:08.95,ngnl-main,C,0000,0000,0000,,The ability that only a few Warbeasts possess
+Dialogue: 0,0:01:09.48,0:01:12.15,ngnl-main,,0000,0000,0000,,to overcome their own physical limits...
+Dialogue: 0,0:01:12.57,0:01:13.88,ngnl-main,C,0000,0000,0000,,"Blood Destruction"?
+Dialogue: 0,0:01:17.81,0:01:20.06,ngnl-main,I,0000,0000,0000,,I won't lose!
+Dialogue: 0,0:01:22.66,0:01:23.93,ngnl-main,Mi,0000,0000,0000,,Now, then...
+Dialogue: 0,0:01:25.89,0:01:31.53,ngnl-ep-title,Mi,0000,0000,0000,,{\fad(1000,100)}Rule Number 10
+Dialogue: 0,0:01:34.84,0:01:37.35,ngnl-main,S,0000,0000,0000,,That's not just a double jump!
+Dialogue: 0,0:01:37.35,0:01:39.01,ngnl-main,Sh,0000,0000,0000,,That's a bug!
+Dialogue: 0,0:01:48.48,0:01:49.59,ngnl-main,Sh,0000,0000,0000,,I can't predict what she'll do!
+Dialogue: 0,0:01:50.84,0:01:52.66,ngnl-main,S,0000,0000,0000,,Beyond physical limits, huh?
+Dialogue: 0,0:01:55.53,0:01:58.43,ngnl-main,S,0000,0000,0000,,So this is her real cheat, huh?
+Dialogue: 0,0:02:07.97,0:02:10.59,ngnl-internal,In,0000,0000,0000,,The difference between their \Nstrengths is overwhelming.
+Dialogue: 0,0:02:10.59,0:02:13.73,ngnl-internal,In,0000,0000,0000,,This battle is already over.
+Dialogue: 0,0:02:17.67,0:02:20.16,ngnl-main,S,0000,0000,0000,,I predicted this to a certain extent,
+Dialogue: 0,0:02:20.16,0:02:21.89,ngnl-main,S,0000,0000,0000,,but I never expected all this.
+Dialogue: 0,0:02:21.89,0:02:24.35,ngnl-main,Sh,0000,0000,0000,,I can't calculate what to do...
+Dialogue: 0,0:02:24.35,0:02:26.26,ngnl-main,S,0000,0000,0000,,I told you she's going beyond \Nphysical limits, didn't I?
+Dialogue: 0,0:02:26.76,0:02:30.07,ngnl-main,S,0000,0000,0000,,So physics equations won't help you.
+Dialogue: 0,0:02:30.68,0:02:31.91,ngnl-main,Sh,0000,0000,0000,,Brother...
+Dialogue: 0,0:02:31.91,0:02:33.66,ngnl-main,S,0000,0000,0000,,At times like this, leave everything to me.
+Dialogue: 0,0:02:35.00,0:02:38.19,ngnl-main,S,0000,0000,0000,,Let your brother's bluffs take care of it!
+Dialogue: 0,0:02:40.26,0:02:42.05,ngnl-internal,S,0000,0000,0000,,With this kind of speed,
+Dialogue: 0,0:02:42.05,0:02:46.67,ngnl-internal,S,0000,0000,0000,,she'll predict that I'll dodge, \Nand try to block both sides!
+Dialogue: 0,0:02:46.67,0:02:52.26,ngnl-internal,S,0000,0000,0000,,And once she decides that I won't dodge, \Nshe'll fire down the middle!
+Dialogue: 0,0:02:55.21,0:02:56.05,ngnl-internal,S,0000,0000,0000,,Two shots?
+Dialogue: 0,0:02:57.97,0:02:58.94,ngnl-internal,S,0000,0000,0000,,No!
+Dialogue: 0,0:02:58.94,0:03:00.46,ngnl-internal,S,0000,0000,0000,,This is what Izuna was after?
+Dialogue: 0,0:03:05.48,0:03:08.77,ngnl-internal,In,0000,0000,0000,,Sora and Shiro's heartbeats \Nhave both gone flat.
+Dialogue: 0,0:03:08.77,0:03:11.06,ngnl-internal,In,0000,0000,0000,,A perfect headshot.
+Dialogue: 0,0:03:11.06,0:03:12.67,ngnl-internal,In,0000,0000,0000,,There's no way to disguise that.
+Dialogue: 0,0:03:13.89,0:03:17.68,ngnl-internal,In,0000,0000,0000,,You got them, Izuna!
+Dialogue: 0,0:03:36.70,0:03:38.36,ngnl-main,I,0000,0000,0000,,I won!
+Dialogue: 0,0:03:38.36,0:03:41.38,ngnl-main,I,0000,0000,0000,,I won!
+Dialogue: 0,0:03:42.49,0:03:45.15,ngnl-main,I,0000,0000,0000,,I did it!
+Dialogue: 0,0:03:49.76,0:03:51.21,ngnl-main,Iz,0000,0000,0000,,What was that?
+Dialogue: 0,0:03:55.72,0:03:57.68,ngnl-main,T,0000,0000,0000,,S-Sora?
+Dialogue: 0,0:03:58.34,0:04:00.25,ngnl-main,T,0000,0000,0000,,Was that okay?
+Dialogue: 0,0:04:00.25,0:04:03.15,ngnl-main,T,0000,0000,0000,,Can I open my eyes now?
+Dialogue: 0,0:04:03.55,0:04:04.55,ngnl-main,T,0000,0000,0000,,Shiro?
+Dialogue: 0,0:04:05.01,0:04:07.55,ngnl-main,T,0000,0000,0000,,Are you two there?
+Dialogue: 0,0:04:08.11,0:04:09.80,ngnl-main,Sh,0000,0000,0000,,Looks like it worked.
+Dialogue: 0,0:04:09.80,0:04:10.63,ngnl-main,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:11.38,0:04:14.37,ngnl-main,I,0000,0000,0000,,Was that their plan?
+Dialogue: 0,0:04:15.71,0:04:19.24,ngnl-main,S,0000,0000,0000,,Even if you have a sixth sense, \Nyou didn't see that coming, right?
+Dialogue: 0,0:04:20.00,0:04:23.61,ngnl-main,S,0000,0000,0000,,When Shiro bounced her shot \Noff of Jibril's bullet,
+Dialogue: 0,0:04:23.61,0:04:25.24,ngnl-main,,0000,0000,0000,,she wasn't aiming for you.
+Dialogue: 0,0:04:25.24,0:04:26.18,ngnl-main,Sh,0000,0000,0000,,I was aiming below...
+Dialogue: 0,0:04:26.18,0:04:29.51,ngnl-main,S,0000,0000,0000,,...at Steph, who was being \Ncarried by one of the girls below.
+Dialogue: 0,0:04:29.51,0:04:31.26,ngnl-main,I,0000,0000,0000,,What?
+Dialogue: 0,0:04:31.26,0:04:34.77,ngnl-main,S,0000,0000,0000,,NPC movement is controlled by certain rules.
+Dialogue: 0,0:04:34.77,0:04:37.07,ngnl-main,Sh,0000,0000,0000,,In other words, you can \Npredict where they'll be.
+Dialogue: 0,0:04:37.07,0:04:39.49,ngnl-main,S,0000,0000,0000,,And NPCs don't make a sound as they walk.
+Dialogue: 0,0:04:39.49,0:04:41.54,ngnl-main,S,0000,0000,0000,,Since Steph was unconscious, \Nyou couldn't sense
+Dialogue: 0,0:04:41.54,0:04:43.09,ngnl-main,,0000,0000,0000,,her desire to attack you.
+Dialogue: 0,0:04:43.51,0:04:45.62,ngnl-main,S,0000,0000,0000,,It was impossible to detect her.
+Dialogue: 0,0:04:46.05,0:04:48.53,ngnl-main,S,0000,0000,0000,,And before the game,
+Dialogue: 0,0:04:48.53,0:04:51.16,ngnl-main,,0000,0000,0000,,I bound Steph with the \Npledges to obey any order
+Dialogue: 0,0:04:51.16,0:04:54.77,ngnl-main,,0000,0000,0000,,that Shiro had written on \Nthe ground, but to forget it.
+Dialogue: 0,0:04:55.14,0:04:57.40,ngnl-flashback,T,0000,0000,0000,,"Once your love power is restored,
+Dialogue: 0,0:04:57.40,0:04:58.97,ngnl-flashback,,0000,0000,0000,,wait until your energy is
+Dialogue: 0,0:04:58.97,0:05:01.01,ngnl-flashback,,0000,0000,0000,,just about to run out and \Nthen fire straight ahead"?
+Dialogue: 0,0:05:02.88,0:05:05.38,ngnl-main,Sh,0000,0000,0000,,All we had to do then was
+Dialogue: 0,0:05:05.88,0:05:08.03,ngnl-main,,0000,0000,0000,,calculate the NPC's movements \Nand lead her there.
+Dialogue: 0,0:05:08.48,0:05:09.39,ngnl-main,I,0000,0000,0000,,Impossible.
+Dialogue: 0,0:05:09.75,0:05:13.72,ngnl-main,I,0000,0000,0000,,That's not calculating, that's...
+Dialogue: 0,0:05:13.72,0:05:15.28,ngnl-main,S,0000,0000,0000,,"Seeing the future," right?
+Dialogue: 0,0:05:16.20,0:05:18.63,ngnl-main,S,0000,0000,0000,,Is that what you're thinking, mister?
+Dialogue: 0,0:05:19.92,0:05:22.88,ngnl-main,S,0000,0000,0000,,You've been monitoring our \Nheartbeats the whole time and
+Dialogue: 0,0:05:22.88,0:05:24.56,ngnl-main,,0000,0000,0000,,telling Izuna where we were, right?
+Dialogue: 0,0:05:24.56,0:05:25.90,ngnl-internal,In,0000,0000,0000,,Impossible...
+Dialogue: 0,0:05:25.90,0:05:28.61,ngnl-internal,In,0000,0000,0000,,They knew it, and took advantage of it?
+Dialogue: 0,0:05:28.61,0:05:32.85,ngnl-main,S,0000,0000,0000,,Ultimately, there are only two \Nactions you can take in a game.
+Dialogue: 0,0:05:33.51,0:05:35.71,ngnl-main,Sh,0000,0000,0000,,Advance your own strategy,
+Dialogue: 0,0:05:35.71,0:05:37.51,ngnl-main,,0000,0000,0000,,or respond to another player's strategy.
+Dialogue: 0,0:05:37.51,0:05:40.05,ngnl-main,Sh,0000,0000,0000,,It's a question of who has the initiative.
+Dialogue: 0,0:05:40.05,0:05:43.39,ngnl-main,S,0000,0000,0000,,In this case, we held the initiative \Nthroughout the entire game.
+Dialogue: 0,0:05:43.39,0:05:45.10,ngnl-main,S,0000,0000,0000,,That's all there is to it.
+Dialogue: 0,0:05:45.53,0:05:47.66,ngnl-main,S,0000,0000,0000,,You thought you were making moves,
+Dialogue: 0,0:05:47.66,0:05:49.56,ngnl-main,,0000,0000,0000,,but we were controlling what you did.
+Dialogue: 0,0:05:50.00,0:05:54.30,ngnl-main,S,0000,0000,0000,,It wasn't precognition; \Nthe result was inevitable.
+Dialogue: 0,0:05:55.07,0:05:57.99,ngnl-main,S,0000,0000,0000,,The weak have their own way of fighting.
+Dialogue: 0,0:06:01.09,0:06:04.61,ngnl-main,S,0000,0000,0000,,We leave it to the strong to \Nfight each other head-on.
+Dialogue: 0,0:06:09.86,0:06:14.23,ngnl-main,S,0000,0000,0000,,Now then, can we get our \Ndeclaration of victory, old man?
+Dialogue: 0,0:06:18.18,0:06:20.87,ngnl-main,I,0000,0000,0000,,The winner is Elkia.
+Dialogue: 0,0:06:21.24,0:06:22.95,ngnl-main,I,0000,0000,0000,,In accordance with the pledges,
+Dialogue: 0,0:06:22.95,0:06:27.02,ngnl-main,,0000,0000,0000,,the Eastern Federation turns over \Nall rights it owns on the continent
+Dialogue: 0,0:06:27.02,0:06:29.49,ngnl-main,,0000,0000,0000,,to the kingdom of Elkia.
+Dialogue: 0,0:06:32.83,0:06:33.85,ngnl-main,Sh,0000,0000,0000,,Hey, Brother...
+Dialogue: 0,0:06:33.85,0:06:37.66,ngnl-main,Sh,0000,0000,0000,,You deliberately left my shirt, \Nso why did you aim for my panties?
+Dialogue: 0,0:06:37.98,0:06:40.24,ngnl-main,S,0000,0000,0000,,Don't ask that! You know the answer!
+Dialogue: 0,0:06:40.24,0:06:42.68,ngnl-main,S,0000,0000,0000,,I couldn't let all these \Npeople see you naked!
+Dialogue: 0,0:06:42.88,0:06:46.23,ngnl-main,T,0000,0000,0000,,You're talking like it doesn't \Nmatter if they see me naked!
+Dialogue: 0,0:06:46.23,0:06:50.99,ngnl-main,T,0000,0000,0000,,Now, now, your magnificent \Nactions won the day, Dola-chan.
+Dialogue: 0,0:06:50.99,0:06:52.92,ngnl-main,S,0000,0000,0000,,Oh, Jibril. Good work.
+Dialogue: 0,0:06:52.92,0:06:55.55,ngnl-main,S,0000,0000,0000,,You did everything according \Nto plan. Well done.
+Dialogue: 0,0:06:55.55,0:06:58.16,ngnl-main,J,0000,0000,0000,,Yes. I'll do anything you order, Master.
+Dialogue: 0,0:06:58.16,0:06:58.98,ngnl-main,I,0000,0000,0000,,Now...
+Dialogue: 0,0:07:01.12,0:07:03.67,ngnl-main,,0000,0000,0000,,Now... the Eastern Federation is...
+Dialogue: 0,0:07:04.82,0:07:06.40,ngnl-main,,0000,0000,0000,,The Warbeasts are...
+Dialogue: 0,0:07:07.30,0:07:11.03,ngnl-main,In,0000,0000,0000,,Izuna, it's not your fault.
+Dialogue: 0,0:07:11.03,0:07:15.31,ngnl-main,In,0000,0000,0000,,The home country decided it, and I ordered it.
+Dialogue: 0,0:07:15.65,0:07:17.75,ngnl-main,S,0000,0000,0000,,That's not it, is it, Izuna?
+Dialogue: 0,0:07:18.68,0:07:23.01,ngnl-main,S,0000,0000,0000,,You're confused and don't know \Nwhat to do, because you had fun.
+Dialogue: 0,0:07:23.01,0:07:23.66,ngnl-main,S,0000,0000,0000,,Right?
+Dialogue: 0,0:07:25.47,0:07:28.27,ngnl-main,In,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:07:28.99,0:07:34.25,ngnl-main,In,0000,0000,0000,,So many people are going \Nto suffer because I lost.
+Dialogue: 0,0:07:35.28,0:07:36.73,ngnl-main,Sh,0000,0000,0000,,But you were
+Dialogue: 0,0:07:38.06,0:07:40.02,ngnl-main,,0000,0000,0000,,smiling then, Izuna-tan.
+Dialogue: 0,0:07:41.69,0:07:42.54,ngnl-main,I,0000,0000,0000,,Why?
+Dialogue: 0,0:07:43.07,0:07:46.86,ngnl-main,I,0000,0000,0000,,Why did I smile?
+Dialogue: 0,0:07:46.86,0:07:50.81,ngnl-main,I,0000,0000,0000,,Because I did, the Eastern \NFederation will be taken over,
+Dialogue: 0,0:07:50.81,0:07:52.34,ngnl-main,I,0000,0000,0000,,and so many people will...
+Dialogue: 0,0:07:53.69,0:07:58.14,ngnl-main,I,0000,0000,0000,,And it's all my fault for having fun.
+Dialogue: 0,0:07:58.14,0:07:59.52,ngnl-main,S,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:08:00.90,0:08:04.56,ngnl-main,S,0000,0000,0000,,We would've won, no matter what you thought.
+Dialogue: 0,0:08:05.41,0:08:06.33,ngnl-main,S,0000,0000,0000,,Well?
+Dialogue: 0,0:08:06.33,0:08:07.85,ngnl-main,S,0000,0000,0000,,How does it feel to know
+Dialogue: 0,0:08:07.85,0:08:11.18,ngnl-main,,0000,0000,0000,,that there's an enemy you can't defeat, \Nno matter how hard you try?
+Dialogue: 0,0:08:11.65,0:08:12.80,ngnl-main,S,0000,0000,0000,,To put it mildly...
+Dialogue: 0,0:08:13.63,0:08:14.90,ngnl-main,S,0000,0000,0000,,It's awesome...
+Dialogue: 0,0:08:14.90,0:08:15.57,ngnl-main,S,0000,0000,0000,,Right?
+Dialogue: 0,0:08:17.32,0:08:19.58,ngnl-main,S,0000,0000,0000,,Your first loss hurt,
+Dialogue: 0,0:08:20.42,0:08:22.59,ngnl-main,S,0000,0000,0000,,but that's why it was fun.
+Dialogue: 0,0:08:24.12,0:08:27.62,ngnl-main,S,0000,0000,0000,,Once you understand that, \Nyou're a friend of ours.
+Dialogue: 0,0:08:28.46,0:08:29.88,ngnl-main,S,0000,0000,0000,,Welcome, Izuna.
+Dialogue: 0,0:08:30.40,0:08:32.59,ngnl-main,S,0000,0000,0000,,You're a gamer now.
+Dialogue: 0,0:08:39.33,0:08:42.23,ngnl-main,In,0000,0000,0000,,Next time, I won't lose!
+Dialogue: 0,0:08:44.09,0:08:47.43,ngnl-main,S,0000,0000,0000,,You know, you seem to have \Nthe wrong idea about this.
+Dialogue: 0,0:08:47.43,0:08:50.24,ngnl-main,S,0000,0000,0000,,Nobody's going to die, \Nand nobody's going to suffer.
+Dialogue: 0,0:08:50.24,0:08:52.10,ngnl-main,S,0000,0000,0000,,This world is a game.
+Dialogue: 0,0:08:52.45,0:08:55.45,ngnl-main,S,0000,0000,0000,,Everyone here fails to understand that.
+Dialogue: 0,0:08:56.59,0:08:59.71,ngnl-main,C,0000,0000,0000,,The wisdom to predict the future,
+Dialogue: 0,0:09:00.13,0:09:02.94,ngnl-main,,0000,0000,0000,,born of Imanity's learning and experience...
+Dialogue: 0,0:09:04.20,0:09:06.66,ngnl-main,C,0000,0000,0000,,Fine. I'll believe in it.
+Dialogue: 0,0:09:07.70,0:09:10.00,ngnl-internal,C,0000,0000,0000,,Fi, we're heading home.
+Dialogue: 0,0:09:10.00,0:09:11.33,ngnl-internal,C,0000,0000,0000,,There's a lot to do.
+Dialogue: 0,0:09:11.93,0:09:13.56,ngnl-main,F,0000,0000,0000,,Right.
+Dialogue: 0,0:09:20.67,0:09:23.05,ngnl-main,I,0000,0000,0000,,I hate baths.
+Dialogue: 0,0:09:23.05,0:09:24.40,ngnl-main,Sh,0000,0000,0000,,I totally agree,
+Dialogue: 0,0:09:24.40,0:09:26.07,ngnl-main,Sh,0000,0000,0000,,but right now, your objection is denied.
+Dialogue: 0,0:09:26.07,0:09:29.11,ngnl-main,J,0000,0000,0000,,Master, you're really into this today.
+Dialogue: 0,0:09:29.11,0:09:32.65,ngnl-main,Sh,0000,0000,0000,,I was so excited about \Nwashing Izuna-tan's tail.
+Dialogue: 0,0:09:32.65,0:09:34.32,ngnl-main,I,0000,0000,0000,,That tickles!
+Dialogue: 0,0:09:34.32,0:09:38.21,ngnl-main,J,0000,0000,0000,,You're sure getting along well now,
+Dialogue: 0,0:09:38.21,0:09:41.50,ngnl-main,J,0000,0000,0000,,especially given how pessimistic \Nyou were after the fight.
+Dialogue: 0,0:09:41.50,0:09:44.80,ngnl-main,S,0000,0000,0000,,Brother talked to Izuna-tan afterwards.
+Dialogue: 0,0:09:45.25,0:09:48.84,ngnl-main,S,0000,0000,0000,,He told her why nobody will suffer \Neven if the Eastern Federation
+Dialogue: 0,0:09:48.84,0:09:50.40,ngnl-main,,0000,0000,0000,,is absorbed into Elkia.
+Dialogue: 0,0:09:50.40,0:09:52.12,ngnl-main,In,0000,0000,0000,,What is it?
+Dialogue: 0,0:09:52.12,0:09:52.74,ngnl-main,,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:52.74,0:09:56.03,ngnl-main,In,0000,0000,0000,,What lies did you tell to deceive Izuna,
+Dialogue: 0,0:09:56.03,0:09:57.28,ngnl-main,In,0000,0000,0000,,you bald monkey?
+Dialogue: 0,0:09:57.28,0:09:58.60,ngnl-main,S,0000,0000,0000,,Lies?
+Dialogue: 0,0:09:58.60,0:09:59.91,ngnl-main,S,0000,0000,0000,,I only told her the truth.
+Dialogue: 0,0:09:59.91,0:10:00.81,ngnl-main,In,0000,0000,0000,,What?
+Dialogue: 0,0:10:01.13,0:10:02.65,ngnl-main,S,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:10:02.65,0:10:05.43,ngnl-main,S,0000,0000,0000,,Even if I told you, \Nthere's nothing you could do.
+Dialogue: 0,0:10:06.14,0:10:06.85,ngnl-main,S,0000,0000,0000,,Besides...
+Dialogue: 0,0:10:06.85,0:10:09.19,ngnl-main,T,0000,0000,0000,,Oh, no! Oh, no!
+Dialogue: 0,0:10:09.19,0:10:11.25,ngnl-main,T,0000,0000,0000,,The Eastern Federation... \NThe Eastern Federation!
+Dialogue: 0,0:10:13.31,0:10:15.14,ngnl-main,S,0000,0000,0000,,The Eastern Federation moved all of their
+Dialogue: 0,0:10:15.14,0:10:17.65,ngnl-main,,0000,0000,0000,,major technology and \Npersonnel off the continent
+Dialogue: 0,0:10:17.65,0:10:19.89,ngnl-main,,0000,0000,0000,,before the game started, right?
+Dialogue: 0,0:10:19.89,0:10:21.64,ngnl-main,T,0000,0000,0000,,You knew?
+Dialogue: 0,0:10:21.64,0:10:24.10,ngnl-main,S,0000,0000,0000,,I'd do the same thing, obviously.
+Dialogue: 0,0:10:24.10,0:10:26.39,ngnl-main,T,0000,0000,0000,,So why didn't you stop them?
+Dialogue: 0,0:10:26.39,0:10:28.84,ngnl-main,T,0000,0000,0000,,We managed to take back \Nthe continent, but now...
+Dialogue: 0,0:10:28.84,0:10:30.40,ngnl-main,S,0000,0000,0000,,It's fine.
+Dialogue: 0,0:10:30.40,0:10:32.61,ngnl-main,S,0000,0000,0000,,The game isn't over.
+Dialogue: 0,0:10:35.01,0:10:35.98,ngnl-main,S,0000,0000,0000,,Right,
+Dialogue: 0,0:10:36.59,0:10:39.12,ngnl-main,S,0000,0000,0000,,Designated Representative \Nof the Eastern Federation?
+Dialogue: 0,0:10:43.61,0:10:46.29,ngnl-main,Mi,0000,0000,0000,,You guys look like you're \Nhaving a great time.
+Dialogue: 0,0:10:46.91,0:10:49.56,ngnl-main,Mi,0000,0000,0000,,May I join you?
+Dialogue: 0,0:10:50.13,0:10:51.85,ngnl-main,In,0000,0000,0000,,The shrine...
+Dialogue: 0,0:10:53.22,0:10:55.19,ngnl-main,,0000,0000,0000,,The shrine priestess?
+Dialogue: 0,0:10:56.72,0:10:58.65,ngnl-main,I,0000,0000,0000,,I'm the Shrine Priestess.
+Dialogue: 0,0:10:59.78,0:11:01.41,ngnl-main,,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:11:02.52,0:11:08.66,location,I,0000,0000,0000,,{\fad(350,300)}Eastern Federation Capital, Kannagari
+Dialogue: 0,0:11:04.28,0:11:06.20,ngnl-main-top,I,0000,0000,0000,,Welcome to the land beyond the sea,
+Dialogue: 0,0:11:06.20,0:11:09.37,ngnl-main-top,,0000,0000,0000,,where we read poetry beneath \Nthe light of the moon.
+Dialogue: 0,0:11:09.59,0:11:15.70,location,I,0000,0000,0000,,{\fad(350,1)}Shrine Priestess's Shrine
+Dialogue: 0,0:11:10.32,0:11:15.71,ngnl-main-top,In,0000,0000,0000,,Are you sure you want to let \Nthese bald monkeys come here?
+Dialogue: 0,0:11:15.71,0:11:17.42,ngnl-main,Mi,0000,0000,0000,,It's fine, it's fine.
+Dialogue: 0,0:11:17.78,0:11:19.85,ngnl-main,Mi,0000,0000,0000,,The game's over, right?
+Dialogue: 0,0:11:19.85,0:11:21.07,ngnl-main,I,0000,0000,0000,,Sorry.
+Dialogue: 0,0:11:20.62,0:11:23.27,ngnl-overlap,Sh,0000,0000,0000,,A golden fox girl!
+Dialogue: 0,0:11:21.07,0:11:23.27,ngnl-main,S,0000,0000,0000,,Can I take a picture?
+Dialogue: 0,0:11:21.98,0:11:24.21,ngnl-main-top,T,0000,0000,0000,,Stop it! These are VIPs from another country!
+Dialogue: 0,0:11:24.21,0:11:26.22,ngnl-main-top,T,0000,0000,0000,,You need to be polite.
+Dialogue: 0,0:11:25.54,0:11:29.63,ngnl-main,Mi,0000,0000,0000,,Still, you really hurt us, bald monkey.
+Dialogue: 0,0:11:31.24,0:11:32.53,ngnl-main,S,0000,0000,0000,,I'm impressed by the elves.
+Dialogue: 0,0:11:32.53,0:11:34.37,ngnl-main,S,0000,0000,0000,,They were faster than I thought.
+Dialogue: 0,0:11:34.65,0:11:35.72,ngnl-main,In,0000,0000,0000,,The elves?
+Dialogue: 0,0:11:35.72,0:11:37.42,ngnl-main,T,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:11:37.42,0:11:40.70,ngnl-main,Mi,0000,0000,0000,,If we move our engineers and \Ngoods off of the continent,
+Dialogue: 0,0:11:40.70,0:11:43.42,ngnl-main,,0000,0000,0000,,you can't make good use of your territory.
+Dialogue: 0,0:11:43.42,0:11:46.20,ngnl-main,Mi,0000,0000,0000,,You'll come to challenge us again.
+Dialogue: 0,0:11:46.60,0:11:50.41,ngnl-main,S,0000,0000,0000,,And then you could destroy us, you thought.
+Dialogue: 0,0:11:50.41,0:11:51.57,ngnl-main,Mi,0000,0000,0000,,Truly...
+Dialogue: 0,0:11:52.28,0:11:56.66,ngnl-main,Mi,0000,0000,0000,,Who could have guessed you'd use your \Nspy to make contact with the elves,
+Dialogue: 0,0:11:56.66,0:12:01.14,ngnl-main,Mi,0000,0000,0000,,and expose the nature of our game \Nto ensure that we couldn't win?
+Dialogue: 0,0:12:02.56,0:12:03.38,ngnl-main,Mi,0000,0000,0000,,But...
+Dialogue: 0,0:12:04.60,0:12:07.15,ngnl-main,Mi,0000,0000,0000,,I expected that.
+Dialogue: 0,0:12:07.49,0:12:12.86,ngnl-main,Mi,0000,0000,0000,,Actually, I thought you were \NElven Garde spies yourselves.
+Dialogue: 0,0:12:13.75,0:12:15.59,ngnl-main,Mi,0000,0000,0000,,But I didn't expect
+Dialogue: 0,0:12:16.31,0:12:19.83,ngnl-main,,0000,0000,0000,,you to get Avantheim involved.
+Dialogue: 0,0:12:21.19,0:12:24.29,ngnl-main,In,0000,0000,0000,,How long have you been planning this?
+Dialogue: 0,0:12:24.29,0:12:26.27,ngnl-main,J,0000,0000,0000,,I may not look it,
+Dialogue: 0,0:12:26.27,0:12:27.64,ngnl-main,,0000,0000,0000,,but I was once a member
+Dialogue: 0,0:12:27.64,0:12:30.02,ngnl-main,,0000,0000,0000,,of the Council of 18 Wings, \Nthe Avantheim government.
+Dialogue: 0,0:12:30.02,0:12:32.84,ngnl-main,J,0000,0000,0000,,I have a formidable degree of influence.
+Dialogue: 0,0:12:33.70,0:12:38.29,ngnl-main,Mi,0000,0000,0000,,Elven Garde, Avantheim, and Elkia.
+Dialogue: 0,0:12:38.29,0:12:43.57,ngnl-main,Mi,0000,0000,0000,,With our tricks revealed to all those nations, \Nwe might be able to beat Imanity,
+Dialogue: 0,0:12:43.57,0:12:47.38,ngnl-main,,0000,0000,0000,,but not the elves or the Flugel.
+Dialogue: 0,0:12:47.71,0:12:49.09,ngnl-main,Mi,0000,0000,0000,,For goodness' sake...
+Dialogue: 0,0:12:50.73,0:12:52.01,ngnl-main,Mi,0000,0000,0000,,And that's why...
+Dialogue: 0,0:12:55.29,0:13:00.27,ngnl-main,Mi,0000,0000,0000,,The Eastern Federation is going to \Ntake revenge on Elkia immediately.
+Dialogue: 0,0:13:01.08,0:13:02.54,ngnl-main,I,0000,0000,0000,,Shrine Priestess?
+Dialogue: 0,0:13:02.96,0:13:05.12,ngnl-main,Mi,0000,0000,0000,,Shall I say it again?
+Dialogue: 0,0:13:05.57,0:13:08.61,ngnl-main,Mi,0000,0000,0000,,You really hurt us, bald monkey.
+Dialogue: 0,0:13:09.49,0:13:11.38,ngnl-main,Mi,0000,0000,0000,,Your death won't be painless.
+Dialogue: 0,0:13:12.54,0:13:13.95,ngnl-main,S,0000,0000,0000,,All right.
+Dialogue: 0,0:13:14.41,0:13:15.97,ngnl-main,S,0000,0000,0000,,I accept your challenge.
+Dialogue: 0,0:13:21.33,0:13:24.70,ngnl-main,S,0000,0000,0000,,I'm tired of complicated schemes.
+Dialogue: 0,0:13:24.70,0:13:26.93,ngnl-main,S,0000,0000,0000,,Let's settle this quickly with a coin toss.
+Dialogue: 0,0:13:34.76,0:13:35.67,ngnl-main,Sh,0000,0000,0000,,Not good enough?
+Dialogue: 0,0:13:35.99,0:13:39.65,ngnl-main,Mi,0000,0000,0000,,No, it's just that when I think that half my life
+Dialogue: 0,0:13:39.65,0:13:43.36,ngnl-main,,0000,0000,0000,,has been utterly destroyed \Nby two bald monkeys,
+Dialogue: 0,0:13:43.36,0:13:46.10,ngnl-main,Mi,0000,0000,0000,,and now it all comes down to a coin toss...
+Dialogue: 0,0:13:46.10,0:13:48.17,ngnl-main,Mi,0000,0000,0000,,It's hilarious.
+Dialogue: 0,0:13:50.98,0:13:53.82,ngnl-main,S,0000,0000,0000,,I knew it. You're a gamer, too.
+Dialogue: 0,0:13:53.82,0:13:58.18,ngnl-main,S,0000,0000,0000,,Okay, if I win, Elkia gets all of \Nthe Eastern Federation's territory,
+Dialogue: 0,0:13:58.18,0:14:00.46,ngnl-main,S,0000,0000,0000,,including the island off the continent.
+Dialogue: 0,0:14:00.75,0:14:04.39,ngnl-main,Mi,0000,0000,0000,,If I win, the Warbeasts get \Nthe right to self-rule,
+Dialogue: 0,0:14:04.39,0:14:07.83,ngnl-main,,0000,0000,0000,,guarantees of their rights, and a guarantee \Nof resources from the continent.
+Dialogue: 0,0:14:08.36,0:14:10.18,ngnl-main,S,0000,0000,0000,,For all your talk of revenge,
+Dialogue: 0,0:14:10.18,0:14:12.56,ngnl-main,,0000,0000,0000,,you're more concerned about \Npreserving the Warbeasts?
+Dialogue: 0,0:14:13.35,0:14:17.46,ngnl-main,Mi,0000,0000,0000,,Either way, once the elves invade, it's over.
+Dialogue: 0,0:14:17.46,0:14:20.61,ngnl-main,Mi,0000,0000,0000,,That's all I can do.
+Dialogue: 0,0:14:20.90,0:14:24.52,ngnl-main,Mi,0000,0000,0000,,So... even if I lose,
+Dialogue: 0,0:14:25.07,0:14:29.46,ngnl-main,Mi,0000,0000,0000,,promise you'll take care of \NIzuna and Ino, and my people.
+Dialogue: 0,0:14:30.18,0:14:31.62,ngnl-main,I,0000,0000,0000,,Shrine Priestess...
+Dialogue: 0,0:14:33.05,0:14:34.41,ngnl-main,Sh,0000,0000,0000,,I've changed my opinion of you.
+Dialogue: 0,0:14:35.33,0:14:37.13,ngnl-main,M,0000,0000,0000,,Just get started.
+Dialogue: 0,0:14:37.90,0:14:42.00,ngnl-main,S,0000,0000,0000,,Let's start the world's most brutal coin toss.
+Dialogue: 0,0:14:42.58,0:14:46.06,ngnl-main,S,0000,0000,0000,,You can pick heads or tails as it lands.
+Dialogue: 0,0:14:46.06,0:14:47.87,ngnl-main,S,0000,0000,0000,,I'll take the other.
+Dialogue: 0,0:14:48.82,0:14:50.23,ngnl-main,M,0000,0000,0000,,You're sure?
+Dialogue: 0,0:14:50.23,0:14:51.02,ngnl-main,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:54.01,0:14:55.13,ngnl-main,S,0000,0000,0000,,Okay...
+Dialogue: 0,0:14:55.65,0:14:56.87,ngnl-main,S,0000,0000,0000,,Aschente!
+Dialogue: 0,0:15:04.48,0:15:05.83,ngnl-main,T,0000,0000,0000,,Blood Destruction?
+Dialogue: 0,0:15:08.23,0:15:10.46,ngnl-internal,Mi,0000,0000,0000,,Blood Destruction surpasses physical limits,
+Dialogue: 0,0:15:10.46,0:15:12.94,ngnl-internal,,0000,0000,0000,,allowing me to grasp \Nall signals and movements.
+Dialogue: 0,0:15:13.78,0:15:15.07,ngnl-internal,Mi,0000,0000,0000,,At the rate it's falling,
+Dialogue: 0,0:15:15.07,0:15:18.41,ngnl-internal,,0000,0000,0000,,it will hit the floor after \N142 and two-thirds flips,
+Dialogue: 0,0:15:18.41,0:15:21.94,ngnl-internal,Mi,0000,0000,0000,,bounce 4 times, spin for 5.2 seconds,
+Dialogue: 0,0:15:22.65,0:15:24.71,ngnl-internal,,0000,0000,0000,,and stop on tails.
+Dialogue: 0,0:15:28.16,0:15:30.75,ngnl-internal,Mi,0000,0000,0000,,I don't detect any magic usage within range.
+Dialogue: 0,0:15:30.75,0:15:32.80,ngnl-internal,Mi,0000,0000,0000,,Did they underestimate my kinetic vision?
+Dialogue: 0,0:15:34.08,0:15:36.36,ngnl-internal,Mi,0000,0000,0000,,No, that's impossible.
+Dialogue: 0,0:15:37.25,0:15:38.43,ngnl-internal,Mi,0000,0000,0000,,But...
+Dialogue: 0,0:15:41.52,0:15:42.52,ngnl-main,Mi,0000,0000,0000,,Tails.
+Dialogue: 0,0:15:56.47,0:15:58.23,ngnl-main,I,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:15:59.61,0:16:00.87,ngnl-main,Sh,0000,0000,0000,,A draw.
+Dialogue: 0,0:16:04.08,0:16:05.77,ngnl-main,T,0000,0000,0000,,A draw?
+Dialogue: 0,0:16:05.77,0:16:08.13,ngnl-main,S,0000,0000,0000,,Wow, I didn't see that coming!
+Dialogue: 0,0:16:08.13,0:16:09.28,ngnl-main,S,0000,0000,0000,,What a problem.
+Dialogue: 0,0:16:09.28,0:16:11.23,ngnl-main,S,0000,0000,0000,,Did we both win or did we both lose?
+Dialogue: 0,0:16:11.23,0:16:12.64,ngnl-main,S,0000,0000,0000,,Which is it?
+Dialogue: 0,0:16:13.86,0:16:16.32,ngnl-main,In,0000,0000,0000,,Sora, you're not fooling anybody.
+Dialogue: 0,0:16:16.83,0:16:17.73,ngnl-main,Mi,0000,0000,0000,,Truly.
+Dialogue: 0,0:16:18.14,0:16:20.30,ngnl-main,Mi,0000,0000,0000,,This was your goal from the start.
+Dialogue: 0,0:16:22.92,0:16:27.23,ngnl-main,S,0000,0000,0000,,If we both win, that means both \Nof our demands are fulfilled.
+Dialogue: 0,0:16:27.23,0:16:30.60,ngnl-main,S,0000,0000,0000,,In other words, you end up \Nunder Elkia's control,
+Dialogue: 0,0:16:27.82,0:16:37.04,elukia,Mi,0000,0000,0000,,Eastern Federation                          {\c&H344C50&}Elkia
+Dialogue: 0,0:16:30.60,0:16:33.84,ngnl-main,,0000,0000,0000,,but your rights are assured and \Nyou keep the right to self-rule.
+Dialogue: 0,0:16:31.80,0:16:39.08,together,S,0000,0000,0000,,Warbeasts
+Dialogue: 0,0:16:33.84,0:16:35.84,ngnl-main,S,0000,0000,0000,,We can both share the continent's resources.
+Dialogue: 0,0:16:35.84,0:16:39.08,ngnl-main,Sh,0000,0000,0000,,The Eastern Federation becomes \Nthe Elkia Federation.
+Dialogue: 0,0:16:37.04,0:16:39.08,fed,S,0000,0000,0000,,Elkia Federation
+Dialogue: 0,0:16:39.24,0:16:40.18,ngnl-main,S,0000,0000,0000,,Well?
+Dialogue: 0,0:16:40.18,0:16:43.10,ngnl-main,S,0000,0000,0000,,Do we both win, or do we both lose? \NWhich do you prefer?
+Dialogue: 0,0:16:43.10,0:16:45.67,ngnl-main,In,0000,0000,0000,,Weren't you going to take over the
+Dialogue: 0,0:16:45.67,0:16:47.98,ngnl-main,,0000,0000,0000,,Eastern Federation and destroy the Warbeasts?
+Dialogue: 0,0:16:47.98,0:16:49.82,ngnl-main,C,0000,0000,0000,,That's totally wrong.
+Dialogue: 0,0:16:50.24,0:16:54.85,ngnl-main,S,0000,0000,0000,,Why would I destroy my animal girl paradise?
+Dialogue: 0,0:16:54.85,0:16:58.80,ngnl-main,S,0000,0000,0000,,It's a race filled with ultimate \Npretty animals like Izuna!
+Dialogue: 0,0:16:58.80,0:17:03.45,ngnl-main,S,0000,0000,0000,,Why the hell would I want to \Ndestroy a treasure like that?
+Dialogue: 0,0:17:02.10,0:17:05.17,cute,S,0000,0000,0000,,{\fad(200,1)}Cute is Ultimate Justice!
+Dialogue: 0,0:17:02.10,0:17:05.17,ael,S,0000,0000,0000,,{\fad(200,1)}Animal Ear Love
+Dialogue: 0,0:17:03.45,0:17:05.17,ngnl-main,Sh,0000,0000,0000,,You're too passionate, Brother.
+Dialogue: 0,0:17:06.55,0:17:07.68,ngnl-main,Mi,0000,0000,0000,,Really...
+Dialogue: 0,0:17:08.24,0:17:12.55,ngnl-main,Mi,0000,0000,0000,,So we really were playing into \Nyour hands the whole time.
+Dialogue: 0,0:17:12.83,0:17:16.08,ngnl-main,Mi,0000,0000,0000,,However, even if our nations unite,
+Dialogue: 0,0:17:16.08,0:17:19.31,ngnl-main,Mi,0000,0000,0000,,thanks to you, the elves know our secrets.
+Dialogue: 0,0:17:19.31,0:17:22.68,ngnl-main,Mi,0000,0000,0000,,Elven Garde will declare war on us someday.
+Dialogue: 0,0:17:22.68,0:17:23.90,ngnl-main,S,0000,0000,0000,,I'm sure they will.
+Dialogue: 0,0:17:23.90,0:17:26.69,ngnl-main,S,0000,0000,0000,,So when they do, let's kick their asses.
+Dialogue: 0,0:17:28.11,0:17:29.84,ngnl-main,Mi,0000,0000,0000,,You think you can do that?
+Dialogue: 0,0:17:29.84,0:17:31.20,ngnl-main,S,0000,0000,0000,,I can.
+Dialogue: 0,0:17:32.00,0:17:34.34,ngnl-main,S,0000,0000,0000,,Our spy actually had
+Dialogue: 0,0:17:34.34,0:17:39.12,ngnl-main,,0000,0000,0000,,her memories altered by the pledges \Nbefore she reported to Elven Garde.
+Dialogue: 0,0:17:39.12,0:17:42.57,ngnl-main,S,0000,0000,0000,,So she gave them the wrong \Ninformation about your game.
+Dialogue: 0,0:17:43.60,0:17:49.06,ngnl-main,T,0000,0000,0000,,So the reason you fought Kurami for \Nthe right to alter her memories...
+Dialogue: 0,0:17:49.06,0:17:51.22,ngnl-main,Sh,0000,0000,0000,,...was for this day.
+Dialogue: 0,0:17:52.52,0:17:56.97,ngnl-main,S,0000,0000,0000,,Now, when Elven Garde attacks us, \Nwe're sure to win.
+Dialogue: 0,0:17:56.97,0:17:59.63,ngnl-main,S,0000,0000,0000,,Then we get the elves' nation, too.
+Dialogue: 0,0:17:59.63,0:18:02.33,ngnl-main,In,0000,0000,0000,,You thought it through that far?
+Dialogue: 0,0:18:02.33,0:18:06.12,ngnl-main,S,0000,0000,0000,,"Checkmate" doesn't mean you've \Nsimply cornered the enemy king.
+Dialogue: 0,0:18:06.12,0:18:08.00,ngnl-main,S,0000,0000,0000,,It's a declaration that the enemy king is yours.
+Dialogue: 0,0:18:08.92,0:18:11.58,ngnl-main,S,0000,0000,0000,,That's why I said it the first time I met you.
+Dialogue: 0,0:18:12.92,0:18:15.48,ngnl-main,S,0000,0000,0000,,"Checkmate."
+Dialogue: 0,0:18:18.62,0:18:20.61,ngnl-main,S,0000,0000,0000,,So, which will it be?
+Dialogue: 0,0:18:21.34,0:18:23.89,ngnl-main,S,0000,0000,0000,,Do we both win, or do we both lose?
+Dialogue: 0,0:18:25.65,0:18:28.63,ngnl-main,M,0000,0000,0000,,Are you really going to \Nmake me say it? Meanie.
+Dialogue: 0,0:18:29.82,0:18:31.89,ngnl-main,M,0000,0000,0000,,We both win.
+Dialogue: 0,0:18:34.40,0:18:36.12,ngnl-main,Sh,0000,0000,0000,,Okay, now...
+Dialogue: 0,0:18:36.12,0:18:41.16,phone,Sh,0000,0000,0000,,{\fad(1,1400)}Find a place to stay\N\N Learn about this world\N\N Get a Flugel\N\N  Take over the Eastern Federation
+Dialogue: 0,0:18:36.71,0:18:39.31,ngnl-main,Sh,0000,0000,0000,,The Elkia Federation is born!
+Dialogue: 0,0:18:42.94,0:18:45.16,ngnl-main,Mi,0000,0000,0000,,What are you going to do?
+Dialogue: 0,0:18:45.50,0:18:48.91,ngnl-main,Mi,0000,0000,0000,,Don't tell me you're going \Nto start another great war.
+Dialogue: 0,0:18:49.47,0:18:52.30,ngnl-main,S,0000,0000,0000,,If I wanted that, I would've \Ntaken your Race Piece.
+Dialogue: 0,0:18:52.30,0:18:54.98,ngnl-main,Sh,0000,0000,0000,,Those must never be taken, so we won't.
+Dialogue: 0,0:18:55.27,0:18:55.88,ngnl-main,S,0000,0000,0000,,Yup.
+Dialogue: 0,0:18:56.60,0:18:59.41,ngnl-main,S,0000,0000,0000,,Our goal has never changed.
+Dialogue: 0,0:18:59.41,0:19:00.76,ngnl-main,S,0000,0000,0000,,It's simple and straightforward.
+Dialogue: 0,0:19:01.44,0:19:03.22,ngnl-main,S,0000,0000,0000,,Beat Tet.
+Dialogue: 0,0:19:03.22,0:19:04.27,ngnl-main,S,0000,0000,0000,,That's all.
+Dialogue: 0,0:19:04.27,0:19:06.05,ngnl-main,Mi,0000,0000,0000,,Beat him?
+Dialogue: 0,0:19:06.05,0:19:08.00,ngnl-main,Mi,0000,0000,0000,,He's the one true god!
+Dialogue: 0,0:19:08.33,0:19:09.76,ngnl-main,S,0000,0000,0000,,Yeah? And?
+Dialogue: 0,0:19:09.76,0:19:10.77,ngnl-main,Sh,0000,0000,0000,,Is that a problem?
+Dialogue: 0,0:19:19.04,0:19:20.99,ngnl-main,Mi,0000,0000,0000,,You're going to try and beat a god?
+Dialogue: 0,0:19:20.99,0:19:23.53,ngnl-main,Mi,0000,0000,0000,,You come up with the funniest ideas.
+Dialogue: 0,0:19:23.53,0:19:25.59,ngnl-main,Mi,0000,0000,0000,,Do you think you can do it?
+Dialogue: 0,0:19:25.59,0:19:26.52,ngnl-main,Sh,0000,0000,0000,,Dunno!
+Dialogue: 0,0:19:26.52,0:19:28.94,ngnl-main,S,0000,0000,0000,,We don't have a clue about the specifics,
+Dialogue: 0,0:19:28.94,0:19:30.97,ngnl-main,S,0000,0000,0000,,but we have hints.
+Dialogue: 0,0:19:31.93,0:19:35.79,ngnl-main,S,0000,0000,0000,,First, why are the Race Pieces shaped like this?
+Dialogue: 0,0:19:36.14,0:19:37.02,ngnl-main,S,0000,0000,0000,,Second...
+Dialogue: 0,0:19:37.02,0:19:41.80,ngnl-main,S,0000,0000,0000,,Why are there sixteen races, \Nthe Exceed, in this world?
+Dialogue: 0,0:19:41.80,0:19:42.95,ngnl-main,S,0000,0000,0000,,Third...
+Dialogue: 0,0:19:42.95,0:19:46.03,ngnl-main,S,0000,0000,0000,,What are those things I see on the horizon?
+Dialogue: 0,0:19:47.19,0:19:50.46,ngnl-main,Mi,0000,0000,0000,,In other words, gathering \Nall the pieces is what
+Dialogue: 0,0:19:50.46,0:19:52.65,ngnl-main,,0000,0000,0000,,gives you the right to challenge God.
+Dialogue: 0,0:19:52.65,0:19:57.07,ngnl-main,Mi,0000,0000,0000,,But doesn't that mean you \Nhave to take our Race Pieces?
+Dialogue: 0,0:19:57.91,0:19:59.30,ngnl-main,S,0000,0000,0000,,Nope.
+Dialogue: 0,0:20:00.26,0:20:02.89,ngnl-main,Sh,0000,0000,0000,,That would go against the pledges.
+Dialogue: 0,0:20:02.89,0:20:04.29,ngnl-main,S,0000,0000,0000,,The pledges?
+Dialogue: 0,0:20:04.68,0:20:08.15,ngnl-main,Sh,0000,0000,0000,,Fourth, why put a rule into \Nthe pledges that doesn't
+Dialogue: 0,0:20:08.45,0:20:11.18,ten,T,0000,0000,0000,,{\fad(360,1)}Ten Pledges
+Dialogue: 0,0:20:08.45,0:20:11.95,pledges - Copy,One,0000,0000,0000,,{\fad(360,1)}1. All murder, war, and robbery is forbidden in this world.\N\N2. All conflict in this world will be resolved through games.\N\N3. In games, each player will bet something that they agree is of equal value.\N\N4. As long as it doesn't violate pledge three, anything may be bet, \Nand any game may be played.\N\N5. The challenged party has the right to decide the rules of the game.
+Dialogue: 0,0:20:08.83,0:20:10.78,ngnl-main,,0000,0000,0000,,have to be followed?
+Dialogue: 0,0:20:11.34,0:20:12.75,ngnl-main,T,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:20:11.95,0:20:14.69,pledges,Seven,0000,0000,0000,,{\fad(1,360)\an7}6. Any bets made in accordance with the pledges must be upheld.\N\N7. Conflicts between groups will be conducted by designated representatives with absolute authority.\N\N8.  Being caught cheating during a \Ngame is grounds for an instant loss.\N\N9.  In the name of God, the \Nprevious rules may never be changed.
+Dialogue: 0,0:20:12.15,0:20:16.02,pledges - Copy,Ten,0000,0000,0000,,10. Let's all have fun and play together!
+Dialogue: 0,0:20:13.19,0:20:14.64,ngnl-main,S,0000,0000,0000,,Did you forget?
+Dialogue: 0,0:20:14.64,0:20:16.13,ngnl-main,Ten,0000,0000,0000,,Pledge 10.
+Dialogue: 0,0:20:16.02,0:20:19.22,pledges - tet,Ten,0000,0000,0000,,10. Let's all {\c&HFFFDCC&}have fun and {\c&HBFF0CC&}play together!
+Dialogue: 0,0:20:16.61,0:20:19.23,ngnl-flashback,T,0000,0000,0000,,Let's all have fun and play together.
+Dialogue: 0,0:20:20.24,0:20:21.03,ngnl-main,S,0000,0000,0000,,In other words,
+Dialogue: 0,0:20:22.12,0:20:25.48,ngnl-main,,0000,0000,0000,,if we're not all together, having fun, \Nwe can't beat the game.
+Dialogue: 0,0:20:26.00,0:20:27.93,ngnl-main,S,0000,0000,0000,,We don't steal each other's pieces.
+Dialogue: 0,0:20:27.93,0:20:32.85,ngnl-main,S,0000,0000,0000,,Each of the races, the sixteen \Nraces who claim to be intelligent,
+Dialogue: 0,0:20:32.85,0:20:35.91,ngnl-main,S,0000,0000,0000,,must use their wisdom and wit, \Ntheir talents and resources,
+Dialogue: 0,0:20:35.91,0:20:38.70,ngnl-main,S,0000,0000,0000,,to build a tower of wisdom on Disboard.
+Dialogue: 0,0:20:39.57,0:20:44.04,ngnl-main,T,0000,0000,0000,,"Prove to me that you have wisdom at all."
+Dialogue: 0,0:20:45.85,0:20:47.59,ngnl-main,T,0000,0000,0000,,That's great! Wonderful!
+Dialogue: 0,0:20:47.59,0:20:49.78,ngnl-main,T,0000,0000,0000,,This really is getting fun.
+Dialogue: 0,0:20:49.78,0:20:52.33,ngnl-main,T,0000,0000,0000,,I really was right to bring you here.
+Dialogue: 0,0:20:53.42,0:20:54.60,ngnl-main,T,0000,0000,0000,,I'm waiting.
+Dialogue: 0,0:20:54.89,0:20:59.53,ngnl-main,T,0000,0000,0000,,Come to me, with all the races in tow.
+Dialogue: 0,0:21:00.17,0:21:01.33,ngnl-main,T,0000,0000,0000,,And then...
+Dialogue: 0,0:21:16.39,0:21:19.30,ngnl-main,C,0000,0000,0000,,He sure made it sound easy, though...
+Dialogue: 0,0:21:19.30,0:21:23.20,ngnl-main,C,0000,0000,0000,,Tearing apart the largest country in \Nthe world, Elven Garde, from within.
+Dialogue: 0,0:21:23.55,0:21:25.30,ngnl-main,F,0000,0000,0000,,What are you going to do?
+Dialogue: 0,0:21:25.78,0:21:28.30,ngnl-main,C,0000,0000,0000,,If there's a way, I want to know it.
+Dialogue: 0,0:21:28.82,0:21:31.03,ngnl-main,C,0000,0000,0000,,But we have to do it.
+Dialogue: 0,0:21:31.03,0:21:33.30,ngnl-main,C,0000,0000,0000,,That's the only way for Imanity to win.
+Dialogue: 0,0:21:33.93,0:21:34.80,ngnl-main,F,0000,0000,0000,,Kurami...
+Dialogue: 0,0:21:35.50,0:21:38.58,ngnl-main,C,0000,0000,0000,,A way for the weak to stay weak, \Nbut still defeat the strong.
+Dialogue: 0,0:21:39.34,0:21:43.50,ngnl-main,C,0000,0000,0000,,A way to stay who you are, \Nbut surpass your limits.
+Dialogue: 0,0:21:44.42,0:21:47.48,ngnl-main,C,0000,0000,0000,,To soar through the sky, \Neven if you can't fly...
+Dialogue: 0,0:21:48.00,0:21:50.22,ngnl-main,C,0000,0000,0000,,He's always found a way,
+Dialogue: 0,0:21:50.76,0:21:54.30,ngnl-main,C,0000,0000,0000,,inside despair, suffering, and darkness.
+Dialogue: 0,0:21:54.86,0:21:57.23,ngnl-main,F,0000,0000,0000,,I'm not imagining it, am I?
+Dialogue: 0,0:21:57.77,0:22:00.28,ngnl-main,F,0000,0000,0000,,You've changed a little.
+Dialogue: 0,0:22:00.73,0:22:01.64,ngnl-main,C,0000,0000,0000,,Have I?
+Dialogue: 0,0:22:01.64,0:22:04.42,ngnl-main,C,0000,0000,0000,,Maybe I feel like I can't lose now.
+Dialogue: 0,0:22:04.99,0:22:05.76,ngnl-main,C,0000,0000,0000,,So...
+Dialogue: 0,0:22:07.96,0:22:09.34,ngnl-main,C,0000,0000,0000,,Will you help me?
+Dialogue: 0,0:22:14.69,0:22:16.41,ngnl-main,F,0000,0000,0000,,Of course!
+Dialogue: 0,0:22:17.03,0:22:21.22,ngnl-main,F,0000,0000,0000,,I'd fight the whole world for you, Kurami!
+Dialogue: 0,0:22:21.22,0:22:22.98,ngnl-main,C,0000,0000,0000,,Let's do it!
+Dialogue: 0,0:22:22.98,0:22:24.42,ngnl-main,C,0000,0000,0000,,Just you watch, Sora!
+Dialogue: 0,0:22:27.88,0:22:30.26,ngnl-main,S,0000,0000,0000,,Well, let's get going.
+Dialogue: 0,0:22:30.26,0:22:31.39,ngnl-main,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:31.39,0:22:33.72,ngnl-main,Sh,0000,0000,0000,,Brother, but there's still...
+Dialogue: 0,0:22:33.72,0:22:35.29,ngnl-main,S,0000,0000,0000,,Oh, I know.
+Dialogue: 0,0:22:37.61,0:22:38.86,ngnl-main,T,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:22:39.23,0:22:42.87,ngnl-main,In,0000,0000,0000,,Is there still something you \Nwant from the Shrine Priestess,
+Dialogue: 0,0:22:42.87,0:22:44.14,ngnl-main,In,0000,0000,0000,,you bald monkey?
+Dialogue: 0,0:22:44.54,0:22:47.13,ngnl-main,S,0000,0000,0000,,It's not really something we want, but...
+Dialogue: 0,0:22:47.54,0:22:50.30,ngnl-main,S,0000,0000,0000,,If you're a shrine priestess, \Nyou must have one, right?
+Dialogue: 0,0:22:50.30,0:22:52.35,ngnl-main,Sh,0000,0000,0000,,We've been wondering.
+Dialogue: 0,0:23:08.07,0:23:10.56,ngnl-main,T,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:23:10.56,0:23:12.36,ngnl-main,J,0000,0000,0000,,What power!
+Dialogue: 0,0:23:13.69,0:23:15.58,ngnl-main,J,0000,0000,0000,,Divine core manifestation.
+Dialogue: 0,0:23:15.58,0:23:17.33,ngnl-main,J,0000,0000,0000,,Mind meld established.
+Dialogue: 0,0:23:17.33,0:23:19.78,ngnl-main,,0000,0000,0000,,Power setting: minimal.
+Dialogue: 0,0:23:21.49,0:23:25.56,ngnl-main,,0000,0000,0000,,Why have you summoned me, \Nyou with finite lifespans?
+Dialogue: 0,0:23:26.90,0:23:30.65,ngnl-main,S,0000,0000,0000,,Exceed Rank #1, Old Deus...
+Dialogue: 0,0:23:31.66,0:23:34.38,ngnl-main,J,0000,0000,0000,,Exceed Rank #1?
+Dialogue: 0,0:23:34.88,0:23:38.18,ngnl-main,T,0000,0000,0000,,Old... Deus?!
+Dialogue: 0,0:23:41.24,0:23:42.15,ngnl-main,S,0000,0000,0000,,Okay...
+Dialogue: 0,0:23:43.53,0:23:45.52,ngnl-main,S,0000,0000,0000,,{\an5}Let's begin the game!

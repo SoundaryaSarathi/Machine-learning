@@ -1,0 +1,544 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: Setting,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,67,53,133,0
+Style: TBC,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,107,27,0
+Style: Feature,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H0086483D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,413,27,107,0
+Style: Last,Open Sans Semibold,24,&H004228AC,&H000000FF,&H00090446,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,475,27,0
+Style: Grand Prix,Open Sans Semibold,33,&H00170E06,&H000000FF,&H00A7ACA0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,260,27,91,0
+Style: Phone,Open Sans Semibold,24,&H00484848,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: Rice Bowl,Open Sans Semibold,24,&H00484848,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,400,27,27,0
+Style: Channel,Open Sans Semibold,24,&H00343435,&H000000FF,&H00A5ABC1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,40,115,0
+Style: TV,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,53,53,27,0
+Style: WorldChampion,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,413,27,107,0
+Style: Yutopia,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00A58570,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: SignA,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,53,53,27,0
+Style: SignB,Open Sans Semibold,33,&H00170E06,&H000000FF,&H00CA8E92,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: PhoneTimes,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H001C252D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: WorldChampion2,Open Sans Semibold,21,&H009C7233,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,53,120,0
+Style: sign_3525_23_Top_Certified_At,Open Sans Semibold,24,&H00575614,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,41,564,37,0
+Style: sign_11090_160_Okukawa_Minako_B,Open Sans Semibold,30,&H0071678D,&H000000FF,&H0086C0C2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,27,0
+Style: sign_13293_206_Mari,Open Sans Semibold,21,&H00283432,&H000000FF,&H00514A9B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,667,131,208,0
+Style: sign_13293_206_Mari_,Open Sans Semibold,21,&H00283432,&H000000FF,&H00D8E0DA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,563,27,247,0
+Style: sign_13395_210_Congratulations_,Open Sans Semibold,30,&H00CC7F75,&H000000FF,&H00E3EEF1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_14020_226_One_Week_Later,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,80,124,0
+Style: sign_14023_227_Hasetsu_City___H,Open Sans Semibold,30,&H000C1D22,&H000000FF,&H00718594,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_14523_237_Tiger_Sweatshirt,Open Sans Semibold,30,&H00151A5A,&H000000FF,&H00358A99,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,480,27,176,1
+Style: sign_22355_384_Hasetsu_Exhibiti,Open Sans Semibold,30,&H006C4233,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_22397_385_Hasetsu_Exhibiti,Open Sans Semibold,15,&H00FFFFFF,&H000000FF,&H0086483D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,631,5,148,0
+Style: sign_22457_386__Missing,Open Sans Semibold,30,&H00D4D1CF,&H000000FF,&H009B562E,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,452,40,93,0
+Style: sign_23067_400_Growl,Open Sans Semibold,33,&H00000304,&H000000FF,&H00465160,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,27,75,1
+Style: sign_23490_409_Ba_Dump,Open Sans Semibold,36,&H00F2F2F2,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: sign_23528_411_Takao_,Open Sans Semibold,24,&H00F2F2F2,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,261,27,99,0
+Style: sign_23694_416_Yurio,Open Sans Semibold,39,&H00F2F2F2,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,0
+Style: sign_24855_439_Snack_Bar___Kach,Open Sans Semibold,24,&H00EAF0EC,&H000000FF,&H006C2ADD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,327,27,155,0
+Style: sign_26715_469_Private_Practice,Open Sans Semibold,24,&H00312C2F,&H000000FF,&H00EAE8E2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,288,156,1
+Style: sign_26715_470__Hot_Springs_on_,Open Sans Semibold,24,&H00A25B21,&H000000FF,&H00F7EFE6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,72,1
+Style: sign_31018_532_Hasetsu_Exhibiti,Open Sans Semibold,21,&H00576362,&H000000FF,&H00F0FCFB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,400,103,240,0
+Style: sign_33565_542_The_third_skate_,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,456,39,40,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:33.02,0:01:33.94,Default - flashback,Y,0000,0000,0000,,Vitya!
+Dialogue: 0,0:01:34.44,0:01:36.45,Default - flashback,Y,0000,0000,0000,,Don't go! Stay here!
+Dialogue: 0,0:01:39.01,0:01:42.13,Default - flashback,V,0000,0000,0000,,Yakov, you were the best coach I ever had.
+Dialogue: 0,0:01:42.13,0:01:43.10,Default - flashback,V,0000,0000,0000,,You always will be.
+Dialogue: 0,0:01:43.10,0:01:45.33,Default - flashback,Y,0000,0000,0000,,If you walk away now, \Nyou can never come back!
+Dialogue: 0,0:01:49.62,0:01:50.93,Default - flashback,V,0000,0000,0000,,Dasvidaniya.
+Dialogue: 0,0:01:52.20,0:01:54.30,Default - flashback,V,0000,0000,0000,,I'm sorry I can't do as you say this time.
+Dialogue: 0,0:01:55.23,0:01:59.55,Default - flashback,Y,0000,0000,0000,,You don't get to say that when you've \Nnever done as I said in the first place!
+Dialogue: 0,0:01:59.94,0:02:02.68,Default - flashback,V,0000,0000,0000,,You should come visit Japan, Yakov.
+Dialogue: 0,0:02:02.68,0:02:07.69,Title,Sign,0000,0000,0000,,{\fs16}Second Skate \N{\fs20}Two Yuris?! \NDrama at Yu-topia
+Dialogue: 0,0:02:04.25,0:02:07.16,Default,Y,0000,0000,0000,,Two Yuris?! Drama at Yu-topia!
+Dialogue: 0,0:02:07.95,0:02:11.07,Default,Minako,0000,0000,0000,,Yuri! Why aren't you answering your cell?!
+Dialogue: 0,0:02:11.07,0:02:12.22,Default,YMom,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:02:12.22,0:02:13.98,Default,Minako,0000,0000,0000,,Everything's wrong!
+Dialogue: 0,0:02:13.98,0:02:16.69,Default,Minako,0000,0000,0000,,There's a rumor that Victor's\Ngoing to be Yuri's coach!
+Dialogue: 0,0:02:17.08,0:02:19.22,Default,YMom,0000,0000,0000,,Oh, Vicchan's here already.
+Dialogue: 0,0:02:19.22,0:02:20.07,Default,Minako,0000,0000,0000,,What?
+Dialogue: 0,0:02:21.59,0:02:24.42,Default,YMom,0000,0000,0000,,Vicchan's sound asleep.
+Dialogue: 0,0:02:24.93,0:02:27.25,Default - italics,Y,0000,0000,0000,,Hello! I'm Katsuki Yuri!
+Dialogue: 0,0:02:27.02,0:02:28.52,sign_3525_23_Top_Certified_At,Sign,0000,0000,0000,,{\fad (300,1)}Top Certified Athletes
+Dialogue: 0,0:02:27.25,0:02:28.76,Default - italics,Y,0000,0000,0000,,I'm in a bit of a slump right now,
+Dialogue: 0,0:02:28.76,0:02:30.96,Default - italics,Y,0000,0000,0000,,but I'm a top figure skater certified by the JSF!
+Dialogue: 0,0:02:31.50,0:02:36.17,Default - italics,Y,0000,0000,0000,,Back home for the first time in five years,\NI was thinking of how to keep my career going...
+Dialogue: 0,0:02:36.17,0:02:38.76,Default - italics,Y,0000,0000,0000,,when my idol, Victor, suddenly appeared!
+Dialogue: 0,0:02:38.76,0:02:41.98,Default - italics,Y,0000,0000,0000,,I'm still in denial that this \Nis actually happening!
+Dialogue: 0,0:02:41.98,0:02:46.62,Default - italics,Y,0000,0000,0000,,By the way, Victor Nikiforov is a \Nliving legend in figure skating.
+Dialogue: 0,0:02:46.62,0:02:49.98,Default - italics,Y,0000,0000,0000,,I never dreamed he'd be interested in me, but...
+Dialogue: 0,0:02:51.31,0:02:54.46,Default - flashback,V,0000,0000,0000,,Starting today, I'm your coach.
+Dialogue: 0,0:02:54.46,0:02:57.57,Default - flashback,V,0000,0000,0000,,I'll make you win the Grand Prix Final.
+Dialogue: 0,0:02:58.28,0:03:00.75,Default - flashback,Y,0000,0000,0000,,{\i1}What is he saying, standing there buck naked?
+Dialogue: 0,0:03:01.18,0:03:01.82,Default,Minako,0000,0000,0000,,Yuri!
+Dialogue: 0,0:03:02.32,0:03:05.33,Default,News,0000,0000,0000,,Why is Victor sleeping in one of the inn's robes?!
+Dialogue: 0,0:03:05.79,0:03:08.50,Default,Y,0000,0000,0000,,He soaked in the hot spring and \Nhad dinner, then fell asleep...
+Dialogue: 0,0:03:08.50,0:03:11.05,Default,Minako,0000,0000,0000,,It's big news in Russia.
+Dialogue: 0,0:03:11.05,0:03:13.88,Default,Minako,0000,0000,0000,,He's taking next season off and \Nis considering his next move.
+Dialogue: 0,0:03:14.23,0:03:19.11,Default,Minako,0000,0000,0000,,They're also saying that when he saw\Nthe video of you skating his routine,
+Dialogue: 0,0:03:19.11,0:03:23.02,Default,Minako,0000,0000,0000,,he was struck with inspiration, and that's \Nwhen he decided to be your coach.
+Dialogue: 0,0:03:23.02,0:03:23.78,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:23.78,0:03:27.18,Default,Minako,0000,0000,0000,,Victor came here because he chose you, Yuri.
+Dialogue: 0,0:03:27.18,0:03:28.89,Default,Minako,0000,0000,0000,,You brought him here!
+Dialogue: 0,0:03:29.39,0:03:30.63,Default,Minako,0000,0000,0000,,That's incredible!
+Dialogue: 0,0:03:33.90,0:03:34.77,Default,Yuri,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:35.11,0:03:38.53,Default,Yuri,0000,0000,0000,,Victor went to Japan to become \NYuri Katsuki's coach?
+Dialogue: 0,0:03:38.86,0:03:41.28,Default,Yuri,0000,0000,0000,,Why that fatso?
+Dialogue: 0,0:03:41.77,0:03:44.41,Default,Yuri,0000,0000,0000,,Did he forget what he promised me?
+Dialogue: 0,0:03:45.58,0:03:47.02,Default,Yuri,0000,0000,0000,,Yakov! Where are you?
+Dialogue: 0,0:03:47.02,0:03:48.49,Default,Yuri,0000,0000,0000,,Explain this to me, damn it!
+Dialogue: 0,0:03:49.67,0:03:52.75,Default,Y,0000,0000,0000,,Victor wants to take time off until \Nhe finds his motivation again.
+Dialogue: 0,0:03:53.36,0:03:57.25,Default,Y,0000,0000,0000,,Personally, I doubt he'll be able to \Nreturn if he takes a break now.
+Dialogue: 0,0:03:57.25,0:03:59.96,Default,News,0000,0000,0000,,He's going to coach Katsuki Yuri in Japan—
+Dialogue: 0,0:03:59.96,0:04:02.17,Default,Y,0000,0000,0000,,That man only thinks of himself!
+Dialogue: 0,0:04:02.17,0:04:05.07,Default,Y,0000,0000,0000,,He'll never be anyone's coach!
+Dialogue: 0,0:04:04.66,0:04:06.49,Yutopia,,0000,0000,0000,,Hasetsu Hot Springs \NYu-topia Katsuki
+Dialogue: 0,0:04:09.57,0:04:10.50,Default,Y,0000,0000,0000,,Oh, he's awake.
+Dialogue: 0,0:04:11.33,0:04:12.75,Default,V,0000,0000,0000,,I'm starving.
+Dialogue: 0,0:04:12.75,0:04:13.48,Default,V,0000,0000,0000,,Hungry...
+Dialogue: 0,0:04:13.77,0:04:14.46,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:14.18,0:04:15.60,Default,Y,0000,0000,0000,,He still wants to eat?
+Dialogue: 0,0:04:14.46,0:04:16.92,Default,Y,0000,0000,0000,,Um, what would you like to eat?
+Dialogue: 0,0:04:16.92,0:04:17.98,Default,V,0000,0000,0000,,Hmm...
+Dialogue: 0,0:04:18.51,0:04:22.61,Default,V,0000,0000,0000,,As your coach, I'd like to know \Nwhat your favorite food is, Yuri.
+Dialogue: 0,0:04:23.06,0:04:24.11,Default,Y,0000,0000,0000,,What?
+Dialogue: 0,0:04:25.17,0:04:27.12,Default,V,0000,0000,0000,,Wow! Amazing!
+Dialogue: 0,0:04:27.12,0:04:30.15,Default,YMom,0000,0000,0000,,Our specialty, the pork cutlet bowl, extra-large!
+Dialogue: 0,0:04:32.33,0:04:34.33,Default,V,0000,0000,0000,,Vkusno!
+Dialogue: 0,0:04:34.33,0:04:36.29,Default,V,0000,0000,0000,,Delicious! Too good for words!
+Dialogue: 0,0:04:36.72,0:04:38.61,Default,V,0000,0000,0000,,Is this what God eats?!
+Dialogue: 0,0:04:38.61,0:04:40.05,Default,Y,0000,0000,0000,,I'm glad you like it.
+Dialogue: 0,0:04:40.05,0:04:41.56,Default,Minako,0000,0000,0000,,Yuri gains weight easily,
+Dialogue: 0,0:04:41.56,0:04:44.55,Default,Minako,0000,0000,0000,,so he was only allowed to eat it \Nwhen he won a competition. Right?
+Dialogue: 0,0:04:45.13,0:04:48.30,Default,V,0000,0000,0000,,Oh? So have you eaten this \Npork cutlet bowl recently?
+Dialogue: 0,0:04:48.30,0:04:49.65,Default,Y,0000,0000,0000,,Yes, yes.
+Dialogue: 0,0:04:49.65,0:04:50.93,Default,Y,0000,0000,0000,,I eat it often.
+Dialogue: 0,0:04:50.93,0:04:52.27,Default,V,0000,0000,0000,,Why?
+Dialogue: 0,0:04:52.27,0:04:54.06,Default,V,0000,0000,0000,,You haven't won anything.
+Dialogue: 0,0:04:55.06,0:04:57.31,Default,V,0000,0000,0000,,With that pig's body of yours,
+Dialogue: 0,0:04:57.31,0:04:59.06,Default,V,0000,0000,0000,,lessons would be meaningless.
+Dialogue: 0,0:04:59.06,0:05:02.84,Default,V,0000,0000,0000,,You need to get back to your weight at \Nlast year's Grand Prix Final, at the least...
+Dialogue: 0,0:05:03.45,0:05:04.95,Default,V,0000,0000,0000,,or I can never coach you.
+Dialogue: 0,0:05:05.33,0:05:07.32,Default,V,0000,0000,0000,,Until then, no more pork cutlet bowls.
+Dialogue: 0,0:05:07.67,0:05:09.07,Default,V,0000,0000,0000,,Okay, little piggy?
+Dialogue: 0,0:05:09.45,0:05:10.34,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:10.34,0:05:12.83,Default,Y,0000,0000,0000,,I feel like I should be offended...
+Dialogue: 0,0:05:11.87,0:05:14.83,Default,YSis,0000,0000,0000,,Hey, this luggage is in the way.
+Dialogue: 0,0:05:15.29,0:05:17.58,Default,V,0000,0000,0000,,Can you take it to the room\Nwhere I'll be staying?
+Dialogue: 0,0:05:17.58,0:05:18.96,Default,YYSis,0000,0000,0000,,Staying?
+Dialogue: 0,0:05:19.84,0:05:23.93,Default,V,0000,0000,0000,,Wow! What a classic, tiny room.
+Dialogue: 0,0:05:23.93,0:05:25.35,Default,V,0000,0000,0000,,Is there a sofa?
+Dialogue: 0,0:05:25.35,0:05:26.34,Default,Y,0000,0000,0000,,No...
+Dialogue: 0,0:05:26.66,0:05:30.35,Default,Y,0000,0000,0000,,I'm sorry it's so small. We only had \Nan unused banquet room available.
+Dialogue: 0,0:05:30.68,0:05:32.35,Default,V,0000,0000,0000,,You look anxious.
+Dialogue: 0,0:05:32.35,0:05:35.00,Default,V,0000,0000,0000,,You can pay the coaching fee \Nafter you achieve success!
+Dialogue: 0,0:05:35.00,0:05:36.71,Default,V,0000,0000,0000,,I'll bill you later.
+Dialogue: 0,0:05:36.71,0:05:38.10,Default,Y,0000,0000,0000,,Th-Thank you.
+Dialogue: 0,0:05:38.82,0:05:42.40,Default,V,0000,0000,0000,,Yuri, tell me everything about you.
+Dialogue: 0,0:05:42.82,0:05:44.53,Default,V,0000,0000,0000,,What kind of rink do you skate at?
+Dialogue: 0,0:05:44.89,0:05:46.49,Default,V,0000,0000,0000,,What's in this city?
+Dialogue: 0,0:05:46.77,0:05:48.49,Default,V,0000,0000,0000,,Is there a girl you like?
+Dialogue: 0,0:05:49.56,0:05:50.90,Default,V,0000,0000,0000,,Before we start practicing,
+Dialogue: 0,0:05:50.90,0:05:54.21,Default,V,0000,0000,0000,,let's build some trust in our relationship.
+Dialogue: 0,0:05:56.00,0:05:57.93,Default,V,0000,0000,0000,,What? Why are you running away?
+Dialogue: 0,0:05:57.93,0:05:59.75,Default,Y,0000,0000,0000,,Uh, no reason...
+Dialogue: 0,0:06:00.14,0:06:02.75,Default - italics,Y,0000,0000,0000,,I'm still scared to be close to him.
+Dialogue: 0,0:06:05.14,0:06:07.38,Default,V,0000,0000,0000,,Yuri, let's sleep together.
+Dialogue: 0,0:06:07.38,0:06:10.26,Default,V,0000,0000,0000,,As your coach, there's so much \NI need to learn about you.
+Dialogue: 0,0:06:11.09,0:06:12.23,Default,Y,0000,0000,0000,,No!
+Dialogue: 0,0:06:11.41,0:06:12.23,Default,V,0000,0000,0000,,Yuri!
+Dialogue: 0,0:06:13.00,0:06:14.08,Default,V,0000,0000,0000,,Yuri!
+Dialogue: 0,0:06:14.54,0:06:15.67,Default,V,0000,0000,0000,,Yuri?
+Dialogue: 0,0:06:18.46,0:06:20.18,Default - italics,Y,0000,0000,0000,,We've barely ever spoken
+Dialogue: 0,0:06:20.18,0:06:23.06,Default - italics,Y,0000,0000,0000,,because I always put him\Non such a high pedestal,
+Dialogue: 0,0:06:23.06,0:06:24.76,Default - italics,Y,0000,0000,0000,,and now he's right here...
+Dialogue: 0,0:06:26.82,0:06:27.94,Default - italics,Y,0000,0000,0000,,I get it now.
+Dialogue: 0,0:06:28.39,0:06:31.82,Default - italics,Y,0000,0000,0000,,My heart's pounding\Nbecause of how happy I am.
+Dialogue: 0,0:06:34.53,0:06:35.75,Default,V,0000,0000,0000,,Hello!
+Dialogue: 0,0:06:37.90,0:06:38.71,Default,V,0000,0000,0000,,Hi!
+Dialogue: 0,0:06:39.29,0:06:41.12,Default,V,0000,0000,0000,,I'm Victor Nikiforov.
+Dialogue: 0,0:06:41.12,0:06:43.21,Default,V,0000,0000,0000,,I'll be Yuri's coach from now on.
+Dialogue: 0,0:06:43.21,0:06:44.96,Default,Nishi,0000,0000,0000,,Huh? What? What?!
+Dialogue: 0,0:06:44.96,0:06:47.46,Default,Nishi,0000,0000,0000,,Victor's really going to be Yuri's coach?!
+Dialogue: 0,0:06:51.74,0:06:52.51,Default,Y,0000,0000,0000,,Wow!
+Dialogue: 0,0:06:52.51,0:06:54.10,Default,Y,0000,0000,0000,,A quadruple flip!
+Dialogue: 0,0:06:54.10,0:06:55.28,Default,Kids,0000,0000,0000,,Mom, I've got this!
+Dialogue: 0,0:06:55.28,0:06:56.30,Default,Kids,0000,0000,0000,,I'll take the video!
+Dialogue: 0,0:06:56.30,0:06:57.56,Default,Kids,0000,0000,0000,,Can I upload this?
+Dialogue: 0,0:06:57.56,0:06:59.52,Default,Y,0000,0000,0000,,It's not for the public, you skating otaku trio!
+Dialogue: 0,0:06:59.83,0:07:01.02,Default,Nishi,0000,0000,0000,,Seriously?
+Dialogue: 0,0:07:01.02,0:07:02.36,Default,Y,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:02.36,0:07:05.66,Default,Y,0000,0000,0000,,He says he'd like to use this rink\Nas our home base for now.
+Dialogue: 0,0:07:05.66,0:07:06.28,Default,Y,0000,0000,0000,,Is that okay?
+Dialogue: 0,0:07:06.28,0:07:07.92,Default,Nishi,0000,0000,0000,,Okay, sure!
+Dialogue: 0,0:07:07.92,0:07:09.27,Default,Nishi,0000,0000,0000,,I'll talk to the higher-ups.
+Dialogue: 0,0:07:09.85,0:07:13.14,Default,Nishi,0000,0000,0000,,Victor teaching you himself... \NIt's like a dream come true!
+Dialogue: 0,0:07:13.14,0:07:13.78,Default,Y,0000,0000,0000,,Yeah...
+Dialogue: 0,0:07:14.63,0:07:16.57,Default - italics,Y,0000,0000,0000,,By the time I was twelve,
+Dialogue: 0,0:07:16.57,0:07:19.75,Default - italics,Y,0000,0000,0000,,Victor, four years my senior, \Nwas already number one in the world.
+Dialogue: 0,0:07:17.85,0:07:19.75,SignA,Sign 0718,0000,0000,0000,,{\fad(350,1)}Junior World Championships, Gold \NVictor Nikiforov \N\NSofia, Bulgaria
+Dialogue: 0,0:07:20.12,0:07:23.76,Default - italics,Sign 0718,0000,0000,0000,,I've imitated him for years,\Ntrying to catch up to him.
+Dialogue: 0,0:07:24.99,0:07:30.89,Default - italics,Sign 0718,0000,0000,0000,,How could seeing the video of me \Nskating his routine inspire him?
+Dialogue: 0,0:07:31.95,0:07:34.63,Default - italics,Sign 0718,0000,0000,0000,,How did {\i0}I{\i1} inspire you, Victor?
+Dialogue: 0,0:07:34.63,0:07:38.52,Default,V,0000,0000,0000,,The little piggy can't enter the rink \Nuntil he drops some body fat.
+Dialogue: 0,0:07:39.19,0:07:42.52,Default - italics,Y,0000,0000,0000,,Are you really serious about making me win?
+Dialogue: 0,0:07:42.52,0:07:46.02,sign_11090_160_Okukawa_Minako_B,Sign 0744,0000,0000,0000,,Okukawa Minako Ballet
+Dialogue: 0,0:07:43.45,0:07:46.02,Default,Minako,0000,0000,0000,,Maybe he just wanted\Nan excuse to take a break.
+Dialogue: 0,0:07:46.02,0:07:47.72,Default,Y,0000,0000,0000,,Please don't say that.
+Dialogue: 0,0:07:47.72,0:07:49.90,Default,Y,0000,0000,0000,,That's what I suspect, too, but...
+Dialogue: 0,0:07:49.90,0:07:53.16,Default,Minako,0000,0000,0000,,You decided to keep skating, didn't you?
+Dialogue: 0,0:07:53.16,0:07:55.53,Default,Minako,0000,0000,0000,,You need to take advantage of Victor!
+Dialogue: 0,0:07:55.53,0:07:58.16,Default,Minako,0000,0000,0000,,Okay, let's get you slimmed down!
+Dialogue: 0,0:07:58.16,0:07:59.91,Default,Y,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:08:01.64,0:08:04.03,Default - italics,Y,0000,0000,0000,,Minako-sensei is a ballet instructor.
+Dialogue: 0,0:08:04.49,0:08:08.09,Default - italics,Y,0000,0000,0000,,She used to travel the world as a dancer.
+Dialogue: 0,0:08:09.63,0:08:11.21,Default - italics,Y,0000,0000,0000,,When I was younger,
+Dialogue: 0,0:08:11.21,0:08:14.45,Default - italics,Y,0000,0000,0000,,I spent more time in her \Nballet class than at home.
+Dialogue: 0,0:08:15.21,0:08:18.13,Default - italics,Y,0000,0000,0000,,I even started skating because \NMinako-sensei urged me to.
+Dialogue: 0,0:08:18.76,0:08:20.88,Default - italics,Y,0000,0000,0000,,She's always cheered me on,
+Dialogue: 0,0:08:20.88,0:08:22.52,Default - italics,Y,0000,0000,0000,,but she likes to meddle, too.
+Dialogue: 0,0:08:22.91,0:08:24.44,Default,V,0000,0000,0000,,Do you have feelings for Minako?
+Dialogue: 0,0:08:24.44,0:08:26.29,Default,Y,0000,0000,0000,,What?! No way!
+Dialogue: 0,0:08:26.29,0:08:27.72,Default,V,0000,0000,0000,,Do you have a girlfriend?
+Dialogue: 0,0:08:27.72,0:08:28.32,Default,Y,0000,0000,0000,,No.
+Dialogue: 0,0:08:28.32,0:08:29.57,Default,V,0000,0000,0000,,Any ex-girlfriends?
+Dialogue: 0,0:08:29.57,0:08:31.03,Default,Y,0000,0000,0000,,N-No comment.
+Dialogue: 0,0:08:31.03,0:08:32.14,Default,V,0000,0000,0000,,Let's talk about me!
+Dialogue: 0,0:08:32.14,0:08:33.65,Default,V,0000,0000,0000,,My first girlfriend was—
+Dialogue: 0,0:08:32.94,0:08:34.31,Default,Y,0000,0000,0000,,Stop!
+Dialogue: 0,0:08:38.83,0:08:41.28,Default,V,0000,0000,0000,,Yuri, what's that castle over there?
+Dialogue: 0,0:08:41.28,0:08:43.30,Default,Y,0000,0000,0000,,Oh, that's Hasetsu Castle.
+Dialogue: 0,0:08:43.30,0:08:45.42,Default,Y,0000,0000,0000,,Inside is ninja house.
+Dialogue: 0,0:08:45.82,0:08:47.42,Default,V,0000,0000,0000,,Really? Ninjas?!
+Dialogue: 0,0:08:48.43,0:08:50.05,Default,V,0000,0000,0000,,Hasetsu Castle!
+Dialogue: 0,0:08:50.82,0:08:52.22,Default,V,0000,0000,0000,,Let me see! Let me see!
+Dialogue: 0,0:08:50.82,0:08:52.80,Default,Man,0000,0000,0000,,Who's that good-looking foreigner?
+Dialogue: 0,0:08:52.22,0:08:54.00,Default,V,0000,0000,0000,,Hashtag "#ninja"!
+Dialogue: 0,0:08:54.80,0:08:55.30,Default,V,0000,0000,0000,,Yes!
+Dialogue: 0,0:08:54.86,0:08:55.30,Phone,Sign 0855,0000,0000,0000,,What the... (lol) Victor's photo?!
+Dialogue: 0,0:08:56.32,0:08:57.55,Phone,Sign 0857,0000,0000,0000,,So it's true that he's going\Nto be Katsuki Yuri's coach...
+Dialogue: 0,0:08:58.02,0:08:59.56,Default,Yuri,0000,0000,0000,,"Hasetsu Castle"?
+Dialogue: 0,0:08:59.93,0:09:02.06,Default,Yuri,0000,0000,0000,,Does he want to become a ninja or something?
+Dialogue: 0,0:09:02.49,0:09:04.31,Default,Yuri,0000,0000,0000,,I finally found you.
+Dialogue: 0,0:09:05.59,0:09:07.90,Default,Yuri,0000,0000,0000,,Just you wait, Victor.
+Dialogue: 0,0:09:09.37,0:09:10.40,Default,YMom,0000,0000,0000,,Oh?
+Dialogue: 0,0:09:11.40,0:09:13.36,Default,News,0000,0000,0000,,Is it true that Victor is here?!
+Dialogue: 0,0:09:12.63,0:09:14.40,Default,News,0000,0000,0000,,Comment, please!
+Dialogue: 0,0:09:13.69,0:09:15.42,Default,Town,0000,0000,0000,,Can we share a bath with him?!
+Dialogue: 0,0:09:14.40,0:09:14.74,sign_13293_206_Mari_,Sign 0914,0000,0000,0000,,Mari
+Dialogue: 0,0:09:15.01,0:09:15.42,sign_13293_206_Mari_,Sign 0914,0000,0000,0000,,Mari
+Dialogue: 0,0:09:15.59,0:09:18.66,sign_13293_206_Mari_,Sign 0920,0000,0000,0000,,Mari
+Dialogue: 0,0:09:16.04,0:09:18.66,Default,YMom,0000,0000,0000,,It's been a long time since \Nwe had so many customers!
+Dialogue: 0,0:09:18.66,0:09:20.16,sign_13395_210_Congratulations_,Sign 0920,0000,0000,0000,,Congratulations on Advancing to the \NGrand Prix, {\c&H514F4B&}Skater Katsuki Yuri
+Dialogue: 0,0:09:20.49,0:09:22.27,Default,Misc,0000,0000,0000,,Victor's here, right?
+Dialogue: 0,0:09:22.27,0:09:24.54,Default,Misc,0000,0000,0000,,Excuse me! We'd like to film a special feature!
+Dialogue: 0,0:09:24.54,0:09:26.11,Default,Misc,0000,0000,0000,,I want to learn how to skate, too!
+Dialogue: 0,0:09:24.54,0:09:26.81,Default,Nishi,0000,0000,0000,,Wh-What the hell?
+Dialogue: 0,0:09:26.11,0:09:26.81,Default,Misc,0000,0000,0000,,Me, too!
+Dialogue: 0,0:09:26.81,0:09:27.54,Default,Yuko,0000,0000,0000,,Oh...
+Dialogue: 0,0:09:27.54,0:09:28.30,Default,People,0000,0000,0000,,Victor!
+Dialogue: 0,0:09:28.30,0:09:30.04,Default,People,0000,0000,0000,,Oh my God! He's super hot!
+Dialogue: 0,0:09:30.04,0:09:31.90,Default,Lady,0000,0000,0000,,C-Can I take a photo with you?
+Dialogue: 0,0:09:30.70,0:09:32.50,Default,Lady,0000,0000,0000,,He's really good-looking.
+Dialogue: 0,0:09:31.90,0:09:33.05,Default,News,0000,0000,0000,,Please let us interview you!
+Dialogue: 0,0:09:33.05,0:09:35.92,Default,Students,0000,0000,0000,,Apparently Victor's at Ice Castle.
+Dialogue: 0,0:09:35.92,0:09:36.93,Default,Students,0000,0000,0000,,Oh, wow!
+Dialogue: 0,0:09:44.74,0:09:46.81,sign_14020_226_One_Week_Later,Sign 0946,0000,0000,0000,,One Week Later
+Dialogue: 0,0:09:44.87,0:09:46.06,sign_14023_227_Hasetsu_City___H,Sign 0946,0000,0000,0000,,{\fad (600,1)}Hasetsu City \NHasetsu Float Statue \N{\fs16}Photos are best taken from right here!
+Dialogue: 0,0:09:46.81,0:09:48.45,Default,Yuri,0000,0000,0000,,Wow. Creepy.
+Dialogue: 0,0:09:50.66,0:09:51.74,Default,Yuri,0000,0000,0000,,Crap, no!
+Dialogue: 0,0:09:51.74,0:09:54.69,Default,Yuri,0000,0000,0000,,If I post this, Yakov will know I'm here!
+Dialogue: 0,0:09:56.54,0:10:00.16,Default,Yuri,0000,0000,0000,,Victor's been uploading tons of \Npictures with this city tagged...
+Dialogue: 0,0:10:00.70,0:10:03.30,Default,Yuri,0000,0000,0000,,Hey! Where's Victor?!
+Dialogue: 0,0:10:03.30,0:10:04.63,Default,Yuri,0000,0000,0000,,Victor!
+Dialogue: 0,0:10:05.70,0:10:07.21,sign_14523_237_Tiger_Sweatshirt,Sign 1007,0000,0000,0000,,Tiger Sweatshirt\N1,300 Yen
+Dialogue: 0,0:10:06.30,0:10:07.21,Default,Yuri,0000,0000,0000,,Wha—
+Dialogue: 0,0:10:07.21,0:10:09.02,Default,Yuri,0000,0000,0000,,My God...
+Dialogue: 0,0:10:09.02,0:10:10.33,Default,Yuri,0000,0000,0000,,That's awesome fashion!
+Dialogue: 0,0:10:10.82,0:10:11.71,Default,Yakov,0000,0000,0000,,Yuri!
+Dialogue: 0,0:10:11.71,0:10:15.23,Default,Yakov,0000,0000,0000,,Why are you in Japan, too?!
+Dialogue: 0,0:10:15.23,0:10:16.59,Default,Yuri,0000,0000,0000,,Oops, you found out?
+Dialogue: 0,0:10:16.59,0:10:20.34,Default,Yakov,0000,0000,0000,,You know how important this time \Nbefore your senior debut is, right?!
+Dialogue: 0,0:10:20.34,0:10:21.85,Default,Yuri,0000,0000,0000,,I told you!
+Dialogue: 0,0:10:22.17,0:10:26.35,Default,Yuri,0000,0000,0000,,I'm not coming back to Russia until \NVictor makes good on his promise!
+Dialogue: 0,0:10:27.74,0:10:29.66,Default,Yuri,0000,0000,0000,,That geezer's such a nag!
+Dialogue: 0,0:10:29.66,0:10:32.36,Default,Yuri,0000,0000,0000,,I have my own plan, okay?
+Dialogue: 0,0:10:36.76,0:10:39.24,Default - flashback,Yuri,0000,0000,0000,,{\i1}I'm supposed to do a triple Salchow next.
+Dialogue: 0,0:10:39.86,0:10:41.62,Default - flashback,Yakov,0000,0000,0000,,He'd better not...
+Dialogue: 0,0:10:41.62,0:10:42.62,Default - flashback,Yuri,0000,0000,0000,,{\i1}I can do it!
+Dialogue: 0,0:10:45.63,0:10:46.75,Default - flashback,Man,0000,0000,0000,,A quadruple Salchow?
+Dialogue: 0,0:10:46.75,0:10:48.25,Default - flashback,Yuri,0000,0000,0000,,{\i1}See that, Yakov?
+Dialogue: 0,0:10:48.83,0:10:49.87,Default - flashback,Yakov,0000,0000,0000,,You idiot!
+Dialogue: 0,0:10:50.19,0:10:53.88,Default - flashback,Yakov,0000,0000,0000,,I told you repeatedly that quads are off-limits\Nbecause your body's still developing!
+Dialogue: 0,0:10:53.88,0:10:56.21,Default - flashback,Yakov,0000,0000,0000,,If you can't follow orders, then quit!
+Dialogue: 0,0:10:58.37,0:10:59.56,Default - flashback,V,0000,0000,0000,,Yakov!
+Dialogue: 0,0:10:59.56,0:11:01.23,Default - flashback,V,0000,0000,0000,,You should praise him more.
+Dialogue: 0,0:11:01.23,0:11:03.01,Default - flashback,Yakov,0000,0000,0000,,Don't butt in! It's none of your business!
+Dialogue: 0,0:11:03.50,0:11:06.52,Default - flashback,V,0000,0000,0000,,I used to get scolded for doing that, too.
+Dialogue: 0,0:11:07.02,0:11:09.27,Default - flashback,V,0000,0000,0000,,You can win, even without quads.
+Dialogue: 0,0:11:09.81,0:11:11.05,Default - flashback,V,0000,0000,0000,,I'd bet money on it.
+Dialogue: 0,0:11:11.05,0:11:13.15,Default - flashback,V,0000,0000,0000,,You can win the Junior World Championship.
+Dialogue: 0,0:11:15.09,0:11:16.90,Default - flashback,Yuri,0000,0000,0000,,Okay, if I win without quad jumps,
+Dialogue: 0,0:11:17.34,0:11:20.14,Default - flashback,Yuri,0000,0000,0000,,then choreograph a program just for me!
+Dialogue: 0,0:11:22.23,0:11:23.43,Default - flashback,V,0000,0000,0000,,Sure.
+Dialogue: 0,0:11:23.43,0:11:26.16,Default - flashback,V,0000,0000,0000,,When you win the Junior World\NChampionship, come see me.
+Dialogue: 0,0:11:27.29,0:11:29.83,Default - flashback,V,0000,0000,0000,,I'll give you the best senior debut ever.
+Dialogue: 0,0:11:33.49,0:11:35.04,Default,Yuri,0000,0000,0000,,Where am I?
+Dialogue: 0,0:11:35.04,0:11:36.80,Default,Yuri,0000,0000,0000,,Victor!
+Dialogue: 0,0:11:37.41,0:11:39.49,Default,Fish,0000,0000,0000,,Oh? Are you a fan of Victor's?
+Dialogue: 0,0:11:39.93,0:11:43.73,Default,Fish,0000,0000,0000,,There's a skating rink below \Nthe castle. Try there.
+Dialogue: 0,0:11:51.30,0:11:52.98,Default,People,0000,0000,0000,,Come on, let us watch.
+Dialogue: 0,0:11:52.98,0:11:55.65,Default,Kids,0000,0000,0000,,It's reserved, and it's a \Nprivate practice session!
+Dialogue: 0,0:11:55.65,0:11:57.06,Default,Kids,0000,0000,0000,,Go home!
+Dialogue: 0,0:11:57.06,0:11:59.34,Default,Kids,0000,0000,0000,,Hey! You can't go in there!
+Dialogue: 0,0:11:59.34,0:12:00.24,Default,Yuri,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:00.24,0:12:01.99,Default,Kids,0000,0000,0000,,Yuri Plisetsky!
+Dialogue: 0,0:12:01.99,0:12:03.77,Default,Others,0000,0000,0000,,He's the junior world champion...
+Dialogue: 0,0:12:03.77,0:12:05.24,Default,Yuri,0000,0000,0000,,Victor's inside, isn't he?
+Dialogue: 0,0:12:05.24,0:12:06.78,Default,Kids,0000,0000,0000,,Come in, come in.
+Dialogue: 0,0:12:08.52,0:12:10.16,Default,Y,0000,0000,0000,,Finally here... I'm exhausted...
+Dialogue: 0,0:12:10.49,0:12:11.39,Default,Kids,0000,0000,0000,,Yuri...
+Dialogue: 0,0:12:11.39,0:12:12.62,Default,Y,0000,0000,0000,,Hey, get this!
+Dialogue: 0,0:12:12.62,0:12:15.95,Default,Y,0000,0000,0000,,My weight's back to what it was\Nbefore the Grand Prix Final!
+Dialogue: 0,0:12:16.45,0:12:19.38,Default,Y,0000,0000,0000,,Now I'll finally get Victor's \Npermission to skate.
+Dialogue: 0,0:12:25.54,0:12:26.45,Default,Y,0000,0000,0000,,Ow!
+Dialogue: 0,0:12:26.45,0:12:28.28,Default,Yuri,0000,0000,0000,,It's all your fault.
+Dialogue: 0,0:12:28.28,0:12:29.14,Default,Yuri,0000,0000,0000,,Apologize.
+Dialogue: 0,0:12:29.14,0:12:30.35,Default - italics,Y,0000,0000,0000,,Why is he here?
+Dialogue: 0,0:12:29.51,0:12:32.31,Default,Y,0000,0000,0000,,U-Uh, sorry, sorry.
+Dialogue: 0,0:12:30.35,0:12:32.31,Default - italics,Y,0000,0000,0000,,And why's he furious at me?!
+Dialogue: 0,0:12:32.85,0:12:34.97,Default,Y,0000,0000,0000,,{\an8}Hey, pig!
+Dialogue: 0,0:12:32.85,0:12:35.59,Default,Y,0000,0000,0000,,{\an8}Ow! That hurts! Stop!
+Dialogue: 0,0:12:33.87,0:12:36.53,Default,Kids,0000,0000,0000,,The Japanese Yuri and the \NRussian Yuri are both here.
+Dialogue: 0,0:12:34.97,0:12:36.07,Default,Y,0000,0000,0000,,{\an8}Fatso!
+Dialogue: 0,0:12:36.07,0:12:37.09,Default,Y,0000,0000,0000,,{\an8}Pig!
+Dialogue: 0,0:12:36.53,0:12:37.85,Default,Kids,0000,0000,0000,,This means...
+Dialogue: 0,0:12:37.85,0:12:39.34,Default,Kids,0000,0000,0000,,We can go ahead with {\i1}that,{\i0} right?
+Dialogue: 0,0:12:39.34,0:12:39.82,Default,Kids,0000,0000,0000,,Right!
+Dialogue: 0,0:12:40.76,0:12:44.38,Default,Yuri,0000,0000,0000,,He promised me first that he'd \Nchoreograph a program for me.
+Dialogue: 0,0:12:44.38,0:12:45.32,Default,Yuri,0000,0000,0000,,What about you?
+Dialogue: 0,0:12:45.32,0:12:48.51,Default,Y,0000,0000,0000,,Huh? We haven't gotten to talking\Nabout programs or anything.
+Dialogue: 0,0:12:48.51,0:12:49.51,Default,Yuri,0000,0000,0000,,What?!
+Dialogue: 0,0:12:49.51,0:12:52.30,Default,Yuri,0000,0000,0000,,You make him take a whole \Nyear off, and to do what?
+Dialogue: 0,0:12:52.30,0:12:53.83,Default,Yuri,0000,0000,0000,,Isn't getting him as a coach enough?
+Dialogue: 0,0:12:54.30,0:12:57.31,Default,Yuri,0000,0000,0000,,As if a guy who'd sob in a toilet\Nstall at the Grand Prix Final
+Dialogue: 0,0:12:57.31,0:13:00.70,Default,Yuri,0000,0000,0000,,can change at all just by \Ngetting Victor as a coach!
+Dialogue: 0,0:13:00.70,0:13:01.65,Default - italics,Y,0000,0000,0000,,He's...
+Dialogue: 0,0:13:01.95,0:13:03.84,Default - flashback,Yuri,0000,0000,0000,,Just retire already.
+Dialogue: 0,0:13:06.34,0:13:09.10,Default - italics,Y,0000,0000,0000,,He's totally underestimating me.
+Dialogue: 0,0:13:07.07,0:13:09.10,Default,Yuri,0000,0000,0000,,Stop smirking, fatso!
+Dialogue: 0,0:13:09.60,0:13:13.10,Default,Y,0000,0000,0000,,I don't really get the whole picture, \Nso you should ask him yourself.
+Dialogue: 0,0:13:13.70,0:13:16.71,Default - italics,Y,0000,0000,0000,,Victor came all the way to \NHasetsu because he wanted to.
+Dialogue: 0,0:13:17.58,0:13:19.06,Default - italics,Y,0000,0000,0000,,Just to become my coach.
+Dialogue: 0,0:13:19.61,0:13:20.63,Default,Yuri,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:22.71,0:13:24.15,Default,Yuri,0000,0000,0000,,Those moves...
+Dialogue: 0,0:13:24.15,0:13:27.99,Default,Yuri,0000,0000,0000,,They're for the short program Victor \Nwas practicing for next season.
+Dialogue: 0,0:13:27.99,0:13:28.81,Default,Y,0000,0000,0000,,What?
+Dialogue: 0,0:13:29.57,0:13:32.74,Default,Yuri,0000,0000,0000,,Victor was already putting together \Nroutines for next season.
+Dialogue: 0,0:13:33.46,0:13:35.22,Default,Yuri,0000,0000,0000,,But he was really torn.
+Dialogue: 0,0:13:35.67,0:13:39.00,Default,Yuri,0000,0000,0000,,Surprising the audience has \Nalways been his top priority.
+Dialogue: 0,0:13:39.43,0:13:41.59,Default,Yuri,0000,0000,0000,,He had the whole world in his hands.
+Dialogue: 0,0:13:41.59,0:13:44.21,Default,Yuri,0000,0000,0000,,But now, no matter what he does, \Nno one's surprised anymore.
+Dialogue: 0,0:13:45.33,0:13:47.45,Default,Yuri,0000,0000,0000,,He knows that better than anyone.
+Dialogue: 0,0:13:48.14,0:13:51.68,Default,Yuri,0000,0000,0000,,If you don't have any inspiration left, \Nyou're as good as dead.
+Dialogue: 0,0:13:52.53,0:13:54.53,Default,Yuri,0000,0000,0000,,If he's going to take next season off,
+Dialogue: 0,0:13:54.53,0:13:56.94,Default,Yuri,0000,0000,0000,,I wonder if he'll let me use his program.
+Dialogue: 0,0:13:57.55,0:14:00.48,Default,Yuri,0000,0000,0000,,I know I can surprise people more.
+Dialogue: 0,0:14:00.48,0:14:03.59,Default,Yuri,0000,0000,0000,,I need Victor's help if I'm \Ngoing to make my senior debut
+Dialogue: 0,0:14:03.59,0:14:05.40,Default,Yuri,0000,0000,0000,,and win the Grand Prix Final.
+Dialogue: 0,0:14:06.76,0:14:08.29,Default,Y,0000,0000,0000,,Huh? Win?
+Dialogue: 0,0:14:09.37,0:14:11.53,Default,Yuri,0000,0000,0000,,You look like you're doing great, Victor!
+Dialogue: 0,0:14:11.96,0:14:13.87,Default,V,0000,0000,0000,,Yuri, you're here?
+Dialogue: 0,0:14:13.87,0:14:15.71,Default,V,0000,0000,0000,,I'm surprised Yakov let you come.
+Dialogue: 0,0:14:15.71,0:14:16.89,Default,V,0000,0000,0000,,What do you want?
+Dialogue: 0,0:14:17.50,0:14:19.56,Default,V,0000,0000,0000,,Judging from that look,
+Dialogue: 0,0:14:19.56,0:14:22.42,Default,V,0000,0000,0000,,I'm guessing I forgot some promise I made.
+Dialogue: 0,0:14:22.42,0:14:24.17,SignB,Sign 1423,0000,0000,0000,,Welcome, Victor!\N{\fs17}Welcome Back, Katsuki Yuri
+Dialogue: 0,0:14:24.17,0:14:25.49,Default,V,0000,0000,0000,,Sorry, sorry.
+Dialogue: 0,0:14:25.49,0:14:26.92,Default,V,0000,0000,0000,,I totally forgot.
+Dialogue: 0,0:14:27.36,0:14:30.26,Default,V,0000,0000,0000,,But you knew I was the forgetful type, right?
+Dialogue: 0,0:14:30.26,0:14:32.18,Default,Yuri,0000,0000,0000,,Yeah, I'm painfully aware of that.
+Dialogue: 0,0:14:32.55,0:14:34.45,Default,Yuri,0000,0000,0000,,But a promise is a promise!
+Dialogue: 0,0:14:34.45,0:14:36.93,Default,Yuri,0000,0000,0000,,You'll choreograph my new program, Victor!
+Dialogue: 0,0:14:37.25,0:14:38.69,Default,Yuri,0000,0000,0000,,Let's go back to Russia!
+Dialogue: 0,0:14:46.57,0:14:47.69,Default,V,0000,0000,0000,,Okay, I've decided!
+Dialogue: 0,0:14:49.06,0:14:51.08,Default,V,0000,0000,0000,,Tomorrow, I'll choreograph \Na program for both of you
+Dialogue: 0,0:14:51.08,0:14:53.21,Default,V,0000,0000,0000,,to the same music I'm \Nusing in my short program.
+Dialogue: 0,0:14:53.21,0:14:55.70,Default,Yuri,0000,0000,0000,,Huh?! The same music as him?!
+Dialogue: 0,0:14:53.21,0:14:55.70,Default,Y,0000,0000,0000,,{\an8}What?! With the same choreography?!
+Dialogue: 0,0:14:55.70,0:14:59.18,Default,V,0000,0000,0000,,No, this piece has several \Ndifferent arrangements.
+Dialogue: 0,0:14:59.18,0:15:01.33,Default,V,0000,0000,0000,,I was trying to decide which one to use.
+Dialogue: 0,0:15:01.82,0:15:05.21,Default,V,0000,0000,0000,,I'll think of a different program \Nfor each of you, of course.
+Dialogue: 0,0:15:05.91,0:15:08.34,Default,V,0000,0000,0000,,I'll reveal the programs in one week!
+Dialogue: 0,0:15:08.34,0:15:11.59,Default,V,0000,0000,0000,,You'll compete to see who can \Nsurprise the audience more!
+Dialogue: 0,0:15:11.59,0:15:13.29,Default,Y,0000,0000,0000,,Whoa! Let's take a step back here.
+Dialogue: 0,0:15:13.29,0:15:15.42,Default,Y,0000,0000,0000,,I don't want to be punished for losing...
+Dialogue: 0,0:15:14.25,0:15:17.05,Default,Yuri,0000,0000,0000,,Victor will do whatever the winner says!
+Dialogue: 0,0:15:17.05,0:15:18.10,Default,Yuri,0000,0000,0000,,If those are the terms, I'm in!
+Dialogue: 0,0:15:18.10,0:15:20.35,Default,V,0000,0000,0000,,Great! I love that kind of thing!
+Dialogue: 0,0:15:20.74,0:15:22.10,Default,Kids,0000,0000,0000,,Wait just a minute!
+Dialogue: 0,0:15:22.51,0:15:26.60,Default,Kids,0000,0000,0000,,Will you let us organize the event?
+Dialogue: 0,0:15:26.60,0:15:29.80,Default,Kids,0000,0000,0000,,A face-off between \NYuri of Russia and Yuri of Japan!
+Dialogue: 0,0:15:29.80,0:15:30.98,Default,Kids,0000,0000,0000,,Let's throw...
+Dialogue: 0,0:15:30.98,0:15:33.00,Default,Kids,0000,0000,0000,,...a huge party!
+Dialogue: 0,0:15:32.36,0:15:34.12,sign_22355_384_Hasetsu_Exhibiti,Sign,0000,0000,0000,,{\fad (150,1)}Hasetsu Exhibition \N"Hot Springs on Ice" \NPresented by Victor Nikiforov
+Dialogue: 0,0:15:34.12,0:15:38.05,Default - italics,News,0000,0000,0000,,One week from now, the "Hot Springs \Non Ice" show will premiere
+Dialogue: 0,0:15:36.62,0:15:38.62,sign_22457_386__Missing,,0000,0000,0000,,News Department
+Dialogue: 0,0:15:38.05,0:15:40.62,Default - italics,News,0000,0000,0000,,at Ice Castle Hasetsu.
+Dialogue: 0,0:15:40.62,0:15:43.38,Default - italics,News,0000,0000,0000,,Please come to the event.
+Dialogue: 0,0:15:43.38,0:15:45.13,Default,Yuri,0000,0000,0000,,Talk about a hovel.
+Dialogue: 0,0:15:45.45,0:15:46.52,Default,Yuri,0000,0000,0000,,Where's my room?
+Dialogue: 0,0:15:46.52,0:15:47.63,Default,Y,0000,0000,0000,,You're staying here?!
+Dialogue: 0,0:15:48.57,0:15:51.77,Default,Yuri,0000,0000,0000,,If you get Victor to yourself all \Nthe time, it won't be a fair match!
+Dialogue: 0,0:15:51.77,0:15:53.13,Default,Yuri,0000,0000,0000,,I'll stay here, too! All right?
+Dialogue: 0,0:15:53.60,0:15:55.98,Default,Y,0000,0000,0000,,It's not like you care what I think.
+Dialogue: 0,0:15:55.98,0:15:57.64,Default,V,0000,0000,0000,,The hot spring is great.
+Dialogue: 0,0:15:57.64,0:15:59.74,Default,Yuri,0000,0000,0000,,I can't take a bath with other people!
+Dialogue: 0,0:15:59.74,0:16:00.39,Default,Yuri,0000,0000,0000,,I'm going to sleep!
+Dialogue: 0,0:16:02.08,0:16:05.71,sign_23067_400_Growl,Sign 1603,0000,0000,0000,,Growl
+Dialogue: 0,0:16:04.50,0:16:05.50,Default,Yuri,0000,0000,0000,,Give me food!
+Dialogue: 0,0:16:05.50,0:16:06.40,Default,Yuri,0000,0000,0000,,And a bath!
+Dialogue: 0,0:16:10.86,0:16:11.94,Default,Yuri,0000,0000,0000,,This is great!
+Dialogue: 0,0:16:11.94,0:16:13.66,Default,V,0000,0000,0000,,The pork cutlet bowl is good, isn't it?
+Dialogue: 0,0:16:13.66,0:16:15.49,Default,YSis,0000,0000,0000,,You have another visitor, Yuri?
+Dialogue: 0,0:16:15.94,0:16:16.90,Default,Yuri,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:16.90,0:16:18.45,Default,Yuri,0000,0000,0000,,Huh?!
+Dialogue: 0,0:16:18.70,0:16:20.38,Default,YSis,0000,0000,0000,,No way!
+Dialogue: 0,0:16:19.72,0:16:21.18,sign_23490_409_Ba_Dump,Sign,0000,0000,0000,,{\fad(150,600)}Ba-Dump
+Dialogue: 0,0:16:20.38,0:16:22.46,Default,YSis,0000,0000,0000,,He looks just like my \Nidol, The Blond Takao!
+Dialogue: 0,0:16:21.23,0:16:22.46,sign_23528_411_Takao_,Sign,0000,0000,0000,,{\fad(709,1)}Takao?
+Dialogue: 0,0:16:22.46,0:16:25.15,Default,YMom,0000,0000,0000,,His name is also Yuri.
+Dialogue: 0,0:16:25.15,0:16:26.96,Default,YSis,0000,0000,0000,,What? That's confusing.
+Dialogue: 0,0:16:26.96,0:16:28.94,Default,YSis,0000,0000,0000,,Okay, you're Yurio!
+Dialogue: 0,0:16:28.23,0:16:29.71,sign_23694_416_Yurio,Sign,0000,0000,0000,,{\fad(300,1)}Yurio
+Dialogue: 0,0:16:28.94,0:16:29.71,Default,Yuri,0000,0000,0000,,What?!
+Dialogue: 0,0:16:30.11,0:16:31.70,Default,YSis,0000,0000,0000,,Where will Yurio stay?
+Dialogue: 0,0:16:31.70,0:16:32.94,Default,Y,0000,0000,0000,,Upstairs in—
+Dialogue: 0,0:16:32.29,0:16:33.67,Default,YSis,0000,0000,0000,,The storage room?!
+Dialogue: 0,0:16:33.67,0:16:35.75,Default,YSis,0000,0000,0000,,Oh, no! I need to clean it up!
+Dialogue: 0,0:16:35.75,0:16:37.47,Default,YSis,0000,0000,0000,,Yuri, come help.
+Dialogue: 0,0:16:41.54,0:16:42.81,Default,V,0000,0000,0000,,Good for you, Yurio.
+Dialogue: 0,0:16:42.81,0:16:43.72,Default,Yuri,0000,0000,0000,,Shut up!
+Dialogue: 0,0:16:43.72,0:16:45.22,Default,Yuri,0000,0000,0000,,That's not my name!
+Dialogue: 0,0:16:48.29,0:16:49.73,Default - italics,Y,0000,0000,0000,,I see...
+Dialogue: 0,0:16:49.73,0:16:51.23,Default - italics,Y,0000,0000,0000,,Of course.
+Dialogue: 0,0:16:52.99,0:16:54.99,Default - italics,Y,0000,0000,0000,,That Yuri has more potential than I do.
+Dialogue: 0,0:16:53.59,0:16:54.99,Default,YSis,0000,0000,0000,,Yuri, where are you going?
+Dialogue: 0,0:16:55.83,0:16:59.49,Default - italics,Y,0000,0000,0000,,He's pretty confident, saying he'll win the \NGrand Prix Final on his first run as a senior.
+Dialogue: 0,0:17:00.27,0:17:02.75,Default - italics,Y,0000,0000,0000,,Above all, he's comfortable in front of Victor.
+Dialogue: 0,0:17:03.57,0:17:06.25,Default - italics,Y,0000,0000,0000,,Compared to me, he's much more...
+Dialogue: 0,0:17:06.87,0:17:08.50,Default,V,0000,0000,0000,,Huh? Where's Yuri?
+Dialogue: 0,0:17:08.50,0:17:10.85,Default,YMom,0000,0000,0000,,He left a while ago.
+Dialogue: 0,0:17:10.85,0:17:13.76,Default,YMom,0000,0000,0000,,At a time like this, he'd be at \NMinako-san's place or Ice Castle.
+Dialogue: 0,0:17:14.31,0:17:15.69,Default,YMom,0000,0000,0000,,He's always been that way.
+Dialogue: 0,0:17:16.63,0:17:18.45,Default,Minako,0000,0000,0000,,Huh? Yuri?
+Dialogue: 0,0:17:16.63,0:17:19.64,sign_24855_439_Snack_Bar___Kach,Sign,0000,0000,0000,,Kachu\NSnack Bar
+Dialogue: 0,0:17:18.45,0:17:19.64,Default,Minako,0000,0000,0000,,He's not here.
+Dialogue: 0,0:17:20.20,0:17:23.21,Default,Minako,0000,0000,0000,,By "my place," she meant my ballet studio.
+Dialogue: 0,0:17:23.21,0:17:25.89,Default,Minako,0000,0000,0000,,Whenever Yuri gets anxious, \Nhe always wants to practice.
+Dialogue: 0,0:17:26.63,0:17:29.15,Default,Minako,0000,0000,0000,,I usually go along with him.
+Dialogue: 0,0:17:29.93,0:17:32.90,Default,Minako,0000,0000,0000,,Ice Castle lets him skate anytime\Nif it's not booked already.
+Dialogue: 0,0:17:33.30,0:17:35.66,Default,Minako,0000,0000,0000,,Yuri was able to grow because he had a place
+Dialogue: 0,0:17:35.66,0:17:38.29,Default,Minako,0000,0000,0000,,where he could practice alone\Nwhenever he got anxious.
+Dialogue: 0,0:17:38.29,0:17:39.75,Default,Minako,0000,0000,0000,,He's no genius,
+Dialogue: 0,0:17:39.75,0:17:43.66,Default,Minako,0000,0000,0000,,but he was gifted with more free time\Nthan anyone else to practice.
+Dialogue: 0,0:17:44.01,0:17:46.41,Default,Nishi,0000,0000,0000,,He's always come here to practice by himself.
+Dialogue: 0,0:17:46.83,0:17:50.22,Default,Yuko,0000,0000,0000,,It always made me think\Nhe really loved skating.
+Dialogue: 0,0:17:50.22,0:17:51.67,Default,Yuko,0000,0000,0000,,He didn't even play with his friends.
+Dialogue: 0,0:17:52.41,0:17:55.30,Default,Nishi,0000,0000,0000,,Well, he was never very good at making them.
+Dialogue: 0,0:17:55.80,0:17:58.55,Default,Nishi,0000,0000,0000,,Skating aside, he's not good\Nat putting himself out there.
+Dialogue: 0,0:17:58.86,0:18:01.05,Default,Nishi,0000,0000,0000,,I don't want this to be the end for him.
+Dialogue: 0,0:18:01.05,0:18:02.71,Default,Yuko,0000,0000,0000,,Me, neither.
+Dialogue: 0,0:18:02.71,0:18:05.56,Default,Yuko,0000,0000,0000,,He actually hates losing.
+Dialogue: 0,0:18:05.88,0:18:09.06,Default,Yuko,0000,0000,0000,,I hope Victor will bring out a side of \NYuri-kun that we've never seen before.
+Dialogue: 0,0:18:12.62,0:18:15.69,Default,V,0000,0000,0000,,So, a magic spell to change \Nthe little piggy into a prince...
+Dialogue: 0,0:18:15.69,0:18:16.77,Default,YN,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:16.77,0:18:18.45,Default,V,0000,0000,0000,,Nothing.
+Dialogue: 0,0:18:18.82,0:18:22.54,Default,V,0000,0000,0000,,Thanks. I know a lot more about Yuri now.
+Dialogue: 0,0:18:26.75,0:18:28.45,Default,V,0000,0000,0000,,Good morning.
+Dialogue: 0,0:18:28.45,0:18:29.77,Default,Fish,0000,0000,0000,,Morning.
+Dialogue: 0,0:18:29.77,0:18:31.46,Default,V,0000,0000,0000,,You say hi too, Yurio.
+Dialogue: 0,0:18:31.46,0:18:33.70,Default,Yuri,0000,0000,0000,,I'm not Yurio!
+Dialogue: 0,0:18:34.21,0:18:36.09,sign_26715_469_Private_Practice,Sign 1835,0000,0000,0000,,Private Practice Session \NReserved All Day \NApologies for the Inconvenience
+Dialogue: 0,0:18:34.21,0:18:36.09,sign_26715_470__Hot_Springs_on_,Sign 1835,0000,0000,0000,,"Hot Springs on Ice" Is a Go! \N{\c&HCB5765&}Katsuki Yuri & Yuri Plisetsky \N{\c&H79797A&}Location: Ice Castle Hasetsu
+Dialogue: 0,0:18:35.37,0:18:38.02,Default - italics,Y,0000,0000,0000,,Victor will finally start teaching me today.
+Dialogue: 0,0:18:38.89,0:18:41.25,Default - italics,Y,0000,0000,0000,,Whether this is my last \Nseason or not rides on this.
+Dialogue: 0,0:18:41.25,0:18:42.97,Default - italics,Y,0000,0000,0000,,I'll never win if I wimp out here!
+Dialogue: 0,0:18:44.20,0:18:47.73,Default - italics,Y,0000,0000,0000,,I can't lose this "Hot Springs on Ice" match!
+Dialogue: 0,0:18:48.74,0:18:52.01,Default - italics,Y,0000,0000,0000,,And then I'll aim for the Grand Prix Final!
+Dialogue: 0,0:18:53.96,0:18:56.32,Default,V,0000,0000,0000,,First, let's have you two listen to the music.
+Dialogue: 0,0:19:04.95,0:19:08.33,Default,V,0000,0000,0000,,This piece comes in two arrangements,\Neach with a different theme.
+Dialogue: 0,0:19:08.94,0:19:11.83,Default,V,0000,0000,0000,,"On Love: Eros and Agape."
+Dialogue: 0,0:19:12.45,0:19:15.20,Default,V,0000,0000,0000,,Have you ever thought about love?
+Dialogue: 0,0:19:15.20,0:19:16.14,Default,Yuri,0000,0000,0000,,Nope.
+Dialogue: 0,0:19:16.14,0:19:17.09,Default,V,0000,0000,0000,,All right.
+Dialogue: 0,0:19:17.43,0:19:20.59,Default,V,0000,0000,0000,,Then what do you feel when \Nyou listen to this music?
+Dialogue: 0,0:19:20.92,0:19:22.90,Default,Y,0000,0000,0000,,It's very clear and innocent,
+Dialogue: 0,0:19:22.90,0:19:25.35,Default,Y,0000,0000,0000,,like someone who doesn't \Nknow what love is yet.
+Dialogue: 0,0:19:25.35,0:19:27.30,Default,Yuri,0000,0000,0000,,I don't like this piece.
+Dialogue: 0,0:19:27.30,0:19:29.85,Default,Yuri,0000,0000,0000,,This innocence crap makes me wanna barf.
+Dialogue: 0,0:19:30.44,0:19:31.60,Default,V,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:42.62,0:19:44.45,Default,Y,0000,0000,0000,,It's like a completely different song.
+Dialogue: 0,0:19:44.45,0:19:45.03,Default,Yuri,0000,0000,0000,,Victor!
+Dialogue: 0,0:19:45.89,0:19:47.66,Default,Yuri,0000,0000,0000,,I want to skate to this one!
+Dialogue: 0,0:19:49.75,0:19:52.76,Default,V,0000,0000,0000,,The first piece is "On Love: Agape."
+Dialogue: 0,0:19:52.76,0:19:54.32,Default,V,0000,0000,0000,,The theme is unconditional love.
+Dialogue: 0,0:19:55.38,0:19:58.57,Default,V,0000,0000,0000,,And this piece is "On Love: Eros."
+Dialogue: 0,0:19:58.57,0:20:00.38,Default,V,0000,0000,0000,,The theme is sexual love.
+Dialogue: 0,0:20:02.85,0:20:06.39,Default,V,0000,0000,0000,,I'll have you two skate \Nto these opposing themes.
+Dialogue: 0,0:20:06.39,0:20:07.89,Default,V,0000,0000,0000,,This is how I'm assigning them.
+Dialogue: 0,0:20:07.89,0:20:09.39,Default,V,0000,0000,0000,,Yuri, you'll skate to "Eros"!
+Dialogue: 0,0:20:09.39,0:20:10.89,Default,V,0000,0000,0000,,Yurio, you'll skate to "Agape"!
+Dialogue: 0,0:20:12.56,0:20:14.65,Default,Y,0000,0000,0000,,{\an8}What?!
+Dialogue: 0,0:20:12.56,0:20:14.65,Default,Yuri,0000,0000,0000,,Switch them! That piece isn't me at all!
+Dialogue: 0,0:20:15.13,0:20:17.73,Default,V,0000,0000,0000,,You have to do the opposite \Nof what people expect.
+Dialogue: 0,0:20:17.73,0:20:19.23,Default,V,0000,0000,0000,,How else will you surprise them?
+Dialogue: 0,0:20:19.23,0:20:20.74,Default,V,0000,0000,0000,,That's my motto.
+Dialogue: 0,0:20:20.74,0:20:25.97,Default,V,0000,0000,0000,,Actually, you're both far more ordinary \Nand mediocre than you think.
+Dialogue: 0,0:20:25.97,0:20:28.39,Default,V,0000,0000,0000,,You need to be more self-aware.
+Dialogue: 0,0:20:28.39,0:20:32.03,Default,V,0000,0000,0000,,I'm surprised you think you can\Nchoose your own image.
+Dialogue: 0,0:20:32.03,0:20:34.92,Default,V,0000,0000,0000,,From the audience's perspective, \Nyou're just a piglet and a kitten.
+Dialogue: 0,0:20:34.92,0:20:38.17,sign_22355_384_Hasetsu_Exhibiti,Sign,0000,0000,0000,,Hasetsu Exhibition \NHot Springs on Ice \NVictor Nikiforov Presents
+Dialogue: 0,0:20:35.36,0:20:38.17,Default,V,0000,0000,0000,,If you aren't up to my standards by next week,
+Dialogue: 0,0:20:38.51,0:20:40.67,Default,V,0000,0000,0000,,I won't choreograph either of your programs.
+Dialogue: 0,0:20:40.67,0:20:43.93,Default,V,0000,0000,0000,,Both of you are my fans,\Nso I'm sure you'll manage.
+Dialogue: 0,0:20:45.54,0:20:46.59,Default,Yuri,0000,0000,0000,,Fine.
+Dialogue: 0,0:20:46.59,0:20:47.93,Default,Yuri,0000,0000,0000,,I'll skate to "Agape."
+Dialogue: 0,0:20:48.34,0:20:50.43,Default,Yuri,0000,0000,0000,,My senior division debut depends on it!
+Dialogue: 0,0:20:50.86,0:20:53.69,Default,Yuri,0000,0000,0000,,You'd better give me a \Nprogram that'll let me win!
+Dialogue: 0,0:20:54.04,0:20:56.24,Default,V,0000,0000,0000,,It's up to you whether you win or not.
+Dialogue: 0,0:20:56.24,0:20:58.82,Default,V,0000,0000,0000,,If I skated the program, I'd win for sure.
+Dialogue: 0,0:21:00.38,0:21:03.03,Default,Yuri,0000,0000,0000,,If I win, Victor, you're coming back to Russia.
+Dialogue: 0,0:21:03.45,0:21:05.47,Default,Yuri,0000,0000,0000,,And you'll be my coach!
+Dialogue: 0,0:21:05.47,0:21:06.78,Default,Yuri,0000,0000,0000,,That's what I want!
+Dialogue: 0,0:21:08.27,0:21:08.78,Default,V,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:13.11,0:21:15.34,Default,V,0000,0000,0000,,Yuri, what about you?
+Dialogue: 0,0:21:15.34,0:21:17.29,Default,V,0000,0000,0000,,What would you like to do if you win?
+Dialogue: 0,0:21:18.43,0:21:21.05,Default,Y,0000,0000,0000,,I want to eat pork cutlet\Nbowls with you, Victor.
+Dialogue: 0,0:21:23.49,0:21:26.55,Default,Y,0000,0000,0000,,I want to keep on winning, \Nand keep on eating pork cutlet bowls!
+Dialogue: 0,0:21:26.89,0:21:28.30,Default,Y,0000,0000,0000,,So I'll skate to "Eros"!
+Dialogue: 0,0:21:28.74,0:21:31.06,Default,Y,0000,0000,0000,,I'll give it all the eros I've got!
+Dialogue: 0,0:21:33.26,0:21:34.46,Default,V,0000,0000,0000,,Great!
+Dialogue: 0,0:21:33.68,0:21:36.98,sign_31018_532_Hasetsu_Exhibiti,Sign,0000,0000,0000,,Hasetsu Exhibition:\N"Hot Springs On Ice" in 7 Days
+Dialogue: 0,0:21:34.46,0:21:36.23,Default,V,0000,0000,0000,,That's exactly what I like!
+Dialogue: 0,0:21:36.98,0:21:39.98,TBC,Sign,0000,0000,0000,,To Be Continued!!!
+Dialogue: 0,0:23:09.90,0:23:12.86,Default,V,0000,0000,0000,,I wonder, which of you will \Nbe able to satisfy me?
+Dialogue: 0,0:23:12.86,0:23:14.78,Default,Y,0000,0000,0000,,I'll satisfy you for sure!
+Dialogue: 0,0:23:14.78,0:23:16.34,Default,Yuri,0000,0000,0000,,Fine! Bring on the fight!
+Dialogue: 0,0:23:16.34,0:23:17.66,Default,Yuri,0000,0000,0000,,Don't underestimate Russia!
+Dialogue: 0,0:23:18.41,0:23:19.91,Default,YY,0000,0000,0000,,Next time, Third Skate:
+Dialogue: 0,0:23:19.91,0:23:26.00,Title,Sign,0000,0000,0000,,{\fs16}The Third Skate \N{\fs20}I Am Eros, and Eros Is Me?!\NFace-Off! Hot Springs on Ice
+Dialogue: 0,0:23:20.30,0:23:22.49,Default,YY,0000,0000,0000,,I Am Eros, and Eros Is Me?!
+Dialogue: 0,0:23:22.49,0:23:23.97,Default,YY,0000,0000,0000,,Hot Springs on Ice.

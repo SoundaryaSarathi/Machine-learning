@@ -1,0 +1,364 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Ange-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,53,53,27,0
+Style: Ange-internal/narrator,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-flashback-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-announcer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-internal/overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ange-announceoverlap,Open Sans Semibold,36,&H00C0F29A,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,53,53,27,0
+Style: Ange-EpTitle,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,80,87,1
+Style: Ange-announcertop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Ange-NextEp,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,53,60,100,1
+Style: next episode preview,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,13,27,1
+Style: Ange-internaltop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Ange-announceflashback,Open Sans Semibold,36,&H00E6F5FD,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,53,53,27,0
+Style: Ange-Voice,Open Sans Semibold,27,&H00A73DE1,&H000000FF,&H00130D19,&H00000000,1,0,0,0,100,100,0,-6,1,4,0,7,267,13,53,1
+Style: Ange-Warning,Open Sans Semibold,39,&H006A12F4,&H000000FF,&H00130D19,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,13,13,40,1
+Style: Ange-Song1,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,53,53,27,0
+Style: Ange-Song2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H009F190C,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,53,53,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.44,0:00:05.48,Ange-main,Ange,0000,0000,0000,,What was that?
+Dialogue: 0,0:00:12.13,0:00:13.82,Ange-main,Tusk,0000,0000,0000,,They're after the {\i1}Aurora{\i0}!
+Dialogue: 0,0:00:13.82,0:00:15.70,Ange-main,Ange,0000,0000,0000,,Wait, that ship...
+Dialogue: 0,0:00:20.55,0:00:23.10,Ange-announcer,Jasmine,0000,0000,0000,,Get a grip, everyone! We're under attack!
+Dialogue: 0,0:00:24.00,0:00:26.08,Ange-main,Jasmine,0000,0000,0000,,Seal all bulkheads.
+Dialogue: 0,0:00:26.08,0:00:27.36,Ange-main,Jasmine,0000,0000,0000,,Prepare to submerge.
+Dialogue: 0,0:00:27.79,0:00:28.72,Ange-main,Pamela,0000,0000,0000,,Roger.
+Dialogue: 0,0:00:42.71,0:00:44.02,Ange-main,Ange,0000,0000,0000,,Stop!
+Dialogue: 0,0:00:50.79,0:00:52.33,Ange-main,Jasmine,0000,0000,0000,,They've stopped firing.
+Dialogue: 0,0:00:52.97,0:00:57.37,Ange-main,Pamela,0000,0000,0000,,Ange, Vivian and another unit are\Nengaging the enemy Para-mails.
+Dialogue: 0,0:00:57.37,0:01:00.36,Ange-main,Hikaru,0000,0000,0000,,Maybe they're trying to protect us.
+Dialogue: 0,0:01:00.36,0:01:05.57,Ange-main,Jasmine,0000,0000,0000,,Do they even know who's fault this is?\NFor crying out loud...
+Dialogue: 0,0:01:05.57,0:01:07.70,Ange-main,Tusk,0000,0000,0000,,Hurry, please, {\i1}Aurora{\i0}!
+Dialogue: 0,0:01:14.68,0:01:15.88,Ange-main,Vivian,0000,0000,0000,,Catch!
+Dialogue: 0,0:01:25.11,0:01:26.59,Ange-main,Chris,0000,0000,0000,,Get out of my way.
+Dialogue: 0,0:01:26.59,0:01:28.48,Ange-main,Vivian,0000,0000,0000,,Whoa! Danger!
+Dialogue: 0,0:01:29.71,0:01:31.75,Ange-main,Vivian,0000,0000,0000,,Go, Bunbunmaru!
+Dialogue: 0,0:01:34.14,0:01:36.24,Ange-main,Ersha,0000,0000,0000,,Bad girl, Vivi-chan.
+Dialogue: 0,0:01:41.37,0:01:42.47,Ange-main,Ange,0000,0000,0000,,Momoka!
+Dialogue: 0,0:01:42.47,0:01:43.91,Ange-main,Momoka,0000,0000,0000,,Light of Mana!
+Dialogue: 0,0:01:43.91,0:01:45.57,Ange-main,Momoka,0000,0000,0000,,Light of Mana!
+Dialogue: 0,0:01:45.57,0:01:47.48,Ange-main,Momoka,0000,0000,0000,,Light of Mana!
+Dialogue: 0,0:01:51.28,0:01:53.35,Ange-main,Pamela,0000,0000,0000,,All bulkheads sealed.
+Dialogue: 0,0:01:53.35,0:01:55.40,Ange-main,Jasmine,0000,0000,0000,,{\i1}Aurora{\i0} submerged. Full speed ahead.
+Dialogue: 0,0:02:07.06,0:02:08.36,Ange-announcer,Ange,0000,0000,0000,,That's far enough.
+Dialogue: 0,0:02:10.02,0:02:11.89,Ange-main,Ange,0000,0000,0000,,Why are you doing this?
+Dialogue: 0,0:02:11.89,0:02:14.57,Ange-main,Ange,0000,0000,0000,,Aren't your friends on that ship?
+Dialogue: 0,0:02:14.57,0:02:16.33,Ange-main,Ange,0000,0000,0000,,Why are you attacking them?
+Dialogue: 0,0:02:17.49,0:02:19.40,Ange-main,Ersha,0000,0000,0000,,Retreat, Chris-chan.
+Dialogue: 0,0:02:27.68,0:02:28.58,Ange-main,Ange,0000,0000,0000,,Momoka.
+Dialogue: 0,0:02:35.69,0:02:38.92,Ange-main,Salia,0000,0000,0000,,This is attack formation\N Stealth Rose Triangle.
+Dialogue: 0,0:02:38.92,0:02:39.68,Ange-main,Ange,0000,0000,0000,,Salia...
+Dialogue: 0,0:02:41.10,0:02:42.26,Ange-main,Salia,0000,0000,0000,,Ange.
+Dialogue: 0,0:02:42.26,0:02:43.25,Ange-main,Salia,0000,0000,0000,,Goodbye.
+Dialogue: 0,0:04:18.48,0:04:23.49,Ange-EpTitle,,0000,0000,0000,,{\fad(528,519)}Tuner of Time
+Dialogue: 0,0:04:21.98,0:04:23.33,Ange-internaltop,Ange,0000,0000,0000,,I messed up.
+Dialogue: 0,0:04:23.97,0:04:26.01,Ange-internal/narrator,Ange,0000,0000,0000,,I can't believe I let Salia get me.
+Dialogue: 0,0:04:30.72,0:04:34.67,Ange-internal/narrator,Ange,0000,0000,0000,,They smell like the\Nroses Mother used to grow.
+Dialogue: 0,0:04:35.58,0:04:38.84,Ange-internal/narrator,Ange,0000,0000,0000,,If this is hell, then\N maybe it's not so bad.
+Dialogue: 0,0:04:41.91,0:04:44.76,Ange-main,Momoka,0000,0000,0000,,Wake up, Angelise-sama.
+Dialogue: 0,0:04:46.62,0:04:48.23,Ange-main,Momoka,0000,0000,0000,,Good morning.
+Dialogue: 0,0:04:48.75,0:04:50.05,Ange-main,Ange,0000,0000,0000,,Where am I?
+Dialogue: 0,0:04:50.05,0:04:52.27,Ange-main,Momoka,0000,0000,0000,,Your room, Angelise-sama.
+Dialogue: 0,0:04:52.67,0:04:54.42,Ange-main,Ange,0000,0000,0000,,My room? Where?
+Dialogue: 0,0:04:54.42,0:04:55.48,Ange-main,Ange,0000,0000,0000,,Arzenal?
+Dialogue: 0,0:04:55.48,0:04:56.83,Ange-main,Momoka,0000,0000,0000,,No.
+Dialogue: 0,0:04:56.83,0:05:00.69,Ange-main,Momoka,0000,0000,0000,,Your real, true home.
+Dialogue: 0,0:05:00.91,0:05:03.82,Ange-main,Momoka,0000,0000,0000,,It's well-cleaned and properly maintained.
+Dialogue: 0,0:05:03.82,0:05:06.05,Ange-main,Momoka,0000,0000,0000,,Just as it was on the day you left.
+Dialogue: 0,0:05:06.56,0:05:08.13,Ange-main,Ange,0000,0000,0000,,Then we're in...
+Dialogue: 0,0:05:08.13,0:05:08.94,Ange-main,Momoka,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:08.94,0:05:10.58,Ange-main,Momoka,0000,0000,0000,,The Empire of Misurugi.
+Dialogue: 0,0:05:19.09,0:05:20.54,Ange-main,Ange,0000,0000,0000,,Embryo...
+Dialogue: 0,0:05:23.64,0:05:25.26,Ange-main,Momoka,0000,0000,0000,,Real silk!
+Dialogue: 0,0:05:25.26,0:05:26.63,Ange-main,Momoka,0000,0000,0000,,It's so soft!
+Dialogue: 0,0:05:26.63,0:05:28.39,Ange-main,Ange,0000,0000,0000,,I can put my own clothes on.
+Dialogue: 0,0:05:28.39,0:05:29.63,Ange-main,Momoka,0000,0000,0000,,You mustn't!
+Dialogue: 0,0:05:29.63,0:05:33.07,Ange-main,Momoka,0000,0000,0000,,You must allow me to take care\Nof you while we're at the palace.
+Dialogue: 0,0:05:33.07,0:05:34.80,Ange-main,Ange,0000,0000,0000,,Then hurry up.
+Dialogue: 0,0:05:34.80,0:05:35.98,Ange-main,Ange,0000,0000,0000,,It's getting cold.
+Dialogue: 0,0:05:36.55,0:05:37.35,Ange-main,Momoka,0000,0000,0000,,Yes, ma'am.
+Dialogue: 0,0:05:41.73,0:05:43.98,Ange-main,Ange,0000,0000,0000,,I'm back again...
+Dialogue: 0,0:05:44.80,0:05:48.38,Ange-main,Ange,0000,0000,0000,,But why did Salia bring us here?
+Dialogue: 0,0:05:48.84,0:05:50.36,Ange-main,Momoka,0000,0000,0000,,I don't know.
+Dialogue: 0,0:05:50.36,0:05:53.40,Ange-main,Momoka,0000,0000,0000,,I was here when I woke up, too.
+Dialogue: 0,0:05:54.79,0:05:56.52,Ange-main,Ange,0000,0000,0000,,Goodbye, my ass.
+Dialogue: 0,0:05:57.00,0:05:58.44,Ange-main,Ange,0000,0000,0000,,It was just a tranquilizer.
+Dialogue: 0,0:06:00.61,0:06:02.59,Ange-main,Ange,0000,0000,0000,,Are Tusk and Vivian safe?
+Dialogue: 0,0:06:03.25,0:06:04.76,Ange-main,Momoka,0000,0000,0000,,I'm sure they are.
+Dialogue: 0,0:06:04.76,0:06:07.32,Ange-main,Momoka,0000,0000,0000,,Those two are strong.
+Dialogue: 0,0:06:08.65,0:06:09.76,Ange-main,Ange,0000,0000,0000,,You're right.
+Dialogue: 0,0:06:11.70,0:06:14.02,Ange-main,Momoka,0000,0000,0000,,There you are.
+Dialogue: 0,0:06:14.50,0:06:15.27,Ange-main,Ange,0000,0000,0000,,Good.
+Dialogue: 0,0:06:18.73,0:06:23.89,Ange-main,Ange,0000,0000,0000,,I would prefer a rifle or a grenade, \Nbut this is better than nothing.
+Dialogue: 0,0:06:24.36,0:06:26.53,Ange-main,Momoka,0000,0000,0000,,Angelise-sama, what are you...
+Dialogue: 0,0:06:26.53,0:06:27.81,Ange-main,Ange,0000,0000,0000,,Planning a raid.
+Dialogue: 0,0:06:28.23,0:06:30.51,Ange-main,Ange,0000,0000,0000,,On the man who sent those flowers...
+Dialogue: 0,0:06:32.55,0:06:34.79,Ange-main,Salia,0000,0000,0000,,I can't allow that.
+Dialogue: 0,0:06:35.53,0:06:37.94,Ange-main,Salia,0000,0000,0000,,You're Embryo-sama's prisoner.
+Dialogue: 0,0:06:37.94,0:06:40.17,Ange-main,Salia,0000,0000,0000,,I won't allow you to get out of line.
+Dialogue: 0,0:06:40.62,0:06:42.73,Ange-main,Ange,0000,0000,0000,,Embryo-sama, huh?
+Dialogue: 0,0:06:43.20,0:06:45.12,Ange-main,Ange,0000,0000,0000,,What happened, exactly?
+Dialogue: 0,0:06:45.12,0:06:47.57,Ange-main,Ange,0000,0000,0000,,You loved the commander so much.
+Dialogue: 0,0:06:47.97,0:06:48.92,Ange-main,Salia,0000,0000,0000,,Nothing.
+Dialogue: 0,0:06:49.42,0:06:51.22,Ange-main,Salia,0000,0000,0000,,I just woke up.
+Dialogue: 0,0:06:51.52,0:06:54.37,Ange-flashback,Salia,0000,0000,0000,,Ange, you fatass!
+Dialogue: 0,0:06:56.17,0:06:57.81,Ange-flashbackinternal,Salia,0000,0000,0000,,I got abandoned.
+Dialogue: 0,0:06:58.58,0:06:59.79,Ange-flashbackinternal,Salia,0000,0000,0000,,This suits me.
+Dialogue: 0,0:07:00.27,0:07:03.67,Ange-flashback,Salia,0000,0000,0000,,Jill dumped me, and I lost to Ange...
+Dialogue: 0,0:07:04.79,0:07:06.73,Ange-flashback,Embryo,0000,0000,0000,,That's not true, Salia.
+Dialogue: 0,0:07:10.02,0:07:13.80,Ange-flashback,Embryo,0000,0000,0000,,You simply don't know your own value.
+Dialogue: 0,0:07:18.33,0:07:21.62,Ange-main,Salia,0000,0000,0000,,That man saved me.
+Dialogue: 0,0:07:22.15,0:07:24.64,Ange-main,Salia,0000,0000,0000,,He made me a new person.
+Dialogue: 0,0:07:26.70,0:07:31.04,Ange-main,Salia,0000,0000,0000,,Alektra never needed me in the first place.
+Dialogue: 0,0:07:32.22,0:07:36.05,Ange-main,Salia,0000,0000,0000,,No matter how hard I tried,\Nshe never would have vindicated me.
+Dialogue: 0,0:07:36.73,0:07:38.14,Ange-main,Salia,0000,0000,0000,,But he...
+Dialogue: 0,0:07:40.11,0:07:45.03,Ange-flashback,Embryo,0000,0000,0000,,Your beauty, your strength, your value...
+Dialogue: 0,0:07:45.03,0:07:47.40,Ange-flashback,Embryo,0000,0000,0000,,I know them better than anyone.
+Dialogue: 0,0:07:50.59,0:07:56.70,Ange-flashback,Embryo,0000,0000,0000,,Would you give me your hand\Nand help me change this world, Salia?
+Dialogue: 0,0:07:57.01,0:08:01.46,Ange-main,Salia,0000,0000,0000,,I found someone I truly needed to protect.
+Dialogue: 0,0:08:01.87,0:08:04.11,Ange-main,Salia,0000,0000,0000,,Now, I'm part of Embryo-sama's bodyguard.
+Dialogue: 0,0:08:04.11,0:08:06.79,Ange-main,Salia,0000,0000,0000,,I call it the Order of the Diamond Rose.
+Dialogue: 0,0:08:07.25,0:08:09.51,Ange-main,Salia,0000,0000,0000,,And I, Salia, am its commander.
+Dialogue: 0,0:08:09.85,0:08:11.67,Ange-main,Momoka,0000,0000,0000,,Diamond...
+Dialogue: 0,0:08:11.67,0:08:12.73,Ange-main,Ange,0000,0000,0000,,Too long.
+Dialogue: 0,0:08:12.73,0:08:18.56,Ange-main,Ange,0000,0000,0000,,In other words, you were adrift in the world,\Nand then a new owner picked you up.
+Dialogue: 0,0:08:19.84,0:08:24.10,Ange-main,Ange,0000,0000,0000,,I didn't think you had the courage \Nto abandon our commander.
+Dialogue: 0,0:08:25.38,0:08:26.81,Ange-main,Momoka,0000,0000,0000,,Angelise-sama!
+Dialogue: 0,0:08:26.81,0:08:29.28,Ange-main,Salia,0000,0000,0000,,I won't let you insult me any more.
+Dialogue: 0,0:08:30.27,0:08:32.90,Ange-main,Salia,0000,0000,0000,,Embryo-sama loves me.
+Dialogue: 0,0:08:33.57,0:08:36.45,Ange-main,Salia,0000,0000,0000,,Unlike you, who nobody loves at all.
+Dialogue: 0,0:08:37.14,0:08:38.83,Ange-main,Ange,0000,0000,0000,,Well, good for you.
+Dialogue: 0,0:08:40.40,0:08:41.42,Ange-main,All,0000,0000,0000,,Commander!
+Dialogue: 0,0:08:43.79,0:08:44.42,Ange-main,Salia,0000,0000,0000,,Ange!
+Dialogue: 0,0:08:47.30,0:08:48.47,Ange-main,Ange,0000,0000,0000,,Weak.
+Dialogue: 0,0:08:48.47,0:08:50.67,Ange-main,Ange,0000,0000,0000,,You're so weak compared to Salako.
+Dialogue: 0,0:08:51.74,0:08:54.18,Ange-main,Ange,0000,0000,0000,,And these names you come up with are abysmal.
+Dialogue: 0,0:08:54.18,0:08:56.22,Ange-main,Ange,0000,0000,0000,,And what's with your outfit?
+Dialogue: 0,0:08:56.22,0:08:59.10,Ange-main,Ange,0000,0000,0000,,You looked a lot better as Pretty Salian.
+Dialogue: 0,0:09:00.44,0:09:01.63,Ange-main,Ange,0000,0000,0000,,Let's go, Momoka.
+Dialogue: 0,0:09:01.63,0:09:02.50,Ange-main,Momoka,0000,0000,0000,,Yes, ma'am.
+Dialogue: 0,0:09:03.00,0:09:04.18,Ange-main,Salia,0000,0000,0000,,Wait!
+Dialogue: 0,0:09:06.57,0:09:08.00,Ange-main,Salia,0000,0000,0000,,Where did you go?
+Dialogue: 0,0:09:08.00,0:09:08.86,Ange-main,Salia,0000,0000,0000,,Ange!
+Dialogue: 0,0:09:10.60,0:09:13.77,Ange-main,Ange,0000,0000,0000,,Sorry, but this is my house.
+Dialogue: 0,0:09:14.63,0:09:17.11,Ange-main,A,0000,0000,0000,,Mom, let's play hide-and-seek!
+Dialogue: 0,0:09:17.11,0:09:19.53,Ange-main,B,0000,0000,0000,,No, I want to draw!
+Dialogue: 0,0:09:19.53,0:09:22.05,Ange-main,Ersha,0000,0000,0000,,Come now, don't fight.
+Dialogue: 0,0:09:22.05,0:09:24.48,Ange-main,A,0000,0000,0000,,It's Ange-oneesama!
+Dialogue: 0,0:09:26.07,0:09:27.54,Ange-main,B,0000,0000,0000,,You're right!
+Dialogue: 0,0:09:27.54,0:09:30.41,Ange-main,A,0000,0000,0000,,Ange-oneesama, when did you get here?
+Dialogue: 0,0:09:30.41,0:09:32.38,Ange-main,B,0000,0000,0000,,Onee-sama, are you in the Order, too?
+Dialogue: 0,0:09:32.68,0:09:33.94,Ange-main,Ersha,0000,0000,0000,,Oh my.
+Dialogue: 0,0:09:33.94,0:09:36.04,Ange-main,Ersha,0000,0000,0000,,Did you all corner Ange-chan?
+Dialogue: 0,0:09:36.04,0:09:37.30,Ange-main,Ersha,0000,0000,0000,,That's very good.
+Dialogue: 0,0:09:38.15,0:09:39.22,Ange-main,Ange,0000,0000,0000,,Ersha.
+Dialogue: 0,0:09:40.57,0:09:42.47,Ange-main,Ange,0000,0000,0000,,Embryo Kindergarten?
+Dialogue: 0,0:09:42.47,0:09:43.51,Ange-main,Ersha,0000,0000,0000,,Yep.
+Dialogue: 0,0:09:43.51,0:09:45.31,Ange-main,Ersha,0000,0000,0000,,I'm the principal.
+Dialogue: 0,0:09:46.09,0:09:50.90,Ange-main,Ersha,0000,0000,0000,,I really wanted to bring all \Nthe children from Arzenal here.
+Dialogue: 0,0:09:51.76,0:09:53.41,Ange-main,Ersha,0000,0000,0000,,Can you believe it?
+Dialogue: 0,0:09:54.19,0:09:57.40,Ange-main,Ersha,0000,0000,0000,,These children were all dead once.
+Dialogue: 0,0:09:58.78,0:10:02.73,Ange-main,Ersha,0000,0000,0000,,And then Embryo-san\N brought them back to life.
+Dialogue: 0,0:10:03.75,0:10:05.28,Ange-main,Ange,0000,0000,0000,,Back to life?
+Dialogue: 0,0:10:05.76,0:10:08.75,Ange-main,Momoka,0000,0000,0000,,That's not possible,\Neven with the Light of Mana.
+Dialogue: 0,0:10:09.44,0:10:11.13,Ange-main,Ersha,0000,0000,0000,,Embryo-san says...
+Dialogue: 0,0:10:11.70,0:10:15.67,Ange-main,,0000,0000,0000,,He will make a world where these \Nchildren can live free without fear.
+Dialogue: 0,0:10:16.33,0:10:19.51,Ange-main,Ersha,0000,0000,0000,,I decided to cooperate with him.
+Dialogue: 0,0:10:20.48,0:10:23.43,Ange-main,Ersha,0000,0000,0000,,I'd do anything to protect these children.
+Dialogue: 0,0:10:23.91,0:10:26.00,Ange-main,Ersha,0000,0000,0000,,I'd slaughter all the humans.
+Dialogue: 0,0:10:26.76,0:10:29.27,Ange-main,Ersha,0000,0000,0000,,And I'd kill you, Ange-chan.
+Dialogue: 0,0:10:30.71,0:10:31.69,Ange-main,Ange,0000,0000,0000,,Ersha.
+Dialogue: 0,0:10:33.05,0:10:34.73,Ange-main,Ersha,0000,0000,0000,,Oh no...
+Dialogue: 0,0:10:39.18,0:10:40.81,Ange-main,Ange,0000,0000,0000,,Let's go, Momoka.
+Dialogue: 0,0:10:40.81,0:10:42.46,Ange-main,Ange,0000,0000,0000,,We need to find Embryo.
+Dialogue: 0,0:10:43.24,0:10:44.50,Ange-main,Chris,0000,0000,0000,,Want to come with me?
+Dialogue: 0,0:10:47.68,0:10:48.76,Ange-main,Ange,0000,0000,0000,,Chris.
+Dialogue: 0,0:10:51.29,0:10:52.62,Ange-main,Ange,0000,0000,0000,,Hey, Chris.
+Dialogue: 0,0:10:52.62,0:10:54.61,Ange-main,Chris,0000,0000,0000,,You force yourself to talk to me.
+Dialogue: 0,0:10:55.17,0:10:57.72,Ange-main,Chris,0000,0000,0000,,I know you're not interested in me, anyway.
+Dialogue: 0,0:10:58.09,0:11:00.47,Ange-main,Ange,0000,0000,0000,,Hilda and the others are angry.
+Dialogue: 0,0:11:00.97,0:11:02.92,Ange-main,Chris,0000,0000,0000,,I'm the one that's angry.
+Dialogue: 0,0:11:03.42,0:11:06.12,Ange-main,Chris,0000,0000,0000,,They said they'd come help me.
+Dialogue: 0,0:11:06.12,0:11:07.81,Ange-main,Chris,0000,0000,0000,,But they abandoned me.
+Dialogue: 0,0:11:09.93,0:11:12.48,Ange-main,Chris,0000,0000,0000,,Embryo-kun is different.
+Dialogue: 0,0:11:13.20,0:11:15.69,Ange-main,Chris,0000,0000,0000,,He risked his life to save me.
+Dialogue: 0,0:11:16.28,0:11:18.75,Ange-main,Chris,0000,0000,0000,,He said he wanted to be my friend.
+Dialogue: 0,0:11:20.61,0:11:21.95,Ange-main,Chris,0000,0000,0000,,A true friend.
+Dialogue: 0,0:11:24.07,0:11:25.83,Ange-main,Momoka,0000,0000,0000,,Um, Angelise-sama...
+Dialogue: 0,0:11:25.83,0:11:30.23,Ange-main,Momoka,0000,0000,0000,,Who is this Embryo-sama?
+Dialogue: 0,0:11:30.23,0:11:31.96,Ange-main,Ange,0000,0000,0000,,Huh? You haven't heard?
+Dialogue: 0,0:11:32.21,0:11:35.63,Ange-main,Momoka,0000,0000,0000,,Is he a philanthropist? Or a counselor?
+Dialogue: 0,0:11:35.63,0:11:38.05,Ange-main,Ange,0000,0000,0000,,God, supposedly.
+Dialogue: 0,0:11:38.46,0:11:39.50,Ange-main,Momoka,0000,0000,0000,,Huh...
+Dialogue: 0,0:11:40.64,0:11:42.38,Ange-main,Sylvia,0000,0000,0000,,You're useless!
+Dialogue: 0,0:11:42.62,0:11:45.06,Ange-main,Sylvia,0000,0000,0000,,This is Volume Four!
+Dialogue: 0,0:11:45.06,0:11:48.42,Ange-main,Sylvia,0000,0000,0000,,I told you to bring Volume Three!
+Dialogue: 0,0:11:48.99,0:11:51.95,Ange-main,Sylvia,0000,0000,0000,,How could you poison me?
+Dialogue: 0,0:11:51.95,0:11:56.61,Ange-main,Sylvia,0000,0000,0000,,I would never have regained consciousness, \Nif not for Ojisama!
+Dialogue: 0,0:11:58.99,0:12:00.49,Ange-main,Riza,0000,0000,0000,,Don't talk back to me!
+Dialogue: 0,0:12:02.08,0:12:06.12,Ange-main,Sylvia,0000,0000,0000,,Have you forgotten that you're only\Nalive because Ojisama permitted it?
+Dialogue: 0,0:12:06.12,0:12:07.81,Ange-main,Sylvia,0000,0000,0000,,You lizard bitch!
+Dialogue: 0,0:12:08.62,0:12:10.51,Ange-main,Ange,0000,0000,0000,,R-Riza...
+Dialogue: 0,0:12:15.65,0:12:16.75,Ange-main,Ange,0000,0000,0000,,Sylvia.
+Dialogue: 0,0:12:16.75,0:12:19.92,Ange-main,Sylvia,0000,0000,0000,,You're here to kill me, aren't you?
+Dialogue: 0,0:12:19.92,0:12:23.72,Ange-main,Sylvia,0000,0000,0000,,You murdered Father, Mother, and Onii-sama!
+Dialogue: 0,0:12:23.72,0:12:26.27,Ange-main,Sylvia,0000,0000,0000,,And now you're here to kill me.
+Dialogue: 0,0:12:26.27,0:12:27.64,Ange-main,Sylvia,0000,0000,0000,,That's right, isn't it?
+Dialogue: 0,0:12:27.64,0:12:29.39,Ange-main,Sylvia,0000,0000,0000,,Go away, you murderer!
+Dialogue: 0,0:12:29.74,0:12:31.06,Ange-main,Ange,0000,0000,0000,,Let me talk.
+Dialogue: 0,0:12:31.06,0:12:33.71,Ange-main,Sylvia,0000,0000,0000,,Help me, Ojisama!
+Dialogue: 0,0:12:33.71,0:12:35.15,Ange-main,Sylvia,0000,0000,0000,,Ojisama!
+Dialogue: 0,0:12:35.46,0:12:36.33,Ange-main,Ange,0000,0000,0000,,Ojisama?
+Dialogue: 0,0:12:37.98,0:12:39.53,Ange-main,Salia,0000,0000,0000,,I found you, Ange!
+Dialogue: 0,0:12:40.71,0:12:42.28,Ange-main,Embryo,0000,0000,0000,,It's so loud in here.
+Dialogue: 0,0:12:42.92,0:12:47.62,Ange-main,Embryo,0000,0000,0000,,I'd appreciate if you all could\Nkeep it down while I'm reading.
+Dialogue: 0,0:12:49.70,0:12:51.08,Ange-main,Ange,0000,0000,0000,,Embryo...
+Dialogue: 0,0:12:57.99,0:12:59.89,Ange-main,Embryo,0000,0000,0000,,Truly, books are good.
+Dialogue: 0,0:13:00.43,0:13:04.17,Ange-main,Embryo,0000,0000,0000,,Contained within is\N everything in the universe.
+Dialogue: 0,0:13:04.68,0:13:08.51,Ange-main,Embryo,0000,0000,0000,,How boring our reality is by comparison.
+Dialogue: 0,0:13:10.61,0:13:15.48,Ange-main,Embryo,0000,0000,0000,,It's been a while since I've met\Nsomeone more entertaining than my books.
+Dialogue: 0,0:13:15.79,0:13:16.89,Ange-main,Ange,0000,0000,0000,,Embryo.
+Dialogue: 0,0:13:17.31,0:13:18.61,Ange-main,Momoka,0000,0000,0000,,Him?
+Dialogue: 0,0:13:18.94,0:13:21.63,Ange-main,Embryo,0000,0000,0000,,I apologize for being so rough.
+Dialogue: 0,0:13:21.63,0:13:23.71,Ange-main,Embryo,0000,0000,0000,,I wanted to speak with you.
+Dialogue: 0,0:13:24.17,0:13:27.28,Ange-main,Embryo,0000,0000,0000,,I asked Salia and the \Nothers to bring you here.
+Dialogue: 0,0:13:27.63,0:13:28.82,Ange-main,Embryo,0000,0000,0000,,Come.
+Dialogue: 0,0:13:28.82,0:13:31.64,Ange-main,Embryo,0000,0000,0000,,You must have questions, too.
+Dialogue: 0,0:13:33.11,0:13:34.69,Ange-main,Momoka,0000,0000,0000,,Angelise-sama...
+Dialogue: 0,0:13:42.65,0:13:46.18,Ange-main,Embryo,0000,0000,0000,,If you don't mind, I'd like to \Nbe alone with her for a while.
+Dialogue: 0,0:13:46.34,0:13:47.61,Ange-main,Salia,0000,0000,0000,,You mustn't.
+Dialogue: 0,0:13:47.61,0:13:48.97,Ange-main,Salia,0000,0000,0000,,This woman is dangerous.
+Dialogue: 0,0:13:49.82,0:13:50.89,Ange-main,Embryo,0000,0000,0000,,Salia...
+Dialogue: 0,0:13:57.81,0:13:59.59,Ange-main,Jasmine,0000,0000,0000,,Ange has been captured.
+Dialogue: 0,0:14:00.33,0:14:02.48,Ange-main,Jasmine,0000,0000,0000,,Vivian and Tusk are missing.
+Dialogue: 0,0:14:02.67,0:14:05.86,Ange-main,Jill,0000,0000,0000,,And this happened because\N they went out guns blazing...
+Dialogue: 0,0:14:05.86,0:14:07.91,Ange-main,Jill,0000,0000,0000,,You just have to laugh, don't you?
+Dialogue: 0,0:14:07.91,0:14:13.44,Ange-main,Jasmine,0000,0000,0000,,If not for those girls protecting us,\Nthis ship would have sunk.
+Dialogue: 0,0:14:13.44,0:14:14.65,Ange-main,Jill,0000,0000,0000,,I don't care.
+Dialogue: 0,0:14:15.15,0:14:18.43,Ange-main,Jill,0000,0000,0000,,Without the Villkiss, Libertus is impossible.
+Dialogue: 0,0:14:18.94,0:14:21.84,Ange-main,Jill,0000,0000,0000,,That's why we couldn't let Ange leave.
+Dialogue: 0,0:14:22.86,0:14:26.01,Ange-main,Jill,0000,0000,0000,,I can't believe that boy betrayed us.
+Dialogue: 0,0:14:26.77,0:14:28.37,Ange-main,I fucked up. {can we?,0000,0000,0000,,I screwed up.
+Dialogue: 0,0:14:28.37,0:14:31.51,Ange-main,I fucked up. {can we?,0000,0000,0000,,I should have trained Ange to be more loyal.
+Dialogue: 0,0:14:33.62,0:14:36.35,Ange-main,Rosalie,0000,0000,0000,,What's the Burn Princess up to?
+Dialogue: 0,0:14:36.35,0:14:39.81,Ange-main,Rosalie,0000,0000,0000,,She came back only to leave a mess.
+Dialogue: 0,0:14:39.81,0:14:44.98,Ange-main,Hilda,0000,0000,0000,,She must have had a\Nreason to escape the ship.
+Dialogue: 0,0:14:45.84,0:14:48.33,Ange-main,Hilda,0000,0000,0000,,Our ship might be in danger.
+Dialogue: 0,0:14:49.13,0:14:51.15,Ange-main,Rosalie,0000,0000,0000,,What are we going to do now?
+Dialogue: 0,0:14:51.64,0:14:55.49,Ange-main,Rosalie,0000,0000,0000,,We can't do the Libertus thing \Nwithout the Villkiss, can we?
+Dialogue: 0,0:14:56.01,0:15:00.82,Ange-main,Hilda,0000,0000,0000,,Then we'll just have to bring Ange back.
+Dialogue: 0,0:15:12.64,0:15:13.86,Ange-main,Ange,0000,0000,0000,,Where are we going?
+Dialogue: 0,0:15:16.62,0:15:17.79,Ange-main,Ange,0000,0000,0000,,What is this?
+Dialogue: 0,0:15:18.61,0:15:19.79,Ange-main,Embryo,0000,0000,0000,,It's Aura.
+Dialogue: 0,0:15:20.87,0:15:23.24,Ange-main,Embryo,0000,0000,0000,,The sacred first DRAGON.
+Dialogue: 0,0:15:23.82,0:15:27.01,Ange-main,Embryo,0000,0000,0000,,He's what Riza and\Nthe other DRAGONs seek.
+Dialogue: 0,0:15:28.47,0:15:30.46,Ange-main,Embryo,0000,0000,0000,,That's Dracunium.
+Dialogue: 0,0:15:31.74,0:15:34.49,Ange-main,Embryo,0000,0000,0000,,All the Mana in this world is
+Dialogue: 0,0:15:34.49,0:15:38.28,Ange-main,,0000,0000,0000,,created by Aura's consumption of Dracunium.
+Dialogue: 0,0:15:39.99,0:15:44.96,Ange-main,Ange,0000,0000,0000,,You're using the sacred\NDRAGON Aura as a generator?
+Dialogue: 0,0:15:45.79,0:15:49.79,Ange-main,Embryo,0000,0000,0000,,I couldn't just abandon humanity.
+Dialogue: 0,0:15:50.60,0:15:55.58,Ange-main,Embryo,0000,0000,0000,,But thanks to Riza's intel,\Nwe successfully ambushed the DRAGONs,
+Dialogue: 0,0:15:55.58,0:15:58.36,Ange-main,,0000,0000,0000,,and collected a vast amount of Dracunium.
+Dialogue: 0,0:15:59.63,0:16:02.10,Ange-main,Embryo,0000,0000,0000,,Now, I can continue with my other plans.
+Dialogue: 0,0:16:03.75,0:16:05.69,Ange-main,Ange,0000,0000,0000,,Let Aura go.
+Dialogue: 0,0:16:05.69,0:16:06.65,Ange-main,Ange,0000,0000,0000,,Now.
+Dialogue: 0,0:16:07.33,0:16:08.83,Ange-main,Embryo,0000,0000,0000,,Oh my.
+Dialogue: 0,0:16:08.83,0:16:12.22,Ange-main,Embryo,0000,0000,0000,,You've sided with the DRAGONs, huh?
+Dialogue: 0,0:16:12.22,0:16:13.52,Ange-main,Ange,0000,0000,0000,,I'm your enemy.
+Dialogue: 0,0:16:14.24,0:16:15.57,Ange-main,Ange,0000,0000,0000,,You killed my brother.
+Dialogue: 0,0:16:15.57,0:16:17.41,Ange-main,Ange,0000,0000,0000,,You tried to kill Tusk.
+Dialogue: 0,0:16:17.41,0:16:19.47,Ange-main,Ange,0000,0000,0000,,And you've killed so many DRAGONs.
+Dialogue: 0,0:16:19.98,0:16:22.33,Ange-main,Ange,0000,0000,0000,,That's enough to make you my enemy.
+Dialogue: 0,0:16:22.79,0:16:25.39,Ange-main,Embryo,0000,0000,0000,,What if I refuse?
+Dialogue: 0,0:16:25.92,0:16:27.04,Ange-main,Ange,0000,0000,0000,,Oh?
+Dialogue: 0,0:16:35.20,0:16:36.87,Ange-main,Ange,0000,0000,0000,,He's big.
+Dialogue: 0,0:16:36.87,0:16:39.22,Ange-main,Ange,0000,0000,0000,,I wonder if the Villkiss can carry him...
+Dialogue: 0,0:16:39.64,0:16:41.14,Ange-main,Embryo,0000,0000,0000,,Do you feel better now?
+Dialogue: 0,0:16:49.15,0:16:51.15,Ange-main,Embryo,0000,0000,0000,,You ought to stop wasting your time.
+Dialogue: 0,0:16:52.94,0:16:53.87,Ange-main,Ange,0000,0000,0000,,You...
+Dialogue: 0,0:16:53.87,0:16:55.03,Ange-main,Ange,0000,0000,0000,,What are you?
+Dialogue: 0,0:16:55.49,0:16:58.37,Ange-main,Embryo,0000,0000,0000,,Alektra must have told you about me.
+Dialogue: 0,0:16:59.22,0:17:01.08,Ange-main,Ange,0000,0000,0000,,God...?
+Dialogue: 0,0:17:01.39,0:17:04.09,Ange-main,Embryo,0000,0000,0000,,I don't care for that crude expression.
+Dialogue: 0,0:17:05.86,0:17:08.71,Ange-main,Embryo,0000,0000,0000,,I'm the Tuner.
+Dialogue: 0,0:17:09.14,0:17:10.47,Ange-main,Ange,0000,0000,0000,,Tuner?
+Dialogue: 0,0:17:11.09,0:17:14.77,Ange-main,Embryo,0000,0000,0000,,Yes. I tune the sound of the world.
+Dialogue: 0,0:17:18.76,0:17:22.87,Ange-main,Embryo,0000,0000,0000,,What do you hope to achieve by killing me?
+Dialogue: 0,0:17:23.36,0:17:26.44,Ange-main,Ange,0000,0000,0000,,I'm going to destroy this \Nworld and free the Norma.
+Dialogue: 0,0:17:26.44,0:17:27.73,Ange-main,Embryo,0000,0000,0000,,Why?
+Dialogue: 0,0:17:28.26,0:17:29.63,Ange-main,Ange,0000,0000,0000,,Why...?
+Dialogue: 0,0:17:29.96,0:17:33.70,Ange-main,Embryo,0000,0000,0000,,Do the Norma really want to be freed?
+Dialogue: 0,0:17:34.62,0:17:39.64,Ange-main,Embryo,0000,0000,0000,,It's true that there isn't a place for\Nthem in this world, as they can't use Mana.
+Dialogue: 0,0:17:40.24,0:17:45.28,Ange-main,Embryo,0000,0000,0000,,But instead, they're given the \Ntask of fighting the DRAGONs.
+Dialogue: 0,0:17:46.61,0:17:53.84,Ange-main,Embryo,0000,0000,0000,,All anyone needs for contentment\Nand peace of mind is a place and a role.
+Dialogue: 0,0:17:54.15,0:18:02.06,Ange-main,Embryo,0000,0000,0000,,To think for one's self and to live\Nfor one's self is an enormous burden.
+Dialogue: 0,0:18:03.28,0:18:04.85,Ange-main,Ange,0000,0000,0000,,What are you...
+Dialogue: 0,0:18:07.39,0:18:08.36,Ange-main,Embryo,0000,0000,0000,,Oh?
+Dialogue: 0,0:18:08.36,0:18:10.48,Ange-main,Ange,0000,0000,0000,,What have you done to me?
+Dialogue: 0,0:18:13.25,0:18:17.17,Ange-main,Embryo,0000,0000,0000,,Your destructive impulses\N arise from your anxiety.
+Dialogue: 0,0:18:17.99,0:18:22.04,Ange-main,Embryo,0000,0000,0000,,You were robbed, deceived, \Nand betrayed so many times.
+Dialogue: 0,0:18:22.64,0:18:24.81,Ange-main,Embryo,0000,0000,0000,,You don't know where to turn.
+Dialogue: 0,0:18:25.19,0:18:26.91,Ange-main,Ange,0000,0000,0000,,Sh-Shut up!
+Dialogue: 0,0:18:26.91,0:18:29.54,Ange-main,Embryo,0000,0000,0000,,That's why you become afraid\Nand bare your fangs.
+Dialogue: 0,0:18:30.36,0:18:34.30,Ange-main,Embryo,0000,0000,0000,,I can free you from your anxiety.
+Dialogue: 0,0:18:38.44,0:18:39.63,Ange-main,Embryo,0000,0000,0000,,Love.
+Dialogue: 0,0:18:39.63,0:18:40.59,Ange-main,Embryo,0000,0000,0000,,Peace of mind.
+Dialogue: 0,0:18:40.91,0:18:42.02,Ange-main,Embryo,0000,0000,0000,,Friendship.
+Dialogue: 0,0:18:42.02,0:18:43.15,Ange-main,Embryo,0000,0000,0000,,Trust.
+Dialogue: 0,0:18:43.15,0:18:43.89,Ange-main,Embryo,0000,0000,0000,,Belonging.
+Dialogue: 0,0:18:44.73,0:18:47.35,Ange-main,Embryo,0000,0000,0000,,I can provide everything you want.
+Dialogue: 0,0:18:48.29,0:18:53.36,Ange-main,Embryo,0000,0000,0000,,So abandon everything and accept me.
+Dialogue: 0,0:18:57.07,0:18:59.84,Ange-main,Embryo,0000,0000,0000,,Abandon everything you're wearing.
+Dialogue: 0,0:19:17.68,0:19:19.66,Ange-main,Embryo,0000,0000,0000,,You're strong.
+Dialogue: 0,0:19:20.77,0:19:22.98,Ange-main,Embryo,0000,0000,0000,,You can trust me.
+Dialogue: 0,0:19:33.80,0:19:35.10,Ange-main,Embryo,0000,0000,0000,,Good girl.
+Dialogue: 0,0:19:38.40,0:19:41.36,Ange-main,Embryo,0000,0000,0000,,Golden hair and flaming eyes.
+Dialogue: 0,0:19:41.93,0:19:45.73,Ange-main,Embryo,0000,0000,0000,,Pale lips and smooth skin.
+Dialogue: 0,0:19:46.53,0:19:50.54,Ange-main,Embryo,0000,0000,0000,,Firm, ample breasts and pink...
+Dialogue: 0,0:19:51.95,0:19:53.22,Ange-main,Embryo,0000,0000,0000,,You're beautiful.
+Dialogue: 0,0:19:53.70,0:19:57.30,Ange-main,Embryo,0000,0000,0000,,Not even Venus or Aphrodite could compare.
+Dialogue: 0,0:20:04.81,0:20:05.97,Ange-main,Embryo,0000,0000,0000,,Impossible...
+Dialogue: 0,0:20:07.54,0:20:09.64,Ange-main,Ange,0000,0000,0000,,Give me anything?
+Dialogue: 0,0:20:10.12,0:20:15.52,Ange-main,Ange,0000,0000,0000,,I'm not empty enough to be content\Nwith whatever you decide to give me.
+Dialogue: 0,0:20:17.52,0:20:20.84,Ange-main,Ange,0000,0000,0000,,I don't care if you're God \Nor a Tuner or anything else.
+Dialogue: 0,0:20:21.63,0:20:24.87,Ange-main,Ange,0000,0000,0000,,I'll kill you until you die,\Nand then I'll destroy the world.
+Dialogue: 0,0:20:26.91,0:20:28.33,Ange-main,Embryo,0000,0000,0000,,So dramatic!
+Dialogue: 0,0:20:30.59,0:20:35.00,Ange-main,Embryo,0000,0000,0000,,I may have lived just to meet you.
+Dialogue: 0,0:20:35.39,0:20:37.00,Ange-main,Embryo,0000,0000,0000,,For all these thousands of years...
+Dialogue: 0,0:20:45.85,0:20:47.78,Ange-main,Hilda,0000,0000,0000,,Commander, it's Hilda.
+Dialogue: 0,0:20:48.56,0:20:51.51,Ange-main,Hilda,0000,0000,0000,,I'd like to talk to you about\Nour strategy going forward.
+Dialogue: 0,0:21:17.27,0:21:18.50,Ange-flashback,Jill,0000,0000,0000,,We have to go back.
+Dialogue: 0,0:21:21.13,0:21:24.34,Ange-flashback,Embryo,0000,0000,0000,,You can stay here, Alektra.
+Dialogue: 0,0:21:24.90,0:21:26.09,Ange-flashback,Embryo,0000,0000,0000,,Forever.
+Dialogue: 0,0:21:27.46,0:21:28.44,Ange-flashback,Jill,0000,0000,0000,,No.
+Dialogue: 0,0:21:28.89,0:21:30.51,Ange-flashback,Jill,0000,0000,0000,,I can't.
+Dialogue: 0,0:21:30.74,0:21:32.00,Ange-flashback,Jill,0000,0000,0000,,I'll be ruined.
+Dialogue: 0,0:21:47.31,0:21:48.52,Ange-main,Jill,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:21:49.85,0:21:53.21,Ange-main,Jill,0000,0000,0000,,I'm sorry, Embryo-sama.
+Dialogue: 0,0:23:25.96,0:23:29.09,next episode preview,,0000,0000,0000,,{\fad(1,519)}Next Episode
+Dialogue: 0,0:23:26.43,0:23:27.63,Ange-main,Chris,0000,0000,0000,,It's the preview, Rosalie.
+Dialogue: 0,0:23:27.63,0:23:29.10,Ange-main,Rosalie,0000,0000,0000,,Finally, I can vent!
+Dialogue: 0,0:23:29.10,0:23:32.94,Ange-main,Rosalie,0000,0000,0000,,They feed me laxative, they make me talk\Nlike an old fart, and they treat me like crap!
+Dialogue: 0,0:23:32.94,0:23:34.10,Ange-main,Chris,0000,0000,0000,,I almost died.
+Dialogue: 0,0:23:34.10,0:23:36.16,Ange-main,Rosalie,0000,0000,0000,,I want more RosaChri scenes!
+Dialogue: 0,0:23:36.16,0:23:38.40,Ange-top,Chris,0000,0000,0000,,ChriRosa, not RosaChri.
+Dialogue: 0,0:23:36.60,0:23:40.98,Ange-NextEp,,0000,0000,0000,,{\fad(899,1)}Soul of God
+Dialogue: 0,0:23:38.40,0:23:39.96,Ange-top,Rosalie,0000,0000,0000,,What? Oh, right...
+Dialogue: 0,0:23:39.96,0:23:41.96,Default,,0000,0000,0000,,

@@ -1,0 +1,454 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,0
+Style: TBC,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,80,27,0
+Style: Setting,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,67,53,133,0
+Style: Grand Prix,Open Sans Semibold,27,&H00100C91,&H000000FF,&H00C1C5D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,160,27,128,0
+Style: Phone,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00484848,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: Rice Bowl,Open Sans Semibold,24,&H00484848,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,27,27,0
+Style: Channel,Open Sans Semibold,24,&H00343435,&H000000FF,&H00A5ABC1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,40,115,0
+Style: TV,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,53,53,53,0
+Style: WorldChampion,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Yutopia,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00786C45,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Ramen,Open Sans Semibold,30,&H00203195,&H000000FF,&H00CFCFE2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: SFX,Open Sans Semibold,33,&H001D1911,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Board,Open Sans Semibold,30,&H00DAD7D4,&H000000FF,&H00584E49,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,347,347,27,0
+Style: OkayamaRink,Open Sans Semibold,27,&H00B35B17,&H000000FF,&H00DADBD9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,27,0
+Style: Championship,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00CB9942,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,0
+Style: GrandPrix,Open Sans Semibold,27,&H00B7E6FF,&H000000FF,&H003D426E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,320,27,27,0
+Style: Ranking,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00704744,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,27,125,0
+Style: arena,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F7DEBB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,27,104,0
+Style: topright,Open Sans Semibold,24,&H003F3737,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,473,53,113,0
+Style: topright2,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H001F1714,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,27,53,107,0
+Style: topleft,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H001F1714,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,53,493,73,0
+Style: order,Open Sans Semibold,18,&H00000000,&H000000FF,&H00F6F9E2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,53,33,40,0
+Style: airport,Open Sans Semibold,27,&H00D5CFFF,&H000000FF,&H00413A92,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: SignB,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H002F2721,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,533,27,147,0
+Style: SignC,Open Sans Semibold,33,&H001AAB99,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: banner,Open Sans Semibold,23,&H00170E06,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,21,0
+Style: SignA,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H002F2721,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,64,533,153,0
+Style: SignD,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H003F4041,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,60,467,160,0
+Style: bottomright,Open Sans Semibold,24,&H00460202,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,27,59,127,0
+Style: top6,Open Sans Semibold,33,&H001AAB99,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,53,53,167,0
+Style: GPplace,Open Sans Semibold,24,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,71,53,160,0
+Style: bottomright2,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,27,60,157,0
+Style: quads,Open Sans Semibold,23,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,77,53,160,0
+Style: topright3,Open Sans Semibold,24,&H00291097,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,27,40,113,0
+Style: topleft2,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H001F1714,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,53,480,91,0
+Style: topleft3,Open Sans Semibold,24,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,56,480,99,0
+Style: stephane,Open Sans Semibold,18,&H005C382A,&H000000FF,&H00E8BC97,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,53,507,27,0
+Style: uchiwa,Open Sans Semibold,27,&H0061FFD5,&H000000FF,&H002C2E2A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,153,53,104,0
+Style: topright4,Open Sans Semibold,21,&H00652524,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,27,27,100,0
+Style: guest,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,27,27,133,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.14,0:00:03.49,Default,Y,0000,0000,0000,,After the Final, let's end this.
+Dialogue: 0,0:00:06.06,0:00:06.66,Default,V,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:07.91,0:00:11.66,Default,Y,0000,0000,0000,,You've done more than enough for me, Victor.
+Dialogue: 0,0:00:12.09,0:00:15.36,Default,Y,0000,0000,0000,,Thanks to you, I was able to give \Neverything I had to my last season.
+Dialogue: 0,0:00:16.75,0:00:18.92,Default,Y,0000,0000,0000,,Thank you for everything, Victor.
+Dialogue: 0,0:00:18.92,0:00:21.42,Default,Y,0000,0000,0000,,Thank you for being my coach.
+Dialogue: 0,0:00:29.08,0:00:30.47,Default,Y,0000,0000,0000,,Victor?
+Dialogue: 0,0:00:31.85,0:00:33.43,Default,V,0000,0000,0000,,Damn...
+Dialogue: 0,0:00:33.75,0:00:39.06,Default,V,0000,0000,0000,,I didn't expect Katsuki Yuri to be \Nsuch a selfish human being.
+Dialogue: 0,0:00:39.59,0:00:40.40,Default,Y,0000,0000,0000,,Right.
+Dialogue: 0,0:00:40.40,0:00:42.44,Default,Y,0000,0000,0000,,I made this selfish decision on my own.
+Dialogue: 0,0:00:42.44,0:00:43.70,Default,Y,0000,0000,0000,,I'm retiring.
+Dialogue: 0,0:00:47.84,0:00:50.21,Default,V,0000,0000,0000,,What are you doing, Yuri?
+Dialogue: 0,0:00:50.21,0:00:52.89,Default,Y,0000,0000,0000,,Oh, I'm just surprised to see you cry.
+Dialogue: 0,0:00:52.89,0:00:54.85,Default,V,0000,0000,0000,,I'm mad, okay?
+Dialogue: 0,0:00:55.63,0:00:58.67,Default,Y,0000,0000,0000,,You're the one who said it was \Nonly until the Grand Prix Final!
+Dialogue: 0,0:00:59.09,0:01:02.66,Default,V,0000,0000,0000,,I thought you needed my help more.
+Dialogue: 0,0:01:03.23,0:01:05.67,Default,Y,0000,0000,0000,,Aren't you going to make a comeback?
+Dialogue: 0,0:01:06.42,0:01:07.55,Default,Y,0000,0000,0000,,You don't have to worry about me—
+Dialogue: 0,0:01:07.55,0:01:12.56,Default,V,0000,0000,0000,,How can you tell me to return to \Nthe ice while saying you're retiring?!
+Dialogue: 0,0:01:14.58,0:01:18.55,Default - italics,Y,0000,0000,0000,,We decided to each make our own \Ndecisions after the free skate.
+Dialogue: 0,0:01:22.03,0:01:27.02,SignD,,0000,0000,0000,,{\fad(290,1)}Narration: \NFujino Naohiko
+Dialogue: 0,0:01:22.74,0:01:24.71,Default,Fuji,0000,0000,0000,,This is the Grand Prix of Figure Skating Final.
+Dialogue: 0,0:01:23.74,0:01:27.02,topright3,,0000,0000,0000,,{\fad(290,1)}Katsuki Yuri Strives for His First Time on the Podium\N{\c&H1B0708&}Battle of the World's Top 6 Skaters
+Dialogue: 0,0:01:23.74,0:01:27.02,SignB,,0000,0000,0000,,{\fad(290,1)}Barcelona \N\N{\c&HDA90E1&}Spain
+Dialogue: 0,0:01:24.71,0:01:27.03,Default,Fuji,0000,0000,0000,,Tonight, we'll know our world champion.
+Dialogue: 0,0:01:27.03,0:01:31.52,Default,Fuji,0000,0000,0000,,We have Russia's Yuri Plisetsky in first, \Nwith the highest ever short program score.
+Dialogue: 0,0:01:27.46,0:01:31.52,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 1st Place\N{\fs22}Yuri Plisetsky (15)
+Dialogue: 0,0:01:31.89,0:01:36.28,Default,Fuji,0000,0000,0000,,Otabek Altin, the hero of Kazakhstan, \Nis in second at his very first Grand Prix Final.
+Dialogue: 0,0:01:31.93,0:01:36.28,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 2nd Place\N{\fs22}Otabek Altin
+Dialogue: 0,0:01:36.28,0:01:38.94,Default,Fuji,0000,0000,0000,,Christophe Giacometti of \NSwitzerland is in third
+Dialogue: 0,0:01:36.76,0:01:41.03,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 3rd Place\N{\fs22}Christophe Giacometti (25)
+Dialogue: 0,0:01:38.94,0:01:41.04,Default,Fuji,0000,0000,0000,,after a very distinct performance.
+Dialogue: 0,0:01:41.42,0:01:45.54,Default,Fuji,0000,0000,0000,,Katsuki Yuri, Japan's ace, hopes to turn his \Nfourth place into a spot on the podium.
+Dialogue: 0,0:01:41.47,0:01:45.54,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 4th Place\N{\fs22}Katsuki Yuri (24)
+Dialogue: 0,0:01:46.02,0:01:49.79,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 5th Place\N{\fs22}Phichit Chulanont (20)
+Dialogue: 0,0:01:46.04,0:01:49.80,Default,Fuji,0000,0000,0000,,Phichit Chulanont, the first Thai skater \Nto qualify for the Final, is in fifth.
+Dialogue: 0,0:01:50.20,0:01:53.34,Default,Fuji,0000,0000,0000,,And Jean-Jacques Leroy of Canada enters \Nthe free skate, shockingly, in sixth.
+Dialogue: 0,0:01:50.23,0:01:54.55,GPplace,,0000,0000,0000,,{\fad(440,1)}Short Program: 6th Place\N{\fs22}Jean-Jacques Leroy (19)
+Dialogue: 0,0:01:53.34,0:01:54.55,Default,Fuji,0000,0000,0000,,Will he make a comeback?
+Dialogue: 0,0:01:55.03,0:01:58.05,Default,Fuji,0000,0000,0000,,The final chapter of the Grand \NPrix Final is about to begin.
+Dialogue: 0,0:01:55.53,0:01:58.05,TBC,Sign,0000,0000,0000,,{\fad(1501,1)\an8}Final Chapter
+Dialogue: 0,0:01:58.05,0:02:02.93,stephane,,0000,0000,0000,,Turin Olympics Silver Medalist\NWorld Championship Gold Medalist\N{\fs18}Stéphane Lambiel
+Dialogue: 0,0:01:58.05,0:02:02.93,topright,,0000,0000,0000,,Grand Prix {\c&H311B8E&}Final\N{\c&H8A5A2F&}Men's Singles Free Skate
+Dialogue: 0,0:01:58.70,0:02:01.53,Default,Taka,0000,0000,0000,,This is Stéphane Lambiel reporting from Spain.
+Dialogue: 0,0:02:01.53,0:02:02.93,Default,Taka,0000,0000,0000,,Now to you, Mr. Morooka at the rink.
+Dialogue: 0,0:02:03.27,0:02:04.77,Default,Moro,0000,0000,0000,,Yes, Morooka here.
+Dialogue: 0,0:02:04.77,0:02:07.26,Default,Moro,0000,0000,0000,,Skater Katsuki has not practiced publicly
+Dialogue: 0,0:02:07.26,0:02:09.21,Default,Moro,0000,0000,0000,,since the day after the short program.
+Dialogue: 0,0:02:09.21,0:02:12.44,Default,Moro,0000,0000,0000,,He's worried his supporters \Nby remaining out of sight,
+Dialogue: 0,0:02:12.78,0:02:15.17,Default,Moro,0000,0000,0000,,but he returned to the ice for \Nthe morning's public practice.
+Dialogue: 0,0:02:15.17,0:02:16.67,Default,V,0000,0000,0000,,Hi, Victor!
+Dialogue: 0,0:02:16.67,0:02:18.97,Default,V,0000,0000,0000,,Hi, Stéphane. It's been a while.
+Dialogue: 0,0:02:18.97,0:02:23.57,Default,V,0000,0000,0000,,People of Japan, please continue \Nto cheer for Yuri today.
+Dialogue: 0,0:02:23.57,0:02:31.46,stephane,,0000,0000,0000,,Turin Olympics Silver Medalist\NWorld Championship Gold Medalist\N{\fs18}Stéphane Lambiel
+Dialogue: 0,0:02:23.57,0:02:31.46,topright,,0000,0000,0000,,Grand Prix {\c&H311B8E&}Final\N{\c&H8A5A2F&}Men's Singles Free Skate
+Dialogue: 0,0:02:24.35,0:02:26.22,Default,Matsu,0000,0000,0000,,Thank you, Victor. Best of luck to him.
+Dialogue: 0,0:02:26.52,0:02:29.24,Default,Taka,0000,0000,0000,,Hmm... It seems neither Yuri Katsuki
+Dialogue: 0,0:02:29.24,0:02:32.35,Default,Taka,0000,0000,0000,,nor Victor Nikiforov have the \Nenergy we've come to expect.
+Dialogue: 0,0:02:33.71,0:02:38.71,Title,Sign,0000,0000,0000,,{\fs16}Final Skate \N{\fs20}Gotta Super-Super-Supercharge It!!! \NGrand Prix Final Free Skate
+Dialogue: 0,0:02:34.14,0:02:36.13,Default,Y,0000,0000,0000,,Gotta Super-Super-Supercharge It!!!
+Dialogue: 0,0:02:36.13,0:02:38.71,Default,Y,0000,0000,0000,,Grand Prix Final Free Skate.
+Dialogue: 0,0:02:39.24,0:02:40.95,Default,Moro,0000,0000,0000,,The Men's Singles Free Skate is about to start.
+Dialogue: 0,0:02:40.95,0:02:43.41,Default,Moro,0000,0000,0000,,First on the ice is \NJean-Jacques Leroy of Canada.
+Dialogue: 0,0:02:43.41,0:02:46.78,Default,Moro,0000,0000,0000,,A string of short program mishaps has \Ncost him points, and he's far behind.
+Dialogue: 0,0:02:44.77,0:02:45.62,Default,JJMom,0000,0000,0000,,{\an8}JJ!
+Dialogue: 0,0:02:45.62,0:02:47.64,Default,JJMom,0000,0000,0000,,{\an8}You can do this!
+Dialogue: 0,0:02:52.64,0:02:54.35,Default,JJMom,0000,0000,0000,,JJ, the music's started!
+Dialogue: 0,0:02:56.33,0:02:57.56,Default - italics,JJ,0000,0000,0000,,I can't believe I just did that.
+Dialogue: 0,0:02:58.26,0:03:00.44,Default - italics,JJ,0000,0000,0000,,It's been sixteen years since I started skating.
+Dialogue: 0,0:03:00.44,0:03:02.94,Default - flashback,KidJJ,0000,0000,0000,,Mom! Dad! Look!
+Dialogue: 0,0:03:03.47,0:03:07.95,Default - italics,JJ,0000,0000,0000,,I feel like I've been tossed onto the \Nice naked for the very first time.
+Dialogue: 0,0:03:09.41,0:03:12.79,Default,Oda,0000,0000,0000,,Looks like he didn't go into \Nthe jump with enough speed.
+Dialogue: 0,0:03:13.40,0:03:15.75,Default,Moro,0000,0000,0000,,That jump is Jean-Jacques Leroy's specialty,
+Dialogue: 0,0:03:15.75,0:03:17.82,Default,Moro,0000,0000,0000,,but his practice was mired in mistakes, too.
+Dialogue: 0,0:03:17.82,0:03:22.63,Default,Moro,0000,0000,0000,,Still, he's the sole skater among the \Nfinal six with four quads in his programs.
+Dialogue: 0,0:03:25.23,0:03:27.56,Default,Moro,0000,0000,0000,,Quadruple toe loop, triple toe loop.
+Dialogue: 0,0:03:27.01,0:03:28.76,Default,JJDad,0000,0000,0000,,{\an8}Yeah!
+Dialogue: 0,0:03:27.56,0:03:28.76,Default,Moro,0000,0000,0000,,He did it!
+Dialogue: 0,0:03:29.01,0:03:30.60,Default - flashback,JJ,0000,0000,0000,,Leave me alone!
+Dialogue: 0,0:03:31.73,0:03:32.89,Default - flashback,JJMom,0000,0000,0000,,JJ?
+Dialogue: 0,0:03:32.89,0:03:35.34,Default - flashback,JJ,0000,0000,0000,,Sorry... Mom, I'm sorry.
+Dialogue: 0,0:03:36.68,0:03:39.52,Default - flashback,JJ,0000,0000,0000,,I don't know what to do!
+Dialogue: 0,0:03:40.54,0:03:42.85,Default - italics,JJ,0000,0000,0000,,I'd never been that angry before.
+Dialogue: 0,0:03:43.32,0:03:45.90,Default - italics,JJ,0000,0000,0000,,I'm truly a bird with a broken wing.
+Dialogue: 0,0:03:46.86,0:03:48.11,Default - italics,JJ,0000,0000,0000,,Stop it.
+Dialogue: 0,0:03:48.11,0:03:50.84,Default - italics,JJ,0000,0000,0000,,I don't deserve applause right now!
+Dialogue: 0,0:03:51.76,0:03:53.40,Default - italics,JJ,0000,0000,0000,,Given the current totals,
+Dialogue: 0,0:03:53.40,0:03:57.45,Default - italics,JJ,0000,0000,0000,,I might be able to claw my way onto \Nthe podium if the others mess up.
+Dialogue: 0,0:03:58.15,0:03:59.27,Default - italics,JJ,0000,0000,0000,,But still...
+Dialogue: 0,0:03:59.83,0:04:01.48,Default - italics,JJ,0000,0000,0000,,Me? Win out of sheer luck?
+Dialogue: 0,0:04:02.18,0:04:04.88,Default - italics,JJ,0000,0000,0000,,That's not like me at all!
+Dialogue: 0,0:04:04.88,0:04:06.09,Default,Moro,0000,0000,0000,,A triple axel.
+Dialogue: 0,0:04:06.67,0:04:08.25,Default,Moro,0000,0000,0000,,Another success!
+Dialogue: 0,0:04:08.25,0:04:12.68,Default,JJDad,0000,0000,0000,,We'll greet him with a smile, \Nno matter what score he gets.
+Dialogue: 0,0:04:12.89,0:04:15.18,Default - flashback,YoungJJ,0000,0000,0000,,The "JJ Style" I have in mind is...
+Dialogue: 0,0:04:15.18,0:04:17.19,Default - flashback,YoungJJ,0000,0000,0000,,Coach, I—
+Dialogue: 0,0:04:17.64,0:04:19.89,Default - flashback,Ciao,0000,0000,0000,,First of all, say, "Yes."
+Dialogue: 0,0:04:20.30,0:04:22.89,Default - italics,JJ,0000,0000,0000,,This is so that JJ can stay JJ.
+Dialogue: 0,0:04:22.89,0:04:23.94,Default - italics,JJ,0000,0000,0000,,Watch me!
+Dialogue: 0,0:04:23.94,0:04:26.78,Default,Moro,0000,0000,0000,,For his final jump, he's planned \Na quadruple toe loop.
+Dialogue: 0,0:04:27.96,0:04:29.95,Default - italics,JJ,0000,0000,0000,,A plan is just a plan!
+Dialogue: 0,0:04:29.95,0:04:31.24,Default,Oda,0000,0000,0000,,A quadruple loop.
+Dialogue: 0,0:04:31.24,0:04:32.68,Default,Moro,0000,0000,0000,,Jean-Jacques Leroy!
+Dialogue: 0,0:04:31.56,0:04:32.24,Default - italics,JJ,0000,0000,0000,,Yes!
+Dialogue: 0,0:04:32.68,0:04:34.54,Default,Moro,0000,0000,0000,,He rose to the challenge!
+Dialogue: 0,0:04:34.54,0:04:37.25,Default,Oda,0000,0000,0000,,There was a step-out, but overall, a great jump.
+Dialogue: 0,0:04:39.15,0:04:40.07,Default,Miche,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:40.07,0:04:42.04,Default,Emil,0000,0000,0000,,I guess he did do that jump during practice.
+Dialogue: 0,0:04:42.36,0:04:44.30,Default,SGL,0000,0000,0000,,JJ landed a quadruple loop?
+Dialogue: 0,0:04:45.66,0:04:47.80,Default,SGL,0000,0000,0000,,The Four Continents will be fun.
+Dialogue: 0,0:04:49.17,0:04:53.85,Default - italics,Y,0000,0000,0000,,Their battles will continue for years \Nafter this Grand Prix Final.
+Dialogue: 0,0:04:54.49,0:04:58.49,Default - italics,Y,0000,0000,0000,,No tale is more compelling \Nthan one that never ends.
+Dialogue: 0,0:04:59.90,0:05:05.52,Default,Moro,0000,0000,0000,,Jean-Jacques Leroy of Canada's score is \N213.91! A high score right off the bat!
+Dialogue: 0,0:05:02.57,0:05:05.52,Default,JJ,0000,0000,0000,,{\an8}It's JJ Style!
+Dialogue: 0,0:05:05.52,0:05:07.89,Default,Ciao,0000,0000,0000,,JJ hasn't changed at all.
+Dialogue: 0,0:05:08.49,0:05:11.57,Default,Ciao,0000,0000,0000,,A pupil's accomplishment \Nis headier than any wine.
+Dialogue: 0,0:05:11.57,0:05:16.08,Default,Ciao,0000,0000,0000,,Phichit, use your performance \Nto intoxicate the world.
+Dialogue: 0,0:05:18.00,0:05:19.38,Default,Moro,0000,0000,0000,,In his short program,
+Dialogue: 0,0:05:19.38,0:05:23.64,Default,Moro,0000,0000,0000,,Phichit Chulanont of Thailand, age 20, \Nbewitched the audience here in Spain.
+Dialogue: 0,0:05:23.64,0:05:26.38,Default,Moro,0000,0000,0000,,His supporters back home have \Nhigh expectations, as well.
+Dialogue: 0,0:05:26.38,0:05:29.57,Default - italics,Phi,0000,0000,0000,,I've never had such a big crowd \Ncheering for me before.
+Dialogue: 0,0:05:30.03,0:05:31.97,Default - italics,Phi,0000,0000,0000,,I really want to turn in a \Nflawless performance!
+Dialogue: 0,0:05:32.70,0:05:33.75,Default,Oda,0000,0000,0000,,A triple axel...
+Dialogue: 0,0:05:33.75,0:05:36.12,Default,Moro,0000,0000,0000,,He stumbled, but got up right away.
+Dialogue: 0,0:05:36.12,0:05:38.06,Default - italics,Phi,0000,0000,0000,,I have to entertain the audience!
+Dialogue: 0,0:05:38.52,0:05:39.33,Default,GHJ,0000,0000,0000,,Jiayou!
+Dialogue: 0,0:05:43.55,0:05:46.30,Default - italics,Phi,0000,0000,0000,,Right now, the toe loop is my only quad.
+Dialogue: 0,0:05:46.81,0:05:50.43,Default - italics,Phi,0000,0000,0000,,I can't easily add more to my \Nquad repertoire just yet, but...
+Dialogue: 0,0:05:51.07,0:05:51.92,Default,Oda,0000,0000,0000,,A quadruple toe loop.
+Dialogue: 0,0:05:51.07,0:05:52.25,Default,Ciao,0000,0000,0000,,{\an8}Bravo!
+Dialogue: 0,0:05:51.92,0:05:53.85,Default,Moro,0000,0000,0000,,His nerves settled, and he nailed it!
+Dialogue: 0,0:05:52.25,0:05:53.07,Default,Mura,0000,0000,0000,,{\an8}Okay!
+Dialogue: 0,0:05:55.31,0:05:57.08,Default - italics,Phi,0000,0000,0000,,Here at the Grand Prix Final,
+Dialogue: 0,0:05:57.40,0:06:01.97,Default - italics,Phi,0000,0000,0000,,I'm confident that I stand out \Nas a skater unlike any other!
+Dialogue: 0,0:06:05.27,0:06:07.96,Default,Oda,0000,0000,0000,,Triple flip, single loop, double flip.
+Dialogue: 0,0:06:07.96,0:06:10.46,Default,Moro,0000,0000,0000,,He landed his last jump combination!
+Dialogue: 0,0:06:11.15,0:06:12.26,Default - italics,Phi,0000,0000,0000,,I have a dream.
+Dialogue: 0,0:06:12.76,0:06:15.33,Default - italics,Phi,0000,0000,0000,,I haven't told Yuri about it yet...
+Dialogue: 0,0:06:15.33,0:06:19.01,Default - italics,Phi,0000,0000,0000,,But I want to have an ice show \Nin Thailand someday.
+Dialogue: 0,0:06:19.01,0:06:23.31,Default - italics,Phi,0000,0000,0000,,I want everyone in Thailand to know \Nhow fun figure skating is!
+Dialogue: 0,0:06:34.17,0:06:36.91,Default - flashback,Y,0000,0000,0000,,Please be my coach until I retire!
+Dialogue: 0,0:06:36.91,0:06:39.20,Default - flashback,V,0000,0000,0000,,I wish you'd never retire.
+Dialogue: 0,0:06:39.87,0:06:43.25,Default - flashback,Y,0000,0000,0000,,Let's win gold together at \Nthe Grand Prix Final.
+Dialogue: 0,0:07:03.24,0:07:05.91,Default,V,0000,0000,0000,,Don't worry. You can win gold, Yuri.
+Dialogue: 0,0:07:06.32,0:07:07.74,Default,V,0000,0000,0000,,Believe in yourself.
+Dialogue: 0,0:07:08.43,0:07:09.92,Default,Y,0000,0000,0000,,Hey, Victor...
+Dialogue: 0,0:07:10.30,0:07:14.42,Default,Y,0000,0000,0000,,You said before that you want \Nto stay true to yourself, right?
+Dialogue: 0,0:07:14.95,0:07:18.17,Default,Y,0000,0000,0000,,Don't suddenly start trying \Nto sound like a coach now.
+Dialogue: 0,0:07:19.90,0:07:21.85,Default,Y,0000,0000,0000,,I want to smile for my last time on the ice.
+Dialogue: 0,0:07:27.48,0:07:29.46,Default,V,0000,0000,0000,,Yuri, listen to me.
+Dialogue: 0,0:07:29.46,0:07:32.19,Default,V,0000,0000,0000,,I debated whether I should \Ntell you this now, but...
+Dialogue: 0,0:07:32.88,0:07:36.69,Default,V,0000,0000,0000,,I took a break after becoming the \Nfive-time world champion to coach you,
+Dialogue: 0,0:07:37.19,0:07:40.95,Default,V,0000,0000,0000,,so how is it possible that you still \Nhaven't won a single gold medal?
+Dialogue: 0,0:07:46.49,0:07:49.46,Default,V,0000,0000,0000,,How much longer are you \Ngoing to stay in warm-up mode?
+Dialogue: 0,0:07:49.79,0:07:52.21,Default,V,0000,0000,0000,,I really want to kiss the gold medal.
+Dialogue: 0,0:07:57.46,0:07:59.02,Default,Moro,0000,0000,0000,,What's going on?
+Dialogue: 0,0:07:59.02,0:08:01.84,Default,Moro,0000,0000,0000,,Skater Katsuki looks like he might be crying.
+Dialogue: 0,0:08:03.06,0:08:06.06,Default - italics,Y,0000,0000,0000,,I've already made up my mind about my goal.
+Dialogue: 0,0:08:08.21,0:08:09.44,Default,Minami,0000,0000,0000,,Go!
+Dialogue: 0,0:08:08.78,0:08:10.63,Default,Kids,0000,0000,0000,,{\an8}Go, Yuri!
+Dialogue: 0,0:08:09.44,0:08:11.39,Default,Nishi,0000,0000,0000,,Hey, he's running out of time.
+Dialogue: 0,0:08:12.95,0:08:14.85,Default - italics,Y,0000,0000,0000,,My name is Katsuki Yuri.
+Dialogue: 0,0:08:15.39,0:08:18.17,Default - italics,Y,0000,0000,0000,,I'm a dime-a-dozen Japanese figure skater.
+Dialogue: 0,0:08:18.17,0:08:19.26,Default - italics,Y,0000,0000,0000,,I'm 24.
+Dialogue: 0,0:08:24.17,0:08:28.49,Default,Moro,0000,0000,0000,,He said he'd like to use this program to express \Nthe different forms of love he feels.
+Dialogue: 0,0:08:29.15,0:08:31.75,Default,Moro,0000,0000,0000,,His music for the free skate is "Yuri on Ice."
+Dialogue: 0,0:08:38.80,0:08:41.73,Default,Moro,0000,0000,0000,,There will be two consecutive quads.
+Dialogue: 0,0:08:41.73,0:08:44.22,Default,Moro,0000,0000,0000,,The first is part of a combination...
+Dialogue: 0,0:08:44.22,0:08:46.77,Default,Oda,0000,0000,0000,,Quadruple toe loop, double toe loop.
+Dialogue: 0,0:08:47.98,0:08:52.18,Default - italics,Y,0000,0000,0000,,For more than half of my life, \NI've been trying to catch up to Victor.
+Dialogue: 0,0:08:53.22,0:08:56.27,Default - italics,Y,0000,0000,0000,,Thank you for bringing me \Nall the way here, Victor.
+Dialogue: 0,0:09:03.74,0:09:05.28,Default - italics,Y,0000,0000,0000,,And it's not just Victor I have to thank.
+Dialogue: 0,0:09:05.28,0:09:06.38,Default,Oda,0000,0000,0000,,A quadruple Salchow.
+Dialogue: 0,0:09:06.85,0:09:10.36,Default,Minako,0000,0000,0000,,He's changed since Yurio taught \Nhim how to do the Salchow.
+Dialogue: 0,0:09:13.48,0:09:15.21,Default,Oda,0000,0000,0000,,A triple flip.
+Dialogue: 0,0:09:15.21,0:09:17.21,Default - italics,V,0000,0000,0000,,He changed it from the triple loop...
+Dialogue: 0,0:09:19.31,0:09:20.98,Default - italics,V,0000,0000,0000,,Yuri, you can't be serious.
+Dialogue: 0,0:09:20.98,0:09:25.15,Default - italics,Y,0000,0000,0000,,My performance needs to be better \Nthan flawless for a chance at the gold.
+Dialogue: 0,0:09:25.15,0:09:27.84,Default - italics,Y,0000,0000,0000,,I've been thinking ever since \Nthe short program that
+Dialogue: 0,0:09:28.29,0:09:30.26,Default - italics,Y,0000,0000,0000,,I'd like the final free skate of my career
+Dialogue: 0,0:09:30.26,0:09:33.30,Default - italics,Y,0000,0000,0000,,to have the same difficulty as Victor's.
+Dialogue: 0,0:09:40.41,0:09:41.28,Default,Oda,0000,0000,0000,,A triple axel.
+Dialogue: 0,0:09:45.77,0:09:48.20,Default,Moro,0000,0000,0000,,A triple flip is planned next.
+Dialogue: 0,0:09:51.30,0:09:52.85,Default,Oda,0000,0000,0000,,A quadruple toe loop?
+Dialogue: 0,0:09:54.46,0:09:55.71,Default - italics,V,0000,0000,0000,,A quad?
+Dialogue: 0,0:09:56.70,0:09:59.14,Default - italics,V,0000,0000,0000,,You added another for a \Ntotal of four quads, Yuri?
+Dialogue: 0,0:09:59.14,0:10:01.13,Default - italics,Y,0000,0000,0000,,Do you realize it now, Victor?
+Dialogue: 0,0:10:03.78,0:10:06.80,Default,Oda,0000,0000,0000,,Triple axel, single loop, triple Salchow.
+Dialogue: 0,0:10:08.80,0:10:10.31,Default - italics,Y,0000,0000,0000,,I don't want it to end here, Victor.
+Dialogue: 0,0:10:10.31,0:10:12.43,Default - italics,Y,0000,0000,0000,,I want to be in figure skating with you forever.
+Dialogue: 0,0:10:13.25,0:10:15.31,Default,Oda,0000,0000,0000,,Triple Lutz, triple toe loop.
+Dialogue: 0,0:10:16.67,0:10:19.49,Default - italics,Y,0000,0000,0000,,But your staying on as my coach
+Dialogue: 0,0:10:19.49,0:10:23.36,Default - italics,Y,0000,0000,0000,,means slowly killing you \Nas a competitive skater.
+Dialogue: 0,0:10:24.36,0:10:26.78,Default - italics,Y,0000,0000,0000,,Look at the Victor who lives on inside me.
+Dialogue: 0,0:10:27.39,0:10:30.19,Default - italics,Y,0000,0000,0000,,Your becoming my coach \Nwasn't a waste of time.
+Dialogue: 0,0:10:30.70,0:10:35.20,Default - italics,Y,0000,0000,0000,,I'm the only one in the whole \Nworld who can prove that.
+Dialogue: 0,0:10:46.30,0:10:50.72,Default,Moro,0000,0000,0000,,The last jump is a quad, the signature \Nmove of his coach, Victor Nikiforov!
+Dialogue: 0,0:10:51.47,0:10:52.96,Default,Oda,0000,0000,0000,,A quadruple flip.
+Dialogue: 0,0:10:52.96,0:10:55.01,Default,Moro,0000,0000,0000,,He did it!
+Dialogue: 0,0:11:17.50,0:11:24.16,Default,Moro,0000,0000,0000,,Katsuki Yuri has succeeded in creating a \Nmasterful culmination of his career!
+Dialogue: 0,0:11:28.68,0:11:29.45,Default,V,0000,0000,0000,,Yuri!
+Dialogue: 0,0:11:31.44,0:11:33.18,Default - italics,Y,0000,0000,0000,,I don't want to go to the kiss and cry.
+Dialogue: 0,0:11:33.54,0:11:35.68,Default - italics,Y,0000,0000,0000,,Because going back there means it's over.
+Dialogue: 0,0:11:37.35,0:11:38.43,Default,V,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:11:38.78,0:11:42.51,Default,V,0000,0000,0000,,Your performance was so perfect, \NI'm sure you'll get a great score.
+Dialogue: 0,0:11:44.68,0:11:46.69,Default,Moro,0000,0000,0000,,We have Katsuki Yuri's scores...
+Dialogue: 0,0:11:47.60,0:11:51.45,Default,Moro,0000,0000,0000,,His free skate score is 221.58!
+Dialogue: 0,0:11:51.45,0:11:56.20,Default,Moro,0000,0000,0000,,He's broken Victor Nikiforov's \Nlong-time world record
+Dialogue: 0,0:11:56.20,0:11:58.63,Default,Moro,0000,0000,0000,,for the Men's Singles Free Skate!
+Dialogue: 0,0:11:58.63,0:12:02.25,Default,Moro,0000,0000,0000,,His total score is 319.41!
+Dialogue: 0,0:12:02.25,0:12:04.50,Default,Moro,0000,0000,0000,,He's jumped all the way to first place!
+Dialogue: 0,0:12:08.70,0:12:10.15,Default,V,0000,0000,0000,,Congratulations, Yuri.
+Dialogue: 0,0:12:10.39,0:12:13.14,Default,V,0000,0000,0000,,Having both Yuris beat my records
+Dialogue: 0,0:12:13.54,0:12:16.89,Default,V,0000,0000,0000,,is the ultimate bliss as your \Nchoreographer and coach,
+Dialogue: 0,0:12:17.53,0:12:20.64,Default,V,0000,0000,0000,,but it's the ultimate diss as a competitor.
+Dialogue: 0,0:12:20.64,0:12:21.37,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:21.37,0:12:23.77,Default,Y,0000,0000,0000,,Does that mean you'll come back?
+Dialogue: 0,0:12:27.73,0:12:31.58,Default - italics,Chris,0000,0000,0000,,That guy rumored to be retiring \Nbanged out a world record.
+Dialogue: 0,0:12:31.58,0:12:33.11,Default - italics,Chris,0000,0000,0000,,Talk about a dreamer.
+Dialogue: 0,0:12:35.12,0:12:38.58,Default,Moro,0000,0000,0000,,Christophe Giacometti is skating \Nto "Spanish Rhapsody."
+Dialogue: 0,0:12:39.33,0:12:44.57,Default - italics,Chris,0000,0000,0000,,I thought this Grand Prix Final would \Nbe my last chance to win,
+Dialogue: 0,0:12:45.14,0:12:48.51,Default - italics,Chris,0000,0000,0000,,but Yuri easily beat my personal best.
+Dialogue: 0,0:12:48.51,0:12:52.53,Default - italics,Chris,0000,0000,0000,,Looks like it won't be that easy \Nto get my hands on a medal,
+Dialogue: 0,0:12:52.53,0:12:56.06,Default - italics,Chris,0000,0000,0000,,but I think I'll be able to enjoy this \Nyear's Final until the very end.
+Dialogue: 0,0:12:56.06,0:12:57.26,Default,Oda,0000,0000,0000,,A quadruple Lutz.
+Dialogue: 0,0:12:57.26,0:12:58.64,Default,Moro,0000,0000,0000,,He landed it again in the free skate!
+Dialogue: 0,0:12:57.74,0:12:58.64,Default - italics,Chris,0000,0000,0000,,I can do this.
+Dialogue: 0,0:12:58.64,0:13:00.21,Default,V,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:00.21,0:13:02.89,Default,V,0000,0000,0000,,Oh, please take our picture with this phone!
+Dialogue: 0,0:13:11.61,0:13:14.24,Default,Oda,0000,0000,0000,,What was meant to be a quadruple \NSalchow became a single.
+Dialogue: 0,0:13:15.01,0:13:15.99,Default,Phi,0000,0000,0000,,Hang in there, Chris!
+Dialogue: 0,0:13:15.99,0:13:17.02,Default,YV,0000,0000,0000,,Allez!
+Dialogue: 0,0:13:17.02,0:13:17.99,Default,V,0000,0000,0000,,Chris!
+Dialogue: 0,0:13:20.66,0:13:21.60,Default - italics,Chris,0000,0000,0000,,Victor...
+Dialogue: 0,0:13:21.60,0:13:23.75,Default - italics,Chris,0000,0000,0000,,I got too used to having you in front of me.
+Dialogue: 0,0:13:23.75,0:13:27.19,Default - italics,Chris,0000,0000,0000,,I pretended not to notice the discomfort \Nof being surpassed by another.
+Dialogue: 0,0:13:27.19,0:13:30.51,Default - italics,Chris,0000,0000,0000,,But I can always fan the \Nflames of regret within me!
+Dialogue: 0,0:13:30.51,0:13:31.52,Default - italics,Chris,0000,0000,0000,,There!
+Dialogue: 0,0:13:31.52,0:13:32.34,Default,Oda,0000,0000,0000,,A triple axel!
+Dialogue: 0,0:13:32.34,0:13:33.88,Default,Minako,0000,0000,0000,,A lone triple axel?
+Dialogue: 0,0:13:33.88,0:13:37.39,Default,Phi,0000,0000,0000,,He changed his program to make a jump \Ninto a combination in the second half.
+Dialogue: 0,0:13:40.11,0:13:42.85,Default,Oda,0000,0000,0000,,Triple axel, single loop, triple Salchow.
+Dialogue: 0,0:13:42.85,0:13:45.07,Default,Moro,0000,0000,0000,,His final jumps were successful!
+Dialogue: 0,0:13:45.07,0:13:48.26,Default,Oda,0000,0000,0000,,Yes, he brought a combination \Nhe usually does in the first half
+Dialogue: 0,0:13:48.26,0:13:49.78,Default,Oda,0000,0000,0000,,into the second instead.
+Dialogue: 0,0:13:49.78,0:13:51.60,Default,Moro,0000,0000,0000,,We have a standing ovation from the audience!
+Dialogue: 0,0:13:51.60,0:13:53.55,Default,Moro,0000,0000,0000,,Just look at their enthusiasm!
+Dialogue: 0,0:14:00.20,0:14:04.71,Default,Minako,0000,0000,0000,,Chris!
+Dialogue: 0,0:14:08.72,0:14:09.71,Default,Chris,0000,0000,0000,,Merci.
+Dialogue: 0,0:14:10.70,0:14:12.21,SFX,Sign,0000,0000,0000,,OMG!
+Dialogue: 0,0:14:12.57,0:14:15.19,Default,Moro,0000,0000,0000,,His free skate score is 188.32.
+Dialogue: 0,0:14:15.19,0:14:17.48,Default,Moro,0000,0000,0000,,His total score is 290.69.
+Dialogue: 0,0:14:17.48,0:14:19.70,Default,Moro,0000,0000,0000,,After four skaters, he is currently in third.
+Dialogue: 0,0:14:19.70,0:14:22.20,Default,Moro,0000,0000,0000,,At this time, Katsuki Yuri, currently in first,
+Dialogue: 0,0:14:22.20,0:14:24.51,Default,Moro,0000,0000,0000,,is guaranteed a spot on the podium!
+Dialogue: 0,0:14:23.37,0:14:24.51,Default,Woman,0000,0000,0000,,Congratulations!
+Dialogue: 0,0:14:24.51,0:14:25.73,Default,Y,0000,0000,0000,,Oh, thank you.
+Dialogue: 0,0:14:26.28,0:14:30.95,Default,Moro,0000,0000,0000,,After the short program, he's 6.18 points \Nbehind the leader, Yuri Plisetsky.
+Dialogue: 0,0:14:30.21,0:14:32.11,Default,MM,0000,0000,0000,,{\an8}Otabek! Davai!
+Dialogue: 0,0:14:30.95,0:14:35.61,Default,Moro,0000,0000,0000,,He's now on the ice, gunning for a spot on \Nthe podium at his first Grand Prix Final.
+Dialogue: 0,0:14:32.48,0:14:35.61,Default,JJ,0000,0000,0000,,{\an8}Keep an eye out for the quadruple \NSalchow straight out of JJ's book!
+Dialogue: 0,0:14:35.61,0:14:37.11,Default,Leo,0000,0000,0000,,Go, Otabek!
+Dialogue: 0,0:14:40.64,0:14:44.63,Default,Moro,0000,0000,0000,,He is skating to the second movement \Nfrom Beethoven's "Symphony No. 9."
+Dialogue: 0,0:14:45.38,0:14:48.27,Default - italics,Ota,0000,0000,0000,,Now is the time for you to take center stage.
+Dialogue: 0,0:14:48.27,0:14:50.45,Default - italics,Ota,0000,0000,0000,,The whole world is waiting for you.
+Dialogue: 0,0:14:51.54,0:14:52.76,Default,Oda,0000,0000,0000,,A quadruple toe loop.
+Dialogue: 0,0:14:52.76,0:14:53.82,Default,Moro,0000,0000,0000,,He did it!
+Dialogue: 0,0:14:54.71,0:14:55.86,Default,V,0000,0000,0000,,Yakov...
+Dialogue: 0,0:14:56.84,0:14:58.13,Default,V,0000,0000,0000,,I want to talk to you about something.
+Dialogue: 0,0:14:58.13,0:14:59.12,Default,Yakov,0000,0000,0000,,Right now?
+Dialogue: 0,0:14:59.12,0:15:00.14,Default,Yakov,0000,0000,0000,,Tell me later.
+Dialogue: 0,0:15:00.14,0:15:01.64,Default,Yakov,0000,0000,0000,,It's almost Yuri's turn!
+Dialogue: 0,0:15:02.58,0:15:04.56,Default,Oda,0000,0000,0000,,Quadruple Salchow, triple toe loop.
+Dialogue: 0,0:15:04.56,0:15:05.47,Default,Yakov,0000,0000,0000,,What?!
+Dialogue: 0,0:15:05.47,0:15:06.63,Default,Yakov,0000,0000,0000,,You're coming back?!
+Dialogue: 0,0:15:06.63,0:15:07.06,Default,V,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:07.06,0:15:09.56,Default,V,0000,0000,0000,,For now, I'll time my return \Nto the Russian Nationals.
+Dialogue: 0,0:15:09.56,0:15:12.31,Default,Yuri,0000,0000,0000,,Hey, does that mean the\Npork cutlet bowl's retiring?
+Dialogue: 0,0:15:12.31,0:15:14.93,Default,V,0000,0000,0000,,That's his decision.
+Dialogue: 0,0:15:14.93,0:15:18.07,Default,V,0000,0000,0000,,He said he'd decide after the \NGrand Prix Final was over.
+Dialogue: 0,0:15:24.66,0:15:27.58,Default - italics,Ota,0000,0000,0000,,Don't forget what it is you want.
+Dialogue: 0,0:15:27.58,0:15:29.25,Default - italics,Ota,0000,0000,0000,,Now is the time to take off.
+Dialogue: 0,0:15:34.65,0:15:35.71,Default,Oda,0000,0000,0000,,A triple axel.
+Dialogue: 0,0:15:36.90,0:15:38.55,Default - italics,Ota,0000,0000,0000,,Fulfill your dream.
+Dialogue: 0,0:15:39.17,0:15:41.45,Default - italics,Ota,0000,0000,0000,,Only you can make it a reality.
+Dialogue: 0,0:15:42.07,0:15:44.55,Default - italics,Ota,0000,0000,0000,,Live your life.
+Dialogue: 0,0:15:46.23,0:15:47.53,Default,Y,0000,0000,0000,,Victor?
+Dialogue: 0,0:15:50.39,0:15:53.25,Default - italics,Ota,0000,0000,0000,,Dance your dream.
+Dialogue: 0,0:15:53.99,0:15:58.69,Default - italics,Ota,0000,0000,0000,,Sing, sing... Sing your own song.
+Dialogue: 0,0:15:59.60,0:16:01.02,Default,Oda,0000,0000,0000,,A quadruple Salchow.
+Dialogue: 0,0:16:01.02,0:16:03.66,Default,Moro,0000,0000,0000,,He's landed all his quads!
+Dialogue: 0,0:16:09.15,0:16:11.87,Default,Oda,0000,0000,0000,,Triple flip, single loop, triple Salchow.
+Dialogue: 0,0:16:12.34,0:16:13.53,Default,Phi,0000,0000,0000,,Wow.
+Dialogue: 0,0:16:13.53,0:16:16.50,Default,Ciao,0000,0000,0000,,Originality isn't only about \Nwhat you're born with.
+Dialogue: 0,0:16:17.04,0:16:20.88,Default,Ciao,0000,0000,0000,,At age 19, Otabek is about to prove that.
+Dialogue: 0,0:16:20.88,0:16:24.79,Default - italics,Ota,0000,0000,0000,,Do to the fullest, play to \Nthe fullest, and discover.
+Dialogue: 0,0:16:24.79,0:16:28.03,Default - italics,Ota,0000,0000,0000,,Find your path, and go above and beyond it!
+Dialogue: 0,0:16:28.72,0:16:30.14,Default - italics,Ota,0000,0000,0000,,Now is your beginning.
+Dialogue: 0,0:16:30.68,0:16:33.35,Default - italics,Ota,0000,0000,0000,,Live your own life.
+Dialogue: 0,0:16:31.64,0:16:33.35,Default,Moro,0000,0000,0000,,Here comes the final jump...
+Dialogue: 0,0:16:33.35,0:16:34.14,Default,Oda,0000,0000,0000,,A triple loop.
+Dialogue: 0,0:16:34.14,0:16:35.77,Default,Moro,0000,0000,0000,,All of his jumps were successful!
+Dialogue: 0,0:16:40.17,0:16:44.56,Default - italics,,0000,0000,0000,,Now is your beginning. This is your time.
+Dialogue: 0,0:16:56.08,0:17:00.09,Default,Moro,0000,0000,0000,,Otabek Altin missed Jean-Jacques Leroy \Nby a sliver and is currently in third!
+Dialogue: 0,0:17:00.09,0:17:02.09,Default,Moro,0000,0000,0000,,Katsuki Yuri remains in first place.
+Dialogue: 0,0:17:02.09,0:17:04.76,Default,Moro,0000,0000,0000,,The final skater to take the ice is \Nthe Russian fifteen-year-old,
+Dialogue: 0,0:17:05.11,0:17:06.71,Default,Moro,0000,0000,0000,,Yuri Plisetsky.
+Dialogue: 0,0:17:07.65,0:17:09.82,Default,Y,0000,0000,0000,,Yuri, davai!
+Dialogue: 0,0:17:10.27,0:17:12.18,Default,Ota,0000,0000,0000,,Yuri, davai!
+Dialogue: 0,0:17:13.52,0:17:15.02,Default - italics,Yuri,0000,0000,0000,,Yakov, Lilia.
+Dialogue: 0,0:17:15.53,0:17:16.02,Default - italics,Yuri,0000,0000,0000,,Grandpa.
+Dialogue: 0,0:17:16.01,0:17:18.02,uchiwa,,0000,0000,0000,,YU             RI             O
+Dialogue: 0,0:17:16.02,0:17:17.35,Default,Yuko,0000,0000,0000,,{\an8}Yurio-kun, davai!
+Dialogue: 0,0:17:16.02,0:17:18.02,Default - italics,Yuri,0000,0000,0000,,Yuko and the rest.
+Dialogue: 0,0:17:17.35,0:17:18.02,Default,Kids,0000,0000,0000,,{\an8}Davai, davai!
+Dialogue: 0,0:17:18.36,0:17:22.03,Default - italics,Yuri,0000,0000,0000,,And Katsuki Yuri... Watch this closely.
+Dialogue: 0,0:17:28.12,0:17:32.45,Default,Moro,0000,0000,0000,,He is skating to "Allegro \NAppassionato in B Minor."
+Dialogue: 0,0:17:32.45,0:17:37.27,Default,Moro,0000,0000,0000,,Yuri Plisetsky hammered out a new \Nworld record with his short program.
+Dialogue: 0,0:17:37.27,0:17:40.06,Default,Moro,0000,0000,0000,,If he wins the Grand Prix Final \Nin his senior debut,
+Dialogue: 0,0:17:40.06,0:17:42.38,Default,Moro,0000,0000,0000,,that will make men's singles history.
+Dialogue: 0,0:17:42.38,0:17:43.42,Default,Moro,0000,0000,0000,,First up is a quad!
+Dialogue: 0,0:17:44.28,0:17:45.40,Default,Oda,0000,0000,0000,,A quadruple Salchow.
+Dialogue: 0,0:17:45.40,0:17:46.41,Default,Moro,0000,0000,0000,,Success!
+Dialogue: 0,0:17:52.90,0:17:56.05,Default,Oda,0000,0000,0000,,A spiral... into a triple axel.
+Dialogue: 0,0:17:56.05,0:17:57.07,Default,Moro,0000,0000,0000,,Another success!
+Dialogue: 0,0:17:57.57,0:18:00.57,Default,Oda,0000,0000,0000,,That was a difficult entry, and he \Nused a raised arm with the jump,
+Dialogue: 0,0:18:00.57,0:18:02.44,Default,Oda,0000,0000,0000,,earning higher marks for greater difficulty.
+Dialogue: 0,0:18:11.91,0:18:13.44,Default - flashback,Y,0000,0000,0000,,{\i1}Yuri Katsuki...
+Dialogue: 0,0:18:13.44,0:18:16.58,Default - flashback,Y,0000,0000,0000,,{\i1}He screws up his jumps, but his step \Nsequence grabs your attention.
+Dialogue: 0,0:18:17.04,0:18:18.56,Default - flashback,Y,0000,0000,0000,,{\i1}I want to see him skate with no mistakes.
+Dialogue: 0,0:18:18.56,0:18:19.53,Default - flashback,,0000,0000,0000,,{\i1}What kind of guy is he?
+Dialogue: 0,0:18:20.51,0:18:22.63,Default - flashback,Y,0000,0000,0000,,{\i1}What a loser! He's crying!
+Dialogue: 0,0:18:22.63,0:18:24.46,Default - flashback,Y,0000,0000,0000,,We don't need two Yuris in the same bracket.
+Dialogue: 0,0:18:24.46,0:18:26.08,Default - flashback,Y,0000,0000,0000,,Just retire already.
+Dialogue: 0,0:18:26.08,0:18:27.05,Default - flashback,Y,0000,0000,0000,,Moron!
+Dialogue: 0,0:18:27.97,0:18:30.17,Default - italics,Y,0000,0000,0000,,What, you're gonna retire once you win gold?
+Dialogue: 0,0:18:30.17,0:18:33.38,Default - italics,Y,0000,0000,0000,,You don't care anymore now that you \Ngot a higher score than Victor's?
+Dialogue: 0,0:18:33.38,0:18:34.51,Default - italics,Y,0000,0000,0000,,That's bull!
+Dialogue: 0,0:18:34.51,0:18:36.02,Default - italics,Y,0000,0000,0000,,Don't disappoint me!
+Dialogue: 0,0:18:36.34,0:18:38.56,Default - italics,Y,0000,0000,0000,,There are no gold medals \Nfor pigs to feed on!
+Dialogue: 0,0:18:38.56,0:18:39.98,Default,Moro,0000,0000,0000,,A triple flip.
+Dialogue: 0,0:18:42.48,0:18:44.03,Default - italics,Y,0000,0000,0000,,Hang in there, Yurio.
+Dialogue: 0,0:18:44.03,0:18:45.49,Default - italics,Y,0000,0000,0000,,Here come the second-half jumps.
+Dialogue: 0,0:18:46.17,0:18:47.49,Default - italics,Yuri,0000,0000,0000,,I'm going to win!
+Dialogue: 0,0:18:48.24,0:18:49.47,Default,Oda,0000,0000,0000,,A quadruple toe loop.
+Dialogue: 0,0:18:49.47,0:18:51.03,Default,Moro,0000,0000,0000,,A big fall there!
+Dialogue: 0,0:18:52.14,0:18:53.59,Default,Oda,0000,0000,0000,,He got up right away.
+Dialogue: 0,0:18:53.59,0:18:55.48,Default,Oda,0000,0000,0000,,Beautiful spiral position.
+Dialogue: 0,0:18:55.73,0:18:58.50,Default - italics,Gramps,0000,0000,0000,,Yuratchka, look how strong you've become.
+Dialogue: 0,0:18:59.54,0:19:01.71,Default - italics,Lilia,0000,0000,0000,,You've distanced yourself from \Nbeing a prima ballerina,
+Dialogue: 0,0:19:01.71,0:19:06.47,Default - italics,Lilia,0000,0000,0000,,but you've evolved into your own \Nnew beauty, Yuri Plisetsky.
+Dialogue: 0,0:19:07.66,0:19:10.26,Default,Oda,0000,0000,0000,,Quadruple Salchow, triple toe loop.
+Dialogue: 0,0:19:10.26,0:19:12.04,Default,Moro,0000,0000,0000,,Brilliant execution!
+Dialogue: 0,0:19:12.04,0:19:15.39,Default,Moro,0000,0000,0000,,What determination, raising both arms again!
+Dialogue: 0,0:19:15.39,0:19:17.48,Default - italics,Yuri,0000,0000,0000,,Are you watching, Katsuki Yuri?
+Dialogue: 0,0:19:18.08,0:19:20.98,Default - italics,Yuri,0000,0000,0000,,I'm gonna beat your record someday.
+Dialogue: 0,0:19:24.99,0:19:27.07,Default,Oda,0000,0000,0000,,Quadruple toe loop, double toe loop.
+Dialogue: 0,0:19:27.07,0:19:29.30,Default,Moro,0000,0000,0000,,He's added a quad at this point in the program!
+Dialogue: 0,0:19:29.30,0:19:32.20,Default - italics,Yuri,0000,0000,0000,,If you retire now, I'll make you regret \Nit for the rest of your life.
+Dialogue: 0,0:19:32.69,0:19:33.95,Default - italics,Yuri,0000,0000,0000,,Moron!
+Dialogue: 0,0:19:35.13,0:19:38.45,Default,Oda,0000,0000,0000,,Triple axel, single loop, triple Salchow.
+Dialogue: 0,0:19:38.45,0:19:40.37,Default,Moro,0000,0000,0000,,He did it!
+Dialogue: 0,0:20:12.70,0:20:17.06,Default,Moro,0000,0000,0000,,Yuri Plisetsky's free skate score is 200.97!
+Dialogue: 0,0:20:17.06,0:20:20.69,Default,Moro,0000,0000,0000,,His total score narrowly beats Katsuki's
+Dialogue: 0,0:20:20.69,0:20:22.70,Default,Moro,0000,0000,0000,,by 0.12 points to win the gold!
+Dialogue: 0,0:20:23.35,0:20:26.41,Default,Moro,0000,0000,0000,,Well, Katsuki Yuri's on the \Npodium for the first time!
+Dialogue: 0,0:20:24.22,0:20:34.71,topright4,,0000,0000,0000,,Plisetsky: Gold, Katsuki: Silver, Leroy: Bronze\N{\c&H291097&}Astounding! New World Record Score
+Dialogue: 0,0:20:24.22,0:20:34.71,guest,,0000,0000,0000,,Guest: Stéphane Lambiel\NCommentator: Morooka Hisashi
+Dialogue: 0,0:20:26.41,0:20:27.80,Default,,0000,0000,0000,,Yes, and what a magnificent result!
+Dialogue: 0,0:20:27.93,0:20:33.94,Default,,0000,0000,0000,,He showed us a performance that no one \Nwould have imagined after last year's Final.
+Dialogue: 0,0:20:36.22,0:20:38.35,Default,Y,0000,0000,0000,,It's not a gold medal, but...
+Dialogue: 0,0:20:40.00,0:20:43.35,Default,V,0000,0000,0000,,I don't feel like kissing it unless it's gold.
+Dialogue: 0,0:20:43.35,0:20:46.86,Default,V,0000,0000,0000,,Man, I really wanted to kiss Yuri's gold medal.
+Dialogue: 0,0:20:46.86,0:20:49.44,Default,V,0000,0000,0000,,I'm such a failure as a coach.
+Dialogue: 0,0:20:49.44,0:20:51.49,Default,V,0000,0000,0000,,Yuri, do you have any suggestions?
+Dialogue: 0,0:20:51.49,0:20:53.49,Default,V,0000,0000,0000,,Something that would excite me?
+Dialogue: 0,0:20:54.58,0:20:56.28,Default,V,0000,0000,0000,,What did you think just now?
+Dialogue: 0,0:20:56.28,0:20:58.66,Default,Y,0000,0000,0000,,Oh, um... Well...
+Dialogue: 0,0:21:00.18,0:21:01.45,Default,Y,0000,0000,0000,,Victor!
+Dialogue: 0,0:21:02.30,0:21:05.58,Default,Y,0000,0000,0000,,Please stay with me in competitive \Nfigure skating for one more year!
+Dialogue: 0,0:21:05.58,0:21:07.84,Default,Y,0000,0000,0000,,This time, I'll win gold for sure!
+Dialogue: 0,0:21:09.36,0:21:10.09,Default,V,0000,0000,0000,,Great!
+Dialogue: 0,0:21:10.41,0:21:11.70,Default,V,0000,0000,0000,,But keep going!
+Dialogue: 0,0:21:11.70,0:21:12.59,Default,Y,0000,0000,0000,,What?
+Dialogue: 0,0:21:13.94,0:21:16.39,Default,V,0000,0000,0000,,Even I'm worried about making a full comeback
+Dialogue: 0,0:21:16.39,0:21:19.56,Default,V,0000,0000,0000,,if I'm also staying on as your coach.
+Dialogue: 0,0:21:19.56,0:21:23.40,Default,V,0000,0000,0000,,In exchange, I'll need you to become a \Nfive-time world champion, at least.
+Dialogue: 0,0:21:28.01,0:21:28.72,Default,Y,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:37.30,0:21:40.57,Default,Moro,0000,0000,0000,,The men's singles silver medalist, \NJapan's Katsuki Yuri.
+Dialogue: 0,0:21:40.57,0:21:46.85,Default,Moro,0000,0000,0000,,His exhibition is the free program of his coach, \Nwho's just announced his comeback,
+Dialogue: 0,0:21:46.85,0:21:49.03,Default,Moro,0000,0000,0000,,last year's "Stay by Me."
+Dialogue: 0,0:23:05.55,0:23:07.04,Default - italics,Y,0000,0000,0000,,There's a place you just can't reach
+Dialogue: 0,0:23:07.04,0:23:10.93,Default - italics,Y,0000,0000,0000,,unless you have a dream \Ntoo large to bear alone.
+Dialogue: 0,0:23:14.18,0:23:18.88,Default - italics,Y,0000,0000,0000,,We call everything on the ice "love."
+Dialogue: 0,0:23:19.45,0:23:20.24,Default,V,0000,0000,0000,,Yuri!

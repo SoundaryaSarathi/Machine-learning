@@ -1,0 +1,529 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ngnl-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-main-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-internal-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000026,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: ngnl-internaloverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-flashbackoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ngnl-ep-title,Open Sans Semibold,36,&H00F9FFFD,&H000000FF,&H00BB58FA,&H00D1FDFF,0,0,0,0,100,100,0,0,1,2,0,9,88,63,127,0
+Style: ngnl-eyecatch,Open Sans Semibold,51,&H00000000,&H000000FF,&H00265BCC,&H00000A2D,1,0,0,0,100,100,0,0,1,1,0,1,75,61,127,0
+Style: ngnl-preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: ngnl-next-ep-title,Open Sans Semibold,38,&H00F8FFEB,&H000000FF,&H00D200DB,&H00000A2D,1,0,0,0,100,100,0,0,1,2,0,3,88,72,113,0
+Style: ngnl-red text,Open Sans Semibold,29,&H00E9E4F3,&H000000FF,&H006B4BAE,&H00222A17,0,0,0,0,100,100,0,0,1,2,0,4,27,27,0,0
+Style: location,Open Sans Semibold,26,&H00E9E4F3,&H000000FF,&H00894EC6,&H00894EC6,1,0,0,0,100,100,0,0,1,1,1,2,0,0,80,0
+Style: rule,Open Sans Semibold,22,&H003C2B86,&H000000FF,&H00E5E7FF,&H0047505D,0,0,0,0,100,100,0,0,1,2,0,1,600,20,173,0
+Style: swwear,Open Sans Semibold,51,&H00FFFFFF,&H000000FF,&H008233E8,&H00894EC6,0,0,0,0,100,100,0,0,1,2,0,8,13,13,133,0
+Style: score,Open Sans Semibold,44,&H00EBE8F2,&H000000FF,&H00C740E0,&H00D1FDFF,0,0,0,0,100,100,0,0,1,2,0,2,67,40,133,0
+Style: hgame,Open Sans Semibold,32,&H00D062E1,&H000000FF,&H00181421,&H00586DD0,0,0,0,0,100,100,0,0,1,4,0,7,67,27,53,0
+Style: unk,Open Sans Semibold,47,&H0082361B,&H000000FF,&H00E16A6C,&H006F808B,1,0,0,0,100,100,0,0,1,1,0,7,27,27,27,0
+Style: mere,Open Sans Semibold,35,&H00335097,&H000000FF,&H00507EE0,&H00892C7B,1,0,0,0,100,100,0,0,1,1,0,7,267,13,27,0
+Style: shiri,Open Sans Semibold,44,&H00F8FEFF,&H000000FF,&H00C866ED,&H00CBD197,1,0,0,0,100,100,0,0,1,2,0,4,67,67,0,0
+Style: games,Open Sans Semibold,58,&H0097CDE9,&H000000FF,&H00395E84,&H00395E84,0,0,0,0,100,100,0,0,1,2,2,8,13,13,120,0
+Style: word,Open Sans Semibold,36,&H0088A2BB,&H000000FF,&H0001030D,&H0094929C,0,0,0,0,100,100,0,0,1,4,0,2,27,27,27,0
+Style: dog,Open Sans Semibold,29,&H00A2622E,&H000000FF,&H00ACFC98,&H006F808B,1,0,0,0,100,100,0,0,1,4,0,9,27,27,27,0
+Style: shiri-pink,Open Sans Semibold,32,&H00FFFFFF,&H000000FF,&H006729DB,&H00C16553,1,0,0,0,100,100,0,0,1,2,0,2,20,20,120,0
+Style: dog2,Open Sans Semibold,35,&H00A94FF9,&H000000FF,&H00ADBCE6,&H008935D9,0,0,0,0,100,100,0,0,1,4,2,2,0,0,24,0
+Style: shiri-rule,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H00A94FF9,&H00962A2B,0,0,0,0,100,100,0,0,1,2,0,4,27,0,0,0
+Style: EC,Open Sans Semibold,21,&H005E5F65,&H000000FF,&H00D8DEDA,&H00A24C6C,0,0,0,0,100,100,0,0,1,4,0,4,67,0,20,0
+Style: EC2,Open Sans Semibold,44,&H00E861CD,&H000000FF,&H0053AA63,&H006F808B,1,0,0,0,100,100,0,0,1,0,0,7,27,27,27,0
+Style: EC3,Open Sans Semibold,41,&H0068A0A6,&H000000FF,&H00B7E7ED,&H00D1FDFF,0,0,0,0,100,100,0,0,1,4,0,5,40,40,0,0
+Style: banner,Open Sans Semibold,22,&H00D1E7F6,&H000000FF,&H00997AE7,&H0047505D,0,0,0,0,100,100,0,0,1,2,0,9,253,20,27,0
+Style: cards1,Open Sans Semibold,26,&H00D4F1F7,&H000000FF,&H003E46B6,&H00D4F1F7,1,0,0,0,100,100,0,0,1,4,2,8,53,0,133,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:10.71,0:00:13.08,ngnl-main,J,0000,0000,0000,,My name is Jibril.
+Dialogue: 0,0:00:13.59,0:00:16.11,ngnl-main,J,0000,0000,0000,,What can I do for you, new king and queen
+Dialogue: 0,0:00:16.11,0:00:19.10,ngnl-main,,0000,0000,0000,,of the Imanity, Sora-sama and Shiro-sama?
+Dialogue: 0,0:00:19.47,0:00:21.70,ngnl-main,S,0000,0000,0000,,You know us?
+Dialogue: 0,0:00:21.70,0:00:23.00,ngnl-main,S,0000,0000,0000,,That makes this easier, then.
+Dialogue: 0,0:00:23.70,0:00:25.05,ngnl-main,,0000,0000,0000,,I'll just tell you, then.
+Dialogue: 0,0:00:26.66,0:00:28.43,ngnl-main,,0000,0000,0000,,I want this library.
+Dialogue: 0,0:02:00.19,0:02:02.97,ngnl-main,,0000,0000,0000,,You want my library?
+Dialogue: 0,0:02:03.55,0:02:06.24,ngnl-main,,0000,0000,0000,,That's so very sudden.
+Dialogue: 0,0:02:06.60,0:02:10.82,ngnl-main,S,0000,0000,0000,,Steph, the Flugel were god-killing warriors, right?
+Dialogue: 0,0:02:10.82,0:02:12.46,ngnl-main,T,0000,0000,0000,,Th-They're supposed to be!
+Dialogue: 0,0:02:12.46,0:02:17.68,ngnl-main,J,0000,0000,0000,,I must look like a pigeon that took \Na bean-gun to the face— the visage.
+Dialogue: 0,0:02:12.91,0:02:18.48,ngnl-ep-title,T,0000,0000,0000,,{\fad(1500,420)}Interesting
+Dialogue: 0,0:02:17.68,0:02:18.97,ngnl-main,Sh,0000,0000,0000,,She said it over.
+Dialogue: 0,0:02:18.97,0:02:22.12,ngnl-main,S,0000,0000,0000,,Listen, the way you talk reminds \Nme of a certain famous person,
+Dialogue: 0,0:02:22.12,0:02:23.39,ngnl-main,S,0000,0000,0000,,so if you're doing it on purpose, stop.
+Dialogue: 0,0:02:23.39,0:02:24.67,ngnl-main,J,0000,0000,0000,,What?
+Dialogue: 0,0:02:24.67,0:02:27.77,ngnl-main,,0000,0000,0000,,I had thought it an avant-garde \Nand unique way of speaking,
+Dialogue: 0,0:02:27.77,0:02:29.65,ngnl-main,,0000,0000,0000,,but somebody got there ahead of me?
+Dialogue: 0,0:02:29.65,0:02:31.00,ngnl-main,S,0000,0000,0000,,Is it worth getting upset over?
+Dialogue: 0,0:02:31.84,0:02:33.50,ngnl-main,J,0000,0000,0000,,Let's get back to the point.
+Dialogue: 0,0:02:34.27,0:02:37.33,ngnl-main,J,0000,0000,0000,,You want my library.
+Dialogue: 0,0:02:37.86,0:02:42.01,ngnl-main,J,0000,0000,0000,,Does that mean that you want to \Nchallenge me to a game, human?
+Dialogue: 0,0:02:42.46,0:02:44.41,ngnl-main,S,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:02:45.28,0:02:46.41,ngnl-main,J,0000,0000,0000,,I see.
+Dialogue: 0,0:02:47.73,0:02:51.39,ngnl-main,J,0000,0000,0000,,Before the introduction of the ten pledges,
+Dialogue: 0,0:02:51.39,0:02:53.61,ngnl-main,,0000,0000,0000,,the Flugel collected severed heads.
+Dialogue: 0,0:02:53.99,0:02:57.01,ngnl-main,J,0000,0000,0000,,However, now that murder is forbidden,
+Dialogue: 0,0:02:57.01,0:03:00.31,ngnl-main,,0000,0000,0000,,we value knowledge above anything else.
+Dialogue: 0,0:03:00.31,0:03:02.26,ngnl-main,J,0000,0000,0000,,It's no exaggeration to say
+Dialogue: 0,0:03:02.26,0:03:04.54,ngnl-main,,0000,0000,0000,,that books containing that knowledge,
+Dialogue: 0,0:03:04.54,0:03:07.93,ngnl-main,,0000,0000,0000,,and the place where they are held, \Nare as valuable as one's life.
+Dialogue: 0,0:03:09.00,0:03:11.67,ngnl-main,J,0000,0000,0000,,Since you're telling me to bet my life,
+Dialogue: 0,0:03:12.79,0:03:15.17,ngnl-main,J,0000,0000,0000,,what are you offering to bet in exchange?
+Dialogue: 0,0:03:16.56,0:03:20.19,ngnl-main,S,0000,0000,0000,,More than 40,000 books from another world.
+Dialogue: 0,0:03:23.22,0:03:24.31,ngnl-main,Sh,0000,0000,0000,,That's filthy.
+Dialogue: 0,0:03:24.31,0:03:25.41,ngnl-main,S,0000,0000,0000,,It's okay, Shiro.
+Dialogue: 0,0:03:25.41,0:03:27.45,ngnl-main,S,0000,0000,0000,,In our business, that's a prize!
+Dialogue: 0,0:03:27.89,0:03:29.43,ngnl-main,J,0000,0000,0000,,F-F-Forty thousand...
+Dialogue: 0,0:03:29.43,0:03:30.60,ngnl-main,J,0000,0000,0000,,That's quite a prize.
+Dialogue: 0,0:03:30.60,0:03:31.85,ngnl-main,J,0000,0000,0000,,Where do you have...
+Dialogue: 0,0:03:31.85,0:03:32.69,ngnl-main,S,0000,0000,0000,,Inside here.
+Dialogue: 0,0:03:33.14,0:03:35.69,ngnl-main,S,0000,0000,0000,,I got them to study for quiz games.
+Dialogue: 0,0:03:35.96,0:03:38.22,ngnl-main,S,0000,0000,0000,,Dictionaries, medical books, philosophy books...
+Dialogue: 0,0:03:38.22,0:03:41.00,ngnl-main,S,0000,0000,0000,,It's full of information from our world.
+Dialogue: 0,0:03:42.04,0:03:45.55,ngnl-main,J,0000,0000,0000,,Are you telling me you're from another world?
+Dialogue: 0,0:03:45.55,0:03:46.07,ngnl-main,S,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:47.35,0:03:48.79,ngnl-main,J,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:03:49.76,0:03:51.30,ngnl-main,S,0000,0000,0000,,Hey, what's she talking about?
+Dialogue: 0,0:03:51.30,0:03:52.24,ngnl-main,T,0000,0000,0000,,Um...
+Dialogue: 0,0:03:53.05,0:03:56.25,ngnl-main,J,0000,0000,0000,,If you were going to summon a living \Ncreature from another world,
+Dialogue: 0,0:03:56.25,0:04:00.25,ngnl-main,,0000,0000,0000,,you would need a massive amount \Nof power to keep them here.
+Dialogue: 0,0:04:00.25,0:04:04.09,ngnl-main,J,0000,0000,0000,,Even the Old Deus would find \Nit extremely difficult.
+Dialogue: 0,0:04:04.45,0:04:07.02,ngnl-main,S,0000,0000,0000,,I don't really get it, but I can prove it.
+Dialogue: 0,0:04:07.02,0:04:08.99,ngnl-main,S,0000,0000,0000,,Look at this.\NNot sure if you can read it...
+Dialogue: 0,0:04:08.99,0:04:10.62,ngnl-main,J,0000,0000,0000,,What are you saying?
+Dialogue: 0,0:04:10.62,0:04:14.33,ngnl-main,J,0000,0000,0000,,I can speak every one of \Nthe over 700 languages—
+Dialogue: 0,0:04:15.79,0:04:19.26,ngnl-main,J,0000,0000,0000,,A language... A language I don't know?
+Dialogue: 0,0:04:19.26,0:04:21.87,ngnl-main,J,0000,0000,0000,,An encyclopedia from a world I don't know?
+Dialogue: 0,0:04:21.87,0:04:24.28,ngnl-main,J,0000,0000,0000,,All that knowledge inside this little board?
+Dialogue: 0,0:04:24.28,0:04:25.95,ngnl-main,J,0000,0000,0000,,40,000 books of it!
+Dialogue: 0,0:04:27.72,0:04:29.88,ngnl-main,S,0000,0000,0000,,H-Hey! You're drooling! You're drooling!
+Dialogue: 0,0:04:30.18,0:04:32.53,ngnl-main,J,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:04:32.53,0:04:33.46,ngnl-main,J,0000,0000,0000,,I see.
+Dialogue: 0,0:04:33.46,0:04:36.66,ngnl-main,J,0000,0000,0000,,I am indeed interested in this thin board,
+Dialogue: 0,0:04:36.66,0:04:41.29,ngnl-main,J,0000,0000,0000,,but it is a fact that I still can't \Ntrust that you're from another world.
+Dialogue: 0,0:04:41.29,0:04:43.03,ngnl-main,S,0000,0000,0000,,So what do we do?
+Dialogue: 0,0:04:43.33,0:04:45.53,ngnl-main,J,0000,0000,0000,,Let me check your bodies.
+Dialogue: 0,0:04:45.53,0:04:47.20,ngnl-main,S,0000,0000,0000,,Check our bodies?
+Dialogue: 0,0:04:47.20,0:04:48.70,ngnl-main,S,0000,0000,0000,,Why would you do that?
+Dialogue: 0,0:04:48.70,0:04:50.75,ngnl-main,S,0000,0000,0000,,What are you checking, anyway?
+Dialogue: 0,0:04:50.75,0:04:52.10,ngnl-main,J,0000,0000,0000,,Your erogenous zones.
+Dialogue: 0,0:04:52.58,0:04:53.99,ngnl-main,S,0000,0000,0000,,Do it as long as you like.
+Dialogue: 0,0:04:53.99,0:04:55.45,ngnl-main,S,0000,0000,0000,,And then keep doing it!
+Dialogue: 0,0:04:55.45,0:04:56.84,ngnl-main,T,0000,0000,0000,,You changed your tone too fast...
+Dialogue: 0,0:04:56.84,0:04:58.60,ngnl-main,Sh,0000,0000,0000,,Brother... 18-and-up only...
+Dialogue: 0,0:04:59.92,0:05:01.11,ngnl-main,S,0000,0000,0000,,That's right!
+Dialogue: 0,0:05:01.11,0:05:03.31,ngnl-main,S,0000,0000,0000,,Then just don't take off the pants.
+Dialogue: 0,0:05:03.31,0:05:05.58,ngnl-main,S,0000,0000,0000,,And since I'm letting you \Ntouch my erogenous zones,
+Dialogue: 0,0:05:05.58,0:05:08.42,ngnl-main,S,0000,0000,0000,,let me touch yours!
+Dialogue: 0,0:05:08.42,0:05:10.15,ngnl-main,T,0000,0000,0000,,What are you saying? There's no way—
+Dialogue: 0,0:05:10.53,0:05:12.29,ngnl-main,J,0000,0000,0000,,Sure. That's perfectly fine.
+Dialogue: 0,0:05:12.29,0:05:14.06,ngnl-main,T,0000,0000,0000,,What?! It is?!
+Dialogue: 0,0:05:18.18,0:05:18.90,ngnl-main,S,0000,0000,0000,,Hey...
+Dialogue: 0,0:05:19.27,0:05:20.26,ngnl-main,J,0000,0000,0000,,Yes?
+Dialogue: 0,0:05:20.26,0:05:23.90,ngnl-main,J,0000,0000,0000,,Do you not enjoy the way \Nit feels to the touch?
+Dialogue: 0,0:05:24.26,0:05:27.05,ngnl-main,S,0000,0000,0000,,No, it feels wonderful.
+Dialogue: 0,0:05:27.56,0:05:29.00,ngnl-main,S,0000,0000,0000,,Surprisingly so.
+Dialogue: 0,0:05:29.00,0:05:29.88,ngnl-main,S,0000,0000,0000,,But...
+Dialogue: 0,0:05:29.88,0:05:33.00,ngnl-main,S,0000,0000,0000,,What is this? I just feel a little... betrayed.
+Dialogue: 0,0:05:33.00,0:05:34.18,ngnl-main,,0000,0000,0000,,Anticlimactic.
+Dialogue: 0,0:05:34.85,0:05:37.45,ngnl-main,J,0000,0000,0000,,Is this not one of your erogenous zones?
+Dialogue: 0,0:05:38.01,0:05:43.17,ngnl-main,S,0000,0000,0000,,I'll just say that admitting \Nso would hurt my manly pride.
+Dialogue: 0,0:05:43.98,0:05:48.26,ngnl-main,S,0000,0000,0000,,And I'll add that I was hoping \Nyou'd touch me somewhere else.
+Dialogue: 0,0:05:48.57,0:05:50.63,ngnl-main,J,0000,0000,0000,,But...
+Dialogue: 0,0:05:50.63,0:05:56.43,ngnl-main,J,0000,0000,0000,,All of our power comes from what \Nare called our Spirit Circuits.
+Dialogue: 0,0:05:56.69,0:05:59.37,ngnl-main,J,0000,0000,0000,,Our wings, where those collect,
+Dialogue: 0,0:05:59.37,0:06:01.87,ngnl-main,J,0000,0000,0000,,are a very erogenous...
+Dialogue: 0,0:06:02.63,0:06:05.63,hgame,J,0000,0000,0000,,Master of Touch-Type H-Games
+Dialogue: 0,0:06:03.20,0:06:05.64,ngnl-main,J,0000,0000,0000,,When you touch them so precisely like that...
+Dialogue: 0,0:06:03.20,0:06:05.64,ngnl-overlap,J,0000,0000,0000,,You like that? Right here?
+Dialogue: 0,0:06:08.77,0:06:10.65,ngnl-main,T,0000,0000,0000,,What are you doing?!
+Dialogue: 0,0:06:10.89,0:06:13.48,ngnl-main,S,0000,0000,0000,,Sister, I'm just touching her wings.
+Dialogue: 0,0:06:13.48,0:06:14.24,ngnl-main,S,0000,0000,0000,,Right?
+Dialogue: 0,0:06:14.24,0:06:15.89,ngnl-main,Sh,0000,0000,0000,,Right. It's super-healthy.
+Dialogue: 0,0:06:16.38,0:06:20.39,ngnl-main,T,0000,0000,0000,,What are these two doing? \NShe's a god-killing weapon!
+Dialogue: 0,0:06:25.95,0:06:30.85,ngnl-main,J,0000,0000,0000,,My investigation reveals no spirits \Nwhatsoever in your bodies.
+Dialogue: 0,0:06:30.85,0:06:35.68,ngnl-main,J,0000,0000,0000,,In other words, you two aren't even \Nstrictly defined as "life" in this world,
+Dialogue: 0,0:06:35.68,0:06:38.31,ngnl-main,J,0000,0000,0000,,but you have the appearance of Imanity.
+Dialogue: 0,0:06:38.31,0:06:39.94,ngnl-main,S,0000,0000,0000,,So that makes us...
+Dialogue: 0,0:06:39.94,0:06:40.68,ngnl-main,Sh,0000,0000,0000,,What?
+Dialogue: 0,0:06:42.06,0:06:43.92,ngnl-main,J,0000,0000,0000,,Unknown!
+Dialogue: 0,0:06:42.06,0:06:43.92,unk,J,0000,0000,0000,,Unknown
+Dialogue: 0,0:06:45.26,0:06:47.18,ngnl-main,J,0000,0000,0000,,You are the unknown!
+Dialogue: 0,0:06:47.18,0:06:50.41,ngnl-main,J,0000,0000,0000,,That's the source from which \Nnew knowledge is born!
+Dialogue: 0,0:06:50.41,0:06:53.48,ngnl-main,J,0000,0000,0000,,There is nothing in this world \Nas wonderful as the unknown!
+Dialogue: 0,0:06:54.01,0:06:58.75,ngnl-main,S,0000,0000,0000,,Well, I guess I can assume we've \Nproven we're not from this world?
+Dialogue: 0,0:06:58.75,0:07:00.27,ngnl-main,J,0000,0000,0000,,That's right.
+Dialogue: 0,0:07:00.27,0:07:05.57,ngnl-main,J,0000,0000,0000,,Please forgive me for assuming \Nthat you were mere Imanity.
+Dialogue: 0,0:07:02.42,0:07:05.56,mere,J,0000,0000,0000,,Mere Imanity
+Dialogue: 0,0:07:06.15,0:07:08.47,ngnl-main,J,0000,0000,0000,,Of course, I'll accept the game.
+Dialogue: 0,0:07:08.47,0:07:10.59,ngnl-main,J,0000,0000,0000,,But I don't really have much that's
+Dialogue: 0,0:07:10.59,0:07:12.84,ngnl-main,,0000,0000,0000,,worth 40,000 books from another world.
+Dialogue: 0,0:07:12.84,0:07:14.11,ngnl-main,S,0000,0000,0000,,I told you, I want the library—
+Dialogue: 0,0:07:14.11,0:07:16.95,ngnl-main,J,0000,0000,0000,,How about I bet "everything I have"?
+Dialogue: 0,0:07:17.75,0:07:18.45,ngnl-main,S,0000,0000,0000,,Seriously?
+Dialogue: 0,0:07:19.01,0:07:20.28,ngnl-main,S,0000,0000,0000,,Lucky me...
+Dialogue: 0,0:07:20.28,0:07:21.66,ngnl-main,J,0000,0000,0000,,Will that be all right?
+Dialogue: 0,0:07:21.66,0:07:26.02,ngnl-main,S,0000,0000,0000,,Yes, we want full rights to you, personally.
+Dialogue: 0,0:07:26.02,0:07:27.74,ngnl-main,J,0000,0000,0000,,Thank you!
+Dialogue: 0,0:07:27.74,0:07:33.56,ngnl-main,J,0000,0000,0000,,Oh, can I add in that you have to \Ncome by for tea once in a while?
+Dialogue: 0,0:07:33.56,0:07:36.43,ngnl-main,J,0000,0000,0000,,I want to know more about you two.
+Dialogue: 0,0:07:38.13,0:07:41.32,ngnl-main,S,0000,0000,0000,,You're talking like you've already won.
+Dialogue: 0,0:07:41.32,0:07:44.95,ngnl-main,S,0000,0000,0000,,Then if we win, we can add an \Nextra demand of our own, yes?
+Dialogue: 0,0:07:44.95,0:07:45.87,ngnl-main,J,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:45.87,0:07:47.56,ngnl-main,J,0000,0000,0000,,You won't win, of course,
+Dialogue: 0,0:07:47.56,0:07:49.44,ngnl-main,,0000,0000,0000,,but if you do, then whatever you want is yours.
+Dialogue: 0,0:07:57.53,0:07:59.70,ngnl-main,J,0000,0000,0000,,The game will be shiritori.
+Dialogue: 0,0:08:00.24,0:08:02.99,ngnl-main,J,0000,0000,0000,,But not normal shiritori.
+Dialogue: 0,0:08:02.99,0:08:04.50,ngnl-main,J,0000,0000,0000,,We'll play Materialization Shiritori.
+Dialogue: 0,0:08:05.28,0:08:06.76,ngnl-main,S,0000,0000,0000,,Materialization Shiritori?
+Dialogue: 0,0:08:07.12,0:08:07.85,ngnl-main,J,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:07.85,0:08:09.60,ngnl-main,J,0000,0000,0000,,The rules are simple.
+Dialogue: 0,0:08:09.60,0:08:11.76,ngnl-main,J,0000,0000,0000,,Just like normal shiritori,
+Dialogue: 0,0:08:11.59,0:08:13.42,shiri-rule,J,0000,0000,0000,,{\fad(150,1)}Use a word that's \Nalready been used
+Dialogue: 0,0:08:11.76,0:08:13.77,ngnl-main,J,0000,0000,0000,,If you use a word that's already been used,
+Dialogue: 0,0:08:13.42,0:08:15.59,shiri-rule,J,0000,0000,0000,,Use a word that's \Nalready been used\N\NFail to answer\N for 30 seconds\N\N
+Dialogue: 0,0:08:13.77,0:08:18.28,ngnl-main,,0000,0000,0000,,fail to answer for 30 seconds, \Nor cannot continue, you lose.
+Dialogue: 0,0:08:15.59,0:08:18.26,shiri-rule,J,0000,0000,0000,,Use a word that's\Nalready been used\N\NFail to answer\Nfor 30 seconds\N\NCannot continue
+Dialogue: 0,0:08:18.50,0:08:20.51,ngnl-main,S,0000,0000,0000,,Can words be in any language?
+Dialogue: 0,0:08:20.51,0:08:21.22,ngnl-main,J,0000,0000,0000,,Yes,
+Dialogue: 0,0:08:21.22,0:08:26.28,ngnl-main,J,0000,0000,0000,,but fictional things that don't \Nactually exist won't count.
+Dialogue: 0,0:08:21.53,0:08:25.77,shiri,J,0000,0000,0000,,{\fad(250,1)}Flight\NStone
+Dialogue: 0,0:08:26.10,0:08:28.84,games,J,0000,0000,0000,,{\fad(400,400)}Materialization Shiritori
+Dialogue: 0,0:08:26.28,0:08:29.32,ngnl-main,J,0000,0000,0000,,And remember, we're playing \NMaterialization Shiritori.
+Dialogue: 0,0:08:29.67,0:08:31.77,word,J,0000,0000,0000,,{\fad(100,100)}Tallo{\c&H3528AB&}w
+Dialogue: 0,0:08:29.80,0:08:32.19,ngnl-main-top,J,0000,0000,0000,,If you say something that's \Nhere, it will disappear.
+Dialogue: 0,0:08:31.77,0:08:35.78,word,J,0000,0000,0000,,{\fad(100,1)\c&H3528AB&}W{\c&HC7A297&}hale
+Dialogue: 0,0:08:32.19,0:08:34.01,ngnl-main-top,,0000,0000,0000,,If it's not here, it will appear.
+Dialogue: 0,0:08:34.01,0:08:38.13,ngnl-main-top,J,0000,0000,0000,,I'm sure you know what this means.
+Dialogue: 0,0:08:39.12,0:08:40.92,ngnl-main,J,0000,0000,0000,,Of course, once the game's over,
+Dialogue: 0,0:08:40.92,0:08:42.70,ngnl-main,,0000,0000,0000,,everything that's happened will be undone,
+Dialogue: 0,0:08:42.70,0:08:45.54,ngnl-main,J,0000,0000,0000,,so don't hesitate to show off your knowledge.
+Dialogue: 0,0:08:45.54,0:08:46.85,ngnl-main,S,0000,0000,0000,,Got it.
+Dialogue: 0,0:08:46.85,0:08:48.83,ngnl-main,S,0000,0000,0000,,Okay, Shiro. Come over here.
+Dialogue: 0,0:08:48.83,0:08:51.16,ngnl-main,S,0000,0000,0000,,We'll do this together, like we always do.
+Dialogue: 0,0:08:51.16,0:08:52.28,ngnl-main,J,0000,0000,0000,,That's fine.
+Dialogue: 0,0:08:52.66,0:08:57.08,ngnl-main,J,0000,0000,0000,,You're powerless humans, so enjoy \Nyourselves and try not to die.
+Dialogue: 0,0:08:57.08,0:08:58.49,ngnl-main,,0000,0000,0000,,What? W-Wait...
+Dialogue: 0,0:08:58.73,0:09:00.08,ngnl-main,T,0000,0000,0000,,Die?
+Dialogue: 0,0:09:00.08,0:09:02.85,ngnl-main,J,0000,0000,0000,,You can't directly cause a player to die,
+Dialogue: 0,0:09:02.85,0:09:05.82,ngnl-main,,0000,0000,0000,,that is, to be unable to continue.
+Dialogue: 0,0:09:06.20,0:09:09.13,ngnl-main,T,0000,0000,0000,,Then I don't need to be here, do I?
+Dialogue: 0,0:09:09.13,0:09:10.57,ngnl-main,J,0000,0000,0000,,That's only dangerous for—
+Dialogue: 0,0:09:09.42,0:09:10.57,ngnl-overlap,J,0000,0000,0000,,Now, then...
+Dialogue: 0,0:09:12.77,0:09:15.82,ngnl-main,S,0000,0000,0000,,Yes, let's begin the game.
+Dialogue: 0,0:09:15.82,0:09:17.04,ngnl-main,Sh,0000,0000,0000,,Come and get us.
+Dialogue: 0,0:09:17.28,0:09:19.57,ngnl-main,T,0000,0000,0000,,Listen to me!
+Dialogue: 0,0:09:18.35,0:09:19.57,ngnl-overlap,Sh,0000,0000,0000,,Steph, sit!
+Dialogue: 0,0:09:19.55,0:09:21.89,dog,Sh,0000,0000,0000,,Pet Dog for a Day
+Dialogue: 0,0:09:21.20,0:09:22.69,ngnl-main,T,0000,0000,0000,,Now I can't run away!
+Dialogue: 0,0:09:22.69,0:09:24.48,ngnl-main,T,0000,0000,0000,,I've had it with this!
+Dialogue: 0,0:09:24.48,0:09:26.18,ngnl-main,J,0000,0000,0000,,You may have the first move.
+Dialogue: 0,0:09:26.63,0:09:28.55,ngnl-main,J,0000,0000,0000,,Pick any word you like.
+Dialogue: 0,0:09:28.89,0:09:31.16,ngnl-main,S,0000,0000,0000,,Let me see...
+Dialogue: 0,0:09:31.16,0:09:32.32,ngnl-main,S,0000,0000,0000,,Okay, I'll start with...
+Dialogue: 0,0:09:32.69,0:09:33.55,ngnl-main,S,0000,0000,0000,,Hydrogen Bomb.
+Dialogue: 0,0:09:32.90,0:09:34.30,shiri-pink,S,0000,0000,0000,,Hydrogen Bomb
+Dialogue: 0,0:09:38.38,0:09:39.22,ngnl-internal,J,0000,0000,0000,,What's this?
+Dialogue: 0,0:09:43.08,0:09:44.39,ngnl-main,J,0000,0000,0000,,Bkulians!
+Dialogue: 0,0:09:57.98,0:09:59.78,ngnl-main,J,0000,0000,0000,,Self-destructing on the first move?
+Dialogue: 0,0:10:00.93,0:10:03.93,shiri-pink,J,0000,0000,0000,,Hydrogen Bom{\c&H89F2FF&}b
+Dialogue: 0,0:10:01.08,0:10:05.59,ngnl-main-top,J,0000,0000,0000,,That was Bkulians, a highest-level sealing spell.
+Dialogue: 0,0:10:03.93,0:10:08.20,shiri-pink,J,0000,0000,0000,,(Eternal Fourth Protection) {\c&H89F2FF&}B{\c&HFFFFFF&}kulians
+Dialogue: 0,0:10:05.94,0:10:08.82,ngnl-main-top,J,0000,0000,0000,,If I hadn't been nice enough to protect you,
+Dialogue: 0,0:10:08.82,0:10:11.09,ngnl-main-top,J,0000,0000,0000,,the game would've ended here.
+Dialogue: 0,0:10:11.49,0:10:13.22,ngnl-main,S,0000,0000,0000,,Nice enough? Gimme a break.
+Dialogue: 0,0:10:13.42,0:10:14.64,ngnl-flashback,J,0000,0000,0000,,{\an8}Bkulians!
+Dialogue: 0,0:10:13.98,0:10:18.92,ngnl-main,S,0000,0000,0000,,I just took a gamble on the obvious fact \Nthat you'd think ending the game
+Dialogue: 0,0:10:18.92,0:10:21.45,ngnl-main,,0000,0000,0000,,in a single move would be terribly boring.
+Dialogue: 0,0:10:21.82,0:10:23.06,ngnl-main,J,0000,0000,0000,,I see.
+Dialogue: 0,0:10:23.06,0:10:25.13,ngnl-main,S,0000,0000,0000,,Still, I had predicted as much,
+Dialogue: 0,0:10:25.13,0:10:28.55,ngnl-main,S,0000,0000,0000,,but it doesn't look like we'll be able to \Nstop you from continuing the game.
+Dialogue: 0,0:10:28.55,0:10:30.82,ngnl-main,J,0000,0000,0000,,I'm glad you understand.
+Dialogue: 0,0:10:30.82,0:10:33.88,ngnl-main,J,0000,0000,0000,,Try not to bore me, please.
+Dialogue: 0,0:10:33.88,0:10:37.25,ngnl-main-top,S,0000,0000,0000,,Don't worry. I won't bore you.
+Dialogue: 0,0:10:35.13,0:10:37.53,shiri-pink,sign,0000,0000,0000,,(Eternal Fourth Protection) Bkulian{\c&H89F2FF&}s
+Dialogue: 0,0:10:37.25,0:10:38.89,ngnl-main-top,S,0000,0000,0000,,Spirit Circuits.
+Dialogue: 0,0:10:37.53,0:10:39.61,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}S{\c&HFFFFFF&}pirit Circuits
+Dialogue: 0,0:10:44.50,0:10:47.15,ngnl-main,J,0000,0000,0000,,Well, you certainly wasted no time.
+Dialogue: 0,0:10:47.15,0:10:49.40,ngnl-main,S,0000,0000,0000,,It's a word I just learned.
+Dialogue: 0,0:10:49.40,0:10:50.33,ngnl-main,S,0000,0000,0000,,What? Is that a problem?
+Dialogue: 0,0:10:50.75,0:10:55.97,ngnl-main,J,0000,0000,0000,,No, it limits my physical abilities \Na bit and prevents me from flying,
+Dialogue: 0,0:10:55.97,0:10:59.39,ngnl-main,J,0000,0000,0000,,but I still have spirits in my body, \Nso there's no problem.
+Dialogue: 0,0:10:59.39,0:11:02.99,ngnl-main,J,0000,0000,0000,,If anything, it just makes me a little uneasy...
+Dialogue: 0,0:11:02.99,0:11:05.64,ngnl-main,S,0000,0000,0000,,Oh, like when your cell \Nphone can't get reception.
+Dialogue: 0,0:11:05.64,0:11:07.68,ngnl-main,J,0000,0000,0000,,Cell phone? Reception?
+Dialogue: 0,0:11:07.68,0:11:09.63,ngnl-main,J,0000,0000,0000,,Do they have something to \Ndo with that thin board?
+Dialogue: 0,0:11:09.63,0:11:11.49,ngnl-main,S,0000,0000,0000,,Close! Close! Close! Your face is too close!
+Dialogue: 0,0:11:11.49,0:11:12.95,ngnl-main,S,0000,0000,0000,,If you beat me, I'll tell you!
+Dialogue: 0,0:11:12.95,0:11:14.47,ngnl-main,Sh,0000,0000,0000,,Brother, I think she's...
+Dialogue: 0,0:11:14.47,0:11:18.31,ngnl-main,S,0000,0000,0000,,Yeah, this is getting even more fun.
+Dialogue: 0,0:11:18.31,0:11:19.76,ngnl-main,S,0000,0000,0000,,Hey, Jibril. Your move.
+Dialogue: 0,0:11:19.77,0:11:23.57,shiri-pink,sign,0000,0000,0000,,{\fad(180,1)}Spirit Circuit{\c&H89F2FF&}s
+Dialogue: 0,0:11:20.76,0:11:22.35,ngnl-main-top,J,0000,0000,0000,,Th-That's right.
+Dialogue: 0,0:11:22.35,0:11:24.47,ngnl-main-top,J,0000,0000,0000,,I'll do an easy one. Stallion.
+Dialogue: 0,0:11:23.57,0:11:25.74,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}S{\c&HFFFFFF&}tallion
+Dialogue: 0,0:11:25.74,0:11:26.58,shiri-pink,sign,0000,0000,0000,,Stallio{\c&H89F2FF&}n
+Dialogue: 0,0:11:26.02,0:11:27.50,ngnl-main-top,S,0000,0000,0000,,Okay. Nether Regions.
+Dialogue: 0,0:11:26.58,0:11:28.11,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}N{\c&HFFFFFF&}ether * Regions
+Dialogue: 0,0:11:29.20,0:11:30.05,ngnl-main-top,S,0000,0000,0000,,Well?
+Dialogue: 0,0:11:35.87,0:11:37.52,ngnl-main,,0000,0000,0000,,Wh-Wh-Wh—
+Dialogue: 0,0:11:37.52,0:11:40.39,ngnl-main,T,0000,0000,0000,,What the hell are you thinking?!
+Dialogue: 0,0:11:44.22,0:11:47.02,ngnl-main,J,0000,0000,0000,,I'm getting a little tired of all this dust.
+Dialogue: 0,0:11:47.41,0:11:49.05,ngnl-main,J,0000,0000,0000,,Let's have some fun.
+Dialogue: 0,0:11:49.03,0:11:54.77,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}B{\c&HFFFFFF&}each
+Dialogue: 0,0:11:49.05,0:11:50.29,ngnl-main-top,J,0000,0000,0000,,Beach.
+Dialogue: 0,0:11:52.78,0:11:55.55,ngnl-main-top,S,0000,0000,0000,,It's very pretty, yes, but it's rough on \Nsomeone who never leaves home!
+Dialogue: 0,0:11:54.77,0:11:55.77,shiri-pink,sign,0000,0000,0000,,Beac{\c&H89F2FF&}h
+Dialogue: 0,0:11:55.55,0:11:56.36,ngnl-main-top,S,0000,0000,0000,,Okay, Hooter-nub!
+Dialogue: 0,0:11:55.77,0:11:59.04,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}H{\c&HFFFFFF&}ooter-nub
+Dialogue: 0,0:11:58.84,0:12:00.57,ngnl-main-top,J,0000,0000,0000,,I'll play along, then.
+Dialogue: 0,0:11:59.04,0:12:00.54,shiri-pink,sign,0000,0000,0000,,Hooter-nu{\c&H89F2FF&}b
+Dialogue: 0,0:12:00.54,0:12:13.72,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}B{\c&HFFFFFF&}ikinis
+Dialogue: 0,0:12:00.94,0:12:02.07,ngnl-main-top,J,0000,0000,0000,,Bikinis.
+Dialogue: 0,0:12:02.36,0:12:05.07,ngnl-main-top,S,0000,0000,0000,,Jibril, you don't understand at all!
+Dialogue: 0,0:12:05.07,0:12:07.74,ngnl-main-top,S,0000,0000,0000,,If you want bikinis, you need \Nto get rid of the clothes first!
+Dialogue: 0,0:12:07.96,0:12:09.17,ngnl-main-top,J,0000,0000,0000,,I see!
+Dialogue: 0,0:12:09.17,0:12:11.74,ngnl-main-top,J,0000,0000,0000,,I'm sorry, I couldn't understand \Nwhat you were getting at.
+Dialogue: 0,0:12:12.12,0:12:15.98,ngnl-main-top,T,0000,0000,0000,,Would you two at least try to take this seriously?
+Dialogue: 0,0:12:13.72,0:12:15.96,shiri-pink,sign,0000,0000,0000,,Bikini{\c&H89F2FF&}s
+Dialogue: 0,0:12:14.08,0:12:15.98,ngnl-overlap,S,0000,0000,0000,,{\an8}Whatever. Sea bag.
+Dialogue: 0,0:12:15.96,0:12:18.36,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}S{\c&HFFFFFF&}ea bag
+Dialogue: 0,0:12:17.51,0:12:19.21,ngnl-main-top,J,0000,0000,0000,,Let me see, then...
+Dialogue: 0,0:12:18.36,0:12:19.13,shiri-pink,sign,0000,0000,0000,,Sea ba{\c&H89F2FF&}g
+Dialogue: 0,0:12:19.13,0:12:20.73,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}G{\c&HFFFFFF&}ale
+Dialogue: 0,0:12:19.21,0:12:20.75,ngnl-main-top,J,0000,0000,0000,,How about "gale"?
+Dialogue: 0,0:12:22.85,0:12:25.39,ngnl-main,S,0000,0000,0000,,Hey, what are you doing?!
+Dialogue: 0,0:12:23.72,0:12:25.39,ngnl-overlap,S,0000,0000,0000,,It all worked out in the end, Jibril!
+Dialogue: 0,0:12:25.81,0:12:28.91,ngnl-main,S,0000,0000,0000,,Steph's not wearing panties, so without \Nthe bikini, this would be 18-and-up only!
+Dialogue: 0,0:12:28.91,0:12:32.90,ngnl-main,S,0000,0000,0000,,But a glimpse of a bikini beneath \Na skirt is pretty good, too!
+Dialogue: 0,0:12:33.13,0:12:34.90,ngnl-main,J,0000,0000,0000,,I'm glad to hear it!
+Dialogue: 0,0:12:35.08,0:12:37.38,ngnl-main-top,S,0000,0000,0000,,And now, it'll be complete!
+Dialogue: 0,0:12:35.74,0:12:37.38,shiri-pink,sign,0000,0000,0000,,{\fad(200,1)}Gal{\c&H89F2FF&}e
+Dialogue: 0,0:12:37.38,0:12:39.10,ngnl-main-top,S,0000,0000,0000,,Every girl's clothes!
+Dialogue: 0,0:12:37.38,0:12:42.38,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}E{\c&HFFFFFF&}very Girl's Clothes
+Dialogue: 0,0:12:43.50,0:12:45.75,ngnl-main,,0000,0000,0000,,No!
+Dialogue: 0,0:12:46.54,0:12:48.10,ngnl-main,S,0000,0000,0000,,How do you like that, sister?
+Dialogue: 0,0:12:48.10,0:12:49.25,ngnl-main,S,0000,0000,0000,,No private parts at all!
+Dialogue: 0,0:12:49.25,0:12:52.55,ngnl-main,S,0000,0000,0000,,And we've still got the shoes, \Nknee socks, and collar!
+Dialogue: 0,0:12:52.55,0:12:54.59,ngnl-main,S,0000,0000,0000,,In other words, it's even more \Nexcellent than pure nudity!
+Dialogue: 0,0:12:54.59,0:12:57.63,ngnl-main,S,0000,0000,0000,,Clearly suitable for all-ages!
+Dialogue: 0,0:12:57.63,0:12:58.54,ngnl-main,S,0000,0000,0000,,Very healthy!
+Dialogue: 0,0:12:58.54,0:13:00.46,ngnl-main,S,0000,0000,0000,,Moderately sexy, but not dirty at all!
+Dialogue: 0,0:13:00.46,0:13:02.07,ngnl-main,,0000,0000,0000,,We should call this...
+Dialogue: 0,0:13:02.33,0:13:05.38,ngnl-main,S,0000,0000,0000,,The "Super Healthy Space!"
+Dialogue: 0,0:13:05.38,0:13:07.02,ngnl-main,Sh,0000,0000,0000,,Brother, Omega Good Job!
+Dialogue: 0,0:13:07.02,0:13:11.10,ngnl-main,T,0000,0000,0000,,What are you trying to do here?!
+Dialogue: 0,0:13:17.91,0:13:21.41,ngnl-main,S,0000,0000,0000,,Hey, Jibril, do you get hungry?
+Dialogue: 0,0:13:21.41,0:13:22.28,ngnl-main-top,S,0000,0000,0000,,Mantle.
+Dialogue: 0,0:13:21.42,0:13:27.12,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}M{\c&HFFFFFF&}antle
+Dialogue: 0,0:13:23.01,0:13:24.23,ngnl-main-top,J,0000,0000,0000,,Don't worry about me.
+Dialogue: 0,0:13:24.23,0:13:28.36,ngnl-main-top,J,0000,0000,0000,,Unlike you powerless Imanity, \Nwe don't need to eat.
+Dialogue: 0,0:13:27.12,0:13:28.19,shiri-pink,sign,0000,0000,0000,,Mantl{\c&H89F2FF&}e
+Dialogue: 0,0:13:28.19,0:13:33.26,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}E{\c&HFFFFFF&}ccentric moth comic
+Dialogue: 0,0:13:28.36,0:13:29.31,ngnl-main-top,J,0000,0000,0000,,Eccentric moth comic.
+Dialogue: 0,0:13:29.31,0:13:30.52,ngnl-main-top,Moth,0000,0000,0000,,Let's be together!
+Dialogue: 0,0:13:30.70,0:13:31.82,ngnl-main-top,S,0000,0000,0000,,I see.
+Dialogue: 0,0:13:31.82,0:13:33.29,ngnl-main-top,S,0000,0000,0000,,But you get tired, right?
+Dialogue: 0,0:13:33.26,0:13:36.27,shiri-pink,sign,0000,0000,0000,,Eccentric moth comi{\c&H89F2FF&}c
+Dialogue: 0,0:13:33.61,0:13:36.32,ngnl-main-top,S,0000,0000,0000,,The sun'll come up soon. \NThink you could just surrender?
+Dialogue: 0,0:13:36.27,0:13:42.77,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}C{\c&HFFFFFF&}rust
+Dialogue: 0,0:13:36.32,0:13:37.47,ngnl-main-top,S,0000,0000,0000,,Crust.
+Dialogue: 0,0:13:39.22,0:13:42.80,ngnl-main-top,J,0000,0000,0000,,If you're tired, feel free to lose deliberately.
+Dialogue: 0,0:13:42.77,0:13:46.54,shiri-pink,sign,0000,0000,0000,,Crus{\c&H89F2FF&}t
+Dialogue: 0,0:13:42.80,0:13:46.44,ngnl-main-top,J,0000,0000,0000,,I've had more fun than I expected \Nto get from a weak Imanity.
+Dialogue: 0,0:13:46.44,0:13:47.31,ngnl-main-top,J,0000,0000,0000,,Timepiece.
+Dialogue: 0,0:13:46.54,0:13:48.51,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}T{\c&HFFFFFF&}imepiece
+Dialogue: 0,0:13:48.51,0:13:52.95,shiri-pink,sign,0000,0000,0000,,Timepiec{\c&H89F2FF&}e
+Dialogue: 0,0:13:48.79,0:13:52.54,ngnl-main-top,S,0000,0000,0000,,You keep saying "weak" and "mere," \Nand it's getting on my nerves.
+Dialogue: 0,0:13:52.80,0:13:54.08,ngnl-main-top,S,0000,0000,0000,,Evil creature.
+Dialogue: 0,0:13:52.95,0:13:56.29,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}E{\c&HFFFFFF&}vil Creature
+Dialogue: 0,0:13:54.42,0:13:57.10,ngnl-main-top,S,0000,0000,0000,,Well, to a mighty rank 6 like you,
+Dialogue: 0,0:13:57.10,0:14:00.55,ngnl-main-top,,0000,0000,0000,,I'm sure we at the bottom must look like ants.
+Dialogue: 0,0:13:59.47,0:14:00.55,ngnl-main,T,0000,0000,0000,,I'm saved...
+Dialogue: 0,0:14:00.85,0:14:03.82,ngnl-main,S,0000,0000,0000,,But who decided that ants \Nare weak and powerless?
+Dialogue: 0,0:14:03.82,0:14:05.70,ngnl-main,J,0000,0000,0000,,I apologize.
+Dialogue: 0,0:14:05.70,0:14:07.57,ngnl-main,J,0000,0000,0000,,I hadn't considered that you
+Dialogue: 0,0:14:07.57,0:14:10.83,ngnl-main,,0000,0000,0000,,Imanity would consider \Nyourselves anything but weak.
+Dialogue: 0,0:14:11.07,0:14:14.07,ngnl-main,S,0000,0000,0000,,If you think long life and \Ntoughness gives you power,
+Dialogue: 0,0:14:14.07,0:14:16.07,ngnl-main,S,0000,0000,0000,,you're the stupid one here.
+Dialogue: 0,0:14:17.52,0:14:19.94,ngnl-main,J,0000,0000,0000,,You're saying I'm inferior to the Imanity?
+Dialogue: 0,0:14:20.28,0:14:25.28,ngnl-main,J,0000,0000,0000,,My feelings towards you are best \Ndescribed as curiosity, not respect.
+Dialogue: 0,0:14:25.74,0:14:30.35,ngnl-main-top,J,0000,0000,0000,,Don't forget that I could end \Nthis game any time I like.
+Dialogue: 0,0:14:26.92,0:14:30.59,shiri-pink,sign,0000,0000,0000,,{\fad(200,1)}Evil Creatur{\c&H89F2FF&}e
+Dialogue: 0,0:14:30.35,0:14:31.42,ngnl-main-top,J,0000,0000,0000,,Eye fuel.
+Dialogue: 0,0:14:30.59,0:14:35.39,shiri-pink,J,0000,0000,0000,,{\c&H89F2FF&}E{\c&HFFFFFF&}ye Fuel
+Dialogue: 0,0:14:33.08,0:14:35.42,ngnl-main-top,S,0000,0000,0000,,And that's why you're weak.
+Dialogue: 0,0:14:35.72,0:14:38.12,ngnl-main,S,0000,0000,0000,,That's what makes you an empty-headed academic.
+Dialogue: 0,0:14:38.12,0:14:39.19,ngnl-main,J,0000,0000,0000,,Empty-headed academic?
+Dialogue: 0,0:14:39.47,0:14:43.08,ngnl-main,S,0000,0000,0000,,Yup. Empty-headed academic. It means you \Ndon't know how things work in the real world.
+Dialogue: 0,0:14:42.56,0:14:43.90,EC,sign,0000,0000,0000,,{\fad(400,1)}Empty-headed Academic
+Dialogue: 0,0:14:43.08,0:14:43.93,ngnl-main,S,0000,0000,0000,,Remember that.
+Dialogue: 0,0:14:44.19,0:14:46.73,ngnl-main,J,0000,0000,0000,,Obviously, I know what that phrase means.
+Dialogue: 0,0:14:46.73,0:14:48.96,ngnl-main,J,0000,0000,0000,,What makes you think I'm an \N"empty-headed academic"?
+Dialogue: 0,0:14:48.96,0:14:53.86,ngnl-main,S,0000,0000,0000,,Instead of respecting the \Nunknown, you're merely curious.
+Dialogue: 0,0:14:55.06,0:14:57.10,ngnl-main,S,0000,0000,0000,,It's time for a lesson.
+Dialogue: 0,0:14:57.10,0:14:58.44,ngnl-main,S,0000,0000,0000,,Now you'll learn
+Dialogue: 0,0:14:59.22,0:15:01.21,ngnl-main,,0000,0000,0000,,how weak you really are.
+Dialogue: 0,0:15:02.60,0:15:04.50,ngnl-main,S,0000,0000,0000,,Steph, thanks for the hard work.
+Dialogue: 0,0:15:04.50,0:15:06.55,ngnl-main,S,0000,0000,0000,,If you hadn't kept all the \Ndangerous things off us,
+Dialogue: 0,0:15:06.55,0:15:07.77,ngnl-main,S,0000,0000,0000,,we couldn't have won.
+Dialogue: 0,0:15:07.77,0:15:09.05,ngnl-main,J,0000,0000,0000,,You think you've won?
+Dialogue: 0,0:15:09.48,0:15:13.06,ngnl-main,S,0000,0000,0000,,So, Steph, this'll kill you a little, \Nbut tough it out, okay?
+Dialogue: 0,0:15:13.90,0:15:14.46,ngnl-main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:19.40,0:15:20.30,shiri-pink,sign,0000,0000,0000,,{\fad(200,1)}Eye fue{\c&H89F2FF&}l
+Dialogue: 0,0:15:20.30,0:15:24.24,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}L{\c&HFFFFFF&}ithosphere
+Dialogue: 0,0:15:20.69,0:15:22.21,ngnl-main-top,S,0000,0000,0000,,Lithosphere!
+Dialogue: 0,0:15:33.87,0:15:35.35,ngnl-main,S,0000,0000,0000,,Lithosphere.
+Dialogue: 0,0:15:35.82,0:15:37.48,ngnl-main,S,0000,0000,0000,,The surface of the planet.
+Dialogue: 0,0:15:38.20,0:15:41.26,ngnl-main,S,0000,0000,0000,,Because you didn't understand what it meant,
+Dialogue: 0,0:15:41.26,0:15:43.77,ngnl-main,,0000,0000,0000,,I was able to erase the mantle and crust
+Dialogue: 0,0:15:43.77,0:15:46.27,ngnl-main,S,0000,0000,0000,,that I had strategically named first.
+Dialogue: 0,0:15:46.80,0:15:48.79,ngnl-main,S,0000,0000,0000,,You fail to fear and respect the unknown.
+Dialogue: 0,0:15:49.29,0:15:52.34,ngnl-main,S,0000,0000,0000,,That's what makes you weak, Jibril!
+Dialogue: 0,0:15:53.02,0:15:54.03,ngnl-main,J,0000,0000,0000,,I see.
+Dialogue: 0,0:15:54.67,0:15:58.98,ngnl-main,J,0000,0000,0000,,That's why you got rid of the Spirit \NCircuits to cripple my wings.
+Dialogue: 0,0:15:59.88,0:16:02.01,ngnl-main,J,0000,0000,0000,,It has a core temperature of 6,000 degrees,
+Dialogue: 0,0:16:02.01,0:16:04.68,ngnl-main,,0000,0000,0000,,and a surface temperature \Nof 3,000 degrees, I suppose.
+Dialogue: 0,0:16:06.31,0:16:10.18,ngnl-main,J,0000,0000,0000,,I see you're still trying to kill me.
+Dialogue: 0,0:16:10.85,0:16:12.92,ngnl-main-top,J,0000,0000,0000,,I won't let morning come yet.
+Dialogue: 0,0:16:11.58,0:16:13.25,shiri-pink,J,0000,0000,0000,,{\fad(200,1)}Lithospher{\c&H89F2FF&}e
+Dialogue: 0,0:16:13.20,0:16:14.18,ngnl-main-top,J,0000,0000,0000,,Eos lumo.
+Dialogue: 0,0:16:13.25,0:16:14.69,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}E{\c&HFFFFFF&}os Lumo
+Dialogue: 0,0:16:14.69,0:16:16.32,shiri-pink,sign,0000,0000,0000,,Eos Lum{\c&H89F2FF&}o
+Dialogue: 0,0:16:16.29,0:16:17.12,ngnl-main-top,S,0000,0000,0000,,Oxygen.
+Dialogue: 0,0:16:16.38,0:16:23.33,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}O{\c&HFFFFFF&}xygen
+Dialogue: 0,0:16:19.83,0:16:21.36,ngnl-internal-top,J,0000,0000,0000,,You stopped me from breathing,
+Dialogue: 0,0:16:21.95,0:16:23.36,ngnl-internal-top,J,0000,0000,0000,,but it's useless.
+Dialogue: 0,0:16:23.33,0:16:26.63,shiri-pink,sign,0000,0000,0000,,Oxyge{\c&H89F2FF&}n
+Dialogue: 0,0:16:23.57,0:16:26.38,ngnl-internal-top,J,0000,0000,0000,,Still, I'll have a little more fun with you.
+Dialogue: 0,0:16:26.38,0:16:27.27,ngnl-main-top,J,0000,0000,0000,,Nodes.
+Dialogue: 0,0:16:26.63,0:16:27.83,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}N{\c&HFFFFFF&}odes
+Dialogue: 0,0:16:27.83,0:16:28.93,shiri-pink,sign,0000,0000,0000,,Node{\c&H89F2FF&}s
+Dialogue: 0,0:16:27.99,0:16:29.81,ngnl-main-top,S,0000,0000,0000,,Damn it... Sepia.
+Dialogue: 0,0:16:28.93,0:16:32.47,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}S{\c&HFFFFFF&}epia
+Dialogue: 0,0:16:30.41,0:16:32.38,ngnl-main-top,J,0000,0000,0000,,You're making this easier than I thought.
+Dialogue: 0,0:16:32.47,0:16:34.64,shiri-pink,sign,0000,0000,0000,,Sepi{\c&H89F2FF&}a
+Dialogue: 0,0:16:32.78,0:16:33.66,ngnl-main-top,J,0000,0000,0000,,Okay, then.
+Dialogue: 0,0:16:34.21,0:16:35.15,ngnl-main-top,J,0000,0000,0000,,Air.
+Dialogue: 0,0:16:34.64,0:16:37.04,shiri-pink,sign,0000,0000,0000,,{\fad(1,200)\c&H89F2FF&}A{\c&HFFFFFF&}ir
+Dialogue: 0,0:16:35.88,0:16:37.88,ngnl-internal-top,J,0000,0000,0000,,Once the air comes back, I can breathe...
+Dialogue: 0,0:16:39.55,0:16:40.18,ngnl-internal,J,0000,0000,0000,,Why?
+Dialogue: 0,0:16:40.49,0:16:42.22,ngnl-internal,S,0000,0000,0000,,I was right!
+Dialogue: 0,0:16:42.22,0:16:44.15,ngnl-internal,S,0000,0000,0000,,Jibril doesn't know atomic theory!
+Dialogue: 0,0:16:44.50,0:16:48.66,ngnl-internal,S,0000,0000,0000,,You thought if you couldn't breathe,\N all you had to do was bring back the air,
+Dialogue: 0,0:16:48.66,0:16:51.19,ngnl-internal,S,0000,0000,0000,,but all I got rid of was oxygen.
+Dialogue: 0,0:16:51.19,0:16:55.39,ngnl-internal,S,0000,0000,0000,,The rules say that what's there disappears \Nand what isn't there appears.
+Dialogue: 0,0:16:55.74,0:16:56.39,ngnl-flashback,J,0000,0000,0000,,Okay, then.
+Dialogue: 0,0:16:56.98,0:16:57.56,ngnl-flashback,J,0000,0000,0000,,Air.
+Dialogue: 0,0:16:57.56,0:17:00.16,ngnl-internal,S,0000,0000,0000,,The other gases disappeared \Nand oxygen came back.
+Dialogue: 0,0:17:00.16,0:17:02.27,ngnl-internal,S,0000,0000,0000,,In other words, all that's here is oxygen,
+Dialogue: 0,0:17:02.27,0:17:04.63,ngnl-internal,,0000,0000,0000,,a deadly poison at a far lower \Npressure than your own body
+Dialogue: 0,0:17:04.63,0:17:06.90,ngnl-internal,,0000,0000,0000,,that your body can't absorb on its own.
+Dialogue: 0,0:17:07.43,0:17:11.51,ngnl-internal,J,0000,0000,0000,,But it's no different for you.
+Dialogue: 0,0:17:13.33,0:17:14.43,ngnl-internal,J,0000,0000,0000,,What?
+Dialogue: 0,0:17:15.26,0:17:16.58,ngnl-internal,S,0000,0000,0000,,Circular breathing.
+Dialogue: 0,0:17:17.04,0:17:20.02,ngnl-internal,S,0000,0000,0000,,This is the big difference between you and us.
+Dialogue: 0,0:17:20.82,0:17:22.39,ngnl-main,S,0000,0000,0000,,Let's go, Shiro.
+Dialogue: 0,0:17:23.02,0:17:25.19,shiri-pink,sign,0000,0000,0000,,{\fad(200,1)}Ai{\c&H89F2FF&}r
+Dialogue: 0,0:17:25.19,0:17:27.22,shiri-pink,sign,0000,0000,0000,,{\c&H89F2FF&}R{\c&HFFFFFF&}eal Atmosphere
+Dialogue: 0,0:17:25.42,0:17:26.89,ngnl-main-top,S,0000,0000,0000,,Real atmosphere.
+Dialogue: 0,0:17:28.83,0:17:30.53,ngnl-internal,S,0000,0000,0000,,Atmosphere...
+Dialogue: 0,0:17:30.89,0:17:34.20,ngnl-internal,S,0000,0000,0000,,The zero-pressure environment created \Nby the disappearance of the
+Dialogue: 0,0:17:34.20,0:17:38.87,ngnl-internal,,0000,0000,0000,,atmosphere will cause the air \Ninside you to expand and burst.
+Dialogue: 0,0:17:39.37,0:17:43.43,ngnl-internal,S,0000,0000,0000,,You didn't know why we got rid of \Nall the air in our bodies, did you?
+Dialogue: 0,0:17:44.01,0:17:46.33,ngnl-internal,J,0000,0000,0000,,Still, it is useless...
+Dialogue: 0,0:17:48.47,0:17:49.25,ngnl-internal,J,0000,0000,0000,,My voice?
+Dialogue: 0,0:17:50.59,0:17:53.37,ngnl-internal,S,0000,0000,0000,,You can't speak in a vacuum.
+Dialogue: 0,0:17:52.61,0:17:54.82,shiri-rule,sign,0000,0000,0000,,{\fad(260,1)}Use a word that's\Nalready been used\N\NFail to answer\Nfor 30 seconds\N\NCannot continue
+Dialogue: 0,0:17:53.37,0:17:56.22,ngnl-internal,S,0000,0000,0000,,If you can't answer in 30 seconds...
+Dialogue: 0,0:17:54.82,0:17:56.15,shiri-rule,sign,0000,0000,0000,,{\fad(1,600)}Fail to answer\Nfor 30 seconds
+Dialogue: 0,0:17:58.48,0:18:01.39,ngnl-internal,J,0000,0000,0000,,I lose, then.
+Dialogue: 0,0:18:03.45,0:18:04.65,ngnl-internal,J,0000,0000,0000,,I see.
+Dialogue: 0,0:18:04.65,0:18:07.85,ngnl-internal,J,0000,0000,0000,,It's a shame you're just Imanity.
+Dialogue: 0,0:18:08.58,0:18:10.50,ngnl-internal,J,0000,0000,0000,,This time I'll answer you
+Dialogue: 0,0:18:10.95,0:18:14.19,ngnl-internal-top,,0000,0000,0000,,with thanks and respect.
+Dialogue: 0,0:18:12.60,0:18:15.70,shiri-pink,J,0000,0000,0000,,{\fad(200,200)}Real Atmospher{\c&H89F2FF&}e
+Dialogue: 0,0:18:15.27,0:18:17.77,EC2,J,0000,0000,0000,,{\fad(200,1)}Empty-headed Academic
+Dialogue: 0,0:18:16.26,0:18:17.81,ngnl-internal,J,0000,0000,0000,,Do you understand?
+Dialogue: 0,0:18:17.81,0:18:19.12,ngnl-internal,J,0000,0000,0000,,This difference is a wall
+Dialogue: 0,0:18:19.12,0:18:22.10,ngnl-internal,,0000,0000,0000,,that the Imanity will \Nnever be able to overcome.
+Dialogue: 0,0:18:22.64,0:18:25.21,ngnl-internal,J,0000,0000,0000,,You have no way to answer me.
+Dialogue: 0,0:18:26.39,0:18:28.23,ngnl-internal,J,0000,0000,0000,,In the end, you will lose
+Dialogue: 0,0:18:28.23,0:18:32.32,ngnl-internal,,0000,0000,0000,,because of the soundless world \Nand burning land you created.
+Dialogue: 0,0:18:33.16,0:18:35.56,ngnl-internal,J,0000,0000,0000,,I've won.
+Dialogue: 0,0:18:38.99,0:18:40.66,EC3,sign,0000,0000,0000,,Empty-headed\NAcademic
+Dialogue: 0,0:18:40.76,0:18:41.76,EC3,sign,0000,0000,0000,,Coulomb's\NForce
+Dialogue: 0,0:18:43.59,0:18:45.56,ngnl-internal,J,0000,0000,0000,,When Coulomb's force vanishes
+Dialogue: 0,0:18:45.56,0:18:49.40,ngnl-internal,,0000,0000,0000,,and all that's left is nuclear \Nforce that draws atoms together,
+Dialogue: 0,0:18:49.40,0:18:51.95,ngnl-internal,J,0000,0000,0000,,the result is the astronomical \Nphenomenon that normally
+Dialogue: 0,0:18:51.95,0:18:55.85,ngnl-internal,,0000,0000,0000,,only occurs by the gravitational \Ncollapse of supermassive planets.
+Dialogue: 0,0:18:56.54,0:19:01.79,ngnl-internal,J,0000,0000,0000,,A hypernova, capable of destroying \Nstars dozens of light years away.
+Dialogue: 0,0:19:02.76,0:19:04.77,ngnl-internal,J,0000,0000,0000,,It's got a temperature of
+Dialogue: 0,0:19:04.77,0:19:07.69,ngnl-internal,,0000,0000,0000,,50 billion degrees Celsius, \Nrivaling the dawn of creation.
+Dialogue: 0,0:19:07.69,0:19:09.63,ngnl-internal,J,0000,0000,0000,,Just try and survive that, Flugel!
+Dialogue: 0,0:19:10.13,0:19:12.57,ngnl-internal,J,0000,0000,0000,,So that was it.
+Dialogue: 0,0:19:13.68,0:19:14.86,ngnl-internal,,0000,0000,0000,,He's right.
+Dialogue: 0,0:19:14.86,0:19:17.80,ngnl-internal,,0000,0000,0000,,Even if I die only a fraction of \Na second earlier, I still lose.
+Dialogue: 0,0:19:18.26,0:19:19.81,ngnl-internal,,0000,0000,0000,,That first explosion was simply
+Dialogue: 0,0:19:19.81,0:19:23.84,ngnl-internal,,0000,0000,0000,,to see if he could use words \Nhis opponent didn't know.
+Dialogue: 0,0:19:24.38,0:19:28.68,ngnl-internal,,0000,0000,0000,,That explosion gave him all \Nthe information he needed.
+Dialogue: 0,0:19:29.82,0:19:36.37,ngnl-internal,,0000,0000,0000,,Everything that happened after that was \Nsimply a farce to keep me distracted.
+Dialogue: 0,0:19:37.16,0:19:40.83,ngnl-internal,,0000,0000,0000,,The game was over after \Nthe first move, wasn't it?
+Dialogue: 0,0:19:41.86,0:19:44.93,ngnl-internal,,0000,0000,0000,,People from another world— no, the Imanity...
+Dialogue: 0,0:19:45.49,0:19:47.87,ngnl-internal,,0000,0000,0000,,They are a terrifying race.
+Dialogue: 0,0:20:06.68,0:20:08.06,ngnl-main,T,0000,0000,0000,,I died.
+Dialogue: 0,0:20:08.06,0:20:09.01,ngnl-main,S,0000,0000,0000,,Oh, welcome back.
+Dialogue: 0,0:20:09.01,0:20:11.55,ngnl-main,T,0000,0000,0000,,You used me as a decoy,
+Dialogue: 0,0:20:11.55,0:20:13.49,ngnl-main,T,0000,0000,0000,,and then you killed me!
+Dialogue: 0,0:20:13.49,0:20:15.09,ngnl-main,T,0000,0000,0000,,You monster! The inhumanity!
+Dialogue: 0,0:20:15.09,0:20:16.71,ngnl-main,T,0000,0000,0000,,I mean, in-Imanity!
+Dialogue: 0,0:20:16.71,0:20:18.10,ngnl-main,Sh,0000,0000,0000,,Steph, beg.
+Dialogue: 0,0:20:19.06,0:20:21.69,dog2,Sh,0000,0000,0000,,Still a pet dog for the day
+Dialogue: 0,0:20:20.07,0:20:22.22,ngnl-main-top,T,0000,0000,0000,,This is still going on?
+Dialogue: 0,0:20:21.69,0:20:23.33,dog2,T,0000,0000,0000,,{\fs18\c&HF46952&}To Sora and Shiro, {\c&HA94FF9&}"Today"{\c&HF46952&} means {\c&HA94FF9&}"Until they go to bed"\N{\fs24}Still a pet dog for the day
+Dialogue: 0,0:20:23.37,0:20:25.44,ngnl-main,S,0000,0000,0000,,Well, I'm sure you have some complaints,
+Dialogue: 0,0:20:25.90,0:20:28.40,ngnl-main,S,0000,0000,0000,,but if it weren't for you, we would've lost.
+Dialogue: 0,0:20:28.40,0:20:30.38,ngnl-main,S,0000,0000,0000,,Thanks, Steph.
+Dialogue: 0,0:20:32.23,0:20:33.88,ngnl-main,J,0000,0000,0000,,I lost completely.
+Dialogue: 0,0:20:35.08,0:20:37.46,ngnl-main,J,0000,0000,0000,,No matter how well you tried to tempt me,
+Dialogue: 0,0:20:37.46,0:20:41.35,ngnl-main,J,0000,0000,0000,,there was no guarantee I'd answer \Nwith "empty-headed academic."
+Dialogue: 0,0:20:41.35,0:20:43.12,ngnl-main,J,0000,0000,0000,,You're insane, aren't you?
+Dialogue: 0,0:20:44.92,0:20:46.97,ngnl-main,S,0000,0000,0000,,I'm challenging God.
+Dialogue: 0,0:20:46.97,0:20:48.39,ngnl-main,S,0000,0000,0000,,I couldn't do that if I were sane.
+Dialogue: 0,0:20:49.27,0:20:51.80,ngnl-main,J,0000,0000,0000,,Challenging God?
+Dialogue: 0,0:20:51.80,0:20:54.53,ngnl-main,S,0000,0000,0000,,It was Tet who called us to this world.
+Dialogue: 0,0:20:55.76,0:20:59.30,ngnl-main,S,0000,0000,0000,,The only option we have is to beat him.
+Dialogue: 0,0:21:00.11,0:21:01.87,ngnl-main,S,0000,0000,0000,,So, Jibril,
+Dialogue: 0,0:21:01.87,0:21:05.24,ngnl-main,,0000,0000,0000,,in accordance with the pledges, \Neverything you have belongs to us.
+Dialogue: 0,0:21:05.87,0:21:10.29,ngnl-main,S,0000,0000,0000,,Oh, and the books on my tablet were just bait.
+Dialogue: 0,0:21:10.29,0:21:11.48,ngnl-main,S,0000,0000,0000,,You can read them all you want.
+Dialogue: 0,0:21:12.12,0:21:14.94,ngnl-main,S,0000,0000,0000,,You can keep using the library, too.
+Dialogue: 0,0:21:14.94,0:21:17.43,ngnl-main,J,0000,0000,0000,,Oh, my dear departed master!
+Dialogue: 0,0:21:17.43,0:21:20.59,ngnl-main,J,0000,0000,0000,,Artosh, the one who created us.
+Dialogue: 0,0:21:21.28,0:21:25.97,ngnl-main,J,0000,0000,0000,,At last I have achieved our \Nlong-held dream of finding
+Dialogue: 0,0:21:25.97,0:21:29.10,ngnl-main,,0000,0000,0000,,someone worthy to serve as our new master.
+Dialogue: 0,0:21:29.68,0:21:34.10,ngnl-main,J,0000,0000,0000,,An Imanity, who looks down \Non the elves, and on me,
+Dialogue: 0,0:21:34.10,0:21:36.34,ngnl-main,J,0000,0000,0000,,and who will overturn \Neverything we think we know.
+Dialogue: 0,0:21:36.70,0:21:38.73,ngnl-main,J,0000,0000,0000,,My master, my lord,
+Dialogue: 0,0:21:39.52,0:21:46.81,ngnl-main,J,0000,0000,0000,,I, Jibril, member of the Council of \N18 Wings of the Exceed Rank 6 Flugel,
+Dialogue: 0,0:21:46.81,0:21:48.85,ngnl-main,J,0000,0000,0000,,offer everything I have to you.
+Dialogue: 0,0:21:49.68,0:21:54.53,ngnl-main,J,0000,0000,0000,,I will find no greater pleasure \Nthan carrying out your will.
+Dialogue: 0,0:21:55.63,0:21:57.65,ngnl-main,S,0000,0000,0000,,Yeah, leave it to us.
+Dialogue: 0,0:21:57.65,0:21:58.80,ngnl-main,S,0000,0000,0000,,Right, Shiro?
+Dialogue: 0,0:21:58.80,0:21:59.50,ngnl-main,Sh,0000,0000,0000,,Yes.
+Dialogue: 0,0:22:00.30,0:22:01.50,ngnl-main,Sh,0000,0000,0000,,Leave it to us.
+Dialogue: 0,0:22:06.33,0:22:11.01,ngnl-main,T,0000,0000,0000,,Wait, how long am I supposed \Nto keep acting like a dog?
+Dialogue: 0,0:23:40.98,0:23:45.99,ngnl-next-ep-title,,0000,0000,0000,,{\an1}Sacrifice
+Dialogue: 0,0:23:41.55,0:23:44.82,ngnl-main-top,,0000,0000,0000,,I used to be a gamer like you.\N Then I took an arrow in the knee...
+Dialogue: 0,0:23:44.82,0:23:45.99,ngnl-main-top,,0000,0000,0000,,Stop!

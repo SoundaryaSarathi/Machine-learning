@@ -1,0 +1,557 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MX Main Dialog,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: MX Signs,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: MX Fancy Signs,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: MX Calligraphy,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: MX Handwritten,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: MX Background,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,27,27,27,1
+Style: MX Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,27,27,27,1
+Style: MX Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,27,27,27,1
+Style: MX Thought,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,27,27,27,1
+Style: MX Songs,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,27,27,27,1
+Style: Barakamon Title,Open Sans Semibold,45,&H00000000,&H000000FF,&H00E6EFF0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,16,1
+Style: Barakamon Title Translation,Open Sans Semibold,30,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,160,27,20,1
+Style: MX Main Dialog - shift,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,27,27,80,1
+Style: translation,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,27,27,93,1
+Style: STAR,Open Sans Semibold,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,187,27,80,1
+Style: Name 1,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,133,600,247,1
+Style: Name 2,Open Sans Semibold,18,&H00000000,&H000000FF,&H00DCDCDF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,80,667,260,1
+Style: Box,Open Sans Semibold,27,&H00000000,&H000000FF,&H00EEEEF1,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,43,64,223,1
+Style: Sugar,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H002F0CB5,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,40,27,287,1
+Style: Bath 1,Open Sans Semibold,30,&H00000000,&H000000FF,&H00ACB6BC,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,400,133,100,1
+Style: Bath 2,Open Sans Semibold,30,&H00000000,&H000000FF,&H00BDC1C5,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,27,133,167,1
+Style: Barakamon Title 2,Open Sans Semibold,45,&H00000000,&H000000FF,&H00E6EFF0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,133,16,1
+Style: August,Open Sans Semibold,45,&H007F7F7F,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,267,320,173,1
+Style: September,Open Sans Semibold,45,&H007F7F7F,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,267,320,47,1
+Style: Naruka,Open Sans Semibold,30,&H002F0CB5,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,200,67,27,1
+Style: Book,Open Sans Semibold,24,&H00000000,&H000000FF,&H00D3D3D3,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,707,27,267,1
+Style: Tepid,Open Sans Semibold,24,&H00000000,&H000000FF,&H00CBCBCB,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,333,13,207,1
+Style: Stop1,Open Sans Semibold,24,&H00000000,&H000000FF,&H00CBCBCB,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,21,13,237,1
+Style: Shower,Open Sans Semibold,24,&H00000000,&H000000FF,&H00AAAAAA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,473,13,420,1
+Style: Press Turn,Open Sans Semibold,24,&H00000000,&H000000FF,&H00AAAAAA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,573,187,427,1
+Style: Shower2,Open Sans Semibold,24,&H00000000,&H000000FF,&H00C8C8C8,&H00000000,0,0,0,0,100,100,0,0,1,3,0,1,427,13,19,1
+Style: Stop2,Open Sans Semibold,24,&H00000000,&H000000FF,&H00CBCBCB,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,367,13,133,1
+Style: PressTurn2,Open Sans Semibold,24,&H00000000,&H000000FF,&H00C8C8C8,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,387,13,83,1
+Style: Further Heating2,Open Sans Semibold,24,&H00000000,&H000000FF,&H00C8C8C8,&H00000000,0,0,1,0,100,100,0,0,1,3,0,7,645,11,133,1
+Style: Further Heating,Open Sans Semibold,24,&H00000000,&H000000FF,&H00C8C8C8,&H00000000,0,0,1,0,100,100,0,0,1,3,0,2,640,13,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:05.52,0:00:06.19,August,,0000,0000,0000,,August
+Dialogue: 0,0:00:07.98,0:00:08.86,September,,0000,0000,0000,,September
+Dialogue: 0,0:00:07.98,0:00:08.88,Naruka,,0000,0000,0000,,Naruka Exhibition
+Dialogue: 0,0:00:08.88,0:00:09.93,Naruka,,0000,0000,0000,,{\fs26}Naruka Exhibition
+Dialogue: 0,0:00:10.44,0:00:12.07,MX Thought,,0000,0000,0000,,Two more weeks...
+Dialogue: 0,0:00:12.60,0:00:14.23,MX Thought,,0000,0000,0000,,The more impatient I get,
+Dialogue: 0,0:00:14.23,0:00:15.78,MX Thought,,0000,0000,0000,,the harder it is to write well.
+Dialogue: 0,0:00:16.89,0:00:17.94,MX Flashback,,0000,0000,0000,,For some reason...
+Dialogue: 0,0:00:18.44,0:00:22.16,MX Flashback,,0000,0000,0000,,Since I came to this island, there are times \Nwhen I really want to write calligraphy.
+Dialogue: 0,0:00:22.89,0:00:24.68,MX Flashback,,0000,0000,0000,,I feel something well up,
+Dialogue: 0,0:00:24.68,0:00:25.88,MX Flashback,,0000,0000,0000,,and my hands tremble.
+Dialogue: 0,0:00:26.97,0:00:30.34,MX Main Dialog,,0000,0000,0000,,If I only had that hand-trembling feeling now...
+Dialogue: 0,0:00:33.57,0:00:35.72,MX Main Dialog,,0000,0000,0000,,Maybe taking a bath will help my mood.
+Dialogue: 0,0:00:35.72,0:00:37.43,Tepid,,0000,0000,0000,,Tepid
+Dialogue: 0,0:00:35.72,0:00:37.43,Stop1,,0000,0000,0000,,Off
+Dialogue: 0,0:00:35.72,0:00:37.43,Shower,,0000,0000,0000,,Hot Water    Press & Turn\NShower
+Dialogue: 0,0:00:40.20,0:00:40.85,MX Main Dialog,,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:41.40,0:00:42.80,MX Main Dialog,,0000,0000,0000,,It's not catching.
+Dialogue: 0,0:00:47.40,0:00:49.23,Shower2,,0000,0000,0000,,Hot Water\NShower
+Dialogue: 0,0:00:47.40,0:00:49.23,Stop2,,0000,0000,0000,,Off
+Dialogue: 0,0:00:47.40,0:00:49.23,PressTurn2,,0000,0000,0000,,Press \N& Turn
+Dialogue: 0,0:00:47.40,0:00:49.23,Further Heating2,,0000,0000,0000,,Reheat\NDo Not Heat Empty Tub
+Dialogue: 0,0:00:50.90,0:00:52.19,MX Main Dialog,,0000,0000,0000,,It won't light?
+Dialogue: 0,0:00:52.19,0:00:53.03,MX Main Dialog,,0000,0000,0000,,That can't be right!
+Dialogue: 0,0:00:53.03,0:00:53.94,Shower2,,0000,0000,0000,,Hot Water\NShower
+Dialogue: 0,0:00:53.03,0:00:53.94,Stop2,,0000,0000,0000,,Off
+Dialogue: 0,0:00:53.03,0:00:53.94,PressTurn2,,0000,0000,0000,,Press\N& Turn
+Dialogue: 0,0:00:53.03,0:00:53.94,Further Heating2,,0000,0000,0000,,Reheat\NDo Not Heat Empty Tub
+Dialogue: 0,0:00:55.17,0:00:55.91,MX Main Dialog,,0000,0000,0000,,No!
+Dialogue: 0,0:00:55.91,0:00:56.68,MX Main Dialog,,0000,0000,0000,,Why?!
+Dialogue: 0,0:00:56.68,0:00:57.69,MX Main Dialog,,0000,0000,0000,,You're kidding!
+Dialogue: 0,0:02:14.94,0:02:20.66,Barakamon Title,,0000,0000,0000,,Barakamon
+Dialogue: 0,0:02:35.38,0:02:38.01,Barakamon Title 2,,0000,0000,0000,,Okega Makucchi Shita
+Dialogue: 0,0:02:35.42,0:02:38.01,Barakamon Title Translation,,0000,0000,0000,,{\fad(480,1)}Translation:\NAlmost Got \NBadly Hurt
+Dialogue: 0,0:02:40.37,0:02:41.83,MX Main Dialog,,0000,0000,0000,,It's broken.
+Dialogue: 0,0:02:41.83,0:02:44.62,MX Main Dialog,,0000,0000,0000,,How long before someone can come to repair it?
+Dialogue: 0,0:02:45.01,0:02:46.20,MX Main Dialog,,0000,0000,0000,,Let's see...
+Dialogue: 0,0:02:46.20,0:02:48.00,MX Main Dialog,,0000,0000,0000,,Generally a week.
+Dialogue: 0,0:02:48.00,0:02:49.24,MX Main Dialog,,0000,0000,0000,,I was afraid of that...
+Dialogue: 0,0:02:49.66,0:02:50.23,MX Main Dialog,,0000,0000,0000,,I know!
+Dialogue: 0,0:02:50.50,0:02:53.04,MX Main Dialog,,0000,0000,0000,,For this occasion, wanna try going all-out?
+Dialogue: 0,0:02:55.11,0:02:56.21,MX Main Dialog,,0000,0000,0000,,Ta-da!
+Dialogue: 0,0:02:56.21,0:02:57.23,MX Main Dialog,,0000,0000,0000,,It's a bath heater!
+Dialogue: 0,0:02:57.74,0:03:00.70,MX Main Dialog,,0000,0000,0000,,Burn wood in here, and it'll heat up the bath.
+Dialogue: 0,0:03:01.06,0:03:02.90,MX Main Dialog,,0000,0000,0000,,Is this thing really usable?
+Dialogue: 0,0:03:02.90,0:03:03.74,MX Main Dialog,,0000,0000,0000,,You'll be fine!
+Dialogue: 0,0:03:04.08,0:03:06.49,MX Main Dialog,,0000,0000,0000,,My house has a wood-heated \Nbath, too. They're great!
+Dialogue: 0,0:03:07.79,0:03:09.28,MX Main Dialog,,0000,0000,0000,,Uh, but, but but...
+Dialogue: 0,0:03:09.28,0:03:10.37,MX Main Dialog,,0000,0000,0000,,What about firewood?
+Dialogue: 0,0:03:10.37,0:03:11.99,MX Main Dialog,,0000,0000,0000,,I don't have any.
+Dialogue: 0,0:03:11.99,0:03:15.61,MX Main Dialog,,0000,0000,0000,,There're hills near your house. You're all set!
+Dialogue: 0,0:03:20.16,0:03:22.96,MX Main Dialog,,0000,0000,0000,,You need dry twigs for it to burn.
+Dialogue: 0,0:03:24.69,0:03:25.60,MX Thought,,0000,0000,0000,,It's no use.
+Dialogue: 0,0:03:25.60,0:03:27.75,MX Thought,,0000,0000,0000,,He's already in gung-ho mode.
+Dialogue: 0,0:03:27.75,0:03:29.61,MX Thought,,0000,0000,0000,,I can't say it's too much trouble!
+Dialogue: 0,0:03:29.61,0:03:30.98,MX Main Dialog,,0000,0000,0000,,There's more that way!
+Dialogue: 0,0:03:33.14,0:03:35.44,MX Main Dialog,,0000,0000,0000,,I have to do this for a week?
+Dialogue: 0,0:03:38.29,0:03:39.15,MX Main Dialog,,0000,0000,0000,,Gross!
+Dialogue: 0,0:03:41.34,0:03:42.28,MX Main Dialog,,0000,0000,0000,,You...
+Dialogue: 0,0:03:43.00,0:03:44.62,MX Main Dialog,,0000,0000,0000,,I'm sorry, Village Chief!
+Dialogue: 0,0:03:46.55,0:03:48.58,MX Main Dialog,,0000,0000,0000,,That should be enough kindling.
+Dialogue: 0,0:03:49.26,0:03:52.58,MX Main Dialog,,0000,0000,0000,,Sensei, you ought to find yourself \Na wife to manage the fire.
+Dialogue: 0,0:03:52.93,0:03:56.34,MX Main Dialog,,0000,0000,0000,,I'd like a gas-heated bath more than a wife.
+Dialogue: 0,0:03:57.24,0:03:59.49,MX Main Dialog,,0000,0000,0000,,You're twenty-three years old.
+Dialogue: 0,0:03:59.49,0:04:02.26,MX Main Dialog,,0000,0000,0000,,Don't you have a girlfriend with plans to marry?
+Dialogue: 0,0:04:02.26,0:04:04.27,MX Main Dialog,,0000,0000,0000,,No, nobody like that.
+Dialogue: 0,0:04:04.27,0:04:05.30,MX Main Dialog,,0000,0000,0000,,Oh, come now!
+Dialogue: 0,0:04:05.83,0:04:07.99,MX Main Dialog,,0000,0000,0000,,I've spent my whole life just writing calligraphy.
+Dialogue: 0,0:04:07.99,0:04:09.33,MX Main Dialog,,0000,0000,0000,,I guess you could say...
+Dialogue: 0,0:04:09.75,0:04:12.27,MX Main Dialog,,0000,0000,0000,,I'm the type who ends up dying alone.
+Dialogue: 0,0:04:14.48,0:04:16.23,MX Thought,,0000,0000,0000,,He's not disagreeing with me...
+Dialogue: 0,0:04:17.12,0:04:19.15,MX Main Dialog,,0000,0000,0000,,Okay, you can handle the rest.
+Dialogue: 0,0:04:20.59,0:04:21.98,MX Main Dialog,,0000,0000,0000,,Say, Miwa-chan.
+Dialogue: 0,0:04:23.05,0:04:26.59,MX Main Dialog,,0000,0000,0000,,Isn't that smoke coming from Sensei's house?
+Dialogue: 0,0:04:26.59,0:04:27.97,MX Main Dialog,,0000,0000,0000,,You're right.
+Dialogue: 0,0:04:27.97,0:04:29.17,MX Main Dialog,,0000,0000,0000,,Is he cooking over a fire?
+Dialogue: 0,0:04:29.17,0:04:31.63,MX Main Dialog,,0000,0000,0000,,Would Sensei do that sorta thing?
+Dialogue: 0,0:04:33.97,0:04:34.87,MX Main Dialog,,0000,0000,0000,,It must be...
+Dialogue: 0,0:04:35.19,0:04:36.63,MX Main Dialog,,0000,0000,0000,,Fire!
+Dialogue: 0,0:04:37.66,0:04:38.46,MX Main Dialog,,0000,0000,0000,,It's a bath.
+Dialogue: 0,0:04:38.46,0:04:39.25,MX Main Dialog,,0000,0000,0000,,That's it?
+Dialogue: 0,0:04:39.46,0:04:42.19,MX Main Dialog,,0000,0000,0000,,Don't go scarin' people, Sensei.
+Dialogue: 0,0:04:42.19,0:04:43.96,MX Main Dialog,,0000,0000,0000,,But if it's a bath, relax.
+Dialogue: 0,0:04:43.96,0:04:45.56,MX Main Dialog,,0000,0000,0000,,I can do that.
+Dialogue: 0,0:04:45.56,0:04:47.47,MX Main Dialog,,0000,0000,0000,,You know how to do this?
+Dialogue: 0,0:04:47.47,0:04:47.97,MX Main Dialog,,0000,0000,0000,,Yep!
+Dialogue: 0,0:04:48.57,0:04:50.26,MX Main Dialog,,0000,0000,0000,,Whenever Grampa takes a bath,
+Dialogue: 0,0:04:48.64,0:04:51.85,Bath 1,,0000,0000,0000,,{\fad(270,1)}Enjoying your bath, sir?
+Dialogue: 0,0:04:50.26,0:04:51.85,MX Main Dialog,,0000,0000,0000,,I always tend the fire.
+Dialogue: 0,0:04:50.39,0:04:51.85,Bath 2,,0000,0000,0000,,{\fad(270,1)}Yep! \NBut put it out \Nif it gets too big.
+Dialogue: 0,0:04:52.32,0:04:54.80,MX Main Dialog,,0000,0000,0000,,Are you {\i1}sure{\i0} you'll be all right?
+Dialogue: 0,0:04:55.15,0:04:57.35,MX Main Dialog,,0000,0000,0000,,Leave it to me! I'm used to it!
+Dialogue: 0,0:04:58.83,0:05:00.62,MX Main Dialog,,0000,0000,0000,,Getting it ready was tough,
+Dialogue: 0,0:05:00.62,0:05:03.39,MX Main Dialog,,0000,0000,0000,,but it's kind of exciting, \Nlike I'm visiting a hot spring.
+Dialogue: 0,0:05:05.13,0:05:05.97,MX Main Dialog,,0000,0000,0000,,Hot!
+Dialogue: 0,0:05:06.83,0:05:08.35,MX Main Dialog,,0000,0000,0000,,Sensei, is it too hot?!
+Dialogue: 0,0:05:08.35,0:05:10.20,MX Main Dialog,,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:05:11.73,0:05:13.37,MX Main Dialog,,0000,0000,0000,,Thank goodness...
+Dialogue: 0,0:05:13.90,0:05:16.12,MX Main Dialog,,0000,0000,0000,,Ahh, I've come back to life...
+Dialogue: 0,0:05:17.47,0:05:19.41,MX Thought,,0000,0000,0000,,It's permeating right to the bone.
+Dialogue: 0,0:05:19.41,0:05:22.03,MX Thought,,0000,0000,0000,,I can see why the village chief is into this.
+Dialogue: 0,0:05:22.03,0:05:23.96,MX Thought,,0000,0000,0000,,It's like a reward for the effort.
+Dialogue: 0,0:05:24.92,0:05:26.34,MX Main Dialog,,0000,0000,0000,,Sensei, there's trouble!
+Dialogue: 0,0:05:26.34,0:05:27.09,MX Main Dialog,,0000,0000,0000,,What's wrong?!
+Dialogue: 0,0:05:30.32,0:05:31.26,MX Main Dialog,,0000,0000,0000,,Oops!
+Dialogue: 0,0:05:31.95,0:05:32.66,MX Main Dialog,,0000,0000,0000,,Naru!
+Dialogue: 0,0:05:32.66,0:05:34.96,MX Main Dialog,,0000,0000,0000,,Why are they here?!
+Dialogue: 0,0:05:35.91,0:05:37.48,MX Main Dialog,,0000,0000,0000,,They thought there was a fire.
+Dialogue: 0,0:05:37.61,0:05:40.47,MX Main Dialog,,0000,0000,0000,,A kid tendin' the fire while you have a nice bath?
+Dialogue: 0,0:05:40.47,0:05:42.12,MX Main Dialog,,0000,0000,0000,,As punishment, we'll see you naked!
+Dialogue: 0,0:05:42.12,0:05:43.19,MX Main Dialog,,0000,0000,0000,,I don't get your reasoning!
+Dialogue: 0,0:05:43.39,0:05:46.36,MX Main Dialog,,0000,0000,0000,,Weren't ya really wantin' young girls to see ya?
+Dialogue: 0,0:05:46.65,0:05:49.01,MX Main Dialog,,0000,0000,0000,,Don't talk like I'm an exhibitionist!
+Dialogue: 0,0:05:49.01,0:05:50.37,MX Main Dialog,,0000,0000,0000,,There's no fire here, so leave!
+Dialogue: 0,0:05:51.74,0:05:53.99,MX Main Dialog,,0000,0000,0000,,As always, he can't take a joke.
+Dialogue: 0,0:05:55.79,0:05:57.17,MX Main Dialog,,0000,0000,0000,,What's that camera for?
+Dialogue: 0,0:05:57.17,0:05:59.76,MX Main Dialog,,0000,0000,0000,,I thought I'd collect reference \Nmaterial for my manga.
+Dialogue: 0,0:05:59.76,0:06:01.11,MX Main Dialog,,0000,0000,0000,,Reference material...
+Dialogue: 0,0:06:01.11,0:06:03.59,MX Main Dialog,,0000,0000,0000,,But ya can't show full nudity, \Neven in manga, right?
+Dialogue: 0,0:06:03.59,0:06:06.42,MX Main Dialog,,0000,0000,0000,,It'll be fine, if I add a mosaic over the tip.
+Dialogue: 0,0:06:06.85,0:06:08.47,MX Background,,0000,0000,0000,,So long as you can get the idea...
+Dialogue: 0,0:06:07.17,0:06:08.95,MX Thought,,0000,0000,0000,,I can't relax.
+Dialogue: 0,0:06:08.47,0:06:11.60,MX Background,,0000,0000,0000,,No, it's still no good.
+Dialogue: 0,0:06:09.45,0:06:11.59,MX Thought,,0000,0000,0000,,Looks like I can't take a bath during the day.
+Dialogue: 0,0:06:11.60,0:06:13.34,MX Background,,0000,0000,0000,,Eh? Why not?
+Dialogue: 0,0:06:12.04,0:06:13.34,MX Thought,,0000,0000,0000,,At any rate, for now,
+Dialogue: 0,0:06:13.34,0:06:16.77,MX Thought,,0000,0000,0000,,I'll wait until they get bored and leave.
+Dialogue: 0,0:06:17.08,0:06:19.00,MX Main Dialog,,0000,0000,0000,,It's too hot, idiots!
+Dialogue: 0,0:06:19.00,0:06:20.30,MX Main Dialog,,0000,0000,0000,,Run away!
+Dialogue: 0,0:06:21.17,0:06:22.69,MX Main Dialog,,0000,0000,0000,,Sensei, is it too hot?
+Dialogue: 0,0:06:22.82,0:06:24.03,MX Main Dialog,,0000,0000,0000,,Obviously!
+Dialogue: 0,0:06:24.03,0:06:25.07,MX Main Dialog,,0000,0000,0000,,See how red I am?
+Dialogue: 0,0:06:25.28,0:06:26.00,MX Main Dialog,,0000,0000,0000,,Run away!
+Dialogue: 0,0:06:26.00,0:06:28.03,MX Main Dialog,,0000,0000,0000,,No, don't {\i1}you{\i0} run away, too!
+Dialogue: 0,0:06:32.36,0:06:35.02,MX Main Dialog,,0000,0000,0000,,At any rate, that turned my mood around.
+Dialogue: 0,0:06:35.02,0:06:36.63,MX Main Dialog,,0000,0000,0000,,Okay, time to wri—
+Dialogue: 0,0:06:37.06,0:06:37.75,MX Main Dialog,,0000,0000,0000,,Hey.
+Dialogue: 0,0:06:38.09,0:06:38.65,MX Main Dialog,,0000,0000,0000,,Hiro!
+Dialogue: 0,0:06:38.65,0:06:40.69,MX Main Dialog,,0000,0000,0000,,Wh-What are you doing here?!
+Dialogue: 0,0:06:40.69,0:06:42.40,MX Main Dialog,,0000,0000,0000,,Mom's out today,
+Dialogue: 0,0:06:42.40,0:06:44.00,MX Main Dialog,,0000,0000,0000,,so I'm making you lunch.
+Dialogue: 0,0:06:44.53,0:06:46.28,MX Main Dialog,,0000,0000,0000,,Why at my house?
+Dialogue: 0,0:06:47.87,0:06:49.68,MX Main Dialog,,0000,0000,0000,,First, you cut the cucumber.
+Dialogue: 0,0:06:49.68,0:06:50.80,Sugar,,0000,0000,0000,,White Sugar
+Dialogue: 0,0:06:50.03,0:06:50.80,MX Main Dialog,,0000,0000,0000,,Combine miso...
+Dialogue: 0,0:06:50.88,0:06:53.05,Sugar,,0000,0000,0000,,White Sugar
+Dialogue: 0,0:06:51.11,0:06:53.05,MX Main Dialog,,0000,0000,0000,,and sugar, measuring by eye.
+Dialogue: 0,0:06:53.14,0:06:56.01,Sugar,,0000,0000,0000,,White Sugar
+Dialogue: 0,0:06:53.53,0:06:54.97,MX Main Dialog,,0000,0000,0000,,Now add the cucumber slices,
+Dialogue: 0,0:06:54.97,0:06:56.01,MX Main Dialog,,0000,0000,0000,,and mix loosely.
+Dialogue: 0,0:06:56.67,0:06:58.08,MX Main Dialog,,0000,0000,0000,,With these simple steps,
+Dialogue: 0,0:06:58.08,0:06:59.82,MX Main Dialog,,0000,0000,0000,,your miso cucumber is ready.
+Dialogue: 0,0:07:00.91,0:07:03.02,MX Main Dialog,,0000,0000,0000,,I feel like even I could make this.
+Dialogue: 0,0:07:03.77,0:07:05.40,MX Main Dialog,,0000,0000,0000,,First, cut the cucumber!
+Dialogue: 0,0:07:05.63,0:07:07.44,MX Main Dialog,,0000,0000,0000,,Combine miso and sugar, and mix!
+Dialogue: 0,0:07:08.00,0:07:08.87,MX Main Dialog,,0000,0000,0000,,Done!
+Dialogue: 0,0:07:08.87,0:07:10.92,MX Main Dialog,,0000,0000,0000,,Sensei, didn't you watch me?
+Dialogue: 0,0:07:10.92,0:07:12.15,MX Main Dialog,,0000,0000,0000,,What, aren't they the same?
+Dialogue: 0,0:07:12.15,0:07:13.20,MX Main Dialog,,0000,0000,0000,,In what way?!
+Dialogue: 0,0:07:13.97,0:07:15.89,MX Main Dialog,,0000,0000,0000,,It's all the same once you eat it.
+Dialogue: 0,0:07:15.89,0:07:17.71,MX Main Dialog,,0000,0000,0000,,It looks awful but tastes great.
+Dialogue: 0,0:07:17.71,0:07:19.29,MX Main Dialog,,0000,0000,0000,,That's what men's cooking is like!
+Dialogue: 0,0:07:19.29,0:07:22.49,MX Main Dialog,,0000,0000,0000,,Uh, no... this will definitely taste awful, too.
+Dialogue: 0,0:07:23.22,0:07:24.78,MX Main Dialog,,0000,0000,0000,,Let's eat.
+Dialogue: 0,0:07:27.13,0:07:27.80,MX Main Dialog,,0000,0000,0000,,Whoa!
+Dialogue: 0,0:07:27.80,0:07:28.88,MX Main Dialog,,0000,0000,0000,,This is great!
+Dialogue: 0,0:07:29.25,0:07:31.28,MX Main Dialog,,0000,0000,0000,,Sensei, yours is terrible.
+Dialogue: 0,0:07:31.28,0:07:33.51,MX Main Dialog,,0000,0000,0000,,All I can taste is cucumber.
+Dialogue: 0,0:07:35.51,0:07:37.24,MX Main Dialog,,0000,0000,0000,,Actually, this is awful, too.
+Dialogue: 0,0:07:37.24,0:07:38.33,MX Main Dialog,,0000,0000,0000,,Wait a minute!
+Dialogue: 0,0:07:38.33,0:07:40.14,MX Main Dialog,,0000,0000,0000,,You just said it was great!
+Dialogue: 0,0:07:40.14,0:07:42.03,MX Main Dialog,,0000,0000,0000,,I never said it was great.
+Dialogue: 0,0:07:42.03,0:07:43.35,MX Main Dialog,,0000,0000,0000,,All I can taste is miso.
+Dialogue: 0,0:07:43.35,0:07:45.86,MX Main Dialog,,0000,0000,0000,,Why're you so stubborn? That's immature.
+Dialogue: 0,0:07:46.39,0:07:47.76,MX Main Dialog,,0000,0000,0000,,Who are you calling immature?!
+Dialogue: 0,0:07:47.76,0:07:48.68,MX Main Dialog,,0000,0000,0000,,I'm older than you!
+Dialogue: 0,0:07:48.68,0:07:49.91,MX Main Dialog,,0000,0000,0000,,It's impolite to point!
+Dialogue: 0,0:07:49.91,0:07:52.68,MX Main Dialog,,0000,0000,0000,,If you're older, act your age and admit defeat!
+Dialogue: 0,0:07:56.59,0:07:58.11,MX Main Dialog,,0000,0000,0000,,Sensei!
+Dialogue: 0,0:08:00.26,0:08:01.36,MX Main Dialog,,0000,0000,0000,,What's wrong, Hina?!
+Dialogue: 0,0:08:01.36,0:08:02.83,MX Main Dialog,,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:08:03.94,0:08:06.24,MX Main Dialog,,0000,0000,0000,,I can't understand your moaning! Settle down!
+Dialogue: 0,0:08:06.24,0:08:07.98,MX Main Dialog,,0000,0000,0000,,Don't rush her, Sensei.
+Dialogue: 0,0:08:07.98,0:08:10.17,MX Main Dialog,,0000,0000,0000,,Here, Hina. Drink this and calm down.
+Dialogue: 0,0:08:10.88,0:08:14.55,MX Main Dialog,,0000,0000,0000,,If she came over in such a rush, then it \Nmust be an emergency! Tell us, quickly!
+Dialogue: 0,0:08:14.93,0:08:17.53,MX Main Dialog,,0000,0000,0000,,We don't need to rush so much \Nfor a child's emergency.
+Dialogue: 0,0:08:17.53,0:08:18.94,MX Main Dialog,,0000,0000,0000,,But aren't you curious?!
+Dialogue: 0,0:08:18.94,0:08:21.76,MX Main Dialog,,0000,0000,0000,,You're being immature again.
+Dialogue: 0,0:08:23.64,0:08:25.21,MX Main Dialog,,0000,0000,0000,,All right, Hina! Just calm down!
+Dialogue: 0,0:08:25.21,0:08:26.54,MX Main Dialog,,0000,0000,0000,,We'll listen to you!
+Dialogue: 0,0:08:27.00,0:08:28.19,MX Main Dialog,,0000,0000,0000,,Naru...
+Dialogue: 0,0:08:28.19,0:08:33.24,MX Main Dialog,,0000,0000,0000,,Naru's getting picked on by grade \Nschoolers from the next village!
+Dialogue: 0,0:08:36.84,0:08:38.24,MX Main Dialog,,0000,0000,0000,,This way!
+Dialogue: 0,0:08:38.93,0:08:40.16,MX Main Dialog,,0000,0000,0000,,Naru! You all right?!
+Dialogue: 0,0:08:41.43,0:08:45.24,MX Main Dialog,,0000,0000,0000,,Cut it out!
+Dialogue: 0,0:08:45.95,0:08:49.23,MX Thought,,0000,0000,0000,,Actually, that looks like a lot of fun.
+Dialogue: 0,0:08:49.23,0:08:50.50,MX Main Dialog,,0000,0000,0000,,Naru!
+Dialogue: 0,0:08:50.50,0:08:52.76,MX Main Dialog,,0000,0000,0000,,Hina! Save me!
+Dialogue: 0,0:08:53.14,0:08:54.64,MX Main Dialog,,0000,0000,0000,,You went and got grown-ups?!
+Dialogue: 0,0:08:54.64,0:08:55.38,MX Main Dialog,,0000,0000,0000,,Coward!
+Dialogue: 0,0:08:55.82,0:08:57.63,MX Main Dialog,,0000,0000,0000,,Where are you kids from?
+Dialogue: 0,0:08:57.63,0:08:59.90,MX Main Dialog,,0000,0000,0000,,This is their playground.
+Dialogue: 0,0:08:59.90,0:09:01.80,MX Main Dialog,,0000,0000,0000,,Shut up, fox-faced jerk!
+Dialogue: 0,0:09:01.80,0:09:03.60,MX Main Dialog,,0000,0000,0000,,We just took over this place!
+Dialogue: 0,0:09:04.03,0:09:05.38,MX Thought,,0000,0000,0000,,Fox-faced jerk...
+Dialogue: 0,0:09:05.38,0:09:07.76,MX Main Dialog,,0000,0000,0000,,They're from Rokunosaki Village.
+Dialogue: 0,0:09:07.76,0:09:10.69,MX Main Dialog,,0000,0000,0000,,We haven't gotten along with the \Nneighboring village for ages.
+Dialogue: 0,0:09:10.96,0:09:13.55,MX Main Dialog,,0000,0000,0000,,Sensei, make 'em go away!
+Dialogue: 0,0:09:13.55,0:09:15.70,MX Main Dialog,,0000,0000,0000,,We were playin' here first!
+Dialogue: 0,0:09:16.02,0:09:17.22,MX Main Dialog,,0000,0000,0000,,Uh, sure.
+Dialogue: 0,0:09:17.79,0:09:18.61,MX Main Dialog,,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:18.61,0:09:19.70,MX Main Dialog,,0000,0000,0000,,Kids from the next village!
+Dialogue: 0,0:09:20.59,0:09:23.26,MX Main Dialog,,0000,0000,0000,,How dare you call someone you've \Njust met a "fox-faced jerk"?
+Dialogue: 0,0:09:23.81,0:09:24.70,MX Main Dialog,,0000,0000,0000,,How am I a fox?
+Dialogue: 0,0:09:24.70,0:09:26.95,MX Main Dialog,,0000,0000,0000,,Sure, sometimes people say \NI have a mean look in my eyes,
+Dialogue: 0,0:09:26.95,0:09:28.17,MX Main Dialog,,0000,0000,0000,,but only sometimes!
+Dialogue: 0,0:09:28.46,0:09:31.30,MX Main Dialog,,0000,0000,0000,,Sensei's making this totally personal...
+Dialogue: 0,0:09:31.49,0:09:33.25,MX Main Dialog,,0000,0000,0000,,Shut up, good-for-nothin' wimp!
+Dialogue: 0,0:09:33.25,0:09:33.96,MX Main Dialog,,0000,0000,0000,,Go away!
+Dialogue: 0,0:09:35.71,0:09:36.78,MX Main Dialog,,0000,0000,0000,,That hurt.
+Dialogue: 0,0:09:36.78,0:09:37.77,MX Main Dialog,,0000,0000,0000,,What is this?
+Dialogue: 0,0:09:37.77,0:09:39.15,MX Main Dialog,,0000,0000,0000,,My heart hurts.
+Dialogue: 0,0:09:39.58,0:09:41.40,MX Main Dialog,,0000,0000,0000,,That kid's amazing.
+Dialogue: 0,0:09:41.40,0:09:44.89,MX Main Dialog,,0000,0000,0000,,He only just met you, yet he can tell \Nthat you're good-for-nothing {\i1}and{\i0} a wimp.
+Dialogue: 0,0:09:44.89,0:09:45.39,MX Main Dialog,,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:45.88,0:09:49.23,MX Main Dialog,,0000,0000,0000,,With punks like these, tough talk won't work.
+Dialogue: 0,0:09:49.71,0:09:50.54,MX Main Dialog,,0000,0000,0000,,Hey, you guys!
+Dialogue: 0,0:09:50.54,0:09:51.47,MX Main Dialog,,0000,0000,0000,,Dyed blonde hair!
+Dialogue: 0,0:09:51.47,0:09:52.57,MX Main Dialog,,0000,0000,0000,,He's got dyed blonde hair!
+Dialogue: 0,0:09:52.57,0:09:54.23,MX Main Dialog,,0000,0000,0000,,What? You tryin' to threaten us?
+Dialogue: 0,0:09:54.67,0:09:56.37,MX Main Dialog,,0000,0000,0000,,Y'all are bigger'n these kids,
+Dialogue: 0,0:09:56.37,0:09:58.69,MX Main Dialog,,0000,0000,0000,,so can't ya be nice to 'em?
+Dialogue: 0,0:09:58.69,0:09:59.99,MX Main Dialog,,0000,0000,0000,,C'mon, can't ya?
+Dialogue: 0,0:10:01.30,0:10:02.81,MX Main Dialog,,0000,0000,0000,,If yer gonna say it that way...
+Dialogue: 0,0:10:04.12,0:10:06.00,MX Main Dialog,,0000,0000,0000,,Say it on yer knees.
+Dialogue: 0,0:10:08.26,0:10:09.83,MX Main Dialog,,0000,0000,0000,,Stop! Calm down, Hiro!
+Dialogue: 0,0:10:09.83,0:10:10.74,MX Main Dialog,,0000,0000,0000,,Let me go!
+Dialogue: 0,0:10:10.74,0:10:12.79,MX Main Dialog,,0000,0000,0000,,I'll show him how harsh society can be!
+Dialogue: 0,0:10:12.79,0:10:13.92,translation,,0000,0000,0000,,*Snot-nosed punk = Mean kid
+Dialogue: 0,0:10:12.79,0:10:13.92,MX Main Dialog,,0000,0000,0000,,Snot-nosed punk!
+Dialogue: 0,0:10:13.92,0:10:15.10,MX Main Dialog,,0000,0000,0000,,Run away!
+Dialogue: 0,0:10:15.49,0:10:18.56,MX Main Dialog,,0000,0000,0000,,Actually hitting a kid will \Njust cause more problems!
+Dialogue: 0,0:10:16.43,0:10:17.88,MX Background,,0000,0000,0000,,Stupid violent adult!
+Dialogue: 0,0:10:19.03,0:10:20.83,MX Background,,0000,0000,0000,,Yankee go home!
+Dialogue: 0,0:10:19.26,0:10:23.50,MX Main Dialog,,0000,0000,0000,,Sensei, we were wantin' to play dodgeball here.
+Dialogue: 0,0:10:21.92,0:10:23.50,MX Background,,0000,0000,0000,,Get out, outsider!
+Dialogue: 0,0:10:23.50,0:10:26.06,MX Main Dialog,,0000,0000,0000,,Well, then, we can't back down now.
+Dialogue: 0,0:10:26.69,0:10:28.65,MX Thought,,0000,0000,0000,,These kids are counting on me.
+Dialogue: 0,0:10:28.65,0:10:31.02,MX Thought,,0000,0000,0000,,Now is the time to show some dignity!
+Dialogue: 0,0:10:31.56,0:10:32.76,MX Main Dialog,,0000,0000,0000,,Hey, you boys!
+Dialogue: 0,0:10:32.76,0:10:34.27,MX Main Dialog,,0000,0000,0000,,You say somethin', white noodles?
+Dialogue: 0,0:10:34.72,0:10:36.78,MX Thought,,0000,0000,0000,,White... noodles...?
+Dialogue: 0,0:10:37.85,0:10:40.86,MX Main Dialog,,0000,0000,0000,,We're adults, so we don't use violence.
+Dialogue: 0,0:10:40.86,0:10:43.90,MX Main Dialog,,0000,0000,0000,,However, if you guys throw your \Nweight around here any more,
+Dialogue: 0,0:10:43.90,0:10:46.20,MX Main Dialog,,0000,0000,0000,,I'll have to make a phone call.
+Dialogue: 0,0:10:46.20,0:10:48.08,MX Main Dialog,,0000,0000,0000,,What? Who're ya gonna call?
+Dialogue: 0,0:10:49.31,0:10:50.17,MX Main Dialog,,0000,0000,0000,,The police!
+Dialogue: 0,0:10:50.46,0:10:52.54,MX Main Dialog,,0000,0000,0000,,What makes ya think the police would come?!
+Dialogue: 0,0:10:53.08,0:10:56.38,MX Main Dialog,,0000,0000,0000,,I'll give an anonymous tip that \Nyou guys are bullying little kids.
+Dialogue: 0,0:10:57.07,0:10:58.79,MX Main Dialog,,0000,0000,0000,,Getting arrested is embarrassing, y'know.
+Dialogue: 0,0:10:58.79,0:11:00.14,MX Main Dialog,,0000,0000,0000,,It'll upset your parents, too.
+Dialogue: 0,0:11:00.14,0:11:01.76,MX Main Dialog,,0000,0000,0000,,You'll be ruined for life.
+Dialogue: 0,0:11:02.09,0:11:03.05,MX Main Dialog,,0000,0000,0000,,You see?!
+Dialogue: 0,0:11:03.05,0:11:04.68,MX Main Dialog,,0000,0000,0000,,{\i1}This{\i0} is an adult tactic!
+Dialogue: 0,0:11:06.07,0:11:07.39,MX Thought,,0000,0000,0000,,So immature.
+Dialogue: 0,0:11:07.52,0:11:10.05,MX Main Dialog,,0000,0000,0000,,Dang it, yer usin' dirty threats!
+Dialogue: 0,0:11:10.05,0:11:11.22,MX Main Dialog,,0000,0000,0000,,Take this!
+Dialogue: 0,0:11:17.69,0:11:20.45,MX Main Dialog,,0000,0000,0000,,You finished off my cell phone!
+Dialogue: 0,0:11:20.68,0:11:22.13,MX Main Dialog,,0000,0000,0000,,What do ya mean, "finished"?
+Dialogue: 0,0:11:22.13,0:11:23.87,MX Main Dialog,,0000,0000,0000,,It's just got poo on it.
+Dialogue: 0,0:11:24.18,0:11:25.16,MX Main Dialog,,0000,0000,0000,,Don't give me that, you brat!
+Dialogue: 0,0:11:25.16,0:11:26.48,MX Main Dialog,,0000,0000,0000,,Sure, it no longer works as a phone,
+Dialogue: 0,0:11:26.48,0:11:29.04,MX Main Dialog,,0000,0000,0000,,but it's still served me faithfully \Nas a clock! And look at it now!
+Dialogue: 0,0:11:29.56,0:11:31.38,MX Main Dialog,,0000,0000,0000,,Can't use it as a phone?
+Dialogue: 0,0:11:31.38,0:11:33.17,MX Main Dialog,,0000,0000,0000,,You were trickin' kids, then!
+Dialogue: 0,0:11:33.17,0:11:36.06,MX Main Dialog,,0000,0000,0000,,You insulted my phone, \Nso why are {\i1}you{\i0} getting mad?!
+Dialogue: 0,0:11:40.69,0:11:41.99,MX Main Dialog,,0000,0000,0000,,Hiro, were you laughing?
+Dialogue: 0,0:11:41.99,0:11:44.10,MX Main Dialog,,0000,0000,0000,,No, I'd never laugh at that.
+Dialogue: 0,0:11:47.65,0:11:49.15,MX Main Dialog,,0000,0000,0000,,Jeez, what're they doin'?
+Dialogue: 0,0:11:49.15,0:11:50.76,MX Main Dialog,,0000,0000,0000,,Let's leave 'em and go play baseball.
+Dialogue: 0,0:11:50.76,0:11:51.35,MX Main Dialog,,0000,0000,0000,,Wha?!
+Dialogue: 0,0:11:51.35,0:11:52.20,MX Main Dialog,,0000,0000,0000,,Wait, Sensei!
+Dialogue: 0,0:11:52.20,0:11:54.31,MX Main Dialog,,0000,0000,0000,,They're trying to ignore us!
+Dialogue: 0,0:11:54.31,0:11:55.23,MX Main Dialog,,0000,0000,0000,,What?!
+Dialogue: 0,0:11:55.75,0:11:57.03,MX Main Dialog,,0000,0000,0000,,Don't make me repeat myself!
+Dialogue: 0,0:11:57.03,0:11:59.18,MX Main Dialog,,0000,0000,0000,,Use your own village's playground!
+Dialogue: 0,0:11:59.18,0:12:00.05,MX Main Dialog,,0000,0000,0000,,Shut up!
+Dialogue: 0,0:12:00.05,0:12:02.70,MX Main Dialog,,0000,0000,0000,,Middle schoolers took over our playground!
+Dialogue: 0,0:12:02.99,0:12:05.95,MX Main Dialog,,0000,0000,0000,,A real tough-fightin' girl and a glasses girl.
+Dialogue: 0,0:12:06.65,0:12:08.31,MX Thought,,0000,0000,0000,,It's them...
+Dialogue: 0,0:12:08.31,0:12:09.75,MX Main Dialog,,0000,0000,0000,,That ain't got nothin' to do with it!
+Dialogue: 0,0:12:09.93,0:12:11.12,MX Main Dialog,,0000,0000,0000,,Get outta here!
+Dialogue: 0,0:12:11.33,0:12:12.45,MX Main Dialog,,0000,0000,0000,,Naru!
+Dialogue: 0,0:12:12.45,0:12:14.12,MX Main Dialog,,0000,0000,0000,,Hey! That's going too far!
+Dialogue: 0,0:12:14.53,0:12:17.19,MX Main Dialog,,0000,0000,0000,,What? Didn't ya say adults ain't violent?
+Dialogue: 0,0:12:17.19,0:12:19.07,MX Main Dialog,,0000,0000,0000,,If an adult from this village hits us,
+Dialogue: 0,0:12:19.07,0:12:20.86,MX Main Dialog,,0000,0000,0000,,we're tellin' our parents!
+Dialogue: 0,0:12:20.86,0:12:24.20,MX Main Dialog,,0000,0000,0000,,If an adult hits a kid, \N{\i1}that's {\i0}who's goin' to the police!
+Dialogue: 0,0:12:24.34,0:12:27.39,MX Main Dialog,,0000,0000,0000,,You'll get arrested for child abuse!
+Dialogue: 0,0:12:27.83,0:12:29.72,MX Main Dialog,,0000,0000,0000,,If they put it that way, we can't argue.
+Dialogue: 0,0:12:30.07,0:12:33.73,MX Main Dialog,,0000,0000,0000,,Right, an adult should never strike a child.
+Dialogue: 0,0:12:34.07,0:12:37.36,MX Main Dialog,,0000,0000,0000,,Naru, they want to play baseball here.
+Dialogue: 0,0:12:37.91,0:12:38.98,MX Main Dialog,,0000,0000,0000,,So let them play.
+Dialogue: 0,0:12:38.98,0:12:40.01,MX Main Dialog,,0000,0000,0000,,Aww...
+Dialogue: 0,0:12:40.01,0:12:42.57,MX Main Dialog,,0000,0000,0000,,You shoulda done that in the first place!
+Dialogue: 0,0:12:42.57,0:12:44.20,MX Main Dialog,,0000,0000,0000,,They'll play their game.
+Dialogue: 0,0:12:44.77,0:12:46.94,MX Main Dialog,,0000,0000,0000,,So how about we play dodgeball?
+Dialogue: 0,0:12:46.94,0:12:47.95,MX Main Dialog,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:48.92,0:12:50.58,MX Main Dialog,,0000,0000,0000,,You were gonna yield this place to us!
+Dialogue: 0,0:12:51.11,0:12:53.32,MX Main Dialog,,0000,0000,0000,,Play all the baseball you want.
+Dialogue: 0,0:12:53.32,0:12:55.46,MX Main Dialog,,0000,0000,0000,,We're going to play our own game.
+Dialogue: 0,0:12:55.85,0:12:57.87,MX Main Dialog,,0000,0000,0000,,Sensei and I will be outfielders.
+Dialogue: 0,0:12:57.87,0:12:59.54,MX Main Dialog,,0000,0000,0000,,Get running, you guys.
+Dialogue: 0,0:13:00.09,0:13:01.40,MX Main Dialog,,0000,0000,0000,,W-Wait, time out!
+Dialogue: 0,0:13:01.40,0:13:02.34,MX Main Dialog,,0000,0000,0000,,We're playin' here!
+Dialogue: 0,0:13:02.56,0:13:03.09,MX Main Dialog,,0000,0000,0000,,Here!
+Dialogue: 0,0:13:03.09,0:13:03.63,MX Main Dialog,,0000,0000,0000,,Ow!
+Dialogue: 0,0:13:05.05,0:13:06.32,MX Thought,,0000,0000,0000,,That's our Sensei.
+Dialogue: 0,0:13:06.32,0:13:07.89,MX Thought,,0000,0000,0000,,Playing seriously against kids.
+Dialogue: 0,0:13:08.31,0:13:10.12,MX Main Dialog,,0000,0000,0000,,It don't count if it don't hit us!
+Dialogue: 0,0:13:10.12,0:13:10.92,MX Main Dialog,,0000,0000,0000,,Clumsy—
+Dialogue: 0,0:13:13.42,0:13:15.02,MX Main Dialog,,0000,0000,0000,,Now, who's next?!
+Dialogue: 0,0:13:16.26,0:13:17.99,MX Main Dialog,,0000,0000,0000,,He hit it back?!
+Dialogue: 0,0:13:17.99,0:13:19.79,MX Main Dialog,,0000,0000,0000,,Get a grip, Sensei!
+Dialogue: 0,0:13:19.79,0:13:21.23,MX Main Dialog,,0000,0000,0000,,If they take the ball, it's all over.
+Dialogue: 0,0:13:21.47,0:13:23.43,MX Main Dialog,,0000,0000,0000,,Dang it, yer supposed to be adults!
+Dialogue: 0,0:13:23.43,0:13:24.65,MX Main Dialog,,0000,0000,0000,,Why are ya takin' this seriously?!
+Dialogue: 0,0:13:25.11,0:13:26.46,MX Main Dialog,,0000,0000,0000,,"Supposed to be adults"?
+Dialogue: 0,0:13:26.46,0:13:27.20,MX Main Dialog,,0000,0000,0000,,Hardly.
+Dialogue: 0,0:13:28.50,0:13:30.62,MX Main Dialog,,0000,0000,0000,,It's {\i1}because{\i0} we're adults!
+Dialogue: 0,0:13:32.99,0:13:34.20,MX Main Dialog,,0000,0000,0000,,Take this, brat!
+Dialogue: 0,0:13:34.55,0:13:35.79,MX Main Dialog,,0000,0000,0000,,Sensei, toss it here!
+Dialogue: 0,0:13:36.24,0:13:38.38,MX Main Dialog,,0000,0000,0000,,I'm impressed they can \Nhorse around in this heat.
+Dialogue: 0,0:13:38.71,0:13:39.37,MX Main Dialog,,0000,0000,0000,,It's Akki!
+Dialogue: 0,0:13:39.37,0:13:40.26,MX Main Dialog,,0000,0000,0000,,Akki!
+Dialogue: 0,0:13:40.26,0:13:42.03,MX Main Dialog,,0000,0000,0000,,What're ya doin' out here?!
+Dialogue: 0,0:13:42.03,0:13:44.26,MX Main Dialog,,0000,0000,0000,,Hey, I'm stuck on that game ya lent me!
+Dialogue: 0,0:13:44.53,0:13:46.47,MX Main Dialog,,0000,0000,0000,,You guys! The battle's not over yet!
+Dialogue: 0,0:13:46.71,0:13:48.25,MX Main Dialog,,0000,0000,0000,,Oh, it's okay now.
+Dialogue: 0,0:13:48.25,0:13:49.97,MX Main Dialog,,0000,0000,0000,,We're gonna go play with Akki.
+Dialogue: 0,0:13:51.12,0:13:53.71,MX Main Dialog,,0000,0000,0000,,Wait a minute. You're giving up that easily?!
+Dialogue: 0,0:13:53.71,0:13:56.72,MX Main Dialog,,0000,0000,0000,,I'm sorry for interrupting your fun.
+Dialogue: 0,0:13:56.72,0:13:58.27,MX Main Dialog,,0000,0000,0000,,Uh, no, it wasn't really...
+Dialogue: 0,0:13:58.75,0:14:00.07,MX Main Dialog,,0000,0000,0000,,So long!
+Dialogue: 0,0:14:00.07,0:14:01.27,MX Main Dialog,,0000,0000,0000,,We'll come again!
+Dialogue: 0,0:14:05.25,0:14:08.71,MX Main Dialog,,0000,0000,0000,,Akki is amazingly mature.
+Dialogue: 0,0:14:08.71,0:14:09.50,MX Main Dialog,,0000,0000,0000,,Yeah...
+Dialogue: 0,0:14:14.35,0:14:15.45,MX Main Dialog,,0000,0000,0000,,Don't follow me.
+Dialogue: 0,0:14:16.05,0:14:18.34,MX Main Dialog,,0000,0000,0000,,I'm heading back to my house.
+Dialogue: 0,0:14:18.34,0:14:21.63,MX Main Dialog,,0000,0000,0000,,Aww! I wanna play more!
+Dialogue: 0,0:14:20.14,0:14:21.63,MX Main Dialog,,0000,0000,0000,,Don't stretch it!
+Dialogue: 0,0:14:21.63,0:14:22.13,MX Main Dialog,,0000,0000,0000,,By golly!
+Dialogue: 0,0:14:22.54,0:14:24.38,MX Main Dialog,,0000,0000,0000,,Let's play Tarzan! Tarzan!
+Dialogue: 0,0:14:24.38,0:14:24.88,MX Main Dialog,,0000,0000,0000,,Tarzan?
+Dialogue: 0,0:14:25.34,0:14:27.14,MX Main Dialog,,0000,0000,0000,,We play it up that way!
+Dialogue: 0,0:14:27.14,0:14:28.84,MX Main Dialog,,0000,0000,0000,,It's gobs of fun!
+Dialogue: 0,0:14:32.63,0:14:34.35,MX Main Dialog,,0000,0000,0000,,Oh, all right.
+Dialogue: 0,0:14:34.35,0:14:35.87,MX Main Dialog,,0000,0000,0000,,Just for a bit.
+Dialogue: 0,0:14:35.87,0:14:38.44,MX Main Dialog,,0000,0000,0000,,Yay! This way, this way!
+Dialogue: 0,0:14:39.47,0:14:40.15,MX Main Dialog,,0000,0000,0000,,Say...
+Dialogue: 0,0:14:40.48,0:14:41.40,MX Main Dialog,,0000,0000,0000,,This is...
+Dialogue: 0,0:14:41.40,0:14:44.66,MX Main Dialog,,0000,0000,0000,,the most realistic Tarzan setting I've ever seen.
+Dialogue: 0,0:14:45.41,0:14:46.23,MX Main Dialog,,0000,0000,0000,,It's easy!
+Dialogue: 0,0:14:46.23,0:14:47.36,MX Main Dialog,,0000,0000,0000,,No, it's not!
+Dialogue: 0,0:14:47.36,0:14:49.41,MX Main Dialog,,0000,0000,0000,,Isn't that a real vine?!
+Dialogue: 0,0:14:49.41,0:14:51.05,MX Main Dialog,,0000,0000,0000,,I'll show ya how it's done!
+Dialogue: 0,0:14:51.05,0:14:52.45,MX Main Dialog,,0000,0000,0000,,Stop, it's dangerous!
+Dialogue: 0,0:14:52.86,0:14:53.52,MX Main Dialog,,0000,0000,0000,,Hey!
+Dialogue: 0,0:15:00.30,0:15:02.38,MX Main Dialog,,0000,0000,0000,,Just... like that...
+Dialogue: 0,0:15:02.66,0:15:03.84,MX Thought,,0000,0000,0000,,What'll I do?
+Dialogue: 0,0:15:03.84,0:15:05.84,MX Thought,,0000,0000,0000,,This doesn't look fun at all.
+Dialogue: 0,0:15:06.71,0:15:08.75,MX Main Dialog,,0000,0000,0000,,Okay, it's yer turn next, Sensei!
+Dialogue: 0,0:15:08.75,0:15:09.79,MX Main Dialog,,0000,0000,0000,,As if I could!
+Dialogue: 0,0:15:09.79,0:15:11.54,MX Main Dialog,,0000,0000,0000,,Why not? It's real fun!
+Dialogue: 0,0:15:11.54,0:15:13.35,MX Main Dialog,,0000,0000,0000,,Yer pretty lame for a grown-up!
+Dialogue: 0,0:15:13.35,0:15:16.85,MX Main Dialog,,0000,0000,0000,,You wouldn't say that if you \Nhad an adult's physique!
+Dialogue: 0,0:15:17.24,0:15:18.70,MX Main Dialog,,0000,0000,0000,,It's completely impossible!
+Dialogue: 0,0:15:18.70,0:15:21.27,MX Main Dialog,,0000,0000,0000,,There's no way this vine could \Nsupport an adult's weight.
+Dialogue: 0,0:15:21.73,0:15:25.35,MX Main Dialog,,0000,0000,0000,,Though, if all of you could hang from \Nit at once, it'd be a different story.
+Dialogue: 0,0:15:27.83,0:15:28.63,MX Main Dialog,,0000,0000,0000,,Oh, fine!
+Dialogue: 0,0:15:28.63,0:15:30.08,MX Main Dialog,,0000,0000,0000,,So I was wrong!
+Dialogue: 0,0:15:30.08,0:15:31.34,MX Main Dialog,,0000,0000,0000,,So, will ya do it too, Sensei?
+Dialogue: 0,0:15:31.34,0:15:32.57,MX Main Dialog,,0000,0000,0000,,All right, all right.
+Dialogue: 0,0:15:32.88,0:15:35.74,MX Main Dialog,,0000,0000,0000,,But I'm begging you, don't do \Nanything dangerous in front of me!
+Dialogue: 0,0:15:35.74,0:15:38.59,MX Main Dialog,,0000,0000,0000,,All right! This'll be gobs of fun!
+Dialogue: 0,0:15:38.59,0:15:40.81,MX Main Dialog,,0000,0000,0000,,You may be trying to convince me of that,
+Dialogue: 0,0:15:40.81,0:15:42.54,MX Main Dialog,,0000,0000,0000,,but I'm not happy about it.
+Dialogue: 0,0:15:43.09,0:15:46.43,MX Thought,,0000,0000,0000,,As long as this vine is here, \Nthey're going to get hurt someday.
+Dialogue: 0,0:15:46.43,0:15:49.77,MX Thought,,0000,0000,0000,,Sorry, kids, but I'm getting rid \Nof this dangerous toy.
+Dialogue: 0,0:15:50.13,0:15:51.13,MX Main Dialog,,0000,0000,0000,,Yer rarin' to go!
+Dialogue: 0,0:15:51.48,0:15:53.55,MX Thought,,0000,0000,0000,,I'll pretend to swing, and tear it off!
+Dialogue: 0,0:15:57.07,0:16:00.04,MX Main Dialog,,0000,0000,0000,,No, Sensei, you can't stretch it like that!
+Dialogue: 0,0:16:00.04,0:16:01.56,MX Main Dialog,,0000,0000,0000,,Stop it!
+Dialogue: 0,0:16:01.56,0:16:03.00,MX Main Dialog,,0000,0000,0000,,It'll tear!
+Dialogue: 0,0:16:03.00,0:16:04.48,MX Main Dialog,,0000,0000,0000,,Don't!
+Dialogue: 0,0:16:04.48,0:16:06.02,MX Main Dialog,,0000,0000,0000,,Everybody, stop!
+Dialogue: 0,0:16:24.94,0:16:27.00,MX Main Dialog,,0000,0000,0000,,Are any of you guys hurt?
+Dialogue: 0,0:16:27.00,0:16:28.05,MX Main Dialog,,0000,0000,0000,,Nope, we're fine!
+Dialogue: 0,0:16:28.05,0:16:29.88,MX Main Dialog,,0000,0000,0000,,That was super scary!
+Dialogue: 0,0:16:30.53,0:16:31.66,MX Thought,,0000,0000,0000,,I thought I was gonna die! \NI thought I was gonna die!
+Dialogue: 0,0:16:31.66,0:16:32.84,MX Thought,,0000,0000,0000,,I thought I was gonna die! \NI thought I was gonna die!
+Dialogue: 0,0:16:33.02,0:16:34.03,MX Main Dialog,,0000,0000,0000,,Sensei, yer bleedin'!
+Dialogue: 0,0:16:34.03,0:16:35.24,MX Main Dialog,,0000,0000,0000,,You all right?!
+Dialogue: 0,0:16:35.24,0:16:36.07,MX Main Dialog,,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:16:36.07,0:16:37.16,MX Main Dialog,,0000,0000,0000,,It's just a scratch.
+Dialogue: 0,0:16:37.16,0:16:38.68,MX Main Dialog,,0000,0000,0000,,Ya need mugwort for that!
+Dialogue: 0,0:16:38.68,0:16:40.68,MX Main Dialog,,0000,0000,0000,,Get lookin' for mugwort!
+Dialogue: 0,0:16:38.88,0:16:40.04,MX Main Dialog,,0000,0000,0000,,No, that's okay!
+Dialogue: 0,0:16:40.04,0:16:41.00,MX Main Dialog,,0000,0000,0000,,It's not that bad!
+Dialogue: 0,0:16:41.00,0:16:41.58,MX Main Dialog,,0000,0000,0000,,Naru!
+Dialogue: 0,0:16:41.58,0:16:42.52,MX Main Dialog,,0000,0000,0000,,I got mugwort!
+Dialogue: 0,0:16:43.58,0:16:45.55,MX Main Dialog,,0000,0000,0000,,This medicine'll stop the bleedin'!
+Dialogue: 0,0:16:45.55,0:16:47.08,MX Main Dialog,,0000,0000,0000,,I said it's just a scratch!
+Dialogue: 0,0:16:47.08,0:16:49.94,MX Main Dialog,,0000,0000,0000,,That'll only get bacteria in it!
+Dialogue: 0,0:16:50.37,0:16:52.29,MX Main Dialog,,0000,0000,0000,,This's a shortcut home!
+Dialogue: 0,0:16:52.29,0:16:55.49,MX Thought,,0000,0000,0000,,Yet another unproductive day...
+Dialogue: 0,0:16:56.29,0:16:58.70,MX Thought,,0000,0000,0000,,Day after day I play with kids,
+Dialogue: 0,0:16:58.70,0:17:00.65,MX Thought,,0000,0000,0000,,but don't get anything out of it.
+Dialogue: 0,0:17:00.65,0:17:04.33,MX Thought,,0000,0000,0000,,Is it really okay to just wait \Nfor inspiration to strike?
+Dialogue: 0,0:17:05.05,0:17:07.31,MX Thought,,0000,0000,0000,,The deadline keeps drawing closer...
+Dialogue: 0,0:17:07.31,0:17:08.17,MX Thought,,0000,0000,0000,,Closer...
+Dialogue: 0,0:17:19.61,0:17:20.38,MX Main Dialog,,0000,0000,0000,,There!
+Dialogue: 0,0:17:20.38,0:17:21.37,MX Main Dialog,,0000,0000,0000,,That's it!
+Dialogue: 0,0:17:21.37,0:17:22.97,MX Main Dialog,,0000,0000,0000,,The God of Calligraphy has descended!
+Dialogue: 0,0:17:23.63,0:17:26.94,MX Main Dialog,,0000,0000,0000,,I never thought I'd find the \Ndesire to write this easily!
+Dialogue: 0,0:17:27.53,0:17:29.04,MX Main Dialog,,0000,0000,0000,,I have to rush home and write!
+Dialogue: 0,0:17:29.04,0:17:30.52,MX Main Dialog,,0000,0000,0000,,Right now, I can do it!
+Dialogue: 0,0:17:34.87,0:17:36.65,MX Main Dialog,,0000,0000,0000,,What's the matter, Naru?
+Dialogue: 0,0:17:36.65,0:17:38.92,MX Main Dialog,,0000,0000,0000,,Sensei's not followin' us.
+Dialogue: 0,0:17:38.92,0:17:41.28,MX Main Dialog,,0000,0000,0000,,He just went home a different \Nway without tellin' us.
+Dialogue: 0,0:17:41.48,0:17:42.66,MX Main Dialog,,0000,0000,0000,,Ya may be right.
+Dialogue: 0,0:17:42.66,0:17:43.71,MX Main Dialog,,0000,0000,0000,,I am right!
+Dialogue: 0,0:17:43.71,0:17:45.47,MX Main Dialog,,0000,0000,0000,,Sensei's always like that.
+Dialogue: 0,0:17:45.47,0:17:46.25,MX Main Dialog,,0000,0000,0000,,Yer right!
+Dialogue: 0,0:17:46.25,0:17:47.22,MX Main Dialog,,0000,0000,0000,,Darn right!
+Dialogue: 0,0:17:51.47,0:17:53.25,MX Main Dialog,,0000,0000,0000,,Sensei ain't home yet?!
+Dialogue: 0,0:17:53.47,0:17:56.29,MX Main Dialog,,0000,0000,0000,,There wasn't anyone here when we came.
+Dialogue: 0,0:17:56.29,0:17:58.23,MX Main Dialog,,0000,0000,0000,,On our way back from the mountain,
+Dialogue: 0,0:17:58.23,0:17:59.72,MX Main Dialog,,0000,0000,0000,,Sensei just disappeared.
+Dialogue: 0,0:17:59.72,0:18:01.64,MX Main Dialog,,0000,0000,0000,,Disappeared?
+Dialogue: 0,0:18:01.64,0:18:03.39,MX Main Dialog,,0000,0000,0000,,I know what happened!
+Dialogue: 0,0:18:01.64,0:18:04.27,Book,,0000,0000,0000,,I Want to \NBe a Hermit
+Dialogue: 0,0:18:03.39,0:18:07.46,MX Main Dialog,,0000,0000,0000,,A wild giant from the hills must've \Ntrapped him and gobbled him up!
+Dialogue: 0,0:18:09.93,0:18:14.01,MX Main Dialog,,0000,0000,0000,,Monster or not, it's still worrisome \Nthat he hasn't returned yet.
+Dialogue: 0,0:18:14.01,0:18:17.90,MX Main Dialog,,0000,0000,0000,,Even if he got lost in the hills, \Nthe forest ain't that deep.
+Dialogue: 0,0:18:18.41,0:18:19.19,MX Main Dialog,,0000,0000,0000,,There!
+Dialogue: 0,0:18:23.13,0:18:23.95,MX Main Dialog,,0000,0000,0000,,Just a rabbit?
+Dialogue: 0,0:18:24.59,0:18:26.16,MX Main Dialog,,0000,0000,0000,,That scared me!
+Dialogue: 0,0:18:28.11,0:18:30.64,MX Thought,,0000,0000,0000,,And I finally felt like I could \Nwrite good calligraphy...
+Dialogue: 0,0:18:31.48,0:18:37.25,MX Thought,,0000,0000,0000,,The time I just spent playing \Nwith the kids feels far in the past.
+Dialogue: 0,0:18:39.32,0:18:40.38,MX Main Dialog,,0000,0000,0000,,This is bad!
+Dialogue: 0,0:18:40.38,0:18:44.08,MX Main Dialog,,0000,0000,0000,,I'm panicking so much that my brain's \Nstarted to fabricate memories!
+Dialogue: 0,0:18:44.40,0:18:46.60,MX Main Dialog,,0000,0000,0000,,Keep calm, keep calm.
+Dialogue: 0,0:18:46.60,0:18:48.80,MX Main Dialog,,0000,0000,0000,,A little further up, and I'll be back on the path.
+Dialogue: 0,0:18:50.80,0:18:52.63,MX Main Dialog,,0000,0000,0000,,You can do it, Seishuu!
+Dialogue: 0,0:18:52.78,0:18:54.88,MX Main Dialog,,0000,0000,0000,,You can do it, Seishuu!
+Dialogue: 0,0:18:55.24,0:18:56.30,MX Main Dialog,,0000,0000,0000,,All right!
+Dialogue: 0,0:19:02.25,0:19:02.95,MX Main Dialog,,0000,0000,0000,,Ow!
+Dialogue: 0,0:19:03.16,0:19:04.41,MX Main Dialog,,0000,0000,0000,,This can't be happening...
+Dialogue: 0,0:19:05.99,0:19:08.21,MX Main Dialog,,0000,0000,0000,,C'mon, cut it out already!
+Dialogue: 0,0:19:08.21,0:19:09.47,MX Main Dialog,,0000,0000,0000,,Darn it!
+Dialogue: 0,0:19:09.33,0:19:16.96,Box,,0000,0000,0000,,Pose to reduce surface area \Nin contact with ground
+Dialogue: 0,0:19:09.47,0:19:11.40,MX Main Dialog,,0000,0000,0000,,Isn't it about time someone came to rescue me?!
+Dialogue: 0,0:19:11.40,0:19:12.91,MX Main Dialog,,0000,0000,0000,,What are they doing?
+Dialogue: 0,0:19:12.91,0:19:14.86,MX Main Dialog,,0000,0000,0000,,Getting lost in the wilderness
+Dialogue: 0,0:19:14.86,0:19:16.96,MX Main Dialog,,0000,0000,0000,,is the height of isolation!
+Dialogue: 0,0:19:17.84,0:19:18.71,MX Main Dialog,,0000,0000,0000,,I'm going to die.
+Dialogue: 0,0:19:19.20,0:19:21.68,MX Main Dialog,,0000,0000,0000,,I'm going to end up dying alone, literally.
+Dialogue: 0,0:19:22.65,0:19:24.33,MX Main Dialog,,0000,0000,0000,,Somebody save me!
+Dialogue: 0,0:19:24.33,0:19:26.34,MX Main Dialog,,0000,0000,0000,,I don't care who!
+Dialogue: 0,0:19:28.54,0:19:29.42,MX Main Dialog,,0000,0000,0000,,What's that?
+Dialogue: 0,0:19:32.76,0:19:34.68,MX Main Dialog,,0000,0000,0000,,What, it's just a key?
+Dialogue: 0,0:19:39.52,0:19:41.16,MX Main Dialog,,0000,0000,0000,,It's a key to my house!
+Dialogue: 0,0:19:42.12,0:19:43.16,MX Flashback,,0000,0000,0000,,The duplicate key?
+Dialogue: 0,0:19:43.16,0:19:44.25,MX Flashback,,0000,0000,0000,,I lost it.
+Dialogue: 0,0:19:44.25,0:19:46.41,MX Flashback,,0000,0000,0000,,Maybe while playin' in the hills out back?
+Dialogue: 0,0:19:46.53,0:19:47.79,MX Main Dialog,,0000,0000,0000,,That girl...
+Dialogue: 0,0:19:51.45,0:19:53.05,MX Main Dialog,,0000,0000,0000,,This is ridiculous!
+Dialogue: 0,0:19:53.05,0:19:55.73,MX Main Dialog,,0000,0000,0000,,What am I freaking out about? \NI'm in the hills behind my house!
+Dialogue: 0,0:19:55.73,0:19:58.71,MX Main Dialog,,0000,0000,0000,,Who the heck gets hopelessly \Nlost in his own backyard?
+Dialogue: 0,0:20:03.57,0:20:04.60,MX Main Dialog,,0000,0000,0000,,What's this?
+Dialogue: 0,0:20:05.82,0:20:07.43,MX Main Dialog,,0000,0000,0000,,Amazing...
+Dialogue: 0,0:20:07.43,0:20:09.41,MX Main Dialog,,0000,0000,0000,,Is this outer space?
+Dialogue: 0,0:20:10.33,0:20:11.29,MX Main Dialog,,0000,0000,0000,,A shooting star!
+Dialogue: 0,0:20:12.11,0:20:13.85,MX Main Dialog,,0000,0000,0000,,Please fix my bath. Please fix my bath.
+Dialogue: 0,0:20:13.85,0:20:15.36,MX Main Dialog,,0000,0000,0000,,Please fix my bath!
+Dialogue: 0,0:20:16.29,0:20:18.02,MX Main Dialog,,0000,0000,0000,,No, that's not it.
+Dialogue: 0,0:20:18.41,0:20:20.99,MX Main Dialog,,0000,0000,0000,,Please let me get home soon \Nand write calligraphy!
+Dialogue: 0,0:20:23.12,0:20:25.75,MX Main Dialog,,0000,0000,0000,,See? I told ya he fell off the edge.
+Dialogue: 0,0:20:25.75,0:20:28.32,MX Main Dialog,,0000,0000,0000,,No wonder he wasn't on the \Nusual paths when we looked.
+Dialogue: 0,0:20:28.32,0:20:31.99,MX Main Dialog,,0000,0000,0000,,Sensei, I'm so glad yer safe!
+Dialogue: 0,0:20:32.71,0:20:33.62,MX Main Dialog,,0000,0000,0000,,Sheesh!
+Dialogue: 0,0:20:33.90,0:20:35.11,MX Main Dialog,,0000,0000,0000,,What took you so long?
+Dialogue: 0,0:20:35.49,0:20:37.30,MX Main Dialog,,0000,0000,0000,,Is Sensei cryin'?
+Dialogue: 0,0:20:37.30,0:20:38.55,MX Main Dialog,,0000,0000,0000,,Yes, he is...
+Dialogue: 0,0:20:46.58,0:20:47.97,MX Main Dialog,,0000,0000,0000,,Yes! It's finally come!
+Dialogue: 0,0:20:47.97,0:20:48.95,MX Main Dialog,,0000,0000,0000,,Sensei!
+Dialogue: 0,0:20:48.95,0:20:50.31,MX Main Dialog,,0000,0000,0000,,I brought the first aid...
+Dialogue: 0,0:20:50.31,0:20:51.98,MX Main Dialog,,0000,0000,0000,,Here! It's here!
+Dialogue: 0,0:20:51.98,0:20:53.92,MX Main Dialog,,0000,0000,0000,,He's in the middle of work.
+Dialogue: 0,0:20:57.69,0:20:59.44,Name 1,,0000,0000,0000,,Seishuu \NHanda
+Dialogue: 0,0:20:59.44,0:21:00.32,Name 2,,0000,0000,0000,,Seishuu \NHanda
+Dialogue: 0,0:21:00.23,0:21:02.07,STAR,,0000,0000,0000,,STAR
+Dialogue: 0,0:21:02.59,0:21:05.65,MX Main Dialog,,0000,0000,0000,,As I thought, inspiration really is important.
+Dialogue: 0,0:22:41.25,0:22:42.06,MX Main Dialog,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:42.71,0:22:43.76,MX Main Dialog,,0000,0000,0000,,I see.
+Dialogue: 0,0:22:44.19,0:22:45.80,MX Main Dialog,,0000,0000,0000,,Yeah, got it.
+Dialogue: 0,0:22:46.68,0:22:47.92,MX Main Dialog,,0000,0000,0000,,I'll come home.

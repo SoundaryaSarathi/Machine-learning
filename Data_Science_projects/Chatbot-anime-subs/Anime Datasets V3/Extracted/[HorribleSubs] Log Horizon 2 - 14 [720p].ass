@@ -1,0 +1,456 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Location,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,27,51,0
+Style: Inventory,Open Sans Semibold,33,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: HUD Big,Open Sans Semibold,42,&H00F1EDEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Open Sans Semibold,36,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Monsters,Open Sans Semibold,30,&H00BAB6DE,&H000000FF,&H001F2151,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,37,0
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Open Sans Semibold,27,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Open Sans Semibold,27,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Open Sans Semibold,33,&H005C34C9,&H000000FF,&H00FD995E,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignB,Open Sans Semibold,30,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SignC,Open Sans Semibold,30,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,93,13,127,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.73,0:00:09.02,Location,,0000,0000,0000,,{\fad(316,1)\an9}Town of Minami\N{\fs18}Japan Server\NTown of Minami\NCity/ No Monsters\NPVP Permitted\NSkill Use Restricted\NEntry Restrictions/ Yes\NExit Restrictions/ Yes
+Dialogue: 0,0:00:04.86,0:00:07.50,Default,Gu,0000,0000,0000,,Eighteen cases of EXP pots left.
+Dialogue: 0,0:00:08.24,0:00:09.45,Default,Gi,0000,0000,0000,,Those damned adventurers...
+Dialogue: 0,0:00:09.23,0:00:14.53,HUD1,,0000,0000,0000,,{\fad(279,1)\an7\fs18}Magic Circle Linked Path Train\N{\fs22}Iron-Steel Train
+Dialogue: 0,0:00:09.96,0:00:13.31,Default,Gi,0000,0000,0000,,They say what they really wanted \Nto make was a flying machine.
+Dialogue: 0,0:00:13.31,0:00:15.65,Default,Gi,0000,0000,0000,,They're so greedy.
+Dialogue: 0,0:00:16.03,0:00:18.60,Default,Gu,0000,0000,0000,,It was Miss Nureha, an adventurer,
+Dialogue: 0,0:00:18.60,0:00:22.04,Default,,0000,0000,0000,,who gave us People of the \NLand the iron-steel train.
+Dialogue: 0,0:00:22.36,0:00:23.79,Default,Gu,0000,0000,0000,,Watch your mouth.
+Dialogue: 0,0:00:25.59,0:00:28.67,Default,Gi,0000,0000,0000,,Whatever you say, Captain of the Royal Guard.
+Dialogue: 0,0:00:30.92,0:00:32.71,Default,Gu,0000,0000,0000,,You're supposed to keep an eye on this?
+Dialogue: 0,0:00:32.71,0:00:35.03,Default,Gu,0000,0000,0000,,You always get the crappy jobs.
+Dialogue: 0,0:00:35.96,0:00:37.52,Default,Gu,0000,0000,0000,,So where's Miss Nureha?
+Dialogue: 0,0:00:37.91,0:00:38.99,Default,Gu,0000,0000,0000,,Not here yet.
+Dialogue: 0,0:00:38.99,0:00:40.68,Default,Gu,0000,0000,0000,,Locked up in her room again?
+Dialogue: 0,0:00:41.33,0:00:44.61,Default,Gu,0000,0000,0000,,What does Indicus intend to do with that princess?
+Dialogue: 0,0:00:45.03,0:00:46.66,Default,Gu,0000,0000,0000,,She's a replacement for Kanami, right?
+Dialogue: 0,0:00:47.23,0:00:50.69,Default,Gu,0000,0000,0000,,You think someone could actually replace her?
+Dialogue: 0,0:00:51.24,0:00:52.07,Default,Gu,0000,0000,0000,,You're right.
+Dialogue: 0,0:00:52.57,0:00:55.56,Default,Gu,0000,0000,0000,,It's been two years since she left the Tea Party.
+Dialogue: 0,0:00:55.56,0:00:57.70,Default,Gu,0000,0000,0000,,Who knows what she's doing now?
+Dialogue: 0,0:00:58.31,0:01:00.58,Default,Gu,0000,0000,0000,,She's heading straight here.
+Dialogue: 0,0:01:01.92,0:01:05.06,Default,Gu,0000,0000,0000,,I met Kanami on the China server.
+Dialogue: 0,0:01:05.87,0:01:08.81,Default,Gu,0000,0000,0000,,She's... Kanami's back in the game?
+Dialogue: 0,0:01:09.29,0:01:10.09,Default,Gu,0000,0000,0000,,Yep.
+Dialogue: 0,0:01:10.36,0:01:12.99,Default,Gu,0000,0000,0000,,And the scary thing is that \Nshe hadn't changed a bit.
+Dialogue: 0,0:01:13.32,0:01:15.47,Default,Gu,0000,0000,0000,,She was exactly like she was with us.
+Dialogue: 0,0:01:15.97,0:01:18.63,Default,Gu,0000,0000,0000,,She was as much Kanami as ever.
+Dialogue: 0,0:02:51.09,0:02:53.11,Default,Gu,0000,0000,0000,,Just after the Apocalypse,
+Dialogue: 0,0:02:53.11,0:02:56.98,Default,,0000,0000,0000,,I went to the continent to gather \Ninformation about this world.
+Dialogue: 0,0:02:57.35,0:03:00.27,Default,Gu,0000,0000,0000,,Using Soul Possession to possess a white horse.
+Dialogue: 0,0:03:00.85,0:03:01.94,Default,Gu,0000,0000,0000,,And there...
+Dialogue: 0,0:03:06.60,0:03:07.91,Default - flashback,K,0000,0000,0000,,This is so great!
+Dialogue: 0,0:03:07.91,0:03:09.47,Default - flashback,K,0000,0000,0000,,So much adventure!
+Dialogue: 0,0:03:09.25,0:03:11.29,HUD1,K,0000,0000,0000,,{\an7\fad(439,391)}Kanami \N{\fs20}Race/ Human \NMonk, Lv. 90 \NNo Guild
+Dialogue: 0,0:03:09.47,0:03:11.00,Default - flashback,Guild,0000,0000,0000,,Let's go, Froggy-nardo!
+Dialogue: 0,0:03:11.38,0:03:12.72,Default - flashback,Gu,0000,0000,0000,,It's not Froggy-nardo.
+Dialogue: 0,0:03:12.72,0:03:13.58,Default - flashback,Gu,0000,0000,0000,,It's Leonardo!
+Dialogue: 0,0:03:19.37,0:03:21.30,Default,Gu,0000,0000,0000,,And I found Kanami.
+Dialogue: 0,0:03:21.38,0:03:27.31,Title,S,0000,0000,0000,,{\fad(1406,1)}Kanami, Go East!
+Dialogue: 0,0:03:22.89,0:03:24.78,Default,S,0000,0000,0000,,Kanami, Go East.
+Dialogue: 0,0:03:28.88,0:03:29.99,Default - flashback,K,0000,0000,0000,,There's no end to them.
+Dialogue: 0,0:03:29.99,0:03:31.20,Default - flashback,Gu,0000,0000,0000,,I told you.
+Dialogue: 0,0:03:31.20,0:03:33.25,Default - flashback,Gu,0000,0000,0000,,This is a raid-rank event!
+Dialogue: 0,0:03:33.25,0:03:36.98,Default - flashback,Gi,0000,0000,0000,,The number of Daylight Shades \Nexceeds two thousand.
+Dialogue: 0,0:03:36.98,0:03:40.12,Default - flashback,K,0000,0000,0000,,We can't use revivals or return spells to run, right?
+Dialogue: 0,0:03:40.12,0:03:40.94,Default - flashback,K,0000,0000,0000,,Awesome!
+Dialogue: 0,0:03:41.24,0:03:45.07,Default - flashback,Gu,0000,0000,0000,,Because of the Fairy Eye curse, \NI can't finish any of them.
+Dialogue: 0,0:03:45.07,0:03:46.71,Default - flashback,Gu,0000,0000,0000,,What kind of party is this?
+Dialogue: 0,0:03:46.71,0:03:48.67,Default - flashback,Gu,0000,0000,0000,,A gap has appeared on the battlefield.
+Dialogue: 0,0:03:51.35,0:03:52.08,Default - flashback,Gu,0000,0000,0000,,What?
+Dialogue: 0,0:03:52.29,0:03:54.33,Default - flashback,K,0000,0000,0000,,Let's go, Eri-Eri, Froggy-nardo!
+Dialogue: 0,0:03:54.69,0:03:56.09,Default - flashback,Gu,0000,0000,0000,,I'm not Froggy-nardo!
+Dialogue: 0,0:03:56.09,0:03:58.48,Default - flashback,Gu,0000,0000,0000,,We have to go on foot?
+Dialogue: 0,0:03:59.69,0:04:01.80,Default - flashback,K,0000,0000,0000,,Huh? You're KR?
+Dialogue: 0,0:04:01.80,0:04:04.45,Default - flashback,K,0000,0000,0000,,I thought you were a horse someone sent.
+Dialogue: 0,0:04:04.45,0:04:06.47,Default - flashback,Gu,0000,0000,0000,,You haven't changed a bit.
+Dialogue: 0,0:04:06.47,0:04:10.74,Default - flashback,Gu,0000,0000,0000,,Didn't you move overseas in \Nreal life, and quit the game?
+Dialogue: 0,0:04:11.08,0:04:13.19,Default - flashback,K,0000,0000,0000,,I got back into it in Rome.
+Dialogue: 0,0:04:13.19,0:04:14.86,Default - flashback,K,0000,0000,0000,,And now this happened.
+Dialogue: 0,0:04:15.40,0:04:17.98,Default - flashback,Gu,0000,0000,0000,,And? What are you doing on the China server?
+Dialogue: 0,0:04:18.74,0:04:20.49,Default - flashback,K,0000,0000,0000,,Heading to Japan!
+Dialogue: 0,0:04:20.49,0:04:21.72,Default - flashback,Gu,0000,0000,0000,,To Yamato?
+Dialogue: 0,0:04:20.49,0:04:22.65,Default - flashback,Gu,0000,0000,0000,,Kanami, it isn't that way.
+Dialogue: 0,0:04:21.72,0:04:22.65,Default - flashback,Gu,0000,0000,0000,,Why?
+Dialogue: 0,0:04:24.53,0:04:28.41,Default - flashback,K,0000,0000,0000,,In Yamato, they're calling this \Nthe "Apocalypse," right?
+Dialogue: 0,0:04:29.01,0:04:31.87,Default - flashback,K,0000,0000,0000,,I want to know why it happened.
+Dialogue: 0,0:04:32.38,0:04:35.92,Default - flashback,Gu,0000,0000,0000,,Kanami says it might have something \Nto do with the Novasphere Pioneers.
+Dialogue: 0,0:04:36.56,0:04:41.64,Default,Gu,0000,0000,0000,,The twelfth expansion pack \Nfor the MMORPG {\i1}Elder Tale{\i0},
+Dialogue: 0,0:04:41.64,0:04:43.55,Default,,0000,0000,0000,,the Novasphere Pioneers.
+Dialogue: 0,0:04:43.91,0:04:48.62,Default,Gu,0000,0000,0000,,It's true that we were sent to this \Nworld right after it went live.
+Dialogue: 0,0:04:48.98,0:04:50.43,Default,Gu,0000,0000,0000,,But why Japan?
+Dialogue: 0,0:04:50.43,0:04:52.63,Default,Gu,0000,0000,0000,,Japan is in the East.
+Dialogue: 0,0:04:52.63,0:04:56.69,Default,Gu,0000,0000,0000,,The expansion was set to go live \Nat exactly midnight, on May 3rd.
+Dialogue: 0,0:04:57.00,0:05:01.40,Default,Gu,0000,0000,0000,,So due to the time zone, it was only \Nimplemented on the Japan server?
+Dialogue: 0,0:05:01.40,0:05:02.44,Default,Gu,0000,0000,0000,,Right.
+Dialogue: 0,0:05:03.65,0:05:06.70,Default,Gu,0000,0000,0000,,And as she headed to the East, \Nshe had companions.
+Dialogue: 0,0:05:08.24,0:05:09.98,Default - flashback,Gu,0000,0000,0000,,I miss giga-meat.
+Dialogue: 0,0:05:09.87,0:05:15.66,HUD1,Gu,0000,0000,0000,,{\fad(398,1)\an7}Leonardo \N{\fs20}Race/ Human \NAssassin, Lv. 90 \NNo Guild
+Dialogue: 0,0:05:10.58,0:05:13.53,Default,Guild,0000,0000,0000,,Leonardo, an assassin who'd used \Nfairy rings to come from the
+Dialogue: 0,0:05:13.53,0:05:15.66,Default,,0000,0000,0000,,America server and couldn't get back.
+Dialogue: 0,0:05:16.23,0:05:19.04,Default,Guild,0000,0000,0000,,Supposedly, he'd just joined the party.
+Dialogue: 0,0:05:19.37,0:05:21.17,Default - flashback,Gi,0000,0000,0000,,Do you desire healing?
+Dialogue: 0,0:05:21.55,0:05:25.67,Default,Gu,0000,0000,0000,,Coppelia, a cleric Kanami had met on her travels.
+Dialogue: 0,0:05:21.86,0:05:25.67,HUD1,Gi,0000,0000,0000,,{\an9\fad(378,1)}Coppelia \N{\fs20}Race/ Human \NCleric, Lv. 90 \NNo Guild
+Dialogue: 0,0:05:25.95,0:05:28.09,Default - flashback,Gu,0000,0000,0000,,No, I just want to eat some pizza.
+Dialogue: 0,0:05:28.61,0:05:31.43,Default,Gu,0000,0000,0000,,And Erius Hackblade.
+Dialogue: 0,0:05:31.43,0:05:32.34,Default,Gu,0000,0000,0000,,What?
+Dialogue: 0,0:05:32.34,0:05:33.67,Default,Gu,0000,0000,0000,,The progenitor?
+Dialogue: 0,0:05:32.62,0:05:40.94,HUD1,Gu,0000,0000,0000,,{\an7\fad(379,1)}Erius Hackblade \N{\fs20}Race/ Elf \NBlademancer, Lv. 100 \NRedbranch Knights
+Dialogue: 0,0:05:34.07,0:05:36.24,Default,Guild,0000,0000,0000,,A hero who belongs to the Redbranch Knights,
+Dialogue: 0,0:05:36.24,0:05:40.65,Default,,0000,0000,0000,,one of the thirteen orders of knights \Nwho maintain order in the world.
+Dialogue: 0,0:05:41.53,0:05:47.07,Default,Guild,0000,0000,0000,,He's a blademancer and a noble, \Nblue-blooded progenitor.
+Dialogue: 0,0:05:47.07,0:05:50.55,Default,Guild,0000,0000,0000,,He's so famous, he's even on \Nthe {\i1}Elder Tale{\i0} package.
+Dialogue: 0,0:05:51.08,0:05:54.07,Default,Guild,0000,0000,0000,,But all the progenitors supposedly disappeared.
+Dialogue: 0,0:05:54.07,0:05:56.46,Default,Guild,0000,0000,0000,,Just like the Izumo Knights on the Yamato server.
+Dialogue: 0,0:05:56.80,0:05:59.92,Default,Guild,0000,0000,0000,,Why was he with Kanami, anyway?
+Dialogue: 0,0:05:59.92,0:06:01.72,Default,Guild,0000,0000,0000,,Because she's Kanami, I suppose.
+Dialogue: 0,0:06:02.26,0:06:03.46,Default,Guild,0000,0000,0000,,That makes sense.
+Dialogue: 0,0:06:03.73,0:06:06.47,Default,Guild,0000,0000,0000,,Anyway, we continued our journey.
+Dialogue: 0,0:06:06.82,0:06:11.05,Location,Guild,0000,0000,0000,,{\fad(338,1)\an7}Sekek Village\N{\fs18}China Server\NAorsoi: Zhympity\NField/ Monsters Present\NPVP Permitted\NSkill Use Permitted\NEntry Restrictions/ None\NExit Restrictions/ None
+Dialogue: 0,0:06:07.39,0:06:08.68,Default,Guild,0000,0000,0000,,And on our way...
+Dialogue: 0,0:06:11.53,0:06:13.41,Default - flashback,K,0000,0000,0000,,Quick timeout!
+Dialogue: 0,0:06:15.05,0:06:16.98,Default - flashback,K,0000,0000,0000,,What are you doing, Froggy-nardo?!
+Dialogue: 0,0:06:17.61,0:06:19.00,Default - flashback,Gu,0000,0000,0000,,What's in there, Kanami?
+Dialogue: 0,0:06:19.00,0:06:20.72,Default - flashback,K,0000,0000,0000,,A boy...
+Dialogue: 0,0:06:22.33,0:06:23.98,Default - flashback,Gu,0000,0000,0000,,What's going on? His status...
+Dialogue: 0,0:06:25.04,0:06:26.32,Default - flashback,Gu,0000,0000,0000,,What is he?
+Dialogue: 0,0:06:26.85,0:06:28.62,Default - flashback,K,0000,0000,0000,,No, Froggy-nardo!
+Dialogue: 0,0:06:28.62,0:06:30.22,Default - flashback,Gu,0000,0000,0000,,If we leave him, he'll kill someone!
+Dialogue: 0,0:06:41.72,0:06:43.09,Default - flashback,Gu,0000,0000,0000,,Erius! Throw him here!
+Dialogue: 0,0:06:43.56,0:06:44.34,Default - flashback,Gu,0000,0000,0000,,Understood!
+Dialogue: 0,0:06:45.99,0:06:48.46,Default - flashback,Gu,0000,0000,0000,,Arms of the fairies of the black night...
+Dialogue: 0,0:06:49.14,0:06:50.76,Default - flashback,Gu,0000,0000,0000,,{\i1}Night Splash!
+Dialogue: 0,0:06:52.29,0:06:53.22,Default - flashback,Gu,0000,0000,0000,,You threw him too far!
+Dialogue: 0,0:06:53.22,0:06:53.97,Default - flashback,Gu,0000,0000,0000,,Oops.
+Dialogue: 0,0:06:55.51,0:06:56.88,Default - flashback,Gu,0000,0000,0000,,Watch out, Coppelia!
+Dialogue: 0,0:06:59.54,0:07:00.85,Default - flashback,Gu,0000,0000,0000,,{\i1}He's a Person of the Land.
+Dialogue: 0,0:07:01.23,0:07:02.55,Default - flashback,Gu,0000,0000,0000,,{\i1}A non-player character.
+Dialogue: 0,0:07:02.92,0:07:04.61,Default - flashback,Gu,0000,0000,0000,,{\i1}I can kill him with Assassinate.
+Dialogue: 0,0:07:05.24,0:07:06.29,Default - flashback,Gu,0000,0000,0000,,{\i1}Don't worry about it.
+Dialogue: 0,0:07:06.29,0:07:07.61,Default - flashback,Gu,0000,0000,0000,,{\i1}He's only a program!
+Dialogue: 0,0:07:10.68,0:07:11.36,Default - flashback,K,0000,0000,0000,,Froggy-nardo!
+Dialogue: 0,0:07:12.18,0:07:13.42,Default - flashback,Gu,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:07:13.84,0:07:16.72,Default - flashback,Gu,0000,0000,0000,,I just stunned him with Paralyzing Blow.
+Dialogue: 0,0:07:18.78,0:07:20.74,Default - flashback,Gu,0000,0000,0000,,Did you see it, too, Kanami?
+Dialogue: 0,0:07:20.74,0:07:23.00,Default - flashback,Gu,0000,0000,0000,,His status was displayed in two layers.
+Dialogue: 0,0:07:23.33,0:07:25.02,Default - flashback,Gu,0000,0000,0000,,What was that?
+Dialogue: 0,0:07:25.49,0:07:28.06,Default - flashback,Gu,0000,0000,0000,,Has this ever happened before?
+Dialogue: 0,0:07:28.41,0:07:29.01,Default - flashback,Gu,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:29.22,0:07:32.90,Default - flashback,Gu,0000,0000,0000,,One day people who'd been \Nacting completely normally
+Dialogue: 0,0:07:32.90,0:07:35.01,Default - flashback,,0000,0000,0000,,suddenly turned into beasts.
+Dialogue: 0,0:07:35.01,0:07:37.53,Default - flashback,Gu,0000,0000,0000,,We call them the plague demons.
+Dialogue: 0,0:07:37.53,0:07:39.52,Default - flashback,Gu,0000,0000,0000,,We don't know why they happen at all.
+Dialogue: 0,0:07:39.73,0:07:44.10,HUD1,Gu,0000,0000,0000,,{\fad(271,1)\an8}Plague Demons
+Dialogue: 0,0:07:41.56,0:07:44.17,Default - flashback,Gu,0000,0000,0000,,So much mystery...
+Dialogue: 0,0:07:45.57,0:07:46.58,Default - flashback,S,0000,0000,0000,,{\i1}We can do it.
+Dialogue: 0,0:07:47.29,0:07:49.53,Default - flashback,S,0000,0000,0000,,{\i1}If we gather all the information we can find,
+Dialogue: 0,0:07:49.99,0:07:52.93,Default - flashback,S,0000,0000,0000,,{\i1}and if everyone wants to see something new.
+Dialogue: 0,0:07:55.50,0:07:59.15,Default - flashback,Gu,0000,0000,0000,,In several days, a trader will be visiting the village.
+Dialogue: 0,0:07:59.15,0:08:01.96,Default - flashback,Gi,0000,0000,0000,,We need information and supplies.
+Dialogue: 0,0:08:02.36,0:08:05.29,Default - flashback,Gu,0000,0000,0000,,So we wait until he shows up?
+Dialogue: 0,0:08:05.29,0:08:06.42,Default - flashback,K,0000,0000,0000,,Yep!
+Dialogue: 0,0:08:10.13,0:08:11.13,Default - flashback,Gu,0000,0000,0000,,Hey, mister!
+Dialogue: 0,0:08:11.37,0:08:12.88,Default - flashback,Gi,0000,0000,0000,,Why are you green?
+Dialogue: 0,0:08:12.88,0:08:14.23,Default - flashback,Gu,0000,0000,0000,,Why are you a frog?
+Dialogue: 0,0:08:14.23,0:08:15.89,Default - flashback,Gu,0000,0000,0000,,This is the sign that I'm a hero!
+Dialogue: 0,0:08:16.59,0:08:21.14,Default - flashback,Gu,0000,0000,0000,,A frog ninja is a symbol of the most \Ncourageous hero in the world!
+Dialogue: 0,0:08:21.41,0:08:22.68,Default - flashback,Gu,0000,0000,0000,,I don't get it.
+Dialogue: 0,0:08:22.68,0:08:23.92,Default - flashback,Gu,0000,0000,0000,,What's a hero?
+Dialogue: 0,0:08:23.92,0:08:25.17,Default - flashback,Gu,0000,0000,0000,,Is it yummy?
+Dialogue: 0,0:08:25.17,0:08:27.63,Default - flashback,Gu,0000,0000,0000,,{\i1}Jeez... This is why I hate kids.
+Dialogue: 0,0:08:29.10,0:08:32.23,Default - flashback,Gu,0000,0000,0000,,{\i1}I guess there's no point in \Ngetting upset at NPCs.
+Dialogue: 0,0:08:34.06,0:08:37.05,Default - flashback,K,0000,0000,0000,,So one of the mares came \Nafter you in the stables?
+Dialogue: 0,0:08:37.05,0:08:38.01,Default - flashback,Gu,0000,0000,0000,,Don't laugh!
+Dialogue: 0,0:08:38.01,0:08:39.34,Default - flashback,K,0000,0000,0000,,Are you really popular with the ladies, KR?
+Dialogue: 0,0:08:39.34,0:08:40.04,Default - flashback,Gu,0000,0000,0000,,Shut up.
+Dialogue: 0,0:08:40.34,0:08:42.04,Default - flashback,K,0000,0000,0000,,Well? How's Japan doing?
+Dialogue: 0,0:08:42.43,0:08:44.54,Default - flashback,K,0000,0000,0000,,Is anything interesting going on?
+Dialogue: 0,0:08:44.54,0:08:46.29,SignA,K,0000,0000,0000,,{\c&H000B13&\3c&HDFE1DB&}Stop playing around
+Dialogue: 0,0:08:46.60,0:08:48.84,Default - flashback,K,0000,0000,0000,,Shiro is?
+Dialogue: 0,0:08:48.84,0:08:52.82,Default - flashback,Gu,0000,0000,0000,,Evidently he's at the core of some organization \Ncalled the "Round Table."
+Dialogue: 0,0:08:52.82,0:08:56.93,Default - flashback,Gu,0000,0000,0000,,Though on the surface, someone else leads it.
+Dialogue: 0,0:08:56.93,0:08:58.80,Default - flashback,K,0000,0000,0000,,That's my tour guide!
+Dialogue: 0,0:09:00.94,0:09:02.66,Default,A,0000,0000,0000,,What's wrong, my lord?
+Dialogue: 0,0:09:02.66,0:09:07.15,Default,S,0000,0000,0000,,I just felt like someone gave \Nme an impossible task.
+Dialogue: 0,0:09:08.69,0:09:10.98,Default - flashback,S,0000,0000,0000,,{\i1}During the game, you couldn't start
+Dialogue: 0,0:09:10.98,0:09:13.82,Default - flashback,,0000,0000,0000,,{\i1}a new skill while still using the last.
+Dialogue: 0,0:09:13.82,0:09:19.97,Default - flashback,S,0000,0000,0000,,{\i1}But now that I have a physical body, \NI can do cancels and combos!
+Dialogue: 0,0:09:22.51,0:09:24.46,Default - flashback,Gi,0000,0000,0000,,Do you require healing?
+Dialogue: 0,0:09:24.46,0:09:26.31,Default - flashback,Gu,0000,0000,0000,,No, I'm fine.
+Dialogue: 0,0:09:27.91,0:09:31.66,Default - flashback,Gu,0000,0000,0000,,By the way, what do you think about \Nthe Novasphere Pioneers?
+Dialogue: 0,0:09:32.01,0:09:35.97,Default - flashback,Gi,0000,0000,0000,,I've been told it was applied \Nto the Japan server.
+Dialogue: 0,0:09:36.46,0:09:39.34,Default - flashback,Gu,0000,0000,0000,,Then what about the Japan server?
+Dialogue: 0,0:09:39.71,0:09:44.19,Default - flashback,Gi,0000,0000,0000,,Due to my master's wishes, \Nit's been plotted as a high priority.
+Dialogue: 0,0:09:44.68,0:09:47.04,Default - flashback,Gu,0000,0000,0000,,And what's your master, Kanami, like?
+Dialogue: 0,0:09:48.62,0:09:49.93,Default - flashback,Gi,0000,0000,0000,,My master is like
+Dialogue: 0,0:09:50.41,0:09:52.26,Default - flashback,,0000,0000,0000,,daybreak.
+Dialogue: 0,0:09:53.06,0:09:53.61,Default - flashback,,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:54.55,0:09:58.61,Default - flashback,Gi,0000,0000,0000,,On the other side of that sky, \Nthe sun is racing forward.
+Dialogue: 0,0:09:59.46,0:10:01.66,Default - flashback,Gi,0000,0000,0000,,It has just now set.
+Dialogue: 0,0:10:02.05,0:10:04.97,Default - flashback,Gi,0000,0000,0000,,But tomorrow morning, at 0438,
+Dialogue: 0,0:10:04.97,0:10:07.62,Default - flashback,Gi,0000,0000,0000,,the eastern sky will begin to brighten.
+Dialogue: 0,0:10:08.34,0:10:10.65,Default - flashback,Gi,0000,0000,0000,,At night, the sky is dark.
+Dialogue: 0,0:10:11.04,0:10:16.61,Default - flashback,Gi,0000,0000,0000,,At early dawn, it begins to turn dark purple.
+Dialogue: 0,0:10:17.46,0:10:19.50,Default - flashback,Gi,0000,0000,0000,,Then bluish purple.
+Dialogue: 0,0:10:19.50,0:10:20.75,Default - flashback,Gi,0000,0000,0000,,Then azure.
+Dialogue: 0,0:10:21.21,0:10:23.64,Default - flashback,Gi,0000,0000,0000,,Gradually, the sky turns increasingly blue,
+Dialogue: 0,0:10:23.64,0:10:25.37,Default - flashback,Gi,0000,0000,0000,,but there is still no light.
+Dialogue: 0,0:10:26.12,0:10:28.93,Default - flashback,Gi,0000,0000,0000,,Because the sun has not appeared,
+Dialogue: 0,0:10:28.93,0:10:30.21,Default - flashback,Gi,0000,0000,0000,,it's still dark.
+Dialogue: 0,0:10:30.94,0:10:35.90,Default - flashback,Gi,0000,0000,0000,,But no one sees that blue and \Ndoubts that the sun will rise.
+Dialogue: 0,0:10:36.81,0:10:39.45,Default - flashback,Gi,0000,0000,0000,,That is what my master is like.
+Dialogue: 0,0:10:44.16,0:10:48.83,Default,Gu,0000,0000,0000,,Several days later, the trader's caravan arrived.
+Dialogue: 0,0:10:49.75,0:10:55.84,HUD1,Gu,0000,0000,0000,,{\fad(358,1)\an7}Chun-Lu \N{\fs20}Race/ Human \NCleric, Lv. 90 \NRakurou Wolf Brigade
+Dialogue: 0,0:10:50.11,0:10:52.16,Default - flashback,Gi,0000,0000,0000,,My name is Chun-Lu.
+Dialogue: 0,0:10:52.16,0:10:55.84,Default - flashback,Gi,0000,0000,0000,,I'm a wanderer with the Rakurou \NWolf Brigade guild.
+Dialogue: 0,0:10:56.36,0:11:01.84,Default - flashback,Gi,0000,0000,0000,,I was unable to protect the other \Nmembers of my caravan.
+Dialogue: 0,0:11:03.68,0:11:05.60,Default - flashback,Gu,0000,0000,0000,,What happened?
+Dialogue: 0,0:11:09.16,0:11:11.80,Default - flashback,Gi,0000,0000,0000,,Give them the fate of all who are inferior.
+Dialogue: 0,0:11:12.41,0:11:15.21,Default - flashback,Gu,0000,0000,0000,,The truth of all solutions.
+Dialogue: 0,0:11:21.78,0:11:23.20,Default - flashback,Gi,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:11:23.53,0:11:27.16,Default - flashback,Gi,0000,0000,0000,,Normally, it would be our job to escort you.
+Dialogue: 0,0:11:27.16,0:11:28.86,Default - flashback,K,0000,0000,0000,,It's fine. It's fine.
+Dialogue: 0,0:11:28.86,0:11:31.33,Default - flashback,K,0000,0000,0000,,We're heading east, too.
+Dialogue: 0,0:11:33.42,0:11:37.47,Default - flashback,Gi,0000,0000,0000,,The Rakurou Wolf Brigade has defended \Nthe People of the Land
+Dialogue: 0,0:11:37.47,0:11:40.30,Default - flashback,,0000,0000,0000,,on their travels since the Apocalypse.
+Dialogue: 0,0:11:40.88,0:11:41.72,Default - flashback,Gi,0000,0000,0000,,Yet...
+Dialogue: 0,0:11:42.00,0:11:44.93,Default - flashback,Gu,0000,0000,0000,,No one blames you.
+Dialogue: 0,0:11:44.93,0:11:45.96,Default - flashback,Gi,0000,0000,0000,,But...
+Dialogue: 0,0:11:47.55,0:11:50.26,Default - flashback,Gi,0000,0000,0000,,But we come back to life.
+Dialogue: 0,0:11:50.90,0:11:52.30,Default - flashback,Gi,0000,0000,0000,,Because we're adventurers.
+Dialogue: 0,0:11:52.92,0:11:56.73,Default - flashback,Gu,0000,0000,0000,,You don't need to get upset \Njust because an NPC died.
+Dialogue: 0,0:11:58.04,0:11:59.77,Default - flashback,Gu,0000,0000,0000,,The Rakurou Wolf Brigade
+Dialogue: 0,0:11:59.77,0:12:02.35,Default - flashback,,0000,0000,0000,,said they were going to try to wipe \Nout the nole army, right?
+Dialogue: 0,0:12:02.35,0:12:03.24,Default - flashback,Gi,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:03.69,0:12:07.10,Default - flashback,Gi,0000,0000,0000,,We're going to try a ninety-six-man legion raid.
+Dialogue: 0,0:12:07.10,0:12:09.83,Default - flashback,Gi,0000,0000,0000,,We're heading for the pillar ruins \Nknown as Tone's Grave.
+Dialogue: 0,0:12:10.20,0:12:11.50,Default - flashback,Gi,0000,0000,0000,,That's where the nole live.
+Dialogue: 0,0:12:12.27,0:12:13.85,Default - flashback,Gi,0000,0000,0000,,There are four thousand enemies.
+Dialogue: 0,0:12:13.85,0:12:16.44,Default - flashback,Gu,0000,0000,0000,,A team of level 90 and above \Nadventurers shouldn't have
+Dialogue: 0,0:12:16.44,0:12:17.98,Default - flashback,,0000,0000,0000,,any problem with that.
+Dialogue: 0,0:12:17.98,0:12:19.17,Default - flashback,K,0000,0000,0000,,That sounds so cool.
+Dialogue: 0,0:12:19.17,0:12:21.58,Default - flashback,K,0000,0000,0000,,I want to go, too.
+Dialogue: 0,0:12:22.54,0:12:26.01,Default - flashback,Gi,0000,0000,0000,,We cannot leave the Corridor to Heaven behind.
+Dialogue: 0,0:12:26.35,0:12:29.97,Default - flashback,Gi,0000,0000,0000,,It's fun to hurt tokens who have \Nno idea what they are.
+Dialogue: 0,0:12:30.34,0:12:33.19,Default - flashback,Gu,0000,0000,0000,,We are the same.
+Dialogue: 0,0:12:35.36,0:12:36.32,Default - flashback,Gu,0000,0000,0000,,Wiped out?
+Dialogue: 0,0:12:36.78,0:12:39.90,Default - flashback,Gu,0000,0000,0000,,The Rakurou Wolf Brigade raid team got wiped out.
+Dialogue: 0,0:12:39.99,0:12:45.41,Default - flashback,Gu,0000,0000,0000,,That layered status and a black dragon \Nwere seen on the battlefield.
+Dialogue: 0,0:12:46.30,0:12:47.58,Default - flashback,Gi,0000,0000,0000,,Parallel one...
+Dialogue: 0,0:12:47.58,0:12:48.37,Default - flashback,Gu,0000,0000,0000,,Kanami!
+Dialogue: 0,0:12:49.14,0:12:52.13,Default - flashback,Gu,0000,0000,0000,,A nole army is heading through \Nthe zone we just passed!
+Dialogue: 0,0:12:52.13,0:12:53.08,Default - flashback,Gu,0000,0000,0000,,Five hundred of them!
+Dialogue: 0,0:12:53.91,0:12:57.75,Default - flashback,Gu,0000,0000,0000,,They're heading for the village we stayed in.
+Dialogue: 0,0:12:58.51,0:13:02.97,Default - flashback,Gu,0000,0000,0000,,Noles live in caves and ruins, \Nand eat those who come close.
+Dialogue: 0,0:13:03.26,0:13:06.93,Default - flashback,Gu,0000,0000,0000,,For some reason, they're moving \Nen masse in search of food.
+Dialogue: 0,0:13:07.88,0:13:09.31,Default - flashback,K,0000,0000,0000,,Nice! Nice!
+Dialogue: 0,0:13:09.31,0:13:11.63,Default - flashback,K,0000,0000,0000,,Five hundred dogs is a lucky sign!
+Dialogue: 0,0:13:12.04,0:13:14.94,Default - flashback,K,0000,0000,0000,,You can't get this excitement in real life!
+Dialogue: 0,0:13:15.39,0:13:16.07,Default - flashback,,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:16.32,0:13:19.57,Default - flashback,K,0000,0000,0000,,No shortage of enemies! So much excitement!
+Dialogue: 0,0:13:19.86,0:13:20.69,Default - flashback,,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:21.31,0:13:24.10,Default - flashback,K,0000,0000,0000,,You don't have to say, "Huh," twice!
+Dialogue: 0,0:13:24.10,0:13:26.84,Default - flashback,Gu,0000,0000,0000,,Are you planning to defeat the nole \Narmy moving toward the village,
+Dialogue: 0,0:13:26.84,0:13:29.09,Default - flashback,Gu,0000,0000,0000,,and then go to Tone's Grave?
+Dialogue: 0,0:13:29.09,0:13:30.60,Default - flashback,K,0000,0000,0000,,That's my KR!
+Dialogue: 0,0:13:30.60,0:13:31.86,Default - flashback,K,0000,0000,0000,,You get it!
+Dialogue: 0,0:13:31.86,0:13:33.08,Default - flashback,Gu,0000,0000,0000,,Are you stupid?
+Dialogue: 0,0:13:33.52,0:13:36.83,Default - flashback,Gu,0000,0000,0000,,Didn't you hear how that legion \Nraid was annihilated?
+Dialogue: 0,0:13:37.10,0:13:41.02,Default - flashback,K,0000,0000,0000,,Because they did a full-on brawl, \Nwith no information.
+Dialogue: 0,0:13:41.02,0:13:42.76,Default - flashback,K,0000,0000,0000,,So we won't do any brawling.
+Dialogue: 0,0:13:43.25,0:13:46.34,Default - flashback,K,0000,0000,0000,,We'll attack, kill the boss, and run.
+Dialogue: 0,0:13:46.34,0:13:47.85,Default - flashback,K,0000,0000,0000,,Perfect game!
+Dialogue: 0,0:13:47.85,0:13:49.85,Default - flashback,K,0000,0000,0000,,We are champions!
+Dialogue: 0,0:13:50.83,0:13:52.74,Default - flashback,Gu,0000,0000,0000,,So, what information do we have?
+Dialogue: 0,0:13:52.74,0:13:54.85,Default - flashback,K,0000,0000,0000,,We heard a lot from Chun-Lu, right?
+Dialogue: 0,0:13:55.08,0:13:57.29,Default - flashback,Gu,0000,0000,0000,,And how are we supposed to use it?
+Dialogue: 0,0:13:57.65,0:13:59.69,Default - flashback,K,0000,0000,0000,,You figure that out, KR.
+Dialogue: 0,0:14:00.47,0:14:01.86,Default - flashback,Gu,0000,0000,0000,,I can't!
+Dialogue: 0,0:14:02.90,0:14:06.11,Default - flashback,K,0000,0000,0000,,It doesn't matter whether you can do it or not...
+Dialogue: 0,0:14:06.11,0:14:07.38,Default - flashback,Gu,0000,0000,0000,,Then what does?
+Dialogue: 0,0:14:08.89,0:14:10.74,Default - flashback,K,0000,0000,0000,,There's a need for us to go.
+Dialogue: 0,0:14:10.74,0:14:12.95,Default - flashback,Gu,0000,0000,0000,,What do you mean "a need"?
+Dialogue: 0,0:14:13.92,0:14:16.46,Default - flashback,K,0000,0000,0000,,A reason I can't say aloud.
+Dialogue: 0,0:14:18.81,0:14:22.15,Default - flashback,Gu,0000,0000,0000,,Why do all this for People of the Land NPCs?
+Dialogue: 0,0:14:23.33,0:14:25.13,Default - flashback,Gu,0000,0000,0000,,I agree with Kanami.
+Dialogue: 0,0:14:26.26,0:14:28.87,Default - flashback,Gu,0000,0000,0000,,Not simply because I owe her a debt.
+Dialogue: 0,0:14:29.23,0:14:30.55,Default - flashback,Gu,0000,0000,0000,,I am a progenitor.
+Dialogue: 0,0:14:30.92,0:14:33.72,Default - flashback,Gu,0000,0000,0000,,I have had a duty to protect the People \Nof the Land since the thirteen orders
+Dialogue: 0,0:14:33.72,0:14:36.05,Default - flashback,,0000,0000,0000,,of knights around the world were born.
+Dialogue: 0,0:14:39.30,0:14:40.24,Default - flashback,Gu,0000,0000,0000,,{\i1}Yeah...
+Dialogue: 0,0:14:40.24,0:14:41.51,Default - flashback,Gu,0000,0000,0000,,{\i1}That's right.
+Dialogue: 0,0:14:41.95,0:14:43.83,Default - flashback,Gu,0000,0000,0000,,{\i1}He's an NPC, too.
+Dialogue: 0,0:14:44.25,0:14:46.02,Default - flashback,Gu,0000,0000,0000,,{\i1}The same as a Person of the Land.
+Dialogue: 0,0:14:46.68,0:14:48.21,Default - flashback,Gu,0000,0000,0000,,What will we do with the villagers?
+Dialogue: 0,0:14:48.60,0:14:50.73,Default - flashback,K,0000,0000,0000,,Chun-Lu, will you go let them know?
+Dialogue: 0,0:14:50.73,0:14:51.80,Default - flashback,Gi,0000,0000,0000,,Got it.
+Dialogue: 0,0:14:51.80,0:14:54.33,Default - flashback,Gi,0000,0000,0000,,I will go with you.
+Dialogue: 0,0:14:55.27,0:14:56.89,Default - flashback,Gu,0000,0000,0000,,We can't win!
+Dialogue: 0,0:14:57.21,0:14:59.77,Default - flashback,Gu,0000,0000,0000,,There's no reason for you to do that!
+Dialogue: 0,0:15:02.74,0:15:06.26,Default - flashback,Gi,0000,0000,0000,,I am not a player character, either.
+Dialogue: 0,0:15:07.52,0:15:11.51,Default - flashback,Gi,0000,0000,0000,,I am one of many MMORPG farming bots
+Dialogue: 0,0:15:12.05,0:15:16.72,Default - flashback,,0000,0000,0000,,created by a Chinese money-laundering group.
+Dialogue: 0,0:15:28.71,0:15:31.19,Default - flashback,Gu,0000,0000,0000,,Didn't you go with Kanami and the others?
+Dialogue: 0,0:15:31.19,0:15:33.34,Default - flashback,Gu,0000,0000,0000,,Something was bothering me.
+Dialogue: 0,0:15:34.00,0:15:37.50,Default - flashback,Gu,0000,0000,0000,,After that, what did that girl tell you?
+Dialogue: 0,0:15:39.39,0:15:41.22,Default - flashback,Gu,0000,0000,0000,,She was a farming bot.
+Dialogue: 0,0:15:41.62,0:15:42.91,Default - flashback,Gu,0000,0000,0000,,Not a player.
+Dialogue: 0,0:15:42.91,0:15:44.92,Default - flashback,Gu,0000,0000,0000,,She was just an AI that
+Dialogue: 0,0:15:46.52,0:15:47.96,Default - flashback,,0000,0000,0000,,only existed in the game.
+Dialogue: 0,0:15:49.81,0:15:55.62,Default - flashback,Gi,0000,0000,0000,,In that village, I healed eighteen People of the Land.
+Dialogue: 0,0:15:56.11,0:15:59.22,Default - flashback,Gi,0000,0000,0000,,I blessed forty-nine.
+Dialogue: 0,0:15:59.59,0:16:04.86,Default - flashback,Gi,0000,0000,0000,,Whether it had any effect, I don't know.
+Dialogue: 0,0:16:05.32,0:16:12.14,Default - flashback,Gi,0000,0000,0000,,I was thanked three hundred and \Nnineteen times for this act.
+Dialogue: 0,0:16:14.52,0:16:16.32,Default - flashback,Gu,0000,0000,0000,,What would he do?
+Dialogue: 0,0:16:17.45,0:16:19.18,Default - flashback,Gu,0000,0000,0000,,The unbeatable ninja hero.
+Dialogue: 0,0:16:25.21,0:16:26.36,Default - flashback,Gu,0000,0000,0000,,I know what he'd do.
+Dialogue: 0,0:16:27.22,0:16:29.36,Default - flashback,Gu,0000,0000,0000,,I've known from the start.
+Dialogue: 0,0:16:30.07,0:16:30.84,Default - flashback,Gu,0000,0000,0000,,He'd go.
+Dialogue: 0,0:16:32.90,0:16:34.31,Default - flashback,Gu,0000,0000,0000,,That's interesting.
+Dialogue: 0,0:16:34.31,0:16:36.03,Default - flashback,Gu,0000,0000,0000,,Truly, truly interesting.
+Dialogue: 0,0:16:39.36,0:16:41.33,Default - flashback,Gu,0000,0000,0000,,Are you KR?
+Dialogue: 0,0:16:39.74,0:16:43.10,HUD1,Gu,0000,0000,0000,,{\fad(426,1)\an7}KR \N{\fs20}Race/ Elf \NSummoner, Lv. 90 \NPlant Hwyaden
+Dialogue: 0,0:16:41.80,0:16:43.10,Default - flashback,Gu,0000,0000,0000,,That's right.
+Dialogue: 0,0:16:43.50,0:16:44.63,Default - flashback,Gu,0000,0000,0000,,How?
+Dialogue: 0,0:16:44.63,0:16:45.84,Default - flashback,Gu,0000,0000,0000,,What did you do?
+Dialogue: 0,0:16:46.17,0:16:49.11,Default - flashback,Gu,0000,0000,0000,,Swap Teleporting. Castling.
+Dialogue: 0,0:16:49.11,0:16:53.38,SignC,Gu,0000,0000,0000,,Servant                                                                               Caster
+Dialogue: 0,0:16:49.11,0:16:57.12,SignB,Gu,0000,0000,0000,,Swap Teleporting \NCastling
+Dialogue: 0,0:16:49.43,0:16:51.83,Default - flashback,Gu,0000,0000,0000,,It's an emergency escape method that
+Dialogue: 0,0:16:51.83,0:16:55.35,Default - flashback,,0000,0000,0000,,swaps the caster and their summoned creature.
+Dialogue: 0,0:16:53.38,0:16:57.12,SignC,Gu,0000,0000,0000,,Caster                                                                                 Servant
+Dialogue: 0,0:16:56.01,0:16:57.12,Default - flashback,Gu,0000,0000,0000,,Which means...
+Dialogue: 0,0:16:57.61,0:17:00.87,Default - flashback,Gu,0000,0000,0000,,I just teleported to this server from Japan.
+Dialogue: 0,0:17:02.31,0:17:03.95,Default - flashback,Gu,0000,0000,0000,,I'll go with you.
+Dialogue: 0,0:17:03.95,0:17:04.62,Default - flashback,Gu,0000,0000,0000,,Why?
+Dialogue: 0,0:17:05.02,0:17:06.44,Default - flashback,Gu,0000,0000,0000,,I know
+Dialogue: 0,0:17:08.47,0:17:11.13,Default - flashback,,0000,0000,0000,,that frog mask, too.
+Dialogue: 0,0:17:11.55,0:17:13.00,Default - flashback,Gu,0000,0000,0000,,I liked him.
+Dialogue: 0,0:17:14.78,0:17:18.14,Default - flashback,Gu,0000,0000,0000,,If that hero is going to show off his new power,
+Dialogue: 0,0:17:18.48,0:17:21.27,Default - flashback,Gu,0000,0000,0000,,then I have to show off mine, too.
+Dialogue: 0,0:17:22.26,0:17:24.04,Default - flashback,Gu,0000,0000,0000,,{\i1}Awaken, my friend,
+Dialogue: 0,0:17:24.04,0:17:25.16,Default - flashback,Gu,0000,0000,0000,,{\i1}the red dragon!
+Dialogue: 0,0:17:25.61,0:17:28.77,Default - flashback,Gu,0000,0000,0000,,{\i1}Awaken from thy garnet slumber \Nand fly through the sky!
+Dialogue: 0,0:17:35.69,0:17:37.40,Default - flashback,Gu,0000,0000,0000,,Spirits of pure water,
+Dialogue: 0,0:17:37.40,0:17:41.41,Default - flashback,Gu,0000,0000,0000,,become a thousand blades, \Nand shine across the battlefield!
+Dialogue: 0,0:17:43.92,0:17:46.87,Default - flashback,Gu,0000,0000,0000,,{\i1}Aqua Thousand Rain!
+Dialogue: 0,0:18:05.37,0:18:06.45,Default - flashback,Gi,0000,0000,0000,,Leonardo?
+Dialogue: 0,0:18:07.26,0:18:09.29,Default - flashback,Gu,0000,0000,0000,,I can see Tone's Grave from here.
+Dialogue: 0,0:18:10.62,0:18:12.37,Default - flashback,Gu,0000,0000,0000,,Wait... Hey!
+Dialogue: 0,0:18:16.29,0:18:18.17,Default - flashback,Gu,0000,0000,0000,,That's amazing.
+Dialogue: 0,0:18:18.17,0:18:21.11,Default - flashback,Gu,0000,0000,0000,,That's a full- or double-raid rank...
+Dialogue: 0,0:18:21.11,0:18:23.24,Default - flashback,Gu,0000,0000,0000,,The black dragon Chun-Lu was talking about?
+Dialogue: 0,0:18:23.77,0:18:24.84,Default - flashback,Gu,0000,0000,0000,,Someone's riding it.
+Dialogue: 0,0:18:25.25,0:18:26.75,Default - flashback,Gu,0000,0000,0000,,They're the bad guys.
+Dialogue: 0,0:18:27.12,0:18:28.54,Default - flashback,Gu,0000,0000,0000,,The boss characters, huh?
+Dialogue: 0,0:18:29.02,0:18:31.50,Default - flashback,Gi,0000,0000,0000,,Oh? More adventurers.
+Dialogue: 0,0:18:31.90,0:18:34.06,Default - flashback,Gu,0000,0000,0000,,Models without power.
+Dialogue: 0,0:18:39.88,0:18:41.78,Default - flashback,Gu,0000,0000,0000,,If it weren't for those two, could you keep
+Dialogue: 0,0:18:41.78,0:18:43.72,Default - flashback,,0000,0000,0000,,the black dragon away from Coppelia and Kanami?
+Dialogue: 0,0:18:43.99,0:18:44.75,Default - flashback,Gu,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:45.13,0:18:46.02,Default - flashback,Gu,0000,0000,0000,,Perfect.
+Dialogue: 0,0:18:46.36,0:18:49.52,Default - flashback,Gu,0000,0000,0000,,Cowabunga!
+Dialogue: 0,0:18:53.56,0:18:55.36,Default - flashback,K,0000,0000,0000,,Froggy-nardo! That was awesome!
+Dialogue: 0,0:18:57.88,0:18:58.79,Default - flashback,,0000,0000,0000,,Let's go!
+Dialogue: 0,0:19:01.73,0:19:05.07,Default - flashback,Gi,0000,0000,0000,,I'm astonished, human.
+Dialogue: 0,0:19:05.07,0:19:06.16,Default - flashback,Gu,0000,0000,0000,,My God.
+Dialogue: 0,0:19:05.89,0:19:11.11,Monsters,K,0000,0000,0000,,{\an7}Genius of Necromancy\NLasphere/ Genius, Lv. 89\NRank/ Normal
+Dialogue: 0,0:19:07.06,0:19:07.91,Default - flashback,Gu,0000,0000,0000,,Lasphere,
+Dialogue: 0,0:19:07.91,0:19:09.19,Default - flashback,Gu,0000,0000,0000,,level 89,
+Dialogue: 0,0:19:09.19,0:19:10.70,Default - flashback,Gu,0000,0000,0000,,a normal-rank monster.
+Dialogue: 0,0:19:12.98,0:19:20.97,Monsters,,0000,0000,0000,,{\an7}Genius of Healing\NPaps/ Genius, Lv. 89\NRank/ Normal
+Dialogue: 0,0:19:14.03,0:19:15.29,Default - flashback,K,0000,0000,0000,,Level 89,
+Dialogue: 0,0:19:15.29,0:19:16.61,Default - flashback,K,0000,0000,0000,,normal rank.
+Dialogue: 0,0:19:16.61,0:19:18.39,Default - flashback,K,0000,0000,0000,,His name is Paps.
+Dialogue: 0,0:19:18.39,0:19:20.97,Default - flashback,Gu,0000,0000,0000,,So you read my name.
+Dialogue: 0,0:19:21.42,0:19:24.79,Default - flashback,Gu,0000,0000,0000,,That is the special ability of these solutions.
+Dialogue: 0,0:19:25.28,0:19:27.58,Default - flashback,Gu,0000,0000,0000,,A genius...
+Dialogue: 0,0:19:27.58,0:19:32.11,Default - flashback,Gu,0000,0000,0000,,So you know that name, survivor?
+Dialogue: 0,0:19:32.11,0:19:32.98,Default - flashback,K,0000,0000,0000,,Eri-Eri!
+Dialogue: 0,0:19:36.82,0:19:38.07,Default - flashback,Gu,0000,0000,0000,,They're all slippery!
+Dialogue: 0,0:19:41.01,0:19:43.27,Default - flashback,Gu,0000,0000,0000,,It is a strange combination,
+Dialogue: 0,0:19:43.27,0:19:47.45,Default - flashback,Gu,0000,0000,0000,,but I should not let the progenitor, \Nor the rest of you, survive.
+Dialogue: 0,0:19:47.68,0:19:48.78,Default - flashback,Gu,0000,0000,0000,,I'll eliminate you.
+Dialogue: 0,0:19:49.66,0:19:50.94,Default - flashback,Gi,0000,0000,0000,,This is wonderful!
+Dialogue: 0,0:19:50.94,0:19:52.34,Default - flashback,Gi,0000,0000,0000,,This is joyous!
+Dialogue: 0,0:19:52.85,0:19:53.63,Default - flashback,Gu,0000,0000,0000,,Shut up!
+Dialogue: 0,0:19:58.89,0:20:00.05,Default - flashback,Gu,0000,0000,0000,,{\i1}Parallel One!
+Dialogue: 0,0:20:00.49,0:20:05.13,Default - flashback,Gu,0000,0000,0000,,{\i1}She's controlling a second name, \Nswapping it with her own status,
+Dialogue: 0,0:20:05.13,0:20:07.68,Default - flashback,Gu,0000,0000,0000,,{\i1}and using it to take damage for her?
+Dialogue: 0,0:20:09.60,0:20:13.48,Default - flashback,Gu,0000,0000,0000,,{\i1}Then I'll use the gap between \Nthe charge and the motion...
+Dialogue: 0,0:20:14.28,0:20:16.40,Default - flashback,Gu,0000,0000,0000,,{\i1}Parallel Plot!
+Dialogue: 0,0:20:17.90,0:20:20.69,Default - flashback,Gi,0000,0000,0000,,So this is pain? Or is this an ache?
+Dialogue: 0,0:20:21.07,0:20:22.93,Default - flashback,Gi,0000,0000,0000,,More crimson than twilight,
+Dialogue: 0,0:20:22.93,0:20:24.57,Default - flashback,Gi,0000,0000,0000,,redder than a lycoris flower!
+Dialogue: 0,0:20:27.74,0:20:29.50,Default - flashback,Gi,0000,0000,0000,,A deeper red than a rose...
+Dialogue: 0,0:20:32.40,0:20:34.96,Default - flashback,Gu,0000,0000,0000,,Did your companions fall?
+Dialogue: 0,0:20:35.18,0:20:36.04,Default - flashback,Gu,0000,0000,0000,,Stop it...
+Dialogue: 0,0:20:36.40,0:20:38.96,Default - flashback,Gu,0000,0000,0000,,Why do you not shut down?
+Dialogue: 0,0:20:38.96,0:20:41.01,Default - flashback,Gu,0000,0000,0000,,Shut your mouth!
+Dialogue: 0,0:20:41.36,0:20:46.47,Default - flashback,Gu,0000,0000,0000,,I know everything about the progenitors... \NNo, about the People of the Land.
+Dialogue: 0,0:20:46.74,0:20:49.49,Default - flashback,Gu,0000,0000,0000,,You are all dolls,
+Dialogue: 0,0:20:49.49,0:20:51.43,Default - flashback,Gu,0000,0000,0000,,puppets without will,
+Dialogue: 0,0:20:51.43,0:20:55.06,Default - flashback,Gu,0000,0000,0000,,only personality software.
+Dialogue: 0,0:20:56.44,0:20:58.10,Default - flashback,Gu,0000,0000,0000,,There are no fairies.
+Dialogue: 0,0:20:58.88,0:21:01.76,Default - flashback,Gu,0000,0000,0000,,The progenitors and the People of the Land
+Dialogue: 0,0:21:02.50,0:21:04.34,Default - flashback,,0000,0000,0000,,are all false.
+Dialogue: 0,0:21:04.34,0:21:06.83,Default - flashback,Gu,0000,0000,0000,,Be destroyed, false thing.
+Dialogue: 0,0:21:06.83,0:21:10.36,Default - flashback,Gu,0000,0000,0000,,You must shut down.
+Dialogue: 0,0:21:10.36,0:21:14.75,Default - flashback,Gu,0000,0000,0000,,You, who were born from nothing, \Nshut down your timeline.
+Dialogue: 0,0:21:16.10,0:21:18.75,Default - flashback,K,0000,0000,0000,,Hell, no!
+Dialogue: 0,0:21:20.66,0:21:21.84,Default - flashback,K,0000,0000,0000,,Don't be stupid!
+Dialogue: 0,0:21:22.30,0:21:23.90,Default - flashback,K,0000,0000,0000,,Eri-Eri is real!
+Dialogue: 0,0:21:23.90,0:21:24.93,Default - flashback,K,0000,0000,0000,,He's right here!
+Dialogue: 0,0:21:25.44,0:21:27.85,Default - flashback,K,0000,0000,0000,,From now on, we're going to have a lot of fun.
+Dialogue: 0,0:21:27.85,0:21:29.43,Default - flashback,K,0000,0000,0000,,Don't take him away from me.
+Dialogue: 0,0:21:29.78,0:21:33.09,Default - flashback,K,0000,0000,0000,,You're just a tire-tube man!
+Dialogue: 0,0:21:34.14,0:21:37.24,Default,Gu,0000,0000,0000,,I don't know what happened after that.
+Dialogue: 0,0:21:38.80,0:21:41.44,Default,Gu,0000,0000,0000,,Worrying about it is a waste of time.
+Dialogue: 0,0:21:41.86,0:21:43.94,Default,Gu,0000,0000,0000,,She's as terrible as ever.
+Dialogue: 0,0:21:43.94,0:21:47.51,Default,Gu,0000,0000,0000,,I told you it's terrifying how little she's changed.
+Dialogue: 0,0:21:47.51,0:21:49.19,Default,Gu,0000,0000,0000,,Miss Nureha!
+Dialogue: 0,0:21:50.08,0:21:50.97,Default,Gu,0000,0000,0000,,Miss Nureha!
+Dialogue: 0,0:21:50.97,0:21:53.83,Default,Gi,0000,0000,0000,,Wave your hand, Lady Nureha.
+Dialogue: 0,0:21:56.89,0:21:58.16,Default - italics,Gi,0000,0000,0000,,That's right.
+Dialogue: 0,0:21:58.16,0:22:03.28,Default - italics,Gi,0000,0000,0000,,You need only smile with that pretty face.
+Dialogue: 0,0:22:03.92,0:22:06.87,Default,Gu,0000,0000,0000,,Did you tell Indicus this?
+Dialogue: 0,0:22:06.87,0:22:07.95,Default,Gu,0000,0000,0000,,Nope.
+Dialogue: 0,0:22:07.95,0:22:11.60,Default,Gu,0000,0000,0000,,She doesn't know that Kanami \Nis back in the game, either.
+Dialogue: 0,0:22:14.29,0:22:17.48,Default,Gu,0000,0000,0000,,That will make their reunion \Neven more moving, won't it?
+Dialogue: 0,0:22:24.75,0:22:26.24,Default,Gu,0000,0000,0000,,Preparing to deploy magic circles.
+Dialogue: 0,0:22:26.63,0:22:28.75,Default,Gu,0000,0000,0000,,Linked-path adjustment complete.
+Dialogue: 0,0:22:28.75,0:22:29.62,Default,Gu,0000,0000,0000,,Ready to go at will.
+Dialogue: 0,0:22:30.11,0:22:32.15,Default,Gu,0000,0000,0000,,It's time to start a war!
+Dialogue: 0,0:22:32.75,0:22:34.85,Default,Gu,0000,0000,0000,,To the East!
+Dialogue: 0,0:24:07.29,0:24:12.50,Default,Gu,0000,0000,0000,,The magic bag that holds anything, \Nthe thing all beginners desire.
+Dialogue: 0,0:24:13.33,0:24:16.62,Default,Gu,0000,0000,0000,,Minori and the others go on a quest \Nto get the materials for it.
+Dialogue: 0,0:24:17.24,0:24:18.80,Default,Gu,0000,0000,0000,,Carrying five people,
+Dialogue: 0,0:24:18.80,0:24:21.85,Default,,0000,0000,0000,,both nervous and excited about \Na world they've not yet seen,
+Dialogue: 0,0:24:21.85,0:24:23.59,Default,Gu,0000,0000,0000,,the carriage sets off.
+Dialogue: 0,0:24:24.23,0:24:26.11,Default,,0000,0000,0000,,Next time: Setting Off.
+Dialogue: 0,0:24:24.23,0:24:30.94,Title,,0000,0000,0000,,Setting Off
+Dialogue: 0,0:24:26.63,0:24:28.50,Default,Next time,0000,0000,0000,,I have friends to run with me.

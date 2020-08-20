@@ -1,0 +1,565 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00CDAC98,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00D8CFCD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,160,53,113,0
+Style: EyecatchA,Open Sans Semibold,36,&H002072D7,&H000000FF,&H00102967,&H0079671A,1,0,0,0,100,100,0,0,1,2,0,9,27,53,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H002072D7,&H000000FF,&H00102967,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00F6FFEA,&H000000FF,&H00759846,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Sunakawa,Open Sans Semibold,30,&H0036281C,&H000000FF,&H00F4F9F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Kurihara,Open Sans Semibold,30,&H0020405E,&H000000FF,&H005BC0C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-GrayWhite,Open Sans Semibold,33,&H0071706B,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,30,&H00423D32,&H000000FF,&H00F9F4E6,&H00F7F2E1,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SFX-Red,Open Sans Semibold,33,&H005F56CE,&H000000FF,&H00505247,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,107,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,80,33,0
+Style: SFX-BlackRed,Open Sans Semibold,24,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,24,0
+Style: SFX-BrownWhite,Open Sans Semibold,27,&H00262C4A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,80,24,0
+Style: SFX - WhiteBrown,Open Sans Semibold,27,&H00D2E1EB,&H000000FF,&H00102146,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignA,Open Sans Semibold,33,&H001B3F7D,&H000000FF,&H0091A1E2,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignC,Open Sans Semibold,27,&H006A7C5A,&H000000FF,&H00B0FDF0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignB,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H003B5214,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignD,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,53,53,24,0
+Style: SignE,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,53,53,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.35,0:00:09.07,Default,Y,0000,0000,0000,,Hey, so I totally forgot to give this \Nto your mom on New Year's Day...
+Dialogue: 0,0:00:09.07,0:00:11.44,SignA,Sign 0010,0000,0000,0000,,Safe Birth Charm
+Dialogue: 0,0:00:10.49,0:00:12.86,Default,T,0000,0000,0000,,Oh, thanks!
+Dialogue: 0,0:00:15.09,0:00:19.37,Default,Y,0000,0000,0000,,I was so worked up that day...
+Dialogue: 0,0:00:19.37,0:00:20.74,Default - italics,T,0000,0000,0000,,Me, too.
+Dialogue: 0,0:00:20.74,0:00:22.15,Default - italics,T,0000,0000,0000,,I love her!
+Dialogue: 0,0:00:22.81,0:00:24.10,Default,T,0000,0000,0000,,By the way, Yamato...
+Dialogue: 0,0:00:24.10,0:00:25.85,Default,T,0000,0000,0000,,Why don't you come over?
+Dialogue: 0,0:00:25.85,0:00:28.77,Default,T,0000,0000,0000,,I think she'd be happy to get \Nit from you personally.
+Dialogue: 0,0:00:28.77,0:00:30.09,Default,Y,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:32.35,0:00:34.43,Default,T,0000,0000,0000,,What're you doing?!
+Dialogue: 0,0:00:34.43,0:00:35.93,Default,TMom,0000,0000,0000,,Cleaning.
+Dialogue: 0,0:00:35.93,0:00:37.44,Default,T,0000,0000,0000,,That's too much!
+Dialogue: 0,0:00:37.44,0:00:39.10,Default,TMom,0000,0000,0000,,I was like this when I had you, too.
+Dialogue: 0,0:00:39.50,0:00:40.85,SFX-BrownWhite,Sign 0041,0000,0000,0000,,{\fad(1,268)}With me, too?!
+Dialogue: 0,0:00:39.86,0:00:41.11,Default,TMom,0000,0000,0000,,Oh, hello, Yamato-san.
+Dialogue: 0,0:00:41.11,0:00:42.23,Default,TMom,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:00:42.23,0:00:43.48,Default,Y,0000,0000,0000,,Hello!
+Dialogue: 0,0:00:43.95,0:00:45.85,Default,TMom,0000,0000,0000,,I'll go buy some rice.
+Dialogue: 0,0:00:45.85,0:00:47.55,Default,T,0000,0000,0000,,Wait, how much are you going to buy?
+Dialogue: 0,0:00:46.05,0:00:47.40,SFX-BrownWhite,Sign 0047,0000,0000,0000,,{\fad(1,228)}Rice?
+Dialogue: 0,0:00:47.55,0:00:48.48,Default,TMom,0000,0000,0000,,Ten kilos.
+Dialogue: 0,0:00:48.48,0:00:49.52,Default,T,0000,0000,0000,,I'll go!
+Dialogue: 0,0:00:49.52,0:00:50.77,SignA,Sign,0000,0000,0000,,{\c&HFFFFFF&}Sale
+Dialogue: 0,0:00:49.52,0:00:50.80,Default,TMom,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:00:50.77,0:00:53.03,SFX-BrownWhite,Sign 0052,0000,0000,0000,,This much?
+Dialogue: 0,0:00:50.80,0:00:53.03,Default,TMom,0000,0000,0000,,Buy the other stuff, too.
+Dialogue: 0,0:02:22.99,0:02:27.00,Title1,Sign 0224,0000,0000,0000,,My Mom
+Dialogue: 0,0:02:23.86,0:02:27.00,Default,TMom,0000,0000,0000,,The men in this home are such worrywarts.
+Dialogue: 0,0:02:27.40,0:02:29.04,Default,Y,0000,0000,0000,,He's a caring person.
+Dialogue: 0,0:02:30.19,0:02:31.93,Default,TMom,0000,0000,0000,,He's overprotective...
+Dialogue: 0,0:02:31.93,0:02:33.95,Default,TMom,0000,0000,0000,,Maybe I should show him my \Nprenatal checkup notes.
+Dialogue: 0,0:02:33.95,0:02:36.88,Default,TMom,0000,0000,0000,,I have zero problems.
+Dialogue: 0,0:02:36.88,0:02:41.70,Default,Y,0000,0000,0000,,I'd love to become a strong \Nmother like you someday.
+Dialogue: 0,0:02:41.70,0:02:42.85,Default,TMom,0000,0000,0000,,Right!
+Dialogue: 0,0:02:42.85,0:02:47.04,Default,TMom,0000,0000,0000,,Men are such wimps, women have \Nto be the strong ones.
+Dialogue: 0,0:02:47.04,0:02:47.74,Default,Y,0000,0000,0000,,Eh?
+Dialogue: 0,0:02:47.74,0:02:49.39,Default,Y,0000,0000,0000,,Takeo-kun is plenty strong!
+Dialogue: 0,0:02:49.39,0:02:51.54,Default,TMom,0000,0000,0000,,Not at all...
+Dialogue: 0,0:02:51.54,0:02:53.96,Default,TMom,0000,0000,0000,,When he was about five,
+Dialogue: 0,0:02:53.96,0:02:56.36,Default,TMom,0000,0000,0000,,we were waiting for the kindergarten bus,
+Dialogue: 0,0:02:56.36,0:02:59.11,Default,TMom,0000,0000,0000,,and the idiot jumped into the street.
+Dialogue: 0,0:02:56.55,0:02:58.11,SFX-BlueBlue,Sign 0258,0000,0000,0000,,{\fad(1,266)}There!
+Dialogue: 0,0:02:59.11,0:03:02.44,Default,TMom,0000,0000,0000,,I instinctively got Take out of there,
+Dialogue: 0,0:03:02.44,0:03:03.74,Default,TMom,0000,0000,0000,,but I scraped my arm.
+Dialogue: 0,0:03:03.74,0:03:07.87,SFX - WhiteBrown,Sign 0308,0000,0000,0000,,The scar
+Dialogue: 0,0:03:04.26,0:03:06.75,Default,TMom,0000,0000,0000,,I was bleeding pretty heavily.
+Dialogue: 0,0:03:06.75,0:03:07.87,Default,TMom,0000,0000,0000,,Then Take...
+Dialogue: 0,0:03:07.87,0:03:10.12,SignC,Sign 0308,0000,0000,0000,,Bawling
+Dialogue: 0,0:03:07.87,0:03:10.12,Default - flashback,T,0000,0000,0000,,Don't die, Mom!
+Dialogue: 0,0:03:10.12,0:03:12.37,Default,TMom,0000,0000,0000,,And this is the boy who got bruises
+Dialogue: 0,0:03:12.37,0:03:15.38,Default,TMom,0000,0000,0000,,and bled from cuts every day, \Nwithout making a single fuss.
+Dialogue: 0,0:03:12.54,0:03:15.38,SFX-BlueBlue,Sign 0315,0000,0000,0000,,{\fad(986,1)}Huh? Blood? I'm bleeding?
+Dialogue: 0,0:03:15.38,0:03:19.40,Default,Y,0000,0000,0000,,Then, from the start, Takeo-kun was caring!
+Dialogue: 0,0:03:19.40,0:03:20.97,Default,TMom,0000,0000,0000,,He's a wimp.
+Dialogue: 0,0:03:20.97,0:03:23.43,Default,Y,0000,0000,0000,,He must care a lot about his mom.
+Dialogue: 0,0:03:23.43,0:03:24.89,Default,TMom,0000,0000,0000,,So he's a mommy's boy to boot.
+Dialogue: 0,0:03:26.99,0:03:30.39,Default,TMom,0000,0000,0000,,Men can be weak in surprising ways.
+Dialogue: 0,0:03:30.88,0:03:32.64,Default,TMom,0000,0000,0000,,Please stick with him.
+Dialogue: 0,0:03:32.64,0:03:33.90,Default,Y,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:33.90,0:03:35.24,Default,TMom,0000,0000,0000,,...so when he was finally born,
+Dialogue: 0,0:03:35.24,0:03:37.54,Default,TMom,0000,0000,0000,,everyone in the delivery room \Nclapped and cheered.
+Dialogue: 0,0:03:37.54,0:03:39.15,Default,Y,0000,0000,0000,,Wow!
+Dialogue: 0,0:03:37.77,0:03:39.15,Default - italics,T,0000,0000,0000,,They seem to be having fun.
+Dialogue: 0,0:03:39.46,0:03:41.64,Default,TMom,0000,0000,0000,,When I brought him in for his \None-month checkup,
+Dialogue: 0,0:03:41.64,0:03:45.66,Default,TMom,0000,0000,0000,,the nurse raised Takeo over her head and said, \N"The yokozuna's here."
+Dialogue: 0,0:03:45.66,0:03:47.44,Default,Y,0000,0000,0000,,Like in the Lion King?
+Dialogue: 0,0:03:47.44,0:03:48.59,Default,TMom,0000,0000,0000,,Yep.
+Dialogue: 0,0:03:48.59,0:03:49.36,Default,TMom,0000,0000,0000,,What's the Lion King?
+Dialogue: 0,0:03:49.36,0:03:51.00,Default,Y,0000,0000,0000,,Oh, Takeo-kun...
+Dialogue: 0,0:03:51.00,0:03:51.81,Default,TMom,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:03:51.81,0:03:52.53,Default,T,0000,0000,0000,,Thanks.
+Dialogue: 0,0:03:52.53,0:03:55.23,Default,TMom,0000,0000,0000,,How much rice did you buy?
+Dialogue: 0,0:03:55.23,0:03:56.34,Default,T,0000,0000,0000,,I thought we should stock up.
+Dialogue: 0,0:03:56.34,0:03:59.67,Default,TMom,0000,0000,0000,,Did you use all the money in my wallet?!
+Dialogue: 0,0:03:59.67,0:04:01.05,Default,TMom,0000,0000,0000,,My goodness...
+Dialogue: 0,0:04:01.05,0:04:04.36,Default,TMom,0000,0000,0000,,Well, I'll be off to the hospital for my checkup.
+Dialogue: 0,0:04:04.36,0:04:05.93,Default,T,0000,0000,0000,,Okay, don't trip!
+Dialogue: 0,0:04:05.93,0:04:07.30,Default,Y,0000,0000,0000,,Oh, um...
+Dialogue: 0,0:04:08.18,0:04:09.14,Default,Y,0000,0000,0000,,This is for you.
+Dialogue: 0,0:04:09.57,0:04:10.81,SignA,Sign 0410,0000,0000,0000,,Safe Birth Charm
+Dialogue: 0,0:04:10.81,0:04:12.45,Default,TMom,0000,0000,0000,,Oh, my...
+Dialogue: 0,0:04:12.45,0:04:14.77,Default,TMom,0000,0000,0000,,Thank you, Yamato-san.
+Dialogue: 0,0:04:14.77,0:04:15.98,Default,Y,0000,0000,0000,,Hang in there.
+Dialogue: 0,0:04:15.98,0:04:17.31,Default,TMom,0000,0000,0000,,Okay!
+Dialogue: 0,0:04:16.44,0:04:17.73,SFX-BlackWhite,Sign 0418,0000,0000,0000,,Off I go
+Dialogue: 0,0:04:18.06,0:04:21.44,Default,Y,0000,0000,0000,,Takeo-kun, when you were born, \Nyou weighed 4,300 grams.
+Dialogue: 0,0:04:21.44,0:04:22.20,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:22.20,0:04:23.74,Default,T,0000,0000,0000,,You heard that from Mom?
+Dialogue: 0,0:04:23.74,0:04:24.96,Default,Y,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:24.96,0:04:28.82,Default,Y,0000,0000,0000,,I was a preemie, so I was fewer than 2,000 grams.
+Dialogue: 0,0:04:28.82,0:04:32.12,Default,Y,0000,0000,0000,,For a long time, I was in this transparent case...
+Dialogue: 0,0:04:32.12,0:04:36.50,Default,Y,0000,0000,0000,,I was so small, I couldn't leave \Nthe hospital with Mom.
+Dialogue: 0,0:04:36.50,0:04:38.47,Default,Y,0000,0000,0000,,I'm healthy now, though!
+Dialogue: 0,0:04:38.47,0:04:40.15,Default,T,0000,0000,0000,,Okay, that's good.
+Dialogue: 0,0:04:40.15,0:04:41.01,Default,Y,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:41.40,0:04:43.22,Default,Y,0000,0000,0000,,I'm looking forward to meeting the new baby.
+Dialogue: 0,0:04:43.22,0:04:43.88,Default,T,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:48.30,0:04:49.26,Default,TMom,0000,0000,0000,,Hello.
+Dialogue: 0,0:04:49.67,0:04:50.96,Default,TMom,0000,0000,0000,,Are you due soon?
+Dialogue: 0,0:04:50.96,0:04:51.92,Default,Isono,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:51.92,0:04:54.06,Default,Isono,0000,0000,0000,,I'm anemic again, so I was asked to come in...
+Dialogue: 0,0:04:54.06,0:04:56.11,Default,Unio,0000,0000,0000,,Mom, look!
+Dialogue: 0,0:04:56.11,0:04:57.77,Default,Isono,0000,0000,0000,,Hey, stop running.
+Dialogue: 0,0:04:57.77,0:04:59.07,Default,TMom,0000,0000,0000,,Is this the baby's brother?
+Dialogue: 0,0:04:59.07,0:05:00.49,Default,Isono,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:05:01.38,0:05:04.54,Default,Isono,0000,0000,0000,,We wanted our second child sooner,
+Dialogue: 0,0:05:04.54,0:05:07.36,Default,Isono,0000,0000,0000,,but now he's much older...
+Dialogue: 0,0:05:07.80,0:05:09.24,Default,TMom,0000,0000,0000,,I'm glad you got your wish.
+Dialogue: 0,0:05:11.35,0:05:13.54,Default,TMom,0000,0000,0000,,Your big brother's waiting for you.
+Dialogue: 0,0:05:16.29,0:05:17.49,Default,TMom,0000,0000,0000,,Hang in there.
+Dialogue: 0,0:05:20.50,0:05:22.50,SFX-BlackWhite,,0000,0000,0000,,Koshihikari
+Dialogue: 0,0:05:22.50,0:05:23.81,Default,T,0000,0000,0000,,Don't lift that!
+Dialogue: 0,0:05:23.81,0:05:24.51,Default,T,0000,0000,0000,,I'll do it!
+Dialogue: 0,0:05:24.51,0:05:30.89,SFX-BlackWhite,,0000,0000,0000,,Koshihikari
+Dialogue: 0,0:05:25.17,0:05:27.39,Default,T,0000,0000,0000,,How did it go at the hospital?
+Dialogue: 0,0:05:27.39,0:05:29.02,Default,TMom,0000,0000,0000,,Easy peasy.
+Dialogue: 0,0:05:29.02,0:05:30.27,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:05:31.76,0:05:36.27,Default,T,0000,0000,0000,,When Yamato was born, she was half my weight.
+Dialogue: 0,0:05:36.84,0:05:39.75,Default,T,0000,0000,0000,,She told me she couldn't \Ngo home with her mom.
+Dialogue: 0,0:05:40.40,0:05:41.52,Default,TMom,0000,0000,0000,,Oh...
+Dialogue: 0,0:05:42.38,0:05:43.69,Default,TMom,0000,0000,0000,,Takeo,
+Dialogue: 0,0:05:43.69,0:05:49.24,Default,TMom,0000,0000,0000,,there isn't a guarantee that babies born \Ninto this world will live to grow up.
+Dialogue: 0,0:05:50.28,0:05:54.35,Default,TDad,0000,0000,0000,,Honey, I'll clean the bathtub.
+Dialogue: 0,0:05:55.66,0:05:57.16,Default - italics,T,0000,0000,0000,,What's this?!
+Dialogue: 0,0:05:57.89,0:05:59.49,Default - italics,T,0000,0000,0000,,An angel!
+Dialogue: 0,0:05:58.48,0:06:00.17,SFX-BlackWhite,Sign 0600,0000,0000,0000,,{\an7}Yamato Rinko \NSubject: Me at 100 Days \N\NWas I tiny?
+Dialogue: 0,0:06:00.68,0:06:02.17,Default - italics,T,0000,0000,0000,,She was so tiny...
+Dialogue: 0,0:06:03.05,0:06:05.45,Default - italics,T,0000,0000,0000,,I'm glad she grew up.
+Dialogue: 0,0:06:06.83,0:06:09.39,Default - italics,T,0000,0000,0000,,I was born larger than most,
+Dialogue: 0,0:06:09.39,0:06:11.97,Default - italics,T,0000,0000,0000,,and I never really got sick growing up.
+Dialogue: 0,0:06:11.97,0:06:15.92,Default - italics,T,0000,0000,0000,,I hadn't thought very much about it before.
+Dialogue: 0,0:06:18.49,0:06:22.33,Default - italics,T,0000,0000,0000,,But I guess that isn't always the case...
+Dialogue: 0,0:06:22.83,0:06:23.87,Default,S,0000,0000,0000,,Hello.
+Dialogue: 0,0:06:23.87,0:06:24.57,Default,S,0000,0000,0000,,Let me carry that for you.
+Dialogue: 0,0:06:24.88,0:06:26.32,Default,TMom,0000,0000,0000,,Not you, too.
+Dialogue: 0,0:06:26.32,0:06:29.42,Default,TMom,0000,0000,0000,,Everyone worries too much.
+Dialogue: 0,0:06:28.95,0:06:30.07,SFX-BlackWhite,Sign 0630,0000,0000,0000,,{\fad(1,254)\an9}Oh...
+Dialogue: 0,0:06:29.42,0:06:31.32,Default,S,0000,0000,0000,,Not as much as Takeo.
+Dialogue: 0,0:06:31.74,0:06:35.06,Default,TMom,0000,0000,0000,,Having a caring friend like you
+Dialogue: 0,0:06:35.06,0:06:37.09,Default,TMom,0000,0000,0000,,and a cute girlfriend,
+Dialogue: 0,0:06:37.09,0:06:39.21,Default,TMom,0000,0000,0000,,Takeo's a lucky boy...
+Dialogue: 0,0:06:39.21,0:06:41.29,Default,S,0000,0000,0000,,That's because he's a good man.
+Dialogue: 0,0:06:41.29,0:06:45.09,Default,TMom,0000,0000,0000,,To me, he's still a little boy.
+Dialogue: 0,0:06:47.66,0:06:52.30,Default,TMom,0000,0000,0000,,I hope this one will make good friends, too...
+Dialogue: 0,0:06:53.17,0:06:54.81,Default,T,0000,0000,0000,,Thanks for the charm.
+Dialogue: 0,0:06:54.81,0:06:56.26,Default,T,0000,0000,0000,,Mom's really happy with it.
+Dialogue: 0,0:06:56.26,0:06:58.06,Default,T,0000,0000,0000,,She put it on the bag she takes everywhere.
+Dialogue: 0,0:06:58.06,0:06:59.45,Default,Y,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:06:59.45,0:07:00.95,Default,Y,0000,0000,0000,,That makes me happy...
+Dialogue: 0,0:07:02.49,0:07:04.94,Default,Y,0000,0000,0000,,I hope I can meet the baby soon.
+Dialogue: 0,0:07:04.94,0:07:07.44,SFX-BlackWhite,,0000,0000,0000,,{\an7}Mochi Waffle
+Dialogue: 0,0:07:05.79,0:07:07.44,Default - italics,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:07.44,0:07:10.56,Default,Y,0000,0000,0000,,I want to see your 100-day baby pictures, too.
+Dialogue: 0,0:07:10.56,0:07:11.82,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:12.52,0:07:13.57,Default,T,0000,0000,0000,,I'm back.
+Dialogue: 0,0:07:13.57,0:07:15.12,Default,T,0000,0000,0000,,What're you doing?!
+Dialogue: 0,0:07:15.61,0:07:17.20,Default,TMom,0000,0000,0000,,Oh, welcome back.
+Dialogue: 0,0:07:17.20,0:07:21.75,Default,TMom,0000,0000,0000,,This posture is supposed to be good, \Nfor ensuring a safe delivery.
+Dialogue: 0,0:07:22.02,0:07:25.79,Default - italics,T,0000,0000,0000,,Maybe so, but aren't you doing that too fast?
+Dialogue: 0,0:07:27.65,0:07:28.68,Default,T,0000,0000,0000,,Mom?
+Dialogue: 0,0:07:29.84,0:07:32.49,Default,TMom,0000,0000,0000,,That was a real strong kick.
+Dialogue: 0,0:07:32.49,0:07:35.11,Default,TMom,0000,0000,0000,,This one will be really healthy.
+Dialogue: 0,0:07:35.11,0:07:35.85,Default,TDad,0000,0000,0000,,I'm home.
+Dialogue: 0,0:07:36.24,0:07:38.52,Default,TDad,0000,0000,0000,,Honey, I'll go clean the bath—
+Dialogue: 0,0:07:38.52,0:07:40.39,SFX-BlackWhite,Sign 0739,0000,0000,0000,,Takeo's 100-Day Celebration
+Dialogue: 0,0:07:40.92,0:07:42.61,Default - italics,T,0000,0000,0000,,I was huge.
+Dialogue: 0,0:07:42.39,0:07:43.81,Phone,Sign 0742,0000,0000,0000,,{\an9}To: Yamato \NThis is me at 100 days.
+Dialogue: 0,0:07:43.81,0:07:47.69,SFX-BlueBlue,Sign 0745,0000,0000,0000,,{\an7\fs18}From: Yamato \N\NSo cute, Takeo-kun. \NYou're so round \NCute
+Dialogue: 0,0:07:45.70,0:07:47.99,Default - italics,T,0000,0000,0000,,I'm cute, huh?
+Dialogue: 0,0:07:51.48,0:07:52.57,Default,TMom,0000,0000,0000,,I'll be off.
+Dialogue: 0,0:07:52.57,0:07:54.34,Default,T,0000,0000,0000,,Wait, where do you think you're going?
+Dialogue: 0,0:07:54.34,0:07:55.87,Default,TMom,0000,0000,0000,,I'm just taking a walk.
+Dialogue: 0,0:07:55.87,0:07:58.74,Default,TMom,0000,0000,0000,,It's better to walk around a lot, \Nso the baby will be healthy.
+Dialogue: 0,0:07:58.74,0:08:00.53,Default,T,0000,0000,0000,,I'll come, too!
+Dialogue: 0,0:08:00.53,0:08:01.25,Default,TDad,0000,0000,0000,,Me, too.
+Dialogue: 0,0:08:01.25,0:08:05.25,Default,TMom,0000,0000,0000,,At our ages, if we all take a walk together, \Nit'd be too embarrassing.
+Dialogue: 0,0:08:05.25,0:08:07.01,Default,TMom,0000,0000,0000,,I'm off.
+Dialogue: 0,0:08:08.06,0:08:09.41,Default - italics,T,0000,0000,0000,,I'm worried.
+Dialogue: 0,0:08:11.92,0:08:17.87,Default,TDad,0000,0000,0000,,Takeo, do you know why I married your mom?
+Dialogue: 0,0:08:17.87,0:08:19.42,Default,T,0000,0000,0000,,No, I don't.
+Dialogue: 0,0:08:19.42,0:08:23.64,Default,TDad,0000,0000,0000,,Well, she and I began working at \Nthe company at the same time.
+Dialogue: 0,0:08:24.10,0:08:28.15,Default,TDad,0000,0000,0000,,Your mom had this presence, \Neven as a new employee.
+Dialogue: 0,0:08:28.69,0:08:31.73,Default,TDad,0000,0000,0000,,She worked very hard, so her \Nsupervisor looked after her,
+Dialogue: 0,0:08:31.73,0:08:35.51,Default,TDad,0000,0000,0000,,and all the other female employees \Nlooked up to her...
+Dialogue: 0,0:08:35.51,0:08:36.28,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:08:36.28,0:08:38.60,Default,TDad,0000,0000,0000,,That year, at the end-of-the-year party...
+Dialogue: 0,0:08:38.60,0:08:41.41,Default - flashback,Workers,0000,0000,0000,,Takenaka-san, please pass that pot around.
+Dialogue: 0,0:08:41.41,0:08:43.66,SFX-BlackWhite,Sign 0843,0000,0000,0000,,{\an7\fs22}Maiden Name \NTakenaka Yuriko
+Dialogue: 0,0:08:41.84,0:08:42.70,Default - flashback,TMom,0000,0000,0000,,Sure.
+Dialogue: 0,0:08:44.04,0:08:45.99,Default - flashback,TMom,0000,0000,0000,,Be careful. It's hot.
+Dialogue: 0,0:08:47.75,0:08:48.46,Default - flashback,Worker,0000,0000,0000,,Ow!
+Dialogue: 0,0:08:52.73,0:08:53.88,Default - flashback,Worker,0000,0000,0000,,Yuriko-chan! Your hand!
+Dialogue: 0,0:08:53.88,0:08:55.27,Default - flashback,TMom,0000,0000,0000,,I'm fine...
+Dialogue: 0,0:08:55.27,0:08:57.27,Default - flashback,TMom,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:08:57.27,0:08:58.20,Default - flashback,Worker,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:58.20,0:08:59.59,Default - flashback,TMom,0000,0000,0000,,I'll go wash my hand.
+Dialogue: 0,0:08:59.59,0:09:01.22,Default - flashback,TMom,0000,0000,0000,,I'm wearing a lot of layers, so it's fine.
+Dialogue: 0,0:09:02.65,0:09:04.48,Default - flashback,TDad,0000,0000,0000,,Would you like me to bring some ice?
+Dialogue: 0,0:09:04.48,0:09:07.60,Default - flashback,TMom,0000,0000,0000,,Oh... It's fine. Don't worry.
+Dialogue: 0,0:09:08.87,0:09:10.78,Default - flashback,TMom,0000,0000,0000,,When I see cute girls like her,
+Dialogue: 0,0:09:10.78,0:09:14.07,Default - flashback,TMom,0000,0000,0000,,I just want to protect them, you know?
+Dialogue: 0,0:09:14.73,0:09:18.20,Default,TDad,0000,0000,0000,,That was the first time in my life,
+Dialogue: 0,0:09:20.14,0:09:25.72,Default,TDad,0000,0000,0000,,I thought I'd want to ride out the turbulent \Nwaves of life with someone like her!
+Dialogue: 0,0:09:26.21,0:09:27.83,Default - flashback,TDad,0000,0000,0000,,Would you like to play golf with me?
+Dialogue: 0,0:09:28.31,0:09:30.21,Default - flashback,TDad,0000,0000,0000,,You have strong core muscles.
+Dialogue: 0,0:09:30.71,0:09:32.09,Default - flashback,TDad,0000,0000,0000,,Let's go for a drive.
+Dialogue: 0,0:09:34.48,0:09:36.86,Default - flashback,TDad,0000,0000,0000,,I want to protect you, Takenaka-san.
+Dialogue: 0,0:09:40.53,0:09:42.43,Default,TDad,0000,0000,0000,,Although, your mom's so strong,
+Dialogue: 0,0:09:42.43,0:09:44.85,Default,TDad,0000,0000,0000,,I've never gotten around to protecting her.
+Dialogue: 0,0:09:46.85,0:09:48.30,Default,Iso,0000,0000,0000,,Gouda-san?
+Dialogue: 0,0:09:48.30,0:09:49.36,Default,TMom,0000,0000,0000,,Oh!
+Dialogue: 0,0:09:49.86,0:09:52.35,Default,Iso,0000,0000,0000,,Gouda-san, you have another checkup \Ntomorrow, don't you?
+Dialogue: 0,0:09:52.35,0:09:53.26,Default,TMom,0000,0000,0000,,I do.
+Dialogue: 0,0:09:53.26,0:09:55.08,Default,TMom,0000,0000,0000,,We're both due soon, aren't we?
+Dialogue: 0,0:09:55.08,0:09:55.80,Default,Iso,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:55.80,0:09:56.74,Default,Iso,0000,0000,0000,,See you tomorrow.
+Dialogue: 0,0:10:10.04,0:10:11.19,Default,Iso,0000,0000,0000,,Gouda-san!
+Dialogue: 0,0:10:11.19,0:10:12.96,Default,Iso,0000,0000,0000,,Are you okay, Gouda-san?!
+Dialogue: 0,0:10:12.96,0:10:15.13,Default,TMom,0000,0000,0000,,I'm fine, I'm fine...
+Dialogue: 0,0:10:15.13,0:10:16.68,Default,TMom,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:10:16.68,0:10:17.90,Default,Iso,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:17.90,0:10:19.44,Default,TMom,0000,0000,0000,,Be careful.
+Dialogue: 0,0:10:19.44,0:10:21.25,Default,Iso,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:24.70,0:10:26.93,Default,S,0000,0000,0000,,You don't know if it's a boy or a girl yet?
+Dialogue: 0,0:10:27.48,0:10:28.21,Default,T,0000,0000,0000,,No.
+Dialogue: 0,0:10:28.21,0:10:30.14,Default,T,0000,0000,0000,,Which one would you guess?
+Dialogue: 0,0:10:30.14,0:10:32.58,Default,S,0000,0000,0000,,Oh, I have no idea.
+Dialogue: 0,0:10:32.58,0:10:35.69,Default,S,0000,0000,0000,,I can't really imagine a girl...
+Dialogue: 0,0:10:35.84,0:10:36.65,SFX-BlackWhite,Sign 1036,0000,0000,0000,,{\an9\fs22\fad(1,181)}guffaw
+Dialogue: 0,0:10:36.50,0:10:38.78,Default,Sign 1036,0000,0000,0000,,I can only think of the kid with your face.
+Dialogue: 0,0:10:38.78,0:10:40.07,Default,T,0000,0000,0000,,Why are you laughing?
+Dialogue: 0,0:10:40.65,0:10:42.56,Default - italics,T,0000,0000,0000,,A little brother or sister...
+Dialogue: 0,0:10:44.08,0:10:47.29,Default,T,0000,0000,0000,,You're right, I can only think of one face.
+Dialogue: 0,0:10:49.09,0:10:51.08,Default,T,0000,0000,0000,,Suna, you're laughing too much!
+Dialogue: 0,0:10:51.50,0:10:52.84,Default,T,0000,0000,0000,,I'm home.
+Dialogue: 0,0:10:55.08,0:10:55.71,Default,T,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:10:56.30,0:10:58.84,Default,T,0000,0000,0000,,Did the baby kick again?
+Dialogue: 0,0:10:58.84,0:11:01.97,Default,TMom,0000,0000,0000,,T-Take, get a taxi...
+Dialogue: 0,0:11:02.29,0:11:05.22,Default,TMom,0000,0000,0000,,Mom's going to the hospital for a bit.
+Dialogue: 0,0:11:09.06,0:11:10.26,Default - italics,T,0000,0000,0000,,Taxi!
+Dialogue: 0,0:11:14.39,0:11:15.77,Default - italics,T,0000,0000,0000,,Where're all the taxis?
+Dialogue: 0,0:11:18.40,0:11:20.44,Default,S,0000,0000,0000,,Takeo, did something happen?
+Dialogue: 0,0:11:20.44,0:11:22.16,Default,S,0000,0000,0000,,I heard a really loud noise.
+Dialogue: 0,0:11:23.99,0:11:25.46,Default,T,0000,0000,0000,,It's Mom...
+Dialogue: 0,0:11:23.99,0:11:25.99,EyecatchA,Sign 1125,0000,0000,0000,,Life
+Dialogue: 0,0:11:25.99,0:11:28.00,EyecatchB,Sign 1127,0000,0000,0000,,Fate
+Dialogue: 0,0:11:28.49,0:11:29.61,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:11:29.61,0:11:31.54,Default - italics,T,0000,0000,0000,,I should have just called one.
+Dialogue: 0,0:11:32.93,0:11:34.04,Default - italics,T,0000,0000,0000,,Dad's at work.
+Dialogue: 0,0:11:34.68,0:11:36.31,Default - italics,T,0000,0000,0000,,I have to keep it together.
+Dialogue: 0,0:11:36.16,0:11:37.74,Default,Cabbie,0000,0000,0000,,Where to, sir?
+Dialogue: 0,0:11:37.14,0:11:38.75,Default - italics,T,0000,0000,0000,,What should I do?
+Dialogue: 0,0:11:38.75,0:11:39.79,Default - italics,T,0000,0000,0000,,What should I...
+Dialogue: 0,0:11:39.32,0:11:40.50,Default,Cabbie,0000,0000,0000,,Sir?
+Dialogue: 0,0:11:40.50,0:11:43.18,Default,S,0000,0000,0000,,Please go to Shisuda General Hospital.
+Dialogue: 0,0:11:44.31,0:11:45.14,Default,S,0000,0000,0000,,I'll come, too.
+Dialogue: 0,0:11:45.14,0:11:47.89,SignB,Sign 1146,0000,0000,0000,,Shisuda Hospital
+Dialogue: 0,0:11:45.56,0:11:46.76,Default - italics,T,0000,0000,0000,,Suna...
+Dialogue: 0,0:11:47.89,0:11:49.42,Default,TMom,0000,0000,0000,,I'm fine...
+Dialogue: 0,0:11:49.42,0:11:52.65,Default,TMom,0000,0000,0000,,Take, I left my wallet at home—
+Dialogue: 0,0:11:52.65,0:11:53.83,Default,T,0000,0000,0000,,I'll go get it.
+Dialogue: 0,0:11:54.71,0:11:57.15,Default,S,0000,0000,0000,,I've paid for the taxi.
+Dialogue: 0,0:11:57.66,0:11:59.93,Default,TMom,0000,0000,0000,,You have a good head on your \Nshoulders, Makoto-kun.
+Dialogue: 0,0:11:59.93,0:12:01.71,Default,T,0000,0000,0000,,Where's the wallet?
+Dialogue: 0,0:12:01.71,0:12:02.66,Default,TMom,0000,0000,0000,,On the dresser.
+Dialogue: 0,0:12:03.06,0:12:04.19,Default,T,0000,0000,0000,,Got it.
+Dialogue: 0,0:12:04.19,0:12:07.25,Default,TMom,0000,0000,0000,,My goodness, I wish he'd calm down a little.
+Dialogue: 0,0:12:07.25,0:12:09.40,Default,S,0000,0000,0000,,That's why he's a good man.
+Dialogue: 0,0:12:10.04,0:12:14.04,Default,TMom,0000,0000,0000,,You're too nice to Takeo... \NBoth you and Yamato-san.
+Dialogue: 0,0:12:14.84,0:12:16.15,Default,T,0000,0000,0000,,How's Mom?!
+Dialogue: 0,0:12:17.65,0:12:18.80,Default,S,0000,0000,0000,,The doctor's with her now.
+Dialogue: 0,0:12:18.80,0:12:19.85,Default,T,0000,0000,0000,,Calm down!
+Dialogue: 0,0:12:19.85,0:12:21.05,Default,T,0000,0000,0000,,Calm down, Suna!
+Dialogue: 0,0:12:22.07,0:12:23.55,Default,S,0000,0000,0000,,You calm down.
+Dialogue: 0,0:12:24.43,0:12:25.47,Default,T,0000,0000,0000,,Sorry.
+Dialogue: 0,0:12:25.47,0:12:26.27,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:26.71,0:12:29.08,Default,T,0000,0000,0000,,She's always been healthy, so...
+Dialogue: 0,0:12:29.08,0:12:29.81,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:30.39,0:12:33.56,Default,T,0000,0000,0000,,I've never seen her like this.
+Dialogue: 0,0:12:33.56,0:12:34.23,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:35.64,0:12:37.11,Default,T,0000,0000,0000,,Sorry...
+Dialogue: 0,0:12:37.11,0:12:37.77,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:39.79,0:12:42.83,Default,TMom,0000,0000,0000,,Oh, Take, did you bring my wallet?
+Dialogue: 0,0:12:42.83,0:12:43.76,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:43.76,0:12:45.48,Default,T,0000,0000,0000,,Are you both okay?
+Dialogue: 0,0:12:46.97,0:12:48.91,Default,TMom,0000,0000,0000,,I'm going to be hospitalized.
+Dialogue: 0,0:12:49.90,0:12:51.16,Default - italics,T,0000,0000,0000,,Hospitalized...
+Dialogue: 0,0:12:51.69,0:12:54.84,Default,TMom,0000,0000,0000,,I want you to do a couple things, \Nso write them down.
+Dialogue: 0,0:12:55.33,0:12:56.06,Default,S,0000,0000,0000,,I'll do it.
+Dialogue: 0,0:12:56.06,0:12:59.33,Default,TMom,0000,0000,0000,,In my room, there's a bag I put \Ntogether for the hospital stay.
+Dialogue: 0,0:12:59.33,0:13:00.00,Default,TMom,0000,0000,0000,,Bring that.
+Dialogue: 0,0:13:00.00,0:13:03.44,Default,TMom,0000,0000,0000,,Oh, and don't forget to wash the \Ndishes and do the laundry.
+Dialogue: 0,0:13:03.44,0:13:05.82,Default,TMom,0000,0000,0000,,Tomorrow's flammables, so take out the trash.
+Dialogue: 0,0:13:05.82,0:13:08.24,Default,TMom,0000,0000,0000,,I'll call Dad.
+Dialogue: 0,0:13:09.28,0:13:10.01,Default,TMom,0000,0000,0000,,Take!
+Dialogue: 0,0:13:10.85,0:13:14.10,Default,TMom,0000,0000,0000,,I'm fine, so don't worry.
+Dialogue: 0,0:13:15.58,0:13:17.56,Default,Nurse,0000,0000,0000,,I'll take you to your room.
+Dialogue: 0,0:13:18.01,0:13:19.50,Default,T,0000,0000,0000,,Please take care of her!
+Dialogue: 0,0:13:19.50,0:13:20.82,Default,Nurse,0000,0000,0000,,O-Okay!
+Dialogue: 0,0:13:22.71,0:13:23.84,Default,T,0000,0000,0000,,Did someone break in?
+Dialogue: 0,0:13:23.84,0:13:25.38,Default,T,0000,0000,0000,,No, it was me.
+Dialogue: 0,0:13:25.38,0:13:26.57,Default,T,0000,0000,0000,,I'll go drop this off!
+Dialogue: 0,0:13:26.07,0:13:26.57,SFX-BlackWhite,Sign 1326,0000,0000,0000,,{\an9}See you
+Dialogue: 0,0:13:27.23,0:13:29.28,Default,Nurse,0000,0000,0000,,Gouda-san's in room 203.
+Dialogue: 0,0:13:29.28,0:13:30.06,Default,T,0000,0000,0000,,Thanks.
+Dialogue: 0,0:13:30.06,0:13:32.42,Default,Nurse,0000,0000,0000,,Oh, the doctor is seeing your wife.
+Dialogue: 0,0:13:32.42,0:13:34.28,Default,Nurse,0000,0000,0000,,I'll take her bags.
+Dialogue: 0,0:13:34.28,0:13:35.14,Default,T,0000,0000,0000,,Thanks!
+Dialogue: 0,0:13:35.14,0:13:36.46,Default,T,0000,0000,0000,,Please look after her!
+Dialogue: 0,0:13:38.34,0:13:39.47,Default - italics,T,0000,0000,0000,,Suna?
+Dialogue: 0,0:13:39.97,0:13:41.21,Default - italics,T,0000,0000,0000,,Did he go home?
+Dialogue: 0,0:13:43.19,0:13:45.25,Default - italics,T,0000,0000,0000,,I have to keep it together.
+Dialogue: 0,0:13:45.98,0:13:46.84,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:13:49.19,0:13:51.33,Default,Y,0000,0000,0000,,Sunakawa-kun told me...
+Dialogue: 0,0:13:51.33,0:13:52.97,Default,Y,0000,0000,0000,,your mom's been hospitalized?
+Dialogue: 0,0:13:55.29,0:13:57.11,Default,Y,0000,0000,0000,,Can I use your kitchen?
+Dialogue: 0,0:13:57.11,0:13:58.21,Default,Y,0000,0000,0000,,I'll make curry.
+Dialogue: 0,0:13:58.21,0:14:00.14,Default,Y,0000,0000,0000,,I went and got groceries!
+Dialogue: 0,0:14:00.14,0:14:01.86,Default,S,0000,0000,0000,,Oh, welcome back, Takeo.
+Dialogue: 0,0:14:02.60,0:14:04.40,Default,YS,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:04.77,0:14:06.69,Default,Y,0000,0000,0000,,Takeo-kun, you aren't peeling the vegetables?
+Dialogue: 0,0:14:06.15,0:14:07.28,SFX-BlackWhite,Sign 1406,0000,0000,0000,,{\fad(238,1)}Oh, is it like a macrobiotic thing?!
+Dialogue: 0,0:14:06.41,0:14:07.28,SignD,Sign 1406,0000,0000,0000,,Definitely not.
+Dialogue: 0,0:14:07.28,0:14:08.28,SFX-BlackWhite,Sign 1407,0000,0000,0000,,Your pots are super heavy! Are they iron?!
+Dialogue: 0,0:14:07.28,0:14:08.28,SignD,Sign 1407,0000,0000,0000,,{\an3}Really?
+Dialogue: 0,0:14:08.28,0:14:09.31,SFX-BlackWhite,Sign 1408,0000,0000,0000,,Is that detergent?
+Dialogue: 0,0:14:09.77,0:14:11.45,Default,S,0000,0000,0000,,Takeo, that's bleach.
+Dialogue: 0,0:14:11.45,0:14:14.45,SFX-BlackWhite,Sign 1413,0000,0000,0000,,So good.
+Dialogue: 0,0:14:12.08,0:14:13.09,Default,Y,0000,0000,0000,,Is it too sweet?
+Dialogue: 0,0:14:13.09,0:14:15.14,Default,Y,0000,0000,0000,,I like making curry on the sweet side.
+Dialogue: 0,0:14:13.24,0:14:14.45,SignD,Sign 1413,0000,0000,0000,,You got your face dirty.
+Dialogue: 0,0:14:14.45,0:14:16.96,SignD,Sign 1415,0000,0000,0000,,Huh?!
+Dialogue: 0,0:14:14.45,0:14:16.96,SFX-BlackWhite,Sign 1415,0000,0000,0000,,{\an9}Ha ha, you make \Na lot of bubbles \Nwhen you wash dishes!
+Dialogue: 0,0:14:15.45,0:14:16.96,SignE,Sign 1415,0000,0000,0000,,You're using way too much detergent.
+Dialogue: 0,0:14:16.96,0:14:19.69,Default,Y,0000,0000,0000,,Oh, you don't have to walk me home.
+Dialogue: 0,0:14:19.69,0:14:21.79,Default,Y,0000,0000,0000,,Stay here, Takeo-kun.
+Dialogue: 0,0:14:21.79,0:14:22.50,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:14:24.58,0:14:26.26,Default,Y,0000,0000,0000,,If you need any help, call me.
+Dialogue: 0,0:14:26.26,0:14:27.71,Default,Y,0000,0000,0000,,I'll come right away.
+Dialogue: 0,0:14:27.71,0:14:30.05,Default,T,0000,0000,0000,,Okay, thanks.
+Dialogue: 0,0:14:37.60,0:14:39.06,Default,TDad,0000,0000,0000,,I'm home.
+Dialogue: 0,0:14:41.79,0:14:43.63,Default,TDad,0000,0000,0000,,Oh, there's curry.
+Dialogue: 0,0:14:43.63,0:14:45.60,Default,TDad,0000,0000,0000,,Did you make it?
+Dialogue: 0,0:14:45.60,0:14:48.10,Default,T,0000,0000,0000,,No, it was Yamato.
+Dialogue: 0,0:14:48.10,0:14:50.10,Default,TDad,0000,0000,0000,,I see, I see...
+Dialogue: 0,0:14:50.10,0:14:51.32,Default,T,0000,0000,0000,,You went by the hospital, right?
+Dialogue: 0,0:14:51.68,0:14:53.29,Default,T,0000,0000,0000,,How was Mom?
+Dialogue: 0,0:14:53.29,0:14:55.20,Default,T,0000,0000,0000,,How was my brother or sister?
+Dialogue: 0,0:14:55.64,0:14:57.43,Default,TDad,0000,0000,0000,,Oh, they're fine.
+Dialogue: 0,0:14:57.43,0:14:58.89,Default,TDad,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:14:58.89,0:15:01.58,Default,TDad,0000,0000,0000,,On your way back from school tomorrow, \Nstop by the hospital.
+Dialogue: 0,0:15:01.58,0:15:02.59,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:15:02.59,0:15:05.79,Default,TDad,0000,0000,0000,,I'm glad you were here!
+Dialogue: 0,0:15:06.84,0:15:10.34,Default - flashback,TMom,0000,0000,0000,,I know another mother who's expecting,\Ndue around the same time as I am.
+Dialogue: 0,0:15:10.68,0:15:13.71,Default - flashback,TMom,0000,0000,0000,,When she tripped and I turned to catch her,
+Dialogue: 0,0:15:13.71,0:15:16.63,Default - flashback,TMom,0000,0000,0000,,I felt a pain in my stomach.
+Dialogue: 0,0:15:16.63,0:15:18.94,Default - flashback,TMom,0000,0000,0000,,I just couldn't help myself.
+Dialogue: 0,0:15:18.94,0:15:22.73,Default - flashback,TMom,0000,0000,0000,,I wonder if our baby's mad at me for that...
+Dialogue: 0,0:15:23.37,0:15:24.92,Default - flashback,TDad,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:15:24.92,0:15:28.31,Default - flashback,TDad,0000,0000,0000,,You wanted to protect them both.
+Dialogue: 0,0:15:29.24,0:15:33.08,Default,Teach,0000,0000,0000,,Next, turn to page 53.
+Dialogue: 0,0:15:33.58,0:15:35.20,Default,Teach,0000,0000,0000,,Let's have one of you read the page.
+Dialogue: 0,0:15:35.98,0:15:38.12,Default - italics,T,0000,0000,0000,,I have to keep it together!
+Dialogue: 0,0:15:44.54,0:15:45.34,Default - italics,T,0000,0000,0000,,Is it the hospital?!
+Dialogue: 0,0:15:45.34,0:15:48.21,Phone,Sign 1547,0000,0000,0000,,{\an7}Yamato Rinko \NSubject: Still have curry? \N\NCan I come over today, too? \NIs there still curry left?
+Dialogue: 0,0:15:47.30,0:15:48.21,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:15:49.23,0:15:51.03,Phone,Sign 1550,0000,0000,0000,,I'm going to the hospital. \NSorry, we ate all the curry.
+Dialogue: 0,0:15:51.03,0:15:53.05,Phone,Sign 1551,0000,0000,0000,,Can I come, too?
+Dialogue: 0,0:15:53.36,0:15:55.30,Phone,Sign 1554,0000,0000,0000,,Of course! Mom would be happy to see you.
+Dialogue: 0,0:15:55.30,0:15:57.56,SignB,Sign 1556,0000,0000,0000,,Shisuda Hospital
+Dialogue: 0,0:15:56.37,0:15:57.56,Phone,Sign 1557,0000,0000,0000,,{\an2}Really? I'll come, then.
+Dialogue: 0,0:15:57.91,0:15:59.93,Default - italics,T,0000,0000,0000,,I have to keep it together!
+Dialogue: 0,0:16:00.46,0:16:01.77,Default,Nurse,0000,0000,0000,,Don't run.
+Dialogue: 0,0:16:01.77,0:16:02.94,Default,T,0000,0000,0000,,Sorry!
+Dialogue: 0,0:16:03.75,0:16:04.61,Default,T,0000,0000,0000,,Hello!
+Dialogue: 0,0:16:04.61,0:16:05.69,Default,T,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:16:08.09,0:16:09.46,Default,TMom,0000,0000,0000,,Oh, Take...
+Dialogue: 0,0:16:09.46,0:16:12.16,Default,TMom,0000,0000,0000,,Don't look so worried.
+Dialogue: 0,0:16:12.70,0:16:14.94,Default,T,0000,0000,0000,,Don't you have to stay lying down?
+Dialogue: 0,0:16:14.94,0:16:17.66,Default,TMom,0000,0000,0000,,Hey, I'm not some invalid.
+Dialogue: 0,0:16:18.22,0:16:19.91,Default,TMom,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:16:19.91,0:16:24.67,Gouda,Sign 1622,0000,0000,0000,,{\fs18}OBGYN \NGouda Yuriko
+Dialogue: 0,0:16:20.60,0:16:22.64,Default,T,0000,0000,0000,,Anything you want me to do?
+Dialogue: 0,0:16:22.64,0:16:24.67,Default,TMom,0000,0000,0000,,Oh, buy me some water.
+Dialogue: 0,0:16:27.25,0:16:30.73,Default - italics,T,0000,0000,0000,,But doesn't she look pale?
+Dialogue: 0,0:16:30.73,0:16:31.92,Default - italics,T,0000,0000,0000,,She was sweating, too.
+Dialogue: 0,0:16:33.19,0:16:35.68,Default - italics,T,0000,0000,0000,,I don't really know anything about this,
+Dialogue: 0,0:16:35.68,0:16:39.34,Default - italics,T,0000,0000,0000,,but a human being's going to \Npop out of another person.
+Dialogue: 0,0:16:37.35,0:16:39.56,SFX-BlackWhite,Sign 1638,0000,0000,0000,,{\fad(397,1)}I still wanna play!        It's time for dinner.
+Dialogue: 0,0:16:39.34,0:16:42.28,Default - italics,T,0000,0000,0000,,Isn't that a big deal?
+Dialogue: 0,0:16:39.56,0:16:42.52,SFX-BlackWhite,Sign 1640,0000,0000,0000,,{\fad(297,977)}Hey, it isn't over yet.             Man, you're so strong, Mom!
+Dialogue: 0,0:16:42.72,0:16:45.69,Default - italics,T,0000,0000,0000,,Isn't there something I can do?
+Dialogue: 0,0:16:49.57,0:16:50.89,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:16:50.89,0:16:52.32,Default,Y,0000,0000,0000,,How's your mom?
+Dialogue: 0,0:16:53.44,0:16:54.53,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:16:56.77,0:16:57.79,Default,Y,0000,0000,0000,,It'll be okay!
+Dialogue: 0,0:16:57.79,0:16:59.28,Default,Y,0000,0000,0000,,I'm right here with you!
+Dialogue: 0,0:16:59.69,0:17:01.70,Default,S,0000,0000,0000,,Her room's on the second floor, right?
+Dialogue: 0,0:17:01.70,0:17:02.41,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:03.73,0:17:05.51,Default - italics,T,0000,0000,0000,,I'm being pathetic...
+Dialogue: 0,0:17:05.51,0:17:07.81,Default - italics,T,0000,0000,0000,,I'm not a kid anymore.
+Dialogue: 0,0:17:07.81,0:17:10.38,Default - italics,T,0000,0000,0000,,It's Mom and the baby who're \Nhaving to tough it out.
+Dialogue: 0,0:17:11.30,0:17:11.94,Default,T,0000,0000,0000,,Okay!
+Dialogue: 0,0:17:11.94,0:17:13.92,Default,T,0000,0000,0000,,I'm going to go cheer on my mom a bit!
+Dialogue: 0,0:17:13.92,0:17:14.95,Default,T,0000,0000,0000,,Mom!
+Dialogue: 0,0:17:14.95,0:17:17.18,Default,T,0000,0000,0000,,Suna and Yamato have come to see you—
+Dialogue: 0,0:17:20.34,0:17:23.40,Default,TMom,0000,0000,0000,,Take, use the intercom to call the nurse...
+Dialogue: 0,0:17:23.40,0:17:25.20,Default,TMom,0000,0000,0000,,I've let the contractions go on too long.
+Dialogue: 0,0:17:25.20,0:17:26.56,Default,TMom,0000,0000,0000,,I can't walk...
+Dialogue: 0,0:17:26.56,0:17:28.31,Default,T,0000,0000,0000,,Okay! This one, right?
+Dialogue: 0,0:17:28.31,0:17:29.98,Default,S,0000,0000,0000,,Takeo, this one.
+Dialogue: 0,0:17:30.99,0:17:32.54,Default,Nurse,0000,0000,0000,,Yes? What can I help you with?
+Dialogue: 0,0:17:32.54,0:17:33.55,Default,T,0000,0000,0000,,Please come!
+Dialogue: 0,0:17:33.55,0:17:34.32,Default,T,0000,0000,0000,,The baby's coming!
+Dialogue: 0,0:17:34.32,0:17:37.09,Default,T,0000,0000,0000,,Mom, it's going to be okay!
+Dialogue: 0,0:17:35.39,0:17:38.24,Default,S,0000,0000,0000,,She can't walk, so please bring a wheelchair.
+Dialogue: 0,0:17:37.58,0:17:38.97,Default,T,0000,0000,0000,,Hey, can you hear me?!
+Dialogue: 0,0:17:38.97,0:17:39.90,Default,T,0000,0000,0000,,I'm your brother!
+Dialogue: 0,0:17:39.90,0:17:41.33,Default,T,0000,0000,0000,,Come out healthy!
+Dialogue: 0,0:17:41.63,0:17:43.83,Default,T,0000,0000,0000,,I'm waiting for you!
+Dialogue: 0,0:17:45.77,0:17:46.83,Default,Nurse,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:17:46.83,0:17:50.59,Default,Lady,0000,0000,0000,,I'm sorry, I need a wheelchair, too...
+Dialogue: 0,0:17:51.55,0:17:54.05,Default,Nurse,0000,0000,0000,,Gouda-san, here's a wheelchair.
+Dialogue: 0,0:17:54.53,0:17:57.81,Default,TMom,0000,0000,0000,,Please take the lady next to me first.
+Dialogue: 0,0:17:57.81,0:18:00.05,Default,TMom,0000,0000,0000,,It's her first birth, and she's scared.
+Dialogue: 0,0:18:00.05,0:18:01.94,Default,Lady,0000,0000,0000,,Oh, but...
+Dialogue: 0,0:18:01.94,0:18:03.59,Default,Nurse,0000,0000,0000,,Are you going to be okay?
+Dialogue: 0,0:18:03.59,0:18:04.89,Default,TMom,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:18:07.65,0:18:09.65,Default,T,0000,0000,0000,,I'll carry Mom.
+Dialogue: 0,0:18:11.45,0:18:12.45,Default,T,0000,0000,0000,,Go.
+Dialogue: 0,0:18:12.45,0:18:13.71,Default,T,0000,0000,0000,,I'll follow.
+Dialogue: 0,0:18:13.71,0:18:14.61,Default,Nurse,0000,0000,0000,,Okay!
+Dialogue: 0,0:18:15.15,0:18:17.10,Default,T,0000,0000,0000,,It's going to be okay.
+Dialogue: 0,0:18:17.10,0:18:18.86,Default,T,0000,0000,0000,,Your brother will carry you.
+Dialogue: 0,0:18:19.66,0:18:23.62,Default,T,0000,0000,0000,,Your brother's friend and girlfriend \Nwant to meet you.
+Dialogue: 0,0:18:24.41,0:18:26.87,Default,T,0000,0000,0000,,They're great people.
+Dialogue: 0,0:18:26.87,0:18:29.25,Default,T,0000,0000,0000,,Your dad and mom are waiting for you, too.
+Dialogue: 0,0:18:29.25,0:18:30.63,Default,T,0000,0000,0000,,You can feel safe coming out.
+Dialogue: 0,0:18:31.17,0:18:32.48,Default,Iso,0000,0000,0000,,Thanks to Gouda-san,
+Dialogue: 0,0:18:32.48,0:18:34.67,Default,Iso,0000,0000,0000,,my baby was born safely yesterday!
+Dialogue: 0,0:18:34.67,0:18:37.07,Default,Iso,0000,0000,0000,,Hang in there, Gouda-san.
+Dialogue: 0,0:18:37.07,0:18:38.30,Default,TMom,0000,0000,0000,,I will.
+Dialogue: 0,0:18:38.30,0:18:41.99,Default,Iso,0000,0000,0000,,I hope our children can become friends.
+Dialogue: 0,0:18:41.99,0:18:44.62,Default,T,0000,0000,0000,,Your friend's waiting, too.
+Dialogue: 0,0:18:45.81,0:18:47.41,Default,Nurse,0000,0000,0000,,This way, please.
+Dialogue: 0,0:18:47.41,0:18:49.06,Default,TMom,0000,0000,0000,,Oh, wait.
+Dialogue: 0,0:18:49.34,0:18:52.06,Default,TMom,0000,0000,0000,,Take, please bring my black bag.
+Dialogue: 0,0:18:52.06,0:18:52.61,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:53.84,0:18:54.94,SFX-GrayWhite,Sign 1854,0000,0000,0000,,{\fad(1,139)}So fast!!
+Dialogue: 0,0:18:53.99,0:18:54.91,Default,T,0000,0000,0000,,This one, right?
+Dialogue: 0,0:18:54.91,0:18:56.69,Default,TMom,0000,0000,0000,,Yes, thanks.
+Dialogue: 0,0:18:58.76,0:19:00.24,SignA,Sign 1859,0000,0000,0000,,Safe Birth Charm
+Dialogue: 0,0:19:01.85,0:19:03.99,Default,TMom,0000,0000,0000,,Okay, I'll go push one out now.
+Dialogue: 0,0:19:03.99,0:19:06.00,Default,TMom,0000,0000,0000,,Just wait and see.
+Dialogue: 0,0:19:10.89,0:19:12.21,Default,T,0000,0000,0000,,Thanks...
+Dialogue: 0,0:19:13.49,0:19:14.92,Default,S,0000,0000,0000,,Let's sit and wait.
+Dialogue: 0,0:19:14.92,0:19:15.75,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:22.43,0:19:24.50,Default,Doc,0000,0000,0000,,Gouda-san, your baby was born!
+Dialogue: 0,0:19:24.50,0:19:25.13,Default,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:25.13,0:19:26.63,Default,Doc,0000,0000,0000,,It went fine!
+Dialogue: 0,0:19:26.63,0:19:27.39,Default - italics,All,0000,0000,0000,,That was fast!
+Dialogue: 0,0:19:27.39,0:19:30.69,Default,Doc,0000,0000,0000,,She's a beautiful baby girl, at 4,200 grams!
+Dialogue: 0,0:19:31.07,0:19:32.66,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:19:32.66,0:19:35.28,Default,Doc,0000,0000,0000,,Sir, your wife did really well.
+Dialogue: 0,0:19:34.94,0:19:36.57,SFX-BrownWhite,Sign 1939,0000,0000,0000,,{\fad(1,144)}He isn't the father.
+Dialogue: 0,0:19:35.28,0:19:36.90,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:19:36.90,0:19:38.21,Default,Doc,0000,0000,0000,,I'm happy for you.
+Dialogue: 0,0:19:38.21,0:19:40.19,Default,Doc,0000,0000,0000,,Congratulations to the new father.
+Dialogue: 0,0:19:39.97,0:19:41.74,SFX-BrownWhite,Sign 1939,0000,0000,0000,,He isn't the father.
+Dialogue: 0,0:19:40.19,0:19:41.74,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:19:42.80,0:19:43.88,Default - italics,T,0000,0000,0000,,I'm so relieved.
+Dialogue: 0,0:19:44.64,0:19:46.10,Default - italics,T,0000,0000,0000,,Wow...
+Dialogue: 0,0:19:46.10,0:19:47.37,Default - italics,T,0000,0000,0000,,You hung in there.
+Dialogue: 0,0:19:47.37,0:19:52.12,SFX-GrayWhite,Sign 1949,0000,0000,0000,,{\fs18}Mother: Gouda Yuriko
+Dialogue: 0,0:19:48.64,0:19:52.12,Default - italics,T,0000,0000,0000,,4,200 grams... You really worked hard.
+Dialogue: 0,0:19:53.14,0:19:54.73,Default,Y,0000,0000,0000,,She's so cute.
+Dialogue: 0,0:19:54.73,0:19:56.50,Default,T,0000,0000,0000,,She's so small.
+Dialogue: 0,0:19:56.50,0:19:59.80,Default,S,0000,0000,0000,,She's almost twice as big as \Nthe other babies, though.
+Dialogue: 0,0:20:00.43,0:20:04.04,Default,Y,0000,0000,0000,,It's my first time seeing a real newborn!
+Dialogue: 0,0:20:04.04,0:20:04.80,Default,S,0000,0000,0000,,She's pretty.
+Dialogue: 0,0:20:04.80,0:20:07.81,SFX-BlackWhite,Sign 2006,0000,0000,0000,,She's sleeping real peacefully.
+Dialogue: 0,0:20:08.21,0:20:10.61,Default,T,0000,0000,0000,,I'd be okay with her marrying you.
+Dialogue: 0,0:20:10.43,0:20:11.73,SFX-BlackWhite,Sign 2011,0000,0000,0000,,The age difference is too great..
+Dialogue: 0,0:20:10.61,0:20:11.73,Default,S,0000,0000,0000,,No, thanks.
+Dialogue: 0,0:20:12.52,0:20:15.07,Default - italics,T,0000,0000,0000,,I was born healthier than most,
+Dialogue: 0,0:20:15.07,0:20:17.42,Default - italics,T,0000,0000,0000,,and grew up bigger than most.
+Dialogue: 0,0:20:18.94,0:20:19.44,Default,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:20:20.46,0:20:24.74,Default,T,0000,0000,0000,,Someday, I'd like to have a \Njob helping other people.
+Dialogue: 0,0:20:25.86,0:20:27.03,Default,Y,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:27.28,0:20:30.66,SFX-BlueWhite,Sign 2028,0000,0000,0000,,{\an9}That's really vague.
+Dialogue: 0,0:20:31.15,0:20:35.05,Default,TMom,0000,0000,0000,,I never would've thought that Takeo would \Ncarry me like a princess one day.
+Dialogue: 0,0:20:35.70,0:20:38.25,Default,TMom,0000,0000,0000,,I've been thinking of him as a little boy,
+Dialogue: 0,0:20:38.25,0:20:41.62,Default,TMom,0000,0000,0000,,but he's all grown up...
+Dialogue: 0,0:20:41.62,0:20:43.23,Default,TDad,0000,0000,0000,,I see.
+Dialogue: 0,0:20:43.81,0:20:46.57,Default,TDad,0000,0000,0000,,Let's raise another one together.
+Dialogue: 0,0:20:46.57,0:20:48.93,Default,TMom,0000,0000,0000,,What should we name her?
+Dialogue: 0,0:20:49.74,0:20:51.81,Default,Y,0000,0000,0000,,The baby was really cute.
+Dialogue: 0,0:20:52.39,0:20:54.19,Default,Y,0000,0000,0000,,Super cute.
+Dialogue: 0,0:20:55.33,0:20:56.99,Default - flashback,Y,0000,0000,0000,,So tiny!
+Dialogue: 0,0:20:56.99,0:20:57.95,Default - flashback,Y,0000,0000,0000,,So warm.
+Dialogue: 0,0:20:57.95,0:20:58.98,Default - flashback,Y,0000,0000,0000,,So soft.
+Dialogue: 0,0:20:58.98,0:21:00.69,Default - flashback,Y,0000,0000,0000,,{\an8}Wow, look at her nails...
+Dialogue: 0,0:21:00.68,0:21:04.76,Default - italics,T,0000,0000,0000,,I love Yamato when she's holding a baby.
+Dialogue: 0,0:21:00.69,0:21:01.59,Default - flashback,Y,0000,0000,0000,,{\an8}So tiny!
+Dialogue: 0,0:21:01.59,0:21:03.20,Default - flashback,Y,0000,0000,0000,,{\an8}So fluffy.
+Dialogue: 0,0:21:05.90,0:21:09.83,Default,Y,0000,0000,0000,,I want to become a kindergarten \Nteacher or a midwife.
+Dialogue: 0,0:21:09.83,0:21:11.58,Default,T,0000,0000,0000,,Sounds like a plan.
+Dialogue: 0,0:21:11.94,0:21:15.43,Default,S,0000,0000,0000,,That'd be two totally different \Ntracks in college, though.
+Dialogue: 0,0:21:16.07,0:21:18.46,Default,T,0000,0000,0000,,Those are just details, Suna!
+Dialogue: 0,0:21:18.93,0:21:22.71,Default,Y,0000,0000,0000,,I wonder what your little sister will call you.
+Dialogue: 0,0:21:22.71,0:21:24.62,Default,Y,0000,0000,0000,,Maybe "Onii-chan."
+Dialogue: 0,0:21:24.62,0:21:25.80,Default,T,0000,0000,0000,,Right!
+Dialogue: 0,0:21:25.80,0:21:28.16,Default,T,0000,0000,0000,,Or maybe "Nii-san."
+Dialogue: 0,0:21:28.16,0:21:29.62,Default,S,0000,0000,0000,,I'm sure it'll just be "Takeo."
+Dialogue: 0,0:21:29.62,0:21:31.19,Default,S,0000,0000,0000,,That's what everyone calls you.
+Dialogue: 0,0:21:31.19,0:21:32.31,Default,T,0000,0000,0000,,"Takeo"?!
+Dialogue: 0,0:21:32.99,0:21:35.43,Default,T,0000,0000,0000,,Well, I don't mind.
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign,0000,0000,0000,,{\an7\fad(1,515)}My Chocolate
+Dialogue: 0,0:22:46.57,0:22:49.32,Default,T,0000,0000,0000,,Next time: My Chocolate.

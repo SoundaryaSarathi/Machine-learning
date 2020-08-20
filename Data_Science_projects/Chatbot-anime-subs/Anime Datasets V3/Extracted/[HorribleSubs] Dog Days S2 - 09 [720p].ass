@@ -1,0 +1,386 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DogDays-main,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: DogDays-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-internal,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-narrator,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: DogDays-song,Amira,35,&H00FFFFFF,&H000000FF,&H005E039F,&H00EDDAFB,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-ep-title,Amira,37,&H00F4FFFF,&H000000FF,&H007F92AB,&H00B8BFCA,0,0,0,0,90,100,0,0,1,2,0,1,0082,0020,0092,0
+Style: DogDays-next-ep-title,Amira,40,&H00FFFEFF,&H000000FF,&H00E436EE,&H00647E8F,1,0,0,0,100,100,0,0,1,2,0,9,0020,0040,0025,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Basic Black - Big,Amira,45,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0010,0050,0020,1
+Style: Basic Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0010,0050,0020,1
+Style: Basic kanji Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0010,1
+Style: Basic Kanji white - Big,Amira,47,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: Basic Kanji white - Small,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: orange note,Amira,27,&H00AABDF4,&H000000FF,&H00101A24,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: location,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,0,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0050,0
+Style: blue note,Amira,27,&H00D69289,&H000000FF,&H00420E12,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: yellow note,Amira,27,&H00A8D6E1,&H000000FF,&H001A3A3F,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: violet note,Amira,27,&H00DA91CB,&H000000FF,&H00391A2C,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: grey note,Amira,27,&H00CFCFCF,&H000000FF,&H003E3E3E,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: green note,Amira,27,&H00A4F3A1,&H000000FF,&H00213F1A,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: teal note,Amira,27,&H00E7F3C0,&H000000FF,&H00212900,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.31,0:00:05.19,DogDays-narrator,nana,0000,0000,0000,,Just as was announced at \Nyesterday's music festival,
+Dialogue: 0,0:00:05.19,0:00:06.95,DogDays-narrator,,0000,0000,0000,,today is finally the day when the joint event
+Dialogue: 0,0:00:06.95,0:00:08.99,DogDays-narrator,nana,0000,0000,0000,,between the three countries begins.
+Dialogue: 0,0:02:05.58,0:02:09.02,DogDays-main,girl,0000,0000,0000,,Ahh, showering is the best way to start the day.
+Dialogue: 0,0:02:05.85,0:02:11.15,DogDays-ep-title,Title,0000,0000,0000,,{\fad(400,400)}Union Fest
+Dialogue: 0,0:02:09.02,0:02:10.27,DogDays-main,girl,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:10.27,0:02:11.83,DogDays-main,vert,0000,0000,0000,,Oh yeah, that reminds me.
+Dialogue: 0,0:02:12.30,0:02:13.70,DogDays-main,,0000,0000,0000,,At yesterday's meeting,
+Dialogue: 0,0:02:13.70,0:02:15.96,DogDays-main,,0000,0000,0000,,you know how the Biscottians were there, too?
+Dialogue: 0,0:02:15.96,0:02:16.94,DogDays-main,jau,0000,0000,0000,,Yup.
+Dialogue: 0,0:02:16.94,0:02:18.31,DogDays-main,vert,0000,0000,0000,,Don't you think Ecle-chan
+Dialogue: 0,0:02:18.31,0:02:20.61,DogDays-main,,0000,0000,0000,,was acting a little strange?
+Dialogue: 0,0:02:22.55,0:02:23.69,DogDays-flashback,sink,0000,0000,0000,,Hi, Ecle!
+Dialogue: 0,0:02:24.96,0:02:25.61,DogDays-flashback,sink,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:26.86,0:02:30.00,DogDays-main,noir,0000,0000,0000,,She seemed to keep her \Ndistance from Sink.
+Dialogue: 0,0:02:30.39,0:02:31.96,DogDays-main,nana,0000,0000,0000,,Sink looked surprised.
+Dialogue: 0,0:02:32.36,0:02:34.56,DogDays-main,vert,0000,0000,0000,,I wonder if something happened.
+Dialogue: 0,0:02:34.56,0:02:35.84,DogDays-main,jau,0000,0000,0000,,Do you think they had \Na fight or something?
+Dialogue: 0,0:02:35.84,0:02:38.02,DogDays-main,nana,0000,0000,0000,,Sink looked like he
+Dialogue: 0,0:02:38.02,0:02:40.30,DogDays-main,,0000,0000,0000,,didn't have any idea what was wrong.
+Dialogue: 0,0:02:41.57,0:02:43.60,DogDays-main,noir,0000,0000,0000,,This is quite interesting.
+Dialogue: 0,0:02:45.66,0:02:49.89,DogDays-main,Sink,0000,0000,0000,,Yeah, Ecle's been quite distant.
+Dialogue: 0,0:02:50.26,0:02:52.27,DogDays-main,reb,0000,0000,0000,,Are you sure you didn't do something
+Dialogue: 0,0:02:52.27,0:02:53.56,DogDays-main,,0000,0000,0000,,to make her mad again?
+Dialogue: 0,0:02:53.75,0:02:56.74,DogDays-main,cou,0000,0000,0000,,Well, Eclair is leaving \Nher childhood behind,
+Dialogue: 0,0:02:56.74,0:02:59.07,DogDays-main,,0000,0000,0000,,so she's got her moods.
+Dialogue: 0,0:02:59.55,0:03:01.57,DogDays-main,mil,0000,0000,0000,,I'm sure you'll make up in no time.
+Dialogue: 0,0:03:01.57,0:03:03.07,DogDays-main,sink,0000,0000,0000,,I hope so.
+Dialogue: 0,0:03:03.54,0:03:05.68,DogDays-main,reb,0000,0000,0000,,I'm sorry, Princess.
+Dialogue: 0,0:03:05.68,0:03:08.37,DogDays-main,,0000,0000,0000,,It looks like Cou-sama is \Ntotally enamored with Sink.
+Dialogue: 0,0:03:08.37,0:03:11.08,DogDays-main,mil,0000,0000,0000,,No need to apologize. \NIsn't it kind of heartwarming?
+Dialogue: 0,0:03:12.18,0:03:13.95,DogDays-main,sink,0000,0000,0000,,Oh, Cou-sama, how are you on time?
+Dialogue: 0,0:03:13.95,0:03:15.92,DogDays-main,cou,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:03:16.23,0:03:18.55,DogDays-main,,0000,0000,0000,,I guess I should get going.
+Dialogue: 0,0:03:20.18,0:03:24.20,DogDays-main,cou,0000,0000,0000,,Hero Sink, your lap was \Nexcellent for resting on.
+Dialogue: 0,0:03:24.20,0:03:25.80,DogDays-main,Sink,0000,0000,0000,,Thank you.
+Dialogue: 0,0:03:26.43,0:03:28.56,DogDays-main,cou,0000,0000,0000,,Bye, Millhi-nee, Sink.
+Dialogue: 0,0:03:29.26,0:03:32.47,DogDays-main,cou,0000,0000,0000,,Once the war starts, we'll be enemies.
+Dialogue: 0,0:03:32.47,0:03:33.15,DogDays-main,Mill,0000,0000,0000,,Understood.
+Dialogue: 0,0:03:33.15,0:03:34.31,DogDays-main,sink,0000,0000,0000,,We won't hold back!
+Dialogue: 0,0:03:34.77,0:03:36.57,DogDays-main,reb,0000,0000,0000,,It'll be fair and square.
+Dialogue: 0,0:03:37.28,0:03:38.81,DogDays-main,reb,0000,0000,0000,,See you later.
+Dialogue: 0,0:03:38.81,0:03:40.57,DogDays-main,cou,0000,0000,0000,,Indeed!
+Dialogue: 0,0:03:44.07,0:03:46.58,DogDays-main,Sink,0000,0000,0000,,It's finally the opening day.
+Dialogue: 0,0:03:46.78,0:03:50.21,DogDays-main,,0000,0000,0000,,It looks like today will \Nbe full of excitement.
+Dialogue: 0,0:03:50.21,0:03:54.38,DogDays-main,Mill,0000,0000,0000,,Yes. I'm sure it'll be a \Nlot of fun with everybody.
+Dialogue: 0,0:03:58.46,0:04:04.51,location,txt,0000,0000,0000,,{\fad(500,500)}Biscotti Front Lines
+Dialogue: 0,0:04:01.02,0:04:03.73,DogDays-main,man,0000,0000,0000,,{\a6}Captain! Everybody under the command
+Dialogue: 0,0:04:03.73,0:04:05.46,DogDays-main,,0000,0000,0000,,{\a6}of the Imperial Guard has been deployed!
+Dialogue: 0,0:04:05.46,0:04:08.52,DogDays-main,wom,0000,0000,0000,,{\a6}Please get some rest \Nuntil the event begins.
+Dialogue: 0,0:04:08.52,0:04:09.47,DogDays-main,wom,0000,0000,0000,,If you'll excuse us...
+Dialogue: 0,0:04:09.47,0:04:10.71,DogDays-main,man,0000,0000,0000,,We'll see you on the battlefield.
+Dialogue: 0,0:04:13.80,0:04:17.15,DogDays-main,ric,0000,0000,0000,,Looks like Emilio and Ange \Nare both quite excited.
+Dialogue: 0,0:04:17.15,0:04:18.06,DogDays-main,ecl,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:19.09,0:04:22.82,DogDays-main,,0000,0000,0000,,Both of them are in line for \Na promotion to captain soon,
+Dialogue: 0,0:04:23.29,0:04:24.84,DogDays-main,ecl,0000,0000,0000,,so of course they are.
+Dialogue: 0,0:04:30.74,0:04:32.56,DogDays-main,ric,0000,0000,0000,,The Knights of Biscotti
+Dialogue: 0,0:04:32.56,0:04:34.91,DogDays-main,,0000,0000,0000,,are becoming stronger and stronger.
+Dialogue: 0,0:04:34.91,0:04:36.83,DogDays-main,ric,0000,0000,0000,,That's a good thing.
+Dialogue: 0,0:04:37.13,0:04:39.42,DogDays-main,ecl,0000,0000,0000,,You're right, that is a good thing.
+Dialogue: 0,0:04:39.42,0:04:40.76,DogDays-main,ric,0000,0000,0000,,Still...
+Dialogue: 0,0:04:40.76,0:04:43.22,DogDays-main,,0000,0000,0000,,you seem like something \Nis really eating at you.
+Dialogue: 0,0:04:43.66,0:04:45.09,DogDays-main,ecl,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:04:45.50,0:04:50.14,DogDays-main,ric,0000,0000,0000,,I've told you again and \Nagain, it's about the Hero.
+Dialogue: 0,0:04:50.73,0:04:53.32,DogDays-main,ric,0000,0000,0000,,I've known you for a long time.
+Dialogue: 0,0:04:53.32,0:04:56.60,DogDays-main,,0000,0000,0000,,Even if you try to talk around \Nit, I can see through you.
+Dialogue: 0,0:05:03.24,0:05:06.45,DogDays-main,ric,0000,0000,0000,,Ecle, you love the Hero.
+Dialogue: 0,0:05:07.26,0:05:09.49,DogDays-main,ric,0000,0000,0000,,You love that he always has a \Nsmile for you when he sees you.
+Dialogue: 0,0:05:09.96,0:05:12.75,DogDays-main,ric,0000,0000,0000,,That he can run into battle \Nat the same speed as you.
+Dialogue: 0,0:05:13.22,0:05:15.26,DogDays-main,ric,0000,0000,0000,,That he always expresses his trust,
+Dialogue: 0,0:05:15.26,0:05:17.75,DogDays-main,,0000,0000,0000,,courtesy, and gratitude in words.
+Dialogue: 0,0:05:18.08,0:05:20.11,DogDays-main,ric,0000,0000,0000,,But since you're so serious,
+Dialogue: 0,0:05:20.11,0:05:21.70,DogDays-main,,0000,0000,0000,,you're actually ashamed
+Dialogue: 0,0:05:21.70,0:05:25.37,DogDays-main,,0000,0000,0000,,that you're wondering \Nif you love him or not.
+Dialogue: 0,0:05:26.22,0:05:28.49,DogDays-main,ric,0000,0000,0000,,Not to mention, there are a whole lot
+Dialogue: 0,0:05:28.49,0:05:31.01,DogDays-main,,0000,0000,0000,,of wonderful girls around the Hero.
+Dialogue: 0,0:05:31.46,0:05:35.43,DogDays-main,ric,0000,0000,0000,,So you're like, "I'm just a knight,"
+Dialogue: 0,0:05:35.43,0:05:38.02,DogDays-main,,0000,0000,0000,,or "I'm the captain of the Imperial \NGuard," and you keep worrying.
+Dialogue: 0,0:05:38.02,0:05:39.61,DogDays-main,ecl,0000,0000,0000,,No, you're...
+Dialogue: 0,0:05:39.61,0:05:41.98,DogDays-main,ric,0000,0000,0000,,Getting angry won't work with me.
+Dialogue: 0,0:05:42.64,0:05:45.53,DogDays-main,ric,0000,0000,0000,,Truth be told, I am a little \Nangry today myself.
+Dialogue: 0,0:05:47.07,0:05:47.78,DogDays-main,elc,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:05:49.48,0:05:52.06,DogDays-main,elc,0000,0000,0000,,I do know that you love the Hero,
+Dialogue: 0,0:05:52.47,0:05:54.20,DogDays-main,elc,0000,0000,0000,,but I am really...
+Dialogue: 0,0:05:54.20,0:05:56.79,DogDays-main,ric,0000,0000,0000,,No, no. That's not true.
+Dialogue: 0,0:05:57.22,0:06:00.78,DogDays-main,ric,0000,0000,0000,,It is true that I really \Nlike the Hero a lot,
+Dialogue: 0,0:06:00.78,0:06:04.80,DogDays-main,,0000,0000,0000,,but I do not hide that from anybody.
+Dialogue: 0,0:06:05.55,0:06:09.07,DogDays-main,ric,0000,0000,0000,,The reason I am angry is \Nthat you still
+Dialogue: 0,0:06:09.07,0:06:11.23,DogDays-main,,0000,0000,0000,,haven't managed to become true to yourself
+Dialogue: 0,0:06:11.23,0:06:12.80,DogDays-main,ric,0000,0000,0000,,and you keep everything locked up inside.
+Dialogue: 0,0:06:14.45,0:06:16.91,DogDays-main,elc,0000,0000,0000,,I told you it's not that...
+Dialogue: 0,0:06:16.91,0:06:18.87,DogDays-main,elc,0000,0000,0000,,Anyway, it doesn't matter right now.
+Dialogue: 0,0:06:19.45,0:06:21.31,DogDays-main,elc,0000,0000,0000,,It's not a matter that should \Nbe discussed here and now.
+Dialogue: 0,0:06:21.31,0:06:23.82,DogDays-main,ric,0000,0000,0000,,Now's the only time to discuss it!
+Dialogue: 0,0:06:24.45,0:06:27.51,DogDays-main,ric,0000,0000,0000,,Everybody is worried about you.
+Dialogue: 0,0:06:27.51,0:06:29.21,DogDays-main,elc,0000,0000,0000,,Just leave me alone.
+Dialogue: 0,0:06:29.21,0:06:31.90,DogDays-main,elc,0000,0000,0000,,You don't have to worry, \NI'll do my part in the war.
+Dialogue: 0,0:06:31.90,0:06:35.53,DogDays-main,ric,0000,0000,0000,,See! That's the sort of \Ndeflection I detest!
+Dialogue: 0,0:06:41.94,0:06:43.34,DogDays-main,ric,0000,0000,0000,,So now you're ignoring me?
+Dialogue: 0,0:06:44.04,0:06:46.84,DogDays-main,ric,0000,0000,0000,,You're not being cool right now...
+Dialogue: 0,0:06:47.95,0:06:50.03,DogDays-main,ecl,0000,0000,0000,,I'm fine with being uncool.
+Dialogue: 0,0:06:50.03,0:06:52.09,DogDays-main,ecl,0000,0000,0000,,I don't have courage and \NI'm not being honest.
+Dialogue: 0,0:06:52.78,0:06:55.33,DogDays-main,ecl,0000,0000,0000,,If you want to think that's \Npathetic, go ahead.
+Dialogue: 0,0:06:55.33,0:06:58.03,DogDays-main,Ric,0000,0000,0000,,That's not what I meant at all!
+Dialogue: 0,0:06:58.03,0:06:58.85,DogDays-main,Ric,0000,0000,0000,,I just...
+Dialogue: 0,0:06:58.85,0:07:00.10,DogDays-main,ecl,0000,0000,0000,,I don't give a damn!
+Dialogue: 0,0:07:00.49,0:07:02.35,DogDays-main,ecl,0000,0000,0000,,I told you to leave me alone.
+Dialogue: 0,0:07:03.28,0:07:05.09,DogDays-main,ecl,0000,0000,0000,,There's an important war today!
+Dialogue: 0,0:07:05.58,0:07:07.34,DogDays-main,ecl,0000,0000,0000,,Let me concentrate.
+Dialogue: 0,0:07:08.90,0:07:11.36,DogDays-main,ric,0000,0000,0000,,I felt the need to talk about this,
+Dialogue: 0,0:07:12.40,0:07:14.81,DogDays-main,,0000,0000,0000,,especially because \Nit's an important war.
+Dialogue: 0,0:07:15.95,0:07:18.53,DogDays-main,ric,0000,0000,0000,,Because today's a very special event
+Dialogue: 0,0:07:18.53,0:07:20.36,DogDays-main,,0000,0000,0000,,that'll stay in our hearts.
+Dialogue: 0,0:07:22.97,0:07:25.71,DogDays-main,ric,0000,0000,0000,,Ecle you... Ecle...
+Dialogue: 0,0:07:27.63,0:07:29.46,DogDays-main,ric,0000,0000,0000,,I hate you!
+Dialogue: 0,0:07:38.98,0:07:41.20,DogDays-main,ric,0000,0000,0000,,I'm so sorry.
+Dialogue: 0,0:07:41.20,0:07:42.89,DogDays-main,leo,0000,0000,0000,,It's the Queen of Inventions.
+Dialogue: 0,0:07:43.36,0:07:44.40,DogDays-main,leo,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:07:44.91,0:07:46.83,DogDays-main,noir,0000,0000,0000,,Rico, are you all right?
+Dialogue: 0,0:07:46.83,0:07:49.40,DogDays-main,ric,0000,0000,0000,,Leon-sama, Noir...
+Dialogue: 0,0:07:50.19,0:07:53.91,DogDays-main,yuk,0000,0000,0000,,I see, so a trivial argument \Nescalated into a fight.
+Dialogue: 0,0:07:53.91,0:07:56.11,DogDays-main,ecl,0000,0000,0000,,It happens all the time.
+Dialogue: 0,0:07:56.60,0:07:58.94,DogDays-main,,0000,0000,0000,,Once we've cooled our heads,
+Dialogue: 0,0:07:58.94,0:08:01.30,DogDays-main,,0000,0000,0000,,we usually both apologize and make up.
+Dialogue: 0,0:08:01.92,0:08:05.08,DogDays-main,yuk,0000,0000,0000,,Well, the cause of the \Nfight must be Sink, right?
+Dialogue: 0,0:08:06.03,0:08:08.84,DogDays-main,yuk,0000,0000,0000,,Because you're still not \Nbeing honest about him,
+Dialogue: 0,0:08:08.84,0:08:11.07,DogDays-main,,0000,0000,0000,,you're making everybody worry.
+Dialogue: 0,0:08:13.33,0:08:15.83,DogDays-main,yuk,0000,0000,0000,,Well, love and affection are not
+Dialogue: 0,0:08:15.83,0:08:17.85,DogDays-main,,0000,0000,0000,,things where thinking helps, I hear.
+Dialogue: 0,0:08:19.11,0:08:21.66,DogDays-main,yuk,0000,0000,0000,,Even so, having someone you love,
+Dialogue: 0,0:08:21.66,0:08:24.94,DogDays-main,,0000,0000,0000,,then that's a fun and happy thing.
+Dialogue: 0,0:08:24.94,0:08:27.10,DogDays-main,yuk,0000,0000,0000,,I'm sure that's the sort of message
+Dialogue: 0,0:08:27.10,0:08:29.19,DogDays-main,,0000,0000,0000,,Rico was trying share with you, too.
+Dialogue: 0,0:08:29.19,0:08:31.26,DogDays-main,yuk,0000,0000,0000,,You should try to not think too hard
+Dialogue: 0,0:08:31.26,0:08:33.53,DogDays-main,,0000,0000,0000,,and be more honest to yours-
+Dialogue: 0,0:08:35.77,0:08:38.57,DogDays-main,leoN,0000,0000,0000,,You disappoint me, \NCaptain of the Imperial Guard.
+Dialogue: 0,0:08:51.32,0:08:53.12,DogDays-main,leoN,0000,0000,0000,,I heard your story.
+Dialogue: 0,0:08:54.48,0:08:58.16,DogDays-main,leoN,0000,0000,0000,,Eclaire, with that kind \Nof weak attitude,
+Dialogue: 0,0:08:58.16,0:09:00.52,DogDays-main,,0000,0000,0000,,you won't stand a chance in this war!
+Dialogue: 0,0:09:01.88,0:09:04.50,DogDays-main,leoN,0000,0000,0000,,However, as I too am a \Nknight, I have to say
+Dialogue: 0,0:09:04.50,0:09:06.69,DogDays-main,,0000,0000,0000,,that I understand why you're so awkward.
+Dialogue: 0,0:09:08.66,0:09:11.52,DogDays-main,leoN,0000,0000,0000,,How about a little bet \Nbetween us to make sure you
+Dialogue: 0,0:09:11.52,0:09:13.32,DogDays-main,,0000,0000,0000,,don't have time to worry \Nabout trivial matters?
+Dialogue: 0,0:09:14.13,0:09:14.82,DogDays-main,ecl,0000,0000,0000,,A bet?
+Dialogue: 0,0:09:15.48,0:09:17.82,DogDays-main,leon,0000,0000,0000,,Fight me one-on-one in today's battle.
+Dialogue: 0,0:09:19.59,0:09:21.87,DogDays-main,leon,0000,0000,0000,,Obviously, the victor wins the bet.
+Dialogue: 0,0:09:22.60,0:09:24.44,DogDays-main,leon,0000,0000,0000,,Naturally, I'll give you an edge.
+Dialogue: 0,0:09:24.94,0:09:29.09,DogDays-main,leon,0000,0000,0000,,All you'll have to do is destroy \Nmy weapon or my armor.
+Dialogue: 0,0:09:29.09,0:09:31.42,DogDays-main,leon,0000,0000,0000,,It goes without saying that \NI won't use Grand Vert.
+Dialogue: 0,0:09:32.00,0:09:33.27,DogDays-main,leon,0000,0000,0000,,What do you say?
+Dialogue: 0,0:09:33.27,0:09:34.84,DogDays-main,,0000,0000,0000,,These conditions are \Nquite extraordinary.
+Dialogue: 0,0:09:35.19,0:09:37.89,DogDays-main,yuki,0000,0000,0000,,That's certainly true, but...
+Dialogue: 0,0:09:37.89,0:09:39.05,DogDays-main,ecl,0000,0000,0000,,What are we betting on?
+Dialogue: 0,0:09:39.55,0:09:42.08,DogDays-main,leon,0000,0000,0000,,If I win, you'll be \NGalette's Captain of the
+Dialogue: 0,0:09:42.08,0:09:44.06,DogDays-main,,0000,0000,0000,,Special Commando Troop for the day.
+Dialogue: 0,0:09:45.98,0:09:47.63,DogDays-main,leon,0000,0000,0000,,Then you'll be able to fight against
+Dialogue: 0,0:09:47.63,0:09:52.44,DogDays-main,,0000,0000,0000,,your rivals in love, Millihi \Nand Rebecca, all you want!
+Dialogue: 0,0:09:52.44,0:09:54.05,DogDays-main,Yuki,0000,0000,0000,,Hold on Leon-sama,
+Dialogue: 0,0:09:54.05,0:09:56.05,DogDays-main,,0000,0000,0000,,I think you got the wrong idea...
+Dialogue: 0,0:09:56.05,0:09:58.59,DogDays-main,ecl,0000,0000,0000,,Not to mention, I don't have \Nthe authority to decide
+Dialogue: 0,0:09:58.59,0:10:00.30,DogDays-main,,0000,0000,0000,,something that big by myself.
+Dialogue: 0,0:10:00.30,0:10:01.60,DogDays-main,leon,0000,0000,0000,,What?
+Dialogue: 0,0:10:01.60,0:10:04.95,DogDays-main,,0000,0000,0000,,You're that afraid of losing, \Neven with this handicap?
+Dialogue: 0,0:10:05.32,0:10:07.97,DogDays-main,leon,0000,0000,0000,,Have you really become this pathetic?
+Dialogue: 0,0:10:07.97,0:10:09.11,DogDays-main,ecL,0000,0000,0000,,And if I...
+Dialogue: 0,0:10:09.92,0:10:10.85,DogDays-main,ecL,0000,0000,0000,,...win?
+Dialogue: 0,0:10:12.45,0:10:14.46,DogDays-main,leon,0000,0000,0000,,I'll listen to any wish you might have.
+Dialogue: 0,0:10:15.13,0:10:17.55,DogDays-main,leon,0000,0000,0000,,Not that you could defeat \Nme in your current state.
+Dialogue: 0,0:10:18.13,0:10:20.80,DogDays-main,ecl,0000,0000,0000,,Fine, I'll show you.
+Dialogue: 0,0:10:23.92,0:10:26.32,DogDays-main,rico,0000,0000,0000,,Eep, this got out of hand quickly...
+Dialogue: 0,0:10:26.32,0:10:29.85,DogDays-main,noir,0000,0000,0000,,Don't worry, Leon-sama \Nwill handle this.
+Dialogue: 0,0:10:36.54,0:10:39.11,DogDays-narrator,ann,0000,0000,0000,,Okay, it's almost time!
+Dialogue: 0,0:10:39.56,0:10:42.45,DogDays-narrator,ann,0000,0000,0000,,Are you all ready?!
+Dialogue: 0,0:10:43.06,0:10:45.62,DogDays-narrator,ann2,0000,0000,0000,,This war will be carved into \Nthe history of the continent.
+Dialogue: 0,0:10:45.62,0:10:48.12,DogDays-narrator,ann2,0000,0000,0000,,Naturally, she will be \Ngiving the start signal:
+Dialogue: 0,0:10:48.60,0:10:51.01,DogDays-narrator,,0000,0000,0000,,Princess Millihiore!
+Dialogue: 0,0:10:52.80,0:10:55.41,DogDays-main,mill,0000,0000,0000,,Hello!
+Dialogue: 0,0:10:55.41,0:10:58.96,DogDays-main,all,0000,0000,0000,,Hello!
+Dialogue: 0,0:10:58.96,0:11:01.64,DogDays-main,mill,0000,0000,0000,,The joint event of the three \Ncountries, Union Fest...
+Dialogue: 0,0:11:01.64,0:11:04.14,DogDays-main,,0000,0000,0000,,is finally beginning!
+Dialogue: 0,0:11:05.00,0:11:07.62,DogDays-main,mill,0000,0000,0000,,Leon-sama, Cou-sama,
+Dialogue: 0,0:11:08.46,0:11:10.39,DogDays-main,,0000,0000,0000,,are you ready?
+Dialogue: 0,0:11:10.39,0:11:12.54,DogDays-main,leo,0000,0000,0000,,Yes, any time.
+Dialogue: 0,0:11:12.54,0:11:14.11,DogDays-main,cou,0000,0000,0000,,Of course!
+Dialogue: 0,0:11:14.82,0:11:17.75,DogDays-main,mill,0000,0000,0000,,The let's all call it together.
+Dialogue: 0,0:11:17.75,0:11:18.65,DogDays-main,mill,0000,0000,0000,,Three...
+Dialogue: 0,0:11:18.95,0:11:20.21,DogDays-main,all,0000,0000,0000,,Two...
+Dialogue: 0,0:11:20.58,0:11:21.66,DogDays-main,all,0000,0000,0000,,One...
+Dialogue: 0,0:11:22.15,0:11:23.16,DogDays-main,all,0000,0000,0000,,Fight!
+Dialogue: 0,0:11:28.55,0:11:29.88,DogDays-narrator,ann,0000,0000,0000,,It looks like battles
+Dialogue: 0,0:11:29.88,0:11:31.63,DogDays-narrator,,0000,0000,0000,,have already begun in several places.
+Dialogue: 0,0:11:36.20,0:11:38.04,DogDays-narrator,ann,0000,0000,0000,,What is this?
+Dialogue: 0,0:11:38.04,0:11:40.71,DogDays-narrator,,0000,0000,0000,,Galette's general, Lady Leon,
+Dialogue: 0,0:11:40.71,0:11:42.72,DogDays-narrator,,0000,0000,0000,,has broken rank and is charging ahead!
+Dialogue: 0,0:11:52.69,0:11:56.69,DogDays-narrator,ann2,0000,0000,0000,,Oh! Could her aim be \NBiscotti's second squad?
+Dialogue: 0,0:11:57.25,0:11:58.20,DogDays-main,ange,0000,0000,0000,,Captain!
+Dialogue: 0,0:11:58.20,0:11:59.69,DogDays-main,emi,0000,0000,0000,,Captain, your orders?
+Dialogue: 0,0:12:01.34,0:12:02.36,DogDays-main,ecl,0000,0000,0000,,Yeah...
+Dialogue: 0,0:12:03.33,0:12:05.57,DogDays-narrator,ann,0000,0000,0000,,Meanwhile, the princess has returned
+Dialogue: 0,0:12:05.57,0:12:09.86,DogDays-narrator,,0000,0000,0000,,to Biscotti's main camp, after\N signaling the start of the event.
+Dialogue: 0,0:12:09.86,0:12:11.51,DogDays-narrator,ann,0000,0000,0000,,She will now take command.
+Dialogue: 0,0:12:12.66,0:12:15.19,DogDays-main,Cou,0000,0000,0000,,Right. Let's begin \Nour advance, as well.
+Dialogue: 0,0:12:15.19,0:12:15.67,DogDays-main,reb,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:20.66,0:12:22.48,DogDays-narrator,ann2,0000,0000,0000,,Couverte-sama and Hero Rebecca
+Dialogue: 0,0:12:22.48,0:12:24.49,DogDays-narrator,,0000,0000,0000,,are moving in on Biscotti's main camp!
+Dialogue: 0,0:12:24.49,0:12:27.13,DogDays-narrator,ann,0000,0000,0000,,Eclaire and Lady Leon are moving
+Dialogue: 0,0:12:27.13,0:12:28.53,DogDays-narrator,,0000,0000,0000,,towards Prizet bridge!
+Dialogue: 0,0:12:45.66,0:12:48.41,DogDays-narrator,ann,0000,0000,0000,,Now the captain of \NBiscotti's Imperial Guard
+Dialogue: 0,0:12:48.41,0:12:50.90,DogDays-narrator,,0000,0000,0000,,and the Ruler of the \NLion Army are about to...
+Dialogue: 0,0:12:55.87,0:12:56.88,DogDays-main,ecl,0000,0000,0000,,Bright Ice Blade!
+Dialogue: 0,0:13:02.55,0:13:04.55,DogDays-narrator,ann,0000,0000,0000,,CLASH!
+Dialogue: 0,0:13:17.88,0:13:21.07,DogDays-main,leon,0000,0000,0000,,Your gear sure is \Nflashy, but it's weak.
+Dialogue: 0,0:13:22.45,0:13:23.84,DogDays-main,leon,0000,0000,0000,,Just like your friends worried:
+Dialogue: 0,0:13:23.84,0:13:25.54,DogDays-main,,0000,0000,0000,,if you have doubts in your heart,
+Dialogue: 0,0:13:25.54,0:13:27.51,DogDays-main,,0000,0000,0000,,your sword will waver \Nand your Bright Power
+Dialogue: 0,0:13:27.51,0:13:28.82,DogDays-main,leon,0000,0000,0000,,will become unstable.
+Dialogue: 0,0:13:29.58,0:13:32.19,DogDays-main,leon,0000,0000,0000,,Right now, you're totally useless!
+Dialogue: 0,0:13:38.26,0:13:41.57,DogDays-main,leon,0000,0000,0000,,Put your spirit into it and come at me!
+Dialogue: 0,0:13:46.13,0:13:47.59,DogDays-main,ecl,0000,0000,0000,,I do have spirit.
+Dialogue: 0,0:13:48.48,0:13:50.64,DogDays-main,ecl,0000,0000,0000,,This crazy one-on-one fight...
+Dialogue: 0,0:13:50.64,0:13:52.35,DogDays-main,ecl,0000,0000,0000,,If I lose...
+Dialogue: 0,0:13:55.49,0:13:57.21,DogDays-main,ecl,0000,0000,0000,,I can't return to my country.
+Dialogue: 0,0:14:00.13,0:14:02.50,DogDays-main,leon,0000,0000,0000,,If you lose, you won't \Nbe obligated to return.
+Dialogue: 0,0:14:03.41,0:14:04.90,DogDays-main,leon,0000,0000,0000,,Isn't that fitting?
+Dialogue: 0,0:14:29.60,0:14:32.53,DogDays-narrator,ann2,0000,0000,0000,,Lady Leon's seal cannon!
+Dialogue: 0,0:14:37.93,0:14:41.18,DogDays-narrator,Ann,0000,0000,0000,,But Knight Eclair is displaying \Namazing spirit here!
+Dialogue: 0,0:15:14.19,0:15:15.81,DogDays-main,leon,0000,0000,0000,,Blast Wave!
+Dialogue: 0,0:15:28.57,0:15:29.57,DogDays-main,leon,0000,0000,0000,,Falling Doom!
+Dialogue: 0,0:15:32.78,0:15:34.58,DogDays-narrator,ann2,0000,0000,0000,,A devastating blow!
+Dialogue: 0,0:15:35.15,0:15:38.67,DogDays-narrator,ann2,0000,0000,0000,,Is Captain Eclaire in danger?
+Dialogue: 0,0:15:40.27,0:15:41.52,DogDays-main,ric,0000,0000,0000,,Ecle...
+Dialogue: 0,0:15:54.35,0:15:56.01,DogDays-main,leo,0000,0000,0000,,I guess it wasn't a full hit.
+Dialogue: 0,0:15:59.86,0:16:02.52,DogDays-main,sink,0000,0000,0000,,Ugh, I want to go cheer her on.
+Dialogue: 0,0:16:02.52,0:16:04.27,DogDays-main,emi,0000,0000,0000,,We have to stand our ground, Hero!
+Dialogue: 0,0:16:04.92,0:16:08.01,DogDays-main,ann,0000,0000,0000,,Lady Leon is approaching \NCaptain Eclaire.
+Dialogue: 0,0:16:08.01,0:16:11.03,DogDays-main,ann,0000,0000,0000,,Is this one-on-one coming to an end?!
+Dialogue: 0,0:16:12.96,0:16:14.25,DogDays-internal,ecl,0000,0000,0000,,My body...
+Dialogue: 0,0:16:15.14,0:16:16.75,DogDays-internal,,0000,0000,0000,,won't move.
+Dialogue: 0,0:16:17.39,0:16:19.56,DogDays-internal,ecl,0000,0000,0000,,I ended up just like Rico and Yukikaze
+Dialogue: 0,0:16:19.56,0:16:21.20,DogDays-internal,,0000,0000,0000,,were worried I would.
+Dialogue: 0,0:16:21.89,0:16:23.57,DogDays-internal,ecl,0000,0000,0000,,In this important war...
+Dialogue: 0,0:16:23.57,0:16:25.57,DogDays-internal,ecl,0000,0000,0000,,in this one-on-one \NI can't afford to lose...
+Dialogue: 0,0:16:25.57,0:16:29.28,DogDays-internal,ecl,0000,0000,0000,,I went into all this with so \Nmany doubts in my heart.
+Dialogue: 0,0:16:33.09,0:16:34.39,DogDays-main,leo,0000,0000,0000,,Now choose.
+Dialogue: 0,0:16:35.22,0:16:37.82,DogDays-main,,0000,0000,0000,,Do you want me to finish you off,
+Dialogue: 0,0:16:37.82,0:16:39.06,DogDays-main,,0000,0000,0000,,or do you want to surrender?
+Dialogue: 0,0:16:39.63,0:16:41.33,DogDays-internal,ecl,0000,0000,0000,,If I'm like this,
+Dialogue: 0,0:16:41.33,0:16:45.28,DogDays-internal,,0000,0000,0000,,Rico and the Hero might \Neven turn away from me.
+Dialogue: 0,0:16:45.28,0:16:47.75,DogDays-narrator,ann2,0000,0000,0000,,Knight Eclaire is in big trouble!
+Dialogue: 0,0:16:47.75,0:16:51.31,DogDays-narrator,ann,0000,0000,0000,,Will Biscotti lose their Captain \Nof the Imperial Guard?!
+Dialogue: 0,0:16:52.42,0:16:54.36,DogDays-main,rico,0000,0000,0000,,Ecle, don't lose...
+Dialogue: 0,0:16:55.82,0:16:57.66,DogDays-main,,0000,0000,0000,,I want you to fight.
+Dialogue: 0,0:16:58.73,0:17:02.61,DogDays-main,rico,0000,0000,0000,,I'm really sorry that I \Nbugged you right before
+Dialogue: 0,0:17:02.61,0:17:05.67,DogDays-main,,0000,0000,0000,,this important war and \Ngot in a fight with you.
+Dialogue: 0,0:17:06.44,0:17:08.67,DogDays-main,rico,0000,0000,0000,,I was conceited and couldn't
+Dialogue: 0,0:17:08.67,0:17:11.18,DogDays-main,,0000,0000,0000,,actually tell you what I wanted.
+Dialogue: 0,0:17:12.20,0:17:15.41,DogDays-main,rico,0000,0000,0000,,All I wanted to do was to cheer you on
+Dialogue: 0,0:17:15.41,0:17:17.81,DogDays-main,,0000,0000,0000,,because you're too serious.
+Dialogue: 0,0:17:18.69,0:17:25.19,DogDays-main,rico,0000,0000,0000,,When I said that I hate \Nyou, I was lying.
+Dialogue: 0,0:17:26.02,0:17:29.23,DogDays-main,rico,0000,0000,0000,,In reality, I love you!
+Dialogue: 0,0:17:30.34,0:17:31.71,DogDays-main,rico,0000,0000,0000,,No matter what!
+Dialogue: 0,0:17:31.71,0:17:33.69,DogDays-main,rico,0000,0000,0000,,Forever and ever!
+Dialogue: 0,0:17:40.89,0:17:42.20,DogDays-main,ecl,0000,0000,0000,,The fault...
+Dialogue: 0,0:17:45.21,0:17:46.98,DogDays-main,ecl,0000,0000,0000,,lies with me...
+Dialogue: 0,0:17:49.60,0:17:51.58,DogDays-main,ecl,0000,0000,0000,,You didn't do anything wrong.
+Dialogue: 0,0:17:53.14,0:17:54.80,DogDays-main,ecl,0000,0000,0000,,And I...
+Dialogue: 0,0:17:55.95,0:17:58.55,DogDays-main,,0000,0000,0000,,love you, too.
+Dialogue: 0,0:18:01.07,0:18:04.56,DogDays-main,ecl,0000,0000,0000,,Just like the princess and \Neverybody in the Knight Corps...
+Dialogue: 0,0:18:05.24,0:18:07.31,DogDays-main,ecl,0000,0000,0000,,The country Biscotti...
+Dialogue: 0,0:18:08.23,0:18:11.07,DogDays-main,ecl,0000,0000,0000,,and our Hero...
+Dialogue: 0,0:18:14.77,0:18:18.10,DogDays-main,ecl,0000,0000,0000,,Everybody that I met is important to me
+Dialogue: 0,0:18:19.82,0:18:22.93,DogDays-main,ecl,0000,0000,0000,,I hold them dear and I \Ndon't want to betray them!
+Dialogue: 0,0:18:24.09,0:18:25.83,DogDays-main,ecl,0000,0000,0000,,That's why I won't lose.
+Dialogue: 0,0:18:29.20,0:18:32.59,DogDays-main,Leo,0000,0000,0000,,Big words, but what do you plan to do?
+Dialogue: 0,0:18:32.91,0:18:33.75,DogDays-main,ecL,0000,0000,0000,,I am going to win.
+Dialogue: 0,0:18:34.19,0:18:37.59,DogDays-main,ecL,0000,0000,0000,,I am going to defeat you \Nand advance with our Hero.
+Dialogue: 0,0:18:38.05,0:18:40.56,DogDays-main,ecL,0000,0000,0000,,Then we'll bring victory to Biscotti!
+Dialogue: 0,0:18:42.35,0:18:44.35,DogDays-main,Leo,0000,0000,0000,,You eyes finally look \Nlike a knight's eyes.
+Dialogue: 0,0:18:46.56,0:18:48.60,DogDays-main,Leo,0000,0000,0000,,Fine. Bring it!
+Dialogue: 0,0:18:49.88,0:18:52.52,DogDays-narrator,ann,0000,0000,0000,,Captain Eclaire has recovered!
+Dialogue: 0,0:18:54.65,0:18:55.67,DogDays-narrator,ann,0000,0000,0000,,But what will she...
+Dialogue: 0,0:18:56.47,0:18:57.30,DogDays-main,ecl,0000,0000,0000,,Here I go...
+Dialogue: 0,0:18:58.94,0:18:59.99,DogDays-main,ecl,0000,0000,0000,,Bright Power release!
+Dialogue: 0,0:19:02.48,0:19:04.97,DogDays-main,ecl,0000,0000,0000,,Bright Ice Blade! Dual wield!
+Dialogue: 0,0:19:04.97,0:19:05.66,DogDays-main,Leo,0000,0000,0000,,What?!
+Dialogue: 0,0:19:09.85,0:19:10.90,DogDays-main,ecl,0000,0000,0000,,Air Splitting
+Dialogue: 0,0:19:10.90,0:19:11.99,DogDays-main,ecl,0000,0000,0000,,Bright
+Dialogue: 0,0:19:11.99,0:19:14.36,DogDays-main,ecl,0000,0000,0000,,Cross Slash!
+Dialogue: 0,0:19:18.65,0:19:20.80,DogDays-internal,Leon,0000,0000,0000,,This is actually quite...
+Dialogue: 0,0:19:38.63,0:19:39.99,DogDays-main,ecl,0000,0000,0000,,I win.
+Dialogue: 0,0:19:40.39,0:19:41.18,DogDays-main,leo,0000,0000,0000,,Damn.
+Dialogue: 0,0:19:45.46,0:19:47.00,DogDays-main,leo,0000,0000,0000,,Looks like you're right.
+Dialogue: 0,0:19:47.50,0:19:49.00,DogDays-main,leo,0000,0000,0000,,Fair and square.
+Dialogue: 0,0:19:49.41,0:19:53.00,DogDays-narrator,ann2,0000,0000,0000,,Captain Eclaire has won!
+Dialogue: 0,0:19:53.61,0:19:56.05,DogDays-narrator,ann2,0000,0000,0000,,Her Bright Power move has cleanly
+Dialogue: 0,0:19:56.05,0:20:00.15,DogDays-narrator,,0000,0000,0000,,destroyed Lady Leon's sword and armor!
+Dialogue: 0,0:20:05.93,0:20:08.27,DogDays-main,leo,0000,0000,0000,,My my, I let my guard down.
+Dialogue: 0,0:20:08.67,0:20:11.02,DogDays-main,ecl,0000,0000,0000,,My lady, thank you.
+Dialogue: 0,0:20:11.31,0:20:12.56,DogDays-main,leo,0000,0000,0000,,How was it?
+Dialogue: 0,0:20:12.56,0:20:15.37,DogDays-main,,0000,0000,0000,,Putting your feelings into words?
+Dialogue: 0,0:20:15.37,0:20:16.87,DogDays-main,,0000,0000,0000,,Did it help you a bit?
+Dialogue: 0,0:20:17.83,0:20:19.03,DogDays-main,ecl,0000,0000,0000,,Quite a bit.
+Dialogue: 0,0:20:19.41,0:20:22.49,DogDays-main,ecl,0000,0000,0000,,I am going to stop mulling \Nover things by myself.
+Dialogue: 0,0:20:22.49,0:20:24.95,DogDays-main,leo,0000,0000,0000,,Should you have any \Nproblems regarding love,
+Dialogue: 0,0:20:24.95,0:20:26.03,DogDays-main,,0000,0000,0000,,come talk to me.
+Dialogue: 0,0:20:26.66,0:20:29.00,DogDays-main,leo,0000,0000,0000,,Castle Vannette is all women,
+Dialogue: 0,0:20:29.00,0:20:31.87,DogDays-main,,0000,0000,0000,,so I understand the female heart.
+Dialogue: 0,0:20:32.26,0:20:35.63,DogDays-main,ecl,0000,0000,0000,,Then I will take that \Nright as my reward.
+Dialogue: 0,0:20:36.69,0:20:38.63,DogDays-main,leo,0000,0000,0000,,Very well, it's a promise then.
+Dialogue: 0,0:20:39.34,0:20:41.56,DogDays-main,leo,0000,0000,0000,,The war's just begun.
+Dialogue: 0,0:20:41.56,0:20:43.51,DogDays-main,,0000,0000,0000,,Let us return to our places.
+Dialogue: 0,0:20:43.51,0:20:44.39,DogDays-main,ecl,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:44.39,0:20:47.37,DogDays-narrator,ann2,0000,0000,0000,,With that, the one-on-one
+Dialogue: 0,0:20:47.37,0:20:49.39,DogDays-narrator,,0000,0000,0000,,on the Prizet Bridge goes to Biscotti!
+Dialogue: 0,0:20:49.39,0:20:51.90,DogDays-narrator,ann,0000,0000,0000,,It's a retreat rather than a defeat,
+Dialogue: 0,0:20:51.90,0:20:55.44,DogDays-narrator,,0000,0000,0000,,but it still gives a huge \Nboost to Biscotti's score.
+Dialogue: 0,0:20:55.44,0:20:57.15,DogDays-main,sink,0000,0000,0000,,Ecle!
+Dialogue: 0,0:21:06.51,0:21:09.95,DogDays-main,ecl,0000,0000,0000,,I apologize. I worried you.
+Dialogue: 0,0:21:09.95,0:21:10.83,DogDays-main,sink,0000,0000,0000,,Not at all.
+Dialogue: 0,0:21:11.34,0:21:12.31,DogDays-main,ecl,0000,0000,0000,,Now let's go.
+Dialogue: 0,0:21:12.67,0:21:14.83,DogDays-main,ecl,0000,0000,0000,,Let us advance together, \Njust as we planned!
+Dialogue: 0,0:21:15.12,0:21:16.08,DogDays-main,Sink,0000,0000,0000,,Okay!
+Dialogue: 0,0:21:16.63,0:21:19.02,DogDays-narrator,ann,0000,0000,0000,,What's happening at \NBiscotti's main camp
+Dialogue: 0,0:21:19.02,0:21:21.02,DogDays-narrator,,0000,0000,0000,,after the victory of their captain?
+Dialogue: 0,0:21:21.02,0:21:24.65,DogDays-narrator,ann,0000,0000,0000,,I see the princess's \Nfavorite Blanchir, Harlan, out...
+Dialogue: 0,0:21:24.65,0:21:26.34,DogDays-narrator,ann,0000,0000,0000,,Could this mean...
+Dialogue: 0,0:21:26.56,0:21:29.31,DogDays-main,mill,0000,0000,0000,,Eclaire was so cool.
+Dialogue: 0,0:21:29.31,0:21:32.20,DogDays-main,rico,0000,0000,0000,,I hope you'll pet her a lot later.
+Dialogue: 0,0:21:32.20,0:21:33.43,DogDays-main,mill,0000,0000,0000,,Of course!
+Dialogue: 0,0:21:34.81,0:21:36.41,DogDays-main,ann,0000,0000,0000,,It looks like the princess and the chief
+Dialogue: 0,0:21:36.41,0:21:39.27,DogDays-main,,0000,0000,0000,,will go up into the skies together.
+Dialogue: 0,0:21:39.27,0:21:41.66,DogDays-main,cou,0000,0000,0000,,It's finally time.
+Dialogue: 0,0:21:41.66,0:21:42.28,DogDays-main,reb,0000,0000,0000,,Yes!
+Dialogue: 0,0:21:42.66,0:21:45.23,DogDays-main,ric,0000,0000,0000,,Here we go, Princess.
+Dialogue: 0,0:21:45.23,0:21:46.00,DogDays-main,mill,0000,0000,0000,,Right!
+Dialogue: 0,0:21:50.94,0:21:52.58,DogDays-main,mill,0000,0000,0000,,I am going to fight Rebecca-san
+Dialogue: 0,0:21:52.58,0:21:55.04,DogDays-main,,0000,0000,0000,,without holding back, too.
+Dialogue: 0,0:23:30.70,0:23:33.02,DogDays-main,noir,0000,0000,0000,,Even if we didn't get \Nmuch screen time...
+Dialogue: 0,0:23:33.02,0:23:34.32,DogDays-main,jau,0000,0000,0000,,We still are...
+Dialogue: 0,0:23:34.32,0:23:35.54,DogDays-main,all,0000,0000,0000,,Genoise!
+Dialogue: 0,0:23:35.14,0:23:45.00,DogDays-next-ep-title,title,0000,0000,0000,,{\fad(500,1)}One-On-One In The Skies and On Land!
+Dialogue: 0,0:23:35.54,0:23:36.29,DogDays-main,vert,0000,0000,0000,,Don't forget it!
+Dialogue: 0,0:23:36.29,0:23:36.83,DogDays-main,sink,0000,0000,0000,,Owww!
+Dialogue: 0,0:23:36.83,0:23:37.96,DogDays-main,ecl,0000,0000,0000,,Hero!
+Dialogue: 0,0:23:37.96,0:23:40.06,DogDays-main,nana,0000,0000,0000,,I'm going to shine next time!
+Dialogue: 0,0:23:40.06,0:23:42.06,DogDays-main,,0000,0000,0000,,

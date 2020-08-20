@@ -1,0 +1,571 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Watamote-internal/narrator,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Watamote-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-overlap-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Watamote-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-flashback-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-Title,Open Sans Semibold,42,&H007D00D6,&H000000FF,&H004C1578,&H00BC875F,1,0,0,0,100,100,0,0,1,2,1,8,133,13,80,1
+Style: Watamote-Ep_Title,Open Sans Semibold,38,&H00EDF2F4,&H000000FF,&H00943DBE,&H00BC875F,1,0,0,0,100,100,0,0,1,3,0,2,13,13,27,1
+Style: Watamote-Eyecatch1,Open Sans Semibold,36,&H009DC225,&H000000FF,&H0006396D,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,9,13,133,173,1
+Style: Watamote-Eyecatch2,Open Sans Semibold,36,&H00A63DF6,&H000000FF,&H00371426,&H0007283B,1,0,0,0,100,100,0,0,1,3,0,8,13,13,27,1
+Style: Watamote-Next-Ep-Title,Open Sans Semibold,36,&H0044150B,&H000000FF,&H00F6F7F3,&H00ED4562,1,0,0,0,100,100,0,0,1,2,0,7,253,13,147,1
+Style: Watamote-Look-Forward,Open Sans Semibold,36,&H00410798,&H000000FF,&H00F6F7F3,&H00ED4562,1,0,0,0,100,100,0,0,1,2,0,3,13,107,120,1
+Style: sign_360_1_Higashinohashi_H,Open Sans Semibold,38,&H00668E95,&H000000FF,&H0021474E,&H00BC875F,0,0,0,0,100,100,0,0,1,3,0,8,13,13,24,1
+Style: sign_1197_16_Huh__,Open Sans Semibold,36,&H0088288E,&H000000FF,&H0022022A,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,399,351,69,1
+Style: sign_1369_19_Topic,Open Sans Semibold,36,&H008FA985,&H000000FF,&H006B6A43,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,8,525,240,129,1
+Style: sign_1369_20_Ideas_for_the_cu,Open Sans Semibold,33,&H00BFC095,&H000000FF,&H006B6A43,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,200,13,53,1
+Style: sign_8802_61_Shi,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,581,216,97,1
+Style: sign_8801_60_H____Huh_,Open Sans Semibold,36,&H0052B3E6,&H000000FF,&H00B4E1F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,63,641,115,1
+Style: sign_9639_71_10_days_until_th,Open Sans Semibold,36,&H00F6F0EA,&H000000FF,&H003B2F2C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,2,13,13,147,1
+Style: sign_9784_75_Measurement_Poin,Open Sans Semibold,33,&H00A39296,&H000000FF,&H00707146,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,172,411,88,1
+Style: sign_9784_76_Shoulder_width__,Open Sans Semibold,30,&H008CB38D,&H000000FF,&H00707146,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,4,24,13,67,1
+Style: sign_12515_112_Haunted_House,Open Sans Semibold,36,&H0028A1CB,&H000000FF,&H00300393,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,8,616,13,37,1
+Style: sign_14842_148__Social_Studies_,Open Sans Semibold,33,&H003F3B3B,&H000000FF,&H00DEDAD8,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,172,267,88,1
+Style: sign_23676_238_The_Day_of_the_F,Open Sans Semibold,36,&H0072CEDB,&H000000FF,&H003B2F2C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,2,248,248,147,1
+Style: sign_23732_239_Current_wait___2,Open Sans Semibold,30,&H00241D2F,&H000000FF,&H00F7F2F4,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,2,111,529,263,1
+Style: sign_24947_257_The_____Usual,Open Sans Semibold,36,&H00945131,&H000000FF,&H00F6FFFF,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,2,575,76,223,1
+Style: sign_25748_268_PC_Club_s_Specia,Open Sans Semibold,36,&H007D68C1,&H000000FF,&H00F4F3F7,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,9,75,85,281,1
+Style: sign_27147_287_Best_in_the_worl,Open Sans Semibold,33,&H003734A9,&H000000FF,&H00ACD2E3,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,95,384,32,1
+Style: sign_27147_288_Yummy_Takoyaki,Open Sans Semibold,30,&H0068681D,&H000000FF,&H00C3E53C,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,572,61,109,1
+Style: sign_31094_331_Ka,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,505,303,129,1
+Style: sign_31093_332_Memory,Open Sans Semibold,36,&H0079FFF4,&H000000FF,&H006E8C42,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,137,580,97,1
+Style: sign_31664_338_Haunted_House,Open Sans Semibold,30,&H0028A1CB,&H000000FF,&H00300393,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,8,319,348,101,1
+Style: sign_31664_339_To_another_world,Open Sans Semibold,27,&H00404552,&H000000FF,&H00C6DAE2,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,8,425,239,53,1
+Style: sign_36888_398_Are_you_okay__Wh,Open Sans Semibold,30,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,2,13,13,200,1
+Style: sign_40198_441_Scream,Open Sans Semibold,36,&H0079FCF2,&H000000FF,&H007F3188,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,9,636,88,291,1
+Style: sign_40238_442_Social_Studies_M,Open Sans Semibold,33,&H00514E51,&H000000FF,&H00FDFCFE,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,271,152,48,1
+Style: sign_40238_443_History_Club_Exh,Open Sans Semibold,33,&H00444266,&H000000FF,&H00DBF1B3,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,7,117,440,284,1
+Style: sign_40876_451_Nana,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,551,215,221,1
+Style: sign_40925_453_Mu,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,204,599,208,1
+Style: sign_40986_455_Iga,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,567,236,212,1
+Style: sign_41043_457_Shi,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F2F2F2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,220,577,219,1
+Style: sign_44089_494_The_Way_of_the_F,Open Sans Semibold,36,&H00FCFCFC,&H000000FF,&H00DD24CE,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,2,13,13,133,1
+Style: sign_15847_244_13_00_Nanashima_,Open Sans Semibold,30,&H0048494E,&H000000FF,&H00C0BDBE,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,2,59,581,155,1
+Style: sign_16807_261_2_A__Cosplay_Caf,Open Sans Semibold,33,&H00311B8A,&H000000FF,&H00DFF1EC,&H0070B36C,0,0,0,0,100,100,0,0,1,2,0,2,589,0,217,1
+Style: sign_17417_272_Kae_s_Wish,Open Sans Semibold,30,&H009C7CDA,&H000000FF,&H00E2DAF2,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,2,556,151,312,1
+Style: impossible,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:04.87,sign_360_1_Higashinohashi_H,Sign,0000,0000,0000,,{\fad(1,2493)}Higashinohashi High School
+Dialogue: 0,0:00:01.28,0:00:04.40,Default,Teacher,0000,0000,0000,,Well then, any suggestions for\N the cultural festival next month?
+Dialogue: 0,0:00:04.40,0:00:05.81,Default,Teacher,0000,0000,0000,,Suggest some ideas, please.
+Dialogue: 0,0:00:06.19,0:00:09.12,Default,Boy,0000,0000,0000,,Me! I want to do a maid café \Nwith all the girls dressed up!
+Dialogue: 0,0:00:09.12,0:00:10.18,Default,Girls,0000,0000,0000,,What?!
+Dialogue: 0,0:00:10.18,0:00:11.77,Default,Girl,0000,0000,0000,,No way! I'd never do that.
+Dialogue: 0,0:00:11.77,0:00:13.07,Default,Boy 2,0000,0000,0000,,I agree! Totally agree!
+Dialogue: 0,0:00:13.07,0:00:14.91,Default,Girl 2,0000,0000,0000,,What are the guys gonna do, then?!
+Dialogue: 0,0:00:14.91,0:00:16.45,Default,Boy 2,0000,0000,0000,,The boys can work behind the scenes!
+Dialogue: 0,0:00:15.22,0:00:16.45,Watamote-overlap,Nanashima,0000,0000,0000,,Who really cares?
+Dialogue: 0,0:00:16.45,0:00:17.16,Watamote-overlap,Igarashi,0000,0000,0000,,Right?
+Dialogue: 0,0:00:16.45,0:00:17.50,Default,Girl 2,0000,0000,0000,,Don't give me that crap!
+Dialogue: 0,0:00:17.50,0:00:19.79,Default,Kae,0000,0000,0000,,Yes! I agree with the maid café idea!
+Dialogue: 0,0:00:21.07,0:00:24.79,Default,Kae,0000,0000,0000,,I think everyone in the class should \Ndress up! I really want to see that!
+Dialogue: 0,0:00:24.91,0:00:26.04,sign_1197_16_Huh__,background,0000,0000,0000,,Huh?!
+Dialogue: 0,0:00:25.07,0:00:26.04,Default,Boys,0000,0000,0000,,Huh?!
+Dialogue: 0,0:00:26.41,0:00:28.63,Default,Girl,0000,0000,0000,,Agree! Totally agree! Boy maids!
+Dialogue: 0,0:00:28.63,0:00:30.63,Default,Boys,0000,0000,0000,,Screw off! Who would benefit from that?
+Dialogue: 0,0:00:30.63,0:00:32.01,Default,Girl,0000,0000,0000,,Come on, it'll be fun!
+Dialogue: 0,0:00:30.63,0:00:34.13,sign_1369_19_Topic,board yellow,0000,0000,0000,,{\b1}Topic
+Dialogue: 0,0:00:30.63,0:00:34.13,sign_1369_20_Ideas_for_the_cu,board white,0000,0000,0000,,Ideas for the cultural festival\N\N Café?
+Dialogue: 0,0:00:32.01,0:00:34.13,Default,Kae,0000,0000,0000,,So, after much debate,
+Dialogue: 0,0:00:34.13,0:00:37.55,Default,Kae,0000,0000,0000,,the class decided on a cosplay \Ncafé as a compromise!
+Dialogue: 0,0:00:37.55,0:00:39.77,Default,Kae,0000,0000,0000,,I'm so pumped!
+Dialogue: 0,0:00:55.03,0:01:03.79,Watamote-Title,title,0000,0000,0000,,{\fad(3562,1)}Kiss Him, Not Me
+Dialogue: 0,0:02:10.81,0:02:18.57,Watamote-Ep_Title,Title,0000,0000,0000,,The Clear and Blue Autumn Sky,\N and {\c&HB1FE96&}Passionate {\c&HFFFFFF&}Otome
+Dialogue: 0,0:02:16.36,0:02:20.53,Watamote-top,Nanashima,0000,0000,0000,,I'm definitely not excited about it.\NIt's annoying that we all have to do it.
+Dialogue: 0,0:02:20.75,0:02:22.38,Default,Mutsumi,0000,0000,0000,,I think it sounds fun.
+Dialogue: 0,0:02:22.38,0:02:24.19,Default,Igarashi,0000,0000,0000,,What should I wear?
+Dialogue: 0,0:02:24.19,0:02:25.44,Default,Nanashima,0000,0000,0000,,So you're up for it?
+Dialogue: 0,0:02:25.44,0:02:27.17,Default,Kae,0000,0000,0000,,Um, Nanashima-kun...
+Dialogue: 0,0:02:27.49,0:02:31.12,Default,Kae,0000,0000,0000,,I've got the perfect idea \Nidea for your costume.
+Dialogue: 0,0:02:31.12,0:02:33.88,Default,Kae,0000,0000,0000,,Just leave the design and everything to me!
+Dialogue: 0,0:02:34.19,0:02:35.64,Default,Kae,0000,0000,0000,,You, too, Igarashi-kun!
+Dialogue: 0,0:02:35.64,0:02:37.28,Default,Mutsumi,0000,0000,0000,,Design the costumes?
+Dialogue: 0,0:02:37.28,0:02:39.51,Default,Mutsumi,0000,0000,0000,,Does that mean you intend to make them?
+Dialogue: 0,0:02:40.27,0:02:42.45,Default,Mutsumi,0000,0000,0000,,Our club has an exhibit, too. \NWill you have time?
+Dialogue: 0,0:02:42.45,0:02:44.64,Default,Kae,0000,0000,0000,,I'll take care of everything\N the at history club, too!
+Dialogue: 0,0:02:44.64,0:02:47.24,Default,Kae,0000,0000,0000,,It's a festival! I'm going all out!
+Dialogue: 0,0:02:47.24,0:02:49.52,Default,Kae,0000,0000,0000,,Shinomiya-kun, what's your \Nclass going to be doing?
+Dialogue: 0,0:02:50.06,0:02:52.64,Default,Shinomiya,0000,0000,0000,,Huh? Uh... Um...
+Dialogue: 0,0:02:52.64,0:02:54.10,Default,Shinomiya,0000,0000,0000,,A... play.
+Dialogue: 0,0:02:54.10,0:02:57.56,Default,Kae,0000,0000,0000,,Oh? What kind of play? Do you have a part?
+Dialogue: 0,0:02:57.56,0:02:59.93,Default,Shinomiya,0000,0000,0000,,Yeah, well... yeah...
+Dialogue: 0,0:02:59.93,0:03:01.37,Default,Nanashima,0000,0000,0000,,What's the deal? Spit it out!
+Dialogue: 0,0:03:03.99,0:03:05.70,Default,Shinomiya,0000,0000,0000,,I-I'm playing the princess.
+Dialogue: 0,0:03:05.70,0:03:08.01,Default,Boys,0000,0000,0000,,Princess?
+Dialogue: 0,0:03:09.92,0:03:11.21,Default,Nanashima,0000,0000,0000,,Seriously?!
+Dialogue: 0,0:03:11.21,0:03:13.91,Default,Shinomiya,0000,0000,0000,,I-I lost at rock-paper-scissors!
+Dialogue: 0,0:03:14.67,0:03:16.10,Watamote-internal/narrator,Kae,0000,0000,0000,,Score!
+Dialogue: 0,0:03:16.10,0:03:19.09,Watamote-internal/narrator,Kae,0000,0000,0000,,A pretty boy dressed as a girl!
+Dialogue: 0,0:03:19.09,0:03:20.29,Default,Kae,0000,0000,0000,,Shinomiya-kun.
+Dialogue: 0,0:03:21.27,0:03:23.38,Default,Kae,0000,0000,0000,,I know you can pull this off.
+Dialogue: 0,0:03:23.38,0:03:25.62,Default,Kae,0000,0000,0000,,You can be the best princess ever!
+Dialogue: 0,0:03:25.62,0:03:26.47,Default,Kae,0000,0000,0000,,It'll be okay!
+Dialogue: 0,0:03:26.76,0:03:29.01,Default,Kae,0000,0000,0000,,Allow me to be in charge of your production!
+Dialogue: 0,0:03:29.01,0:03:31.47,Default,Kae,0000,0000,0000,,I'll be sure to make you shine!
+Dialogue: 0,0:03:31.47,0:03:33.48,sign_8801_60_H____Huh_,Text,0000,0000,0000,,H... Huh?
+Dialogue: 0,0:03:31.47,0:03:33.48,sign_8802_61_Shi,Text,0000,0000,0000,,Shi
+Dialogue: 0,0:03:31.54,0:03:33.48,Default,Shinomiya,0000,0000,0000,,H... Huh?
+Dialogue: 0,0:03:33.62,0:03:37.84,Default,Shinomiya,0000,0000,0000,,B-But, Senpai, you're already so \Nbusy with your class and club,
+Dialogue: 0,0:03:37.84,0:03:39.08,Default,Shinomiya,0000,0000,0000,,I couldn't possibly—
+Dialogue: 0,0:03:39.08,0:03:41.83,Default,Kae,0000,0000,0000,,It's fine! One more costume is no problem!
+Dialogue: 0,0:03:41.83,0:03:43.74,Default,Shinomiya,0000,0000,0000,,I-Is that so?
+Dialogue: 0,0:03:44.12,0:03:46.95,Watamote-internal/narrator,Kae,0000,0000,0000,,Nanashima-kun, Igarashi-kun \Nand Shinomiya-kun.
+Dialogue: 0,0:03:46.95,0:03:50.28,Watamote-internal/narrator,Kae,0000,0000,0000,,I can't believe I'm in charge \Nof making costumes for them!
+Dialogue: 0,0:03:50.28,0:03:52.73,Watamote-internal/narrator,Kae,0000,0000,0000,,This is the chance of a lifetime!
+Dialogue: 0,0:03:54.24,0:03:56.28,Watamote-internal/narrator,Kae,0000,0000,0000,,Looks like I'm gonna be busy!
+Dialogue: 0,0:03:56.64,0:03:59.00,Default,Mutsumi,0000,0000,0000,,You sure are excited, Serinuma-san.
+Dialogue: 0,0:03:59.40,0:04:01.47,sign_9639_71_10_days_until_th,sign,0000,0000,0000,,{\fad(350,1)}10 Days Until the Festival
+Dialogue: 0,0:04:00.11,0:04:01.47,Default,Kae,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:04:01.89,0:04:04.26,Default,Kae,0000,0000,0000,,Shoulder width is... 45 cm.
+Dialogue: 0,0:04:04.26,0:04:07.93,sign_9784_75_Measurement_Poin,,0000,0000,0000,,Measurement Points
+Dialogue: 0,0:04:04.26,0:04:07.93,sign_9784_76_Shoulder_width__,,0000,0000,0000,,Shoulder width\N\N Chest circumference\N\N Arm circumference\N\N Inseam
+Dialogue: 0,0:04:05.15,0:04:06.49,Default,Kae,0000,0000,0000,,Just a second, sorry.
+Dialogue: 0,0:04:06.49,0:04:07.93,Default,Kae,0000,0000,0000,,Chest is...
+Dialogue: 0,0:04:08.33,0:04:09.68,Default,Kae,0000,0000,0000,,Let's see...
+Dialogue: 0,0:04:12.01,0:04:14.25,Default,girl,0000,0000,0000,,Serinuma-san, you have a visitor!
+Dialogue: 0,0:04:13.44,0:04:17.56,sign_9784_75_Measurement_Poin,,0000,0000,0000,,Measurement Points
+Dialogue: 0,0:04:13.44,0:04:17.56,sign_9784_76_Shoulder_width__,,0000,0000,0000,,Shoulder width\N\N Chest circumference\N\N Arm circumference\N\N Inseam
+Dialogue: 0,0:04:15.18,0:04:16.27,Default,Kae,0000,0000,0000,,Okay!
+Dialogue: 0,0:04:21.56,0:04:23.68,Default,Girl,0000,0000,0000,,Wow, he's so cute!
+Dialogue: 0,0:04:23.68,0:04:25.54,Default,Girl 2,0000,0000,0000,,You're going to play the princess?
+Dialogue: 0,0:04:25.54,0:04:26.83,Default,Girl,0000,0000,0000,,You totally look the part!
+Dialogue: 0,0:04:26.83,0:04:29.65,Default,Kae,0000,0000,0000,,Okay, okay, that's enough, all of you.
+Dialogue: 0,0:04:29.65,0:04:30.90,Default,Girls,0000,0000,0000,,Okay!
+Dialogue: 0,0:04:30.90,0:04:32.54,Default,Girl,0000,0000,0000,,See you later, First-Year-kun!
+Dialogue: 0,0:04:33.14,0:04:36.03,Default,Shinomiya,0000,0000,0000,,Wh-Why does everyone know?
+Dialogue: 0,0:04:36.03,0:04:39.33,Default,Kae,0000,0000,0000,,Oh, sorry. I kind of let it slip.
+Dialogue: 0,0:04:39.33,0:04:41.67,Default,Shinomiya,0000,0000,0000,,Please don't!
+Dialogue: 0,0:04:42.20,0:04:45.86,Default,Kae,0000,0000,0000,,Sorry! But I just can't help feeling that
+Dialogue: 0,0:04:45.86,0:04:48.80,Default,Kae,0000,0000,0000,,you're going to be the cutest princess!
+Dialogue: 0,0:04:49.19,0:04:51.55,Default,Shinomiya,0000,0000,0000,,Cute? Senpai...
+Dialogue: 0,0:04:52.87,0:04:54.70,Default,Shinomiya,0000,0000,0000,,I'm a man, too, you know.
+Dialogue: 0,0:04:54.70,0:04:56.56,Default,Kae,0000,0000,0000,,Shinomiya-kun...
+Dialogue: 0,0:04:56.56,0:04:58.35,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,If only I could say that...
+Dialogue: 0,0:04:58.35,0:05:00.52,Default,Kae,0000,0000,0000,,Wow, Shinomiya-kun.
+Dialogue: 0,0:05:00.93,0:05:03.94,Default,Kae,0000,0000,0000,,You look very delicate,\Nbut you really are a man, huh?
+Dialogue: 0,0:05:04.10,0:05:06.83,Default,Kae,0000,0000,0000,,Your shoulders are broad, \Nand your hands are big, too.
+Dialogue: 0,0:05:06.84,0:05:07.94,Default,Shinomiya,0000,0000,0000,,S-Senpai!
+Dialogue: 0,0:05:08.47,0:05:10.45,Default,Shinomiya,0000,0000,0000,,I... I...!
+Dialogue: 0,0:05:10.89,0:05:13.70,Default,Nanashima,0000,0000,0000,,Hey, you're right!\NHe's got a thick neck, too!
+Dialogue: 0,0:05:14.91,0:05:16.79,Default,Shinomiya,0000,0000,0000,,What do you want?
+Dialogue: 0,0:05:16.79,0:05:20.96,Default,Nanashima,0000,0000,0000,,I'm complimenting you here. \NI said you have a manly neck.
+Dialogue: 0,0:05:21.36,0:05:23.95,Default,Nanashima,0000,0000,0000,,Serinuma, I'm up next. Thanks!
+Dialogue: 0,0:05:23.95,0:05:27.39,Default,Shinomiya,0000,0000,0000,,She's not done with me yet! Back off!
+Dialogue: 0,0:05:27.39,0:05:30.48,Default,Nanashima,0000,0000,0000,,Well, too bad! Her classmate comes first!
+Dialogue: 0,0:05:30.48,0:05:31.39,Default,Shinomiya,0000,0000,0000,,What?!
+Dialogue: 0,0:05:31.39,0:05:33.77,Default,Shinomiya,0000,0000,0000,,What's wrong with you?\NAre you in elementary school?!
+Dialogue: 0,0:05:33.77,0:05:35.39,Default,Shinomiya,0000,0000,0000,,You're such a child!
+Dialogue: 0,0:05:35.39,0:05:37.39,sign_12515_112_Haunted_House,sign right,0000,0000,0000,,Haunted House
+Dialogue: 0,0:05:35.54,0:05:37.39,sign_9639_71_10_days_until_th,sign,0000,0000,0000,,{\fad(350,1)}5 Days Until the Festival
+Dialogue: 0,0:05:37.82,0:05:39.40,Default,Nakano,0000,0000,0000,,Kae-chan! About the costumes!
+Dialogue: 0,0:05:39.73,0:05:41.65,Default,Nakano,0000,0000,0000,,Wha... This is horrible.
+Dialogue: 0,0:05:42.22,0:05:45.06,Default,Nakano,0000,0000,0000,,Are you okay? Maybe you bit \Noff more than you can chew.
+Dialogue: 0,0:05:45.06,0:05:48.78,Default,Kae,0000,0000,0000,,Yeah... but I'm in charge of this.
+Dialogue: 0,0:05:48.78,0:05:49.78,Default,Kae,0000,0000,0000,,I'll do my be—ouch!
+Dialogue: 0,0:05:49.98,0:05:53.08,Default,Igarashi,0000,0000,0000,,Hey! I'm free, so let me help.
+Dialogue: 0,0:05:53.79,0:05:55.22,Default,Kae,0000,0000,0000,,Igarashi-kun!
+Dialogue: 0,0:05:55.22,0:05:55.85,Default,Kae,0000,0000,0000,,But...
+Dialogue: 0,0:05:55.85,0:05:57.33,Default,Igarashi,0000,0000,0000,,It's okay, really!
+Dialogue: 0,0:05:57.49,0:05:59.36,Default,Igarashi,0000,0000,0000,,Rely on me. Okay?
+Dialogue: 0,0:05:59.95,0:06:01.28,Default,Kae,0000,0000,0000,,Thanks!
+Dialogue: 0,0:06:01.28,0:06:02.36,Default,Kae,0000,0000,0000,,Well, then—
+Dialogue: 0,0:06:01.28,0:06:02.36,Watamote-overlap,Nanashima,0000,0000,0000,,Hey!
+Dialogue: 0,0:06:03.11,0:06:05.25,Default,Nanashima,0000,0000,0000,,You can count on me, too, ya know?
+Dialogue: 0,0:06:05.25,0:06:06.48,Default,Kae,0000,0000,0000,,Nanashima-kun!
+Dialogue: 0,0:06:06.48,0:06:08.45,Default,Shinomiya,0000,0000,0000,,Senpai! I came by to help out!
+Dialogue: 0,0:06:08.45,0:06:10.02,Default,Kae,0000,0000,0000,,You, too, Shinomiya-kun?
+Dialogue: 0,0:06:10.02,0:06:13.03,Default,Nanashima,0000,0000,0000,,What the hell, Princess?!\NDon't skip out on your own class.
+Dialogue: 0,0:06:13.03,0:06:15.05,Default,Shinomiya,0000,0000,0000,,My class is already finished for the day!
+Dialogue: 0,0:06:15.05,0:06:16.02,Default,Mutsumi,0000,0000,0000,,Serinuma-san.
+Dialogue: 0,0:06:16.39,0:06:19.95,Default,Mutsumi,0000,0000,0000,,Sorry, but can you come help\N out at the history club now?
+Dialogue: 0,0:06:19.95,0:06:22.39,Default,Kae,0000,0000,0000,,Huh? Th-That's right, I totally forgot!
+Dialogue: 0,0:06:22.39,0:06:24.11,Default,Kae,0000,0000,0000,,Sorry! I'm on my way!
+Dialogue: 0,0:06:24.41,0:06:26.15,Default,Mutsumi,0000,0000,0000,,Sorry to ask when you're so busy,
+Dialogue: 0,0:06:26.15,0:06:27.44,Default,Mutsumi,0000,0000,0000,,we don't have enough hands.
+Dialogue: 0,0:06:27.44,0:06:29.86,Default,Kae,0000,0000,0000,,No, no! It's my responsibility.
+Dialogue: 0,0:06:30.46,0:06:32.09,Default,Kae,0000,0000,0000,,This still needs buttons, though...
+Dialogue: 0,0:06:32.96,0:06:34.03,Default,Kae,0000,0000,0000,,But, the history club!
+Dialogue: 0,0:06:35.89,0:06:37.12,Default,Nanashima,0000,0000,0000,,I'll go in your place, then.
+Dialogue: 0,0:06:37.62,0:06:39.84,Default,Nanashima,0000,0000,0000,,You come, too, Igarashi.
+Dialogue: 0,0:06:40.38,0:06:41.50,Default,Nanashima,0000,0000,0000,,And you.
+Dialogue: 0,0:06:42.57,0:06:43.59,Default,Kae,0000,0000,0000,,Is that okay?
+Dialogue: 0,0:06:43.59,0:06:48.59,Default,Nanashima,0000,0000,0000,,Totally! Come to think about it, \Nsewing doesn't suit us, anyway!
+Dialogue: 0,0:06:49.63,0:06:53.01,Default,Kae,0000,0000,0000,,Thank you! Sorry, but I'd be really grateful!
+Dialogue: 0,0:06:53.01,0:06:54.47,sign_14842_148__Social_Studies_,,0000,0000,0000,,Social Studies Material Room
+Dialogue: 0,0:06:53.71,0:06:56.64,Default,Nanashima,0000,0000,0000,,Whoa, your writing is so messy!
+Dialogue: 0,0:06:56.64,0:06:57.67,Default,Nanashima,0000,0000,0000,,What a letdown.
+Dialogue: 0,0:06:57.67,0:07:00.26,Default,Shinomiya,0000,0000,0000,,You don't get to talk when\N you get kanji wrong
+Dialogue: 0,0:07:00.26,0:07:01.56,Default,Shinomiya,0000,0000,0000,,even when you're copying them!
+Dialogue: 0,0:07:01.56,0:07:02.71,Default,Nanashima,0000,0000,0000,,Shut it!
+Dialogue: 0,0:07:02.71,0:07:04.19,Default,Mutsumi,0000,0000,0000,,No need to rush.
+Dialogue: 0,0:07:04.49,0:07:05.50,Default,Nanashima,0000,0000,0000,,Okay...
+Dialogue: 0,0:07:05.50,0:07:08.23,Watamote-internal/narrator,Igarashi,0000,0000,0000,,Huh? What am I doing here?
+Dialogue: 0,0:07:08.52,0:07:13.24,Watamote-internal/narrator,Igarashi,0000,0000,0000,,It's for Serinuma-san, \Nbut she's not even here.
+Dialogue: 0,0:07:15.91,0:07:16.78,Default,Shinomiya,0000,0000,0000,,Hey!
+Dialogue: 0,0:07:16.78,0:07:17.60,Default,Igarashi,0000,0000,0000,,Nana.
+Dialogue: 0,0:07:18.66,0:07:20.69,Default,Igarashi,0000,0000,0000,,Is this fun for you?
+Dialogue: 0,0:07:21.74,0:07:25.53,Default,Nanashima,0000,0000,0000,,Well, it's not so bad.
+Dialogue: 0,0:07:25.53,0:07:26.92,Default,Nanashima,0000,0000,0000,,It feels real festive!
+Dialogue: 0,0:07:29.98,0:07:30.96,Default,Igarashi,0000,0000,0000,,I see.
+Dialogue: 0,0:07:33.37,0:07:35.68,Watamote-internal/narrator,Kae,0000,0000,0000,,And so, preparations moved along steadily.
+Dialogue: 0,0:07:36.25,0:07:39.29,Watamote-internal/narrator,Kae,0000,0000,0000,,And with a lot of commotion.
+Dialogue: 0,0:07:41.13,0:07:42.69,sign_9639_71_10_days_until_th,sign,0000,0000,0000,,{\fad(350,1)}The Day Before the Festival
+Dialogue: 0,0:07:42.88,0:07:44.23,Default,Kae,0000,0000,0000,,All done!
+Dialogue: 0,0:07:44.23,0:07:45.46,Default,Nakano,0000,0000,0000,,Good job!
+Dialogue: 0,0:07:45.46,0:07:47.01,Default,Nakano,0000,0000,0000,,The accessories are done, too.
+Dialogue: 0,0:07:47.01,0:07:48.93,Default,Kae,0000,0000,0000,,Thanks so much, A-chan!
+Dialogue: 0,0:07:48.93,0:07:50.66,Default,Kae,0000,0000,0000,,How about we try them on?
+Dialogue: 0,0:07:50.66,0:07:51.49,Default,Nakano,0000,0000,0000,,Okay!
+Dialogue: 0,0:07:51.63,0:07:53.31,Default,Kae,0000,0000,0000,,What about everyone else?
+Dialogue: 0,0:07:53.31,0:07:55.69,Default,Nakano,0000,0000,0000,,I think they're changing right now.
+Dialogue: 0,0:07:56.50,0:07:57.62,Default,Nakano,0000,0000,0000,,Here they come.
+Dialogue: 0,0:08:03.24,0:08:04.16,Default,Girl,0000,0000,0000,,It's so good!
+Dialogue: 0,0:08:04.16,0:08:05.00,Default,Girl 2,0000,0000,0000,,Can I take a pic?
+Dialogue: 0,0:08:05.00,0:08:07.78,Default,Nakano,0000,0000,0000,,Those three look better than I ever imagined!
+Dialogue: 0,0:08:11.41,0:08:12.43,Default,Kae,0000,0000,0000,,Shion.
+Dialogue: 0,0:08:12.68,0:08:14.25,Default,Nanashima,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:08:14.83,0:08:18.10,Default,Kae,0000,0000,0000,,Whatever way I look at you, \Nyou're Shion! Shion in 3D!
+Dialogue: 0,0:08:18.10,0:08:20.50,Default,Kae,0000,0000,0000,,Wonderful! Shion, you're wonderful!
+Dialogue: 0,0:08:21.74,0:08:23.06,Default,Kae,0000,0000,0000,,You, too, Shinomiya-kun!
+Dialogue: 0,0:08:23.06,0:08:25.42,Default,Kae,0000,0000,0000,,You're incredibly cute, just as I expected!
+Dialogue: 0,0:08:25.42,0:08:27.56,Default,Kae,0000,0000,0000,,No one would even think you're a boy!
+Dialogue: 0,0:08:28.20,0:08:30.01,Default,Shinomiya,0000,0000,0000,,I-Is that right?
+Dialogue: 0,0:08:30.33,0:08:33.17,Default,Nanashima,0000,0000,0000,,She doesn't even see you as a man.
+Dialogue: 0,0:08:33.17,0:08:36.74,Default,Shinomiya,0000,0000,0000,,And she doesn't even \Nsee you as a real person.
+Dialogue: 0,0:08:38.89,0:08:40.63,Default,Girl,0000,0000,0000,,Igarashi-kun, you look perfect!
+Dialogue: 0,0:08:40.63,0:08:41.75,Default,Girl,0000,0000,0000,,Such a great figure!
+Dialogue: 0,0:08:45.19,0:08:48.94,Default,Kae,0000,0000,0000,,I'm so happy that you're all \Nwearing the costumes I made.
+Dialogue: 0,0:08:49.55,0:08:51.21,Default,Kae,0000,0000,0000,,Thank you, guys!
+Dialogue: 0,0:08:53.95,0:08:55.68,Default,Kae,0000,0000,0000,,I can't wait for tomorrow!
+Dialogue: 0,0:08:55.68,0:08:57.37,Default,Mutsumi,0000,0000,0000,,I'm glad you managed to finish.
+Dialogue: 0,0:08:57.37,0:09:01.48,Default,Kae,0000,0000,0000,,Our class is amazing! You have\Nto come see the cosplay café.
+Dialogue: 0,0:09:01.74,0:09:02.42,Default,Mutsumi,0000,0000,0000,,Sure.
+Dialogue: 0,0:09:02.79,0:09:05.07,Default,Mutsumi,0000,0000,0000,,I'm going to go see your \Nplay, too, Shinomiya-kun.
+Dialogue: 0,0:09:05.07,0:09:06.32,Default,Mutsumi,0000,0000,0000,,It starts at 2 PM, right?
+Dialogue: 0,0:09:06.32,0:09:06.85,Default,Shinomiya,0000,0000,0000,,Huh?!
+Dialogue: 0,0:09:07.19,0:09:08.50,Default,Nanashima,0000,0000,0000,,I'll go see, too!
+Dialogue: 0,0:09:08.50,0:09:10.67,Default,Shinomiya,0000,0000,0000,,I'll make sure you're not allowed in.
+Dialogue: 0,0:09:10.67,0:09:11.73,Default,Nanashima,0000,0000,0000,,What did you say?!
+Dialogue: 0,0:09:11.96,0:09:15.07,Default,Kae,0000,0000,0000,,I know! If we have time, let's go\N around the festival together!
+Dialogue: 0,0:09:15.07,0:09:15.73,Default,Nanashima,0000,0000,0000,,Sounds good!
+Dialogue: 0,0:09:15.73,0:09:16.66,Default,Shinomiya,0000,0000,0000,,Sure!
+Dialogue: 0,0:09:17.60,0:09:19.03,Default,Igarashi,0000,0000,0000,,You can count me out.
+Dialogue: 0,0:09:19.26,0:09:19.98,Default,Igarashi,0000,0000,0000,,I'll pass.
+Dialogue: 0,0:09:19.98,0:09:24.30,Default,Kae,0000,0000,0000,,What? But, it's a one-time thing, \Nand if we all make the time...
+Dialogue: 0,0:09:25.33,0:09:26.54,Default,Igarashi,0000,0000,0000,,Sorry.
+Dialogue: 0,0:09:29.22,0:09:33.31,Default,Igarashi,0000,0000,0000,,I'm not interested in playing \Nbuddy-buddy with everyone anymore.
+Dialogue: 0,0:09:35.88,0:09:40.93,Watamote-Eyecatch1,eyecatch,0000,0000,0000,,Kiss Him, Not Me
+Dialogue: 0,0:09:40.93,0:09:45.93,Watamote-Eyecatch2,eyecatch,0000,0000,0000,,Kiss Him, Not Me
+Dialogue: 0,0:09:46.31,0:09:47.56,Default,Kae,0000,0000,0000,,Igarashi-kun.
+Dialogue: 0,0:09:48.12,0:09:51.21,Default,Igarashi,0000,0000,0000,,I like you, Serinuma-san,
+Dialogue: 0,0:09:51.21,0:09:53.70,Default,Igarashi,0000,0000,0000,,so I'd like to see the \Nfestival with just you, alone.
+Dialogue: 0,0:09:54.20,0:09:55.11,Default,Igarashi,0000,0000,0000,,Sound good?
+Dialogue: 0,0:09:55.11,0:09:56.70,Default,Both,0000,0000,0000,,Not at all!
+Dialogue: 0,0:09:56.70,0:10:01.30,Default,Nanashima,0000,0000,0000,,Right, I forgot! Why do I have\N to do anything with you?
+Dialogue: 0,0:10:01.30,0:10:03.12,Default,Shinomiya,0000,0000,0000,,I don't like it, either!
+Dialogue: 0,0:10:03.27,0:10:06.66,Default,Shinomiya,0000,0000,0000,,I don't want to play \Nbuddy-buddy with everyone, either!
+Dialogue: 0,0:10:06.66,0:10:07.70,Default,Nanashima,0000,0000,0000,,Same.
+Dialogue: 0,0:10:11.33,0:10:14.41,Watamote-internal/narrator,Kae,0000,0000,0000,,What's with this deja-vu?
+Dialogue: 0,0:10:14.76,0:10:17.74,Watamote-internal/narrator,Kae,0000,0000,0000,,I mean, why does it have \Nto be like this anyway?
+Dialogue: 0,0:10:17.74,0:10:20.94,Watamote-internal/narrator,Kae,0000,0000,0000,,I just want to enjoy the festival!
+Dialogue: 0,0:10:21.26,0:10:22.41,Default,Mutsumi,0000,0000,0000,,Hold on a minute.
+Dialogue: 0,0:10:22.41,0:10:23.81,Default,Mutsumi,0000,0000,0000,,Everyone, calm down.
+Dialogue: 0,0:10:24.41,0:10:27.04,Default,Kae,0000,0000,0000,,S-Senpai!
+Dialogue: 0,0:10:27.72,0:10:31.08,Default,Mutsumi,0000,0000,0000,,What if we make a schedule so we\N all get equal time alone with her?
+Dialogue: 0,0:10:31.08,0:10:31.64,Default,Kae,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:31.64,0:10:32.98,Default,Nanashima,0000,0000,0000,,A schedule?
+Dialogue: 0,0:10:32.98,0:10:35.80,Default,Igarashi,0000,0000,0000,,In short, we decide a time for everyone,
+Dialogue: 0,0:10:35.80,0:10:38.17,Default,Igarashi,0000,0000,0000,,and in that slot, we each \Nget alone time with her.
+Dialogue: 0,0:10:38.17,0:10:41.00,Default,Shinomiya,0000,0000,0000,,And during that time, \Nthe others can't interfere.
+Dialogue: 0,0:10:41.49,0:10:42.88,Default,Nanashima,0000,0000,0000,,Sounds good to me!
+Dialogue: 0,0:10:44.01,0:10:45.79,Default,Boys,0000,0000,0000,,Okay, we'll go with that!
+Dialogue: 0,0:10:46.05,0:10:46.79,Watamote-internal/narrator,Kae,0000,0000,0000,,What?
+Dialogue: 0,0:10:47.71,0:10:49.67,sign_23676_238_The_Day_of_the_F,sign,0000,0000,0000,,{\fad(350,1)}The Day of the Festival
+Dialogue: 0,0:10:47.80,0:10:49.67,Watamote-internal/narrator,Kae,0000,0000,0000,,What?!
+Dialogue: 0,0:10:49.67,0:10:51.41,sign_23732_239_Current_wait___2,Sign,0000,0000,0000,,Current wait: \N20 minutes
+Dialogue: 0,0:10:52.04,0:10:54.41,Default,Kae,0000,0000,0000,,Welcome, sirs.
+Dialogue: 0,0:10:54.96,0:10:56.37,Default,Kae,0000,0000,0000,,This way, please.
+Dialogue: 0,0:10:56.37,0:10:59.30,Default,Nakano,0000,0000,0000,,Kae-chan! It's about time to change shifts.
+Dialogue: 0,0:10:59.30,0:11:00.42,Default,Kae,0000,0000,0000,,Okay!
+Dialogue: 0,0:11:00.95,0:11:02.05,sign_15847_244_13_00_Nanashima_,Paper,0000,0000,0000,,13:00 Nanashima\N 13:30 Mutsumi \N14:00 Igarashi\N 14:30 Shinomiya
+Dialogue: 0,0:11:03.41,0:11:06.10,Default,Nakano,0000,0000,0000,,Four dates lined up with four hotties, huh?
+Dialogue: 0,0:11:06.10,0:11:08.79,Default,Kae,0000,0000,0000,,Stop! Cut it out, A-chan!
+Dialogue: 0,0:11:08.79,0:11:13.11,Default,Kae,0000,0000,0000,,I really don't know how to\Nhandle being alone with a guy!
+Dialogue: 0,0:11:13.67,0:11:15.02,Default,Nakano,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:11:15.02,0:11:17.84,Default,Nakano,0000,0000,0000,,It's not like you'll be completely\N alone with any of them.
+Dialogue: 0,0:11:17.84,0:11:19.53,Default,Nakano,0000,0000,0000,,Just have fun the way you always do!
+Dialogue: 0,0:11:19.68,0:11:22.23,Default,Kae,0000,0000,0000,,I-I see! You're right!
+Dialogue: 0,0:11:22.77,0:11:24.03,Default,Nanashima,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:24.03,0:11:25.49,Default,Nanashima,0000,0000,0000,,Let's get going.
+Dialogue: 0,0:11:25.74,0:11:26.47,Default,Kae,0000,0000,0000,,Sure.
+Dialogue: 0,0:11:26.47,0:11:28.79,Default,Nanashima,0000,0000,0000,,I guess I should probably change first.
+Dialogue: 0,0:11:28.79,0:11:32.67,Default,Kae,0000,0000,0000,,No! Stay as you are!\N Let's go with you as Shion!
+Dialogue: 0,0:11:28.79,0:11:32.67,sign_24947_257_The_____Usual,Text,0000,0000,0000,,{\fad(250,1)}The{\c&H4331A3&} Usual
+Dialogue: 0,0:11:33.67,0:11:35.50,Default,girl,0000,0000,0000,,You two, advertise the café for us!
+Dialogue: 0,0:11:35.50,0:11:36.52,Default,Girl,0000,0000,0000,,Here, take these.
+Dialogue: 0,0:11:36.52,0:11:37.46,Default,Nanashima,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:40.97,0:11:44.72,sign_16807_261_2_A__Cosplay_Caf,Sign,0000,0000,0000,,2-A\N Cosplay Café  \NOpen for Business
+Dialogue: 0,0:11:45.97,0:11:47.28,Default,girl,0000,0000,0000,,Can I take a pic?!
+Dialogue: 0,0:11:47.28,0:11:48.47,Default,Boy,0000,0000,0000,,Me, too!
+Dialogue: 0,0:11:48.47,0:11:50.54,Default,Girl,0000,0000,0000,,Give me a flyer, Maid-san!
+Dialogue: 0,0:11:49.48,0:11:51.69,Watamote-overlap,Igarashi,0000,0000,0000,,They're nowhere close to being alone together.
+Dialogue: 0,0:11:51.69,0:11:53.35,Default,Shinomiya,0000,0000,0000,,I guess that's a relief.
+Dialogue: 0,0:11:53.65,0:11:56.27,Default,Nanashima,0000,0000,0000,,Damn, our time's gonna end before we know it.
+Dialogue: 0,0:11:56.98,0:11:58.72,sign_25748_268_PC_Club_s_Specia,Sign,0000,0000,0000,,PC Club's Special Event Purikura Corner
+Dialogue: 0,0:11:57.87,0:11:59.49,Default,Nanashima,0000,0000,0000,,Serinuma, this way!
+Dialogue: 0,0:12:03.99,0:12:05.40,Default,Boy,0000,0000,0000,,Okay, here you are!
+Dialogue: 0,0:12:05.40,0:12:06.41,Default,Kae,0000,0000,0000,,Thanks.
+Dialogue: 0,0:12:06.41,0:12:08.29,sign_17417_272_Kae_s_Wish,Picture,0000,0000,0000,,Kae's {\c&HAD8253&}Wish
+Dialogue: 0,0:12:07.29,0:12:08.29,Default,Kae,0000,0000,0000,,Amazing!
+Dialogue: 0,0:12:08.50,0:12:09.52,Default,Nanashima,0000,0000,0000,,Amazing?
+Dialogue: 0,0:12:09.52,0:12:12.25,Default,Kae,0000,0000,0000,,Yeah. To think I'd get to \Nhave a picture with Shion...
+Dialogue: 0,0:12:12.83,0:12:14.17,Default,Kae,0000,0000,0000,,I'm so happy.
+Dialogue: 0,0:12:15.59,0:12:17.92,Default,Nanashima,0000,0000,0000,,That right? That's good.
+Dialogue: 0,0:12:18.90,0:12:20.26,Default,Nanashima,0000,0000,0000,,But, you know...
+Dialogue: 0,0:12:20.79,0:12:24.93,Default,Nanashima,0000,0000,0000,,I'm a real, live man. Don't forget that.
+Dialogue: 0,0:12:27.80,0:12:28.72,Default,Mutsumi,0000,0000,0000,,Um...
+Dialogue: 0,0:12:28.95,0:12:30.94,Default,Mutsumi,0000,0000,0000,,Sorry, it's time.
+Dialogue: 0,0:12:32.07,0:12:34.96,Default,Nanashima,0000,0000,0000,,Get a clue, Senpai!
+Dialogue: 0,0:12:34.96,0:12:37.15,Default,Mutsumi,0000,0000,0000,,But your time's up, and we promised.
+Dialogue: 0,0:12:37.15,0:12:38.98,Default,Nanashima,0000,0000,0000,,You could give me just a little—
+Dialogue: 0,0:12:39.26,0:12:41.81,Default,Shinomiya,0000,0000,0000,,Go on, Mutsumi-senpai!
+Dialogue: 0,0:12:41.81,0:12:43.62,Default,Nanashima,0000,0000,0000,,Let go of me, you bastard!
+Dialogue: 0,0:12:43.61,0:12:46.36,sign_27147_287_Best_in_the_worl,left sign,0000,0000,0000,,Best in the world? {\b1\c&H536BB2&}Yakisoba{\b0}
+Dialogue: 0,0:12:43.62,0:12:46.36,sign_27147_288_Yummy_Takoyaki,sign right,0000,0000,0000,,Yummy Takoyaki
+Dialogue: 0,0:12:47.18,0:12:49.34,Watamote-internal/narrator,Kae,0000,0000,0000,,That got me flustered.
+Dialogue: 0,0:12:49.34,0:12:50.92,Watamote-internal/narrator,Kae,0000,0000,0000,,My face is still hot.
+Dialogue: 0,0:12:50.92,0:12:52.86,Default,Mutsumi,0000,0000,0000,,Serinuma-san? What's the matter?
+Dialogue: 0,0:12:53.09,0:12:54.49,Default,Mutsumi,0000,0000,0000,,Are you feeling unwell?
+Dialogue: 0,0:12:54.49,0:12:56.34,Default,Kae,0000,0000,0000,,Not at all! I'm all right.
+Dialogue: 0,0:12:56.34,0:12:58.87,Default,Mutsumi,0000,0000,0000,,Really? Are you up to eating yakisoba?
+Dialogue: 0,0:12:58.87,0:13:01.71,Default,Kae,0000,0000,0000,,Of course! Thank you.
+Dialogue: 0,0:13:01.71,0:13:02.63,Default,Mutsumi,0000,0000,0000,,That's a relief.
+Dialogue: 0,0:13:05.09,0:13:06.64,Watamote-internal/narrator,Kae,0000,0000,0000,,Delicious!
+Dialogue: 0,0:13:09.19,0:13:12.36,Watamote-internal/narrator,Kae,0000,0000,0000,,Mutsumi-senpai really is comforting.
+Dialogue: 0,0:13:12.36,0:13:14.15,Default,Mutsimi,0000,0000,0000,,The takoyaki is good, too.
+Dialogue: 0,0:13:14.15,0:13:14.87,Default,Mutsumi,0000,0000,0000,,Want to try?
+Dialogue: 0,0:13:14.87,0:13:15.76,Default,Kae,0000,0000,0000,,Sure!
+Dialogue: 0,0:13:16.50,0:13:18.27,Default,Mutsumi,0000,0000,0000,,Okay. Wait a second.
+Dialogue: 0,0:13:21.42,0:13:22.11,Default,Mutsumi,0000,0000,0000,,Here.
+Dialogue: 0,0:13:25.94,0:13:26.56,Watamote-internal/narrator,Kae,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:26.84,0:13:30.70,Watamote-internal/narrator,Kae,0000,0000,0000,,H-Haven't we got the\Nmaid-master roles mixed up?
+Dialogue: 0,0:13:31.08,0:13:34.54,Watamote-internal/narrator,Kae,0000,0000,0000,,And wait, these are Mutsumi-senpai's chopsticks!
+Dialogue: 0,0:13:35.75,0:13:36.66,Default,Mutsumi,0000,0000,0000,,Taste good?
+Dialogue: 0,0:13:39.49,0:13:40.79,Default,Igarashi,0000,0000,0000,,Time's up.
+Dialogue: 0,0:13:41.72,0:13:43.46,Default,Igarashi,0000,0000,0000,,If you'll excuse me.
+Dialogue: 0,0:13:44.23,0:13:45.46,Default,Kae,0000,0000,0000,,Igarashi-kun...
+Dialogue: 0,0:13:46.20,0:13:48.84,Default,Nanashima,0000,0000,0000,,You're pretty smooth, aren't you?
+Dialogue: 0,0:13:48.84,0:13:49.68,Default,Mutsumi,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:50.03,0:13:53.41,Watamote-internal/narrator,Announcer,0000,0000,0000,,Class 1-D's theatrical \Nprogram will begin shortly.
+Dialogue: 0,0:13:53.41,0:13:56.69,Watamote-internal/narrator,Nanashima,0000,0000,0000,,Wh-What a trap that was...
+Dialogue: 0,0:13:58.45,0:14:02.31,Default,Igarashi,0000,0000,0000,,I ran because we were short \Non time. Sorry. Are you tired?
+Dialogue: 0,0:14:02.31,0:14:04.95,Default,Kae,0000,0000,0000,,Huh? Oh, no. Rather, I'm grateful to you.
+Dialogue: 0,0:14:04.95,0:14:08.60,Default,Kae,0000,0000,0000,,I'm glad you're here to watch \NShinomiya-kun's play with me.
+Dialogue: 0,0:14:16.02,0:14:18.27,Default,Shinomiya,0000,0000,0000,,My name's Snow White.
+Dialogue: 0,0:14:18.27,0:14:20.60,Default,Shinomiya,0000,0000,0000,,I came here today to pick flowers.
+Dialogue: 0,0:14:20.60,0:14:22.84,Default,Kae,0000,0000,0000,,Wow! He's so cute!
+Dialogue: 0,0:14:23.43,0:14:25.71,Default,Woman,0000,0000,0000,,What a beautiful flower.
+Dialogue: 0,0:14:26.50,0:14:27.84,Default,Kae,0000,0000,0000,,There are more here!
+Dialogue: 0,0:14:27.84,0:14:30.09,Default,Woman,0000,0000,0000,,And over here.
+Dialogue: 0,0:14:33.38,0:14:34.10,Default,Igarashi,0000,0000,0000,,Don't like it?
+Dialogue: 0,0:14:34.44,0:14:38.12,Default,Kae,0000,0000,0000,,N-No, that's not quite it...
+Dialogue: 0,0:14:38.12,0:14:39.23,Default,Igarashi,0000,0000,0000,,Great.
+Dialogue: 0,0:14:44.60,0:14:48.58,Watamote-internal/narrator,Announcer,0000,0000,0000,,That concludes Class 1-D's theatrical program.
+Dialogue: 0,0:14:51.81,0:14:53.46,Default,Igarashi,0000,0000,0000,,Pretty fun, wasn't it?
+Dialogue: 0,0:14:53.46,0:14:55.29,Default,Kae,0000,0000,0000,,Huh? Uh, yeah.
+Dialogue: 0,0:14:55.32,0:14:59.35,sign_31093_332_Memory,Text,0000,0000,0000,,{\fad(1,450)}Memory
+Dialogue: 0,0:14:55.35,0:14:59.92,sign_31094_331_Ka,head,0000,0000,0000,,Ka
+Dialogue: 0,0:14:55.83,0:14:59.47,Watamote-internal/narrator,Kae,0000,0000,0000,,M-My memory is totally blacked out.
+Dialogue: 0,0:15:02.05,0:15:04.06,Default,Shinomiya,0000,0000,0000,,Senpai! Sorry to keep you waiting.
+Dialogue: 0,0:15:04.06,0:15:06.01,Default,Igarashi,0000,0000,0000,,Hey. Your play was good.
+Dialogue: 0,0:15:06.01,0:15:07.26,Default,Shinomiya,0000,0000,0000,,Th-Thanks.
+Dialogue: 0,0:15:07.96,0:15:09.63,Default,Igarashi,0000,0000,0000,,See ya, Serinuma-san.
+Dialogue: 0,0:15:10.53,0:15:13.21,Default,Kae,0000,0000,0000,,Uh, yeah. Later.
+Dialogue: 0,0:15:14.35,0:15:15.85,sign_31664_338_Haunted_House,sign blue,0000,0000,0000,,Haunted House
+Dialogue: 0,0:15:14.35,0:15:15.85,sign_31664_339_To_another_world,sign top,0000,0000,0000,,To another world
+Dialogue: 0,0:15:16.19,0:15:20.25,Default,Shinomiya,0000,0000,0000,,The girls in my class said \Nthis was pretty scary.
+Dialogue: 0,0:15:20.25,0:15:21.23,Default,Kae,0000,0000,0000,,Really?
+Dialogue: 0,0:15:22.10,0:15:24.92,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,I've got to show her my manly side.
+Dialogue: 0,0:15:25.53,0:15:28.24,Default,Nanashima,0000,0000,0000,,A haunted house? I get it.
+Dialogue: 0,0:15:28.45,0:15:31.86,Default,Nanashima,0000,0000,0000,,You really didn't pull anything \Nfunny during the play?
+Dialogue: 0,0:15:32.86,0:15:33.55,Default,Igarashi,0000,0000,0000,,Who knows?
+Dialogue: 0,0:15:33.55,0:15:35.68,Default,Nanashima,0000,0000,0000,,You did! You totally did!
+Dialogue: 0,0:15:35.68,0:15:38.72,Default,Nanashima,0000,0000,0000,,I never should have left you\N two alone in the dark like that!
+Dialogue: 0,0:15:38.72,0:15:41.88,Default,Igarashi,0000,0000,0000,,Yeah? Then what about Shinomiya-kun?
+Dialogue: 0,0:15:41.88,0:15:43.28,Default,Mutsumi,0000,0000,0000,,That's true. It's dark in there.
+Dialogue: 0,0:15:43.28,0:15:44.79,Default,Nanashima,0000,0000,0000,,He's fine.
+Dialogue: 0,0:15:45.29,0:15:47.34,Default,Nanashima,0000,0000,0000,,He's not the sort to pull something.
+Dialogue: 0,0:15:53.03,0:15:54.98,Default,Kae,0000,0000,0000,,A-Are you okay?
+Dialogue: 0,0:15:54.98,0:15:56.60,Default,Shinomiya,0000,0000,0000,,P-Perfectly fine.
+Dialogue: 0,0:15:57.14,0:15:59.36,Watamote-internal/narrator,Kae,0000,0000,0000,,Maybe he's no good with spooky things.
+Dialogue: 0,0:15:59.36,0:16:00.73,Watamote-internal/narrator,Kae,0000,0000,0000,,How cute.
+Dialogue: 0,0:16:02.53,0:16:04.98,Default,Kae,0000,0000,0000,,Look. The exit's close by. Let's go.
+Dialogue: 0,0:16:06.06,0:16:08.90,Watamote-flashbackinternal,Nanashima,0000,0000,0000,,She doesn't even see you as a man.
+Dialogue: 0,0:16:10.32,0:16:12.07,Default,Shinomiya,0000,0000,0000,,Please, don't treat me like a child.
+Dialogue: 0,0:16:12.27,0:16:13.74,Default,Shinomiya,0000,0000,0000,,I'm a man, you know.
+Dialogue: 0,0:16:13.74,0:16:16.70,Default,Kae,0000,0000,0000,,Sh-Shinomiya-kun?
+Dialogue: 0,0:16:20.45,0:16:22.07,Default,Kae,0000,0000,0000,,Wait! That's dangerous!
+Dialogue: 0,0:16:23.37,0:16:24.72,Default,Kae,0000,0000,0000,,Ouch!
+Dialogue: 0,0:16:35.22,0:16:36.81,Default,Nanashima,0000,0000,0000,,Wh-What was that?
+Dialogue: 0,0:16:36.81,0:16:38.11,Default,Igarashi,0000,0000,0000,,That was no joke!
+Dialogue: 0,0:16:38.11,0:16:39.85,Default,Mutsumi,0000,0000,0000,,Was it really that scary?
+Dialogue: 0,0:16:42.49,0:16:45.04,Default,Nanashima,0000,0000,0000,,H-Hey! What happened?
+Dialogue: 0,0:16:45.04,0:16:47.73,Default,Shinomiya,0000,0000,0000,,It was an accident. An accident.
+Dialogue: 0,0:16:49.43,0:16:51.94,Default,Girl,0000,0000,0000,,Nanashima and the others \Nshould be coming back soon.
+Dialogue: 0,0:16:51.94,0:16:53.36,Default,Nakano,0000,0000,0000,,Yeah, it's about time.
+Dialogue: 0,0:16:53.86,0:16:56.35,Watamote-internal/narrator,Nakano,0000,0000,0000,,I wonder if things went well with Kae-chan.
+Dialogue: 0,0:16:57.08,0:16:58.33,Default,Kae,0000,0000,0000,,A-chan!
+Dialogue: 0,0:16:58.91,0:17:00.38,Default,Kae,0000,0000,0000,,I can't anymore.
+Dialogue: 0,0:17:01.09,0:17:02.45,Default,Kae,0000,0000,0000,,Impossible! Impossible! Impossible!
+Dialogue: 0,0:17:01.16,0:17:02.59,impossible,Kae,0000,0000,0000,,Impossible Impossible Impossible Impossible
+Dialogue: 0,0:17:02.71,0:17:05.33,Default,Kae,0000,0000,0000,,Impossible!
+Dialogue: 0,0:17:04.07,0:17:05.33,Watamote-overlap,Nakano,0000,0000,0000,,Jojo?!
+Dialogue: 0,0:17:07.64,0:17:10.77,Default,Nakano,0000,0000,0000,,Awesome! It's like an otome game! Too good!
+Dialogue: 0,0:17:10.77,0:17:14.07,Default,Kae,0000,0000,0000,,Meanie! You're laughing too much, A-chan!
+Dialogue: 0,0:17:14.07,0:17:15.37,Default,Nakano,0000,0000,0000,,Sorry.
+Dialogue: 0,0:17:16.25,0:17:18.56,Default,Kae,0000,0000,0000,,I was a fool to think I could take it easy.
+Dialogue: 0,0:17:18.56,0:17:21.55,Default,Kae,0000,0000,0000,,It wasn't easy at all! There \Nwasn't anything "usual" about it!
+Dialogue: 0,0:17:21.55,0:17:23.38,Default,Kae,0000,0000,0000,,It was way too much for me to handle!
+Dialogue: 0,0:17:23.38,0:17:24.52,Default,Nakano,0000,0000,0000,,Too much?
+Dialogue: 0,0:17:24.52,0:17:25.52,Default,Kae,0000,0000,0000,,Well, you know!
+Dialogue: 0,0:17:26.14,0:17:30.69,Default,Kae,0000,0000,0000,,This is the best place for me! Right here!
+Dialogue: 0,0:17:32.18,0:17:36.09,Default,Kae,0000,0000,0000,,And yet, here I am, thrust into the \Ncenter of some otome game-like story!
+Dialogue: 0,0:17:36.09,0:17:37.15,Default,Kae,0000,0000,0000,,It's impossible for me!
+Dialogue: 0,0:17:37.15,0:17:38.83,Default,Nakano,0000,0000,0000,,Calm down, Kae-chan.
+Dialogue: 0,0:17:40.03,0:17:43.93,Default,Kae,0000,0000,0000,,It was so much fun working with \Neveryone to prepare for the festival.
+Dialogue: 0,0:17:43.93,0:17:46.29,Default,Kae,0000,0000,0000,,Can we really not stay like that?
+Dialogue: 0,0:17:47.17,0:17:49.01,Default,Nakano,0000,0000,0000,,It might be tough.
+Dialogue: 0,0:17:49.01,0:17:53.44,Default,Nakano,0000,0000,0000,,The guys want to make progress \Nin their relationship with you.
+Dialogue: 0,0:17:56.04,0:17:57.50,Default,Nakano,0000,0000,0000,,There, there.
+Dialogue: 0,0:17:58.17,0:17:59.37,Default,Nakano,0000,0000,0000,,Want something to drink?
+Dialogue: 0,0:17:59.37,0:18:00.72,Default,Nakano,0000,0000,0000,,I'll go buy you something.
+Dialogue: 0,0:18:00.92,0:18:03.33,Default,Nakano,0000,0000,0000,,Don't worry about coming\N back, just chill out here.
+Dialogue: 0,0:18:08.65,0:18:10.90,sign_36888_398_Are_you_okay__Wh,Phone top,0000,0000,0000,,{\pos(305,131)\c&HCEC1B9&\3c&H3E2A2B&}Igarashi-kun
+Dialogue: 0,0:18:08.69,0:18:10.90,sign_36888_398_Are_you_okay__Wh,Phone message,0000,0000,0000,,Are you okay? Where are you?
+Dialogue: 0,0:18:09.66,0:18:10.90,Default,Kae,0000,0000,0000,,It's from Igarashi-kun.
+Dialogue: 0,0:18:11.13,0:18:14.29,Default,Kae,0000,0000,0000,,Maybe it was a bad idea \Nto leave them all behind.
+Dialogue: 0,0:18:16.47,0:18:19.66,Default,Kae,0000,0000,0000,,But, going back is hard, too.
+Dialogue: 0,0:18:20.20,0:18:23.14,Default,Boy,0000,0000,0000,,Huh? There's no one around.
+Dialogue: 0,0:18:23.14,0:18:25.58,Default,Boy,0000,0000,0000,,Oh, look! Isn't it that girl?
+Dialogue: 0,0:18:26.84,0:18:27.96,Default,Boy,0000,0000,0000,,It is!
+Dialogue: 0,0:18:27.96,0:18:31.44,Default,Boy,0000,0000,0000,,I was just looking at this flyer\N and thinking about going.
+Dialogue: 0,0:18:31.44,0:18:32.96,Default,Boy,0000,0000,0000,,Lucky!
+Dialogue: 0,0:18:32.96,0:18:33.72,Default,Boy,0000,0000,0000,,What's your name?
+Dialogue: 0,0:18:33.72,0:18:36.64,Watamote-internal/narrator,Kae,0000,0000,0000,,Wh-What's with these guys?
+Dialogue: 0,0:18:36.64,0:18:38.73,Default,Kae,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:18:38.73,0:18:41.93,Default,Kae,0000,0000,0000,,I-I'm going back now. I have work to do...
+Dialogue: 0,0:18:41.93,0:18:44.12,Default,Boy,0000,0000,0000,,Come on, don't be like that.
+Dialogue: 0,0:18:44.12,0:18:46.31,Default,Boy,0000,0000,0000,,Let's have some service.
+Dialogue: 0,0:18:47.82,0:18:49.53,Default,Kae,0000,0000,0000,,Let go of me!
+Dialogue: 0,0:18:50.84,0:18:53.11,Default,Boy,0000,0000,0000,,Wh-What the hell are you doing?!
+Dialogue: 0,0:18:54.11,0:18:57.11,Default,Kae,0000,0000,0000,,I'm sorry! It wasn't on purpose!
+Dialogue: 0,0:18:55.80,0:18:56.68,Watamote-overlap,Kae,0000,0000,0000,,Wait!
+Dialogue: 0,0:18:56.68,0:18:58.04,Watamote-overlap,,0000,0000,0000,,Don't run away!
+Dialogue: 0,0:18:57.76,0:19:00.77,Watamote-internal/narrator,Kae,0000,0000,0000,,H-How did things end up like this?
+Dialogue: 0,0:19:00.77,0:19:03.04,Watamote-internal/narrator,Kae,0000,0000,0000,,I hate this! I'm scared!
+Dialogue: 0,0:19:03.60,0:19:05.41,Default,boy,0000,0000,0000,,Jeez! Stop running!
+Dialogue: 0,0:19:05.41,0:19:07.34,Default,Kae,0000,0000,0000,,No!
+Dialogue: 0,0:19:07.34,0:19:08.41,Default,Kae,0000,0000,0000,,Help me!
+Dialogue: 0,0:19:08.63,0:19:09.42,Default,Igarashi,0000,0000,0000,,Hey!
+Dialogue: 0,0:19:12.87,0:19:13.88,Default,Boy,0000,0000,0000,,What are you—
+Dialogue: 0,0:19:14.38,0:19:17.34,Default,Nanashima,0000,0000,0000,,That's my line!
+Dialogue: 0,0:19:17.56,0:19:18.86,Default,Igarashi,0000,0000,0000,,Nana! Behind you!
+Dialogue: 0,0:19:21.92,0:19:23.69,Default,Nanashima,0000,0000,0000,,You think you're funny?
+Dialogue: 0,0:19:23.69,0:19:25.32,Default,Nanashima,0000,0000,0000,,I'm gonna kill you!
+Dialogue: 0,0:19:25.32,0:19:27.61,Default,Shinomiya,0000,0000,0000,,What's all the ruckus about?
+Dialogue: 0,0:19:27.61,0:19:28.92,Default,Boy,0000,0000,0000,,Are you with them?!
+Dialogue: 0,0:19:28.92,0:19:30.81,Default,Mutsumi,0000,0000,0000,,Come on, cut that out.
+Dialogue: 0,0:19:30.81,0:19:32.74,Default,Boy,0000,0000,0000,,It's a fight! A fight!
+Dialogue: 0,0:19:32.74,0:19:34.10,Watamote-internal/narrator,Kae,0000,0000,0000,,How did this happen?
+Dialogue: 0,0:19:34.55,0:19:37.23,Watamote-internal/narrator,Kae,0000,0000,0000,,Why did things turn out this way?
+Dialogue: 0,0:19:37.23,0:19:38.57,Watamote-internal/narrator,Kae,0000,0000,0000,,I don't want this at all.
+Dialogue: 0,0:19:38.57,0:19:40.93,Default,Kae,0000,0000,0000,,Um. Can you just—
+Dialogue: 0,0:19:41.32,0:19:42.33,Default,boy,0000,0000,0000,,Asshole!
+Dialogue: 0,0:19:43.51,0:19:44.95,Default,Kae,0000,0000,0000,,For heaven's sake...
+Dialogue: 0,0:19:44.95,0:19:46.33,Default,Kae,0000,0000,0000,,Knock it off!
+Dialogue: 0,0:19:49.71,0:19:53.06,Default,Kae,0000,0000,0000,,I'm fed up. This is impossible.
+Dialogue: 0,0:19:53.84,0:19:56.95,Default,Kae,0000,0000,0000,,Real life is just... is just...
+Dialogue: 0,0:19:57.46,0:20:00.46,Default,Kae,0000,0000,0000,,A shitty game!
+Dialogue: 0,0:19:59.13,0:20:00.06,sign_40198_441_Scream,Text,0000,0000,0000,,Scream
+Dialogue: 0,0:20:00.46,0:20:02.10,sign_40238_442_Social_Studies_M,sign top,0000,0000,0000,,Social Studies Material Room
+Dialogue: 0,0:20:00.46,0:20:02.10,sign_40238_443_History_Club_Exh,sign lower,0000,0000,0000,,History Club {\c&HA34C25&}Exhibit \N{\c&H6D2561&}Edo Castle Land
+Dialogue: 0,0:20:04.80,0:20:06.72,Default,Shinomiya,0000,0000,0000,,Uh... Um...
+Dialogue: 0,0:20:06.72,0:20:09.81,Default,Shinomiya,0000,0000,0000,,I'm so sorry about what \Nhappened in the haunted house.
+Dialogue: 0,0:20:09.81,0:20:11.89,Default,Shinomiya,0000,0000,0000,,It really was an accident, though!
+Dialogue: 0,0:20:12.53,0:20:15.89,Default,Kae,0000,0000,0000,,That really shocked me.
+Dialogue: 0,0:20:15.89,0:20:17.89,Default,Kae,0000,0000,0000,,So I just bolted out of there...
+Dialogue: 0,0:20:17.89,0:20:19.92,Default,Kae,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:19.92,0:20:22.45,Default,Kae,0000,0000,0000,,But, being cornered against the wall.
+Dialogue: 0,0:20:21.75,0:20:22.45,sign_40876_451_Nana,head,0000,0000,0000,,Nana
+Dialogue: 0,0:20:22.45,0:20:24.07,Default,Kae,0000,0000,0000,,Being fed...
+Dialogue: 0,0:20:23.39,0:20:24.07,sign_40925_453_Mu,head,0000,0000,0000,,Mu
+Dialogue: 0,0:20:24.30,0:20:26.16,Default,Kae,0000,0000,0000,,Holding hands.
+Dialogue: 0,0:20:25.42,0:20:26.16,sign_40986_455_Iga,head,0000,0000,0000,,Iga
+Dialogue: 0,0:20:26.42,0:20:28.04,Default,Kae,0000,0000,0000,,Getting hugged really tightly.
+Dialogue: 0,0:20:27.32,0:20:28.04,sign_41043_457_Shi,head,0000,0000,0000,,Shi
+Dialogue: 0,0:20:28.04,0:20:31.75,Watamote-internal/narrator,all,0000,0000,0000,,Why these little... Can't let \N'em out of sight for a second!
+Dialogue: 0,0:20:31.90,0:20:36.33,Default,Kae,0000,0000,0000,,I-I just don't have enough of an \Nimmunity for these real life events!
+Dialogue: 0,0:20:36.33,0:20:38.07,Default,Kae,0000,0000,0000,,It's just too much!
+Dialogue: 0,0:20:38.07,0:20:40.57,Default,Kae,0000,0000,0000,,And then there was that big mess.
+Dialogue: 0,0:20:40.57,0:20:43.55,Default,Kae,0000,0000,0000,,I'm just beyond my limits!
+Dialogue: 0,0:20:48.84,0:20:53.55,Default,Igarashi,0000,0000,0000,,Sorry, Serinuma-san. I may have \Nrushed things a little too much.
+Dialogue: 0,0:20:54.03,0:20:57.56,Default,Igarashi,0000,0000,0000,,I don't want to upset you. So...
+Dialogue: 0,0:20:58.21,0:20:59.57,Default,Igarashi,0000,0000,0000,,How about we take it slow?
+Dialogue: 0,0:21:01.51,0:21:03.26,Default,Nanashi,0000,0000,0000,,I guess that's all there is to it.
+Dialogue: 0,0:21:03.26,0:21:05.70,Default,Nanashi,0000,0000,0000,,At least there's never a dull \Nmoment with this bunch.
+Dialogue: 0,0:21:05.70,0:21:07.53,Default,Shinomiya,0000,0000,0000,,I don't have any objections.
+Dialogue: 0,0:21:07.53,0:21:09.62,Default,Shinomiya,0000,0000,0000,,Me, neither. I like all of you.
+Dialogue: 0,0:21:10.66,0:21:11.88,Default,Nanashima,0000,0000,0000,,Are you dense?
+Dialogue: 0,0:21:11.88,0:21:12.44,Default,Mutsumi,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:12.44,0:21:14.24,Default,Igarashi,0000,0000,0000,,Figures.
+Dialogue: 0,0:21:17.42,0:21:20.01,Default,Kae,0000,0000,0000,,Thanks, everyone.
+Dialogue: 0,0:21:21.52,0:21:23.67,Default,Kae,0000,0000,0000,,Sorry for going missing!
+Dialogue: 0,0:21:23.94,0:21:26.24,Default,Nakano,0000,0000,0000,,No, no. You had it hard yourself.
+Dialogue: 0,0:21:26.24,0:21:28.30,Watamote-internal/narrator,Announcer,0000,0000,0000,,Now for the cultural festival's finale!
+Dialogue: 0,0:21:28.74,0:21:29.81,Watamote-internal/narrator,Announcer,0000,0000,0000,,The folk dance!
+Dialogue: 0,0:21:29.81,0:21:32.91,Watamote-internal/narrator,Anouncer,0000,0000,0000,,Everyone is free to participate! \NWhoever wants to dance,
+Dialogue: 0,0:21:32.91,0:21:34.94,Watamote-internal/narrator,Anouncer,0000,0000,0000,,please partner up and gather in the center!
+Dialogue: 0,0:21:35.39,0:21:36.44,Default,all,0000,0000,0000,,Serinu—
+Dialogue: 0,0:21:39.58,0:21:41.46,Default,Igarashi,0000,0000,0000,,Let's not have anymore of this today.
+Dialogue: 0,0:21:41.46,0:21:43.44,Default,Nanashima,0000,0000,0000,,Are you really one to talk?
+Dialogue: 0,0:21:43.44,0:21:45.13,Default,Igarashi,0000,0000,0000,,Okay! Let's dance, Nana!
+Dialogue: 0,0:21:45.13,0:21:45.95,Default,Nanashima,0000,0000,0000,,Huh?!
+Dialogue: 0,0:21:45.95,0:21:47.77,Default,Nanashima,0000,0000,0000,,Cut it out!
+Dialogue: 0,0:21:47.02,0:21:48.82,Watamote-overlap,Shinomiya,0000,0000,0000,,What's up with them?
+Dialogue: 0,0:21:48.82,0:21:51.49,Default,Mutsumi,0000,0000,0000,,Well, shall we go, too?\NIt'd be a waste not to.
+Dialogue: 0,0:21:51.49,0:21:52.58,Default,Shinomiya,0000,0000,0000,,Why?!
+Dialogue: 0,0:22:00.36,0:22:01.67,Default,Kae,0000,0000,0000,,A-chan.
+Dialogue: 0,0:22:02.02,0:22:02.92,Default,Nakano,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:03.39,0:22:07.10,Default,Kae,0000,0000,0000,,This really is the best place we can be.
+Dialogue: 0,0:22:07.10,0:22:08.22,Default,Nakano,0000,0000,0000,,Yeah!
+Dialogue: 0,0:22:08.93,0:22:12.85,sign_44089_494_The_Way_of_the_F,Text,0000,0000,0000,,The Way of the Fujoshi
+Dialogue: 0,0:22:09.64,0:22:12.85,Default,Kae,0000,0000,0000,,This is my way of life!
+Dialogue: 0,0:23:43.46,0:23:45.95,Watamote-internal/narrator,Nakano,0000,0000,0000,,Kae-chan, do you know a \Ngood place to have cake?
+Dialogue: 0,0:23:45.95,0:23:48.02,Watamote-internal/narrator,Kae,0000,0000,0000,,Huh? A cake shop? Why?
+Dialogue: 0,0:23:48.02,0:23:51.17,Watamote-internal/narrator,Nakano,0000,0000,0000,,I thought it'd be nice to have \Ncake with Mi-kun for Christmas.
+Dialogue: 0,0:23:51.17,0:23:53.32,Watamote-internal/narrator,Nakano,0000,0000,0000,,But there's no time. Maybe \Na reservation somewhere?
+Dialogue: 0,0:23:53.32,0:23:58.15,Watamote-internal/narrator,Kae,0000,0000,0000,,I wonder? I always go to events on \NChristmas so I don't really know.
+Dialogue: 0,0:23:58.15,0:23:59.66,Watamote-internal/narrator,Nakano,0000,0000,0000,,Huh? On Christmas?
+Dialogue: 0,0:23:59.66,0:24:04.43,Watamote-internal/narrator,Kae,0000,0000,0000,,Yeah! Last year, there was a Noel with\NShion event! We partied together!
+Dialogue: 0,0:24:04.43,0:24:06.61,Watamote-internal/narrator,Nakano,0000,0000,0000,,By Shion, you mean that cut-out thing?
+Dialogue: 0,0:24:06.61,0:24:08.60,Watamote-internal/narrator,Kae,0000,0000,0000,,I have a picture of us together. Want to see?
+Dialogue: 0,0:24:07.80,0:24:12.94,Watamote-Next-Ep-Title,title,0000,0000,0000,,Next time: \NChristmas in the Holy Land
+Dialogue: 0,0:24:07.80,0:24:12.94,Watamote-Look-Forward,Text,0000,0000,0000,,Look forward to it!!
+Dialogue: 0,0:24:08.60,0:24:09.86,Watamote-internal/narrator,Nakano,0000,0000,0000,,So it really was a cut-out.
+Dialogue: 0,0:24:09.86,0:24:12.54,Watamote-internal/narrator,Kae,0000,0000,0000,,A Christmas party devoted to Shion! Amazing!

@@ -1,0 +1,503 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,53,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00E0F9EF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,73,53,113,0
+Style: EyecatchA,Open Sans Semibold,36,&H0046D0EA,&H000000FF,&H004A6C80,&H0079671A,1,0,0,0,100,100,0,0,1,2,0,9,27,107,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H00DC8F1B,&H000000FF,&H00F1F6E8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00F3FEE2,&H000000FF,&H00759846,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Sunakawa,Open Sans Semibold,30,&H0036281C,&H000000FF,&H00F4F9F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Kurihara,Open Sans Semibold,30,&H0020405E,&H000000FF,&H005BC0C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-GrayWhite,Open Sans Semibold,27,&H0071706B,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,33,&H0094E8EA,&H000000FF,&H00E19E2A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: SFX-Red,Open Sans Semibold,33,&H005F56CE,&H000000FF,&H00505247,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,107,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,53,24,0
+Style: SFX-BlackRed,Open Sans Semibold,27,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,53,24,0
+Style: SFX-BrownWhite,Open Sans Semibold,27,&H00262C4A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,80,24,0
+Style: SignA,Open Sans Semibold,30,&H00053C3F,&H000000FF,&H00CDFEF1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,27,0
+Style: SignB,Open Sans Semibold,27,&H00D8F3FF,&H000000FF,&H00355A97,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SignC,Open Sans Semibold,27,&H00312C28,&H000000FF,&H0044EBF2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SignD,Open Sans Semibold,27,&H00312C28,&H000000FF,&H0061FFC6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,53,53,24,0
+Style: SFX-BlueWhite - Copy,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00B09833,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,133,107,187,0
+Style: SFX-BlackWhite - Copy,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,107,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.32,0:00:05.48,Default,Oda,0000,0000,0000,,I'm going to separate Takeo-kun and Yamato-san.
+Dialogue: 0,0:00:05.97,0:00:09.61,Default,Oda,0000,0000,0000,,You should tell him how you feel.
+Dialogue: 0,0:00:10.74,0:00:13.99,Default,Ai,0000,0000,0000,,Tell him how I feel?
+Dialogue: 0,0:00:14.57,0:00:15.95,Default,Ai,0000,0000,0000,,Tell Takeo?
+Dialogue: 0,0:00:18.92,0:00:21.83,Default,Oda,0000,0000,0000,,Your head almost exploded, just considering \Nit. You still have strong feelings for him!
+Dialogue: 0,0:00:21.83,0:00:22.49,Default,Ai,0000,0000,0000,,I don't!
+Dialogue: 0,0:00:22.49,0:00:24.42,Default,Ai,0000,0000,0000,,I'm over it, okay?
+Dialogue: 0,0:00:24.42,0:00:26.37,Default,Oda,0000,0000,0000,,I want you to stop hurting yourself,
+Dialogue: 0,0:00:25.60,0:00:29.84,SignA,Sign 0027,0000,0000,0000,,{\c&H292A86&}She's shaking...
+Dialogue: 0,0:00:26.37,0:00:29.84,Default,Oda,0000,0000,0000,,picking Nishino Kana songs \Nat karaoke and all that!
+Dialogue: 0,0:00:29.84,0:00:31.98,Default,Ai,0000,0000,0000,,{\an8}Th-Th-That's not true...
+Dialogue: 0,0:00:30.46,0:00:31.76,Default,S,0000,0000,0000,,They're fighting.
+Dialogue: 0,0:00:31.76,0:00:32.46,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:31.98,0:00:33.66,Default,Ai,0000,0000,0000,,{\an8}I just like her songs!
+Dialogue: 0,0:00:33.22,0:00:35.67,Default - italics,T,0000,0000,0000,,I do think he's a good guy,
+Dialogue: 0,0:00:33.66,0:00:36.67,Default,Oda,0000,0000,0000,,{\an8}Everyone in the seminar knows.
+Dialogue: 0,0:00:35.67,0:00:37.22,Default - italics,T,0000,0000,0000,,but I guess not everything works out.
+Dialogue: 0,0:00:36.67,0:00:38.79,Default,Oda,0000,0000,0000,,{\an8}Let's be honest here.
+Dialogue: 0,0:00:37.22,0:00:39.39,Default,S,0000,0000,0000,,We should get going!
+Dialogue: 0,0:00:39.84,0:00:40.93,Default,Ai,0000,0000,0000,,Let's go!
+Dialogue: 0,0:00:40.93,0:00:41.89,Default,Ai,0000,0000,0000,,I'm done talking about this!
+Dialogue: 0,0:00:42.65,0:00:44.87,Default,Ai,0000,0000,0000,,I won't be alone with Takeo,
+Dialogue: 0,0:00:44.87,0:00:46.40,Default,Ai,0000,0000,0000,,understand?
+Dialogue: 0,0:00:47.37,0:00:48.50,Default,Ai,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:00:48.50,0:00:49.15,Default,Ai,0000,0000,0000,,Let's go.
+Dialogue: 0,0:00:49.27,0:00:51.78,SFX-BlackWhite,Sign 0051,0000,0000,0000,,Sorry Sorry
+Dialogue: 0,0:00:50.15,0:00:51.78,Default,Oda,0000,0000,0000,,How will I ever get a chance,
+Dialogue: 0,0:00:52.65,0:00:55.37,Default,Oda,0000,0000,0000,,if you don't settle this?
+Dialogue: 0,0:02:26.00,0:02:29.50,Title1,Sign 0227,0000,0000,0000,,My Jinx
+Dialogue: 0,0:02:32.00,0:02:33.84,Default,Y,0000,0000,0000,,What a crowd.
+Dialogue: 0,0:02:33.84,0:02:36.01,Default,Y,0000,0000,0000,,I wonder if everyone's going to MM Land.
+Dialogue: 0,0:02:36.01,0:02:37.86,Default,Oda,0000,0000,0000,,It's a long weekend, after all.
+Dialogue: 0,0:02:37.86,0:02:40.51,Default,Ai,0000,0000,0000,,I hope they won't stop letting people in.
+Dialogue: 0,0:02:40.51,0:02:41.88,Default,S,0000,0000,0000,,Oh, crap.
+Dialogue: 0,0:02:41.88,0:02:43.26,Default,S,0000,0000,0000,,I forgot my cell.
+Dialogue: 0,0:02:43.26,0:02:44.30,Default,Y,0000,0000,0000,,It's okay!
+Dialogue: 0,0:02:44.30,0:02:45.43,Default,Y,0000,0000,0000,,I have mine!
+Dialogue: 0,0:02:45.43,0:02:46.90,Default,T,0000,0000,0000,,I have mine, too.
+Dialogue: 0,0:02:46.90,0:02:49.64,Default,S,0000,0000,0000,,I'm not sure how that helps.
+Dialogue: 0,0:02:49.64,0:02:53.15,Default,Ai,0000,0000,0000,,If you get separated from the \Ngroup, just look for Takeo.
+Dialogue: 0,0:02:52.27,0:02:53.15,SFX-BlackWhite,Sign 0253,0000,0000,0000,,Yeah
+Dialogue: 0,0:02:53.15,0:02:54.44,Default,T,0000,0000,0000,,That works!
+Dialogue: 0,0:02:54.44,0:02:56.76,Default,S,0000,0000,0000,,You guys don't have to look \Nfor me, even if I get lost.
+Dialogue: 0,0:02:56.76,0:02:57.69,Default,T,0000,0000,0000,,Hey, Suna!
+Dialogue: 0,0:02:57.69,0:02:59.40,Default,T,0000,0000,0000,,Don't be a stranger!
+Dialogue: 0,0:02:59.64,0:03:02.24,Default - italics,MML,0000,0000,0000,,Hi, everyone! Welcome to MM Land!
+Dialogue: 0,0:03:03.28,0:03:05.16,Default,Oda,0000,0000,0000,,Give me your passports, everyone!
+Dialogue: 0,0:03:05.16,0:03:07.60,Default,Oda,0000,0000,0000,,I'll go get us speedpasses.
+Dialogue: 0,0:03:07.60,0:03:08.61,Default,T,0000,0000,0000,,I'll come, too!
+Dialogue: 0,0:03:08.61,0:03:10.37,Default,T,0000,0000,0000,,If you have help, it'll be easier.
+Dialogue: 0,0:03:10.37,0:03:10.88,Default,Oda,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:10.88,0:03:11.42,Default,Oda,0000,0000,0000,,It's fine—
+Dialogue: 0,0:03:13.88,0:03:15.67,Default,T,0000,0000,0000,,Where should I go?
+Dialogue: 0,0:03:13.91,0:03:15.67,SFX-BlackWhite,Sign 0315,0000,0000,0000,,{\an9}Oh, he's back
+Dialogue: 0,0:03:17.55,0:03:21.80,Default,Oda,0000,0000,0000,,You know, you're a really cool guy, \Nonce I got used to your sheer size.
+Dialogue: 0,0:03:21.17,0:03:21.80,SFX-BlackWhite,Sign 0322,0000,0000,0000,,{\an7}Yeah?
+Dialogue: 0,0:03:23.10,0:03:24.95,Default,Y,0000,0000,0000,,Wow, that looks super good on you, Takeo-kun!
+Dialogue: 0,0:03:23.55,0:03:27.06,SignB,Sign 0326,0000,0000,0000,,{\c&HFFFFFF&\an7}That looks like \Na claw-game claw \Non you.
+Dialogue: 0,0:03:24.95,0:03:27.06,Default - italics,T,0000,0000,0000,,You're super good, too, Yamato.
+Dialogue: 0,0:03:27.06,0:03:29.15,Default,Oda,0000,0000,0000,,You aren't going to try one on, Sunakawa-san?
+Dialogue: 0,0:03:29.15,0:03:30.34,Default,Ai,0000,0000,0000,,Those aren't for me.
+Dialogue: 0,0:03:30.34,0:03:33.80,Default,Oda,0000,0000,0000,,Aw, come on... We're trying to \Nforget the real world here.
+Dialogue: 0,0:03:33.80,0:03:35.69,Default,Ai,0000,0000,0000,,Who said?
+Dialogue: 0,0:03:35.69,0:03:37.94,Default,T,0000,0000,0000,,I think it'd look good on you, though.
+Dialogue: 0,0:03:41.38,0:03:42.02,Default,Ai,0000,0000,0000,,What?
+Dialogue: 0,0:03:42.02,0:03:43.95,Default,Oda,0000,0000,0000,,Nothing.
+Dialogue: 0,0:03:46.43,0:03:47.45,Default,Oda,0000,0000,0000,,Hey, guys,
+Dialogue: 0,0:03:47.45,0:03:50.08,Default,Oda,0000,0000,0000,,let's go on that ride that drops you straight down.
+Dialogue: 0,0:03:51.52,0:03:54.65,Default,Y,0000,0000,0000,,Wow! We're dropping straight down!
+Dialogue: 0,0:03:55.08,0:03:57.96,Default,Y,0000,0000,0000,,Wow! So fast!
+Dialogue: 0,0:04:00.12,0:04:01.17,Default - italics,T,0000,0000,0000,,This is fun.
+Dialogue: 0,0:04:01.88,0:04:06.43,Default - italics,T,0000,0000,0000,,I don't remember amusement \Nparks being this fun.
+Dialogue: 0,0:04:06.43,0:04:09.11,Default,Y,0000,0000,0000,,Takeo-kun, this is so much fun!
+Dialogue: 0,0:04:09.11,0:04:11.43,Default,Y,0000,0000,0000,,I'm laughing so much, my face hurts.
+Dialogue: 0,0:04:11.43,0:04:12.94,Default,T,0000,0000,0000,,Me, too!
+Dialogue: 0,0:04:12.94,0:04:15.19,SFX-BlackWhite,Sign 0414,0000,0000,0000,,{\an9}On Alert
+Dialogue: 0,0:04:15.19,0:04:16.40,Default,Y,0000,0000,0000,,Oh, it's MM!
+Dialogue: 0,0:04:16.40,0:04:18.70,Default,Y,0000,0000,0000,,Takeo-kun, let's take a picture together!
+Dialogue: 0,0:04:18.28,0:04:22.11,SignA,Sign 0420,0000,0000,0000,,{\fad(270,1)}Top 3 Jinxes at MM Land \N\N1: Breakup chance 100% if take photo with MM \N2: Breakup chance 100% if watch Sparkly Parade together \N3: Breakup chance 200% if go on date at MM Land
+Dialogue: 0,0:04:19.43,0:04:22.04,Default - italics,Y,0000,0000,0000,,The top three jinxes at MM Land!
+Dialogue: 0,0:04:22.04,0:04:26.28,Default,Y,0000,0000,0000,,W-Would it be a date if I'm \Njust hanging out with you?
+Dialogue: 0,0:04:22.11,0:04:26.28,SignA,Sign 0425,0000,0000,0000,,3: Breakup chance 200% if go on date at MM Land
+Dialogue: 0,0:04:26.28,0:04:28.24,Default,Oda,0000,0000,0000,,Then why not go on a ride with me?
+Dialogue: 0,0:04:28.24,0:04:30.00,Default,Ai,0000,0000,0000,,Why you?
+Dialogue: 0,0:04:30.00,0:04:31.95,Default,Ai,0000,0000,0000,,Yamato-san, come with me!
+Dialogue: 0,0:04:31.95,0:04:33.33,Default,Oda,0000,0000,0000,,Boo.
+Dialogue: 0,0:04:35.66,0:04:36.37,Default,S,0000,0000,0000,,Want to go on a ride?
+Dialogue: 0,0:04:36.37,0:04:37.58,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:44.27,0:04:47.27,Default,T,0000,0000,0000,,Suna, what's a jinx, anyway?
+Dialogue: 0,0:04:48.25,0:04:51.52,Default,S,0000,0000,0000,,It's more that it's the reality.
+Dialogue: 0,0:04:51.52,0:04:53.60,Default,T,0000,0000,0000,,Reality?
+Dialogue: 0,0:04:54.63,0:04:59.75,Default,S,0000,0000,0000,,Between couples who, after coming here, \Nstay together and those who'll break up...
+Dialogue: 0,0:04:59.75,0:05:02.72,Default,S,0000,0000,0000,,Naturally, there'll be more of the latter.
+Dialogue: 0,0:05:03.61,0:05:06.57,Default,S,0000,0000,0000,,I think it's more common for \Nrelationships to not work out.
+Dialogue: 0,0:05:08.38,0:05:09.74,Default - italics,T,0000,0000,0000,,Reality, huh?
+Dialogue: 0,0:05:10.54,0:05:14.12,Default - italics,T,0000,0000,0000,,Yeah, I can see that...
+Dialogue: 0,0:05:14.65,0:05:16.67,Default - italics,T,0000,0000,0000,,Ever since we started dating,
+Dialogue: 0,0:05:16.67,0:05:18.50,Default - italics,T,0000,0000,0000,,we've had so much fun.
+Dialogue: 0,0:05:18.50,0:05:23.76,Default - italics,T,0000,0000,0000,,I've probably just forgotten about \Nhow things usually go in reality.
+Dialogue: 0,0:05:26.84,0:05:29.45,Default,Y,0000,0000,0000,,I heard you a lot back there.
+Dialogue: 0,0:05:29.45,0:05:31.87,Default,T,0000,0000,0000,,I'm easily spooked by stuff that jumps out at you.
+Dialogue: 0,0:05:31.87,0:05:34.23,Default,Oda,0000,0000,0000,,I'm starving...
+Dialogue: 0,0:05:34.23,0:05:36.35,Default,Oda,0000,0000,0000,,Takeo-kun, let's go get something to eat.
+Dialogue: 0,0:05:37.28,0:05:39.11,Default,Oda,0000,0000,0000,,What? What?
+Dialogue: 0,0:05:39.11,0:05:41.76,Default,Oda,0000,0000,0000,,Do you have a problem with it, \Nif it's just Takeo-kun and me?
+Dialogue: 0,0:05:46.49,0:05:48.36,Default,Oda,0000,0000,0000,,Takeo-kun, how did you guys start dating?
+Dialogue: 0,0:05:48.88,0:05:50.94,Default,Oda,0000,0000,0000,,Who confessed their feelings first?
+Dialogue: 0,0:05:52.04,0:05:54.34,Default,T,0000,0000,0000,,I guess Yamato, in a way.
+Dialogue: 0,0:05:54.34,0:05:56.19,Default,Oda,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:05:56.19,0:05:57.24,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:57.24,0:06:02.44,Default,Oda,0000,0000,0000,,I'd like to let Sunakawa-san \Nconfess her feelings, too...
+Dialogue: 0,0:06:03.36,0:06:07.53,Default,Oda,0000,0000,0000,,I'd like to let the other guy know how \Nshe's been feeling all this time.
+Dialogue: 0,0:06:08.22,0:06:11.89,Default,Oda,0000,0000,0000,,Otherwise, how could Sunakawa-san \Nfind closure, right?
+Dialogue: 0,0:06:12.71,0:06:14.17,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:06:15.26,0:06:18.73,Default,T,0000,0000,0000,,But if she ended up together with the \Nother guy, what would you do?
+Dialogue: 0,0:06:19.46,0:06:21.85,Default - italics,T,0000,0000,0000,,You like her, right?
+Dialogue: 0,0:06:22.62,0:06:25.61,Default,Oda,0000,0000,0000,,If it works out okay, it'll be for the best.
+Dialogue: 0,0:06:26.41,0:06:28.48,Default,Oda,0000,0000,0000,,I'll just cry a little, that's all.
+Dialogue: 0,0:06:31.20,0:06:32.40,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:06:33.48,0:06:34.74,Default,Oda,0000,0000,0000,,Aren't those hot?
+Dialogue: 0,0:06:34.74,0:06:38.75,SFX-BlackWhite - Copy,,0000,0000,0000,,{\an7}Don't point!
+Dialogue: 0,0:06:34.74,0:06:38.75,SFX-BlueWhite - Copy,,0000,0000,0000,,Whoa!
+Dialogue: 0,0:06:35.17,0:06:36.88,Default,T,0000,0000,0000,,My hands have thick skin.
+Dialogue: 0,0:06:37.31,0:06:38.75,Default,Oda,0000,0000,0000,,Wow!
+Dialogue: 0,0:06:38.75,0:06:40.24,Default,,0000,0000,0000,,Hey!
+Dialogue: 0,0:06:40.50,0:06:41.66,Default,Ai,0000,0000,0000,,Was it crowded?
+Dialogue: 0,0:06:41.63,0:06:43.13,SFX-BlackWhite,Sign,0000,0000,0000,,Thankfully Takeo-kun was with me
+Dialogue: 0,0:06:41.66,0:06:43.13,Default,Oda,0000,0000,0000,,It sure was!
+Dialogue: 0,0:06:43.74,0:06:44.67,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:06:47.60,0:06:51.43,Default,Ai,0000,0000,0000,,You'd better not have said anything to Takeo!
+Dialogue: 0,0:06:52.36,0:06:54.14,Default,Oda,0000,0000,0000,,I gave up already.
+Dialogue: 0,0:06:55.06,0:06:57.05,Default,Oda,0000,0000,0000,,It's gotten to be a huge chore,
+Dialogue: 0,0:06:57.05,0:07:00.19,Default,Oda,0000,0000,0000,,so I decided to just have fun spending \Ntime with you, Sunakawa-san.
+Dialogue: 0,0:07:00.65,0:07:03.94,Default,Oda,0000,0000,0000,,After making some good memories, I'll go home.
+Dialogue: 0,0:07:03.94,0:07:05.15,Default,Ai,0000,0000,0000,,Oda...
+Dialogue: 0,0:07:05.70,0:07:07.53,Default,Oda,0000,0000,0000,,Sunakawa-san, you should have fun, too—
+Dialogue: 0,0:07:10.15,0:07:12.03,Default,Oda,0000,0000,0000,,I think there's a restroom over there.
+Dialogue: 0,0:07:12.03,0:07:13.96,Default,Y,0000,0000,0000,,I'll go and soak this towel with some water.
+Dialogue: 0,0:07:13.96,0:07:15.41,Default,Ai,0000,0000,0000,,Oh, it's fine.
+Dialogue: 0,0:07:15.41,0:07:16.79,Default,Ai,0000,0000,0000,,I'll just go myself.
+Dialogue: 0,0:07:18.37,0:07:19.46,Default - italics,Oda,0000,0000,0000,,Chance...
+Dialogue: 0,0:07:19.46,0:07:20.37,Default,Oda,0000,0000,0000,,Oh, hey!
+Dialogue: 0,0:07:20.37,0:07:21.62,Default,Oda,0000,0000,0000,,That looks good.
+Dialogue: 0,0:07:21.62,0:07:23.50,Default,Y,0000,0000,0000,,Oh, popcorn!
+Dialogue: 0,0:07:23.50,0:07:27.38,Default,Oda,0000,0000,0000,,Yamato-san, Sunakawa-kun, \Ncome with me to get some.
+Dialogue: 0,0:07:27.38,0:07:29.83,Default,Oda,0000,0000,0000,,Takeo-kun, don't move.
+Dialogue: 0,0:07:29.83,0:07:31.01,Default,Oda,0000,0000,0000,,You're the landmark.
+Dialogue: 0,0:07:31.01,0:07:31.88,Default,T,0000,0000,0000,,Right!
+Dialogue: 0,0:07:38.41,0:07:39.14,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:39.78,0:07:40.60,Default,Ai,0000,0000,0000,,Where is everyone?
+Dialogue: 0,0:07:39.88,0:07:43.02,SFX-BlackWhite,Sign 0740,0000,0000,0000,,{\an9}What's with your stance?
+Dialogue: 0,0:07:40.60,0:07:43.02,Default,T,0000,0000,0000,,They went to buy popcorn with Oda-san.
+Dialogue: 0,0:07:43.02,0:07:45.37,Default,Ai,0000,0000,0000,,Huh, popcorn...
+Dialogue: 0,0:07:46.65,0:07:49.71,Message Body - Default,Oda,0000,0000,0000,,The three of us are going to the Märchen Zone,
+Dialogue: 0,0:07:48.00,0:07:58.29,Phone,Signs 0748,0000,0000,0000,,{\an7}From: Oda \NTo: Sunakawa-san \NSubject: You're such a nice person
+Dialogue: 0,0:07:49.71,0:07:53.09,Message Body - Default,Oda,0000,0000,0000,,so you should tell him how you feel.
+Dialogue: 0,0:07:53.09,0:07:55.81,Message Body - Default,Oda,0000,0000,0000,,Also, I have Yamato-san's cell,
+Dialogue: 0,0:07:55.81,0:07:58.29,Message Body - Default,Oda,0000,0000,0000,,so don't bother trying to call her.
+Dialogue: 0,0:07:59.18,0:08:00.90,Default,Ai,0000,0000,0000,,Sorry, Takeo!
+Dialogue: 0,0:08:00.90,0:08:03.21,Default,Ai,0000,0000,0000,,We might have lost Yamato-san...
+Dialogue: 0,0:08:03.21,0:08:03.97,Default,T,0000,0000,0000,,What?
+Dialogue: 0,0:08:03.97,0:08:05.58,Default,Ai,0000,0000,0000,,She's somewhere in the Märchen Zone,
+Dialogue: 0,0:08:05.58,0:08:06.58,Default,Ai,0000,0000,0000,,so let's go look for her.
+Dialogue: 0,0:08:06.58,0:08:07.25,Default,T,0000,0000,0000,,Okay!
+Dialogue: 0,0:08:07.25,0:08:10.72,Default,Oda,0000,0000,0000,,That popcorn's in the Future Zone!
+Dialogue: 0,0:08:10.72,0:08:12.26,Default,Oda,0000,0000,0000,,This way.
+Dialogue: 0,0:08:12.26,0:08:14.39,Default,Cast,0000,0000,0000,,Thank you!
+Dialogue: 0,0:08:14.39,0:08:17.71,Default,Oda,0000,0000,0000,,The buildings in this area sure look interesting...
+Dialogue: 0,0:08:17.71,0:08:20.31,Default,Oda,0000,0000,0000,,Let's take a look around.
+Dialogue: 0,0:08:20.31,0:08:22.89,Default,Y,0000,0000,0000,,Oh, but we should get back.
+Dialogue: 0,0:08:22.89,0:08:26.56,Default,Oda,0000,0000,0000,,Oh, I told them to meet us in \Nthe Future Zone, so it's fine.
+Dialogue: 0,0:08:26.56,0:08:28.29,Default,Oda,0000,0000,0000,,They're on their way.
+Dialogue: 0,0:08:29.34,0:08:32.07,Default,Y,0000,0000,0000,,Um, thank you.
+Dialogue: 0,0:08:33.35,0:08:34.86,Default,Y,0000,0000,0000,,Thanks to you,
+Dialogue: 0,0:08:34.86,0:08:37.47,Default,Y,0000,0000,0000,,I was able to come to MM Land with Takeo-kun.
+Dialogue: 0,0:08:37.47,0:08:39.41,Default,Y,0000,0000,0000,,It's been so fun.
+Dialogue: 0,0:08:42.97,0:08:44.21,Default,Ai,0000,0000,0000,,Any luck over there?
+Dialogue: 0,0:08:44.21,0:08:45.34,Default,T,0000,0000,0000,,Nope.
+Dialogue: 0,0:08:46.24,0:08:47.18,Default,Ai,0000,0000,0000,,I'm sorry, Takeo.
+Dialogue: 0,0:08:47.18,0:08:48.04,Default,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:48.04,0:08:50.20,Default,Ai,0000,0000,0000,,Well, you know, Oda...
+Dialogue: 0,0:08:50.20,0:08:52.70,Default,Ai,0000,0000,0000,,You let him stay with you, and he's been a bother.
+Dialogue: 0,0:08:52.70,0:08:55.43,Default,T,0000,0000,0000,,Oh, that wasn't much.
+Dialogue: 0,0:08:55.43,0:08:57.80,Default,T,0000,0000,0000,,Oda-san's a nice guy.
+Dialogue: 0,0:08:59.63,0:09:02.56,Default,Ai,0000,0000,0000,,Well, he isn't a bad guy...
+Dialogue: 0,0:09:02.92,0:09:05.24,Default,T,0000,0000,0000,,Maybe we should try to call Yamato.
+Dialogue: 0,0:09:05.24,0:09:05.77,Default,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:06.15,0:09:07.20,Default,T,0000,0000,0000,,My phone's out of juice.
+Dialogue: 0,0:09:07.20,0:09:08.19,Default,Ai,0000,0000,0000,,Huh?!
+Dialogue: 0,0:09:09.23,0:09:14.74,Message Body - Default,Oda,0000,0000,0000,,Oh, and before going to sleep, I pulled \Nout Takeo-kun's phone charger.
+Dialogue: 0,0:09:14.99,0:09:17.87,SFX-BlackWhite,Sign,0000,0000,0000,,{\an7} What's wrong?
+Dialogue: 0,0:09:15.16,0:09:17.87,Default - italics,Ai,0000,0000,0000,,He's a horrible guy!
+Dialogue: 0,0:09:19.21,0:09:22.91,Message Body - Default,Ai,0000,0000,0000,,I'll never tell Takeo how I feel, even if we're alone!
+Dialogue: 0,0:09:22.91,0:09:24.18,Message Body - Default,Ai,0000,0000,0000,,Let's just all meet up.
+Dialogue: 0,0:09:26.70,0:09:29.03,Message Body - Default,Oda,0000,0000,0000,,Why not?
+Dialogue: 0,0:09:29.70,0:09:33.57,Message Body - Default,Oda,0000,0000,0000,,Takeo-kun's been treating you like a big sister
+Dialogue: 0,0:09:33.57,0:09:35.50,Message Body - Default,Oda,0000,0000,0000,,because he has no idea how you feel.
+Dialogue: 0,0:09:36.40,0:09:39.39,Message Body - Default,Oda,0000,0000,0000,,You don't know how he'll react once he knows.
+Dialogue: 0,0:09:39.95,0:09:41.65,Message Body - Default,Oda,0000,0000,0000,,Don't you want to know?
+Dialogue: 0,0:09:42.62,0:09:43.76,Default,T,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:09:45.39,0:09:48.82,Default - italics,Ai,0000,0000,0000,,Once... he knows...
+Dialogue: 0,0:09:51.52,0:09:53.02,EyecatchA,Sign,0000,0000,0000,,M Man
+Dialogue: 0,0:09:53.02,0:09:54.53,EyecatchB,Sign,0000,0000,0000,,{\c&H6B60BA&}M Child
+Dialogue: 0,0:09:55.82,0:09:57.19,Default,Y,0000,0000,0000,,Takeo-kun and Ai-san...
+Dialogue: 0,0:09:57.19,0:09:57.78,Default,Oda,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:57.78,0:09:59.82,Default,Y,0000,0000,0000,,Were you able to get in touch with them?
+Dialogue: 0,0:09:59.82,0:10:03.90,Default,Oda,0000,0000,0000,,Oh, I think they went to the \NResort Zone by mistake.
+Dialogue: 0,0:10:03.90,0:10:04.54,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:04.94,0:10:07.17,Default,S,0000,0000,0000,,That's on the other side of the park, right?
+Dialogue: 0,0:10:07.17,0:10:08.55,Default,Oda,0000,0000,0000,,Yeah, sorry!
+Dialogue: 0,0:10:08.55,0:10:11.80,Default,Oda,0000,0000,0000,,It's all because I said I wanted popcorn.
+Dialogue: 0,0:10:11.80,0:10:13.05,Default,Y,0000,0000,0000,,It's okay!
+Dialogue: 0,0:10:13.05,0:10:16.30,Default,Y,0000,0000,0000,,There's enough time before the Sparkly \NParade for us to get back together.
+Dialogue: 0,0:10:16.30,0:10:19.05,Default,Y,0000,0000,0000,,Resort Zone is that way, right?
+Dialogue: 0,0:10:24.18,0:10:26.47,Default,T,0000,0000,0000,,I don't see them in the Märchen Zone.
+Dialogue: 0,0:10:26.47,0:10:28.55,Default,Ai,0000,0000,0000,,You could tell in that split second?!
+Dialogue: 0,0:10:29.81,0:10:32.06,Message Body - Default,Oda,0000,0000,0000,,We're in the Future Zone now.
+Dialogue: 0,0:10:32.15,0:10:33.27,Message Body - Default,Ai,0000,0000,0000,,Future?!
+Dialogue: 0,0:10:33.27,0:10:38.53,SFX-BlackWhite,Sign 1034,0000,0000,0000,,{\fs22}Don't move!!
+Dialogue: 0,0:10:33.56,0:10:34.78,Message Body - Default,Ai,0000,0000,0000,,C'mon...
+Dialogue: 0,0:10:34.78,0:10:36.05,Message Body - Default,Oda,0000,0000,0000,,Just kidding...
+Dialogue: 0,0:10:36.05,0:10:38.53,Message Body - Default,Oda,0000,0000,0000,,We just went to the Resort Zone, actually.
+Dialogue: 0,0:10:44.64,0:10:47.29,Default - italics,T,0000,0000,0000,,What a crowd...
+Dialogue: 0,0:10:47.29,0:10:48.21,Default,Ai,0000,0000,0000,,Takeo!
+Dialogue: 0,0:10:48.21,0:10:49.79,Default,Ai,0000,0000,0000,,Hang on a second!
+Dialogue: 0,0:10:52.29,0:10:53.69,Default - italics,T,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:10:53.69,0:10:56.96,Default - italics,T,0000,0000,0000,,She must be tired from trying \Nto match my stride.
+Dialogue: 0,0:10:58.11,0:10:59.41,Default,Ai,0000,0000,0000,,Okay, I'm good.
+Dialogue: 0,0:10:59.41,0:11:00.16,Default,Ai,0000,0000,0000,,Let's go.
+Dialogue: 0,0:11:00.16,0:11:01.30,Default,T,0000,0000,0000,,Hey...
+Dialogue: 0,0:11:01.30,0:11:04.18,Default,T,0000,0000,0000,,Let's go after we take a relaxing ride.
+Dialogue: 0,0:11:04.18,0:11:05.22,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:05.22,0:11:07.19,Default,Ai,0000,0000,0000,,Oh, but we should find Yamato-san quickly!
+Dialogue: 0,0:11:07.19,0:11:09.23,Default,T,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:11:15.52,0:11:17.40,Default,Ai,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:11:17.40,0:11:18.24,Default,T,0000,0000,0000,,What?
+Dialogue: 0,0:11:18.24,0:11:19.56,Default,T,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:11:19.56,0:11:21.47,Default,Ai,0000,0000,0000,,Nothing's wrong...
+Dialogue: 0,0:11:21.47,0:11:23.05,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:11:23.05,0:11:25.28,Default - italics,T,0000,0000,0000,,It must be cramped because I'm so big.
+Dialogue: 0,0:11:25.28,0:11:28.23,Default - italics,T,0000,0000,0000,,But I can't make myself any smaller.
+Dialogue: 0,0:11:29.04,0:11:30.29,Default - italics,T,0000,0000,0000,,Sorry.
+Dialogue: 0,0:11:33.17,0:11:35.42,Default - italics,T,0000,0000,0000,,Centrifugal force!
+Dialogue: 0,0:11:35.42,0:11:36.93,Default - italics,T,0000,0000,0000,,She'll get crushed.
+Dialogue: 0,0:11:38.17,0:11:41.01,Default,T,0000,0000,0000,,That was less relaxing than I anticipated.
+Dialogue: 0,0:11:41.01,0:11:43.30,Default,Ai,0000,0000,0000,,Uh, yeah...
+Dialogue: 0,0:11:43.30,0:11:44.74,Default,T,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:11:44.74,0:11:46.15,Default,Ai,0000,0000,0000,,You're too close!
+Dialogue: 0,0:11:46.15,0:11:47.31,Default,T,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:11:48.70,0:11:51.01,Default,T,0000,0000,0000,,Hey, how about that one next?
+Dialogue: 0,0:11:51.01,0:11:51.73,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:52.13,0:11:54.38,Default,Ai,0000,0000,0000,,Oh, the 3D Dome?
+Dialogue: 0,0:11:54.38,0:11:55.98,Default,T,0000,0000,0000,,It looks relaxing.
+Dialogue: 0,0:11:55.98,0:11:57.03,Default,Ai,0000,0000,0000,,But...
+Dialogue: 0,0:11:57.03,0:11:58.71,Default,Ai,0000,0000,0000,,But what about Yamato-san?
+Dialogue: 0,0:11:58.71,0:12:00.08,Default,T,0000,0000,0000,,It's fine.
+Dialogue: 0,0:12:00.08,0:12:01.60,Default,T,0000,0000,0000,,It's been fun.
+Dialogue: 0,0:12:01.60,0:12:04.53,Default,T,0000,0000,0000,,I just have to find her again \Nbefore the Sparkly Parade.
+Dialogue: 0,0:12:04.53,0:12:05.49,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:07.07,0:12:08.37,Default,Ai,0000,0000,0000,,Really?
+Dialogue: 0,0:12:10.42,0:12:13.51,Default,Oda,0000,0000,0000,,I really wanted to go on this!
+Dialogue: 0,0:12:13.51,0:12:14.88,Default,Y,0000,0000,0000,,Oh!
+Dialogue: 0,0:12:14.88,0:12:16.95,Default,Oda,0000,0000,0000,,This is so fun!
+Dialogue: 0,0:12:18.87,0:12:20.05,Default,Oda,0000,0000,0000,,Sorry.
+Dialogue: 0,0:12:22.09,0:12:23.49,Default - italics,T,0000,0000,0000,,It'll run into me!
+Dialogue: 0,0:12:25.19,0:12:25.93,Default - italics,T,0000,0000,0000,,It's gonna hit her!
+Dialogue: 0,0:12:31.97,0:12:33.70,Default,Ai,0000,0000,0000,,Um, Takeo...
+Dialogue: 0,0:12:34.81,0:12:36.39,Default,Ai,0000,0000,0000,,This is just 3D.
+Dialogue: 0,0:12:36.39,0:12:37.06,Default,T,0000,0000,0000,,Right!
+Dialogue: 0,0:12:38.39,0:12:42.10,Default - italics,T,0000,0000,0000,,I might have embarrassed her.
+Dialogue: 0,0:12:43.80,0:12:46.98,Default - italics,T,0000,0000,0000,,I've always been like this.
+Dialogue: 0,0:12:46.98,0:12:48.15,Default - italics,T,0000,0000,0000,,Oops...
+Dialogue: 0,0:12:48.83,0:12:50.19,Default,Lost,0000,0000,0000,,Mommy!
+Dialogue: 0,0:12:50.19,0:12:53.26,Default,Lost,0000,0000,0000,,Where are you, Mommy?
+Dialogue: 0,0:12:54.87,0:12:56.35,Default,Lost,0000,0000,0000,,Mommy!
+Dialogue: 0,0:12:56.35,0:12:57.38,Default,LMom,0000,0000,0000,,Tarou!
+Dialogue: 0,0:12:57.38,0:12:59.12,Default,LMom,0000,0000,0000,,Thank god...
+Dialogue: 0,0:13:00.92,0:13:04.25,Default,Ai,0000,0000,0000,,You used to be the one getting lost all the time,
+Dialogue: 0,0:13:04.25,0:13:06.39,Default,Ai,0000,0000,0000,,and now you're the one saving them.
+Dialogue: 0,0:13:07.02,0:13:09.18,Default,Ai,0000,0000,0000,,You've grown, Takeo.
+Dialogue: 0,0:13:12.26,0:13:14.23,Default,Ai,0000,0000,0000,,Do you remember how...
+Dialogue: 0,0:13:14.71,0:13:16.36,Default,Ai,0000,0000,0000,,When you were in elementary school,
+Dialogue: 0,0:13:16.36,0:13:22.19,Default,Ai,0000,0000,0000,,you said I look like a flower from a flower shop?
+Dialogue: 0,0:13:22.19,0:13:23.18,Default - italics,T,0000,0000,0000,,Flower?
+Dialogue: 0,0:13:24.21,0:13:26.06,Default,T,0000,0000,0000,,I said something like that?
+Dialogue: 0,0:13:28.26,0:13:32.59,Default,Ai,0000,0000,0000,,Yeah... Right, you don't remember!
+Dialogue: 0,0:13:32.59,0:13:34.29,Default,Ai,0000,0000,0000,,Okay, let's go look for Yamato-san!
+Dialogue: 0,0:13:34.84,0:13:36.29,Default,Ai,0000,0000,0000,,I'm all rested up now.
+Dialogue: 0,0:13:36.29,0:13:40.17,Default,T,0000,0000,0000,,Okay, tell me if you get tired.
+Dialogue: 0,0:13:40.17,0:13:42.85,Default,T,0000,0000,0000,,Unless you tell me, I won't get it.
+Dialogue: 0,0:13:43.48,0:13:45.17,Default,Ai,0000,0000,0000,,I know.
+Dialogue: 0,0:13:46.50,0:13:47.87,Default - italics,T,0000,0000,0000,,A flower, huh?
+Dialogue: 0,0:13:50.13,0:13:54.04,Default,T,0000,0000,0000,,I don't remember what I said \Nback when I was a kid,
+Dialogue: 0,0:13:55.10,0:13:57.56,Default,T,0000,0000,0000,,but I think you look like that flower,
+Dialogue: 0,0:13:58.15,0:14:00.18,Default,T,0000,0000,0000,,the white one in the middle.
+Dialogue: 0,0:14:06.63,0:14:08.60,Default,Ai,0000,0000,0000,,That's the one!
+Dialogue: 0,0:14:08.60,0:14:11.20,Default,Ai,0000,0000,0000,,You haven't changed, Takeo...
+Dialogue: 0,0:14:12.73,0:14:15.47,Default - flashback,Oda,0000,0000,0000,,Takeo-kun's been treating you like a big sister
+Dialogue: 0,0:14:15.47,0:14:17.37,Default - flashback,Oda,0000,0000,0000,,because he has no idea how you feel.
+Dialogue: 0,0:14:18.46,0:14:21.20,Default - flashback,Oda,0000,0000,0000,,You don't know how he'll react once he knows.
+Dialogue: 0,0:14:22.39,0:14:24.06,Default - flashback,Oda,0000,0000,0000,,Don't you want to know?
+Dialogue: 0,0:14:25.07,0:14:26.28,Default,Ai,0000,0000,0000,,Takeo...
+Dialogue: 0,0:14:28.72,0:14:31.72,Phone,Sign 1430,0000,0000,0000,,No New Messages
+Dialogue: 0,0:14:29.26,0:14:31.72,Default,Oda,0000,0000,0000,,There's no response from Sunakawa-san...
+Dialogue: 0,0:14:31.72,0:14:32.61,Default,Y,0000,0000,0000,,Eh?
+Dialogue: 0,0:14:32.61,0:14:34.93,Default - italics,Oda,0000,0000,0000,,Did she really tell him?
+Dialogue: 0,0:14:35.47,0:14:36.97,Default,Oda,0000,0000,0000,,Let's split up and look for them!
+Dialogue: 0,0:14:36.97,0:14:38.41,Default,Oda,0000,0000,0000,,Yamato-san and Sunakawa-kun,
+Dialogue: 0,0:14:38.41,0:14:39.98,Default,Oda,0000,0000,0000,,can you go look in the Märchen Zone?
+Dialogue: 0,0:14:40.55,0:14:42.48,Default,Y,0000,0000,0000,,Oh, sure.
+Dialogue: 0,0:14:44.94,0:14:46.14,Default - flashback,Guys,0000,0000,0000,,This is crap.
+Dialogue: 0,0:14:46.14,0:14:48.24,Default - flashback,Guys,0000,0000,0000,,Like hell anyone would be hypnotized.
+Dialogue: 0,0:14:48.24,0:14:50.78,SFX-BrownWhite,Sign 1450,0000,0000,0000,,space cadet
+Dialogue: 0,0:14:48.58,0:14:49.95,Default - flashback,Guys,0000,0000,0000,,Wait, Ai-chan, are you under?
+Dialogue: 0,0:14:49.95,0:14:50.78,Default - flashback,Guys,0000,0000,0000,,No way!
+Dialogue: 0,0:14:51.62,0:14:56.91,Default - flashback,Guys,0000,0000,0000,,Do you see the person you have feelings for?
+Dialogue: 0,0:14:56.91,0:14:57.75,Default - flashback,Ai,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:57.75,0:15:00.92,Default - flashback,Guys,0000,0000,0000,,Say the person's name!
+Dialogue: 0,0:15:01.87,0:15:02.92,Default - flashback,Ai,0000,0000,0000,,Takeo.
+Dialogue: 0,0:15:03.91,0:15:04.49,Default - flashback,Guys,0000,0000,0000,,Takeo?
+Dialogue: 0,0:15:04.49,0:15:05.93,Default - flashback,Guys,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:15:05.93,0:15:07.26,Default - flashback,Ai,0000,0000,0000,,Gouda Takeo.
+Dialogue: 0,0:15:07.26,0:15:08.92,Default - flashback,Guys,0000,0000,0000,,Is he your boyfriend?!
+Dialogue: 0,0:15:09.37,0:15:10.79,Default - flashback,Ai,0000,0000,0000,,Not a boyfriend.
+Dialogue: 0,0:15:10.79,0:15:12.86,Default - flashback,Ai,0000,0000,0000,,He has a girlfriend called Yamato-san now—
+Dialogue: 0,0:15:12.86,0:15:14.76,Default - flashback,Oda,0000,0000,0000,,Okay, that's enough!
+Dialogue: 0,0:15:14.76,0:15:16.77,Default - flashback,Oda,0000,0000,0000,,You guys are going too far.
+Dialogue: 0,0:15:16.77,0:15:17.51,Default - flashback,Guys,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:17.51,0:15:18.74,Default - flashback,Guys,0000,0000,0000,,But we're just getting to the good part.
+Dialogue: 0,0:15:18.74,0:15:20.89,Default - flashback,Oda,0000,0000,0000,,Hey! Sunakawa-san!
+Dialogue: 0,0:15:21.63,0:15:23.40,Default - flashback,Ai,0000,0000,0000,,Takeo...
+Dialogue: 0,0:15:25.21,0:15:25.83,Default - flashback,Ai,0000,0000,0000,,What?
+Dialogue: 0,0:15:25.83,0:15:26.35,Default - flashback,Ai,0000,0000,0000,,I?
+Dialogue: 0,0:15:26.35,0:15:27.35,Default - flashback,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:27.35,0:15:28.56,Default - flashback,Ai,0000,0000,0000,,What the...
+Dialogue: 0,0:15:39.37,0:15:43.96,Default,Ai,0000,0000,0000,,Takeo, I... I—
+Dialogue: 0,0:15:43.96,0:15:47.46,Default - italics,MML,0000,0000,0000,,The Sparkly Parade will start in thirty minutes.
+Dialogue: 0,0:15:47.46,0:15:52.96,Default - italics,MML,0000,0000,0000,,Please follow park attendants' instructions regarding \Nparade route and observation spots.
+Dialogue: 0,0:15:56.26,0:15:58.39,Default,Ai,0000,0000,0000,,Takeo! The Parade!
+Dialogue: 0,0:15:58.39,0:15:59.81,Default,Ai,0000,0000,0000,,You have to watch it with Yamato-san!
+Dialogue: 0,0:15:59.81,0:16:00.44,Default,T,0000,0000,0000,,Right!
+Dialogue: 0,0:16:01.11,0:16:01.98,Default,T,0000,0000,0000,,Oh, but my cell...
+Dialogue: 0,0:16:01.98,0:16:03.60,Default,Ai,0000,0000,0000,,You have to go look for her yourself!
+Dialogue: 0,0:16:04.56,0:16:05.88,Default,T,0000,0000,0000,,Right.
+Dialogue: 0,0:16:05.88,0:16:07.31,Default,T,0000,0000,0000,,Thanks!
+Dialogue: 0,0:16:07.31,0:16:08.55,Default,T,0000,0000,0000,,I'll go look for her!
+Dialogue: 0,0:16:17.64,0:16:18.37,Default,Ai,0000,0000,0000,,Takeo...
+Dialogue: 0,0:16:27.01,0:16:29.25,Default,Ai,0000,0000,0000,,Don't cheat on her!
+Dialogue: 0,0:16:29.85,0:16:30.65,Default,Oda,0000,0000,0000,,Yeah!
+Dialogue: 0,0:16:36.57,0:16:38.44,Default,Oda,0000,0000,0000,,I found them.
+Dialogue: 0,0:16:38.44,0:16:40.39,Default,Oda,0000,0000,0000,,They're right in front of White Castle.
+Dialogue: 0,0:16:40.39,0:16:42.34,Default,Oda,0000,0000,0000,,Yep, I'll be here.
+Dialogue: 0,0:16:42.34,0:16:43.45,Default,Oda,0000,0000,0000,,See you soon.
+Dialogue: 0,0:16:46.89,0:16:48.40,Default,Oda,0000,0000,0000,,"Don't cheat on her"?
+Dialogue: 0,0:16:48.40,0:16:49.98,Default,Oda,0000,0000,0000,,What's with that?
+Dialogue: 0,0:16:50.66,0:16:52.22,Default,Oda,0000,0000,0000,,He totally sprinted off, too.
+Dialogue: 0,0:16:52.70,0:16:53.87,Default,Ai,0000,0000,0000,,Oda,
+Dialogue: 0,0:16:53.87,0:16:57.17,Default,Ai,0000,0000,0000,,I'll never tell Takeo, not for the rest of my life.
+Dialogue: 0,0:16:58.80,0:17:04.54,Default,Ai,0000,0000,0000,,I like how he laughs like an idiot, \Nand thinks of me as his sister.
+Dialogue: 0,0:17:07.29,0:17:10.30,Default,Y,0000,0000,0000,,Ai-san! Oda-san!
+Dialogue: 0,0:17:10.30,0:17:12.08,Default,Y,0000,0000,0000,,Where's Takeo-kun?
+Dialogue: 0,0:17:12.08,0:17:12.87,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:12.87,0:17:14.43,Default,Ai,0000,0000,0000,,He went to look for you.
+Dialogue: 0,0:17:14.43,0:17:15.09,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:15.09,0:17:16.60,Default,Ai,0000,0000,0000,,He ran off that way.
+Dialogue: 0,0:17:16.60,0:17:17.60,Default,Ai,0000,0000,0000,,Go after him!
+Dialogue: 0,0:17:17.60,0:17:19.19,Default,Y,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:17:19.19,0:17:21.83,Default,Y,0000,0000,0000,,Oh, but if I see the parade with just him,
+Dialogue: 0,0:17:21.83,0:17:22.56,Default,Y,0000,0000,0000,,there's that jinx...
+Dialogue: 0,0:17:22.56,0:17:24.69,Default,Ai,0000,0000,0000,,Forget about the jinx!
+Dialogue: 0,0:17:25.29,0:17:26.69,Default,Ai,0000,0000,0000,,Have faith in Takeo!
+Dialogue: 0,0:17:26.69,0:17:28.36,Default,Ai,0000,0000,0000,,It'll be fine!
+Dialogue: 0,0:17:29.58,0:17:32.08,Default,Y,0000,0000,0000,,You're right... Yeah.
+Dialogue: 0,0:17:32.58,0:17:35.31,Default,Y,0000,0000,0000,,I should just trust Takeo-kun.
+Dialogue: 0,0:17:35.86,0:17:40.12,Default,Y,0000,0000,0000,,I think you told me something similar \Nbefore to cheer me up, too.
+Dialogue: 0,0:17:40.99,0:17:43.38,Default,Y,0000,0000,0000,,Ugh, I'm so bad!
+Dialogue: 0,0:17:43.38,0:17:44.97,Default,Ai,0000,0000,0000,,It's fine, just go!
+Dialogue: 0,0:17:44.97,0:17:45.62,Default,Y,0000,0000,0000,,Oh!
+Dialogue: 0,0:17:45.62,0:17:46.57,Default,Ai,0000,0000,0000,,What?
+Dialogue: 0,0:17:46.57,0:17:47.67,Default,Ai,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:17:47.67,0:17:49.50,Default,Y,0000,0000,0000,,I wanted to give you this.
+Dialogue: 0,0:17:49.95,0:17:53.42,Default,Y,0000,0000,0000,,You helped me out a lot, so here's \Na coffee chiffon cake.
+Dialogue: 0,0:17:53.42,0:17:56.05,Default,Y,0000,0000,0000,,I'll go find Takeo-kun, then!
+Dialogue: 0,0:17:56.56,0:17:58.43,Default,Oda,0000,0000,0000,,Wow, she's amazing.
+Dialogue: 0,0:17:58.43,0:18:00.34,Default,Oda,0000,0000,0000,,She bakes cakes, too.
+Dialogue: 0,0:18:00.34,0:18:01.89,Default,Ai,0000,0000,0000,,She does...
+Dialogue: 0,0:18:04.20,0:18:05.64,Default,Ai,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:18:07.27,0:18:09.20,Default,Oda,0000,0000,0000,,Oh, I understand.
+Dialogue: 0,0:18:09.20,0:18:11.19,Default,Oda,0000,0000,0000,,It's made with you in mind.
+Dialogue: 0,0:18:11.97,0:18:14.72,Default,Oda,0000,0000,0000,,It's coffee flavored, so it's slightly bitter,
+Dialogue: 0,0:18:14.72,0:18:17.32,Default,Oda,0000,0000,0000,,but its sweetness gives it a gentle taste.
+Dialogue: 0,0:18:19.32,0:18:22.02,Default,Ai,0000,0000,0000,,This cake...
+Dialogue: 0,0:18:22.02,0:18:25.95,Default,Ai,0000,0000,0000,,Being told I look like a beautiful flower twice.
+Dialogue: 0,0:18:26.68,0:18:28.96,Default,Ai,0000,0000,0000,,I think that's all I need.
+Dialogue: 0,0:18:30.88,0:18:33.71,Default,Ai,0000,0000,0000,,I wonder if they'll find each other...
+Dialogue: 0,0:18:33.71,0:18:38.97,SignC,Sign 1837,0000,0000,0000,,I'm missing my hat!! \NYou're already wearing it!
+Dialogue: 0,0:18:33.71,0:18:38.97,SignD,Sign 1837,0000,0000,0000,,I'm missing a sock!!  \NYou have both on the same foot!
+Dialogue: 0,0:18:34.45,0:18:37.62,Default,Ai,0000,0000,0000,,Takeo's always sucked at finding things.
+Dialogue: 0,0:18:37.62,0:18:38.97,Default,Oda,0000,0000,0000,,I'm sure it'll work out.
+Dialogue: 0,0:18:40.02,0:18:42.01,Default,Oda,0000,0000,0000,,The really important things
+Dialogue: 0,0:18:42.91,0:18:46.29,Default,Oda,0000,0000,0000,,will be found over and over again, for some reason.
+Dialogue: 0,0:18:47.38,0:18:50.69,Default,Oda,0000,0000,0000,,Takeo-kun's not the only one searching.
+Dialogue: 0,0:18:51.95,0:18:52.90,Default - italics,T,0000,0000,0000,,People...
+Dialogue: 0,0:18:53.22,0:18:54.12,Default - italics,T,0000,0000,0000,,People...
+Dialogue: 0,0:18:54.57,0:18:55.45,Default - italics,T,0000,0000,0000,,People...
+Dialogue: 0,0:18:56.10,0:18:57.48,Default - italics,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:18:58.07,0:18:59.18,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:18:59.82,0:19:00.74,Default - italics,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:19:16.67,0:19:19.37,Default,Y,0000,0000,0000,,I found you because you're so huge.
+Dialogue: 0,0:19:19.37,0:19:22.34,Default,T,0000,0000,0000,,I see. Then I'm glad I'm huge.
+Dialogue: 0,0:19:22.34,0:19:26.35,Default,Y,0000,0000,0000,,But I knew I'd see you, anyway.
+Dialogue: 0,0:19:26.35,0:19:29.14,Default,T,0000,0000,0000,,We can, as long as we think we can!
+Dialogue: 0,0:19:29.14,0:19:30.39,Default,Y,0000,0000,0000,,Yeah!
+Dialogue: 0,0:19:34.36,0:19:38.80,Default,Y,0000,0000,0000,,I wanted to find you,
+Dialogue: 0,0:19:38.80,0:19:42.32,Default,Y,0000,0000,0000,,because I wanted to watch the parade together.
+Dialogue: 0,0:19:42.72,0:19:44.66,Default,T,0000,0000,0000,,Right.
+Dialogue: 0,0:19:45.97,0:19:48.01,Default,T,0000,0000,0000,,It's okay for us to watch it together, \Njust the two of us?
+Dialogue: 0,0:19:48.01,0:19:50.12,Default,Y,0000,0000,0000,,Yeah, I'm not going to worry about it anymore.
+Dialogue: 0,0:19:50.90,0:19:51.95,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:19:53.24,0:19:54.96,Default,Y,0000,0000,0000,,So pretty...
+Dialogue: 0,0:19:55.84,0:19:58.34,Default,Y,0000,0000,0000,,I guess being able to date you,
+Dialogue: 0,0:19:58.34,0:20:01.42,Default,Y,0000,0000,0000,,with all these people around us,
+Dialogue: 0,0:20:02.14,0:20:05.95,Default,Y,0000,0000,0000,,is kind of like a miracle...
+Dialogue: 0,0:20:08.58,0:20:14.69,Default,Y,0000,0000,0000,,I think I'll hold on to this feeling \Nand try not to forget it.
+Dialogue: 0,0:20:15.89,0:20:17.32,Default - italics,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:18.69,0:20:20.60,Default - italics,T,0000,0000,0000,,You're right.
+Dialogue: 0,0:20:22.03,0:20:24.71,Default,Boy,0000,0000,0000,,Daddy, I can't see the sparkles!
+Dialogue: 0,0:20:24.71,0:20:25.41,Default,Dad,0000,0000,0000,,All right!
+Dialogue: 0,0:20:25.41,0:20:25.41,Default,Dad,0000,0000,0000,,I'll put you on my shoulders!
+Dialogue: 0,0:20:25.41,0:20:27.41,Default,T,0000,0000,0000,,Oops, I should hunch down.
+Dialogue: 0,0:20:27.94,0:20:29.66,Default,T,0000,0000,0000,,I'm tall.
+Dialogue: 0,0:20:39.63,0:20:42.26,Default,S,0000,0000,0000,,Sorry I keep ruining the moment.
+Dialogue: 0,0:20:42.26,0:20:44.47,Default,S,0000,0000,0000,,I'll be watching the parade, so don't mind me.
+Dialogue: 0,0:20:44.47,0:20:45.30,Default,S,0000,0000,0000,,Carry on.
+Dialogue: 0,0:20:45.30,0:20:45.88,Default,Oda,0000,0000,0000,,Crap!
+Dialogue: 0,0:20:45.88,0:20:47.64,Default,Oda,0000,0000,0000,,The redeye bus is all sold out!
+Dialogue: 0,0:20:48.39,0:20:49.31,SFX-RedBlack,Sign 2049,0000,0000,0000,,{\c&HF8FBF8&}Not again                                                                Is it okay?
+Dialogue: 0,0:20:50.71,0:20:53.81,Default,Oda,0000,0000,0000,,I decided I won't wait anymore.
+Dialogue: 0,0:20:53.81,0:20:54.84,Default,Oda,0000,0000,0000,,I'll get the girl!
+Dialogue: 0,0:20:54.84,0:20:56.15,Default,T,0000,0000,0000,,Good luck—
+Dialogue: 0,0:20:56.15,0:20:58.61,Default,Oda,0000,0000,0000,,Aw, let's stay up and talk.
+Dialogue: 0,0:20:58.61,0:21:01.40,Default,Oda,0000,0000,0000,,Tell me more about Sunakawa-san \Nwhen she was younger.
+Dialogue: 0,0:21:02.56,0:21:04.32,Default,T,0000,0000,0000,,When she was in middle school...
+Dialogue: 0,0:21:04.32,0:21:07.61,Default,T,0000,0000,0000,,When I went to Suna's place to play...
+Dialogue: 0,0:21:07.61,0:21:09.08,Default,Oda,0000,0000,0000,,"I went to play,
+Dialogue: 0,0:21:09.08,0:21:11.14,Default,Oda,0000,0000,0000,,and she came out in her jammies.
+Dialogue: 0,0:21:11.14,0:21:13.38,Default,Oda,0000,0000,0000,,She didn't seem to mind at all,
+Dialogue: 0,0:21:13.38,0:21:14.93,Default,Oda,0000,0000,0000,,but I got a bit nervous."
+Dialogue: 0,0:21:15.67,0:21:17.88,Default,Oda,0000,0000,0000,,That's what Takeo-kun said.
+Dialogue: 0,0:21:18.44,0:21:21.03,Default,Ai,0000,0000,0000,,Huh? Takeo? Because of me?
+Dialogue: 0,0:21:21.03,0:21:21.88,Default,Oda,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:22.73,0:21:25.01,Default,Ai,0000,0000,0000,,Nervous?
+Dialogue: 0,0:21:26.26,0:21:27.68,Default - italics,Oda,0000,0000,0000,,Crap!
+Dialogue: 0,0:21:27.68,0:21:30.40,Default - italics,Oda,0000,0000,0000,,Damn that Gouda Takeo...
+Dialogue: 0,0:21:30.40,0:21:31.58,Default - italics,Oda,0000,0000,0000,,Crap!
+Dialogue: 0,0:21:31.58,0:21:35.98,Default - italics,Oda,0000,0000,0000,,Making Sunakawa-san look so cute!
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign 2248,0000,0000,0000,,My Girlfriend
+Dialogue: 0,0:22:46.65,0:22:49.19,Default - margin,T,0000,0000,0000,,Next time: My Girlfriend.

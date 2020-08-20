@@ -1,0 +1,537 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Episode Title,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H0064594A,&H0064594A,1,0,0,0,100,100,0,0,1,3,0,8,400,27,133,1
+Style: Next Episode,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,80,27,40,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: End Sign,Open Sans Semibold,45,&H0076F0FF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,293,1
+Style: Preview Sign,Open Sans Semibold,36,&H004576AE,&H000000FF,&H0000006E,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,80,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00643200,&H00643200,0,0,0,0,100,100,0,0,1,2,1,2,27,27,24,0
+Style: Next Day Sign,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,27,227,1
+Style: Banner Sign,Open Sans Semibold,42,&H006B6986,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Grey Signs,Open Sans Semibold,27,&H00CDCDCD,&H000000FF,&H00A6A6A6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Diner Sign,Open Sans Semibold,45,&H001C3D76,&H000000FF,&H00B2ECFC,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,160,24,1
+Style: Diner Sign 2,Open Sans Semibold,36,&H0021404C,&H000000FF,&H00DDFAFC,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,67,1
+Style: Pop-A-Spheres Sign,Open Sans Semibold,30,&H003CDB6F,&H000000FF,&H004D544E,&H00000000,1,0,0,0,100,100,0,-18,1,2,0,8,27,213,24,1
+Style: Soma Sign,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,27,24,1
+Style: Charm Sign,Open Sans Semibold,30,&H00418EB8,&H000000FF,&H0026299D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,280,1
+Style: Door Sign,Open Sans Semibold,30,&H00000000,&H000000FF,&H005C5765,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,240,27,24,1
+Style: End Title,Open Sans Semibold,54,&H00251FD7,&H000000FF,&H00FFFFFF,&H00676777,1,0,0,0,110,100,0,0,1,2,3,8,13,160,53,1
+Style: End Title 2,Open Sans Semibold,27,&H004B8BB7,&H000000FF,&H00FFFFFF,&H003C2F8D,1,0,0,0,100,100,0,0,1,2,2,8,13,160,169,1
+Style: sign_4386_67_Judges,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,565,181,336,1
+Style: sign_4419_68_Academy_Director,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,91,499,240,1
+Style: sign_7288_108_Fall_Elections__,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,36,480,27,1
+Style: sign_7500_114_Standby_Room,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,280,299,324,1
+Style: sign_11833_177_Pumpkin,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,16,709,391,1
+Style: sign_12172_187_Beef_Fillet,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,700,9,348,1
+Style: sign_12811_197_Pigment,Open Sans Semibold,27,&H00CDCDCD,&H000000FF,&H00A6A6A6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,547,200,128,1
+Style: sign_12829_198_Fiber,Open Sans Semibold,27,&H00CDCDCD,&H000000FF,&H00A6A6A6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,524,263,260,1
+Style: sign_12862_199_Jus,Open Sans Semibold,27,&H00CDCDCD,&H000000FF,&H00A6A6A6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,221,584,169,1
+Style: sign_16485_256_Sides,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,483,291,156,1
+Style: sign_16485_257_Rice,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,491,299,227,1
+Style: sign_16485_258_Soup,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,485,293,300,1
+Style: sign_34348_487_Soma,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,611,144,216,1
+Style: Main Title 1,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Main Title 2,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: In Progress Sign,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,27,20,1
+Style: Location Signs,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,333,1
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: next_ep_title,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,67,60,107,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.98,0:00:02.48,Main Title 1,Sign,0000,0000,0000,,Second Dish
+Dialogue: 0,0:00:00.98,0:00:02.48,Main Title 2,Sign,0000,0000,0000,,Episode 1
+Dialogue: 0,0:00:03.58,0:00:06.44,Italics Dialogue,N,0000,0000,0000,,Totsuki Tea House Culinary Academy:
+Dialogue: 0,0:00:06.95,0:00:11.90,Italics Dialogue,N,0000,0000,0000,,a culinary bastion that continues \Nto produce world-renowned chefs.
+Dialogue: 0,0:00:12.40,0:00:14.86,In Progress Sign,Sign 0014,0000,0000,0000,,Cooking in Progress
+Dialogue: 0,0:00:13.14,0:00:18.33,Italics Dialogue,N,0000,0000,0000,,Their high school first-years are \Ncontestants in the Autumn Elections,
+Dialogue: 0,0:00:18.33,0:00:20.25,Italics Dialogue,N,0000,0000,0000,,which is now coming to a head.
+Dialogue: 0,0:00:20.77,0:00:23.06,Italics Dialogue,N,0000,0000,0000,,Those who have survived the preliminary round
+Dialogue: 0,0:00:23.06,0:00:26.42,Italics Dialogue,N,0000,0000,0000,,are now preparing for the next battle.
+Dialogue: 0,0:00:28.98,0:00:30.17,Location Signs,Sign 0029,0000,0000,0000,,Polar Star Dormitory
+Dialogue: 0,0:00:30.60,0:00:31.21,Main Dialogue,Megumi,0000,0000,0000,,All right!
+Dialogue: 0,0:00:33.27,0:00:36.30,Main Dialogue,Megumi,0000,0000,0000,,Did I pack the petty knife?
+Dialogue: 0,0:00:37.26,0:00:38.26,Main Dialogue,Megumi,0000,0000,0000,,There it is...
+Dialogue: 0,0:00:39.01,0:00:42.52,Main Dialogue,Megumi,0000,0000,0000,,Did I pack the timer?!
+Dialogue: 0,0:00:42.52,0:00:45.13,Main Dialogue,Ryoko,0000,0000,0000,,There will only be an explanation \Nabout the main tournament today.
+Dialogue: 0,0:00:45.13,0:00:46.85,Main Dialogue,Yuki,0000,0000,0000,,Do you really need your tools?
+Dialogue: 0,0:00:47.14,0:00:48.94,Main Dialogue,Megumi,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:00:48.94,0:00:51.53,Main Dialogue,Ryoko,0000,0000,0000,,Yeesh. You never change.
+Dialogue: 0,0:00:51.53,0:00:53.32,Main Dialogue,S,0000,0000,0000,,Hey, Tadokoro.
+Dialogue: 0,0:00:53.32,0:00:55.29,Main Dialogue,S,0000,0000,0000,,Our ride's here.
+Dialogue: 0,0:00:56.18,0:00:57.16,Main Dialogue,S,0000,0000,0000,,Let's go!
+Dialogue: 0,0:00:58.66,0:01:02.64,Italics Dialogue,N,0000,0000,0000,,The eight elites, none of whom \Nlack individuality and expertise,
+Dialogue: 0,0:01:02.64,0:01:07.58,Italics Dialogue,N,0000,0000,0000,,will wear themselves to the bone \Nto ascend to the top!
+Dialogue: 0,0:01:08.07,0:01:10.32,Italics Dialogue,N,0000,0000,0000,,The Autumn Elections' \Nmain tournament will now begin!
+Dialogue: 0,0:01:22.99,0:01:26.35,Episode Title,Sign 0124,0000,0000,0000,,{\fad(500,500)}What Fills the Box
+Dialogue: 0,0:01:23.85,0:01:26.35,Main Dialogue,I,0000,0000,0000,,Soma-kun, about the lottery results...
+Dialogue: 0,0:01:26.70,0:01:29.60,Main Dialogue,I,0000,0000,0000,,You'll be competing in the very first round.
+Dialogue: 0,0:01:29.60,0:01:31.58,Main Dialogue,I,0000,0000,0000,,The theme for the round is bento.
+Dialogue: 0,0:01:31.58,0:01:32.78,Main Dialogue,S,0000,0000,0000,,Bento?
+Dialogue: 0,0:01:33.10,0:01:34.28,Main Dialogue,S,0000,0000,0000,,You mean that bento?
+Dialogue: 0,0:01:34.54,0:01:35.85,Main Dialogue,I,0000,0000,0000,,That's right.
+Dialogue: 0,0:01:35.85,0:01:39.57,Main Dialogue,I,0000,0000,0000,,Finish all the necessary preparations today \Nfor the match tomorrow.
+Dialogue: 0,0:01:39.57,0:01:44.53,Main Dialogue,S,0000,0000,0000,,Bento, huh... this academy's more \Ndown-to-earth than I thought.
+Dialogue: 0,0:01:44.53,0:01:45.17,Main Dialogue,E,0000,0000,0000,,Ha.
+Dialogue: 0,0:01:45.65,0:01:47.25,Main Dialogue,E,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:01:47.25,0:01:49.12,Main Dialogue,E,0000,0000,0000,,You're ignorant to the extreme.
+Dialogue: 0,0:01:49.12,0:01:52.43,Main Dialogue,E,0000,0000,0000,,Bento is a food culture unique to Japan.
+Dialogue: 0,0:01:52.43,0:01:58.09,Main Dialogue,E,0000,0000,0000,,Gourmands have long loved bentos \Ncreated from high-end seasonal ingredients.
+Dialogue: 0,0:01:58.09,0:02:00.73,Main Dialogue,E,0000,0000,0000,,Even prominent chefs overseas \Nare familiar with bentos,
+Dialogue: 0,0:02:00.73,0:02:03.22,Main Dialogue,E,0000,0000,0000,,and the word has even been added \Nto a French dictionary.
+Dialogue: 0,0:02:03.51,0:02:06.23,Main Dialogue,E,0000,0000,0000,,It is a theme that is justifiably \Nappropriate for a celebration of food.
+Dialogue: 0,0:02:06.51,0:02:10.73,Main Dialogue,E,0000,0000,0000,,It's an entirely different beast from the \NB-grade "gourmet" food you're an expert in!
+Dialogue: 0,0:02:12.08,0:02:14.53,Main Dialogue,S,0000,0000,0000,,I've gotta say, I'm still not a fan \Nof that side of your personality.
+Dialogue: 0,0:02:14.98,0:02:20.13,Main Dialogue,S,0000,0000,0000,,I'm pretty good at talking with people,\N but man, Nakiri, you're something else.
+Dialogue: 0,0:02:20.13,0:02:20.87,Main Dialogue,E,0000,0000,0000,,What?!
+Dialogue: 0,0:02:21.12,0:02:24.45,Main Dialogue,S,0000,0000,0000,,Things were pretty tense between us \Non our way back from camp, too!
+Dialogue: 0,0:02:24.45,0:02:25.53,Main Dialogue,E,0000,0000,0000,,What's your point?!
+Dialogue: 0,0:02:25.53,0:02:27.49,Main Dialogue,E,0000,0000,0000,,I have no idea what you're getting at!
+Dialogue: 0,0:02:27.49,0:02:30.00,Main Dialogue,E,0000,0000,0000,,You're irritating me!
+Dialogue: 0,0:02:28.60,0:02:30.93,Main Dialogue,I,0000,0000,0000,,Oh, this is odd.
+Dialogue: 0,0:02:30.93,0:02:32.89,Main Dialogue,I,0000,0000,0000,,She don't usually raise her voice.
+Dialogue: 0,0:02:32.89,0:02:35.55,Main Dialogue,Ei,0000,0000,0000,,Ah, I have a visitor regarding \Nan unrelated topic.
+Dialogue: 0,0:02:35.85,0:02:37.34,Main Dialogue,Ei,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:02:39.01,0:02:40.34,Main Dialogue,Ei,0000,0000,0000,,Yukihira Soma.
+Dialogue: 0,0:02:41.01,0:02:45.01,Main Dialogue,Ei,0000,0000,0000,,Try your best to make it through the rounds.
+Dialogue: 0,0:02:45.45,0:02:48.71,Main Dialogue,Ei,0000,0000,0000,,It'd be quite a downer if you were \Nto fail in the very first round.
+Dialogue: 0,0:02:50.89,0:02:54.65,Main Dialogue,S,0000,0000,0000,,So, who am I going up against?
+Dialogue: 0,0:02:54.73,0:02:57.61,Banner Sign,Sign 0256,0000,0000,0000,,The 43rd Autumn Elections
+Dialogue: 0,0:02:54.92,0:02:57.61,Next Day Sign,Sign 0256,0000,0000,0000,,The Following Day\N Getten Hall
+Dialogue: 0,0:02:55.76,0:02:58.10,Main Dialogue,Rei,0000,0000,0000,,Thank you for your patience!
+Dialogue: 0,0:02:58.10,0:03:00.11,Main Dialogue,Rei,0000,0000,0000,,The main tournament of the\N Autumn Elections is finally here!
+Dialogue: 0,0:03:00.11,0:03:05.62,Main Dialogue Top,Rei,0000,0000,0000,,We will begin with the \Nfirst match in round one!
+Dialogue: 0,0:03:02.91,0:03:04.28,sign_4386_67_Judges,Sign 0304,0000,0000,0000,,Judges
+Dialogue: 0,0:03:04.28,0:03:05.62,sign_4419_68_Academy_Director,Sign 0305,0000,0000,0000,,Academy Director \N{\fs26}Nakiri Senzaemon
+Dialogue: 0,0:03:05.97,0:03:08.58,Main Dialogue,Rei,0000,0000,0000,,Our first contestant is \NCandidate Yukihira Soma,
+Dialogue: 0,0:03:08.58,0:03:11.42,Main Dialogue,Rei,0000,0000,0000,,who was tied for second place \Nin Block A preliminaries.
+Dialogue: 0,0:03:11.42,0:03:12.67,Main Dialogue,Ikumi,0000,0000,0000,,All right!
+Dialogue: 0,0:03:12.67,0:03:14.25,Main Dialogue,Yuki,0000,0000,0000,,Good luck, Yukihira!
+Dialogue: 0,0:03:14.64,0:03:16.99,Main Dialogue,Rei,0000,0000,0000,,And his opponent is Candidate Nakiri Alice,
+Dialogue: 0,0:03:16.99,0:03:22.38,Main Dialogue,Rei,0000,0000,0000,,who was the undisputed winner \Nof the Block B preliminaries!
+Dialogue: 0,0:03:25.41,0:03:26.76,Main Dialogue,Takumi,0000,0000,0000,,Nakiri Alice.
+Dialogue: 0,0:03:27.00,0:03:30.79,Italics Dialogue,Takumi,0000,0000,0000,,Granddaughter to the Academy Director,\N Nakiri Senzaemon,
+Dialogue: 0,0:03:30.79,0:03:33.69,Italics Dialogue,Takumi,0000,0000,0000,,and the grand champion of a countless \Ninternational competitions.
+Dialogue: 0,0:03:34.10,0:03:37.15,Italics Dialogue,Takumi,0000,0000,0000,,A prodigy, she is called \Nthe darling of molecular gastronomy.
+Dialogue: 0,0:03:37.66,0:03:40.77,Italics Dialogue,Takumi,0000,0000,0000,,Her curry dish, which received the \Nhighest score in the preliminaries,
+Dialogue: 0,0:03:40.77,0:03:44.86,Italics Dialogue,Takumi,0000,0000,0000,,made use of cutting edge techniques,\N and had great impact.
+Dialogue: 0,0:03:45.54,0:03:47.88,Italics Dialogue,Takumi,0000,0000,0000,,How will you counter that, Yukihira?
+Dialogue: 0,0:03:47.88,0:03:53.62,Main Dialogue,Alice,0000,0000,0000,,Yukihira-kun, today, I'll make \Nyour knees buckle with my cooking.
+Dialogue: 0,0:03:53.62,0:03:54.69,Main Dialogue,Students,0000,0000,0000,,Wow!
+Dialogue: 0,0:03:54.69,0:03:56.98,Main Dialogue,Students,0000,0000,0000,,It's the newest in cooking equipment!
+Dialogue: 0,0:03:56.98,0:03:58.37,Main Dialogue,Marui,0000,0000,0000,,Even sitting in the audience,
+Dialogue: 0,0:03:58.37,0:04:01.08,Main Dialogue,Marui,0000,0000,0000,,I can feel the tingling tension on my skin.
+Dialogue: 0,0:04:01.08,0:04:04.03,Main Dialogue,Marui,0000,0000,0000,,I can't believe he has to face\N one of the Nakiris in this atmosphere.
+Dialogue: 0,0:04:04.03,0:04:09.10,Main Dialogue,Ibu,0000,0000,0000,,Yeah, I wonder how much pressure \NYukihira's in right now.
+Dialogue: 0,0:04:09.10,0:04:11.54,Main Dialogue,Alice,0000,0000,0000,,I deeply regret
+Dialogue: 0,0:04:11.54,0:04:16.35,Main Dialogue,Alice,0000,0000,0000,,that I'll only be able to see \Nyour cooking once on this great stage.
+Dialogue: 0,0:04:16.35,0:04:20.33,Main Dialogue,S,0000,0000,0000,,If you lose, you can keep watching \Nmy cooking from the audience.
+Dialogue: 0,0:04:20.33,0:04:22.15,Main Dialogue,Alice,0000,0000,0000,,Oh, I doubt that could ever happen.
+Dialogue: 0,0:04:22.66,0:04:26.74,Main Dialogue,Alice,0000,0000,0000,,Antiquated ideas and workmanship \Nthat rely on circus theatrics
+Dialogue: 0,0:04:26.74,0:04:29.12,Main Dialogue,Alice,0000,0000,0000,,are not sufficient to overcome \Nthe limits of culinary knowledge.
+Dialogue: 0,0:04:31.07,0:04:34.00,Main Dialogue,Alice,0000,0000,0000,,Oh, you didn't get a good night's rest?
+Dialogue: 0,0:04:34.00,0:04:37.33,Main Dialogue,S,0000,0000,0000,,Oh, I was up pretty late testing my dish.
+Dialogue: 0,0:04:37.33,0:04:39.09,Main Dialogue,S,0000,0000,0000,,It was dawn before I realized the time.
+Dialogue: 0,0:04:39.50,0:04:41.57,Main Dialogue,S,0000,0000,0000,,But don't worry,
+Dialogue: 0,0:04:41.57,0:04:44.51,Main Dialogue,S,0000,0000,0000,,this is just a normal day for me.
+Dialogue: 0,0:04:44.88,0:04:46.75,Main Dialogue,S,0000,0000,0000,,Foodie customers with high expectations,
+Dialogue: 0,0:04:46.75,0:04:48.22,Main Dialogue,S,0000,0000,0000,,shining knives honed to a razor edge,
+Dialogue: 0,0:04:48.55,0:04:49.93,Main Dialogue,S,0000,0000,0000,,and an array of ingredients...
+Dialogue: 0,0:04:50.23,0:04:51.45,Main Dialogue,S,0000,0000,0000,,The only thing that's different
+Dialogue: 0,0:04:51.45,0:04:54.31,Main Dialogue,S,0000,0000,0000,,is that I have a formidable \Nbusiness rival in front of me.
+Dialogue: 0,0:04:54.98,0:04:55.77,Main Dialogue,S,0000,0000,0000,,I'll gain a lot today
+Dialogue: 0,0:04:56.10,0:04:58.48,Main Dialogue,S,0000,0000,0000,,from winning against you.
+Dialogue: 0,0:04:58.48,0:05:00.40,Main Dialogue,S,0000,0000,0000,,I'll use all that I'll gain \Nto grow even stronger!
+Dialogue: 0,0:05:02.93,0:05:04.55,Main Dialogue,Rei,0000,0000,0000,,On to the first match!
+Dialogue: 0,0:05:03.94,0:05:05.47,sign_7288_108_Fall_Elections__,Sign 0505,0000,0000,0000,,Autumn Elections \N {\fs32}Main Tournament
+Dialogue: 0,0:05:04.55,0:05:06.20,Main Dialogue,Rei,0000,0000,0000,,The topic is "bento."
+Dialogue: 0,0:05:05.47,0:05:06.91,sign_7288_108_Fall_Elections__,Sign 0507,0000,0000,0000,,Round 1\N {\fs32}Bento
+Dialogue: 0,0:05:06.20,0:05:08.03,Main Dialogue,Rei,0000,0000,0000,,The time limit is two hours!
+Dialogue: 0,0:05:09.65,0:05:12.79,Main Dialogue,Sen,0000,0000,0000,,Let the cooking begin!
+Dialogue: 0,0:05:12.79,0:05:15.50,sign_7500_114_Standby_Room,Sign 0514,0000,0000,0000,,Standby Room
+Dialogue: 0,0:05:14.59,0:05:17.29,Main Dialogue,M,0000,0000,0000,,Good luck, Soma-kun.
+Dialogue: 0,0:05:25.22,0:05:27.04,Main Dialogue,Ryoko,0000,0000,0000,,It's like watching a chemistry experiment.
+Dialogue: 0,0:05:27.04,0:05:28.62,Main Dialogue,Yuki,0000,0000,0000,,Marui, explain!
+Dialogue: 0,0:05:28.62,0:05:31.53,Main Dialogue,Marui,0000,0000,0000,,No, this is beyond \Nthe limits of my knowledge.
+Dialogue: 0,0:05:31.53,0:05:33.39,Main Dialogue,Yuki,0000,0000,0000,,Are those glasses just for show?!
+Dialogue: 0,0:05:36.61,0:05:40.36,Main Dialogue,Alice,0000,0000,0000,,This makes my Japanese DNA very happy.
+Dialogue: 0,0:05:45.09,0:05:46.00,Main Dialogue,Alice,0000,0000,0000,,What?
+Dialogue: 0,0:05:46.00,0:05:48.86,Main Dialogue,S,0000,0000,0000,,Oh, you were making fun \Nof workmanship earlier,
+Dialogue: 0,0:05:48.86,0:05:50.07,Main Dialogue,S,0000,0000,0000,,but you do have skills.
+Dialogue: 0,0:05:50.32,0:05:51.20,Main Dialogue,Alice,0000,0000,0000,,Of course!
+Dialogue: 0,0:05:51.51,0:05:52.85,Main Dialogue,Alice,0000,0000,0000,,How rude!
+Dialogue: 0,0:05:52.85,0:05:55.21,Main Dialogue,Alice,0000,0000,0000,,You shouldn't stare at people like that!
+Dialogue: 0,0:05:55.21,0:05:59.17,Main Dialogue,S,0000,0000,0000,,I remember being stared at during camp...
+Dialogue: 0,0:05:59.17,0:06:01.67,Main Dialogue,Students,0000,0000,0000,,He's up against the \Ndirector's granddaughter...
+Dialogue: 0,0:06:01.67,0:06:02.62,Main Dialogue,Ikumi,0000,0000,0000,,Damn it!
+Dialogue: 0,0:06:02.62,0:06:06.67,Main Dialogue,Ikumi,0000,0000,0000,,Yukihira, you'd better have \Nsome trick up your sleeve!
+Dialogue: 0,0:06:06.67,0:06:08.67,Italics Dialogue,Takumi,0000,0000,0000,,I bet he can win...
+Dialogue: 0,0:06:10.13,0:06:10.80,Main Dialogue,Rei,0000,0000,0000,,Come!
+Dialogue: 0,0:06:11.12,0:06:13.39,Main Dialogue,Rei,0000,0000,0000,,Both candidates are close to completion!
+Dialogue: 0,0:06:13.94,0:06:15.64,Main Dialogue,Rei,0000,0000,0000,,Who will finish first?
+Dialogue: 0,0:06:15.95,0:06:18.16,Main Dialogue,Rei,0000,0000,0000,,It's Candidate Nakiri Alice!
+Dialogue: 0,0:06:18.57,0:06:20.60,Main Dialogue,Alice,0000,0000,0000,,Come, let's serve lunch.
+Dialogue: 0,0:06:20.60,0:06:22.11,Main Dialogue,Students,0000,0000,0000,,What?!
+Dialogue: 0,0:06:22.45,0:06:23.89,Main Dialogue,Yuki,0000,0000,0000,,What {\i1}is{\i0} that?
+Dialogue: 0,0:06:23.89,0:06:26.46,Main Dialogue,Ryoko,0000,0000,0000,,Is that... mist under the transparent dome?
+Dialogue: 0,0:06:26.46,0:06:29.11,Main Dialogue,Ikumi,0000,0000,0000,,Damn, it's so easy for her \Nto take us completely by surprise!
+Dialogue: 0,0:06:29.48,0:06:32.57,Main Dialogue,S,0000,0000,0000,,Huh, there you go serving \Nsomething weird again.
+Dialogue: 0,0:06:32.95,0:06:35.77,Main Dialogue,JudgeA,0000,0000,0000,,What an excellent display \Nthat piques one's interest!
+Dialogue: 0,0:06:35.77,0:06:37.83,Main Dialogue,JudgeA,0000,0000,0000,,It is entirely befitting \Na celebration of food.
+Dialogue: 0,0:06:47.92,0:06:49.51,Main Dialogue,Sen,0000,0000,0000,,Temari sushi, is it?
+Dialogue: 0,0:06:49.51,0:06:50.41,Main Dialogue,Alice,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:50.41,0:06:54.26,Main Dialogue,Alice,0000,0000,0000,,I used every technique I had at my disposal \Nto create this temari bento.
+Dialogue: 0,0:06:54.59,0:06:55.89,Main Dialogue,Judge,0000,0000,0000,,It's so beautiful!
+Dialogue: 0,0:06:56.33,0:06:59.89,Main Dialogue,Sen,0000,0000,0000,,Hmm, the mist was from liquid nitrogen.
+Dialogue: 0,0:06:59.89,0:07:04.15,Main Dialogue,Sen,0000,0000,0000,,It also had the purpose of keeping the sushi \Nfresh with the chill, I presume.
+Dialogue: 0,0:07:04.15,0:07:05.49,Main Dialogue,Alice,0000,0000,0000,,If I may,
+Dialogue: 0,0:07:05.49,0:07:09.57,Main Dialogue,Alice,0000,0000,0000,,I'd like to ask that you eat the bento \Nstarting from the upper left.
+Dialogue: 0,0:07:09.82,0:07:12.07,Main Dialogue,Sen,0000,0000,0000,,First, the bounties of the sea.
+Dialogue: 0,0:07:13.07,0:07:15.58,Main Dialogue,Sen,0000,0000,0000,,There's foam on top of the abalone.
+Dialogue: 0,0:07:15.58,0:07:19.33,Main Dialogue,Alice,0000,0000,0000,,That foam is kelp stock.
+Dialogue: 0,0:07:19.77,0:07:22.21,Main Dialogue,Alice,0000,0000,0000,,The abalone was also wrapped \Nin kelp during preparation.
+Dialogue: 0,0:07:24.56,0:07:25.89,Main Dialogue,Hisako,0000,0000,0000,,By wrapping abalone in kelp,
+Dialogue: 0,0:07:25.89,0:07:28.87,Main Dialogue,Hisako,0000,0000,0000,,you can get rid of excess moisture \Nand prolong its freshness.
+Dialogue: 0,0:07:28.87,0:07:31.15,Main Dialogue,Hisako,0000,0000,0000,,It's a method well-suited for making bento.
+Dialogue: 0,0:07:31.15,0:07:32.05,Main Dialogue,E,0000,0000,0000,,You're right.
+Dialogue: 0,0:07:32.85,0:07:35.88,Main Dialogue,E,0000,0000,0000,,But I doubt that's the \Nonly reason for the kelp.
+Dialogue: 0,0:07:37.05,0:07:38.27,Main Dialogue,Alice,0000,0000,0000,,For that sushi,
+Dialogue: 0,0:07:38.60,0:07:41.98,Main Dialogue,Alice,0000,0000,0000,,I used bonito that has been aged \Nfor two days at low temperatures.
+Dialogue: 0,0:07:42.26,0:07:43.01,Main Dialogue,JudgeA,0000,0000,0000,,Hmm...
+Dialogue: 0,0:07:44.41,0:07:45.98,Italics Dialogue,JudgeA,0000,0000,0000,,The umami is out of this world!
+Dialogue: 0,0:07:47.10,0:07:49.69,Main Dialogue,JudgeB,0000,0000,0000,,This umami isn't coming \Nfrom the bonito alone...
+Dialogue: 0,0:07:50.13,0:07:51.94,Main Dialogue,Alice,0000,0000,0000,,It's inosinic acid from the bonito
+Dialogue: 0,0:07:51.94,0:07:54.60,Main Dialogue,Alice,0000,0000,0000,,and glutamic acid from\Nthe kelp used in the first sushi.
+Dialogue: 0,0:07:54.60,0:07:58.08,Main Dialogue,Alice,0000,0000,0000,,Those umami factors have \Na synergistic effect.
+Dialogue: 0,0:07:58.53,0:08:01.27,Main Dialogue,Alice,0000,0000,0000,,This bento dish forms a \Ncomplete picture in your mouth
+Dialogue: 0,0:08:01.27,0:08:04.58,Main Dialogue,Alice,0000,0000,0000,,as you eat each sushi in succession.
+Dialogue: 0,0:08:04.58,0:08:05.76,Main Dialogue,Students,0000,0000,0000,,Wow.
+Dialogue: 0,0:08:05.76,0:08:06.82,Main Dialogue,Students,0000,0000,0000,,I want to try that!
+Dialogue: 0,0:08:06.82,0:08:07.54,Main Dialogue,Students,0000,0000,0000,,It looks delicious.
+Dialogue: 0,0:08:07.96,0:08:09.44,Main Dialogue,Alice,0000,0000,0000,,The second row is next.
+Dialogue: 0,0:08:09.44,0:08:13.51,Main Dialogue,Alice,0000,0000,0000,,They are a type of sushi using vegetables \Ncalled "sushi cakes" in some circles.
+Dialogue: 0,0:08:13.51,0:08:15.86,sign_11833_177_Pumpkin,Sign 0815,0000,0000,0000,,Pumpkin
+Dialogue: 0,0:08:13.85,0:08:15.58,Main Dialogue Top,Alice,0000,0000,0000,,No nori was used in these sushi.
+Dialogue: 0,0:08:15.58,0:08:18.57,Main Dialogue Top,Alice,0000,0000,0000,,Instead, paper-thin slices of vegetables \Nare used to wrap the sushi.
+Dialogue: 0,0:08:15.86,0:08:17.82,sign_11833_177_Pumpkin,Sign 0816,0000,0000,0000,,Beet
+Dialogue: 0,0:08:17.82,0:08:19.83,sign_11833_177_Pumpkin,Sign 0818,0000,0000,0000,,Nozawana
+Dialogue: 0,0:08:18.57,0:08:21.77,Main Dialogue Top,Alice,0000,0000,0000,,This bento has no use for heavy, dark colors.
+Dialogue: 0,0:08:19.83,0:08:21.77,sign_11833_177_Pumpkin,Sign 0820,0000,0000,0000,,Zucchini
+Dialogue: 0,0:08:22.13,0:08:24.23,Main Dialogue,Alice,0000,0000,0000,,And finally, the third row.
+Dialogue: 0,0:08:24.53,0:08:26.61,Main Dialogue,JudgeB,0000,0000,0000,,This practically screams, "I'm the main dish!"
+Dialogue: 0,0:08:26.93,0:08:29.69,Main Dialogue,Alice,0000,0000,0000,,It is aged beef fillet sushi.
+Dialogue: 0,0:08:27.67,0:08:29.69,sign_12172_187_Beef_Fillet,Sign 0828,0000,0000,0000,,Beef Fillet
+Dialogue: 0,0:08:32.41,0:08:34.47,Italics Dialogue,JudgeB,0000,0000,0000,,Here comes another wave!
+Dialogue: 0,0:08:34.47,0:08:38.91,Italics Dialogue,JudgeB,0000,0000,0000,,The two umami factors \Njust spread through your mouth...
+Dialogue: 0,0:08:39.23,0:08:43.02,Main Dialogue,JudgeA,0000,0000,0000,,I can see where the inosinic acid comes from, \Ngiven that there's meat involved,
+Dialogue: 0,0:08:43.02,0:08:44.16,Main Dialogue,JudgeA,0000,0000,0000,,but where's the glutamic acid coming from?
+Dialogue: 0,0:08:44.47,0:08:45.54,Main Dialogue,Alice,0000,0000,0000,,Tomatoes.
+Dialogue: 0,0:08:45.86,0:08:46.97,Main Dialogue,JudgeA,0000,0000,0000,,Tomatoes?
+Dialogue: 0,0:08:46.97,0:08:48.54,Main Dialogue,JudgeA,0000,0000,0000,,I don't see them anywhere.
+Dialogue: 0,0:08:48.54,0:08:50.50,Main Dialogue,Alice,0000,0000,0000,,It was a component of the sushi cakes.
+Dialogue: 0,0:08:51.53,0:08:57.51,Main Dialogue,Alice,0000,0000,0000,,I used a centrifuge to separate tomatoes \Ninto pigment, fiber, and jus.
+Dialogue: 0,0:08:54.32,0:08:57.51,sign_12811_197_Pigment,Sign 0856,0000,0000,0000,,Pigment
+Dialogue: 0,0:08:55.07,0:08:57.51,sign_12829_198_Fiber,Sign 0856,0000,0000,0000,,Fiber
+Dialogue: 0,0:08:56.45,0:08:57.51,sign_12862_199_Jus,Sign 0857,0000,0000,0000,,Jus
+Dialogue: 0,0:08:57.80,0:09:00.91,Main Dialogue,Sign 0857,0000,0000,0000,,The jus was filtered several times \Nto remove impurities.
+Dialogue: 0,0:09:00.91,0:09:02.98,Main Dialogue,Sign 0857,0000,0000,0000,,A few drops of that jus \Nwas added to the sushi cakes.
+Dialogue: 0,0:09:02.98,0:09:04.32,Main Dialogue,JudgeA,0000,0000,0000,,I see!
+Dialogue: 0,0:09:04.32,0:09:07.51,Main Dialogue,JudgeD,0000,0000,0000,,To think that the original ingredient \Nwas rendered completely invisible!
+Dialogue: 0,0:09:08.73,0:09:10.90,Main Dialogue,JudgeB,0000,0000,0000,,Now, the last item.
+Dialogue: 0,0:09:11.34,0:09:14.36,Main Dialogue,JudgeA,0000,0000,0000,,What is the sphere nestled \Nnext to the sea bream sushi?
+Dialogue: 0,0:09:17.91,0:09:19.25,Italics Dialogue,JudgeA,0000,0000,0000,,The sphere...
+Dialogue: 0,0:09:20.39,0:09:22.33,Italics Dialogue,JudgeA,0000,0000,0000,,...is concentrated stock!
+Dialogue: 0,0:09:23.05,0:09:26.37,Main Dialogue,JudgeA,0000,0000,0000,,This is a sea bream chazuke \Nthat comes together on your tongue!
+Dialogue: 0,0:09:28.41,0:09:30.93,Italics Dialogue,Sen,0000,0000,0000,,"The darling of molecular gastronomy."
+Dialogue: 0,0:09:30.93,0:09:33.29,Italics Dialogue,Sen,0000,0000,0000,,Her techniques does justice to her moniker.
+Dialogue: 0,0:09:33.29,0:09:36.24,Italics Dialogue,Sen,0000,0000,0000,,She was able to entertain her guests \Nwith her cooking from start to finish.
+Dialogue: 0,0:09:37.10,0:09:39.55,Italics Dialogue,Sen,0000,0000,0000,,This deep satisfaction
+Dialogue: 0,0:09:39.81,0:09:43.52,Italics Dialogue,Sen,0000,0000,0000,,is as though we just enjoyed a feast at a \Nluxurious traditional Japanese restaurant!
+Dialogue: 0,0:09:45.01,0:09:46.93,Main Dialogue,Sen,0000,0000,0000,,From this tiny bento box
+Dialogue: 0,0:09:46.93,0:09:48.44,Main Dialogue,Sen,0000,0000,0000,,roars forth such...
+Dialogue: 0,0:09:49.20,0:09:51.86,Main Dialogue,Sen,0000,0000,0000,,...culinary wisdom!
+Dialogue: 0,0:09:51.86,0:09:53.16,Main Dialogue,Student,0000,0000,0000,,He's bared his chest!
+Dialogue: 0,0:09:53.16,0:09:54.01,Main Dialogue,Student,0000,0000,0000,,There he goes!
+Dialogue: 0,0:09:54.01,0:09:55.36,Main Dialogue,Student,0000,0000,0000,,The director's gone bare-chested!
+Dialogue: 0,0:09:55.84,0:09:57.52,Main Dialogue,Sen,0000,0000,0000,,Well done.
+Dialogue: 0,0:09:59.03,0:10:02.24,Main Dialogue,Guests,0000,0000,0000,,This is Nakiri Alice's true strength.
+Dialogue: 0,0:10:02.24,0:10:04.24,Main Dialogue,Guests,0000,0000,0000,,How can such a chef be the same age as us?
+Dialogue: 0,0:10:04.46,0:10:07.21,Main Dialogue,Guests,0000,0000,0000,,Even if I spent my entire life \Ntrying to reach her level, I never will...
+Dialogue: 0,0:10:07.73,0:10:11.59,Main Dialogue,JudgeA,0000,0000,0000,,When one's genius shines too brightly, \Nit casts a shadow.
+Dialogue: 0,0:10:11.96,0:10:13.30,Main Dialogue,JudgeA,0000,0000,0000,,That is her karma.
+Dialogue: 0,0:10:13.70,0:10:15.91,Main Dialogue,Sen,0000,0000,0000,,This is Totsuki Academy.
+Dialogue: 0,0:10:16.41,0:10:19.32,Main Dialogue,Sen,0000,0000,0000,,I have no need for weaklings\N who would falter by this display.
+Dialogue: 0,0:10:19.76,0:10:20.76,Main Dialogue,Sen,0000,0000,0000,,Look.
+Dialogue: 0,0:10:23.85,0:10:25.97,Main Dialogue,S,0000,0000,0000,,Five bentos, all done!
+Dialogue: 0,0:10:26.82,0:10:30.65,Main Dialogue,Sen,0000,0000,0000,,There's at least one chef \Nwho is not deterred.
+Dialogue: 0,0:10:31.21,0:10:33.86,Main Dialogue,Sen,0000,0000,0000,,Yukihira Soma, what is your dish?
+Dialogue: 0,0:10:35.77,0:10:36.82,Main Dialogue,S,0000,0000,0000,,Nori bento.
+Dialogue: 0,0:10:36.82,0:10:37.80,Main Dialogue,Students,0000,0000,0000,,What?!
+Dialogue: 0,0:10:37.80,0:10:38.97,Main Dialogue,Students,0000,0000,0000,,Did he say nori bento?!
+Dialogue: 0,0:10:38.97,0:10:39.50,Main Dialogue,Students,0000,0000,0000,,What?!
+Dialogue: 0,0:10:39.50,0:10:42.53,Main Dialogue,Students,0000,0000,0000,,How can he possibly hope \Nto beat Nakiri Alice with that?
+Dialogue: 0,0:10:47.56,0:10:50.04,Signs,Sign 1048,0000,0000,0000,,{\fad(500,1)}{\fs26}Soma's Nori Bento {\fs20}(Assumption)
+Dialogue: 0,0:10:52.00,0:10:52.89,Main Dialogue,Students,0000,0000,0000,,Nori bento?!
+Dialogue: 0,0:10:52.89,0:10:53.39,Main Dialogue,Students,0000,0000,0000,,What the hell?
+Dialogue: 0,0:10:53.39,0:10:54.72,Main Dialogue,Students,0000,0000,0000,,He's finished.
+Dialogue: 0,0:10:54.72,0:10:55.67,Main Dialogue,Alice,0000,0000,0000,,Yukihira-kun.
+Dialogue: 0,0:10:56.18,0:10:56.89,Main Dialogue,S,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:57.65,0:10:59.26,Main Dialogue,Alice,0000,0000,0000,,What's a nori bento?
+Dialogue: 0,0:10:59.26,0:11:01.65,Main Dialogue,S,0000,0000,0000,,What, you don't know?
+Dialogue: 0,0:11:01.65,0:11:03.89,Main Dialogue,S,0000,0000,0000,,I can make one for you later.
+Dialogue: 0,0:11:03.89,0:11:06.31,Main Dialogue,S,0000,0000,0000,,It's not just any nori bento, though.
+Dialogue: 0,0:11:07.25,0:11:09.27,Main Dialogue,S,0000,0000,0000,,It's Yukihira-Style Evolved Nori Bento!
+Dialogue: 0,0:11:10.22,0:11:11.98,Main Dialogue,S,0000,0000,0000,,Enjoy!
+Dialogue: 0,0:11:13.50,0:11:14.94,Main Dialogue,S,0000,0000,0000,,They're called lunch jars.
+Dialogue: 0,0:11:15.33,0:11:20.42,Main Dialogue,S,0000,0000,0000,,They're made of stainless steel,\N and can retain the heat of rice and soup.
+Dialogue: 0,0:11:20.42,0:11:23.91,Main Dialogue,Alice,0000,0000,0000,,Hmm, Japanese bento boxes \Nare pretty advanced.
+Dialogue: 0,0:11:24.12,0:11:27.98,Main Dialogue,S,0000,0000,0000,,More recent models can retain \Ntheir contents' heat for up to half a day.
+Dialogue: 0,0:11:27.56,0:11:34.29,sign_16485_256_Sides,Sign 1129,0000,0000,0000,,{\fad(500,1)}Sides
+Dialogue: 0,0:11:27.56,0:11:34.29,sign_16485_257_Rice,Sign 1129,0000,0000,0000,,{\fad(500,1)}Rice
+Dialogue: 0,0:11:27.56,0:11:34.29,sign_16485_258_Soup,Sign 1129,0000,0000,0000,,{\fad(500,1)}Soup
+Dialogue: 0,0:11:27.98,0:11:30.42,Main Dialogue,S,0000,0000,0000,,If you heat up the soup before \Nyou put it in the jar,
+Dialogue: 0,0:11:30.42,0:11:32.53,Main Dialogue,S,0000,0000,0000,,it does a better job of \Nkeeping the rice warm.
+Dialogue: 0,0:11:32.53,0:11:34.29,Main Dialogue,Alice,0000,0000,0000,,Oh, how clever!
+Dialogue: 0,0:11:34.29,0:11:36.12,Main Dialogue,Sato,0000,0000,0000,,Where's the tension?
+Dialogue: 0,0:11:36.12,0:11:38.05,Main Dialogue,Yuki,0000,0000,0000,,It's not like the match is over.
+Dialogue: 0,0:11:38.05,0:11:40.80,Main Dialogue,Ikumi,0000,0000,0000,,She's being condescending toward Yukihira.
+Dialogue: 0,0:11:41.15,0:11:45.10,Main Dialogue,Ikumi,0000,0000,0000,,She's all smiles because \Nshe's convinced she'll win.
+Dialogue: 0,0:11:45.69,0:11:49.68,Main Dialogue,JudgeC,0000,0000,0000,,Hmm, first, there are three side dishes.
+Dialogue: 0,0:11:50.17,0:11:51.14,Main Dialogue,JudgeC,0000,0000,0000,,Hmm!
+Dialogue: 0,0:11:52.10,0:11:55.81,Main Dialogue,JudgeC,0000,0000,0000,,This fish cake fried with nori is amazing!
+Dialogue: 0,0:11:55.81,0:11:59.69,Main Dialogue,S,0000,0000,0000,,I made the fish cake from scratch.
+Dialogue: 0,0:11:59.69,0:12:02.08,Main Dialogue,Ryoko,0000,0000,0000,,He used beer in the batter.
+Dialogue: 0,0:12:02.08,0:12:04.84,Main Dialogue,Ryoko,0000,0000,0000,,Alcohol is more volatile than the batter,
+Dialogue: 0,0:12:04.84,0:12:06.79,Main Dialogue,Ryoko,0000,0000,0000,,so it becomes light and crispy.
+Dialogue: 0,0:12:06.79,0:12:07.52,Main Dialogue,Yuki,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:07.52,0:12:08.83,Main Dialogue,Yuki,0000,0000,0000,,Why do you know what he did, Ryoko?
+Dialogue: 0,0:12:09.31,0:12:13.26,Main Dialogue,Ryoko,0000,0000,0000,,I saw Yukihira-kun testing his dish \Nat the dorm last night,
+Dialogue: 0,0:12:13.26,0:12:15.17,Main Dialogue,Ryoko,0000,0000,0000,,so I asked for a taste.
+Dialogue: 0,0:12:16.13,0:12:17.37,Flashback Italics Dialogue,Ryoko,0000,0000,0000,,Oh!
+Dialogue: 0,0:12:17.37,0:12:19.73,Flashback Italics Dialogue,Ryoko,0000,0000,0000,,So much umami's bursting forth!
+Dialogue: 0,0:12:19.73,0:12:21.26,Flashback Italics Dialogue,Ryoko,0000,0000,0000,,I can smell the sea!
+Dialogue: 0,0:12:22.40,0:12:24.41,Flashback Dialogue,Isobee,0000,0000,0000,,I'll envelop you.
+Dialogue: 0,0:12:24.41,0:12:26.08,Flashback Dialogue,Ryoko,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:12:29.35,0:12:32.52,Main Dialogue,JudgeC,0000,0000,0000,,The kinpira-style sauteed burdock \Nalso has a mellow, deep flavor.
+Dialogue: 0,0:12:32.73,0:12:37.08,Main Dialogue,S,0000,0000,0000,,I've added just a bit of mayonnaise and \Nbalsamic vinegar as secret ingredients.
+Dialogue: 0,0:12:37.08,0:12:38.11,Main Dialogue,JudgeC,0000,0000,0000,,I see.
+Dialogue: 0,0:12:38.11,0:12:40.73,Main Dialogue,JudgeC,0000,0000,0000,,You were very meticulous with this dish.
+Dialogue: 0,0:12:40.73,0:12:41.61,Main Dialogue,JudgeB,0000,0000,0000,,Oh!
+Dialogue: 0,0:12:41.94,0:12:44.70,Main Dialogue,JudgeB,0000,0000,0000,,Look how easily the chopsticks \Ncut through the fried cod!
+Dialogue: 0,0:12:45.04,0:12:49.73,Main Dialogue,JudgeB,0000,0000,0000,,The cod must've been first simmered \Nin stock and seasoning before it was fried.
+Dialogue: 0,0:12:49.73,0:12:53.12,Main Dialogue,JudgeB,0000,0000,0000,,That step gave it its soft, flaky texture.
+Dialogue: 0,0:12:54.50,0:12:55.96,Main Dialogue,JudgeB,0000,0000,0000,,What?!
+Dialogue: 0,0:13:01.04,0:13:04.12,Main Dialogue,JudgeB,0000,0000,0000,,What a pure, mild flavor it has!
+Dialogue: 0,0:13:04.12,0:13:07.43,Main Dialogue,JudgeB,0000,0000,0000,,It is like a gentle highlands breeze!
+Dialogue: 0,0:13:07.86,0:13:10.26,Main Dialogue,JudgeB,0000,0000,0000,,What refined flavor!
+Dialogue: 0,0:13:10.26,0:13:11.56,Main Dialogue,JudgeB,0000,0000,0000,,Where is this coming from?!
+Dialogue: 0,0:13:11.92,0:13:14.73,Main Dialogue,Sen,0000,0000,0000,,The answer to that question \Ncan be found in the stock.
+Dialogue: 0,0:13:15.10,0:13:18.48,Main Dialogue,Sen,0000,0000,0000,,This is dried tuna stock.
+Dialogue: 0,0:13:18.48,0:13:19.90,Main Dialogue,S,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:19.90,0:13:23.74,Main Dialogue,S,0000,0000,0000,,The cod was simmered in stock\N made from dried tuna and rishiri kelp.
+Dialogue: 0,0:13:24.03,0:13:25.65,Main Dialogue,Hisako,0000,0000,0000,,Dried tuna...
+Dialogue: 0,0:13:25.65,0:13:28.70,Main Dialogue,Hisako,0000,0000,0000,,That would've been made from yellowfin tuna.
+Dialogue: 0,0:13:28.70,0:13:29.73,Main Dialogue,E,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:29.73,0:13:35.04,Main Dialogue,E,0000,0000,0000,,While it is not as rich as bonito stock,\N it has a very delicate and elegant umami.
+Dialogue: 0,0:13:35.26,0:13:39.95,Main Dialogue,JudgeB,0000,0000,0000,,Cod also has a light umami, \Nso the dried tuna is a perfect match.
+Dialogue: 0,0:13:39.95,0:13:42.42,Main Dialogue,JudgeC,0000,0000,0000,,What a light dish!
+Dialogue: 0,0:13:42.66,0:13:44.38,Main Dialogue,JudgeD,0000,0000,0000,,The soup is next!
+Dialogue: 0,0:13:44.68,0:13:45.57,Main Dialogue,JudgeD,0000,0000,0000,,Oh!
+Dialogue: 0,0:13:45.57,0:13:48.26,Main Dialogue,JudgeD,0000,0000,0000,,It's bacon and onion miso soup!
+Dialogue: 0,0:13:50.21,0:13:52.14,Main Dialogue,JudgeD,0000,0000,0000,,Ah, this too...
+Dialogue: 0,0:13:54.69,0:13:58.41,Italics Dialogue,JudgeD,0000,0000,0000,,The unique fragrance of the \Ntuna stock fills your nostrils.
+Dialogue: 0,0:13:59.05,0:14:01.77,Italics Dialogue,JudgeD,0000,0000,0000,,Combined with the meltingly sweet onions,
+Dialogue: 0,0:14:01.77,0:14:04.73,Italics Dialogue,JudgeD,0000,0000,0000,,it's as though the soup \Nenvelops your entire body.
+Dialogue: 0,0:14:05.40,0:14:09.87,Main Dialogue,S,0000,0000,0000,,Also, there is a trick to \Ntaking advantage of this bento box.
+Dialogue: 0,0:14:09.87,0:14:14.45,Main Dialogue,S,0000,0000,0000,,Just by putting the stock, ingredients, \Nand seasonings in the container,
+Dialogue: 0,0:14:14.45,0:14:17.20,Main Dialogue,S,0000,0000,0000,,you can have a sweet soup a few hours later.
+Dialogue: 0,0:14:17.20,0:14:18.50,Main Dialogue,S,0000,0000,0000,,The vegetables will be cooked through.
+Dialogue: 0,0:14:18.76,0:14:20.96,Main Dialogue,Alice,0000,0000,0000,,Oh, that's useful.
+Dialogue: 0,0:14:21.46,0:14:24.25,Main Dialogue,S,0000,0000,0000,,Today, there won't be any time delay,\N so I've cooked the ingredients already.
+Dialogue: 0,0:14:24.25,0:14:27.77,Main Dialogue,Alice,0000,0000,0000,,You know a lot about bentos.
+Dialogue: 0,0:14:27.77,0:14:31.09,Main Dialogue,S,0000,0000,0000,,Sure. I've made them at my family's diner.
+Dialogue: 0,0:14:31.77,0:14:33.76,Main Dialogue,Alice,0000,0000,0000,,But that's not enough, Yukihira-kun.
+Dialogue: 0,0:14:34.50,0:14:36.47,Main Dialogue,Alice,0000,0000,0000,,Your efforts are all too conventional.
+Dialogue: 0,0:14:36.47,0:14:40.23,Main Dialogue,Alice,0000,0000,0000,,Even bentos should be full \Nof spectacular surprises.
+Dialogue: 0,0:14:40.61,0:14:43.23,Main Dialogue,Alice,0000,0000,0000,,Just like my Temari Bento.
+Dialogue: 0,0:14:43.23,0:14:47.01,Main Dialogue,S,0000,0000,0000,,Yeah, yours did look really tasty.
+Dialogue: 0,0:14:47.01,0:14:48.71,Main Dialogue,S,0000,0000,0000,,Let me try it sometime.
+Dialogue: 0,0:14:49.73,0:14:50.82,Main Dialogue,Alice,0000,0000,0000,,Yes, of course.
+Dialogue: 0,0:14:51.36,0:14:56.66,Main Dialogue,S,0000,0000,0000,,But was your dish really amazing as a bento?
+Dialogue: 0,0:14:57.25,0:14:58.50,Main Dialogue,Alice,0000,0000,0000,,What did you say?
+Dialogue: 0,0:14:59.01,0:15:03.00,Main Dialogue,S,0000,0000,0000,,I'm asking you what we \Nshould be putting in bento boxes.
+Dialogue: 0,0:15:04.06,0:15:06.17,Diner Sign,Sign 1504,0000,0000,0000,,{\fad(500,1)}Diner Yukihira
+Dialogue: 0,0:15:05.15,0:15:08.67,Main Dialogue,S,0000,0000,0000,,One of my diner's regulars \Nwas a granny called Kiyo-san.
+Dialogue: 0,0:15:09.24,0:15:11.65,Main Dialogue,S,0000,0000,0000,,She came almost every day,
+Dialogue: 0,0:15:11.65,0:15:14.47,Main Dialogue,S,0000,0000,0000,,but one day, she hurt her back,\N and couldn't come.
+Dialogue: 0,0:15:15.97,0:15:17.22,Flashback Dialogue,Kiyo,0000,0000,0000,,Hello?
+Dialogue: 0,0:15:18.06,0:15:19.31,Flashback Dialogue,BoyS,0000,0000,0000,,Granny Kiyo!
+Dialogue: 0,0:15:19.31,0:15:20.80,Flashback Dialogue,BoyS,0000,0000,0000,,Is your back okay?!
+Dialogue: 0,0:15:20.80,0:15:24.25,Flashback Dialogue,Kiyo,0000,0000,0000,,Soma-chan, isn't your diner busy right now?
+Dialogue: 0,0:15:24.25,0:15:25.73,Flashback Dialogue,Kiyo,0000,0000,0000,,Ow...
+Dialogue: 0,0:15:26.25,0:15:27.19,Flashback Dialogue,BoyS,0000,0000,0000,,Here you go!
+Dialogue: 0,0:15:27.57,0:15:28.30,Flashback Dialogue,Kiyo,0000,0000,0000,,What?
+Dialogue: 0,0:15:28.30,0:15:29.91,Flashback Dialogue,BoyS,0000,0000,0000,,You haven't had dinner yet, right?
+Dialogue: 0,0:15:29.91,0:15:30.57,Flashback Dialogue,BoyS,0000,0000,0000,,Later!
+Dialogue: 0,0:15:31.09,0:15:33.03,Flashback Dialogue,Kiyo,0000,0000,0000,,You came here just to deliver this?
+Dialogue: 0,0:15:34.10,0:15:36.48,Flashback Italics Dialogue,BoyS,0000,0000,0000,,The diner was super empty,
+Dialogue: 0,0:15:36.48,0:15:37.70,Flashback Italics Dialogue,BoyS,0000,0000,0000,,so I made this for you.
+Dialogue: 0,0:15:37.70,0:15:39.73,Flashback Italics Dialogue,BoyS,0000,0000,0000,,Eat this and get better!
+Dialogue: 0,0:15:40.58,0:15:45.71,Flashback Italics Dialogue,BoyS,0000,0000,0000,,P.S. Lift up the nori \Nbefore eating the rice!
+Dialogue: 0,0:15:49.67,0:15:51.69,Diner Sign 2,Sign 1551,0000,0000,0000,,{\fad(1,500)}Diner Yukihira
+Dialogue: 0,0:15:50.23,0:15:53.37,Main Dialogue,S,0000,0000,0000,,A person should taste \Nwhat I was trying to deliver
+Dialogue: 0,0:15:55.40,0:15:57.18,Main Dialogue,S,0000,0000,0000,,in the bento box that day.
+Dialogue: 0,0:15:58.14,0:16:01.56,Main Dialogue,S,0000,0000,0000,,The flavors, and what lies beyond!
+Dialogue: 0,0:16:01.56,0:16:02.72,Main Dialogue,JudgeB,0000,0000,0000,,What?
+Dialogue: 0,0:16:03.41,0:16:05.44,Main Dialogue,JudgeC,0000,0000,0000,,What is this rice?
+Dialogue: 0,0:16:05.44,0:16:07.23,Main Dialogue,JudgeD,0000,0000,0000,,I... Is this...
+Dialogue: 0,0:16:07.66,0:16:09.45,Main Dialogue,JudgeA,0000,0000,0000,,...really nori bento?!
+Dialogue: 0,0:16:11.57,0:16:15.53,Main Dialogue,JudgeB,0000,0000,0000,,There are strange black grains \Non top of the rice.
+Dialogue: 0,0:16:15.83,0:16:16.75,Main Dialogue,Students,0000,0000,0000,,What's that?
+Dialogue: 0,0:16:16.75,0:16:17.39,Main Dialogue,Students,0000,0000,0000,,Caviar?
+Dialogue: 0,0:16:17.39,0:16:18.07,Main Dialogue,Students,0000,0000,0000,,Fish roe?
+Dialogue: 0,0:16:18.07,0:16:19.12,Main Dialogue,Students,0000,0000,0000,,It's black.
+Dialogue: 0,0:16:19.63,0:16:21.54,Main Dialogue,JudgeB,0000,0000,0000,,How curious!
+Dialogue: 0,0:16:21.54,0:16:23.38,Main Dialogue,JudgeB,0000,0000,0000,,Nonetheless, I must try this.
+Dialogue: 0,0:16:23.38,0:16:24.76,Main Dialogue,JudgeB,0000,0000,0000,,Knock on wood!
+Dialogue: 0,0:16:27.50,0:16:31.42,Main Dialogue,JudgeB,0000,0000,0000,,It feels like salmon roe \Nbursting in your mouth!
+Dialogue: 0,0:16:31.42,0:16:36.12,Main Dialogue,JudgeB,0000,0000,0000,,What gushes forth from within \Nis the umami of nori!
+Dialogue: 0,0:16:38.50,0:16:43.15,Main Dialogue,JudgeA,0000,0000,0000,,The nori's salty umami goodness\N bursts forth to coat each grain of rice.
+Dialogue: 0,0:16:43.15,0:16:44.61,Main Dialogue,JudgeA,0000,0000,0000,,I can't stand it!
+Dialogue: 0,0:16:44.61,0:16:46.65,Main Dialogue,JudgeA,0000,0000,0000,,It's addicting!
+Dialogue: 0,0:16:46.86,0:16:49.29,Main Dialogue,Alice,0000,0000,0000,,You made those spheres \Nby extracting the nori's umami
+Dialogue: 0,0:16:49.29,0:16:53.90,Main Dialogue,Alice,0000,0000,0000,,and adding sodium alginate \Nand potassium chloride.
+Dialogue: 0,0:16:53.90,0:16:55.74,Main Dialogue,Ryoko,0000,0000,0000,,Molecular gastronomy!
+Dialogue: 0,0:16:55.74,0:16:56.65,Main Dialogue,Yuki,0000,0000,0000,,But that's...
+Dialogue: 0,0:16:56.65,0:16:58.41,Main Dialogue,Ikumi,0000,0000,0000,,...Nakiri Alice's specialty!
+Dialogue: 0,0:16:58.73,0:17:01.03,Main Dialogue,Alice,0000,0000,0000,,How do you know this technique?
+Dialogue: 0,0:17:01.03,0:17:06.71,Main Dialogue,S,0000,0000,0000,,I was invited by Isshiki-senpai the other day \Nto help out at a kids' cooking class.
+Dialogue: 0,0:17:06.95,0:17:07.42,Main Dialogue,Alice,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:07.75,0:17:10.19,Main Dialogue,S,0000,0000,0000,,I got to be buddy-buddy with the kids.
+Dialogue: 0,0:17:10.19,0:17:13.08,Main Dialogue,S,0000,0000,0000,,At the end of class, \Nthey gave me snacks and stuff.
+Dialogue: 0,0:17:13.08,0:17:15.68,Main Dialogue,S,0000,0000,0000,,One of the snacks reminded me of something...
+Dialogue: 0,0:17:15.68,0:17:19.43,Pop-A-Spheres Sign,Sign 1719,0000,0000,0000,,Pop-A-{\c&HEDB96F&}Spheres
+Dialogue: 0,0:17:16.69,0:17:19.43,Main Dialogue,S,0000,0000,0000,,When I was a kid, I'd tried one of these.
+Dialogue: 0,0:17:19.43,0:17:20.59,Main Dialogue,JudgeB,0000,0000,0000,,What?
+Dialogue: 0,0:17:20.59,0:17:21.60,Main Dialogue,JudgeC,0000,0000,0000,,A cheap candy product?!
+Dialogue: 0,0:17:21.84,0:17:23.81,Main Dialogue,Alice,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:17:24.17,0:17:27.19,Main Dialogue,S,0000,0000,0000,,This is one of those so-called \Neducational snacks.
+Dialogue: 0,0:17:27.79,0:17:30.32,Main Dialogue,Alice,0000,0000,0000,,Potassium chloride and sodium alginate...
+Dialogue: 0,0:17:30.57,0:17:33.69,Main Dialogue,S,0000,0000,0000,,It's a snack that lets you \Nmake artificial fish roe.
+Dialogue: 0,0:17:33.69,0:17:35.63,Main Dialogue,S,0000,0000,0000,,I was really into it as a kid.
+Dialogue: 0,0:17:35.63,0:17:37.23,Main Dialogue,S,0000,0000,0000,,I played around with it quite a bit.
+Dialogue: 0,0:17:37.23,0:17:38.52,Flashback Dialogue,BoyS,0000,0000,0000,,Look, Dad!
+Dialogue: 0,0:17:38.52,0:17:39.76,Flashback Dialogue,BoyS,0000,0000,0000,,I made miso soup solid!
+Dialogue: 0,0:17:39.76,0:17:41.99,Flashback Dialogue,J,0000,0000,0000,,Wow, that's cool.
+Dialogue: 0,0:17:41.99,0:17:44.25,Flashback Dialogue,J,0000,0000,0000,,But don't ever serve that at our diner.
+Dialogue: 0,0:17:44.25,0:17:48.20,Main Dialogue,S,0000,0000,0000,,These black beads are nori umami bombs
+Dialogue: 0,0:17:48.20,0:17:50.29,Main Dialogue,S,0000,0000,0000,,that I made from seasoned nori.
+Dialogue: 0,0:17:51.97,0:17:55.42,Main Dialogue,Takumi,0000,0000,0000,,He thought of a molecular gastronomy \Ntechnique from a cheap candy product?
+Dialogue: 0,0:17:55.77,0:17:56.45,Main Dialogue,JudgeB,0000,0000,0000,,Hm?
+Dialogue: 0,0:17:56.45,0:17:58.46,Main Dialogue,JudgeB,0000,0000,0000,,There's something else in the rice...
+Dialogue: 0,0:18:00.81,0:18:02.95,Italics Dialogue,JudgeB,0000,0000,0000,,So much flavor!
+Dialogue: 0,0:18:02.95,0:18:05.09,Main Dialogue,JudgeB,0000,0000,0000,,It's dried tuna simmered down in soy sauce!
+Dialogue: 0,0:18:05.09,0:18:07.85,Main Dialogue,JudgeB,0000,0000,0000,,It was a four-layer dish!
+Dialogue: 0,0:18:08.53,0:18:13.57,Main Dialogue,JudgeB,0000,0000,0000,,If Nakiri Alice's dish was a \Nmeticulously-arranged jewel box,
+Dialogue: 0,0:18:13.98,0:18:19.36,Main Dialogue,JudgeB,0000,0000,0000,,this nori bento is a treasure box \Nfull of marvels waiting to be discovered!
+Dialogue: 0,0:18:19.78,0:18:22.75,Main Dialogue,JudgeB,0000,0000,0000,,It reminds me of my field trips \Nand picnics as a child...
+Dialogue: 0,0:18:22.75,0:18:26.54,Main Dialogue,JudgeA,0000,0000,0000,,That excitement\N when I'd open the bento box...
+Dialogue: 0,0:18:26.54,0:18:29.33,Main Dialogue,Judges,0000,0000,0000,,It's all coming back to me now!
+Dialogue: 0,0:18:29.33,0:18:33.66,Main Dialogue,Alice,0000,0000,0000,,My Temari Bento included even \Na finishing dish: the sea bream chazuke!
+Dialogue: 0,0:18:33.66,0:18:36.36,Main Dialogue,Alice,0000,0000,0000,,The overall taste quality \Nwas higher in mine—
+Dialogue: 0,0:18:36.36,0:18:37.64,Main Dialogue,S,0000,0000,0000,,Oh, please stop!
+Dialogue: 0,0:18:37.64,0:18:40.64,Main Dialogue,S,0000,0000,0000,,Can you leave about one-third of the rice?
+Dialogue: 0,0:18:40.87,0:18:44.89,Main Dialogue,S,0000,0000,0000,,There's yet another compartment \Nunder the very first lid.
+Dialogue: 0,0:18:45.89,0:18:47.14,Main Dialogue,JudgeB,0000,0000,0000,,It's kudzu sauce!
+Dialogue: 0,0:18:47.42,0:18:52.56,Main Dialogue,S,0000,0000,0000,,That kudzu sauce has three times more \Ndried tuna and rishiri kelp than the norm!
+Dialogue: 0,0:18:52.89,0:18:55.94,Main Dialogue,S,0000,0000,0000,,Pour it over the piping hot rice and dig in.
+Dialogue: 0,0:18:56.37,0:18:57.90,Main Dialogue,S,0000,0000,0000,,Let's finish up.
+Dialogue: 0,0:18:58.16,0:18:59.49,Main Dialogue,JudgeAB,0000,0000,0000,,Of course that's...
+Dialogue: 0,0:18:59.49,0:19:00.67,Main Dialogue,JudgeD,0000,0000,0000,,...going to be...
+Dialogue: 0,0:19:00.67,0:19:01.66,Main Dialogue,JdugeC,0000,0000,0000,,...going to be...
+Dialogue: 0,0:19:01.96,0:19:04.08,Main Dialogue,Judges,0000,0000,0000,,...delicious!
+Dialogue: 0,0:19:04.29,0:19:06.31,Main Dialogue,JudgeD,0000,0000,0000,,Ah, kudzu sauce!
+Dialogue: 0,0:19:06.31,0:19:08.04,Main Dialogue,JudgeA,0000,0000,0000,,It's so good!
+Dialogue: 0,0:19:08.32,0:19:10.32,Main Dialogue,JudgeB,0000,0000,0000,,Combined with the nori bombs...
+Dialogue: 0,0:19:10.32,0:19:12.67,Main Dialogue,JudgeC,0000,0000,0000,,...it's a whole new level of flavor!
+Dialogue: 0,0:19:12.95,0:19:15.16,Main Dialogue,Sato,0000,0000,0000,,Those judges...
+Dialogue: 0,0:19:15.16,0:19:17.55,Main Dialogue,Aoki,0000,0000,0000,,They're eating like it's really fun,
+Dialogue: 0,0:19:17.84,0:19:20.47,Main Dialogue,Aoki,0000,0000,0000,,unlike when they were eating \NNakiri Alice's dish.
+Dialogue: 0,0:19:21.33,0:19:22.34,Main Dialogue,Alice,0000,0000,0000,,Yukihira-kun.
+Dialogue: 0,0:19:22.81,0:19:26.85,Main Dialogue,Alice,0000,0000,0000,,Are you trying to make the point \Nthat bentos should contain "heart"?
+Dialogue: 0,0:19:26.85,0:19:29.65,Main Dialogue,Alice,0000,0000,0000,,What's important is the flavor, isn't it?
+Dialogue: 0,0:19:29.65,0:19:31.06,Main Dialogue,Alice,0000,0000,0000,,Don't get all "mind over matter" on me—
+Dialogue: 0,0:19:31.06,0:19:31.77,Main Dialogue,Sen,0000,0000,0000,,No!
+Dialogue: 0,0:19:32.13,0:19:35.30,Main Dialogue,Sen,0000,0000,0000,,It's not about that, Alice.
+Dialogue: 0,0:19:35.30,0:19:36.15,Main Dialogue,Alice,0000,0000,0000,,Grandfather!
+Dialogue: 0,0:19:37.30,0:19:38.90,Italics Dialogue,Alice,0000,0000,0000,,When'd he get bare-chested?!
+Dialogue: 0,0:19:39.17,0:19:44.20,Main Dialogue,Sen,0000,0000,0000,,Alice, your bento \Ntook advantage of the cold.
+Dialogue: 0,0:19:44.20,0:19:47.12,Main Dialogue,Alice,0000,0000,0000,,Yes, because bentos should be chilled.
+Dialogue: 0,0:19:47.12,0:19:51.84,Main Dialogue,Sen,0000,0000,0000,,Yukihira Soma didn't get fixated like that.
+Dialogue: 0,0:19:52.99,0:19:56.42,Main Dialogue,Sen,0000,0000,0000,,He first thought about the bento container,
+Dialogue: 0,0:19:56.42,0:20:00.84,Main Dialogue,Sen,0000,0000,0000,,then filled it with entertainment \Nwhose flavor was enhanced by warmth.
+Dialogue: 0,0:20:01.23,0:20:03.51,Main Dialogue,Sen,0000,0000,0000,,That's what this bento is.
+Dialogue: 0,0:20:04.17,0:20:07.56,Main Dialogue,Sen,0000,0000,0000,,Of course, your dish was \Ndelicious in the extreme.
+Dialogue: 0,0:20:07.56,0:20:10.90,Main Dialogue,Sen,0000,0000,0000,,But wouldn't you say that you \Nwould've served the same dish
+Dialogue: 0,0:20:10.90,0:20:12.89,Main Dialogue,Sen,0000,0000,0000,,if the theme had been sushi?
+Dialogue: 0,0:20:13.97,0:20:18.19,Main Dialogue,Sen,0000,0000,0000,,You merely used your skills to fill that box.
+Dialogue: 0,0:20:18.53,0:20:21.48,Main Dialogue,Sen,0000,0000,0000,,There are flavors that can \Nonly be communicated through bento.
+Dialogue: 0,0:20:22.15,0:20:25.01,Main Dialogue,Sen,0000,0000,0000,,There are creative techniques \Nyou can devise to advance bento culture.
+Dialogue: 0,0:20:25.45,0:20:27.95,Main Dialogue,Sen,0000,0000,0000,,Bentos can be fun and \Ninnovative in their own way.
+Dialogue: 0,0:20:28.72,0:20:31.84,Main Dialogue,Sen,0000,0000,0000,,Did your dish capture any of that?
+Dialogue: 0,0:20:31.84,0:20:35.15,Main Dialogue,S,0000,0000,0000,,Well, sure...\N but what's important is the flavor.
+Dialogue: 0,0:20:35.15,0:20:37.04,Main Dialogue,S,0000,0000,0000,,I don't disagree with that.
+Dialogue: 0,0:20:37.77,0:20:40.21,Main Dialogue,S,0000,0000,0000,,Dig in, Nakiri Alice!
+Dialogue: 0,0:20:52.79,0:20:55.53,Flashback Dialogue,People,0000,0000,0000,,Alice-sama, you look well.
+Dialogue: 0,0:20:55.53,0:20:57.31,Flashback Dialogue,People,0000,0000,0000,,How is Erina-sama?
+Dialogue: 0,0:20:57.31,0:20:59.59,Flashback Dialogue,People,0000,0000,0000,,Please give Erina-sama my regards.
+Dialogue: 0,0:20:59.59,0:21:00.28,Flashback Dialogue,People,0000,0000,0000,,Erina-sama.
+Dialogue: 0,0:21:00.28,0:21:01.18,Flashback Dialogue,People,0000,0000,0000,,Erina-sama!
+Dialogue: 0,0:21:01.18,0:21:01.64,Flashback Dialogue,People,0000,0000,0000,,Erina-sama.
+Dialogue: 0,0:21:01.64,0:21:02.16,Flashback Dialogue,People,0000,0000,0000,,Erina-sama!
+Dialogue: 0,0:21:02.16,0:21:03.28,Flashback Dialogue,People,0000,0000,0000,,Erina-sama...
+Dialogue: 0,0:21:03.89,0:21:08.66,Flashback Dialogue,GirlA,0000,0000,0000,,Father, I would like to go to \Nyour research lab in Scandinavia!
+Dialogue: 0,0:21:08.66,0:21:11.52,Flashback Dialogue,GirlA,0000,0000,0000,,Please take me there now!
+Dialogue: 0,0:21:12.54,0:21:14.58,Italics Dialogue,GirlA,0000,0000,0000,,What's cutting edge... the most advanced...
+Dialogue: 0,0:21:15.01,0:21:18.35,Italics Dialogue,GirlA,0000,0000,0000,,I must gain weapons that are mine alone, \Nso that I won't lose to Erina...
+Dialogue: 0,0:21:19.34,0:21:21.67,Italics Dialogue,GirlA,0000,0000,0000,,I can't lose to anyone...
+Dialogue: 0,0:21:22.09,0:21:24.42,Italics Dialogue,GirlA,0000,0000,0000,,...before I win against Erina, and yet...
+Dialogue: 0,0:21:31.07,0:21:32.35,Main Dialogue,Sen,0000,0000,0000,,Bring me the brush!
+Dialogue: 0,0:21:54.43,0:21:56.12,Main Dialogue,GirlA,0000,0000,0000,,It's so warm...
+Dialogue: 0,0:21:59.40,0:22:01.52,Main Dialogue,Sen,0000,0000,0000,,Round one, match one!
+Dialogue: 0,0:22:01.52,0:22:02.81,Main Dialogue,Sen,0000,0000,0000,,The victor...
+Dialogue: 0,0:22:03.67,0:22:06.51,Soma Sign,Sign 2205,0000,0000,0000,,Yukihira Soma
+Dialogue: 0,0:22:04.25,0:22:06.51,Main Dialogue,Sen,0000,0000,0000,,...is Yukihira Soma!
+Dialogue: 0,0:22:07.31,0:22:08.34,Main Dialogue,Soma,0000,0000,0000,,Glad you liked it!
+Dialogue: 0,0:22:08.34,0:22:09.83,Main Dialogue,Ikumi,0000,0000,0000,,He won!
+Dialogue: 0,0:22:09.21,0:22:10.80,Main Dialogue,Yuki,0000,0000,0000,,Woohoo!
+Dialogue: 0,0:22:13.77,0:22:14.60,Main Dialogue,Takumi,0000,0000,0000,,Yukihira!
+Dialogue: 0,0:22:14.60,0:22:15.93,Main Dialogue,Hisako,0000,0000,0000,,Miss Alice...
+Dialogue: 0,0:22:17.78,0:22:22.07,Main Dialogue,Akira,0000,0000,0000,,Yukihira, you're really interesting.
+Dialogue: 0,0:23:52.61,0:23:54.49,sign_34348_487_Soma,Sign 2353,0000,0000,0000,,{\fad(500,1)}Soma
+Dialogue: 0,0:23:53.45,0:23:54.49,Main Dialogue,Megumi,0000,0000,0000,,Soma-kun.
+Dialogue: 0,0:23:54.49,0:23:55.47,Main Dialogue,Megumi,0000,0000,0000,,Wow!
+Dialogue: 0,0:23:55.47,0:23:56.66,Main Dialogue,Megumi,0000,0000,0000,,You're amazing!
+Dialogue: 0,0:23:57.35,0:23:58.94,Main Dialogue,Staff,0000,0000,0000,,The second match is about to begin.
+Dialogue: 0,0:23:58.94,0:23:59.76,Main Dialogue,Staff,0000,0000,0000,,Please get ready.
+Dialogue: 0,0:23:59.76,0:24:01.62,Main Dialogue,Megumi,0000,0000,0000,,Oh, o-okay.
+Dialogue: 0,0:24:02.33,0:24:03.58,Charm Sign,Sign 2403,0000,0000,0000,,Charm for \NAcademic \NSuccess
+Dialogue: 0,0:24:02.85,0:24:05.46,Italics Dialogue,Megumi,0000,0000,0000,,It's my turn next...
+Dialogue: 0,0:24:05.46,0:24:07.15,Door Sign,,0000,0000,0000,,
+Dialogue: 0,0:24:14.55,0:24:19.10,End Title 2,Sign 2418,0000,0000,0000,,{\fs18}The Second Dish
+Dialogue: 0,0:24:14.55,0:24:19.10,next_ep_title,Sign 2418,0000,0000,0000,,Next Episode: {\fs20}The Interplay of Light and Shadow
+Dialogue: 0,0:24:14.55,0:24:19.10,End Title,Sign 2418,0000,0000,0000,,F{\c&H1744E8&}o{\c&H146FED&}o{\c&H1A8BED&}d \N{\c&H89B717&}Wars
+Dialogue: 0,0:24:15.13,0:24:18.60,Main Dialogue,Sen,0000,0000,0000,,Next episode: "The Interplay of Light and Shadow."

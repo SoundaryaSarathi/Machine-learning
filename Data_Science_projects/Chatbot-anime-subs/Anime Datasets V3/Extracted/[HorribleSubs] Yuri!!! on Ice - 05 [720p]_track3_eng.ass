@@ -1,0 +1,412 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,0
+Style: TBC,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,107,27,0
+Style: Setting,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,67,53,133,0
+Style: Grand Prix,Open Sans Semibold,33,&H00170E06,&H000000FF,&H00A7ACA0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,260,27,91,0
+Style: Phone,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00484848,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: Rice Bowl,Open Sans Semibold,24,&H00484848,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,400,27,27,0
+Style: Channel,Open Sans Semibold,24,&H00343435,&H000000FF,&H00A5ABC1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,40,115,0
+Style: TV,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00170E06,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,53,53,53,0
+Style: WorldChampion,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,27,27,0
+Style: Yutopia,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00A93F77,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Ramen,Open Sans Semibold,30,&H00203195,&H000000FF,&H00CFCFE2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: SFX,Open Sans Semibold,33,&H001D1911,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Board,Open Sans Semibold,30,&H00DAD7D4,&H000000FF,&H00584E49,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,0
+Style: OkayamaRink,Open Sans Semibold,27,&H00B35B17,&H000000FF,&H00DADBD9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,27,0
+Style: SignA,Open Sans Semibold,30,&H00FCF5F1,&H000000FF,&H00A51821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: SignB,Open Sans Semibold,24,&H00484848,&H000000FF,&H00DAD9F0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Championship,Open Sans Semibold,24,&H00170E06,&H000000FF,&H00BE9A5C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,0
+Style: Age1,Open Sans Semibold,24,&H00000000,&H000000FF,&H0074E9DF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,661,36,0
+Style: Age2,Open Sans Semibold,24,&H00000000,&H000000FF,&H0074E9DF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,260,507,23,0
+Style: Age3,Open Sans Semibold,24,&H00000000,&H000000FF,&H0081F4A8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,393,360,20,0
+Style: Age4,Open Sans Semibold,24,&H00CB3924,&H000000FF,&H00DBDB8D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,688,27,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:29.98,0:01:40.16,Championship,Sign 0132,0000,0000,0000,,{\fad(902,1)}Let's Send the Power of Sports Throughout Japan! \NChugoku, Shikoku, and Kyushu Figure Skating Championship
+Dialogue: 0,0:01:32.49,0:01:33.35,Default - italics,Y,0000,0000,0000,,Hello!
+Dialogue: 0,0:01:33.35,0:01:36.77,Default - italics,Y,0000,0000,0000,,I'm Katsuki Yuri, one of the top figure \Nskaters certified by the JSF.
+Dialogue: 0,0:01:36.77,0:01:40.16,Default - italics,Y,0000,0000,0000,,My first competition this season is the \NChugoku, Shikoku, and Kyushu Championship.
+Dialogue: 0,0:01:40.60,0:01:44.18,Default - italics,Y,0000,0000,0000,,I hear I'm the oldest of the four skating \Nin the senior men's single division.
+Dialogue: 0,0:01:42.60,0:01:44.18,Age1,Y,0000,0000,0000,,Age 17
+Dialogue: 0,0:01:42.81,0:01:44.18,Age2,Y,0000,0000,0000,,Age 17
+Dialogue: 0,0:01:43.06,0:01:44.18,Age3,Y,0000,0000,0000,,Age 18
+Dialogue: 0,0:01:43.43,0:01:44.18,Age4,Y,0000,0000,0000,,Age 23
+Dialogue: 0,0:01:45.72,0:01:47.21,Default - italics,,0000,0000,0000,,Anything but the first spot!
+Dialogue: 0,0:01:47.21,0:01:47.92,Default - italics,,0000,0000,0000,,Not the first spot!
+Dialogue: 0,0:01:48.41,0:01:50.06,Default,Staff,0000,0000,0000,,Skater Katsuki Yuri, you're up first.
+Dialogue: 0,0:01:50.06,0:01:51.67,Default - italics,Y,0000,0000,0000,,Not again...
+Dialogue: 0,0:01:51.67,0:01:53.68,Default - italics,Y,0000,0000,0000,,I have the most horrible luck of the draw.
+Dialogue: 0,0:01:53.35,0:01:54.19,Default,Guy,0000,0000,0000,,Hey.
+Dialogue: 0,0:01:53.68,0:01:55.10,Default - italics,Y,0000,0000,0000,,It was the same in the last Nationals...
+Dialogue: 0,0:01:55.10,0:01:56.03,Default - italics,Y,0000,0000,0000,,Hm?
+Dialogue: 0,0:01:56.03,0:01:59.66,Default,Minami,0000,0000,0000,,I got to see you draw the first spot \Nin person again, Yuri-kun!
+Dialogue: 0,0:01:59.66,0:02:00.64,Default,Minami,0000,0000,0000,,I love it!
+Dialogue: 0,0:02:02.66,0:02:03.81,Default,Y,0000,0000,0000,,Um...
+Dialogue: 0,0:02:03.01,0:02:05.39,Default,Minami,0000,0000,0000,,What, you don't remember me?
+Dialogue: 0,0:02:05.39,0:02:07.22,Default,Minami,0000,0000,0000,,What a shock!
+Dialogue: 0,0:02:05.99,0:02:07.22,Default,Staff,0000,0000,0000,,Next up is skater Minami.
+Dialogue: 0,0:02:07.22,0:02:08.96,Default,M,0000,0000,0000,,Right here! I'm Minami Kenjiro!
+Dialogue: 0,0:02:09.35,0:02:10.84,Default - italics,Y,0000,0000,0000,,Who's he again?
+Dialogue: 0,0:02:10.84,0:02:13.23,Default,M,0000,0000,0000,,Yay! I'm going fourth!
+Dialogue: 0,0:02:13.23,0:02:18.24,Title,Sign 0214,0000,0000,0000,,{\fs16}Fifth Skate \N{\fs20}Face Beet-Red!! It's the First Competition! \NThe Chugoku, Shikoku, and Kyushu Championship
+Dialogue: 0,0:02:13.79,0:02:15.85,Default,Y,0000,0000,0000,,Face Beet-Red!! It's the First Competition!
+Dialogue: 0,0:02:15.85,0:02:18.24,Default,Y,0000,0000,0000,,The Chugoku, Shikoku, and Kyushu Championship.
+Dialogue: 0,0:02:18.98,0:02:22.24,Default,V,0000,0000,0000,,We've timed him to peak at the Grand \NPrix Final, so this isn't a problem.
+Dialogue: 0,0:02:22.88,0:02:26.50,Default,V,0000,0000,0000,,He can take it easy and earn \Na personal best score today!
+Dialogue: 0,0:02:26.50,0:02:30.58,Default,Y,0000,0000,0000,,I think I've told you this many times, but in \Nlast year's Nationals, I bombed everything.
+Dialogue: 0,0:02:30.58,0:02:32.61,Default,Y,0000,0000,0000,,They wondered if I was injured, \Nbut embarrassingly,
+Dialogue: 0,0:02:32.61,0:02:34.54,Default,Y,0000,0000,0000,,nothing was physically wrong with me.
+Dialogue: 0,0:02:34.54,0:02:37.50,Default,Y,0000,0000,0000,,I lost, despite being a top contender, \Nbecause I was mentally weak.
+Dialogue: 0,0:02:37.50,0:02:38.51,Default,V,0000,0000,0000,,Wow.
+Dialogue: 0,0:02:38.51,0:02:43.01,OkayamaRink,Sign 0240,0000,0000,0000,,Okayama International Skate Rink
+Dialogue: 0,0:02:39.56,0:02:43.01,Default - italics,Y,0000,0000,0000,,I haven't been in a single competition \Nsince last year's Nationals.
+Dialogue: 0,0:02:43.01,0:02:45.01,Default,V,0000,0000,0000,,Maccachin's cheering for you, too!
+Dialogue: 0,0:02:45.01,0:02:47.62,Default - italics,Y,0000,0000,0000,,I've been practicing with Victor this whole time,
+Dialogue: 0,0:02:45.59,0:02:47.62,Default,Y,0000,0000,0000,,Oh, yeah. Real cute.
+Dialogue: 0,0:02:47.62,0:02:48.77,Default,V,0000,0000,0000,,Try to be happier.
+Dialogue: 0,0:02:48.77,0:02:50.85,Default - italics,Y,0000,0000,0000,,but to be honest, I'm still not sure about myself.
+Dialogue: 0,0:02:51.71,0:02:55.82,Default - italics,Y,0000,0000,0000,,I have to figure out if I'm in good enough \Nshape for the Grand Prix series.
+Dialogue: 0,0:02:56.59,0:02:58.90,Default - italics,Y,0000,0000,0000,,The other skaters don't matter.
+Dialogue: 0,0:03:00.70,0:03:02.87,Default,Coach,0000,0000,0000,,{\an8}Minami-kun, focus, okay? Focus!
+Dialogue: 0,0:03:00.94,0:03:02.87,Default - italics,Y,0000,0000,0000,,I feel someone staring at me...
+Dialogue: 0,0:03:03.49,0:03:06.21,Default,Coach,0000,0000,0000,,Remember how focused you \Nwere at the Nationals!
+Dialogue: 0,0:03:06.21,0:03:08.62,Default,Coach,0000,0000,0000,,Don't get overwhelmed by \Nthe energy around you!
+Dialogue: 0,0:03:09.64,0:03:11.01,Default - italics,Y,0000,0000,0000,,Focus! Focus!
+Dialogue: 0,0:03:12.91,0:03:13.63,Default,Minako,0000,0000,0000,,Wow.
+Dialogue: 0,0:03:13.63,0:03:15.28,Default,Minako,0000,0000,0000,,What a crowd.
+Dialogue: 0,0:03:15.28,0:03:17.57,Default,Nishi,0000,0000,0000,,It's been like this since the \Npublic practice this morning.
+Dialogue: 0,0:03:17.57,0:03:18.93,Default,Minako,0000,0000,0000,,Is Yuri okay?
+Dialogue: 0,0:03:18.93,0:03:21.11,Default,Minako,0000,0000,0000,,He tends to get nervous before competitions.
+Dialogue: 0,0:03:21.63,0:03:23.33,Default,Y,0000,0000,0000,,Have you seen Victor?
+Dialogue: 0,0:03:23.33,0:03:25.14,Default,Y,0000,0000,0000,,The competition's about to start.
+Dialogue: 0,0:03:25.14,0:03:26.31,Default,V,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:03:26.31,0:03:28.14,Default,Y,0000,0000,0000,,Why did you change clothes?
+Dialogue: 0,0:03:28.51,0:03:33.45,Default,V,0000,0000,0000,,Today is my glorious debut as a coach, \Nso I should be in formal dress.
+Dialogue: 0,0:03:33.45,0:03:34.90,Default,Y,0000,0000,0000,,You're exactly right...
+Dialogue: 0,0:03:34.90,0:03:38.65,Default,Minako,0000,0000,0000,,That Russian coach stands out \Nmore than the skaters.
+Dialogue: 0,0:03:41.65,0:03:45.05,Default,News,0000,0000,0000,,{\an8}Ladies and gentlemen, this event \Nis the senior men's short program.
+Dialogue: 0,0:03:42.05,0:03:46.61,Default,V,0000,0000,0000,,As your coach, what should I say before \Nsending you off to the program?
+Dialogue: 0,0:03:45.05,0:03:47.72,Default,News,0000,0000,0000,,{\an8}Will the competitors please \Ntake the ice for your warm-up?
+Dialogue: 0,0:03:46.61,0:03:48.42,Default,V,0000,0000,0000,,What I'm thinking of right now is...
+Dialogue: 0,0:03:47.72,0:03:49.62,Default,News,0000,0000,0000,,{\an8}You have six minutes.
+Dialogue: 0,0:03:49.93,0:03:52.37,Default - italics,Y,0000,0000,0000,,My goal is to reach the Grand Prix Final.
+Dialogue: 0,0:03:52.37,0:03:54.63,Default - italics,Y,0000,0000,0000,,I can't get nervous already at this stage.
+Dialogue: 0,0:03:56.47,0:03:57.88,Default,Minako,0000,0000,0000,,He's nervous...
+Dialogue: 0,0:03:58.45,0:04:00.36,Default,News,0000,0000,0000,,Gentlemen, the warm-up has ended.
+Dialogue: 0,0:04:00.36,0:04:03.10,Default,News,0000,0000,0000,,Please leave the ice.
+Dialogue: 0,0:04:07.88,0:04:09.99,Default - italics,Y,0000,0000,0000,,Why is Victor getting all prickly?
+Dialogue: 0,0:04:09.99,0:04:11.41,Default,V,0000,0000,0000,,Yuri, turn around.
+Dialogue: 0,0:04:11.41,0:04:12.10,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:12.10,0:04:13.38,Default,V,0000,0000,0000,,Turn around, okay?
+Dialogue: 0,0:04:13.38,0:04:15.10,Default,Y,0000,0000,0000,,Um, like this?
+Dialogue: 0,0:04:26.11,0:04:27.95,Default,V,0000,0000,0000,,Seduce me with all you have.
+Dialogue: 0,0:04:28.68,0:04:30.73,Default,V,0000,0000,0000,,If your performance can charm me,
+Dialogue: 0,0:04:30.73,0:04:33.21,Default,V,0000,0000,0000,,you can enthrall the entire audience.
+Dialogue: 0,0:04:33.55,0:04:35.54,Default,V,0000,0000,0000,,That's what I always say in practice, right?
+Dialogue: 0,0:04:35.54,0:04:36.71,Default,Y,0000,0000,0000,,R-Right.
+Dialogue: 0,0:04:36.71,0:04:39.21,Default,Minako,0000,0000,0000,,Good luck, Yuri!
+Dialogue: 0,0:04:37.27,0:04:39.21,Default,Nishi,0000,0000,0000,,Good luck!
+Dialogue: 0,0:04:41.92,0:04:42.72,Default - italics,Y,0000,0000,0000,,Remember...
+Dialogue: 0,0:04:43.59,0:04:45.22,Default - italics,Y,0000,0000,0000,,Just skate like you do in practice.
+Dialogue: 0,0:04:51.00,0:04:53.64,Default - italics,Y,0000,0000,0000,,I'm going to become a \Nbeautiful pork cutlet bowl!
+Dialogue: 0,0:05:13.37,0:05:16.58,Default - italics,Y,0000,0000,0000,,Come on, guys! What's with \Nthis lukewarm response?
+Dialogue: 0,0:05:16.97,0:05:20.46,Default - italics,Y,0000,0000,0000,,Back at Hot Springs on Ice, \Nthey were way more enthusiastic.
+Dialogue: 0,0:05:21.11,0:05:23.80,Default - italics,Y,0000,0000,0000,,No, I bet Victor would like this step sequence.
+Dialogue: 0,0:05:28.19,0:05:28.89,Default - flashback,V,0000,0000,0000,,Yuri!
+Dialogue: 0,0:05:28.89,0:05:31.23,Default - flashback,V,0000,0000,0000,,Try to imagine entangling more of the egg.
+Dialogue: 0,0:05:31.23,0:05:32.61,Default - flashback,V,0000,0000,0000,,Think of the pork cutlet bowl!
+Dialogue: 0,0:05:32.61,0:05:33.35,Default - flashback,Y,0000,0000,0000,,Right!
+Dialogue: 0,0:05:33.66,0:05:36.94,Default - flashback,V,0000,0000,0000,,Yuri, dance more like you're \Ntrying to seduce me.
+Dialogue: 0,0:05:37.71,0:05:38.44,Default - italics,Y,0000,0000,0000,,That's right.
+Dialogue: 0,0:05:38.81,0:05:42.94,Default - italics,Y,0000,0000,0000,,I'm a pork cutlet bowl \Nfatale that enthralls men.
+Dialogue: 0,0:05:42.94,0:05:46.20,Default - italics,Y,0000,0000,0000,,First up is a spread eagle into a triple axel.
+Dialogue: 0,0:05:48.37,0:05:49.24,Default - italics,Y,0000,0000,0000,,Great!
+Dialogue: 0,0:05:49.74,0:05:52.33,Default - italics,Y,0000,0000,0000,,I'll continue the momentum \Nwith a quadruple Salchow!
+Dialogue: 0,0:05:57.43,0:05:58.61,Default - italics,Y,0000,0000,0000,,Over-rotation!
+Dialogue: 0,0:06:00.28,0:06:02.50,Default - flashback,V,0000,0000,0000,,I was drawn to you because of...
+Dialogue: 0,0:06:02.50,0:06:06.42,Default - flashback,V,0000,0000,0000,,The way you skate like your \Nbody is creating music.
+Dialogue: 0,0:06:06.42,0:06:07.38,Default - italics,V,0000,0000,0000,,Great, Yuri!
+Dialogue: 0,0:06:07.38,0:06:08.44,Default - italics,V,0000,0000,0000,,It's perfect!
+Dialogue: 0,0:06:08.92,0:06:12.10,Default - italics,Y,0000,0000,0000,,The last jump is a combination,\Nso it's worth the most points.
+Dialogue: 0,0:06:12.92,0:06:14.47,Default - italics,Y,0000,0000,0000,,A quad into a triple—
+Dialogue: 0,0:06:15.31,0:06:17.09,Default - italics,Y,0000,0000,0000,,Crap, it turned into a double.
+Dialogue: 0,0:06:18.73,0:06:19.77,Default - italics,Y,0000,0000,0000,,This is the last element...
+Dialogue: 0,0:06:24.78,0:06:27.62,Default - italics,Y,0000,0000,0000,,On to the conclusion for the love-crazed couple...
+Dialogue: 0,0:06:27.62,0:06:29.20,Default - italics,Y,0000,0000,0000,,Er, so how did it go?
+Dialogue: 0,0:06:29.20,0:06:31.87,Default - italics,Y,0000,0000,0000,,That's right, the woman casts \Naside the man she seduced
+Dialogue: 0,0:06:31.87,0:06:32.91,Default - italics,Y,0000,0000,0000,,and leaves for the next man!
+Dialogue: 0,0:06:36.79,0:06:39.28,Default,Minami,0000,0000,0000,,That was so cool, Yuri-kun!
+Dialogue: 0,0:06:39.28,0:06:40.97,Default,Minami,0000,0000,0000,,That was awesome!
+Dialogue: 0,0:06:40.97,0:06:41.54,Default - italics,Y,0000,0000,0000,,Who's that?
+Dialogue: 0,0:06:42.89,0:06:44.29,Default - italics,Y,0000,0000,0000,,I managed to finish somehow.
+Dialogue: 0,0:06:45.21,0:06:46.88,Default - italics,Y,0000,0000,0000,,I wonder if I did okay.
+Dialogue: 0,0:06:47.29,0:06:48.38,Default - italics,Y,0000,0000,0000,,What does Victor think?
+Dialogue: 0,0:06:50.88,0:06:52.46,Default,V,0000,0000,0000,,The first half was great.
+Dialogue: 0,0:06:52.46,0:06:55.44,Default,V,0000,0000,0000,,But you were too focused on jumps in the \Nsecond, so your performance got sloppy.
+Dialogue: 0,0:06:55.44,0:06:55.72,Default,Y,0000,0000,0000,,Right.
+Dialogue: 0,0:06:55.72,0:06:57.20,Default,V,0000,0000,0000,,I don't really like that kind of thing.
+Dialogue: 0,0:06:57.20,0:06:57.98,Default,Y,0000,0000,0000,,Right.
+Dialogue: 0,0:06:57.98,0:06:59.30,Default,Minako,0000,0000,0000,,Why's he getting scolded?
+Dialogue: 0,0:06:59.30,0:07:01.52,Default,Minako,0000,0000,0000,,He really got the audience fired up.
+Dialogue: 0,0:07:02.95,0:07:04.94,Default,Nishi,0000,0000,0000,,He may score a personal best...
+Dialogue: 0,0:07:04.94,0:07:07.15,Default,News,0000,0000,0000,,The scores, please, for Katsuki Yuri-san.
+Dialogue: 0,0:07:07.47,0:07:09.29,Default,News,0000,0000,0000,,His short program score: 94.36.
+Dialogue: 0,0:07:09.29,0:07:11.41,Default,News,0000,0000,0000,,He is currently in first place.
+Dialogue: 0,0:07:11.41,0:07:14.41,Default,Minako,0000,0000,0000,,He beat his previous best by almost ten points!
+Dialogue: 0,0:07:12.23,0:07:13.73,Default,Audience,0000,0000,0000,,Amazing!
+Dialogue: 0,0:07:14.41,0:07:16.16,Default,Moro,0000,0000,0000,,While this won't be an official record,
+Dialogue: 0,0:07:16.16,0:07:19.63,Default,Moro,0000,0000,0000,,this would've been among the \Ntop ten scores in the world!
+Dialogue: 0,0:07:20.51,0:07:23.13,Default,V,0000,0000,0000,,Hmm... Since you weren't under pressure,
+Dialogue: 0,0:07:23.13,0:07:25.17,Default,V,0000,0000,0000,,I thought you'd score in the hundreds.
+Dialogue: 0,0:07:25.17,0:07:30.42,Default,Y,0000,0000,0000,,Right, you've scored above a hundred points\Nto break the world record multiple times.
+Dialogue: 0,0:07:30.76,0:07:31.81,Default,V,0000,0000,0000,,Oh, right, Yuri.
+Dialogue: 0,0:07:31.81,0:07:33.30,Default,V,0000,0000,0000,,About tomorrow's free skate...
+Dialogue: 0,0:07:34.13,0:07:36.56,Default,V,0000,0000,0000,,Lower the difficulty of the jumps \Nand focus on performance.
+Dialogue: 0,0:07:36.97,0:07:37.61,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:37.61,0:07:40.10,Default,V,0000,0000,0000,,You've never nailed them \Nduring practice, have you?
+Dialogue: 0,0:07:40.10,0:07:40.56,Default,Y,0000,0000,0000,,But...
+Dialogue: 0,0:07:40.56,0:07:44.30,Default,V,0000,0000,0000,,It's not a bad idea to lower the \Ndifficulty early in the season, is it?
+Dialogue: 0,0:07:44.30,0:07:47.54,Default,V,0000,0000,0000,,You should prioritize adjusting your \Nprograms to help you reach your peak
+Dialogue: 0,0:07:47.54,0:07:48.57,Default,V,0000,0000,0000,,for the Grand Prix Final.
+Dialogue: 0,0:07:48.37,0:07:52.61,Default,,0000,0000,0000,,{\an8}Representing Kure Higashi High School Skate Club, please welcome Fujiwara Hikaru-san.
+Dialogue: 0,0:07:49.58,0:07:51.45,Default,V,0000,0000,0000,,Are you saying you can't listen to your coach?
+Dialogue: 0,0:07:54.82,0:07:56.20,Default,Minami,0000,0000,0000,,That was amazing!
+Dialogue: 0,0:07:56.64,0:08:02.21,Default,Minami,0000,0000,0000,,Yuri-kun's pure charms became a rich eros \Nin the best form of betrayal possible!
+Dialogue: 0,0:07:59.34,0:08:01.10,Default,Kanako,0000,0000,0000,,{\an8}Minami-kun, get ready.
+Dialogue: 0,0:08:01.10,0:08:02.67,Default,Kanako,0000,0000,0000,,{\an8}It's almost time.
+Dialogue: 0,0:08:02.67,0:08:04.04,Default,Minami,0000,0000,0000,,Kanako-sensei, you saw it, right?
+Dialogue: 0,0:08:04.04,0:08:05.30,Default,Minami,0000,0000,0000,,You saw that triple axel?
+Dialogue: 0,0:08:05.30,0:08:07.87,Default,Minami,0000,0000,0000,,For me, that was a GOE of 3,000,000 points!
+Dialogue: 0,0:08:07.87,0:08:11.47,Default,Kanako,0000,0000,0000,,Yeah, I hope you can land your Achilles \Nheel, the triple axel, this time.
+Dialogue: 0,0:08:11.47,0:08:12.58,Default,Minami,0000,0000,0000,,Yeah!
+Dialogue: 0,0:08:12.58,0:08:15.34,Default,Minami,0000,0000,0000,,I'm gonna show Yuri-kun my skating!
+Dialogue: 0,0:08:15.34,0:08:17.59,Default,Moro,0000,0000,0000,,How do you feel looking ahead to the free skate?
+Dialogue: 0,0:08:16.50,0:08:19.71,Default,News,0000,0000,0000,,{\an8}This concludes the men's singles short program.
+Dialogue: 0,0:08:17.59,0:08:18.48,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:18.48,0:08:19.71,Default,Y,0000,0000,0000,,Tomorrow's free skate—
+Dialogue: 0,0:08:19.71,0:08:22.10,Default,V,0000,0000,0000,,Of course you'll see Yuri be perfect.
+Dialogue: 0,0:08:22.45,0:08:25.46,Default,Minami,0000,0000,0000,,And I managed to land the triple axel, too!
+Dialogue: 0,0:08:25.46,0:08:27.63,Default,Kanako,0000,0000,0000,,That was your best performance yet!
+Dialogue: 0,0:08:27.63,0:08:28.11,Default,Minami,0000,0000,0000,,Oh!
+Dialogue: 0,0:08:28.48,0:08:30.61,Default,Minami,0000,0000,0000,,Did you see my "Lohengrin" performance?
+Dialogue: 0,0:08:31.03,0:08:33.74,Default,Y,0000,0000,0000,,I was being interviewed, so I didn't. Sorry.
+Dialogue: 0,0:08:37.41,0:08:42.08,Default,Minami,0000,0000,0000,,I even had a similar costume made to the one \Nfrom your famous "Lohengrin" program.
+Dialogue: 0,0:08:42.48,0:08:44.58,Default,Y,0000,0000,0000,,That's a costume from my dark past...
+Dialogue: 0,0:08:44.93,0:08:47.58,Default,Minami,0000,0000,0000,,You don't have a dark past!
+Dialogue: 0,0:08:47.95,0:08:51.59,Default,Minami,0000,0000,0000,,Don't make fun of me for looking up to you \Nfor so long and trying to catch up to you!
+Dialogue: 0,0:08:51.59,0:08:55.01,Default,Minami,0000,0000,0000,,I'm gonna give tomorrow's free \Nskate everything I've got!
+Dialogue: 0,0:08:55.01,0:08:57.09,Default,Minami,0000,0000,0000,,Please give it all you've got, too, Yuri-kun!
+Dialogue: 0,0:08:57.09,0:08:59.34,Default,Minami,0000,0000,0000,,I won't forgive you if you slack off!
+Dialogue: 0,0:08:59.34,0:09:00.31,Default,Moro,0000,0000,0000,,Wow!
+Dialogue: 0,0:09:00.31,0:09:02.85,Default,Moro,0000,0000,0000,,Skater Minami's issued a challenge!
+Dialogue: 0,0:09:02.85,0:09:06.80,Default,Moro,0000,0000,0000,,At last year's Nationals, skater Minami Kenjiro \Nfinished ahead of skater Katsuki.
+Dialogue: 0,0:09:06.80,0:09:10.08,Default - italics,Y,0000,0000,0000,,He's the one whose total score was way higher\Nthan mine because I self-destructed...
+Dialogue: 0,0:09:07.24,0:09:08.74,Default,Moro,0000,0000,0000,,{\an8}His first senior division competition
+Dialogue: 0,0:09:08.74,0:09:10.92,Default,Moro,0000,0000,0000,,{\an8}will be a clash over a possible \Nchanging of the guard!
+Dialogue: 0,0:09:10.08,0:09:11.19,Default - italics,Y,0000,0000,0000,,Minami-kun!
+Dialogue: 0,0:09:10.92,0:09:13.42,Default,Moro,0000,0000,0000,,{\an8}Here in Okayama, skater Katsuki will face him
+Dialogue: 0,0:09:11.86,0:09:13.42,Default - italics,Y,0000,0000,0000,,Crap...
+Dialogue: 0,0:09:13.42,0:09:15.86,Default,Moro,0000,0000,0000,,{\an8}with the first public performance \Nof his free skate program!
+Dialogue: 0,0:09:22.62,0:09:25.36,Default,Moro,0000,0000,0000,,The Chugoku, Shikoku, and Kyushu \NFigure Skating Championship's
+Dialogue: 0,0:09:25.36,0:09:27.87,Default,Moro,0000,0000,0000,,men's singles free skate is about to begin.
+Dialogue: 0,0:09:28.26,0:09:31.73,Default,Moro,0000,0000,0000,,All eyes are on skater Katsuki Yuri \Nand his coach Victor Nikiforov.
+Dialogue: 0,0:09:31.73,0:09:32.35,Default,,0000,0000,0000,,Hi!
+Dialogue: 0,0:09:32.35,0:09:34.90,Default,Moro,0000,0000,0000,,Katsuki ended yesterday's short program \Nin first place by a large margin,
+Dialogue: 0,0:09:33.38,0:09:38.39,SignB,Sign 0936,0000,0000,0000,,Chugoku, Shikoku, and Kyushu Championship \NOkayama International Skate Rink (Okayama City) \N\NSenior Men's Singles \NShort Program Standings \N\NName                   Affiliation \N1) Katsuki Yuri        Ice Castle Hasetsu
+Dialogue: 0,0:09:34.90,0:09:39.02,Default,Moro,0000,0000,0000,,scoring a personal best of 94.36.
+Dialogue: 0,0:09:39.02,0:09:42.39,Default,Moro,0000,0000,0000,,In his free skate, he will attempt three quads.
+Dialogue: 0,0:09:43.39,0:09:47.31,Default - italics,Y,0000,0000,0000,,Victor and I decided to lower the difficulty \Nand only do one quad, but...
+Dialogue: 0,0:09:47.31,0:09:49.79,Default,Minami,0000,0000,0000,,I'm gonna try a quad, too!
+Dialogue: 0,0:09:49.79,0:09:50.68,Default,A,0000,0000,0000,,Seriously?
+Dialogue: 0,0:09:50.68,0:09:52.93,Default,A,0000,0000,0000,,You've never landed one, not even in practice!
+Dialogue: 0,0:09:52.93,0:09:54.09,Default,B,0000,0000,0000,,I'll try one, too!
+Dialogue: 0,0:09:54.09,0:09:55.40,Default,A,0000,0000,0000,,Okay, I'll try, too.
+Dialogue: 0,0:09:56.37,0:10:00.26,Default,News,0000,0000,0000,,Ladies and gentlemen, we'll now begin the \Nsenior men's singles free skate event.
+Dialogue: 0,0:10:00.26,0:10:03.41,Default,News,0000,0000,0000,,Will the competitors please take \Nthe ice for your warm-up?
+Dialogue: 0,0:10:03.41,0:10:05.66,Default,News,0000,0000,0000,,You have six minutes.
+Dialogue: 0,0:10:10.17,0:10:11.71,Default - italics,Y,0000,0000,0000,,No, no.
+Dialogue: 0,0:10:11.71,0:10:13.98,Default - italics,Y,0000,0000,0000,,I have to focus on myself!
+Dialogue: 0,0:10:13.98,0:10:15.24,Default,V,0000,0000,0000,,Yuri...
+Dialogue: 0,0:10:16.30,0:10:21.63,Default,V,0000,0000,0000,,How can someone who can't motivate \Nothers motivate himself?
+Dialogue: 0,0:10:22.03,0:10:24.14,Default,V,0000,0000,0000,,I'm disappointed in you.
+Dialogue: 0,0:10:29.40,0:10:33.30,Default - italics,Y,0000,0000,0000,,What about my own motivation \Nthat he just destroyed?
+Dialogue: 0,0:10:34.86,0:10:39.66,Default,News,0000,0000,0000,,Representing Hakata Skate Club, \Nplease welcome Minami Kenjiro-san.
+Dialogue: 0,0:10:39.66,0:10:40.85,Default,Kanako,0000,0000,0000,,Hey, are you listening to me?
+Dialogue: 0,0:10:40.85,0:10:44.14,Default,Kanako,0000,0000,0000,,You're nervous, aren't you, Minami-kun?
+Dialogue: 0,0:10:44.14,0:10:46.12,Default,Fans,0000,0000,0000,,Good luck, Minami-kun!
+Dialogue: 0,0:10:50.12,0:10:52.63,Default - flashback,Minami,0000,0000,0000,,You don't have a dark past!
+Dialogue: 0,0:10:53.04,0:10:56.63,Default - flashback,Minami,0000,0000,0000,,Don't make fun of me for looking up to you \Nfor so long and trying to catch up to you!
+Dialogue: 0,0:11:02.59,0:11:06.39,Default,Y,0000,0000,0000,,Good luck, Minami-kun!
+Dialogue: 0,0:11:08.14,0:11:09.77,Default,Y,0000,0000,0000,,Good luck!
+Dialogue: 0,0:11:27.66,0:11:29.69,Default - italics,Y,0000,0000,0000,,Minami-kun's firing up the crowd right off!
+Dialogue: 0,0:11:29.69,0:11:30.90,Default - italics,Y,0000,0000,0000,,I guess he's popular.
+Dialogue: 0,0:11:32.08,0:11:33.48,Default - italics,Minami,0000,0000,0000,,First, a triple axel.
+Dialogue: 0,0:11:40.05,0:11:41.93,Default - italics,Y,0000,0000,0000,,Oh, he'll make the next one just fine!
+Dialogue: 0,0:11:44.18,0:11:46.85,Default - italics,Minami,0000,0000,0000,,Next up, a quadruple toe loop!
+Dialogue: 0,0:11:50.90,0:11:52.19,Default - italics,Y,0000,0000,0000,,Wow.
+Dialogue: 0,0:11:52.19,0:11:53.90,Default - italics,Y,0000,0000,0000,,Is he going to go on a roll?
+Dialogue: 0,0:12:00.74,0:12:05.31,Default - italics,Y,0000,0000,0000,,Man, the way he's so inconsistent...
+Dialogue: 0,0:12:05.31,0:12:07.12,Default - italics,Y,0000,0000,0000,,He reminds me of the skater I used to be.
+Dialogue: 0,0:12:08.57,0:12:10.46,Default - italics,Y,0000,0000,0000,,I can't take my eyes off him.
+Dialogue: 0,0:12:19.93,0:12:23.95,Default - italics,Y,0000,0000,0000,,He already has the necessary skill \Nset to compete in figure skating.
+Dialogue: 0,0:13:29.10,0:13:30.87,Default - italics,Y,0000,0000,0000,,I can tell by the cheers alone
+Dialogue: 0,0:13:33.10,0:13:35.46,Default - italics,Y,0000,0000,0000,,that you're the star on the stage.
+Dialogue: 0,0:13:45.42,0:13:48.01,Default,Y,0000,0000,0000,,The scores, please, for Minami Kenjiro-san.
+Dialogue: 0,0:13:48.01,0:13:50.02,Default,,0000,0000,0000,,His free skate program score: 152.14.
+Dialogue: 0,0:13:50.02,0:13:53.34,Default,,0000,0000,0000,,His total score: 214.97.
+Dialogue: 0,0:13:51.43,0:13:52.82,Default,Minami,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:52.82,0:13:54.68,Default,Minami,0000,0000,0000,,My personal best score!
+Dialogue: 0,0:13:53.34,0:13:54.68,Default,,0000,0000,0000,,He is currently in first place.
+Dialogue: 0,0:13:56.42,0:14:01.69,Default,News,0000,0000,0000,,{\an8}Representing Kure Higashi High School Skate Club, please welcome Fujiwara Hikaru-san.
+Dialogue: 0,0:13:59.79,0:14:01.69,Default,Minami,0000,0000,0000,,Go!
+Dialogue: 0,0:14:07.40,0:14:08.41,Default,A,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:08.86,0:14:14.04,Default,News,0000,0000,0000,,{\an8}Representing Okayama Fine Arts University \NHigh School, please welcome Omiki Yuto-san.
+Dialogue: 0,0:14:09.97,0:14:11.38,Default,B,0000,0000,0000,,Okay, me too!
+Dialogue: 0,0:14:11.38,0:14:12.03,Default,BCoach,0000,0000,0000,,Go!
+Dialogue: 0,0:14:12.42,0:14:14.04,Default,Minami,0000,0000,0000,,Good luck!
+Dialogue: 0,0:14:19.35,0:14:22.49,Default,Minami,0000,0000,0000,,Great! If he keeps it up, it'll be \Na personal best for sure!
+Dialogue: 0,0:14:42.07,0:14:44.04,Default,V,0000,0000,0000,,Yeah, this costume's great.
+Dialogue: 0,0:14:44.04,0:14:45.98,Default,V,0000,0000,0000,,You look beautiful in it.
+Dialogue: 0,0:14:48.22,0:14:49.49,Default,V,0000,0000,0000,,Your lips are chapped.
+Dialogue: 0,0:15:05.16,0:15:09.42,Default,Minako,0000,0000,0000,,I heard he's only doing one quad at \Nthe beginning this time, but...
+Dialogue: 0,0:15:09.42,0:15:11.84,Default,Nishi,0000,0000,0000,,He hates making compromises, yeah.
+Dialogue: 0,0:15:12.14,0:15:14.60,Default,,0000,0000,0000,,Good luck, Yuri-kun!
+Dialogue: 0,0:15:12.91,0:15:17.33,Default,News,0000,0000,0000,,{\an8}Representing Ice Castle Hasetsu, \Nplease welcome Katsuki Yuri-san.
+Dialogue: 0,0:15:14.60,0:15:17.33,Default,Moro,0000,0000,0000,,For this first public performance \Nof his free program,
+Dialogue: 0,0:15:17.33,0:15:21.53,Default,Moro,0000,0000,0000,,the music is an original composition \Nexpressing Katsuki's skating career,
+Dialogue: 0,0:15:21.53,0:15:23.46,Default,Moro,0000,0000,0000,,titled "Yuri on Ice."
+Dialogue: 0,0:15:23.46,0:15:25.72,Default,Moro,0000,0000,0000,,The program was choreographed \Nby Victor Nikiforov.
+Dialogue: 0,0:15:37.33,0:15:42.83,Default - italics,V,0000,0000,0000,,This program starts off with the Yuri from \Nback when he felt he was fighting alone.
+Dialogue: 0,0:15:44.68,0:15:47.08,Default - italics,V,0000,0000,0000,,The first jump is a quad-triple combination.
+Dialogue: 0,0:15:47.58,0:15:50.76,Default - italics,V,0000,0000,0000,,He's been landing it just fine during practice.
+Dialogue: 0,0:15:54.93,0:15:56.19,Default,Minami,0000,0000,0000,,A quad-double!
+Dialogue: 0,0:15:56.19,0:15:57.53,Default,Minami,0000,0000,0000,,He nailed it!
+Dialogue: 0,0:15:59.08,0:16:01.30,Default - italics,V,0000,0000,0000,,He changed the triple to a double?
+Dialogue: 0,0:16:01.30,0:16:03.56,Default - italics,V,0000,0000,0000,,He's changing the jump elements?
+Dialogue: 0,0:16:04.78,0:16:07.07,Default - italics,V,0000,0000,0000,,Is he going to add a triple in the second half?
+Dialogue: 0,0:16:09.13,0:16:13.32,Default - italics,V,0000,0000,0000,,Or is he going back to having three quads?
+Dialogue: 0,0:16:14.12,0:16:16.24,Default - italics,V,0000,0000,0000,,Do you remember how I told you to focus
+Dialogue: 0,0:16:16.24,0:16:19.91,Default - italics,V,0000,0000,0000,,more on refining the program \Nthan being distracted by jumps?
+Dialogue: 0,0:16:24.53,0:16:26.35,Default - italics,V,0000,0000,0000,,You look too stiff!
+Dialogue: 0,0:16:26.35,0:16:30.17,Default - italics,V,0000,0000,0000,,This is the part that expresses when \NI showed up as your coach, right?
+Dialogue: 0,0:16:30.53,0:16:33.30,Default - italics,V,0000,0000,0000,,You look like you didn't like it at all!
+Dialogue: 0,0:16:40.43,0:16:41.52,Default - italics,V,0000,0000,0000,,A triple Salchow?
+Dialogue: 0,0:16:42.92,0:16:45.45,Default - italics,V,0000,0000,0000,,No, a quadruple! He stepped out of the landing.
+Dialogue: 0,0:16:53.24,0:16:56.49,Default - italics,V,0000,0000,0000,,So he did revert the program \Nto having three quads.
+Dialogue: 0,0:16:58.11,0:16:59.79,Default - italics,V,0000,0000,0000,,Shake it off...
+Dialogue: 0,0:16:59.79,0:17:00.63,Default - italics,V,0000,0000,0000,,Good!
+Dialogue: 0,0:17:08.01,0:17:09.49,Default - italics,V,0000,0000,0000,,A triple loop!
+Dialogue: 0,0:17:09.49,0:17:11.38,Default - italics,V,0000,0000,0000,,That was perfect.
+Dialogue: 0,0:17:12.92,0:17:15.51,Default - italics,V,0000,0000,0000,,Now, Yuri's realized something like love.
+Dialogue: 0,0:17:16.60,0:17:19.75,Default - italics,V,0000,0000,0000,,The second half's coming up, \Nand he already looks tired.
+Dialogue: 0,0:17:21.61,0:17:23.27,Default - italics,V,0000,0000,0000,,An outside spread eagle,
+Dialogue: 0,0:17:25.28,0:17:26.62,Default - italics,V,0000,0000,0000,,then an Ina Bauer...
+Dialogue: 0,0:17:27.79,0:17:31.07,Default - italics,V,0000,0000,0000,,Skate like you're the most beautiful \Nperson on the ice right now.
+Dialogue: 0,0:17:33.61,0:17:34.83,Default - italics,V,0000,0000,0000,,A triple axel!
+Dialogue: 0,0:17:35.89,0:17:36.78,Default - italics,V,0000,0000,0000,,Good, he hung in there.
+Dialogue: 0,0:17:42.41,0:17:44.09,Default - italics,V,0000,0000,0000,,Next up, a triple flip!
+Dialogue: 0,0:17:48.58,0:17:51.10,Default - italics,V,0000,0000,0000,,Even though he's not nailing his jumps,
+Dialogue: 0,0:17:51.10,0:17:53.25,Default - italics,V,0000,0000,0000,,the audience is getting fired up...
+Dialogue: 0,0:17:53.25,0:17:56.26,Default - italics,V,0000,0000,0000,,It's because he's skating in time with the music.
+Dialogue: 0,0:18:00.93,0:18:01.93,Default,V,0000,0000,0000,,So close!
+Dialogue: 0,0:18:03.42,0:18:05.73,Default - italics,V,0000,0000,0000,,Yuri's being too impatient today.
+Dialogue: 0,0:18:06.14,0:18:08.66,Default - italics,V,0000,0000,0000,,But that's why
+Dialogue: 0,0:18:09.84,0:18:11.69,Default - italics,V,0000,0000,0000,,you can't look away!
+Dialogue: 0,0:18:46.02,0:18:50.03,Default - italics,V,0000,0000,0000,,I told you to make the last jump \Na triple for the points...
+Dialogue: 0,0:18:52.17,0:18:57.67,Default - italics,V,0000,0000,0000,,I wonder who he takes after, to be \Nso rebellious toward his coach...
+Dialogue: 0,0:19:05.07,0:19:05.79,Default - italics,V,0000,0000,0000,,Oh...
+Dialogue: 0,0:19:07.25,0:19:08.13,Default - italics,V,0000,0000,0000,,It's me!
+Dialogue: 0,0:19:13.85,0:19:16.26,Default - italics,V,0000,0000,0000,,If I were Yakov, it'd be an instant lecture.
+Dialogue: 0,0:19:16.26,0:19:17.76,Default - italics,V,0000,0000,0000,,And I've done that, too, but...
+Dialogue: 0,0:19:17.76,0:19:18.55,Default,Minami,0000,0000,0000,,Yuri-kun!
+Dialogue: 0,0:19:18.91,0:19:21.80,Default,Moro,0000,0000,0000,,He showed his pride as Japan's top skater!
+Dialogue: 0,0:19:20.32,0:19:21.80,SFX,Minako,0000,0000,0000,,{\c&HA87FC1&}Yuri!!!
+Dialogue: 0,0:19:20.77,0:19:22.45,Default,Minako,0000,0000,0000,,Yuri!
+Dialogue: 0,0:19:44.20,0:19:47.17,Default,Y,0000,0000,0000,,Victor!
+Dialogue: 0,0:19:47.17,0:19:48.95,Default,V,0000,0000,0000,,Oops, watch the nosebleed.
+Dialogue: 0,0:19:48.95,0:19:54.22,Default,News,0000,0000,0000,,The scores, please, for Katsuki Yuri-san. \NHis free skate program score: 165.20.
+Dialogue: 0,0:19:54.22,0:19:58.23,Default,,0000,0000,0000,,{\an8}His total score: 259.56.
+Dialogue: 0,0:19:56.96,0:20:00.61,Default,V,0000,0000,0000,,It's amazing you scored that \Nhigh after a jump like that!
+Dialogue: 0,0:19:58.23,0:20:00.61,Default,,0000,0000,0000,,{\an8}He is currently in first place.
+Dialogue: 0,0:20:00.61,0:20:04.03,Default,V,0000,0000,0000,,Thanks for proving to me that you're \Nable to get a lot of PCS points.
+Dialogue: 0,0:20:04.03,0:20:06.97,Default,V,0000,0000,0000,,You can score even higher, \Nso don't feel down, okay, Yuri?
+Dialogue: 0,0:20:06.97,0:20:08.42,Default,Minami,0000,0000,0000,,Yuri-kun!
+Dialogue: 0,0:20:08.83,0:20:09.97,Default,Minami,0000,0000,0000,,I totally lost to you.
+Dialogue: 0,0:20:10.40,0:20:13.98,Default,Minami,0000,0000,0000,,I want to face you in the \NGrand Prix series someday!
+Dialogue: 0,0:20:14.36,0:20:16.48,Default,Minami,0000,0000,0000,,Until then, please don't quit!
+Dialogue: 0,0:20:16.48,0:20:17.90,Default,Minami,0000,0000,0000,,And another thing!
+Dialogue: 0,0:20:18.22,0:20:19.25,Default,Minami,0000,0000,0000,,Please give me your autograph!
+Dialogue: 0,0:20:19.25,0:20:19.74,Default,A,0000,0000,0000,,Me, too!
+Dialogue: 0,0:20:19.74,0:20:20.86,Default,B,0000,0000,0000,,Can I take a photo with you?
+Dialogue: 0,0:20:21.31,0:20:23.86,Default,Minako,0000,0000,0000,,Yuri! I was so impressed!
+Dialogue: 0,0:20:24.33,0:20:27.47,Default,Minako,0000,0000,0000,,It was so obvious that you took the \Nyounger skaters seriously as rivals.
+Dialogue: 0,0:20:27.47,0:20:30.25,Default,Nishi,0000,0000,0000,,What if you'd gotten hurt, slamming \Ninto the wall like that at the end?!
+Dialogue: 0,0:20:30.25,0:20:32.19,Default,Y,0000,0000,0000,,S-Sorry.
+Dialogue: 0,0:20:32.81,0:20:36.64,Default,Y,0000,0000,0000,,At first, I was just desperate \Nbecause I didn't want to lose,
+Dialogue: 0,0:20:36.64,0:20:40.26,Default,Y,0000,0000,0000,,but somehow, I started having \Na lot of fun in the middle.
+Dialogue: 0,0:20:40.61,0:20:42.51,Default,Y,0000,0000,0000,,I don't remember a lot about it.
+Dialogue: 0,0:20:42.51,0:20:43.59,Default,NM,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:45.45,0:20:46.14,Default,Y,0000,0000,0000,,Yeah...
+Dialogue: 0,0:20:48.69,0:20:55.98,Default,Y,0000,0000,0000,,Anyway, that was the most fun I've ever \Nhad while skating in competition.
+Dialogue: 0,0:21:08.83,0:21:10.68,Default,Mila,0000,0000,0000,,What're you doing, Yuri?
+Dialogue: 0,0:21:10.68,0:21:13.49,Default,Mila,0000,0000,0000,,Oh, you saw the photo of Victor and \Nthe Japanese Yuri, didn't you?
+Dialogue: 0,0:21:13.49,0:21:14.58,Default,Mila,0000,0000,0000,,Jealous?
+Dialogue: 0,0:21:13.82,0:21:15.08,Default,Yuri,0000,0000,0000,,Shut up, hag!
+Dialogue: 0,0:21:16.52,0:21:18.72,Default,Moro,0000,0000,0000,,Next, we have the skater Katsuki Yuri,
+Dialogue: 0,0:21:18.72,0:21:22.42,Default,Moro,0000,0000,0000,,who's thought to be the next leader \Nof men's singles in Japan.
+Dialogue: 0,0:21:22.42,0:21:24.09,Default,Moro,0000,0000,0000,,Please, show us.
+Dialogue: 0,0:21:24.85,0:21:28.10,Default,Moro,0000,0000,0000,,Um... Please show your theme for this year.
+Dialogue: 0,0:21:28.10,0:21:29.60,Default,Moro,0000,0000,0000,,Skater Katsuki?
+Dialogue: 0,0:21:29.85,0:21:31.85,WorldChampion,Sign 2132,0000,0000,0000,,{\fs22}Love \N{\fs18}Katsuki Yuri
+Dialogue: 0,0:21:32.78,0:21:36.85,Default,Y,0000,0000,0000,,My theme in this year's \NGrand Prix series is "love."
+Dialogue: 0,0:21:38.06,0:21:42.42,Default,Y,0000,0000,0000,,I've been helped by many people in my \Ncompetitive skating career thus far,
+Dialogue: 0,0:21:42.42,0:21:45.32,Default,Y,0000,0000,0000,,but I've never thought about "love" until now.
+Dialogue: 0,0:21:46.18,0:21:49.01,Default,Y,0000,0000,0000,,Though I was blessed with support, \NI couldn't take full advantage of it.
+Dialogue: 0,0:21:49.01,0:21:51.87,Default,Y,0000,0000,0000,,I always felt like I was fighting alone.
+Dialogue: 0,0:21:52.85,0:21:55.28,Default,Y,0000,0000,0000,,But since Victor showed up to be my coach,
+Dialogue: 0,0:21:55.28,0:21:57.29,Default,Y,0000,0000,0000,,I've seen something totally different.
+Dialogue: 0,0:21:58.69,0:22:02.46,Default,Y,0000,0000,0000,,My "love" is not something \Nclear-cut like romantic love,
+Dialogue: 0,0:22:02.46,0:22:04.60,Default,Y,0000,0000,0000,,but the more abstract feeling \Nof my relationships
+Dialogue: 0,0:22:04.60,0:22:06.88,Default,Y,0000,0000,0000,,with Victor, family, and hometown...
+Dialogue: 0,0:22:07.43,0:22:11.38,Default,Y,0000,0000,0000,,I was finally able to realize that something \Nlike love exists all around me.
+Dialogue: 0,0:22:12.76,0:22:16.89,Default,Y,0000,0000,0000,,Victor is the first person I've \Never wanted to hold on to.
+Dialogue: 0,0:22:17.86,0:22:20.04,Default,Y,0000,0000,0000,,I don't really have a name for that emotion,
+Dialogue: 0,0:22:20.04,0:22:22.65,Default,Y,0000,0000,0000,,but I have decided to call it "love."
+Dialogue: 0,0:22:22.65,0:22:25.69,Default,Y,0000,0000,0000,,Now that I know what love \Nis and am stronger for it,
+Dialogue: 0,0:22:25.69,0:22:29.34,Default,Y,0000,0000,0000,,I'll prove it to myself with a \NGrand Prix Final gold medal!
+Dialogue: 0,0:22:33.05,0:22:34.12,Default,Nishi,0000,0000,0000,,So we...
+Dialogue: 0,0:22:34.12,0:22:35.72,Default,Yuko,0000,0000,0000,,...were abstract.
+Dialogue: 0,0:22:35.72,0:22:37.70,Default,Minako,0000,0000,0000,,After all this time we've supported him...
+Dialogue: 0,0:22:37.70,0:22:40.67,Default,V,0000,0000,0000,,When you come back, we'll burn that \Nunfashionable necktie, Yuri.
+Dialogue: 0,0:22:41.40,0:22:45.17,Default,V,0000,0000,0000,,Let's buy a new one before the Cup of China.
+Dialogue: 0,0:22:48.66,0:22:49.57,Default - italics,Cele,0000,0000,0000,,Victor...
+Dialogue: 0,0:22:50.09,0:22:54.11,Default - italics,Cele,0000,0000,0000,,Unfortunately for you, it won't be \NYuri who wins the Cup of China.
+Dialogue: 0,0:22:54.11,0:22:56.06,Default - italics,Cele,0000,0000,0000,,It will be Phichit Chulanont.
+Dialogue: 0,0:22:56.39,0:22:58.42,Default,Phichit,0000,0000,0000,,Wasn't that jump great?
+Dialogue: 0,0:22:58.42,0:23:00.13,Default,Phichit,0000,0000,0000,,Did you get a good video of it?
+Dialogue: 0,0:23:00.13,0:23:00.97,Default,Cele,0000,0000,0000,,Oh, sorry...
+Dialogue: 0,0:23:00.97,0:23:01.81,Default,Phichit,0000,0000,0000,,What?!
+Dialogue: 0,0:23:02.26,0:23:06.82,Default,Phichit,0000,0000,0000,,We have to post it online as soon as possible!
+Dialogue: 0,0:23:06.82,0:23:09.86,TBC,Sign 2308,0000,0000,0000,,To Be Continued!!!
+Dialogue: 0,0:23:10.21,0:23:10.86,Default,V,0000,0000,0000,,Dajia hao!
+Dialogue: 0,0:23:10.86,0:23:12.06,Default,V,0000,0000,0000,,I want to eat Shanghai crab!
+Dialogue: 0,0:23:12.06,0:23:14.36,Default,Y,0000,0000,0000,,Victor, our event is in Beijing.
+Dialogue: 0,0:23:14.36,0:23:17.62,Default,V,0000,0000,0000,,Crab, crab, shrimp, shrimp, xiao long bao!
+Dialogue: 0,0:23:17.62,0:23:21.96,Default,Y,0000,0000,0000,,Next time, Sixth Skate: China's On! \NThe Grand Prix Series Opening Event!!
+Dialogue: 0,0:23:19.83,0:23:24.84,Title,Sign 2321,0000,0000,0000,,{\fs16}Sixth Skate \N{\fs20}China's On! The Grand Prix Series Opening Event!! \NThe Cup of China Short Program
+Dialogue: 0,0:23:21.96,0:23:24.06,Default,Y,0000,0000,0000,,The Cup of China Short Program.

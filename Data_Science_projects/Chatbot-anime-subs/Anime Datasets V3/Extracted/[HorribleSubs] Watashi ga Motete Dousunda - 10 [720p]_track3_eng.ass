@@ -1,0 +1,604 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Watamote-internal/narrator,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Watamote-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-overlap-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Watamote-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-flashback-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Watamote-Title,Open Sans Semibold,42,&H007D00D6,&H000000FF,&H004C1578,&H00BC875F,1,0,0,0,100,100,0,0,1,2,1,8,133,13,60,1
+Style: Watamote-Ep_Title,Open Sans Semibold,38,&H00FFFAFE,&H000000FF,&H00262237,&H00BC875F,1,0,0,0,100,100,0,0,1,3,0,2,13,13,27,1
+Style: Watamote-Eyecatch1,Open Sans Semibold,36,&H00DE2BD8,&H000000FF,&H003A2D64,&H00665654,1,0,0,0,100,100,0,0,1,3,2,7,24,24,24,1
+Style: Watamote-Eyecatch2,Open Sans Semibold,36,&H004FF1E8,&H000000FF,&H001C2290,&H0007283B,1,0,0,0,100,100,0,0,1,3,0,8,24,24,24,1
+Style: Watamote-Next-Ep-Title,Open Sans Semibold,39,&H004B1819,&H000000FF,&H00F8FAF3,&H00ED4562,1,0,0,0,100,100,0,0,1,2,0,7,220,13,133,1
+Style: Watamote-Look-Forward,Open Sans Semibold,36,&H00520097,&H000000FF,&H00F8FAF3,&H00ED4562,1,0,0,0,100,100,0,0,1,2,0,3,13,107,100,1
+Style: sign_471_7_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,153,657,345,1
+Style: sign_471_8_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,311,496,375,1
+Style: sign_471_9_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,451,329,360,1
+Style: sign_471_10_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,728,96,300,1
+Style: sign_1313_27_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,209,601,36,1
+Style: sign_1313_28_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,333,473,157,1
+Style: sign_1313_29_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,473,307,200,1
+Style: sign_1313_30_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00DB908C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,647,177,65,1
+Style: sign_1610_36_No_kidding_,Open Sans Semibold,36,&H00C67269,&H000000FF,&H00FFEBE0,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,80,13,133,1
+Style: sign_1611_37_Shi,Open Sans Semibold,27,&H00010000,&H000000FF,&H00DBCC8B,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,113,699,228,1
+Style: sign_1611_38_Nana,Open Sans Semibold,27,&H00010000,&H000000FF,&H00DBCC8B,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,175,613,317,1
+Style: sign_1611_39_Ni,Open Sans Semibold,27,&H00010000,&H000000FF,&H00DBCC8B,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,275,552,300,1
+Style: sign_1611_40_Iga,Open Sans Semibold,27,&H00010000,&H000000FF,&H00DBCC8B,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,353,461,240,1
+Style: sign_4870_61_Huh_,Open Sans Semibold,39,&H00F7F8C5,&H000000FF,&H00A65857,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,13,173,27,1
+Style: sign_4867_62_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,163,644,167,1
+Style: sign_4867_63_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,361,419,213,1
+Style: sign_4867_64_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,557,253,83,1
+Style: sign_5998_80__Wearing_a_jerse,Open Sans Semibold,30,&H00573489,&H000000FF,&H00F1F2F6,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,84,408,304,1
+Style: sign_7977_118_Love_For_Humanit,Open Sans Semibold,33,&H00C864E9,&H000000FF,&H00150B44,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,505,67,24,1
+Style: sign_10981_161_Squeeze,Open Sans Semibold,39,&H006336D7,&H000000FF,&H0087F0EC,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,13,13,24,1
+Style: sign_11159_164_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,169,637,91,1
+Style: sign_11159_165_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,640,140,83,1
+Style: sign_11596_174_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H009F8B85,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,155,669,128,1
+Style: sign_11596_175_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H009F8B85,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,324,483,301,1
+Style: sign_11596_176_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H009F8B85,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,459,321,268,1
+Style: sign_11596_177_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H009F8B85,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,655,156,72,1
+Style: sign_11944_183_Silence___,Open Sans Semibold,39,&H008B4F3D,&H000000FF,&H00FDEDE0,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,353,353,24,1
+Style: sign_16137_240_Jackpot__The_sec,Open Sans Semibold,36,&H001E2C1B,&H000000FF,&H008D8576,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,24,13,27,1
+Style: sign_16235_241_Already_presiden,Open Sans Semibold,30,&H00E8E4EE,&H000000FF,&H00353438,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,341,252,384,1
+Style: sign_16223_243_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,159,648,245,1
+Style: sign_16223_244_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,192,632,48,1
+Style: sign_16223_245_Mu,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,403,408,199,1
+Style: sign_16223_246_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,555,225,24,1
+Style: sign_16223_247_Ka,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,667,148,280,1
+Style: sign_16223_248_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00998B84,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,737,73,51,1
+Style: sign_16609_255_Heisei_Year_25__,Open Sans Semibold,36,&H001E2C1B,&H000000FF,&H008D8576,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,32,491,24,1
+Style: sign_16616_256_Mutsumi_Kazuma,Open Sans Semibold,36,&H001E2C1B,&H000000FF,&H008D8576,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,161,412,256,1
+Style: sign_16732_260_Wha___,Open Sans Semibold,39,&H00A96B41,&H000000FF,&H00ADE8CB,&H0070B36C,1,0,0,0,100,100,0,0,1,3,0,7,461,272,343,1
+Style: sign_16758_262_What__,Open Sans Semibold,39,&H00392B50,&H000000FF,&H00F0E2FB,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,440,287,205,1
+Style: sign_17547_272_Got_a_7x4_,Open Sans Semibold,30,&H00282828,&H000000FF,&H00F3F4F9,&H0070B36C,0,0,0,0,100,100,0,0,1,3,0,7,184,532,288,1
+Style: sign_17547_273_Nice_,Open Sans Semibold,30,&H00282828,&H000000FF,&H00F3F4F9,&H0070B36C,0,0,0,0,100,100,0,0,1,3,0,9,13,24,167,1
+Style: sign_18402_286_Bam_,Open Sans Semibold,39,&H00D2FFA2,&H000000FF,&H0062A432,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,381,381,24,1
+Style: sign_18444_287_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,188,592,205,1
+Style: sign_18444_288_Ka,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,384,431,152,1
+Style: sign_18444_289_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,512,299,24,1
+Style: sign_18444_290_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,625,199,236,1
+Style: sign_18444_291_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,665,141,36,1
+Style: sign_18576_296_Pet_Pet,Open Sans Semibold,39,&H00FAEFBC,&H000000FF,&H00A5DB6E,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,348,388,55,1
+Style: sign_19346_312_Snap,Open Sans Semibold,39,&H004D16CC,&H000000FF,&H00160845,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,368,400,187,1
+Style: sign_19899_324_That_s_the_one_,Open Sans Semibold,39,&H00E5E5E6,&H000000FF,&H000B0C0C,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,208,397,43,1
+Style: sign_19899_325_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,75,705,223,1
+Style: sign_19899_326_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,232,575,247,1
+Style: sign_19899_327_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,360,464,227,1
+Style: sign_19899_328_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,488,323,213,1
+Style: sign_20381_337_Nana,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,107,673,220,1
+Style: sign_20381_338_Iga,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,244,567,63,1
+Style: sign_20381_339_Shi,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,336,471,252,1
+Style: sign_20381_340_Ni,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,465,359,117,1
+Style: sign_20381_341_Ka,Open Sans Semibold,30,&H00010000,&H000000FF,&H00F4F4F5,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,7,517,297,281,1
+Style: sign_20531_344_jolt,Open Sans Semibold,39,&H003E0037,&H000000FF,&H00EAE0F3,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,321,476,24,1
+Style: sign_24107_396_Anime_Ito,Open Sans Semibold,39,&H00F7F8FF,&H000000FF,&H005A29D7,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,329,348,113,1
+Style: sign_29195_465_Mirage_Saga__Loc,Open Sans Semibold,36,&H0066E9F4,&H000000FF,&H00320083,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,168,323,35,1
+Style: sign_29600_470_Mirage_Saga_Loca,Open Sans Semibold,33,&H0066E9F4,&H000000FF,&H00320083,&H0070B36C,1,0,0,0,100,100,0,0,1,2,0,8,359,17,248,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.74,0:00:04.85,Default,Mutsumi,0000,0000,0000,,Would you all be interested\N in a treasure hunt?
+Dialogue: 0,0:00:05.69,0:00:06.67,Default,All,0000,0000,0000,,What?
+Dialogue: 0,0:00:07.33,0:00:11.19,Default,Mutsumi,0000,0000,0000,,I found this while cleaning out the History \NClub's storeroom the other day.
+Dialogue: 0,0:00:12.91,0:00:13.95,Default,Shinomiya,0000,0000,0000,,A map?
+Dialogue: 0,0:00:13.95,0:00:15.86,Default,Nishina,0000,0000,0000,,It looks pretty old.
+Dialogue: 0,0:00:16.12,0:00:19.62,Default,Mustumi,0000,0000,0000,,After deciphering it, I now believe \Nthat the map leads to buried treasure!
+Dialogue: 0,0:00:19.62,0:00:20.74,sign_471_7_Iga,# left,0000,0000,0000,,Iga
+Dialogue: 0,0:00:19.62,0:00:20.74,sign_471_8_Shi,# mid left,0000,0000,0000,,Shi
+Dialogue: 0,0:00:19.62,0:00:20.74,sign_471_9_Nana,# mid right,0000,0000,0000,,Nana
+Dialogue: 0,0:00:19.62,0:00:20.74,sign_471_10_Ni,# right,0000,0000,0000,,Ni
+Dialogue: 0,0:00:20.14,0:00:21.92,Default,all,0000,0000,0000,,Huh?!
+Dialogue: 0,0:00:21.92,0:00:25.61,Default,Igarashi,0000,0000,0000,,Wait, wait. Why would something \Nlike that be at school?
+Dialogue: 0,0:00:25.61,0:00:27.82,Default,Mutsumi,0000,0000,0000,,It was hidden inside an old pot that
+Dialogue: 0,0:00:27.82,0:00:30.13,Default,Mutsumi,0000,0000,0000,,a former club member got \Nat a temple a long time ago.
+Dialogue: 0,0:00:30.13,0:00:31.88,Default,Nanashima,0000,0000,0000,,Temple? A pot?!
+Dialogue: 0,0:00:32.26,0:00:35.62,Default,Kae,0000,0000,0000,,Our club room has all kinds\Nof things, doesn't it?
+Dialogue: 0,0:00:35.62,0:00:38.41,Default,Kae,0000,0000,0000,,Like Haniwa terracotta figures, \Nor cursed Daruma dolls.
+Dialogue: 0,0:00:38.41,0:00:40.81,Default,Kae,0000,0000,0000,,Or replica swords and helmets.
+Dialogue: 0,0:00:41.11,0:00:42.18,Default,Both,0000,0000,0000,,Right?
+Dialogue: 0,0:00:42.51,0:00:44.19,Default,Nanashima,0000,0000,0000,,This all sounds way too shady.
+Dialogue: 0,0:00:44.19,0:00:46.17,Default,Mutsumi,0000,0000,0000,,Huh? Then you don't want to come?
+Dialogue: 0,0:00:46.17,0:00:47.68,Default,Nishima,0000,0000,0000,,I'm afraid not.
+Dialogue: 0,0:00:47.68,0:00:49.44,Default,Nanashima,0000,0000,0000,,Shouldn't you just go with club members?
+Dialogue: 0,0:00:49.69,0:00:50.77,Default,Mutsumi,0000,0000,0000,,I see.
+Dialogue: 0,0:00:50.77,0:00:53.77,Default,Kae,0000,0000,0000,,I guess it'll be just\Nyou and me, then, Senpai.
+Dialogue: 0,0:00:53.77,0:00:54.70,Default,Mutsumi,0000,0000,0000,,I suppose so.
+Dialogue: 0,0:00:54.74,0:00:56.70,sign_1313_27_Iga,# left,0000,0000,0000,,Iga
+Dialogue: 0,0:00:54.74,0:00:56.70,sign_1313_28_Shi,# mid left,0000,0000,0000,,Shi
+Dialogue: 0,0:00:54.74,0:00:56.70,sign_1313_29_Nana,# mid right,0000,0000,0000,,Nana
+Dialogue: 0,0:00:54.74,0:00:56.70,sign_1313_30_Ni,# right,0000,0000,0000,,Ni
+Dialogue: 0,0:00:56.87,0:00:59.57,Default,Igarashi,0000,0000,0000,,Hold up! What do you \Nmean just the two of you?
+Dialogue: 0,0:00:59.57,0:01:02.54,Default,Kae,0000,0000,0000,,Huh? Well, you know, because \NI'm in the History Club.
+Dialogue: 0,0:01:02.54,0:01:04.62,Default,Nishina,0000,0000,0000,,A-And what about the other members?
+Dialogue: 0,0:01:04.93,0:01:07.20,Default,Kae,0000,0000,0000,,They said it looked suspicious\N and didn't want to go.
+Dialogue: 0,0:01:07.12,0:01:08.50,sign_1610_36_No_kidding_,# text,0000,0000,0000,,No Kidding!
+Dialogue: 0,0:01:07.17,0:01:08.50,sign_1611_37_Shi,# left,0000,0000,0000,,Shi
+Dialogue: 0,0:01:07.17,0:01:08.50,sign_1611_38_Nana,# left mid,0000,0000,0000,,Nana
+Dialogue: 0,0:01:07.17,0:01:08.50,sign_1611_39_Ni,# right mid,0000,0000,0000,,Ni
+Dialogue: 0,0:01:07.17,0:01:08.50,sign_1611_40_Iga,# right,0000,0000,0000,,Iga
+Dialogue: 0,0:01:07.20,0:01:08.50,Watamote-internal/narrator,All,0000,0000,0000,,No Kidding!
+Dialogue: 0,0:01:08.74,0:01:10.46,Default,Nanashima,0000,0000,0000,,Actually, I'll go!
+Dialogue: 0,0:01:10.46,0:01:11.50,Default,Others,0000,0000,0000,,Me, too!
+Dialogue: 0,0:01:12.06,0:01:13.71,Default,Kae,0000,0000,0000,,Yay! Let's go! Let's go!
+Dialogue: 0,0:01:13.71,0:01:15.20,Default,Kae,0000,0000,0000,,Isn't this great, Senpai?
+Dialogue: 0,0:01:15.20,0:01:16.01,Default,Mutsumi,0000,0000,0000,,Yeah!
+Dialogue: 0,0:01:16.14,0:01:18.97,Default,Igarashi,0000,0000,0000,,No way are we leaving you two alone!
+Dialogue: 0,0:01:33.03,0:01:41.77,Watamote-Title,,0000,0000,0000,,{\fad(3562,1)}Kiss Him, Not Me
+Dialogue: 0,0:02:48.85,0:02:51.90,Watamote-Ep_Title,# title,0000,0000,0000,,Brother Invasion!
+Dialogue: 0,0:02:53.78,0:02:54.90,Default,Shinomiya,0000,0000,0000,,Jeez!
+Dialogue: 0,0:02:55.22,0:02:57.94,Default,Shinomiya,0000,0000,0000,,That guy acts like a saint. \NYou can't let your guard down!
+Dialogue: 0,0:02:57.94,0:02:58.96,Default,Nanashima,0000,0000,0000,,Seriously!
+Dialogue: 0,0:02:58.96,0:03:03.28,Default,Nanashima,0000,0000,0000,,As if nothing would happen if you go \Nalone with the girl you're into, right?!
+Dialogue: 0,0:03:03.61,0:03:04.96,Default,Igarashi,0000,0000,0000,,Hmm...
+Dialogue: 0,0:03:04.96,0:03:06.79,Default,Igarashi,0000,0000,0000,,He seems more gentlemanly than you, Nana.
+Dialogue: 0,0:03:06.93,0:03:09.43,Default,Nanashima,0000,0000,0000,,Huh?! You're one to talk!
+Dialogue: 0,0:03:10.07,0:03:11.78,Default,Shinomiya,0000,0000,0000,,Yeah, it definitely applies to you both.
+Dialogue: 0,0:03:11.78,0:03:13.16,Default,Nishina,0000,0000,0000,,Actually...
+Dialogue: 0,0:03:14.19,0:03:16.75,Default,Nishina,0000,0000,0000,,There's something I've been\N curious about for awhile.
+Dialogue: 0,0:03:18.49,0:03:22.89,Default,Nishina,0000,0000,0000,,Does Mutsumi-senpai actually \N{\i1}like{\i0} Serinuma-senpai?
+Dialogue: 0,0:03:22.97,0:03:24.39,sign_4867_62_Shi,# left,0000,0000,0000,,Shi
+Dialogue: 0,0:03:22.97,0:03:24.39,sign_4867_63_Nana,# mid,0000,0000,0000,,Nana
+Dialogue: 0,0:03:22.97,0:03:24.39,sign_4867_64_Iga,# right,0000,0000,0000,,Iga
+Dialogue: 0,0:03:23.09,0:03:24.39,sign_4870_61_Huh_,# text,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:23.22,0:03:24.39,Default,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:24.58,0:03:27.06,Default,Nanashima,0000,0000,0000,,Isn't it obvious?
+Dialogue: 0,0:03:27.06,0:03:29.67,Default,Shinomiya,0000,0000,0000,,Why else would he try to \Nspend time alone with her?
+Dialogue: 0,0:03:29.67,0:03:32.38,Default,Nishina,0000,0000,0000,,But, when we all hang out together,
+Dialogue: 0,0:03:32.38,0:03:34.69,Default,Nishina,0000,0000,0000,,I don't get that feeling from him at all.
+Dialogue: 0,0:03:34.95,0:03:38.63,Default,Nanashima,0000,0000,0000,,Are you stupid? Isn't that what \Nhe's been aiming for from the start?
+Dialogue: 0,0:03:38.63,0:03:39.19,Default,Igarashi,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:40.04,0:03:43.57,Default,Igarashi,0000,0000,0000,,You're right. He's been competing \Nwith us from the beginning and—
+Dialogue: 0,0:03:44.51,0:03:46.28,Watamote-flashback,Mutsumi,0000,0000,0000,,Th-Then... me, too?
+Dialogue: 0,0:03:46.81,0:03:48.45,Watamote-flashback,Mutsumi,0000,0000,0000,,Luck is a skill, too.
+Dialogue: 0,0:03:48.67,0:03:50.45,Watamote-flashback,Mutsumi,0000,0000,0000,,I like all of you.
+Dialogue: 0,0:03:51.95,0:03:54.25,Watamote-flashback,Mutsumi,0000,0000,0000,,I know. How about we all go?
+Dialogue: 0,0:03:54.93,0:03:55.75,Default,Igarashi,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:55.95,0:03:57.53,Default,Nishima,0000,0000,0000,,See?! Like I said!
+Dialogue: 0,0:03:59.31,0:04:01.63,Default,Shinomiya,0000,0000,0000,,Wait. That means...
+Dialogue: 0,0:04:01.86,0:04:05.26,Default,Nanashima,0000,0000,0000,,Why exactly is he doing all this?
+Dialogue: 0,0:04:10.14,0:04:12.64,sign_5998_80__Wearing_a_jerse,# box,0000,0000,0000,,Wearing a Tracksuit Because \Nit's a Club Activity
+Dialogue: 0,0:04:11.05,0:04:12.64,Default,Kae,0000,0000,0000,,It's Mount Fuji!
+Dialogue: 0,0:04:14.55,0:04:16.00,Default,Igarashi,0000,0000,0000,,So this is the cave?
+Dialogue: 0,0:04:16.00,0:04:17.53,Default,Nanashima,0000,0000,0000,,Is this really it?
+Dialogue: 0,0:04:17.53,0:04:19.65,Default,Mutsumi,0000,0000,0000,,Yup. That's what's on the map.
+Dialogue: 0,0:04:20.01,0:04:23.33,Default,Kae,0000,0000,0000,,To think there's treasure buried near \NMount Fuji! It's like a fantasy!
+Dialogue: 0,0:04:23.33,0:04:25.47,Default,Mutsumi,0000,0000,0000,,You really are excited, Serinuma-san.
+Dialogue: 0,0:04:25.47,0:04:26.40,Default,Kae,0000,0000,0000,,Well, yeah!
+Dialogue: 0,0:04:26.40,0:04:28.34,Default,Kae,0000,0000,0000,,Come aboard and bring along \Nall your hopes and dreams!
+Dialogue: 0,0:04:28.34,0:04:29.20,Default,Kae,0000,0000,0000,,Together we will find
+Dialogue: 0,0:04:28.89,0:04:31.12,Watamote-overlap,Igarashi,0000,0000,0000,,We'll go ahead and head down.
+Dialogue: 0,0:04:29.20,0:04:30.85,Default,Kae,0000,0000,0000,,everything that we're looking for!
+Dialogue: 0,0:04:31.12,0:04:32.44,Default,Nanashima,0000,0000,0000,,You girls wait outside a bit.
+Dialogue: 0,0:04:32.44,0:04:33.66,Default,Both,0000,0000,0000,,Sure!
+Dialogue: 0,0:04:35.67,0:04:36.84,Default,Shinomiya,0000,0000,0000,,It's so cold.
+Dialogue: 0,0:04:36.84,0:04:38.67,Default,Igarashi,0000,0000,0000,,It's hard to get a good foothold here.
+Dialogue: 0,0:04:39.23,0:04:40.81,Default,Nanashima,0000,0000,0000,,It's pretty big inside.
+Dialogue: 0,0:04:40.81,0:04:41.92,Default,Mutsumi,0000,0000,0000,,Everyone, be careful.
+Dialogue: 0,0:04:44.51,0:04:45.10,Default,Igarshi,0000,0000,0000,,Mutsumi-san!
+Dialogue: 0,0:04:45.10,0:04:46.20,Watamote-overlap,Shinomiya,0000,0000,0000,,Ow...
+Dialogue: 0,0:04:45.10,0:04:46.59,Default,Shinomiya,0000,0000,0000,,A-Are you okay?
+Dialogue: 0,0:04:46.59,0:04:47.70,Default,Igarashi,0000,0000,0000,,You need to be careful.
+Dialogue: 0,0:04:47.70,0:04:49.14,Default,Mutsumi,0000,0000,0000,,Yeah. Sorry.
+Dialogue: 0,0:04:49.14,0:04:51.32,Default,Nanashima,0000,0000,0000,,It's dark and easy to lose your footing here.
+Dialogue: 0,0:04:51.32,0:04:53.98,Default,Nanashima,0000,0000,0000,,It would've been dangerous \Nwith just you and Serinuma.
+Dialogue: 0,0:04:54.61,0:04:58.38,Default,Mutsumi,0000,0000,0000,,You're right. I'm glad \Nyou all decided to come.
+Dialogue: 0,0:04:58.38,0:04:59.19,Default,Mutsumi,0000,0000,0000,,Thanks.
+Dialogue: 0,0:05:00.79,0:05:02.48,Default,Igarashi,0000,0000,0000,,Uh, Mutsumi-san.
+Dialogue: 0,0:05:02.92,0:05:03.48,Default,Igarashi,0000,0000,0000,,Yes?
+Dialogue: 0,0:05:03.84,0:05:06.99,Default,Igarashi,0000,0000,0000,,How do you feel about Serinuma-san?
+Dialogue: 0,0:05:08.36,0:05:09.37,Watamote-internal/narrator,Both,0000,0000,0000,,He said it!
+Dialogue: 0,0:05:09.61,0:05:12.53,Default,Igarashi,0000,0000,0000,,Me, Nana, and Shinomiya
+Dialogue: 0,0:05:12.53,0:05:15.01,Default,Igarashi,0000,0000,0000,,all like her and that's why we're here.
+Dialogue: 0,0:05:15.01,0:05:16.50,Default,Igarashi,0000,0000,0000,,You feel the same way, right?
+Dialogue: 0,0:05:17.75,0:05:19.17,Default,Mutsumi,0000,0000,0000,,Yeah, I like her.
+Dialogue: 0,0:05:20.50,0:05:22.90,Default,Igarashi,0000,0000,0000,,I see. Of course you do.
+Dialogue: 0,0:05:22.90,0:05:25.04,Default,Nanashima,0000,0000,0000,,See? I told you.
+Dialogue: 0,0:05:25.04,0:05:27.81,Default,Shinomiya,0000,0000,0000,,I guess Nishina's intuition \Nisn't all that great, after all.
+Dialogue: 0,0:05:27.81,0:05:29.42,Default,Mutsumi,0000,0000,0000,,Igarashi-kun, I like you, too.
+Dialogue: 0,0:05:30.28,0:05:32.90,Default,Mutsumi,0000,0000,0000,,You too, Nanashima-kun and \NShinomiya-kun! I love you all!
+Dialogue: 0,0:05:32.68,0:05:34.98,sign_7977_118_Love_For_Humanit,# text,0000,0000,0000,,Love For Humanity
+Dialogue: 0,0:05:33.60,0:05:34.98,Default,Shinomiya,0000,0000,0000,,N-No!
+Dialogue: 0,0:05:34.98,0:05:36.81,Default,Igarashi,0000,0000,0000,,Th-That's not what I mean!
+Dialogue: 0,0:05:37.45,0:05:40.40,Default,Igarashi,0000,0000,0000,,I'm asking if you like her {\i1}romantically!{\i0}
+Dialogue: 0,0:05:40.40,0:05:43.98,Default,Igarashi,0000,0000,0000,,I'm asking whether or not you \Nsee her as your special person!
+Dialogue: 0,0:05:47.64,0:05:50.12,Default,Igarashi,0000,0000,0000,,Wait, that's the part that floors you?!
+Dialogue: 0,0:05:50.49,0:05:53.37,Default,Mutsumi,0000,0000,0000,,Sorry. I don't really get that kind of thing.
+Dialogue: 0,0:05:53.53,0:05:54.71,Default,All,0000,0000,0000,,What?!
+Dialogue: 0,0:05:55.08,0:05:57.41,Default,Nanashima,0000,0000,0000,,Like, when your heart\N pounds when you're near her!
+Dialogue: 0,0:05:57.41,0:05:59.63,Default,Shinomiya,0000,0000,0000,,Or you don't want to give\N her up to anyone else!
+Dialogue: 0,0:05:59.63,0:06:00.25,Default,Igarashi,0000,0000,0000,,Exactly!
+Dialogue: 0,0:06:01.36,0:06:02.66,Default,Mutsumi,0000,0000,0000,,Um...
+Dialogue: 0,0:06:02.66,0:06:03.80,Default,Nishina,0000,0000,0000,,Hey!
+Dialogue: 0,0:06:07.06,0:06:09.18,Default,Nishina,0000,0000,0000,,You were gone so long, we got worried.
+Dialogue: 0,0:06:09.18,0:06:10.63,Default,Kae,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:06:10.63,0:06:12.89,Default,Nanashima,0000,0000,0000,,Oh, yeah. Sorry.
+Dialogue: 0,0:06:12.89,0:06:15.41,Default,Igarashi,0000,0000,0000,,Seems like there's no problem, \Nso let's keep moving.
+Dialogue: 0,0:06:15.41,0:06:16.06,Default,Kae,0000,0000,0000,,Sure.
+Dialogue: 0,0:06:16.06,0:06:17.97,Default,Nishina,0000,0000,0000,,It's pretty big in here.
+Dialogue: 0,0:06:17.97,0:06:19.10,Default,Shinomiya,0000,0000,0000,,So cold...
+Dialogue: 0,0:06:19.10,0:06:21.09,Default,Nanashima,0000,0000,0000,,It's actually pretty scary, huh?
+Dialogue: 0,0:06:21.56,0:06:23.34,Default,Nanashima,0000,0000,0000,,Don't fall now, Shinomiya.
+Dialogue: 0,0:06:24.21,0:06:28.28,Watamote-internal/narrator,Igarashi,0000,0000,0000,,I'm asking whether or not you \Nsee her as your special person!
+Dialogue: 0,0:06:31.30,0:06:33.28,Default,Kae,0000,0000,0000,,Senpai, is something the matter?
+Dialogue: 0,0:06:34.53,0:06:36.81,Default,Mutsumi,0000,0000,0000,,No, it's nothing. Let's go.
+Dialogue: 0,0:06:36.81,0:06:37.54,Default,Kae,0000,0000,0000,,Sure.
+Dialogue: 0,0:06:38.50,0:06:39.79,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,Special...
+Dialogue: 0,0:06:40.66,0:06:44.29,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,Serinuma-san is a dear \Nunderclassman, and a sweet girl.
+Dialogue: 0,0:06:44.29,0:06:46.80,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,When we're together, it's a whirlwind \N of fun and excitement.
+Dialogue: 0,0:06:47.31,0:06:49.80,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,That's how I feel. But...
+Dialogue: 0,0:06:50.42,0:06:52.70,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,Does that make her special?
+Dialogue: 0,0:06:55.03,0:06:58.33,Default,Kae,0000,0000,0000,,Senpai? Is there something on my face?
+Dialogue: 0,0:06:58.84,0:06:59.48,Default,Mutsumi,0000,0000,0000,,No.
+Dialogue: 0,0:07:03.51,0:07:04.61,Default,Igarashi,0000,0000,0000,,What is it?
+Dialogue: 0,0:07:04.86,0:07:07.46,Default,Nanashima,0000,0000,0000,,Water dripped on me or something.
+Dialogue: 0,0:07:07.46,0:07:08.40,Default,Shinomiya,0000,0000,0000,,From above us?
+Dialogue: 0,0:07:15.66,0:07:17.44,Default,Nishina,0000,0000,0000,,They're all flying!
+Dialogue: 0,0:07:17.44,0:07:18.95,Default,Nanashima,0000,0000,0000,,This is bad! There are too many!
+Dialogue: 0,0:07:18.95,0:07:19.58,Default,Igarashi,0000,0000,0000,,Run!
+Dialogue: 0,0:07:23.29,0:07:25.27,Default,Nanashima,0000,0000,0000,,Crap! I dropped the flashlight!
+Dialogue: 0,0:07:26.99,0:07:28.11,Default,Nanashima,0000,0000,0000,,Is everyone here?
+Dialogue: 0,0:07:29.39,0:07:30.99,Default,Nanashima,0000,0000,0000,,Serinuma, are you okay?
+Dialogue: 0,0:07:33.77,0:07:36.69,Default,Nanashima,0000,0000,0000,,Serinuma, were you scared?
+Dialogue: 0,0:07:37.97,0:07:40.48,sign_10981_161_Squeeze,# sfx,0000,0000,0000,,Squeeze
+Dialogue: 0,0:07:38.05,0:07:40.34,Default,Nanashima,0000,0000,0000,,It's okay, I'm here with you!
+Dialogue: 0,0:07:43.66,0:07:45.40,Default,Nishina,0000,0000,0000,,Thanks for the show.
+Dialogue: 0,0:07:45.40,0:07:51.61,sign_11159_164_Shi,# left,0000,0000,0000,,Shi
+Dialogue: 0,0:07:45.40,0:07:51.61,sign_11159_165_Nana,# right,0000,0000,0000,,Nana
+Dialogue: 0,0:07:47.19,0:07:48.72,Default,Nanashima,0000,0000,0000,,What are you doing there?!
+Dialogue: 0,0:07:48.72,0:07:51.61,Default,Shinomiya,0000,0000,0000,,{\i1}You're {\i0}the one who took \Nmy hand and held me!
+Dialogue: 0,0:07:51.61,0:07:53.63,Default,Nanashima,0000,0000,0000,,Get away from me!
+Dialogue: 0,0:07:53.63,0:07:55.28,Default,Igarashi,0000,0000,0000,,Hey! Where's Serinuma-san?
+Dialogue: 0,0:07:54.26,0:07:55.28,Watamote-overlap,Nanashima,0000,0000,0000,,It's gross!
+Dialogue: 0,0:07:56.31,0:07:57.53,Default,Igarashi,0000,0000,0000,,Mutsumi-senpai's missing, too!
+Dialogue: 0,0:07:57.90,0:07:58.65,Default,Nishina,0000,0000,0000,,We got separated?
+Dialogue: 0,0:07:58.65,0:08:00.58,Default,Igarashi,0000,0000,0000,,This is bad. We gotta get back fast!
+Dialogue: 0,0:08:03.62,0:08:08.96,sign_11596_174_Ni,# left,0000,0000,0000,,Ni
+Dialogue: 0,0:08:03.62,0:08:08.96,sign_11596_175_Shi,# left mid,0000,0000,0000,,Shi
+Dialogue: 0,0:08:03.62,0:08:08.96,sign_11596_176_Nana,# right mid,0000,0000,0000,,Nana
+Dialogue: 0,0:08:03.62,0:08:08.96,sign_11596_177_Iga,# Right,0000,0000,0000,,Iga
+Dialogue: 0,0:08:04.62,0:08:08.25,Default,Igarashi,0000,0000,0000,,Wh-Which path did we come from?
+Dialogue: 0,0:08:08.96,0:08:11.50,Default,Kae,0000,0000,0000,,Ouch. I took a nasty fall.
+Dialogue: 0,0:08:11.50,0:08:12.76,Default,Kae,0000,0000,0000,,G-Guys?
+Dialogue: 0,0:08:13.21,0:08:14.82,Default,Kae,0000,0000,0000,,Guys? Are you there?!
+Dialogue: 0,0:08:15.57,0:08:16.97,Default,Kae,0000,0000,0000,,Hey!
+Dialogue: 0,0:08:18.14,0:08:19.85,sign_11944_183_Silence___,# text,0000,0000,0000,,Silence...
+Dialogue: 0,0:08:20.45,0:08:22.08,Default,Kae,0000,0000,0000,,Wait. What do I do?
+Dialogue: 0,0:08:23.05,0:08:23.95,Default,Kae,0000,0000,0000,,I need a light.
+Dialogue: 0,0:08:32.00,0:08:33.26,Default,Kae,0000,0000,0000,,Senpai?
+Dialogue: 0,0:08:34.04,0:08:36.45,Default,Kae,0000,0000,0000,,I'm so happy you're here!
+Dialogue: 0,0:08:37.04,0:08:37.61,Default,Mutsumi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:37.61,0:08:40.45,Default,Kae,0000,0000,0000,,Where's everyone else? I wonder \Nif they ran deeper inside.
+Dialogue: 0,0:08:41.12,0:08:43.46,Default,Kae,0000,0000,0000,,All right, let's catch up to them!
+Dialogue: 0,0:08:43.46,0:08:45.45,Default,Kae,0000,0000,0000,,I'm sure they're waiting for us up ahead.
+Dialogue: 0,0:08:47.11,0:08:48.41,Default,Kae,0000,0000,0000,,Senpai?
+Dialogue: 0,0:08:48.41,0:08:50.31,Default,Mutsumi,0000,0000,0000,,S-Sorry, I...
+Dialogue: 0,0:08:51.38,0:08:54.70,Default,Mutsumi,0000,0000,0000,,I was locked inside a storehouse in \Nthe countryside a long time ago.
+Dialogue: 0,0:08:54.70,0:08:57.86,Default,Mutsumi,0000,0000,0000,,It traumatized me, and now I can't \Nmove an inch anywhere pitch black.
+Dialogue: 0,0:08:59.32,0:09:01.39,Default,Mutsumi,0000,0000,0000,,Not even the moonlight reached inside...
+Dialogue: 0,0:09:01.62,0:09:05.81,Default,Mutsumi,0000,0000,0000,,I could hear cries outside, but couldn't \Ntell if they were insects or animals.
+Dialogue: 0,0:09:06.10,0:09:07.93,Default,Mutsumi,0000,0000,0000,,The sounds of the rustling trees
+Dialogue: 0,0:09:07.93,0:09:11.56,Default,Mutsumi,0000,0000,0000,,and the wind howling sounded \Nalmost like a human scream.
+Dialogue: 0,0:09:11.56,0:09:15.15,Watamote-internal/narrator,Kae,0000,0000,0000,,I'm amazed you even \Nentered this cave at all!
+Dialogue: 0,0:09:16.41,0:09:18.68,Default,Mutsumi,0000,0000,0000,,Sorry for causing so much trouble.
+Dialogue: 0,0:09:18.68,0:09:21.16,Default,Mutsumi,0000,0000,0000,,I can move if there's even \Njust a little light, though.
+Dialogue: 0,0:09:21.39,0:09:22.67,Default,Kae,0000,0000,0000,,Senpai...
+Dialogue: 0,0:09:26.39,0:09:30.28,Default,Kae,0000,0000,0000,,D-Do you feel a little \Nless anxious like this?
+Dialogue: 0,0:09:31.34,0:09:34.31,Default,Kae,0000,0000,0000,,Everyone has something \Nthey have trouble with.
+Dialogue: 0,0:09:34.31,0:09:36.80,Default,Kae,0000,0000,0000,,If there's something I can do \Nto help, I'll gladly do it.
+Dialogue: 0,0:09:38.30,0:09:38.92,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:39.47,0:09:40.14,Default,Kae,0000,0000,0000,,Now,
+Dialogue: 0,0:09:40.68,0:09:41.77,Default,Kae,0000,0000,0000,,let's get going.
+Dialogue: 0,0:09:42.76,0:09:45.56,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,What's going on? My fingers feel hot.
+Dialogue: 0,0:09:46.88,0:09:50.48,Default,Kae,0000,0000,0000,,Huh? Do you think that might \Nbe Igarashi-kun and the gang?
+Dialogue: 0,0:09:51.08,0:09:52.52,Default,Kae,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:52.90,0:09:54.01,Default,Igarshi,0000,0000,0000,,Serinuma-san!
+Dialogue: 0,0:09:54.01,0:09:54.99,Default,Kae,0000,0000,0000,,I knew it!
+Dialogue: 0,0:09:55.38,0:09:56.78,Default,Kae,0000,0000,0000,,What a relief.
+Dialogue: 0,0:10:00.32,0:10:01.01,Default,Mutsumi,0000,0000,0000,,Sorry.
+Dialogue: 0,0:10:01.01,0:10:02.26,Default,Kae,0000,0000,0000,,Senpai?
+Dialogue: 0,0:10:02.26,0:10:04.12,Default,Mutsumi,0000,0000,0000,,I-I did it without thinking...
+Dialogue: 0,0:10:04.62,0:10:05.62,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,My strength...
+Dialogue: 0,0:10:19.43,0:10:21.14,Default,Kae,0000,0000,0000,,S-Senpai?
+Dialogue: 0,0:10:22.29,0:10:23.23,Default,Mutsumi,0000,0000,0000,,S-Sorry!
+Dialogue: 0,0:10:23.23,0:10:25.22,Default,Kae,0000,0000,0000,,W-Were you that scared?
+Dialogue: 0,0:10:25.22,0:10:26.59,Default,Mutsumi,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:10:26.59,0:10:28.60,Default,Igarashi,0000,0000,0000,,Hey! You two!
+Dialogue: 0,0:10:29.51,0:10:31.50,Default,Igarashi,0000,0000,0000,,Serinuma-san, are you okay?
+Dialogue: 0,0:10:31.50,0:10:33.57,Default,Kae,0000,0000,0000,,I'm fine! Sorry.
+Dialogue: 0,0:10:33.57,0:10:35.15,Default,Nanashima,0000,0000,0000,,Glad to see you're safe.
+Dialogue: 0,0:10:35.36,0:10:38.52,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,What was that? I...
+Dialogue: 0,0:10:39.15,0:10:42.87,Default,Igarashi,0000,0000,0000,,Mutsumi-san, we found what you \Nwere looking for over there.
+Dialogue: 0,0:10:43.76,0:10:45.20,Default,Kae,0000,0000,0000,,Th-The treasure?
+Dialogue: 0,0:10:45.20,0:10:47.29,Default,Igarashi,0000,0000,0000,,Uh, yeah. But...
+Dialogue: 0,0:10:50.15,0:10:53.55,Default,Shinomiya,0000,0000,0000,,What's with this thing so desperately \Ntrying to assert its position...
+Dialogue: 0,0:10:53.55,0:10:56.09,Default,Igarashi,0000,0000,0000,,A treasure, I guess...
+Dialogue: 0,0:10:57.01,0:10:57.59,Default,Nanashima,0000,0000,0000,,No.
+Dialogue: 0,0:10:58.77,0:11:02.50,Default,Nanashima,0000,0000,0000,,I told you, someone definitely set us up!
+Dialogue: 0,0:11:02.50,0:11:03.93,Default,Nanashima,0000,0000,0000,,Dammit!
+Dialogue: 0,0:11:03.93,0:11:07.60,Default,Nishina,0000,0000,0000,,They even prepared a map. \NIt's all way too elaborate.
+Dialogue: 0,0:11:07.73,0:11:09.17,Default,Nishina,0000,0000,0000,,Who would put in all this effort?
+Dialogue: 0,0:11:09.17,0:11:10.74,Default,Mutsumi,0000,0000,0000,,Oh, it's open.
+Dialogue: 0,0:11:13.02,0:11:16.53,sign_16137_240_Jackpot__The_sec,# Letter,0000,0000,0000,,Jackpot! The second generation \Npresident of the History Club is you! \NCongratulations. \NHeisei Year 25 (2013)\NFounding President
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_243_Shi,# left,0000,0000,0000,,Shi
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_244_Ni,# mid left,0000,0000,0000,,Ni
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_245_Mu,# mid,0000,0000,0000,,Mu
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_246_Nana,# Mid right up,0000,0000,0000,,Nana
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_247_Ka,# mid right down,0000,0000,0000,,Ka
+Dialogue: 0,0:11:16.61,0:11:21.03,sign_16223_248_Iga,# right,0000,0000,0000,,Iga
+Dialogue: 0,0:11:17.09,0:11:18.93,Default,Mutsumi,0000,0000,0000,,But I'm already the president.
+Dialogue: 0,0:11:17.11,0:11:19.03,sign_16235_241_Already_presiden,# box,0000,0000,0000,,{\fad(250,250)}Already President.
+Dialogue: 0,0:11:18.93,0:11:21.03,Default,Nanashima,0000,0000,0000,,What the hell is this?!
+Dialogue: 0,0:11:21.30,0:11:23.53,Default,Nishina,0000,0000,0000,,This was written three years ago.
+Dialogue: 0,0:11:23.88,0:11:27.19,Default,Igarashi,0000,0000,0000,,So, it was supposed to be opened that year?
+Dialogue: 0,0:11:27.19,0:11:28.00,Default,Shinomiya,0000,0000,0000,,Seems that way.
+Dialogue: 0,0:11:28.15,0:11:31.09,Default,Nanashima,0000,0000,0000,,In other words, it was a prank \Npulled by the stupid club founder!
+Dialogue: 0,0:11:31.09,0:11:32.71,Default,Nanashima,0000,0000,0000,,What the hell's wrong with him?!
+Dialogue: 0,0:11:32.71,0:11:34.84,sign_16609_255_Heisei_Year_25__,# letter,0000,0000,0000,,Heisei Year 25 (2013)\N Founding President
+Dialogue: 0,0:11:32.99,0:11:34.84,sign_16616_256_Mutsumi_Kazuma,# letter under thumb,0000,0000,0000,,Mutsumi Kazuma
+Dialogue: 0,0:11:35.85,0:11:36.77,Default,Shinomiya,0000,0000,0000,,Mutsumi?
+Dialogue: 0,0:11:37.08,0:11:38.03,Default,Mutsumi,0000,0000,0000,,My older brother.
+Dialogue: 0,0:11:37.84,0:11:38.76,sign_16732_260_Wha___,# Text,0000,0000,0000,,Wha—
+Dialogue: 0,0:11:38.03,0:11:38.76,Default,All,0000,0000,0000,,Wha—
+Dialogue: 0,0:11:38.92,0:11:42.26,Default,All,0000,0000,0000,,What?!
+Dialogue: 0,0:11:38.92,0:11:42.26,sign_16758_262_What__,# text,0000,0000,0000,,What?!
+Dialogue: 0,0:11:43.50,0:11:44.86,Default,Nanashima,0000,0000,0000,,That was the worst.
+Dialogue: 0,0:11:44.42,0:11:45.84,Watamote-overlap,,0000,0000,0000,,We walked quite a bit
+Dialogue: 0,0:11:45.42,0:11:47.01,Default,Igarashi,0000,0000,0000,,Let's head on home.
+Dialogue: 0,0:11:48.30,0:11:52.27,Watamote-internal/narrator,Kae,0000,0000,0000,,And thus ended the journey \Nto find the great treasure...
+Dialogue: 0,0:11:52.75,0:11:54.65,Watamote-internal/narrator,Kae,0000,0000,0000,,Or, so we all thought.
+Dialogue: 0,0:11:57.29,0:12:00.15,Default,Kazuma,0000,0000,0000,,I'll be your student teacher \Nhere. I hope we get along.
+Dialogue: 0,0:12:01.68,0:12:04.15,Default,Kazuma,0000,0000,0000,,My name is Mutsumi Kazuma. \NA pleasure to meet you.
+Dialogue: 0,0:12:05.49,0:12:07.95,Default,Nanashima,0000,0000,0000,,That founding president?!
+Dialogue: 0,0:12:08.14,0:12:11.83,Watamote-internal/narrator,Kae,0000,0000,0000,,Afterward, there came a great storm.
+Dialogue: 0,0:12:11.83,0:12:16.88,Watamote-Eyecatch1,# eyecatch,0000,0000,0000,,Kiss Him, Not Me
+Dialogue: 0,0:12:11.83,0:12:16.88,sign_17547_272_Got_a_7x4_,# left bubble,0000,0000,0000,,Got a {\b1\c&H5B3CE1&}7{\c&HB78074&}x{\c&H5BB6D4&}4.{\b0}
+Dialogue: 0,0:12:11.83,0:12:16.88,sign_17547_273_Nice_,# right bubble,0000,0000,0000,,Nice!
+Dialogue: 0,0:12:16.88,0:12:21.92,Watamote-Eyecatch2,# eye catch,0000,0000,0000,,Kiss Him, Not Me
+Dialogue: 0,0:12:23.90,0:12:26.31,Default,Nishina,0000,0000,0000,,Apparently, he teaches \Nsecond year Japanese History.
+Dialogue: 0,0:12:26.31,0:12:27.93,Default,Nanashima,0000,0000,0000,,No, more like...
+Dialogue: 0,0:12:27.93,0:12:29.18,Default,Shinomiya,0000,0000,0000,,It was quite the shock, right?
+Dialogue: 0,0:12:29.46,0:12:30.85,Default,Mutsumi,0000,0000,0000,,I-I'm sorry.
+Dialogue: 0,0:12:31.07,0:12:33.30,Default,Igarashi,0000,0000,0000,,What are you apologizing for?
+Dialogue: 0,0:12:33.30,0:12:34.48,Default,Mutsumi,0000,0000,0000,,It just felt right.
+Dialogue: 0,0:12:34.72,0:12:38.48,Default,Kae,0000,0000,0000,,Mutsumi-senpai, you didn't hear anything \Nabout him being a student teacher?
+Dialogue: 0,0:12:38.98,0:12:42.95,Default,Mutsumi,0000,0000,0000,,No. My brother lives on his own, \Nand we haven't really kept in touch.
+Dialogue: 0,0:12:42.95,0:12:45.30,Default,Nanashima,0000,0000,0000,,What? Do you guys not get along?
+Dialogue: 0,0:12:45.73,0:12:47.37,Default,Mutsumi,0000,0000,0000,,I-It's not that—
+Dialogue: 0,0:12:47.49,0:12:49.16,sign_18402_286_Bam_,# text,0000,0000,0000,,Bam!
+Dialogue: 0,0:12:47.83,0:12:48.79,Default,Kazuma,0000,0000,0000,,At all!
+Dialogue: 0,0:12:49.24,0:12:52.66,sign_18444_287_Nana,# left,0000,0000,0000,,Nana
+Dialogue: 0,0:12:49.24,0:12:52.66,sign_18444_288_Ka,left mid,0000,0000,0000,,Ka
+Dialogue: 0,0:12:49.24,0:12:52.66,sign_18444_289_Iga,# mid,0000,0000,0000,,Iga
+Dialogue: 0,0:12:49.24,0:12:52.66,sign_18444_290_Ni,# right mid,0000,0000,0000,,Ni
+Dialogue: 0,0:12:49.24,0:12:52.66,sign_18444_291_Shi,# Right,0000,0000,0000,,Shi
+Dialogue: 0,0:12:50.44,0:12:51.90,Default,Nanashima,0000,0000,0000,,Where the hell did you come from?!
+Dialogue: 0,0:12:51.90,0:12:52.66,Default,Igarashi,0000,0000,0000,,That scared me.
+Dialogue: 0,0:12:53.12,0:12:54.23,Default,Mutsumi,0000,0000,0000,,Nii-san!
+Dialogue: 0,0:12:54.75,0:13:00.17,sign_18576_296_Pet_Pet,,0000,0000,0000,,Pet Pet
+Dialogue: 0,0:12:55.03,0:12:56.88,Default,Kazuma,0000,0000,0000,,You look well, Asuma.
+Dialogue: 0,0:12:56.88,0:12:58.15,Default,Mutsumi,0000,0000,0000,,You too, Nii-san.
+Dialogue: 0,0:12:58.15,0:13:00.17,Default,Mutsumi,0000,0000,0000,,I never thought I'd see you here.
+Dialogue: 0,0:13:01.35,0:13:02.44,Default,Kazuma,0000,0000,0000,,I got you, didn't I?
+Dialogue: 0,0:13:02.44,0:13:03.22,Default,Mutsumi,0000,0000,0000,,Yup.
+Dialogue: 0,0:13:03.88,0:13:06.24,Default,Kazuma,0000,0000,0000,,I kept quiet about it since \NI wanted to surprise you!
+Dialogue: 0,0:13:06.24,0:13:08.04,Default,Kazuma,0000,0000,0000,,Looks like it worked!
+Dialogue: 0,0:13:08.04,0:13:09.44,Default,Mutsumi,0000,0000,0000,,That's so you.
+Dialogue: 0,0:13:09.44,0:13:12.52,Watamote-internal/narrator,Kae,0000,0000,0000,,These brothers have so much body contact!
+Dialogue: 0,0:13:12.52,0:13:13.81,Watamote-internal/narrator,Nishina,0000,0000,0000,,So satisfying!
+Dialogue: 0,0:13:14.54,0:13:16.27,Default,Kazuma,0000,0000,0000,,And who are all you? Asuma's friends?
+Dialogue: 0,0:13:17.06,0:13:18.76,Default,Igarashi,0000,0000,0000,,Uh, yes.
+Dialogue: 0,0:13:18.76,0:13:19.61,Default,Kazuma,0000,0000,0000,,I see!
+Dialogue: 0,0:13:19.91,0:13:23.11,Default,Mutsumi,0000,0000,0000,,They helped me look for that hidden \Ntreasure the day before yesterday.
+Dialogue: 0,0:13:23.35,0:13:26.05,Default,Kazuma,0000,0000,0000,,Huh? Hidden treasure? What's that?
+Dialogue: 0,0:13:26.05,0:13:26.70,Default,Mutsumi,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:26.86,0:13:27.78,sign_19346_312_Snap,# sfx,0000,0000,0000,,Snap
+Dialogue: 0,0:13:27.05,0:13:27.78,Watamote-internal/narrator,Nanashima,0000,0000,0000,,Snap!
+Dialogue: 0,0:13:28.07,0:13:30.62,Default,Nanashima,0000,0000,0000,,The one you set up, Sensei.
+Dialogue: 0,0:13:30.83,0:13:32.54,Default,Kazuma,0000,0000,0000,,Huh? I dunno what you're talking about.
+Dialogue: 0,0:13:34.54,0:13:36.42,Default,Mutsumi,0000,0000,0000,,C-Come on, Nii-san.
+Dialogue: 0,0:13:36.42,0:13:38.91,Default,Mutsumi,0000,0000,0000,,The one you made a map \Nfor and hid in the clubroom.
+Dialogue: 0,0:13:38.91,0:13:40.28,Default,Mutsumi,0000,0000,0000,,From three years ago!
+Dialogue: 0,0:13:40.28,0:13:41.24,Default,Kazuma,0000,0000,0000,,What?
+Dialogue: 0,0:13:42.49,0:13:45.53,Default,Kazuma,0000,0000,0000,,Oh! You mean that fake map I set \Nup for the current second-years
+Dialogue: 0,0:13:45.53,0:13:48.70,Default,Kazuma,0000,0000,0000,,that I thought would be fun for \Npicking out the next leader
+Dialogue: 0,0:13:48.70,0:13:50.20,Default,Kazuma,0000,0000,0000,,that was completely ignored?!
+Dialogue: 0,0:13:49.93,0:13:51.18,sign_19899_324_That_s_the_one_,# text,0000,0000,0000,,That's the one!
+Dialogue: 0,0:13:49.93,0:13:51.18,sign_19899_325_Nana,# left,0000,0000,0000,,Nana
+Dialogue: 0,0:13:49.93,0:13:51.18,sign_19899_326_Shi,# left mid,0000,0000,0000,,Shi
+Dialogue: 0,0:13:49.93,0:13:51.18,sign_19899_327_Ni,# right mid,0000,0000,0000,,Ni
+Dialogue: 0,0:13:49.93,0:13:51.18,sign_19899_328_Iga,# right,0000,0000,0000,,Iga
+Dialogue: 0,0:13:50.20,0:13:51.18,Default,All,0000,0000,0000,,That's the one!
+Dialogue: 0,0:13:51.57,0:13:54.61,Default,Kazuma,0000,0000,0000,,Seriously?! So three years passed \Nbefore someone fell for it?!
+Dialogue: 0,0:13:54.61,0:13:56.06,Default,Kazuma,0000,0000,0000,,And it was you guys?
+Dialogue: 0,0:13:57.92,0:13:59.17,Default,Kazuma,0000,0000,0000,,Awesome!
+Dialogue: 0,0:13:58.43,0:14:00.15,Watamote-overlap,Nanashima,0000,0000,0000,,{\i1}Th-This bastard!{\i0}
+Dialogue: 0,0:14:00.15,0:14:04.11,Default,Mutsumi,0000,0000,0000,,Nii-san! Everyone went because \NI asked them to come with me.
+Dialogue: 0,0:14:04.11,0:14:05.29,Default,Kazuma,0000,0000,0000,,Oh. Is that right?
+Dialogue: 0,0:14:05.29,0:14:06.53,Default,Nanashima,0000,0000,0000,,That's right!
+Dialogue: 0,0:14:06.88,0:14:10.03,Default,Kazuma,0000,0000,0000,,I see. Thanks for going out of \Nyour way for my little brother.
+Dialogue: 0,0:14:10.03,0:14:17.67,sign_20381_337_Nana,# left,0000,0000,0000,,Nana
+Dialogue: 0,0:14:10.03,0:14:17.67,sign_20381_338_Iga,# left mid,0000,0000,0000,,Iga
+Dialogue: 0,0:14:10.03,0:14:17.67,sign_20381_339_Shi,# mid,0000,0000,0000,,Shi
+Dialogue: 0,0:14:10.03,0:14:17.67,sign_20381_340_Ni,# right mid,0000,0000,0000,,Ni
+Dialogue: 0,0:14:10.03,0:14:17.67,sign_20381_341_Ka,# right,0000,0000,0000,,Ka
+Dialogue: 0,0:14:10.26,0:14:13.24,Watamote-internal/narrator,Igarashi,0000,0000,0000,,Huh? He kind of seems like \Na good older brother.
+Dialogue: 0,0:14:13.24,0:14:16.29,Default,Kazuma,0000,0000,0000,,So, which of you is Asuma dating?
+Dialogue: 0,0:14:16.29,0:14:17.67,sign_20531_344_jolt,# sfx,0000,0000,0000,,Jolt
+Dialogue: 0,0:14:18.44,0:14:20.40,Default,Mutsumi,0000,0000,0000,,I-It's not like that.
+Dialogue: 0,0:14:20.40,0:14:21.82,Default,Kazuma,0000,0000,0000,,What? It isn't?
+Dialogue: 0,0:14:21.82,0:14:23.01,Default,Kazuma,0000,0000,0000,,What a waste.
+Dialogue: 0,0:14:23.01,0:14:27.14,Default,Kazuma,0000,0000,0000,,With a group of such pretty boys and \Ngirls, I'd want to date all of you!
+Dialogue: 0,0:14:27.14,0:14:28.89,Default,Igarashi,0000,0000,0000,,Wait, "all" of us?
+Dialogue: 0,0:14:28.89,0:14:30.76,Default,Nanashima,0000,0000,0000,,The majority of us are guys!
+Dialogue: 0,0:14:31.06,0:14:32.94,Default,Kazuma,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:14:36.31,0:14:39.50,Default,Kazuma,0000,0000,0000,,Gender's not a big deal at all.
+Dialogue: 0,0:14:39.50,0:14:41.84,Default,Kazuma,0000,0000,0000,,I could sleep with every one of you.
+Dialogue: 0,0:14:44.40,0:14:45.60,Default,Igarashi,0000,0000,0000,,Love for humanity.
+Dialogue: 0,0:14:45.60,0:14:47.93,Default,Shinomiya,0000,0000,0000,,H-He really is a weirdo!
+Dialogue: 0,0:14:47.93,0:14:51.55,Default,Kae,0000,0000,0000,,"I'm not into men, but I fell \Nfor you, and you're a man."
+Dialogue: 0,0:14:51.55,0:14:52.50,Default,Kae,0000,0000,0000,,Am I right?
+Dialogue: 0,0:14:53.29,0:14:54.30,Default,Nishina,0000,0000,0000,,Shameless!
+Dialogue: 0,0:14:54.30,0:14:56.70,Default,Kae,0000,0000,0000,,That's the common route! I totally get it!
+Dialogue: 0,0:14:58.43,0:15:00.33,Default,Kazuma,0000,0000,0000,,Yup. That's the gist of it.
+Dialogue: 0,0:15:00.33,0:15:00.97,Default,Kae,0000,0000,0000,,Right!
+Dialogue: 0,0:15:00.97,0:15:02.44,Default,Kazuma,0000,0000,0000,,You really get me, huh?
+Dialogue: 0,0:15:02.44,0:15:03.29,Default,Igarashi,0000,0000,0000,,You little!
+Dialogue: 0,0:15:03.54,0:15:04.29,Default,Mutsumi,0000,0000,0000,,Nii-san!
+Dialogue: 0,0:15:08.18,0:15:11.43,Default,Mutsumi,0000,0000,0000,,Lunch break is almost over. \NAre you okay on time?
+Dialogue: 0,0:15:11.60,0:15:13.93,Default,Kazuma,0000,0000,0000,,Oh, you're right. I'd better get back.
+Dialogue: 0,0:15:14.84,0:15:16.06,Default,Kazuma,0000,0000,0000,,Later!
+Dialogue: 0,0:15:18.28,0:15:20.72,Default,Mutsumi,0000,0000,0000,,Nii-san's free-spirited as ever.
+Dialogue: 0,0:15:20.72,0:15:21.86,Default,Shinomiya,0000,0000,0000,,Too free.
+Dialogue: 0,0:15:21.86,0:15:23.69,Default,Igarashi,0000,0000,0000,,Get a hold of yourself, Nana.
+Dialogue: 0,0:15:23.96,0:15:26.23,Default,Kae,0000,0000,0000,,But, he sure seems kind.
+Dialogue: 0,0:15:26.23,0:15:29.03,Default,Kae,0000,0000,0000,,He really does seem like your \Nolder brother, Mutsumi-senpai.
+Dialogue: 0,0:15:31.58,0:15:32.49,Default,Mutsumi,0000,0000,0000,,Is that right?
+Dialogue: 0,0:15:32.77,0:15:33.66,Default,Kae,0000,0000,0000,,Yes!
+Dialogue: 0,0:15:35.35,0:15:36.58,Watamote-internal/narrator,Kazuma,0000,0000,0000,,That was unusual.
+Dialogue: 0,0:15:36.58,0:15:38.45,Watamote-internal/narrator,Kazuma,0000,0000,0000,,Asuma lost his cool.
+Dialogue: 0,0:15:42.22,0:15:44.00,Default,Teacher,0000,0000,0000,,And so...
+Dialogue: 0,0:15:44.31,0:15:46.93,Default,Teacher,0000,0000,0000,,The student teacher will \Nbe observing our class.
+Dialogue: 0,0:15:46.93,0:15:49.63,Default,Teacher,0000,0000,0000,,I know he's handsome, but \Nplease try not to look at him.
+Dialogue: 0,0:15:49.95,0:15:51.38,Default,Teacher,0000,0000,0000,,Especially you girls.
+Dialogue: 0,0:15:51.38,0:15:52.25,Default,Teacher,0000,0000,0000,,Come on!
+Dialogue: 0,0:15:52.25,0:15:53.01,Default,Girls,0000,0000,0000,,Okay!
+Dialogue: 0,0:15:53.68,0:15:54.97,Watamote-internal/narrator,Kae,0000,0000,0000,,Guess that's expected.
+Dialogue: 0,0:15:56.34,0:16:00.98,Watamote-internal/narrator,Kae,0000,0000,0000,,And so, Mutsumi-sensei fit into \Nour school without a hitch.
+Dialogue: 0,0:16:01.30,0:16:03.99,Watamote-internal/narrator,Kae,0000,0000,0000,,His lessons were interesting \Nand easy to understand.
+Dialogue: 0,0:16:04.71,0:16:06.41,Watamote-internal/narrator,Kae,0000,0000,0000,,The girls were first to like him.
+Dialogue: 0,0:16:10.74,0:16:14.66,Watamote-internal/narrator,Kae,0000,0000,0000,,And before long, even the boys \Ncame to grow fond of him.
+Dialogue: 0,0:16:15.16,0:16:19.34,Watamote-internal/narrator,Kae,0000,0000,0000,,In just a matter of days, \Nhe became hugely popular!
+Dialogue: 0,0:16:22.92,0:16:25.92,Default,Kae,0000,0000,0000,,What a great haul of new \Nreleases I got today.
+Dialogue: 0,0:16:25.92,0:16:28.33,Default,Kae,0000,0000,0000,,Putting things on hold\Nreally is the way to go.
+Dialogue: 0,0:16:34.62,0:16:36.30,Default,Kazuma,0000,0000,0000,,Huh? Serinuma-san?
+Dialogue: 0,0:16:37.42,0:16:39.38,Default,Kae,0000,0000,0000,,Sensei, what are you doing here?
+Dialogue: 0,0:16:39.38,0:16:41.36,Default,Kazuma,0000,0000,0000,,I was thinking of catching a movie.
+Dialogue: 0,0:16:41.36,0:16:42.35,Default,Kazuma,0000,0000,0000,,Are you here to shop?
+Dialogue: 0,0:16:42.64,0:16:45.13,Default,Kae,0000,0000,0000,,Oh, yes. At Anime Ito.
+Dialogue: 0,0:16:45.44,0:16:46.76,sign_24107_396_Anime_Ito,,0000,0000,0000,,anim{\c&H68FFF6&}e{\c} Ito
+Dialogue: 0,0:16:47.06,0:16:49.61,Default,Kazuma,0000,0000,0000,,Huh? Oh, I see.
+Dialogue: 0,0:16:50.01,0:16:51.82,Watamote-internal/narrator,Kazuma,0000,0000,0000,,So, she's an otaku.
+Dialogue: 0,0:16:52.67,0:16:53.82,Default,Kazuma,0000,0000,0000,,Are you by yourself?
+Dialogue: 0,0:16:54.12,0:16:57.32,Default,Kae,0000,0000,0000,,Oh, yes. I'm all done now, so \NI was thinking of heading home.
+Dialogue: 0,0:16:57.62,0:17:00.80,Default,Kazuma,0000,0000,0000,,Is that right? How about we \Ngrab a light lunch, then?
+Dialogue: 0,0:17:00.80,0:17:01.75,Default,Kazuma,0000,0000,0000,,I bet you didn't eat yet.
+Dialogue: 0,0:17:01.75,0:17:03.16,Default,Kae,0000,0000,0000,,Huh? But...
+Dialogue: 0,0:17:03.40,0:17:05.74,Default,Kazuma,0000,0000,0000,,I've got time until my movie starts.
+Dialogue: 0,0:17:05.74,0:17:06.73,Default,Kazuma,0000,0000,0000,,It'll be my treat.
+Dialogue: 0,0:17:08.71,0:17:10.62,Default,Kazuma,0000,0000,0000,,Come on, keep me company.
+Dialogue: 0,0:17:16.22,0:17:17.64,Watamote-internal/narrator,Kae,0000,0000,0000,,I ended up going with him.
+Dialogue: 0,0:17:19.03,0:17:21.10,Watamote-internal/narrator,Kae,0000,0000,0000,,This place is so fancy that I can't relax.
+Dialogue: 0,0:17:21.32,0:17:23.89,Default,Kazuma,0000,0000,0000,,So, you're a member of the history club?
+Dialogue: 0,0:17:24.17,0:17:25.49,Default,Kae,0000,0000,0000,,Oh, yes.
+Dialogue: 0,0:17:25.49,0:17:28.72,Default,Kazuma,0000,0000,0000,,I see. How's he doing? \NIs he doing a good job?
+Dialogue: 0,0:17:29.62,0:17:32.07,Default,Kazuma,0000,0000,0000,,Asuma. He's always been a bit meek.
+Dialogue: 0,0:17:33.77,0:17:35.74,Default,Kazuma,0000,0000,0000,,He's not terribly assertive, either,
+Dialogue: 0,0:17:35.74,0:17:38.37,Default,Kazuma,0000,0000,0000,,so I was a bit worried about \Nwhether or not he'd do well.
+Dialogue: 0,0:17:39.19,0:17:41.02,Default,Kae,0000,0000,0000,,Um, I think he's doing just fine.
+Dialogue: 0,0:17:41.02,0:17:43.94,Default,Kazuma,0000,0000,0000,,Yeah? He's always so zoned out.
+Dialogue: 0,0:17:43.94,0:17:47.22,Default,Kazuma,0000,0000,0000,,He's super gullible, so I used to\N pull pranks on him all the time.
+Dialogue: 0,0:17:47.55,0:17:49.44,Default,Kazuma,0000,0000,0000,,He was so cute when he cried.
+Dialogue: 0,0:17:49.44,0:17:50.96,Default,Kae,0000,0000,0000,,Pranks?
+Dialogue: 0,0:17:51.37,0:17:54.34,Default,Kae,0000,0000,0000,,Oh! L-Like, maybe locking him in a storehouse?
+Dialogue: 0,0:17:54.59,0:17:56.69,Default,Kazuma,0000,0000,0000,,Yeah! I totally did that!
+Dialogue: 0,0:17:56.69,0:17:58.31,Default,Kazuma,0000,0000,0000,,At our grandpa's place in the countryside!
+Dialogue: 0,0:17:58.31,0:18:00.33,Default,Kazuma,0000,0000,0000,,I forgot him there the whole night!
+Dialogue: 0,0:18:00.69,0:18:02.10,Default,Kae,0000,0000,0000,,H-How heartless.
+Dialogue: 0,0:18:02.10,0:18:02.60,Default,Kazuma,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:02.96,0:18:05.85,Default,Kae,0000,0000,0000,,That traumatized him.
+Dialogue: 0,0:18:05.85,0:18:09.36,Default,Kae,0000,0000,0000,,When we went to the cave, he was\N so panicked that he grabbed on to me.
+Dialogue: 0,0:18:09.86,0:18:14.11,Default,Kazuma,0000,0000,0000,,Huh? Oh, sounds like my brother \Nput you through a lot of trouble.
+Dialogue: 0,0:18:14.31,0:18:17.71,Default,Kae,0000,0000,0000,,What? No, that's not what this is about.
+Dialogue: 0,0:18:19.78,0:18:23.72,Default,Kae,0000,0000,0000,,It's true that Senpai\N isn't the assertive type,
+Dialogue: 0,0:18:23.72,0:18:26.75,Default,Kae,0000,0000,0000,,but he's helped me out \Nin lots of different ways.
+Dialogue: 0,0:18:28.72,0:18:33.50,Default,Kae,0000,0000,0000,,And it's like, he's really strong \Nwhere it matters, and truly kind.
+Dialogue: 0,0:18:35.96,0:18:38.18,Default,Kazuma,0000,0000,0000,,Looks like he's grown up to be quite a guy
+Dialogue: 0,0:18:38.18,0:18:40.75,Default,Kazuma,0000,0000,0000,,to get so much praise from\N his cute underclassman!
+Dialogue: 0,0:18:53.62,0:18:54.65,Default,Kazuma,0000,0000,0000,,Asuma!
+Dialogue: 0,0:18:55.51,0:18:56.74,Default,Mutsumi,0000,0000,0000,,Nii-san?!
+Dialogue: 0,0:18:56.74,0:18:57.90,Default,Mutsumi,0000,0000,0000,,When did you get here?
+Dialogue: 0,0:18:58.18,0:19:00.26,Default,Kazuma,0000,0000,0000,,Just now! I was looking for something,
+Dialogue: 0,0:19:00.26,0:19:02.41,Default,Kazuma,0000,0000,0000,,and decided I'd drop by for dinner, too.
+Dialogue: 0,0:19:02.71,0:19:04.09,Default,Mutsumi,0000,0000,0000,,Looking for something?
+Dialogue: 0,0:19:04.09,0:19:07.03,Default,Kazuma,0000,0000,0000,,Today, I was hanging around Shinjuku.
+Dialogue: 0,0:19:07.03,0:19:09.67,Default,Kazuma,0000,0000,0000,,And I met that girl, Serinuma-san?
+Dialogue: 0,0:19:10.36,0:19:13.56,Default,Kazuma,0000,0000,0000,,She was on her own, too, so \NI had her join me for lunch.
+Dialogue: 0,0:19:13.81,0:19:14.59,Default,Kazuma,0000,0000,0000,,But, really!
+Dialogue: 0,0:19:15.05,0:19:17.21,Default,Kazuma,0000,0000,0000,,She sure is cute.
+Dialogue: 0,0:19:19.56,0:19:20.81,Default,Kazuma,0000,0000,0000,,You're so lucky!
+Dialogue: 0,0:19:20.81,0:19:23.30,Default,Kazuma,0000,0000,0000,,I wish I'd had an underclassman that cute!
+Dialogue: 0,0:19:23.30,0:19:25.19,Default,Kazuma,0000,0000,0000,,I wanted to be adored like that!
+Dialogue: 0,0:19:26.59,0:19:28.27,Default,Kazuma,0000,0000,0000,,Come on, time for dinner!
+Dialogue: 0,0:19:28.27,0:19:30.77,Default,Kazuma,0000,0000,0000,,Been a while since I ate Mom's cooking!
+Dialogue: 0,0:19:43.84,0:19:45.33,Default,Kae,0000,0000,0000,,Hello!
+Dialogue: 0,0:19:48.12,0:19:50.11,Default,Kae,0000,0000,0000,,I'm here first?
+Dialogue: 0,0:19:52.45,0:19:54.92,Default,Kae,0000,0000,0000,,What happened here? How weird.
+Dialogue: 0,0:19:54.92,0:19:56.71,Default,Kae,0000,0000,0000,,We just cleaned up, too.
+Dialogue: 0,0:19:57.10,0:19:58.90,Default,Kae,0000,0000,0000,,Books should be put back!
+Dialogue: 0,0:19:58.90,0:20:01.69,Default,Kae,0000,0000,0000,,Uh, what's this cardboard box for?
+Dialogue: 0,0:20:05.14,0:20:07.14,Default,Kazuma,0000,0000,0000,,Oh, there you are. Hello!
+Dialogue: 0,0:20:07.36,0:20:08.60,Default,Kae,0000,0000,0000,,Sensei!
+Dialogue: 0,0:20:08.60,0:20:10.42,Default,Kazuma,0000,0000,0000,,That's dangerous! Need a hand?
+Dialogue: 0,0:20:10.42,0:20:12.52,Default,Kae,0000,0000,0000,,No, no, I'm fine.
+Dialogue: 0,0:20:12.72,0:20:13.67,Default,Kae,0000,0000,0000,,Do you need something?
+Dialogue: 0,0:20:13.67,0:20:16.35,Default,Kazuma,0000,0000,0000,,Nope. I just had something \NI wanted to give you.
+Dialogue: 0,0:20:16.35,0:20:17.65,Default,Kazuma,0000,0000,0000,,It's this.
+Dialogue: 0,0:20:17.65,0:20:20.82,sign_29195_465_Mirage_Saga__Loc,# box,0000,0000,0000,,Mirage Saga \NLocal Collaboration
+Dialogue: 0,0:20:17.86,0:20:20.82,Default,Kazuma,0000,0000,0000,,Isn't it from that anime \Nyou said you liked yesterday?
+Dialogue: 0,0:20:22.50,0:20:24.34,Default,Kae,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:20:24.54,0:20:27.96,Default,Kae,0000,0000,0000,,The legendary Mirage Saga \NLocal Collaboration prize!
+Dialogue: 0,0:20:27.96,0:20:29.54,Default,Kae,0000,0000,0000,,I've never seen it before!
+Dialogue: 0,0:20:29.98,0:20:34.54,Default,Kazuma,0000,0000,0000,,I-I remembered I had it lying around \Nmy house after winning it in an arcade.
+Dialogue: 0,0:20:34.54,0:20:36.54,sign_29600_470_Mirage_Saga_Loca,# box,0000,0000,0000,,Mirage Saga Local Collaboration
+Dialogue: 0,0:20:37.65,0:20:39.21,Default,Kazuma,0000,0000,0000,,You sure are drooling!
+Dialogue: 0,0:20:39.53,0:20:40.80,Default,Kazuma,0000,0000,0000,,Don't tell anyone, okay?
+Dialogue: 0,0:20:42.54,0:20:44.61,Default,Kae,0000,0000,0000,,Y-You're giving it to me?!
+Dialogue: 0,0:20:46.14,0:20:48.18,Default,Kae,0000,0000,0000,,But, I can't take something this amazing!
+Dialogue: 0,0:20:48.28,0:20:50.22,Default,Kae,0000,0000,0000,,This is sold at a really high premium!
+Dialogue: 0,0:20:50.41,0:20:51.39,Default,Kazuma,0000,0000,0000,,Look out!
+Dialogue: 0,0:20:54.83,0:20:56.07,Default,Kazuma,0000,0000,0000,,That was close.
+Dialogue: 0,0:20:56.07,0:20:57.07,Default,Kazuma,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:20:57.07,0:20:57.65,Default,Kae,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:58.80,0:21:00.90,Default,Kae,0000,0000,0000,,I-I'm sorry. Thank...
+Dialogue: 0,0:21:01.52,0:21:02.25,Default,Kae,0000,0000,0000,,you...
+Dialogue: 0,0:21:09.29,0:21:10.27,Watamote-internal/narrator,Kae,0000,0000,0000,,We're so close!
+Dialogue: 0,0:21:11.16,0:21:13.67,Default,Kae,0000,0000,0000,,I-I-I'm sorry!
+Dialogue: 0,0:21:20.07,0:21:22.72,Default,Kazuma,0000,0000,0000,,You really are cute.
+Dialogue: 0,0:21:27.65,0:21:28.72,Default,Mutsumi,0000,0000,0000,,Nii-san!
+Dialogue: 0,0:21:32.05,0:21:33.48,Default,Kazuma,0000,0000,0000,,A-Asuma?
+Dialogue: 0,0:21:33.48,0:21:34.85,Default,Kae,0000,0000,0000,,S-Senpai!
+Dialogue: 0,0:21:37.30,0:21:39.21,Default,Mutsumi,0000,0000,0000,,What are you thinking?
+Dialogue: 0,0:21:39.21,0:21:42.86,Default,Mutsumi,0000,0000,0000,,Do you think it's acceptable for a student \Nteacher to make a move on a student?
+Dialogue: 0,0:21:49.54,0:21:52.24,Default,Kazuma,0000,0000,0000,,Then, once my term is up, \NI'm free to pursue her, right?
+Dialogue: 0,0:21:53.67,0:21:56.29,Default,Kazuma,0000,0000,0000,,You don't have a reason \Nto stop me then, do you?
+Dialogue: 0,0:21:57.64,0:21:58.42,Default,Mutsumi,0000,0000,0000,,I do.
+Dialogue: 0,0:22:02.36,0:22:02.92,Default,Mutsumi,0000,0000,0000,,The truth is...
+Dialogue: 0,0:22:04.95,0:22:07.93,Default,Mutsumi,0000,0000,0000,,Serinuma-san is my girlfriend.
+Dialogue: 0,0:23:40.59,0:23:42.22,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,Sorry for being late!
+Dialogue: 0,0:23:42.22,0:23:44.57,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,It's not like you to be late, Shinomiya-kun.
+Dialogue: 0,0:23:44.57,0:23:46.74,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,An older lady called \Nout to me on the train.
+Dialogue: 0,0:23:46.74,0:23:49.65,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,She said I looked like her\N grandson and I couldn't get away.
+Dialogue: 0,0:23:49.65,0:23:52.28,Watamote-internal/narrator,Nishina,0000,0000,0000,,Speaking of, you get candy a lot, don't you?
+Dialogue: 0,0:23:52.28,0:23:55.92,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,Well, I much prefer having to talk to \Nladies like that than girls my own age.
+Dialogue: 0,0:23:55.92,0:23:57.04,Watamote-internal/narrator,Mutsumi,0000,0000,0000,,Huh? Do you not know how?
+Dialogue: 0,0:23:57.04,0:24:00.58,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,Not at all. When it comes to age, \NI much prefer someone older.
+Dialogue: 0,0:24:00.58,0:24:03.05,Watamote-internal/narrator,Nishina,0000,0000,0000,,I get it. You definitely \Nhave that look about you.
+Dialogue: 0,0:24:03.05,0:24:05.06,Watamote-internal/narrator,Shinomiya,0000,0000,0000,,Everyone's got a type they're not good with!
+Dialogue: 0,0:24:04.79,0:24:10.09,Watamote-Next-Ep-Title,# title,0000,0000,0000,,Next time: \NForward! Guard the Castle!
+Dialogue: 0,0:24:04.79,0:24:10.09,Watamote-Look-Forward,# bottom,0000,0000,0000,,Look forward to it!
+Dialogue: 0,0:24:05.06,0:24:06.03,Watamote-internal/narrator,Nishina,0000,0000,0000,,Not me!
+Dialogue: 0,0:24:06.03,0:24:07.73,Watamote-internal/narrator,Nishina,0000,0000,0000,,I can get a feel for anyone when we meet,
+Dialogue: 0,0:24:07.73,0:24:08.91,Watamote-internal/narrator,Nishina,0000,0000,0000,,and make everything work out.
+Dialogue: 0,0:24:08.91,0:24:09.69,Watamote-internal/narrator,Nishina,0000,0000,0000,,That's how—

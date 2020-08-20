@@ -1,0 +1,358 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,27,187,0
+Style: Next Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,53,160,0
+Style: RightSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,533,160,53,0
+Style: LeftSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,160,533,53,0
+Style: EpNum,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,533,333,0
+Style: LeftSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,133,560,160,0
+Style: RightSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,107,160,0
+Style: CenterSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,307,307,160,0
+Style: DefaultLeftH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: DefaultRightH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,9,0,0,28,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: RightSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,560,107,133,0
+Style: LeftSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,107,560,133,0
+Style: DefaultLow2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: DefaultLef2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: DefaultLeftM,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: OnTop,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,320,160,67,0
+Style: SMR,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,147,27,27,0
+Style: LeftSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,547,160,0
+Style: RightSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,547,27,160,0
+Style: CenterSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,320,320,160,0
+Style: DefaultC,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: 3rd,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,267,160,53,0
+Style: RightSignL3,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,213,213,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:32.13,0:01:34.51,Default,NTP,0000,0000,0000,,{\a6}Silver Wings
+Dialogue: 0,0:01:38.72,0:01:40.89,Default,NTP,0000,0000,0000,,{\i1}"If you believe, your dream will come true."{\i0}
+Dialogue: 0,0:01:43.81,0:01:46.19,Default,NTP,0000,0000,0000,,{\i1}That's probably true.{\i0}
+Dialogue: 0,0:01:46.39,0:01:47.90,Default,NTP,0000,0000,0000,,{\a6}UPPER RANK
+Dialogue: 0,0:01:51.86,0:01:54.40,Default,NTP,0000,0000,0000,,{\a6}{\i1}However, one part is missing.{\i0}
+Dialogue: 0,0:01:56.74,0:01:59.41,Default,NTP,0000,0000,0000,,{\i1}"If you believe and keep working hard,"{\i0}
+Dialogue: 0,0:02:01.37,0:02:02.66,Default,NTP,0000,0000,0000,,{\i1}"your dream will come true."{\i0}
+Dialogue: 0,0:02:07.21,0:02:08.79,Default,NTP,0000,0000,0000,,{\i1}That's the correct one.{\i0}
+Dialogue: 0,0:02:11.67,0:02:13.34,Default,NTP,0000,0000,0000,,{\i1}But I could go on.{\i0}
+Dialogue: 0,0:02:14.96,0:02:16.47,Default,NTP,0000,0000,0000,,{\i1}"If you believe,"{\i0}
+Dialogue: 0,0:02:16.68,0:02:22.47,Default,NTP,0000,0000,0000,,{\i1}"and work hard at it every day,\Nfor even an hour longer than all of your rivals,"{\i0}
+Dialogue: 0,0:02:22.81,0:02:27.31,Default,NTP,0000,0000,0000,,{\i1}"there's a good chance your dream\Nwill come true to some extent."{\i0}
+Dialogue: 0,0:02:34.44,0:02:38.24,Default,NTP,0000,0000,0000,,{\i1}The shorter version works better\Nas a catchphrase.{\i0}
+Dialogue: 0,0:02:38.24,0:02:40.49,Default,NTP,0000,0000,0000,,{\a6}"IF YOU BELIEVE, YOUR DREAM WILL COME TRUE"
+Dialogue: 0,0:02:42.16,0:02:46.71,Default,NTP,0000,0000,0000,,{\i1}But I think that's too abridged.{\i0}
+Dialogue: 0,0:02:52.84,0:02:54.75,Default,NTP,0000,0000,0000,,{\i1}That way, it sounds like{\i0}
+Dialogue: 0,0:02:54.75,0:02:59.72,Default,NTP,0000,0000,0000,,{\i1}you don't have to do anything, but\Njust believe and your dream would come true.{\i0}
+Dialogue: 0,0:03:08.77,0:03:12.65,Default,NTP,0000,0000,0000,,{\i1}I'd like to ask\Nwhoever chopped it down to a short length{\i0}
+Dialogue: 0,0:03:12.65,0:03:17.61,Default,NTP,0000,0000,0000,,{\i1}what they were thinking when they did it.{\i0}
+Dialogue: 0,0:03:21.78,0:03:22.87,Default,NTP,0000,0000,0000,,{\a6}Hey, Junkei!
+Dialogue: 0,0:03:25.29,0:03:27.41,Default,NTP,0000,0000,0000,,What dan are you right now?
+Dialogue: 0,0:03:27.62,0:03:28.87,Default,NTP,0000,0000,0000,,Were you a professional now?
+Dialogue: 0,0:03:29.62,0:03:31.08,Default,NTP,0000,0000,0000,,Fifth dan.
+Dialogue: 0,0:03:31.21,0:03:33.25,Default,NTP,0000,0000,0000,,Huh! Really?
+Dialogue: 0,0:03:33.25,0:03:35.13,Default,NTP,0000,0000,0000,,I don't really know what that means, though!
+Dialogue: 0,0:03:35.50,0:03:37.26,Default,NTP,0000,0000,0000,,So, do professional shogi players\Nmake bank?
+Dialogue: 0,0:03:37.51,0:03:41.63,Default,NTP,0000,0000,0000,,But hey, can you like,\Nget famous and be on TV?
+Dialogue: 0,0:03:41.63,0:03:43.89,Default,NTP,0000,0000,0000,,Don't they have that on Sunday mornings?
+Dialogue: 0,0:03:44.35,0:03:47.02,Default,NTP,0000,0000,0000,,And hurry up and become meijin!
+Dialogue: 0,0:03:53.40,0:03:55.98,Default,NTP,0000,0000,0000,,{\i1}Whenever I go to some kind of gathering,{\i0}
+Dialogue: 0,0:03:56.19,0:03:58.53,Default,NTP,0000,0000,0000,,{\i1}I'm always asked the same questions.{\i0}
+Dialogue: 0,0:03:59.99,0:04:03.03,Default,NTP,0000,0000,0000,,{\i1}And I always think these are like...{\i0}
+Dialogue: 0,0:04:05.12,0:04:08.04,Default,NTP,0000,0000,0000,,Huh, so you're a manager!\NI don't know much about it, though.
+Dialogue: 0,0:04:08.41,0:04:10.29,Default,NTP,0000,0000,0000,,So what's a manager's annual salary?
+Dialogue: 0,0:04:10.46,0:04:14.63,Default,NTP,0000,0000,0000,,Or forget that, hurry up and become\Nsection chief or company director!
+Dialogue: 0,0:04:14.75,0:04:16.67,Default,NTP,0000,0000,0000,,{\a6}All while you're still in your 20s!
+Dialogue: 0,0:04:16.92,0:04:19.17,Default,NTP,0000,0000,0000,,It's cooler that way, you know?
+Dialogue: 0,0:04:20.26,0:04:22.51,Default,NTP,0000,0000,0000,,{\a10}SPLOOSH
+Dialogue: 0,0:04:26.64,0:04:30.77,Default,NTP,0000,0000,0000,,{\i1}I'd like to ask them the same kind\Nof boorish questions they ask me.{\i0}
+Dialogue: 0,0:04:31.56,0:04:36.56,Default,NTP,0000,0000,0000,,{\i1}At first, I would try to explain to them,\Nbut that seemed to be a buzzkill,{\i0}
+Dialogue: 0,0:04:36.56,0:04:38.78,Default,NTP,0000,0000,0000,,{\i1}so I just keep my mouth shut and let it slide.{\i0}
+Dialogue: 0,0:04:39.53,0:04:42.36,Default,NTP,0000,0000,0000,,{\i1}I realized\Nthey didn't really want to know about it,{\i0}
+Dialogue: 0,0:04:42.03,0:04:44.78,Default,NTP,0000,0000,0000,,{\a6}ALL FOOD ORDERS,\N500 YEN FOR TWO HOURS
+Dialogue: 0,0:04:42.36,0:04:47.49,Default,NTP,0000,0000,0000,,{\i1}but only asked me as a stock question,\Nthe way you'd say, "Nice weather now, isn't it?"{\i0}
+Dialogue: 0,0:04:48.45,0:04:50.12,Default,NTP,0000,0000,0000,,{\i1}It doesn't mean anything.{\i0}
+Dialogue: 0,0:04:50.75,0:04:56.46,Default,NTP,0000,0000,0000,,{\i1}I'm just here as a foil, as I take\Nthe minor stings from their questions.{\i0}
+Dialogue: 0,0:04:57.67,0:05:02.13,Default,NTP,0000,0000,0000,,I just remembered!\NJunkei, do you still raise pigeons?
+Dialogue: 0,0:05:02.13,0:05:03.34,Default,NTP,0000,0000,0000,,What, pigeons?
+Dialogue: 0,0:05:03.34,0:05:06.18,Default,NTP,0000,0000,0000,,Oh, that's right!\NHe used to raise them! Racing pigeons!
+Dialogue: 0,0:05:06.18,0:05:10.31,Default,NTP,0000,0000,0000,,What the hell? Shogi and pigeons?\NYou're such an enthusiast, Junkei!
+Dialogue: 0,0:05:22.90,0:05:25.03,Default,NTP,0000,0000,0000,,I have to go take care of the pigeons.
+Dialogue: 0,0:05:27.82,0:05:30.91,Default,NTP,0000,0000,0000,,{\a6}Man, that Junkei's so amazing.
+Dialogue: 0,0:05:30.91,0:05:32.70,Default,NTP,0000,0000,0000,,{\a6}He's as scary as always.
+Dialogue: 0,0:05:32.70,0:05:34.96,Default,NTP,0000,0000,0000,,{\a6}He's got this strong aura...
+Dialogue: 0,0:05:34.96,0:05:37.75,Default,NTP,0000,0000,0000,,{\a6}He always has been an oddball.
+Dialogue: 0,0:05:45.43,0:05:50.56,Default,NTP,0000,0000,0000,,{\i1}I got into shogi and racing pigeons because of\Nmy grandfather, who loved both. He taught me.{\i0}
+Dialogue: 0,0:05:51.56,0:05:54.85,Default,NTP,0000,0000,0000,,{\i1}With shogi, the more effort you put into it,\Nthe better the results.{\i0}
+Dialogue: 0,0:05:55.48,0:05:59.86,Default,NTP,0000,0000,0000,,{\i1}With pigeons, the more love and care\Nyou give them, the more they respond.{\i0}
+Dialogue: 0,0:06:00.23,0:06:02.61,Default,NTP,0000,0000,0000,,{\i1}I became obsessed with both.{\i0}
+Dialogue: 0,0:06:12.04,0:06:18.63,Default,NTP,0000,0000,0000,,{\i1}But right now, both of them\Nare slipping through my fingers.{\i0}
+Dialogue: 0,0:06:20.09,0:06:23.05,Default,NTP,0000,0000,0000,,{\i1}I finally managed to get promoted to C-1,{\i0}
+Dialogue: 0,0:06:23.05,0:06:26.42,Default,NTP,0000,0000,0000,,{\i1}but then this spring\NI was downgraded for the second time.{\i0}
+Dialogue: 0,0:06:34.31,0:06:38.69,Default,NTP,0000,0000,0000,,{\a6}{\i1}And Silver, my favorite racer,\Nwhich I'd put my heart into raising,{\i0}
+Dialogue: 0,0:06:38.85,0:06:42.77,Default,NTP,0000,0000,0000,,{\a6}{\i1}never came back\Nafter the 500 km race in late spring.{\i0}
+Dialogue: 0,0:06:44.11,0:06:48.07,Default,NTP,0000,0000,0000,,{\i1}Did it fall prey to a falcon?\NDid it hit a power cable?{\i0}
+Dialogue: 0,0:06:48.61,0:06:50.24,Default,NTP,0000,0000,0000,,{\i1}Was it because of the weather?{\i0}
+Dialogue: 0,0:06:51.74,0:06:55.95,Default,NTP,0000,0000,0000,,{\i1}Just imagining it lying wounded\Nand suffering somewhere{\i0}
+Dialogue: 0,0:06:56.50,0:06:59.67,Default,NTP,0000,0000,0000,,{\i1}was enough to make me feel\Novercome with grief.{\i0}
+Dialogue: 0,0:07:05.88,0:07:11.85,Default,NTP,0000,0000,0000,,{\i1}It felt like those dark clouds\Nwould swallow up everything.{\i0}
+Dialogue: 0,0:07:52.55,0:07:54.72,Default,NTP,0000,0000,0000,,{\i1}Trying to predict moves ahead{\i0}
+Dialogue: 0,0:07:54.72,0:07:57.47,Default,NTP,0000,0000,0000,,{\i1}is like diving to the bottom\Nof a pitch-black sea.{\i0}
+Dialogue: 0,0:08:00.06,0:08:02.98,Default,NTP,0000,0000,0000,,{\i1}The "answer" is only found there at the bottom{\i0}
+Dialogue: 0,0:08:03.27,0:08:09.36,Default,NTP,0000,0000,0000,,{\i1}and as you move forward, the next "answer"\Ncan only be found at an even deeper area.{\i0}
+Dialogue: 0,0:08:10.65,0:08:14.70,Default,NTP,0000,0000,0000,,{\i1}It used to be that the more I dove,\Nthe more "answers" I would get{\i0}
+Dialogue: 0,0:08:15.28,0:08:18.08,Default,NTP,0000,0000,0000,,{\i1}and "desire" would triumph over fear.{\i0}
+Dialogue: 0,0:08:20.25,0:08:23.08,Default,NTP,0000,0000,0000,,{\i1}But now, six years\Nafter I've turned professional,{\i0}
+Dialogue: 0,0:08:22.25,0:08:25.17,Default,NTP,0000,0000,0000,,{\a10}SHOGI HALL
+Dialogue: 0,0:08:23.08,0:08:26.34,Default,NTP,0000,0000,0000,,{\i1}I feel like I can't make any progress at all.{\i0}
+Dialogue: 0,0:08:30.38,0:08:33.93,Default,NTP,0000,0000,0000,,{\i1}Even when I dive down and feels like\Nmy body is going to be torn apart,{\i0}
+Dialogue: 0,0:08:34.43,0:08:37.18,Default,NTP,0000,0000,0000,,{\i1}I now mostly come back empty-handed.{\i0}
+Dialogue: 0,0:08:38.81,0:08:40.64,Default,NTP,0000,0000,0000,,{\i1}Ever since the thought,{\i0}
+Dialogue: 0,0:08:41.02,0:08:44.85,Default,NTP,0000,0000,0000,,{\i1}"I doubt I'll find something,"\Nwon out over "I may find something,"{\i0}
+Dialogue: 0,0:08:45.40,0:08:48.48,Default,NTP,0000,0000,0000,,{\i1}my efforts have been inhibited.{\i0}
+Dialogue: 0,0:08:52.57,0:08:54.49,Default,NTP,0000,0000,0000,,{\i1}But as if looking at me with disdain,{\i0}
+Dialogue: 0,0:08:57.16,0:09:01.16,Default,NTP,0000,0000,0000,,{\i1}Kiriyama and Nikaidou\Nplunge back in again like it's nothing.{\i0}
+Dialogue: 0,0:09:02.91,0:09:04.25,Default,NTP,0000,0000,0000,,{\i1}Over and over.{\i0}
+Dialogue: 0,0:09:06.58,0:09:08.59,Default,NTP,0000,0000,0000,,{\i1}It's insane.{\i0}
+Dialogue: 0,0:09:15.39,0:09:18.01,Default,NTP,0000,0000,0000,,{\a6}{\i1}Even when they come back\Nwith nothing again and again,{\i0}
+Dialogue: 0,0:09:18.01,0:09:21.77,Default,NTP,0000,0000,0000,,{\a6}{\i1}they keep coming up with new strategies\Nand try them over and over.{\i0}
+Dialogue: 0,0:09:23.02,0:09:25.19,Default,NTP,0000,0000,0000,,{\i1}Unconcerned with the anguish,{\i0}
+Dialogue: 0,0:09:25.77,0:09:27.48,Default,NTP,0000,0000,0000,,{\i1}they repeatedly throw themselves in{\i0}
+Dialogue: 0,0:09:29.23,0:09:30.53,Default,NTP,0000,0000,0000,,{\i1}over and over again.{\i0}
+Dialogue: 0,0:09:50.00,0:09:53.97,Default,NTP,0000,0000,0000,,{\i1}Terror has won out and left me behind.{\i0}
+Dialogue: 0,0:09:55.05,0:09:58.30,Default,NTP,0000,0000,0000,,{\a6}SHOGI HALL
+Dialogue: 0,0:09:56.13,0:09:58.30,Default,NTP,0000,0000,0000,,{\i1}I wanted to win, no matter what.{\i0}
+Dialogue: 0,0:09:59.89,0:10:03.93,Default,NTP,0000,0000,0000,,{\i1}I didn't want to let anyone else\Nhave the one title I could still cling to.{\i0}
+Dialogue: 0,0:10:06.14,0:10:07.94,Default,NTP,0000,0000,0000,,{\i1}I heard he was sick.{\i0}
+Dialogue: 0,0:10:10.27,0:10:14.82,Default,NTP,0000,0000,0000,,{\a6}{\i1}But I also knew that his will\Nwas much stronger than mine,{\i0}
+Dialogue: 0,0:10:17.28,0:10:22.54,Default,NTP,0000,0000,0000,,{\i1}and that he was someone\Nwho would go much further than me.{\i0}
+Dialogue: 0,0:10:27.58,0:10:29.96,Default,NTP,0000,0000,0000,,{\i1}That's right. At that moment...{\i0}
+Dialogue: 0,0:10:30.96,0:10:32.92,Default,NTP,0000,0000,0000,,There has been a threefold repetition.
+Dialogue: 0,0:10:32.92,0:10:35.30,Default,NTP,0000,0000,0000,,A new game will begin in 30 minutes.
+Dialogue: 0,0:10:41.01,0:10:44.22,Default,NTP,0000,0000,0000,,{\i1}He smiled. I remember that.{\i0}
+Dialogue: 0,0:10:48.40,0:10:49.48,Default,NTP,0000,0000,0000,,{\i1}And then...{\i0}
+Dialogue: 0,0:10:49.48,0:10:52.44,Default,NTP,0000,0000,0000,,{\a6}KING
+Dialogue: 0,0:11:03.28,0:11:05.41,Default,NTP,0000,0000,0000,,{\i1}I felt it distinctly.{\i0}
+Dialogue: 0,0:11:07.00,0:11:12.42,Default,NTP,0000,0000,0000,,{\i1}I wanted to go back\Nto the world they were in, once more.{\i0}
+Dialogue: 0,0:12:08.68,0:12:09.64,Default,NTP,0000,0000,0000,,Silver.
+Dialogue: 0,0:12:12.65,0:12:14.27,Default,NTP,0000,0000,0000,,Idiot...
+Dialogue: 0,0:12:20.15,0:12:23.45,Default,NTP,0000,0000,0000,,{\a6}I swear I'll beat you next time.
+Dialogue: 0,0:12:40.38,0:12:43.76,Default,NTP,0000,0000,0000,,Okay, it's okay. Good boy.
+Dialogue: 0,0:12:44.76,0:12:46.64,Default,NTP,0000,0000,0000,,Here's a special stamina meal.
+Dialogue: 0,0:12:46.85,0:12:48.68,Default,NTP,0000,0000,0000,,Fill up, Silver.
+Dialogue: 0,0:12:50.14,0:12:52.98,Default,NTP,0000,0000,0000,,You've become as light as paper.
+Dialogue: 0,0:12:54.31,0:12:57.44,Default,NTP,0000,0000,0000,,But you'll be all right. I'm with you.
+Dialogue: 0,0:12:58.11,0:12:59.86,Default,NTP,0000,0000,0000,,You'll be healthy again in no time.
+Dialogue: 0,0:13:00.86,0:13:04.36,Default,NTP,0000,0000,0000,,And then you'll be able\Nto really stretch your wings and fly.
+Dialogue: 0,0:13:06.95,0:13:11.37,Default,NTP,0000,0000,0000,,But first I'm going to do my best tomorrow.
+Dialogue: 0,0:13:12.00,0:13:20.01,Default,NTP,0000,0000,0000,,{\a5}12TH LION KING TOURNAMENT\NRei Kiriyama 5th-Dan\NVS\NTakeshi Tsujii 9th-Dan\NAfter 187 moves,\NVictory for Rei Kiriyama 5th-Dan
+Dialogue: 0,0:13:13.79,0:13:17.34,Default,NTP,0000,0000,0000,,Let's make it a race to see who flies first.
+Dialogue: 0,0:13:25.01,0:13:28.01,Default,NTP,0000,0000,0000,,Silver Wings
+Dialogue: 0,0:13:28.01,0:13:32.02,Default,NTP,0000,0000,0000,,{\a6}River Scenery
+Dialogue: 0,0:13:43.90,0:13:45.66,Default,NTP,0000,0000,0000,,{\i1}I thought maybe it was a dream.{\i0}
+Dialogue: 0,0:13:47.37,0:13:51.41,Default,NTP,0000,0000,0000,,{\i1}I was in a strange town, all alone,{\i0}
+Dialogue: 0,0:13:52.54,0:13:55.25,Default,NTP,0000,0000,0000,,{\i1}and didn't know where I should go.{\i0}
+Dialogue: 0,0:13:57.25,0:14:01.34,Default,NTP,0000,0000,0000,,{\i1}When I was feeling lonely, and about to cry,{\i0}
+Dialogue: 0,0:14:10.97,0:14:15.77,Default,NTP,0000,0000,0000,,{\i1}you came running over, out of breath,\Nand with wind-tousled hair,{\i0}
+Dialogue: 0,0:14:17.44,0:14:19.44,Default,NTP,0000,0000,0000,,{\i1}and stood before me.{\i0}
+Dialogue: 0,0:14:25.78,0:14:28.03,Default,NTP,0000,0000,0000,,{\a6}SWEET SHOP\NMITSUYOSHI
+Dialogue: 0,0:14:26.53,0:14:28.03,Default,NTP,0000,0000,0000,,Kiriyama.
+Dialogue: 0,0:14:30.78,0:14:34.66,Default,NTP,0000,0000,0000,,{\a10}GLEAM\NGLEAM
+Dialogue: 0,0:14:31.91,0:14:34.66,Default,NTP,0000,0000,0000,,{\a10}SERIOUS
+Dialogue: 0,0:14:32.24,0:14:34.66,Default,NTP,0000,0000,0000,,A-Are you sure about this?
+Dialogue: 0,0:14:34.79,0:14:36.41,LeftSignM,NTP,0000,0000,0000,,NOD...
+Dialogue: 0,0:14:35.33,0:14:36.41,Default,NTP,0000,0000,0000,,Of course.
+Dialogue: 0,0:14:36.71,0:14:39.13,Default,NTP,0000,0000,0000,,Please feel free to add any toppings you like.
+Dialogue: 0,0:14:39.42,0:14:44.46,Default,NTP,0000,0000,0000,,But we're supposed to be celebrating\Nyour Newcomer King title, Kiriyama.
+Dialogue: 0,0:14:44.46,0:14:47.63,Default,NTP,0000,0000,0000,,Is it really okay for you to treat us to this...
+Dialogue: 0,0:14:48.01,0:14:50.14,Default,NTP,0000,0000,0000,,I promised. So please, order away!
+Dialogue: 0,0:14:50.26,0:14:53.14,Default,NTP,0000,0000,0000,,Whoa! O-Okay then, here we go!
+Dialogue: 0,0:14:53.64,0:14:56.52,Default,NTP,0000,0000,0000,,I-I'll have mine with syrup-covered bean jam\Nand fruit with extra beans and fresh cream!
+Dialogue: 0,0:14:56.52,0:14:58.52,Default,NTP,0000,0000,0000,,I'll have mine with green tea Bavarian cream\Nand sweet red bean paste!
+Dialogue: 0,0:14:58.52,0:15:03.02,Default,NTP,0000,0000,0000,,{\a6}HUFF\NHUFF
+Dialogue: 0,0:14:58.94,0:15:03.02,Default,NTP,0000,0000,0000,,A-Also, double apricots\Nand rice flour dumplings! Three, no, four!
+Dialogue: 0,0:15:03.02,0:15:05.15,Default,NTP,0000,0000,0000,,And condensed milk! Condensed milk on top!
+Dialogue: 0,0:15:05.40,0:15:08.66,Default,NTP,0000,0000,0000,,A-And another with green tea Bavarian cream,\Nchestnuts, and fresh cream!
+Dialogue: 0,0:15:08.66,0:15:11.37,Default,NTP,0000,0000,0000,,And I want apricots too!\NOh, and I almost forgot.
+Dialogue: 0,0:15:11.37,0:15:14.37,Default,NTP,0000,0000,0000,,On both of those, I'd like two small scoops of\Nvanilla ice cream and sweet red bean ice cream!
+Dialogue: 0,0:15:14.37,0:15:17.12,Default,NTP,0000,0000,0000,,That's right, Sis! Thank you!\NI forgot the ice cream, and that's essential!
+Dialogue: 0,0:15:17.25,0:15:18.87,Default,NTP,0000,0000,0000,,Oh, right, what about you, Momo?
+Dialogue: 0,0:15:18.87,0:15:20.38,Default,NTP,0000,0000,0000,,The same as Hina!
+Dialogue: 0,0:15:20.71,0:15:21.63,Default,NTP,0000,0000,0000,,Fwha-haa!
+Dialogue: 0,0:15:21.75,0:15:23.71,Default,NTP,0000,0000,0000,,Then half of that for a kid's version!
+Dialogue: 0,0:15:23.71,0:15:26.21,Default,NTP,0000,0000,0000,,Oh dear, I've run out of room.
+Dialogue: 0,0:15:25.88,0:15:30.18,Default,NTP,0000,0000,0000,,{\a10}SHIVER
+Dialogue: 0,0:15:27.38,0:15:30.18,Default,NTP,0000,0000,0000,,{\a10}SHAKE
+Dialogue: 0,0:15:28.38,0:15:30.18,Default,NTP,0000,0000,0000,,C-Can you really eat all that?
+Dialogue: 0,0:15:30.64,0:15:33.68,Default,NTP,0000,0000,0000,,Oh yeah, Grandpa.\NGrandpa, what are you going to have?
+Dialogue: 0,0:15:33.97,0:15:37.60,Default,NTP,0000,0000,0000,,Me? Let's see here.\NI'm fine with fried mochi.
+Dialogue: 0,0:15:37.77,0:15:38.69,Default,NTP,0000,0000,0000,,Fried mochi?
+Dialogue: 0,0:15:41.77,0:15:43.31,Default,NTP,0000,0000,0000,,Three, please.
+Dialogue: 0,0:15:43.69,0:15:45.53,Default,NTP,0000,0000,0000,,How about you, Rei? What are you getting?
+Dialogue: 0,0:15:45.65,0:15:49.70,Default,NTP,0000,0000,0000,,Uh, maybe I'll have udon.
+Dialogue: 0,0:15:46.19,0:15:49.70,Default,NTP,0000,0000,0000,,{\a7}Never came to a store\Nlike this before
+Dialogue: 0,0:15:46.53,0:15:49.70,Default,NTP,0000,0000,0000,,{\a10}UMM
+Dialogue: 0,0:15:50.11,0:15:53.45,Default,NTP,0000,0000,0000,,Uh... This "mighty udon."
+Dialogue: 0,0:15:53.62,0:15:55.04,Default,NTP,0000,0000,0000,,Mighty udon?!
+Dialogue: 0,0:15:55.04,0:15:55.87,Default,NTP,0000,0000,0000,,Two...
+Dialogue: 0,0:15:55.87,0:15:57.08,Default,NTP,0000,0000,0000,,- Ahh!\N- Gasp!
+Dialogue: 0,0:15:57.08,0:15:58.83,Default,NTP,0000,0000,0000,,Three, please.
+Dialogue: 0,0:15:59.41,0:16:01.79,Default,NTP,0000,0000,0000,,And some plates for sharing, please.
+Dialogue: 0,0:16:08.30,0:16:11.47,Default,NTP,0000,0000,0000,,W... Wait.
+Dialogue: 0,0:16:12.18,0:16:14.18,Default,NTP,0000,0000,0000,,I need to take a little break.
+Dialogue: 0,0:16:15.18,0:16:16.72,Default,NTP,0000,0000,0000,,This is painful.
+Dialogue: 0,0:16:19.31,0:16:22.02,Default,NTP,0000,0000,0000,,I ate so much that I can't move.
+Dialogue: 0,0:16:23.06,0:16:24.73,Default,NTP,0000,0000,0000,,My tummy's filled to bursting!
+Dialogue: 0,0:16:24.73,0:16:28.74,Default,NTP,0000,0000,0000,,{\a10}TUG
+Dialogue: 0,0:16:25.23,0:16:28.74,Default,NTP,0000,0000,0000,,What should I do? I might not be able\Nto fit into my dress for work tomorrow!
+Dialogue: 0,0:16:28.74,0:16:30.86,Default,NTP,0000,0000,0000,,{\a10}SQUEEZE\NSQUEEZE
+Dialogue: 0,0:16:29.24,0:16:30.86,Default,NTP,0000,0000,0000,,Th-The zipper won't go up!
+Dialogue: 0,0:16:32.20,0:16:34.99,Default,NTP,0000,0000,0000,,Hey, Akari! Did you gain weight again?
+Dialogue: 0,0:16:34.99,0:16:47.25,Default,NTP,0000,0000,0000,,{\a6}SHIVER\NSHIVER
+Dialogue: 0,0:16:35.33,0:16:38.66,Default,NTP,0000,0000,0000,,What should I do? Auntie will scold me again.
+Dialogue: 0,0:16:38.66,0:16:41.00,Default,NTP,0000,0000,0000,,But I'm happy.
+Dialogue: 0,0:16:41.00,0:16:43.63,Default,NTP,0000,0000,0000,,Women are terrifying!
+Dialogue: 0,0:16:43.63,0:16:45.42,Default,NTP,0000,0000,0000,,Just how much can they put away?
+Dialogue: 0,0:16:45.42,0:16:47.25,Default,NTP,0000,0000,0000,,They kept piling on the extra ingredients.
+Dialogue: 0,0:16:47.88,0:16:52.26,Default,NTP,0000,0000,0000,,In the end, there was enough\Nto fill a wash basin.
+Dialogue: 0,0:16:52.26,0:16:53.51,Default,NTP,0000,0000,0000,,FULLY-LOADED
+Dialogue: 0,0:16:53.89,0:16:59.52,Default,NTP,0000,0000,0000,,I think they had different dishes\Nthan all the other customers.
+Dialogue: 0,0:16:59.85,0:17:00.98,Default,NTP,0000,0000,0000,,Yes...
+Dialogue: 0,0:17:00.98,0:17:06.15,Default,NTP,0000,0000,0000,,I think they might have used plates\Nthat are normally for chilled Chinese noodles.
+Dialogue: 0,0:17:07.40,0:17:10.49,Default,NTP,0000,0000,0000,,G-Grandpa, this is your fault.
+Dialogue: 0,0:17:07.40,0:17:13.86,Default,NTP,0000,0000,0000,,{\a6}URGH
+Dialogue: 0,0:17:10.49,0:17:13.86,Default,NTP,0000,0000,0000,,B-Because you ordered fried mochi.
+Dialogue: 0,0:17:13.86,0:17:19.20,Default,NTP,0000,0000,0000,,You too, Kiriyama,\Nbecause you ordered "mighty udon."
+Dialogue: 0,0:17:15.70,0:17:20.29,Default,NTP,0000,0000,0000,,{\a10}IT HURTS
+Dialogue: 0,0:17:19.20,0:17:20.29,Default,NTP,0000,0000,0000,,It hurts!
+Dialogue: 0,0:17:20.29,0:17:25.67,Default,NTP,0000,0000,0000,,{\a10}WHAT
+Dialogue: 0,0:17:22.29,0:17:24.08,Default,NTP,0000,0000,0000,,Why? It's my fault?
+Dialogue: 0,0:17:24.08,0:17:25.67,Default,NTP,0000,0000,0000,,M-Me too? Why?
+Dialogue: 0,0:17:26.04,0:17:27.75,Default,NTP,0000,0000,0000,,Think about it!
+Dialogue: 0,0:17:27.75,0:17:29.84,Default,NTP,0000,0000,0000,,Something sweet!\NSomething salty!
+Dialogue: 0,0:17:29.84,0:17:32.38,Default,NTP,0000,0000,0000,,Sweet! Salty!\NAnd sweet, and salty!
+Dialogue: 0,0:17:32.72,0:17:34.76,Default,NTP,0000,0000,0000,,It was that demonic loop!
+Dialogue: 0,0:17:36.18,0:17:38.68,Default,NTP,0000,0000,0000,,{\a6}And then, after our tummies\Nwere chilled from the ice cream,
+Dialogue: 0,0:17:38.68,0:17:41.18,Default,NTP,0000,0000,0000,,{\a6}we warmed them up with the mighty udon.
+Dialogue: 0,0:17:41.18,0:17:45.44,Default,NTP,0000,0000,0000,,{\a6}So, cold, hot, cold, hot!\NIt just went back and forth, back and forth!
+Dialogue: 0,0:17:46.02,0:17:48.48,Default,NTP,0000,0000,0000,,{\a6}Is this an auditory hallucination?
+Dialogue: 0,0:17:48.48,0:17:51.53,Default,NTP,0000,0000,0000,,{\a6}I'm getting a flashback of Grandma and Mikako\Nsaying something like it.
+Dialogue: 0,0:17:51.53,0:17:55.70,Default,NTP,0000,0000,0000,,{\a6}{\i1}If the taste keeps changing,\NI can't stop eating! How could you?{\i0}
+Dialogue: 0,0:17:53.32,0:17:56.70,Default,NTP,0000,0000,0000,,Yes. I've heard something\Nlike that before too.
+Dialogue: 0,0:17:56.91,0:18:01.12,Default,NTP,0000,0000,0000,,{\a6}Hina, I have to go pee-pee!
+Dialogue: 0,0:18:01.24,0:18:04.83,Default,NTP,0000,0000,0000,,Geez, this is why I told you to go\Nwhen we were in the restaurant!
+Dialogue: 0,0:18:01.24,0:18:04.83,LeftSignM,NTP,0000,0000,0000,,GEEZ
+Dialogue: 0,0:18:03.50,0:18:04.83,Default,NTP,0000,0000,0000,,{\a6}OH NO
+Dialogue: 0,0:18:05.42,0:18:09.84,Default,NTP,0000,0000,0000,,Pick me up! I can't walk!
+Dialogue: 0,0:18:08.96,0:18:17.59,Default,NTP,0000,0000,0000,,{\a6}STAGGER\NSTAGGER
+Dialogue: 0,0:18:10.17,0:18:13.51,Default,NTP,0000,0000,0000,,H-Hold on a second. I'm sorry, Momo.
+Dialogue: 0,0:18:11.96,0:18:17.59,Default,NTP,0000,0000,0000,,{\a10}PANT\NPANT
+Dialogue: 0,0:18:13.51,0:18:17.59,Default,NTP,0000,0000,0000,,If I exert any strength now,\NI think my belly will burst.
+Dialogue: 0,0:18:17.80,0:18:20.97,Default,NTP,0000,0000,0000,,That's how much of an emergency this is.
+Dialogue: 0,0:18:20.97,0:18:22.85,Default,NTP,0000,0000,0000,,Do you understand, Momo?
+Dialogue: 0,0:18:24.10,0:18:26.02,Default,NTP,0000,0000,0000,,{\a6}Then I'll carry her.
+Dialogue: 0,0:18:26.02,0:18:28.98,Default,NTP,0000,0000,0000,,{\a6}Really? I'm sorry, Kiriyama.
+Dialogue: 0,0:18:33.65,0:18:36.65,Default,NTP,0000,0000,0000,,{\a6}I can't hold it!
+Dialogue: 0,0:18:36.65,0:18:37.86,Default,NTP,0000,0000,0000,,{\a6}What, really?
+Dialogue: 0,0:18:37.86,0:18:40.33,Default,NTP,0000,0000,0000,,{\a6}Momo, we're almost home!
+Dialogue: 0,0:18:40.33,0:18:41.49,Default,NTP,0000,0000,0000,,{\a6}Want me to run?
+Dialogue: 0,0:18:41.49,0:18:43.75,Default,NTP,0000,0000,0000,,{\a6}Then I-I'll run too.
+Dialogue: 0,0:18:41.49,0:18:43.75,Default,NTP,0000,0000,0000,,{\a10}FULL\NSTOMACH
+Dialogue: 0,0:18:42.37,0:18:43.75,Default,NTP,0000,0000,0000,,STAGGER\NSTAGGER
+Dialogue: 0,0:18:47.96,0:18:49.75,Default,NTP,0000,0000,0000,,Momo, can you hold on?
+Dialogue: 0,0:18:50.25,0:18:54.01,Default,NTP,0000,0000,0000,,- Do you want to use the bathroom in the park?\N- No! I want to go home!
+Dialogue: 0,0:18:54.26,0:18:56.17,Default,NTP,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:18:56.17,0:18:59.01,Default,NTP,0000,0000,0000,,You're scared of the park bathroom, huh?
+Dialogue: 0,0:18:59.01,0:19:01.68,Default,NTP,0000,0000,0000,,That's mean, Hina!
+Dialogue: 0,0:19:02.18,0:19:03.72,Default,NTP,0000,0000,0000,,Let's hurry home.
+Dialogue: 0,0:19:04.77,0:19:05.98,Default,NTP,0000,0000,0000,,Grandpa.
+Dialogue: 0,0:19:05.98,0:19:06.89,Default,NTP,0000,0000,0000,,Yeah?
+Dialogue: 0,0:19:07.56,0:19:09.15,Default,NTP,0000,0000,0000,,Thank goodness.
+Dialogue: 0,0:19:09.48,0:19:11.77,Default,NTP,0000,0000,0000,,Hina is smiling.
+Dialogue: 0,0:19:14.53,0:19:16.65,Default,NTP,0000,0000,0000,,Yeah. That's thanks to the kid.
+Dialogue: 0,0:19:19.66,0:19:23.24,Default,NTP,0000,0000,0000,,I'm home! Grandpa! Sis!
+Dialogue: 0,0:19:23.95,0:19:28.33,Default,NTP,0000,0000,0000,,Listen to this, it's amazing!\NWhat do you think it is?
+Dialogue: 0,0:19:30.96,0:19:32.84,Default,NTP,0000,0000,0000,,Kiriyama came to see me!
+Dialogue: 0,0:19:33.25,0:19:34.55,Default,NTP,0000,0000,0000,,In Kyoto!
+Dialogue: 0,0:19:35.01,0:19:36.59,Default,NTP,0000,0000,0000,,What, seriously?
+Dialogue: 0,0:19:37.97,0:19:41.47,Default,NTP,0000,0000,0000,,So I was in Kamogawa\Nand that's where he showed up.
+Dialogue: 0,0:19:41.47,0:19:42.10,Default,NTP,0000,0000,0000,,What?
+Dialogue: 0,0:19:42.30,0:19:45.27,Default,NTP,0000,0000,0000,,And he gave me medicine and pudding!
+Dialogue: 0,0:19:45.27,0:19:46.18,Default,NTP,0000,0000,0000,,No way!
+Dialogue: 0,0:19:46.18,0:19:49.35,Default,NTP,0000,0000,0000,,Isn't that incredible? He found me!
+Dialogue: 0,0:19:50.81,0:19:53.27,Default,NTP,0000,0000,0000,,Just by knowing when I had free time\Nand the location!
+Dialogue: 0,0:19:53.27,0:19:55.57,Default,NTP,0000,0000,0000,,We didn't even plan to meet up!
+Dialogue: 0,0:19:59.86,0:20:01.11,Default,NTP,0000,0000,0000,,This is no good.
+Dialogue: 0,0:20:01.66,0:20:02.99,Default,NTP,0000,0000,0000,,It's making me dizzy.
+Dialogue: 0,0:20:02.99,0:20:05.74,DefaultRightH,NTP,0000,0000,0000,,HNNG
+Dialogue: 0,0:20:02.99,0:20:05.74,LeftSignM,NTP,0000,0000,0000,,DIZZY\NDIZZY
+Dialogue: 0,0:20:07.16,0:20:08.12,Default,NTP,0000,0000,0000,,Then, let's not.
+Dialogue: 0,0:20:09.46,0:20:10.67,Default,NTP,0000,0000,0000,,You don't have to do it.
+Dialogue: 0,0:20:13.75,0:20:14.96,Default,NTP,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:14.96,0:20:18.67,Default,NTP,0000,0000,0000,,With that jacket on, I don't think anyone\Nwill recognize you if they're just walking by.
+Dialogue: 0,0:20:19.55,0:20:20.38,Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:20:23.72,0:20:25.97,Default,NTP,0000,0000,0000,,Even though it's called "free time,"
+Dialogue: 0,0:20:25.97,0:20:29.64,Default,NTP,0000,0000,0000,,I think they frown upon spending it\Nwith students from other schools.
+Dialogue: 0,0:20:30.56,0:20:32.60,Default,NTP,0000,0000,0000,,How's your stomach? Does it hurt?
+Dialogue: 0,0:20:32.60,0:20:34.98,Default,NTP,0000,0000,0000,,No, it's fine now.
+Dialogue: 0,0:20:36.19,0:20:39.15,Default,NTP,0000,0000,0000,,But I couldn't eat.
+Dialogue: 0,0:20:40.32,0:20:41.53,Default,NTP,0000,0000,0000,,I see.
+Dialogue: 0,0:20:41.91,0:20:43.74,Default,NTP,0000,0000,0000,,I thought that might be the case,
+Dialogue: 0,0:20:44.49,0:20:46.24,Default,NTP,0000,0000,0000,,so I bought some things at the station.
+Dialogue: 0,0:20:46.58,0:20:51.21,Default,NTP,0000,0000,0000,,I've got pudding, peach jelly,\Napple juice, castella...
+Dialogue: 0,0:20:52.00,0:20:53.54,Default,NTP,0000,0000,0000,,Do you think you can have any of these?
+Dialogue: 0,0:20:54.42,0:21:00.17,Default,NTP,0000,0000,0000,,{\a10}PEACH JELLY       PUDDING
+Dialogue: 0,0:20:54.42,0:21:00.17,Default,NTP,0000,0000,0000,,{\a6}APPLE JUICE      CASTELLA
+Dialogue: 0,0:20:56.42,0:20:58.67,Default,NTP,0000,0000,0000,,Then... the pudding.
+Dialogue: 0,0:20:59.38,0:21:00.17,Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:00.97,0:21:03.18,Default,NTP,0000,0000,0000,,Spoon, spoon...
+Dialogue: 0,0:21:15.23,0:21:16.27,Default,NTP,0000,0000,0000,,It's good.
+Dialogue: 0,0:21:18.98,0:21:21.99,Default,NTP,0000,0000,0000,,You're supposed to take this medicine\Nbetween meals,
+Dialogue: 0,0:21:22.20,0:21:26.45,Default,NTP,0000,0000,0000,,so you should take it after you're done\Nsightseeing at the next place, Ginkakuji.
+Dialogue: 0,0:21:26.70,0:21:29.08,Default,NTP,0000,0000,0000,,How did you know the next place is Ginkakuji?
+Dialogue: 0,0:21:29.37,0:21:32.58,Default,NTP,0000,0000,0000,,{\a6}What? It said on your trip itinerary.
+Dialogue: 0,0:21:32.83,0:21:34.92,Default,NTP,0000,0000,0000,,{\a6}But you only saw it for a moment.
+Dialogue: 0,0:21:35.75,0:21:37.92,Default,NTP,0000,0000,0000,,{\a6}A moment is enough\Nfor me to remember.
+Dialogue: 0,0:21:36.58,0:21:38.59,Default,NTP,0000,0000,0000,,{\a9}Professional shogi players\Nhave remarkable memories.
+Dialogue: 0,0:21:41.13,0:21:43.84,Default,NTP,0000,0000,0000,,{\i1}I was on a river bank in an unfamiliar town,{\i0}
+Dialogue: 0,0:21:46.05,0:21:49.10,Default,NTP,0000,0000,0000,,{\i1}but just Rei sitting by my side...{\i0}
+Dialogue: 0,0:21:52.89,0:21:55.56,Default,NTP,0000,0000,0000,,{\a6}And the medicine was really effective!
+Dialogue: 0,0:21:55.56,0:21:57.81,Default,NTP,0000,0000,0000,,{\a6}I was able to eat dinner afterwards.
+Dialogue: 0,0:21:59.52,0:22:02.90,Default,NTP,0000,0000,0000,,{\i1}...was enough to make me feel like\NI was by the river back home.{\i0}
+Dialogue: 0,0:22:04.11,0:22:07.37,Default,NTP,0000,0000,0000,,{\a6}Oh, that's right!\NRei, how did your match go?
+Dialogue: 0,0:22:07.91,0:22:09.53,Default,NTP,0000,0000,0000,,{\a6}Oh, I won.
+Dialogue: 0,0:22:09.53,0:22:13.25,Default,NTP,0000,0000,0000,,{\a6}You won? Really? That's amazing!\NSo you're the Newcomer King?
+Dialogue: 0,0:22:13.62,0:22:15.67,Default,NTP,0000,0000,0000,,{\a6}Yeah, I'm the Newcomer King.
+Dialogue: 0,0:22:18.54,0:22:22.63,Default,NTP,0000,0000,0000,,{\i1}I was relaxed, like I was in a familiar place.{\i0}
+Dialogue: 0,0:22:32.60,0:22:34.06,Default,NTP,0000,0000,0000,,I see.
+Dialogue: 0,0:22:35.14,0:22:36.94,Default,NTP,0000,0000,0000,,The medicine worked, huh?
+Dialogue: 0,0:22:37.73,0:22:40.61,Default,NTP,0000,0000,0000,,Oh, I shouldn't have run after all.
+Dialogue: 0,0:22:38.44,0:22:40.61,Default,NTP,0000,0000,0000,,{\a6}I'm happy for you, Hina.
+Dialogue: 0,0:22:40.61,0:22:43.03,Default,NTP,0000,0000,0000,,It's not good to run on a full stomach.
+Dialogue: 0,0:22:43.03,0:22:46.11,Default,NTP,0000,0000,0000,,Rei, my stomach hurts.
+Dialogue: 0,0:22:46.11,0:22:47.57,Default,NTP,0000,0000,0000,,You ate too much.
+Dialogue: 0,0:22:47.57,0:22:50.62,Default,NTP,0000,0000,0000,,Come on, Momo, we're almost there.\NHang on!
+Dialogue: 0,0:22:57.04,0:23:00.04,Default,NTP,0000,0000,0000,,River Scenery
+Dialogue: 0,0:24:30.01,0:24:32.01,Default,NTP,0000,0000,0000,,{\a6}Next Episode Preview
+Dialogue: 0,0:24:32.01,0:24:38.43,EpNum,NTP,0000,0000,0000,,Episode 33
+Dialogue: 0,0:24:32.43,0:24:36.18,Default,NTP,0000,0000,0000,,A toast to Kiriyama, for winning\Nthe title of Newcomer King.
+Dialogue: 0,0:24:36.51,0:24:38.43,Default,NTP,0000,0000,0000,,Cheers!
+Dialogue: 0,0:24:38.81,0:24:40.39,Default,NTP,0000,0000,0000,,A match to celebrate?
+Dialogue: 0,0:24:40.39,0:24:41.98,Default,NTP,0000,0000,0000,,With Meijin Souya?
+Dialogue: 0,0:24:41.98,0:24:46.07,Default,NTP,0000,0000,0000,,We're going to make it big and grand!\NLike boom-bam!
+Dialogue: 0,0:24:46.07,0:24:50.03,Default,NTP,0000,0000,0000,,But what should we do\Nabout this year's Kishou Championship?
+Dialogue: 0,0:24:50.03,0:24:59.04,LeftSignM2,NTP,0000,0000,0000,,ILLUSTRATION:\NHITOSHI IWAAKI
+Dialogue: 0,0:24:50.82,0:24:52.99,Default,NTP,0000,0000,0000,,Don't miss the next episode!
+Dialogue: 0,0:24:52.99,0:24:55.24,Default,NTP,0000,0000,0000,,Everyone watch out\Nfor that demonic loop!
+Dialogue: 0,0:24:55.24,0:24:56.74,Default,NTP,0000,0000,0000,,- Sweet!\N- Salty!
+Dialogue: 0,0:24:56.74,0:24:58.12,Default,NTP,0000,0000,0000,,And then sweet again.

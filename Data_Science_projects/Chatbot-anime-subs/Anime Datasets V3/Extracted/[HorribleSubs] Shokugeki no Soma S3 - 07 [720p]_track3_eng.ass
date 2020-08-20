@@ -1,0 +1,478 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_24_1_The_Third_Dish,Open Sans Semibold,39,&H007F7F7F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,100,40,27,1
+Style: sign_34621_499_Totsuki,Open Sans Semibold,33,&H002B8E97,&H000000FF,&H00153138,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,407,40,260,1
+Style: sign_6424_110_Food_Wars,Open Sans Semibold,45,&H002837E3,&H000000FF,&H00EEFBFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_6424_111_The_Third_Plate,Open Sans Semibold,39,&H00481C0B,&H000000FF,&H00FDFEF6,&H005B86AB,1,0,0,0,100,100,0,0,1,3,2,2,40,40,27,1
+Style: sign_24_2_Two,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,453,200,1
+Style: sign_1109_16_New_Director_Nak,Open Sans Semibold,18,&H007A3938,&H000000FF,&H00FFECDF,&H00000000,1,0,0,0,100,100,0,-3,1,3,0,1,193,40,247,1
+Style: sign_3957_21_New_Director_Nak,Open Sans Semibold,24,&H007A3938,&H000000FF,&H00FFECDF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,113,40,193,1
+Style: sign_4076_24_The_Crumbling_Ac,Open Sans Semibold,33,&H00FDFEFF,&H000000FF,&H00727774,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,67,433,107,1
+Style: sign_7700_71_Kabutoyama_Tetsu,Open Sans Semibold,27,&H00FCFFF9,&H000000FF,&H00A0A2A2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,453,40,193,1
+Style: sign_8188_80_Regional_Cooking,Open Sans Semibold,30,&H00131459,&H000000FF,&H002012E0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,131,131,27,1
+Style: sign_8377_83_Don_RS,Open Sans Semibold,45,&H00495450,&H000000FF,&H00EFF5F2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_9067_92_Polar_Star_Dormi,Open Sans Semibold,39,&H00696D70,&H000000FF,&H001B1E23,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_12902_156_Shokugeki,Open Sans Semibold,36,&H00292C27,&H000000FF,&H008D99AC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_12902_157_Topic__Cutlass_F,Open Sans Semibold,21,&H00292C27,&H000000FF,&H008D99AC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,300,133,1
+Style: sign_14143_182_Shokugeki,Open Sans Semibold,45,&H00030101,&H000000FF,&H00ACC3C2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_14948_189_Kabutoyama_Tests,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,427,27,1
+Style: sign_14948_190_Eizan_Etsuya,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,427,40,27,1
+Style: sign_17284_226_Shokugeki,Open Sans Semibold,45,&H00231308,&H000000FF,&H00FFFEED,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_17748_231_Kageura_Hisanao_,Open Sans Semibold,30,&H0050494F,&H000000FF,&H00FAFBFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,553,147,1
+Style: sign_18684_242_Kitchen__28,Open Sans Semibold,39,&H00443E3A,&H000000FF,&H00CEC8BF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_22477_291_Missing_Text_Mis,Open Sans Semibold,30,&H00292929,&H000000FF,&H00FDFDFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_22849_298_The_92nd__Moon_F,Open Sans Semibold,27,&H004A96FD,&H000000FF,&H00FFFFFB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,40,27,1
+Style: sign_27544_356_Shokugeki_Confir,Open Sans Semibold,36,&H002515D6,&H000000FF,&H00F3F5FF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,67,40,147,1
+Style: sign_27853_359_Waiting_Room,Open Sans Semibold,36,&H00919392,&H000000FF,&H00F0F5F6,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_34668_424_Food_Wars,Open Sans Semibold,33,&H001A30D3,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,607,87,180,1
+Style: sign_34668_425_The_Third_Plate,Open Sans Semibold,24,&H008B492A,&H000000FF,&H00FFFFFB,&H0064929D,1,0,0,0,100,100,0,0,1,2,2,2,593,87,24,1
+Style: sign_34668_426_Next_Episode__Th,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H001C1D1B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,80,427,127,1
+Style: sign_1569_19_New_Director_Nak,Open Sans Semibold,18,&H007A3938,&H000000FF,&H00FFECDF,&H00000000,1,0,0,0,100,100,0,7,1,3,0,1,200,40,347,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_1_The_Third_Dish,Sign,0000,0000,0000,,The Third Plate
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_2_Two,Sign,0000,0000,0000,,Seven
+Dialogue: 0,0:00:11.03,0:00:12.28,Main Dialogue,S,0000,0000,0000,,A speech broadcast?
+Dialogue: 0,0:00:12.67,0:00:16.02,Main Dialogue,T,0000,0000,0000,,Yeah, I hear Nakiri Azami's doing that today.
+Dialogue: 0,0:00:16.02,0:00:19.05,Main Dialogue,I,0000,0000,0000,,It's going to be broadcast \Nlive throughout campus.
+Dialogue: 0,0:00:19.05,0:00:19.95,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:00:20.45,0:00:22.35,Main Dialogue,T,0000,0000,0000,,I have to say, running away from home
+Dialogue: 0,0:00:22.35,0:00:25.56,Main Dialogue,T,0000,0000,0000,,is a pretty drastic move \Non Nakiri Erina-san's part.
+Dialogue: 0,0:00:25.56,0:00:27.96,Main Dialogue,I,0000,0000,0000,,But is it going to work out?
+Dialogue: 0,0:00:27.96,0:00:30.50,Main Dialogue,I,0000,0000,0000,,If they figure out that Polar \NStar Dormitory is hiding her...
+Dialogue: 0,0:00:30.50,0:00:33.43,Main Dialogue,S,0000,0000,0000,,Well, I dunno.
+Dialogue: 0,0:00:33.43,0:00:37.28,Main Dialogue,S,0000,0000,0000,,For now, Arato's coming here every day to \Ndrop off stuff like changes of clothes,
+Dialogue: 0,0:00:37.28,0:00:41.32,Main Dialogue,S,0000,0000,0000,,and the other Nakiri and \NKurokiba come visit sometimes,
+Dialogue: 0,0:00:41.32,0:00:43.59,Main Dialogue,S,0000,0000,0000,,but it doesn't look like \Nthey've figured it out.
+Dialogue: 0,0:00:43.59,0:00:46.23,Main Dialogue,T,0000,0000,0000,,That sure sounds like \Nthey've figured it all out!
+Dialogue: 0,0:00:46.23,0:00:48.22,Italics Dialogue,Yua,0000,0000,0000,,I-I'm reporting live!
+Dialogue: 0,0:00:46.23,0:00:51.73,sign_1109_16_New_Director_Nak,Sign 0047,0000,0000,0000,,New Director Nakiri Azami\N Inaugural Speech
+Dialogue: 0,0:00:48.22,0:00:51.73,Italics Dialogue,Yua,0000,0000,0000,,The new director, Nakiri Azami, has arrived!
+Dialogue: 0,0:01:05.41,0:01:07.33,sign_1569_19_New_Director_Nak,,0000,0000,0000,,New Director Nakiri Azami\N Inaugural Speech
+Dialogue: 0,0:01:09.31,0:01:11.96,Main Dialogue,Azami,0000,0000,0000,,Greetings, students.
+Dialogue: 0,0:01:12.66,0:01:14.14,Main Dialogue,Azami,0000,0000,0000,,I am Nakiri Azami.
+Dialogue: 0,0:02:45.01,0:02:49.98,sign_3957_21_New_Director_Nak,Sign 0247,0000,0000,0000,,New Director Nakiri Azami\N Inaugural Speech
+Dialogue: 0,0:02:45.81,0:02:48.66,Italics Dialogue,Azami,0000,0000,0000,,Greetings, students.
+Dialogue: 0,0:02:48.66,0:02:49.98,Italics Dialogue,Azami,0000,0000,0000,,I am Nakiri Azami.
+Dialogue: 0,0:02:49.98,0:02:52.08,Main Dialogue Top,Yuki,0000,0000,0000,,So this is Erina-cchi's...
+Dialogue: 0,0:02:49.98,0:02:56.69,sign_4076_24_The_Crumbling_Ac,Sign 0254,0000,0000,0000,,The Crumbling Academy
+Dialogue: 0,0:02:52.08,0:02:54.86,Main Dialogue Top,Sato,0000,0000,0000,,Yeah, her shithead father!
+Dialogue: 0,0:02:54.86,0:02:56.69,Main Dialogue Top,Marui,0000,0000,0000,,He was a former Elite Ten member, too.
+Dialogue: 0,0:02:57.27,0:02:59.19,Main Dialogue,Azami,0000,0000,0000,,I will now speak with you
+Dialogue: 0,0:02:59.19,0:03:05.03,Main Dialogue,Azami,0000,0000,0000,,about the revolution I have planned to \Nachieve my ideal vision for Totsuki Academy.
+Dialogue: 0,0:03:05.03,0:03:08.87,Main Dialogue,Azami,0000,0000,0000,,First, with regard to our culinary courses,
+Dialogue: 0,0:03:08.87,0:03:12.46,Main Dialogue,Azami,0000,0000,0000,,research groups,\N research societies, and clubs,
+Dialogue: 0,0:03:12.92,0:03:16.34,Main Dialogue,Azami,0000,0000,0000,,all such autonomous entities \Nwill be disbanded.
+Dialogue: 0,0:03:19.17,0:03:20.01,Main Dialogue,Ikumi,0000,0000,0000,,What?!
+Dialogue: 0,0:03:20.01,0:03:21.30,Main Dialogue,Ikumi,0000,0000,0000,,Disbanded?!
+Dialogue: 0,0:03:21.30,0:03:25.68,Main Dialogue,Azami,0000,0000,0000,,They will all cease to \Nexist with no exceptions.
+Dialogue: 0,0:03:25.68,0:03:26.93,Main Dialogue,Students,0000,0000,0000,,What?!
+Dialogue: 0,0:03:26.93,0:03:29.18,Main Dialogue,Students,0000,0000,0000,,Wh-Wh-What is going on?!
+Dialogue: 0,0:03:29.58,0:03:34.36,Main Dialogue,Azami,0000,0000,0000,,Second, I will establish \Na new entity on campus.
+Dialogue: 0,0:03:34.70,0:03:37.82,Main Dialogue,Azami,0000,0000,0000,,With the director and the\N Elite Ten Council as its leaders,
+Dialogue: 0,0:03:37.82,0:03:40.61,Main Dialogue,Azami,0000,0000,0000,,and my handpicked students as its members,
+Dialogue: 0,0:03:40.61,0:03:43.45,Main Dialogue,Azami,0000,0000,0000,,it will be an organization of elites that \Npursue a new vision of gourmet dining.
+Dialogue: 0,0:03:43.77,0:03:49.93,Main Dialogue,Azami,0000,0000,0000,,It will be a divine world where all \Ngourmet dining will be shared.
+Dialogue: 0,0:03:49.93,0:03:51.66,Main Dialogue,Azami,0000,0000,0000,,Its name shall be Central.
+Dialogue: 0,0:03:54.57,0:03:55.58,Main Dialogue,M,0000,0000,0000,,Central...
+Dialogue: 0,0:03:55.58,0:04:00.92,Italics Dialogue,Azami,0000,0000,0000,,All of your cooking will be \Ndetermined by Central members.
+Dialogue: 0,0:04:01.67,0:04:05.49,Italics Dialogue,Azami,0000,0000,0000,,You will no longer have \Nto create your own dishes.
+Dialogue: 0,0:04:05.90,0:04:08.60,Italics Dialogue,Azami,0000,0000,0000,,It is most unfortunate,\N but anyone who disobeys
+Dialogue: 0,0:04:08.60,0:04:11.43,Main Dialogue,Azami,0000,0000,0000,,this edict will have to leave the academy.
+Dialogue: 0,0:04:12.34,0:04:13.62,Main Dialogue,Stu,0000,0000,0000,,That's ridiculous!
+Dialogue: 0,0:04:13.62,0:04:15.48,Main Dialogue,Stu,0000,0000,0000,,Who'd go along with something like this?!
+Dialogue: 0,0:04:15.48,0:04:17.61,Main Dialogue,Stu,0000,0000,0000,,It makes no sense!
+Dialogue: 0,0:04:17.98,0:04:19.97,Main Dialogue,Azami,0000,0000,0000,,Think about it.
+Dialogue: 0,0:04:19.97,0:04:22.74,Main Dialogue,Azami,0000,0000,0000,,There is far greater injustice \Nin the existing system.
+Dialogue: 0,0:04:23.09,0:04:24.70,Main Dialogue,Azami,0000,0000,0000,,With meritocracy as an excuse,
+Dialogue: 0,0:04:25.06,0:04:27.15,Italics Dialogue,Azami,0000,0000,0000,,those who fail are cast aside
+Dialogue: 0,0:04:27.15,0:04:31.69,Italics Dialogue,Azami,0000,0000,0000,,despite the fact that different individuals \Nwill learn at different speeds.
+Dialogue: 0,0:04:31.69,0:04:34.12,Italics Dialogue,Azami,0000,0000,0000,,Don't you find that barbaric?
+Dialogue: 0,0:04:34.50,0:04:39.45,Main Dialogue,Azami,0000,0000,0000,,All culinary classes will become a \Nmeans of conveying Central's teachings.
+Dialogue: 0,0:04:39.45,0:04:42.27,Main Dialogue,Azami,0000,0000,0000,,All students will benefit equally from them.
+Dialogue: 0,0:04:42.73,0:04:47.29,Main Dialogue,Azami,0000,0000,0000,,By that, I mean the skills, ideas, \Nand recipes worthy of the Elite Ten
+Dialogue: 0,0:04:47.29,0:04:50.01,Main Dialogue,Azami,0000,0000,0000,,will eventually be acquired \Nby all of you here.
+Dialogue: 0,0:04:50.01,0:04:52.47,Main Dialogue,Stu,0000,0000,0000,,Cooking worthy of the Elite Ten...
+Dialogue: 0,0:04:52.47,0:04:55.69,Main Dialogue,Azami,0000,0000,0000,,What I propose is a world where unnecessary \Nconflict will no longer be necessary.
+Dialogue: 0,0:04:56.51,0:04:58.18,Main Dialogue,Azami,0000,0000,0000,,No more unnecessary expulsions!
+Dialogue: 0,0:04:58.18,0:04:59.61,Main Dialogue,Azami,0000,0000,0000,,No more unnecessary selections!
+Dialogue: 0,0:04:59.61,0:05:01.40,Main Dialogue,Azami,0000,0000,0000,,No more unnecessary competitions!
+Dialogue: 0,0:05:01.71,0:05:04.36,Main Dialogue,Azami,0000,0000,0000,,You will all be free of them.
+Dialogue: 0,0:05:04.36,0:05:08.70,Main Dialogue,Azami,0000,0000,0000,,Listen, you are not cannon fodder.
+Dialogue: 0,0:05:08.70,0:05:12.66,Main Dialogue,Azami,0000,0000,0000,,You are an important force who \Nwill build Totsuki's future.
+Dialogue: 0,0:05:13.05,0:05:16.79,Main Dialogue,Azami,0000,0000,0000,,Work with me to advance this \Nnation's gourmet dining.
+Dialogue: 0,0:05:19.75,0:05:21.13,Main Dialogue,Kabuto,0000,0000,0000,,This is preposterous!
+Dialogue: 0,0:05:21.13,0:05:23.38,sign_7700_71_Kabutoyama_Tetsu,Sign 0522,0000,0000,0000,,Kabutoyama Tetsuji \N{\fs14} Chief of Skewer Research Society
+Dialogue: 0,0:05:21.13,0:05:23.38,Main Dialogue,Kabuto,0000,0000,0000,,We cannot condone such tyranny!
+Dialogue: 0,0:05:23.38,0:05:28.75,Main Dialogue,Stu,0000,0000,0000,,B-But it'd mean we can get a small \Npiece of what the Elite Ten's got.
+Dialogue: 0,0:05:28.75,0:05:32.10,Main Dialogue,Stu,0000,0000,0000,,Won't that definitely benefit us later on?
+Dialogue: 0,0:05:32.10,0:05:33.51,Main Dialogue,Kabuto,0000,0000,0000,,What're you saying?!
+Dialogue: 0,0:05:33.51,0:05:35.06,Main Dialogue,Kabuto,0000,0000,0000,,We must not bend the knee!
+Dialogue: 0,0:05:36.21,0:05:39.27,Main Dialogue,Agents,0000,0000,0000,,You are Kabutoyama Tetsuji, the chief \Nof Skewer Research Society, are you not?
+Dialogue: 0,0:05:39.73,0:05:41.48,Main Dialogue,Agents,0000,0000,0000,,We have a message from Central.
+Dialogue: 0,0:05:41.48,0:05:45.19,sign_8188_80_Regional_Cooking,Sign 0543,0000,0000,0000,,Regional Cooking Research Society
+Dialogue: 0,0:05:41.48,0:05:45.19,Main Dialogue,Agents,0000,0000,0000,,From this day forth, the Regional Cooking \NResearch Society has been disbanded.
+Dialogue: 0,0:05:45.73,0:05:47.81,Main Dialogue,Agents,0000,0000,0000,,Vacate these premises.
+Dialogue: 0,0:05:49.37,0:05:51.12,sign_8377_83_Don_RS,Sign 0550,0000,0000,0000,,Don RS
+Dialogue: 0,0:05:49.37,0:05:51.12,Main Dialogue,Ikumi,0000,0000,0000,,Y-You bastards!
+Dialogue: 0,0:05:51.12,0:05:54.24,Main Dialogue,Ikumi,0000,0000,0000,,Get the hell out if you \Ndon't want to get beaten up!
+Dialogue: 0,0:05:54.57,0:05:56.46,Main Dialogue,Agents,0000,0000,0000,,This matter has already been decided.
+Dialogue: 0,0:05:56.93,0:06:01.61,Main Dialogue,Agents,0000,0000,0000,,Professor Miyazato, it would be preferred \Nif you consider this matter nonnegotiable.
+Dialogue: 0,0:06:01.61,0:06:03.04,Main Dialogue,Madoka,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:06:03.04,0:06:06.57,Main Dialogue,Madoka,0000,0000,0000,,Professor, is Miyazato Research \NGroup really shutting down?
+Dialogue: 0,0:06:13.93,0:06:18.14,Main Dialogue,Eizan,0000,0000,0000,,Polar Star Dormitory—\Nthe academy's sole housing facility.
+Dialogue: 0,0:06:18.14,0:06:21.61,sign_9067_92_Polar_Star_Dormi,Sign 0619,0000,0000,0000,,Polar Star Dormitory
+Dialogue: 0,0:06:18.58,0:06:21.61,Main Dialogue,Eizan,0000,0000,0000,,It has always been self-sufficient.
+Dialogue: 0,0:06:21.61,0:06:25.07,Main Dialogue,Eizan,0000,0000,0000,,There is no doubt that it is \Nalso subject to the purge.
+Dialogue: 0,0:06:25.77,0:06:27.57,Main Dialogue,Eizan,0000,0000,0000,,This dormitory will be shut down.
+Dialogue: 0,0:06:27.94,0:06:30.41,Main Dialogue,Eizan,0000,0000,0000,,There is no need for it at Totsuki.
+Dialogue: 0,0:06:30.41,0:06:32.42,Main Dialogue,Yuki,0000,0000,0000,,"No need"?!
+Dialogue: 0,0:06:32.42,0:06:34.62,Main Dialogue,Marui,0000,0000,0000,,Shut Polar Star Dormitory down?
+Dialogue: 0,0:06:34.98,0:06:39.58,Main Dialogue,Eizan,0000,0000,0000,,The buildings and the property \Nwill be confiscated by Central.
+Dialogue: 0,0:06:39.58,0:06:42.25,Main Dialogue,Eizan,0000,0000,0000,,That basically means none of \Nthis will be yours any longer.
+Dialogue: 0,0:06:42.25,0:06:43.75,Main Dialogue,Aoki,0000,0000,0000,,No way in hell!
+Dialogue: 0,0:06:43.75,0:06:45.45,Main Dialogue,Sato,0000,0000,0000,,Assholes!
+Dialogue: 0,0:06:45.45,0:06:46.84,Main Dialogue,Yuki,0000,0000,0000,,What, what?
+Dialogue: 0,0:06:46.84,0:06:47.58,Main Dialogue,Yuki,0000,0000,0000,,Wanna fight?
+Dialogue: 0,0:06:47.58,0:06:48.92,Main Dialogue,Yuki,0000,0000,0000,,Huh, huh?
+Dialogue: 0,0:06:47.58,0:06:48.92,Main Dialogue,M,0000,0000,0000,,Y-Y-Y-Yuki-chan!
+Dialogue: 0,0:06:48.92,0:06:51.47,Main Dialogue,Ryoko,0000,0000,0000,,Hey, where's Isshiki-senpai?
+Dialogue: 0,0:06:48.92,0:06:52.27,Main Dialogue Top,M,0000,0000,0000,,You can't face them alone.
+Dialogue: 0,0:06:51.47,0:06:53.10,Main Dialogue,Ryoko,0000,0000,0000,,If there's an Elite Ten member here,
+Dialogue: 0,0:06:53.10,0:06:56.07,Main Dialogue,Ryoko,0000,0000,0000,,the academy shouldn't be \Nable to just run over us—
+Dialogue: 0,0:06:56.07,0:06:59.56,Main Dialogue,Ibu,0000,0000,0000,,Well, he hasn't been back here for a while.
+Dialogue: 0,0:06:59.56,0:07:01.98,Main Dialogue,Marui,0000,0000,0000,,Could Miyazato Research Group\N also have been...
+Dialogue: 0,0:07:01.98,0:07:04.23,Main Dialogue,S,0000,0000,0000,,Well, it's a shame to just\N stand around talking like this.
+Dialogue: 0,0:07:04.67,0:07:06.65,Main Dialogue,S,0000,0000,0000,,Have some tea before you go, won't you?
+Dialogue: 0,0:07:08.15,0:07:08.89,Italics Dialogue,Ibu,0000,0000,0000,,Have?
+Dialogue: 0,0:07:08.89,0:07:09.56,Italics Dialogue,Ryoko,0000,0000,0000,,Some?
+Dialogue: 0,0:07:09.56,0:07:10.08,Italics Dialogue,Aoki,0000,0000,0000,,Tea?
+Dialogue: 0,0:07:10.08,0:07:10.76,Italics Dialogue,Sato,0000,0000,0000,,Before?
+Dialogue: 0,0:07:10.76,0:07:11.25,Italics Dialogue,Marui,0000,0000,0000,,You?
+Dialogue: 0,0:07:11.25,0:07:11.88,Italics Dialogue,Yuki,0000,0000,0000,,Go?
+Dialogue: 0,0:07:11.88,0:07:12.71,Italics Dialogue,M,0000,0000,0000,,Won't you?
+Dialogue: 0,0:07:15.58,0:07:19.20,Main Dialogue,S,0000,0000,0000,,So why does this dorm \Ngotta get shut down, too?
+Dialogue: 0,0:07:19.20,0:07:22.98,Main Dialogue,S,0000,0000,0000,,I've heard we're basically \Nlike our own little country.
+Dialogue: 0,0:07:22.98,0:07:26.42,Main Dialogue,S,0000,0000,0000,,Does the academy have any \Nright to interfere with us?
+Dialogue: 0,0:07:26.42,0:07:28.99,Main Dialogue,Eizen,0000,0000,0000,,That's the reason right there.
+Dialogue: 0,0:07:28.99,0:07:33.87,Main Dialogue,Eizen,0000,0000,0000,,It's highly problematic to have autonomous \Nbodies other than Central at the academy.
+Dialogue: 0,0:07:33.87,0:07:35.69,Main Dialogue,Eizen,0000,0000,0000,,There only needs to be one \Ndecision-making entity.
+Dialogue: 0,0:07:35.69,0:07:37.39,Main Dialogue,Eizen,0000,0000,0000,,Hence our decision.
+Dialogue: 0,0:07:37.88,0:07:40.60,Main Dialogue,Eizen,0000,0000,0000,,These documents specify the timeline \Nfor vacating the premises.
+Dialogue: 0,0:07:40.60,0:07:42.52,Main Dialogue,Eizen,0000,0000,0000,,Anyway, don't worry.
+Dialogue: 0,0:07:42.52,0:07:44.01,Main Dialogue,Eizen,0000,0000,0000,,As long as you toe the line,
+Dialogue: 0,0:07:44.01,0:07:46.48,Main Dialogue,Eizen,0000,0000,0000,,you can keep attending as students here.
+Dialogue: 0,0:07:46.48,0:07:47.98,Main Dialogue,S,0000,0000,0000,,Can I ask you something?
+Dialogue: 0,0:07:47.98,0:07:49.74,Main Dialogue,S,0000,0000,0000,,The decision to shut the dorm down...
+Dialogue: 0,0:07:50.94,0:07:53.07,Main Dialogue,S,0000,0000,0000,,Isn't it still reversible?
+Dialogue: 0,0:07:53.77,0:07:55.03,Main Dialogue,S,0000,0000,0000,,Through a Shokugeki, that is.
+Dialogue: 0,0:07:55.03,0:07:56.28,Main Dialogue,M,0000,0000,0000,,Soma-kun...
+Dialogue: 0,0:07:57.99,0:07:59.92,Main Dialogue,Eizan,0000,0000,0000,,You're right.
+Dialogue: 0,0:07:59.92,0:08:02.39,Main Dialogue,Eizan,0000,0000,0000,,If you initiate and win a Shokugeki,
+Dialogue: 0,0:08:02.39,0:08:04.36,Main Dialogue,Eizan,0000,0000,0000,,you can overturn any decision.
+Dialogue: 0,0:08:04.36,0:08:07.79,Main Dialogue,Eizan,0000,0000,0000,,However, that's if the opponent \Naccepts the challenge.
+Dialogue: 0,0:08:08.14,0:08:11.76,Main Dialogue,Eizan,0000,0000,0000,,I have zero obligation to \Naccept a Shokugeki challenge.
+Dialogue: 0,0:08:11.76,0:08:17.83,Main Dialogue,Eizan,0000,0000,0000,,And yet I'm getting flooded by challenges \Nfrom almost every organization
+Dialogue: 0,0:08:17.83,0:08:19.66,Main Dialogue,Eizan,0000,0000,0000,,to put a stop to their disbandment.
+Dialogue: 0,0:08:19.66,0:08:21.77,Main Dialogue,Eizan,0000,0000,0000,,What a piece of work.
+Dialogue: 0,0:08:21.77,0:08:25.23,Main Dialogue,Eizan,0000,0000,0000,,I could just ignore them and they'd \Nall shut down on their own.
+Dialogue: 0,0:08:25.68,0:08:28.49,Main Dialogue,Eizan,0000,0000,0000,,But in consideration of their feelings,
+Dialogue: 0,0:08:28.49,0:08:30.11,Main Dialogue,Eizan,0000,0000,0000,,I decided to accept their challenge.
+Dialogue: 0,0:08:31.65,0:08:32.98,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:08:32.98,0:08:35.33,Main Dialogue,S,0000,0000,0000,,You're being real generous,
+Dialogue: 0,0:08:35.33,0:08:36.87,Main Dialogue,S,0000,0000,0000,,accepting challenges you don't have to.
+Dialogue: 0,0:08:36.87,0:08:40.24,Main Dialogue,Eizan,0000,0000,0000,,The opponents will have to take on \Na significant risk, too.
+Dialogue: 0,0:08:40.24,0:08:43.62,Main Dialogue,Eizan,0000,0000,0000,,Well, it'll serve as a good \Nwarning to the others.
+Dialogue: 0,0:08:44.07,0:08:47.08,Main Dialogue,Eizan,0000,0000,0000,,I already have one scheduled today.
+Dialogue: 0,0:08:47.08,0:08:50.70,Main Dialogue,Eizan,0000,0000,0000,,If seeing the results won't \Ndiscourage you from challenging me,
+Dialogue: 0,0:08:50.70,0:08:54.81,Main Dialogue,Eizan,0000,0000,0000,,you can challenge me all you want, Yukihira.
+Dialogue: 0,0:08:58.10,0:09:00.85,sign_12902_156_Shokugeki,Sign 0900,0000,0000,0000,,Shokugeki
+Dialogue: 0,0:08:58.10,0:09:00.85,sign_12902_157_Topic__Cutlass_F,Sign 0900,0000,0000,0000,,Topic\N{\fs20} Cutlass Fish
+Dialogue: 0,0:09:00.85,0:09:04.53,Main Dialogue,Kabuto,0000,0000,0000,,Eizan, I won't let you shut down Skewer RS!
+Dialogue: 0,0:09:04.99,0:09:06.48,Main Dialogue,Kabuto,0000,0000,0000,,The topic is cutlass fish—
+Dialogue: 0,0:09:06.48,0:09:07.94,Main Dialogue,Eizan,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:09:08.47,0:09:10.15,Main Dialogue,Eizan,0000,0000,0000,,We must grill the ingredient on a
+Dialogue: 0,0:09:10.15,0:09:12.40,Main Dialogue,Eizan,0000,0000,0000,,skewer at some point in the process.
+Dialogue: 0,0:09:12.40,0:09:13.66,Main Dialogue,Eizan,0000,0000,0000,,Right?
+Dialogue: 0,0:09:13.66,0:09:15.85,Main Dialogue,Eizan,0000,0000,0000,,If you lose, you'll be expelled.
+Dialogue: 0,0:09:15.85,0:09:17.11,Main Dialogue,Eizan,0000,0000,0000,,No objections?
+Dialogue: 0,0:09:17.11,0:09:18.79,Main Dialogue,Kabuto,0000,0000,0000,,Very well.
+Dialogue: 0,0:09:18.79,0:09:22.84,Main Dialogue,Kabuto,0000,0000,0000,,I'll show you the full scope of the \Nskills I've been honing until this day—
+Dialogue: 0,0:09:22.84,0:09:24.37,Main Dialogue,Eizan,0000,0000,0000,,Stop talking already.
+Dialogue: 0,0:09:24.96,0:09:27.81,Main Dialogue,Eizan,0000,0000,0000,,I'll crush the best dish you've got!
+Dialogue: 0,0:09:27.81,0:09:30.43,Main Dialogue,Eizan,0000,0000,0000,,Just give it your all.
+Dialogue: 0,0:09:30.43,0:09:32.41,Main Dialogue,Host,0000,0000,0000,,Then let the Shokugeki...
+Dialogue: 0,0:09:32.86,0:09:33.84,Main Dialogue,Eizan,0000,0000,0000,,...begin!
+Dialogue: 0,0:09:36.31,0:09:37.34,Main Dialogue,Ryoko,0000,0000,0000,,It's begun.
+Dialogue: 0,0:09:37.34,0:09:39.01,Main Dialogue,Sato,0000,0000,0000,,Don't lose, Skewer RS!
+Dialogue: 0,0:09:39.42,0:09:40.42,Main Dialogue,Aoki,0000,0000,0000,,It's not over!
+Dialogue: 0,0:09:40.42,0:09:42.47,Main Dialogue,Yuki,0000,0000,0000,,Yeah, it's not over yet!
+Dialogue: 0,0:09:42.81,0:09:44.18,Main Dialogue,Chief,0000,0000,0000,,As long as they win...
+Dialogue: 0,0:09:44.18,0:09:46.64,Main Dialogue,Madoka,0000,0000,0000,,...we might still have a place \Nwhere we can feel we belong!
+Dialogue: 0,0:09:46.64,0:09:48.49,Main Dialogue,Ikumi,0000,0000,0000,,We're not gonna give up!
+Dialogue: 0,0:09:48.49,0:09:49.86,Main Dialogue,Ikumi,0000,0000,0000,,We still have...
+Dialogue: 0,0:09:49.86,0:09:53.07,sign_14143_182_Shokugeki,Sign 0952,0000,0000,0000,,Shokugeki
+Dialogue: 0,0:09:50.91,0:09:53.07,Main Dialogue,Stu,0000,0000,0000,,...the Shokugeki!
+Dialogue: 0,0:09:54.53,0:09:58.99,Main Dialogue,S,0000,0000,0000,,Eizan-senpai doesn't look \Nfocused on his cooking at all.
+Dialogue: 0,0:09:59.54,0:10:00.70,Main Dialogue,S,0000,0000,0000,,Something's off.
+Dialogue: 0,0:10:01.49,0:10:05.27,Main Dialogue,S,0000,0000,0000,,I doubt the other research societies \Nand research groups will back down
+Dialogue: 0,0:10:05.27,0:10:09.04,Main Dialogue,S,0000,0000,0000,,even if Eizan-senpai wins \Nthis match by a huge margin.
+Dialogue: 0,0:10:09.61,0:10:14.05,Main Dialogue,S,0000,0000,0000,,Why'd Eizan-senpai say it'd be \Na good "warning," then?
+Dialogue: 0,0:10:17.34,0:10:18.80,Main Dialogue,Host,0000,0000,0000,,It's evaluation time!
+Dialogue: 0,0:10:23.43,0:10:25.89,sign_14948_189_Kabutoyama_Tests,Sign 1026,0000,0000,0000,,Kabutoyama Tetsuji
+Dialogue: 0,0:10:23.43,0:10:25.89,sign_14948_190_Eizan_Etsuya,Sign 1026,0000,0000,0000,,Eizan Etsuya
+Dialogue: 0,0:10:26.55,0:10:27.60,Main Dialogue,Ryoko,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:10:27.60,0:10:29.23,Main Dialogue,Sato,0000,0000,0000,,What the... Isn't that weird?
+Dialogue: 0,0:10:29.85,0:10:31.91,Main Dialogue,Kabuto,0000,0000,0000,,There seems to be a malfunction.
+Dialogue: 0,0:10:31.91,0:10:34.36,Main Dialogue,Kabuto,0000,0000,0000,,The scores are being displayed even \Nthough neither dish has been tried.
+Dialogue: 0,0:10:37.39,0:10:38.02,Main Dialogue,Kabuto,0000,0000,0000,,Eizan!
+Dialogue: 0,0:10:38.02,0:10:39.32,Main Dialogue,Kabuto,0000,0000,0000,,You... You can't have...
+Dialogue: 0,0:10:39.32,0:10:40.66,Main Dialogue,Kabuto,0000,0000,0000,,The judges?!
+Dialogue: 0,0:10:43.70,0:10:47.33,Main Dialogue,Eizan,0000,0000,0000,,Too bad for you!
+Dialogue: 0,0:10:47.66,0:10:49.22,Main Dialogue,Host,0000,0000,0000,,It's been decided!
+Dialogue: 0,0:10:49.22,0:10:51.79,Main Dialogue,Host,0000,0000,0000,,Skewer RS will be disbanded!
+Dialogue: 0,0:10:51.79,0:10:53.12,Main Dialogue,Kabuto,0000,0000,0000,,Wait a second, Eizan!
+Dialogue: 0,0:10:53.12,0:10:55.25,Main Dialogue,Kabuto,0000,0000,0000,,You bought the judges?!
+Dialogue: 0,0:10:55.25,0:10:56.68,Main Dialogue,Kabuto,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:10:56.68,0:10:58.42,Main Dialogue,Kabuto,0000,0000,0000,,This Shokugeki can't be legitimate!
+Dialogue: 0,0:10:58.42,0:10:59.73,Main Dialogue,Kabuto,0000,0000,0000,,Who'd accept that?!
+Dialogue: 0,0:10:59.73,0:11:02.47,Main Dialogue,Eizan,0000,0000,0000,,Farewell, Kabutoyama!
+Dialogue: 0,0:11:05.87,0:11:08.43,Main Dialogue,Eizan,0000,0000,0000,,You are being expelled!
+Dialogue: 0,0:11:08.93,0:11:10.35,Main Dialogue,Kabuto,0000,0000,0000,,Impossible...
+Dialogue: 0,0:11:11.90,0:11:15.02,Main Dialogue,Eizan,0000,0000,0000,,Totsuki is not what it used to be.
+Dialogue: 0,0:11:15.02,0:11:16.85,Main Dialogue,Yuki,0000,0000,0000,,What the hell?! That's cheating!
+Dialogue: 0,0:11:16.85,0:11:18.83,Main Dialogue,Sato,0000,0000,0000,,So the judges are all in on it?
+Dialogue: 0,0:11:18.83,0:11:20.75,Main Dialogue,Ryoko,0000,0000,0000,,Even our last resort, the Shokugeki is now...
+Dialogue: 0,0:11:20.75,0:11:23.16,Main Dialogue,Aoki,0000,0000,0000,,That Eizan's rotten to the core!
+Dialogue: 0,0:11:23.56,0:11:26.62,Main Dialogue,Chief,0000,0000,0000,,Even the judges have all turned on us.
+Dialogue: 0,0:11:27.10,0:11:29.58,Main Dialogue,Madoko,0000,0000,0000,,They won't even judge us on taste.
+Dialogue: 0,0:11:29.58,0:11:32.46,Main Dialogue,Ikumi,0000,0000,0000,,If the match won't be fair, then...
+Dialogue: 0,0:11:32.46,0:11:36.55,Main Dialogue,Ibu,0000,0000,0000,,The outcome is the same whether \Nyou have a Shokugeki or not.
+Dialogue: 0,0:11:36.55,0:11:39.88,Main Dialogue,Marui,0000,0000,0000,,Either way,\N Polar Star Dormitory is finished?!
+Dialogue: 0,0:11:41.09,0:11:43.33,Main Dialogue,Sato,0000,0000,0000,,N-N-N-No way!
+Dialogue: 0,0:11:43.33,0:11:46.30,Main Dialogue,Aoki,0000,0000,0000,,Our home's gonna be shut down!
+Dialogue: 0,0:11:46.62,0:11:47.75,Main Dialogue,M,0000,0000,0000,,What should we do?
+Dialogue: 0,0:11:47.75,0:11:50.77,Main Dialogue,M,0000,0000,0000,,Nakiri-san will lose her hiding place, too!
+Dialogue: 0,0:11:55.19,0:11:57.66,Italics Dialogue,Eizan,0000,0000,0000,,Well, Yukihira?
+Dialogue: 0,0:11:57.66,0:11:59.40,Italics Dialogue,Eizan,0000,0000,0000,,How was that warning?
+Dialogue: 0,0:12:00.86,0:12:01.92,sign_17284_226_Shokugeki,Sign 1202,0000,0000,0000,,Shokugeki
+Dialogue: 0,0:12:03.13,0:12:07.78,Italics Dialogue,Eizan,0000,0000,0000,,The Shokugeki is dead.
+Dialogue: 0,0:12:13.91,0:12:16.72,Main Dialogue,Secretary,0000,0000,0000,,Department Chief, are you all right?
+Dialogue: 0,0:12:16.72,0:12:17.79,Main Dialogue,Kage,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:17.79,0:12:20.21,Main Dialogue,Kage,0000,0000,0000,,I'm just still shocked over yesterday's match.
+Dialogue: 0,0:12:20.21,0:12:25.47,sign_17748_231_Kageura_Hisanao_,Sign 1222,0000,0000,0000,,Kageura Hisanao \N{\fs12} Shokugeki Administration Department\N Department Chief
+Dialogue: 0,0:12:20.89,0:12:25.47,Main Dialogue Top,Kage,0000,0000,0000,,Eizan Etsuya... How dare \Nyou buy out all the judges?
+Dialogue: 0,0:12:25.47,0:12:27.60,Main Dialogue,Ei,0000,0000,0000,,Hey, Department Chief.
+Dialogue: 0,0:12:27.60,0:12:29.10,Main Dialogue,Kage,0000,0000,0000,,E-Eizan!
+Dialogue: 0,0:12:29.10,0:12:30.66,Main Dialogue,Kage,0000,0000,0000,,What do you want?
+Dialogue: 0,0:12:30.66,0:12:33.56,Main Dialogue,Eizan,0000,0000,0000,,Oh, I'm just here to confirm something.
+Dialogue: 0,0:12:34.38,0:12:39.61,Main Dialogue,Eizan,0000,0000,0000,,I'd heard more than a hundred Shokugeki \Nchallenges had been submitted against me.
+Dialogue: 0,0:12:39.61,0:12:41.94,Main Dialogue,Eizan,0000,0000,0000,,How are things now?
+Dialogue: 0,0:12:44.21,0:12:47.47,Main Dialogue,Kage,0000,0000,0000,,They were all... canceled!
+Dialogue: 0,0:12:49.81,0:12:51.41,Main Dialogue,Eizan,0000,0000,0000,,For real?
+Dialogue: 0,0:12:51.41,0:12:52.54,Main Dialogue,Eizan,0000,0000,0000,,That's really too bad.
+Dialogue: 0,0:12:52.94,0:12:57.00,Main Dialogue,Eizan,0000,0000,0000,,I was fine accepting any \Nchallenge that came my way.
+Dialogue: 0,0:12:59.25,0:13:02.21,sign_18684_242_Kitchen__28,Sign 1301,0000,0000,0000,,Kitchen #28
+Dialogue: 0,0:12:59.98,0:13:02.21,Main Dialogue,Lecturer,0000,0000,0000,,The recipe you'll master today
+Dialogue: 0,0:13:02.54,0:13:05.36,Main Dialogue,Lecturer,0000,0000,0000,,has been selected by Central.
+Dialogue: 0,0:13:05.36,0:13:08.95,Main Dialogue,Lecturer,0000,0000,0000,,This will be the new standard at Totsuki.
+Dialogue: 0,0:13:08.95,0:13:11.03,Main Dialogue,Lecturer,0000,0000,0000,,Bear it in mind.
+Dialogue: 0,0:13:14.41,0:13:16.06,Main Dialogue,Lecturer,0000,0000,0000,,Ibusaki Shun...
+Dialogue: 0,0:13:16.06,0:13:21.06,Main Dialogue,Lecturer,0000,0000,0000,,Use the oven to brisee the ingredients.
+Dialogue: 0,0:13:21.06,0:13:23.53,Main Dialogue,Lecturer,0000,0000,0000,,That's specified in the recipe \Nwe handed out, isn't it?
+Dialogue: 0,0:13:24.18,0:13:27.13,Main Dialogue,Ibu,0000,0000,0000,,This is how I've always done it.
+Dialogue: 0,0:13:27.13,0:13:29.41,Main Dialogue,Ibu,0000,0000,0000,,I don't know why I have to change it.
+Dialogue: 0,0:13:29.84,0:13:32.71,Main Dialogue,Lecturers,0000,0000,0000,,There's no need for you \Nto make that decision.
+Dialogue: 0,0:13:32.71,0:13:35.12,Main Dialogue,Lecturers,0000,0000,0000,,The decisions by Central are absolute.
+Dialogue: 0,0:13:35.12,0:13:36.89,Main Dialogue,Lecturers,0000,0000,0000,,Redo it.
+Dialogue: 0,0:13:38.33,0:13:39.89,Main Dialogue,Marui,0000,0000,0000,,I see...
+Dialogue: 0,0:13:39.89,0:13:42.54,Main Dialogue,Marui,0000,0000,0000,,So even Regional Cuisine RS \Ngot the order to disband.
+Dialogue: 0,0:13:42.54,0:13:43.35,Main Dialogue,M,0000,0000,0000,,Yeah...
+Dialogue: 0,0:13:43.35,0:13:45.05,Main Dialogue,M,0000,0000,0000,,The Miyazato Research Group, too?
+Dialogue: 0,0:13:45.05,0:13:46.54,Main Dialogue,Marui,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:46.54,0:13:49.54,Main Dialogue,Marui,0000,0000,0000,,The other organizations \Nhave received notices, too.
+Dialogue: 0,0:13:49.54,0:13:52.76,Main Dialogue,Marui,0000,0000,0000,,Unfortunately, it's impossible \Nto make them rescind the order.
+Dialogue: 0,0:13:53.51,0:13:55.73,Main Dialogue,Marui,0000,0000,0000,,The deadline for us to vacate the \Ndorm is fast approaching, too.
+Dialogue: 0,0:13:55.73,0:13:57.66,Main Dialogue,Marui,0000,0000,0000,,Only ten days left.
+Dialogue: 0,0:14:04.05,0:14:05.31,Main Dialogue,Ryoko,0000,0000,0000,,Nakiri-san?
+Dialogue: 0,0:14:06.61,0:14:07.71,Main Dialogue,Ryoko,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:14:07.71,0:14:09.61,Main Dialogue,Ryoko,0000,0000,0000,,You're sitting in the dark.
+Dialogue: 0,0:14:10.73,0:14:13.08,Main Dialogue,Ryoko,0000,0000,0000,,It's almost dinnertime,\N so come down to the dining hall—
+Dialogue: 0,0:14:13.61,0:14:15.45,Main Dialogue,E,0000,0000,0000,,U-Um...
+Dialogue: 0,0:14:17.77,0:14:19.50,Main Dialogue,E,0000,0000,0000,,No, it's nothing.
+Dialogue: 0,0:14:21.51,0:14:22.88,Main Dialogue,Ryoko,0000,0000,0000,,Come on.
+Dialogue: 0,0:14:22.88,0:14:25.80,Main Dialogue,Ryoko,0000,0000,0000,,Dinner will get cold if we \Ndon't get there fast, yeah?
+Dialogue: 0,0:14:34.55,0:14:37.73,Main Dialogue,Yuki,0000,0000,0000,,Are we really losing the dorm?
+Dialogue: 0,0:14:37.73,0:14:39.17,Main Dialogue,Sato,0000,0000,0000,,Sounds like it...
+Dialogue: 0,0:14:41.29,0:14:44.85,Main Dialogue,Yuki,0000,0000,0000,,Man... I guess we can't do anything.
+Dialogue: 0,0:14:44.85,0:14:48.24,Main Dialogue,Yuki,0000,0000,0000,,Dorm life feels long, but it's \Ngoing to be over in a flash!
+Dialogue: 0,0:14:48.24,0:14:51.31,Main Dialogue,M,0000,0000,0000,,We've been together for so long, all of us.
+Dialogue: 0,0:14:51.31,0:14:54.87,Main Dialogue,Aoki,0000,0000,0000,,Yeah. Thinking back, so much stuff happened.
+Dialogue: 0,0:14:54.87,0:14:57.09,Main Dialogue,Yuki,0000,0000,0000,,Fumio-san's dormitory entrance exam!
+Dialogue: 0,0:14:57.09,0:14:58.96,Main Dialogue,Yuki,0000,0000,0000,,I was so surprised at first.
+Dialogue: 0,0:14:58.96,0:15:02.85,Main Dialogue,M,0000,0000,0000,,It took me three months to get in here,
+Dialogue: 0,0:15:02.85,0:15:06.42,Main Dialogue,M,0000,0000,0000,,but Fumio-san let me stay \Nin the storage shed.
+Dialogue: 0,0:15:06.42,0:15:07.54,Main Dialogue,S,0000,0000,0000,,Seriously?!
+Dialogue: 0,0:15:07.54,0:15:09.42,Main Dialogue,S,0000,0000,0000,,That's a shocker.
+Dialogue: 0,0:15:09.42,0:15:13.64,Main Dialogue,Yuki,0000,0000,0000,,Megumi, you're tougher than \Nyou look in a lot of ways.
+Dialogue: 0,0:15:14.34,0:15:18.64,Main Dialogue,Yuki,0000,0000,0000,,Then I guess Yukihira transferred \Nin when we got to high school.
+Dialogue: 0,0:15:18.64,0:15:20.10,Flashback Dialogue,S,0000,0000,0000,,I'm gonna take the number one spot!
+Dialogue: 0,0:15:20.10,0:15:21.81,Flashback Dialogue,S,0000,0000,0000,,Looking forward to being with y'all\N for the next three years!
+Dialogue: 0,0:15:24.77,0:15:28.23,Main Dialogue,Yuki,0000,0000,0000,,Man, everything brings back so many memories.
+Dialogue: 0,0:15:28.23,0:15:30.11,Main Dialogue,Yuki,0000,0000,0000,,Seriously...
+Dialogue: 0,0:15:33.11,0:15:36.58,Main Dialogue,Marui,0000,0000,0000,,I guess we all got through \Nthat camp from hell, too.
+Dialogue: 0,0:15:37.45,0:15:37.95,sign_22477_291_Missing_Text_Mis,,0000,0000,0000,,Restaurant\N{\fs30}Tadokoro
+Dialogue: 0,0:15:37.95,0:15:42.67,Main Dialogue,Yuki,0000,0000,0000,,I was so worried when Megumi had \Na shokugeki with Shinomiya-senpai.
+Dialogue: 0,0:15:42.67,0:15:43.37,Main Dialogue,E,0000,0000,0000,,What?
+Dialogue: 0,0:15:43.37,0:15:44.42,Main Dialogue,E,0000,0000,0000,,A Shokugeki?
+Dialogue: 0,0:15:44.42,0:15:46.42,Main Dialogue,M,0000,0000,0000,,I-It's nothing!
+Dialogue: 0,0:15:46.77,0:15:47.75,Main Dialogue,Ryoko,0000,0000,0000,,And summer break...
+Dialogue: 0,0:15:48.57,0:15:50.26,Main Dialogue,Ibu,0000,0000,0000,,The Autumn Elections...
+Dialogue: 0,0:15:52.97,0:15:53.64,sign_22849_298_The_92nd__Moon_F,Sign 1554,0000,0000,0000,,The 92nd\N{\fs30\c&H1600D4&} Moon Festival
+Dialogue: 0,0:15:52.97,0:15:54.39,Main Dialogue,Aoki,0000,0000,0000,,And the Moon Festival!
+Dialogue: 0,0:15:55.14,0:15:57.64,Main Dialogue,Sato,0000,0000,0000,,The Taro Stew Booth... \NWe worked really hard!
+Dialogue: 0,0:15:57.64,0:15:59.93,Main Dialogue,Yuki,0000,0000,0000,,Yukihira and Megumi's Chinese food stall!
+Dialogue: 0,0:16:00.68,0:16:04.02,Main Dialogue,Ryoko,0000,0000,0000,,We'd always cook each other food.
+Dialogue: 0,0:16:04.02,0:16:05.71,Main Dialogue,M,0000,0000,0000,,Yeah! We really did.
+Dialogue: 0,0:16:06.61,0:16:08.13,Main Dialogue,Marui,0000,0000,0000,,So much...
+Dialogue: 0,0:16:08.13,0:16:10.49,Main Dialogue,Yuki,0000,0000,0000,,So much happened!
+Dialogue: 0,0:16:10.49,0:16:14.53,Main Dialogue,Yuki,0000,0000,0000,,We'd never have enough time \Nto talk about it all.
+Dialogue: 0,0:16:18.97,0:16:21.58,Main Dialogue,Yuki,0000,0000,0000,,So much...
+Dialogue: 0,0:16:22.54,0:16:23.71,Main Dialogue,M,0000,0000,0000,,Yuki-chan?
+Dialogue: 0,0:16:25.50,0:16:28.00,Main Dialogue,Yuki,0000,0000,0000,,I don't want this!
+Dialogue: 0,0:16:28.00,0:16:30.71,Main Dialogue,Yuki,0000,0000,0000,,I don't want to lose Polar Star Dormitory!
+Dialogue: 0,0:16:31.10,0:16:33.68,Main Dialogue,Yuki,0000,0000,0000,,I want to keep doing stuff with you guys!
+Dialogue: 0,0:16:34.14,0:16:35.72,Main Dialogue,Yuki,0000,0000,0000,,I wanted to keep...
+Dialogue: 0,0:16:35.72,0:16:40.60,Main Dialogue,Yuki,0000,0000,0000,,cooking more stuff with you guys!
+Dialogue: 0,0:16:41.06,0:16:42.56,Main Dialogue,Ryoko,0000,0000,0000,,Yuki...
+Dialogue: 0,0:17:07.69,0:17:12.78,Flashback Dialogue,S,0000,0000,0000,,What was Polar Star Dormitory \Nlike to you, Dad?
+Dialogue: 0,0:17:14.27,0:17:15.47,Flashback Dialogue,SDad,0000,0000,0000,,It was fun.
+Dialogue: 0,0:17:16.23,0:17:19.93,Flashback Dialogue,SDad,0000,0000,0000,,Everyone just worked on mastering \Ntheir cooking in their way.
+Dialogue: 0,0:17:24.53,0:17:25.23,Main Dialogue,Eizan,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:26.05,0:17:27.87,Main Dialogue,Eizan,0000,0000,0000,,Give me a break, Yukihira.
+Dialogue: 0,0:17:27.87,0:17:30.86,Main Dialogue,Eizan,0000,0000,0000,,Don't be that stupid.
+Dialogue: 0,0:17:30.86,0:17:33.46,Main Dialogue,Eizan,0000,0000,0000,,You still don't grasp the situation or what?
+Dialogue: 0,0:17:34.62,0:17:37.40,Main Dialogue,Eizan,0000,0000,0000,,All the judges are on my side.
+Dialogue: 0,0:17:37.88,0:17:41.56,Main Dialogue,Eizan,0000,0000,0000,,Forget about winning or losing—they won't \Neven taste a single bite of your food.
+Dialogue: 0,0:17:41.56,0:17:44.62,Main Dialogue,Eizan,0000,0000,0000,,It's a guaranteed expulsion the moment \Nyou climb into the ring, okay?
+Dialogue: 0,0:17:45.05,0:17:48.58,Main Dialogue,Eizan,0000,0000,0000,,Despite all that, did you just say \Nyou're challenging me to a Shokugeki?
+Dialogue: 0,0:17:49.07,0:17:49.79,Main Dialogue,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:49.79,0:17:53.44,Main Dialogue,Eizan,0000,0000,0000,,What, did your dorm buddies \Ncome crying to you for help?
+Dialogue: 0,0:17:53.44,0:17:56.76,Main Dialogue,Eizan,0000,0000,0000,,I can get that you might want to \Nplay the good Samaritan,
+Dialogue: 0,0:17:57.21,0:17:58.83,Main Dialogue,Eizan,0000,0000,0000,,but I wouldn't recommend it.
+Dialogue: 0,0:17:58.83,0:18:00.97,Main Dialogue,Eizan,0000,0000,0000,,Bravery and recklessness are \Ntwo different things, you know.
+Dialogue: 0,0:18:03.99,0:18:06.85,Main Dialogue,S,0000,0000,0000,,It's not for my dorm mates or anything.
+Dialogue: 0,0:18:07.42,0:18:08.53,Main Dialogue,Eizan,0000,0000,0000,,What?
+Dialogue: 0,0:18:08.53,0:18:11.29,Main Dialogue,S,0000,0000,0000,,Me. It's for me.
+Dialogue: 0,0:18:11.29,0:18:15.94,Main Dialogue,S,0000,0000,0000,,The Polar Star Dorm is where \NI'm gonna master my cooking.
+Dialogue: 0,0:18:15.94,0:18:19.90,Main Dialogue,S,0000,0000,0000,,So I'm not gonna let you shut down my dorm.
+Dialogue: 0,0:18:19.90,0:18:21.83,Main Dialogue,S,0000,0000,0000,,Accept the challenge.
+Dialogue: 0,0:18:24.78,0:18:25.91,Main Dialogue,Secretary,0000,0000,0000,,Department Chief!
+Dialogue: 0,0:18:26.28,0:18:27.13,Main Dialogue,Kage,0000,0000,0000,,What?!
+Dialogue: 0,0:18:27.13,0:18:28.41,Main Dialogue,Kage,0000,0000,0000,,A Shokugeki?!
+Dialogue: 0,0:18:28.41,0:18:31.78,Main Dialogue,Yuki,0000,0000,0000,,"I am going to challenge \NEizan-senpai to a Shokugeki.
+Dialogue: 0,0:18:31.78,0:18:35.92,Main Dialogue,Yuki,0000,0000,0000,,There's curry in the fridge for everyone, \Nso heat it up in the microwave.
+Dialogue: 0,0:18:36.35,0:18:38.14,Main Dialogue,Yuki,0000,0000,0000,,Signed, Yukihira Soma."
+Dialogue: 0,0:18:40.26,0:18:42.54,Main Dialogue,E,0000,0000,0000,,Yukihira-kun, what are you thinking?
+Dialogue: 0,0:18:42.54,0:18:47.31,Main Dialogue,Ibu,0000,0000,0000,,He went alone so that he \Ncan keep us out of it?
+Dialogue: 0,0:18:47.97,0:18:49.54,Main Dialogue,Yuki,0000,0000,0000,,What the hell?
+Dialogue: 0,0:18:49.54,0:18:52.84,Main Dialogue,Yuki,0000,0000,0000,,We're all part of\N Polar Star Dormitory, aren't we?!
+Dialogue: 0,0:18:52.84,0:18:55.78,Main Dialogue,Yuki,0000,0000,0000,,How could he just go off by himself?
+Dialogue: 0,0:18:55.78,0:18:59.23,Main Dialogue,M,0000,0000,0000,,If we don't do something, \NSoma-kun will get expelled!
+Dialogue: 0,0:18:59.74,0:19:01.20,Main Dialogue,Hisako,0000,0000,0000,,Erina-sama!
+Dialogue: 0,0:19:01.20,0:19:02.73,Main Dialogue,Hisako,0000,0000,0000,,Turn on the TV!
+Dialogue: 0,0:19:02.73,0:19:04.79,Main Dialogue,Hisako,0000,0000,0000,,Switch to the campus channel!
+Dialogue: 0,0:19:04.79,0:19:05.66,Main Dialogue,Hisako,0000,0000,0000,,Yukihira's...
+Dialogue: 0,0:19:07.43,0:19:08.79,Main Dialogue,Sato,0000,0000,0000,,There's a live broadcast.
+Dialogue: 0,0:19:08.79,0:19:13.79,sign_27544_356_Shokugeki_Confir,Sign 1914,0000,0000,0000,,Shokugeki Confirmed
+Dialogue: 0,0:19:09.16,0:19:12.18,Italics Dialogue,Yua,0000,0000,0000,,I repeat, i-it's going to happen!
+Dialogue: 0,0:19:12.18,0:19:14.21,Italics Dialogue,Yua,0000,0000,0000,,A Shokugeki is going to happen!
+Dialogue: 0,0:19:14.21,0:19:16.75,Italics Dialogue,Yua,0000,0000,0000,,It appears Eizan Etsuya has \Naccepted the challenge.
+Dialogue: 0,0:19:16.75,0:19:19.72,Italics Dialogue,Yua,0000,0000,0000,,It's said the match will being presently.
+Dialogue: 0,0:19:20.19,0:19:24.14,Main Dialogue,Eizan,0000,0000,0000,,The topic is Satsuma chicken \Nfrom Kagoshima prefecture.
+Dialogue: 0,0:19:21.68,0:19:24.14,sign_27853_359_Waiting_Room,Sign 1923,0000,0000,0000,,Waiting Room
+Dialogue: 0,0:19:24.14,0:19:29.10,Main Dialogue,Eizan,0000,0000,0000,,It's known for having firm, flavorful \Nflesh without excess fat.
+Dialogue: 0,0:19:29.54,0:19:30.98,Main Dialogue,Eizan,0000,0000,0000,,Hey, are you even listening?
+Dialogue: 0,0:19:30.98,0:19:32.06,Main Dialogue,Eizan,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:19:32.06,0:19:34.82,Main Dialogue,S,0000,0000,0000,,Oh, just checking the ingredients.
+Dialogue: 0,0:19:34.82,0:19:39.53,Main Dialogue,S,0000,0000,0000,,Knowing you, I wouldn't put it \Npast you to sabotage them somehow.
+Dialogue: 0,0:19:39.53,0:19:41.95,Main Dialogue,Eizan,0000,0000,0000,,Heh, no matter.
+Dialogue: 0,0:19:41.95,0:19:43.57,Main Dialogue,Eizan,0000,0000,0000,,Do whatever you want.
+Dialogue: 0,0:19:43.57,0:19:44.99,Main Dialogue,Eizan,0000,0000,0000,,It's all pointless, anyway.
+Dialogue: 0,0:19:44.99,0:19:47.95,Main Dialogue,Rindo,0000,0000,0000,,Eizan, hey!
+Dialogue: 0,0:19:47.95,0:19:49.10,Main Dialogue,Eizan,0000,0000,0000,,What the?!
+Dialogue: 0,0:19:49.10,0:19:51.37,Main Dialogue,Eizan,0000,0000,0000,,Why are you here, Rindo, you bitch?!
+Dialogue: 0,0:19:51.70,0:19:54.75,Main Dialogue,Rindo,0000,0000,0000,,That's Rindo-senpai to you!
+Dialogue: 0,0:19:53.89,0:19:55.15,Main Dialogue Top,Eizan,0000,0000,0000,,Shut up!
+Dialogue: 0,0:19:55.15,0:19:57.94,Main Dialogue,Eizan,0000,0000,0000,,You can't just come barging in here!
+Dialogue: 0,0:19:57.94,0:19:59.88,Main Dialogue,Rindo,0000,0000,0000,,Be civil!
+Dialogue: 0,0:19:59.88,0:20:02.18,Main Dialogue,Rindo,0000,0000,0000,,Hey, Yukihira Soma.
+Dialogue: 0,0:20:02.18,0:20:04.49,Main Dialogue,Rindo,0000,0000,0000,,You're being reckless as usual.
+Dialogue: 0,0:20:04.49,0:20:08.21,Main Dialogue,S,0000,0000,0000,,Thanks. It's been kind of \Na while, huh, Rindo-senpai.
+Dialogue: 0,0:20:08.21,0:20:11.49,Main Dialogue,Rindo,0000,0000,0000,,Well, you know, it's been real hectic.
+Dialogue: 0,0:20:11.49,0:20:15.53,Main Dialogue,Rindo,0000,0000,0000,,A lot of things changed at the academy \Nthanks to Nakiri Azami's revolution,
+Dialogue: 0,0:20:15.53,0:20:19.54,Main Dialogue,Rindo,0000,0000,0000,,so the Elite Ten are swamped with \Npaperwork and administrative duties.
+Dialogue: 0,0:20:19.54,0:20:21.28,Main Dialogue,Rindo,0000,0000,0000,,We've been working nonstop!
+Dialogue: 0,0:20:21.74,0:20:22.78,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:20:22.78,0:20:25.78,Main Dialogue,Rindo,0000,0000,0000,,Well, I gave all my work to Tsukasa.
+Dialogue: 0,0:20:25.78,0:20:26.95,Italics Dialogue,S,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:26.95,0:20:27.74,Italics Dialogue,Rindo,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:31.22,0:20:32.66,Main Dialogue,S,0000,0000,0000,,Well, I'm going to go prep.
+Dialogue: 0,0:20:32.66,0:20:34.77,Main Dialogue,S,0000,0000,0000,,I'll borrow the back kitchen.
+Dialogue: 0,0:20:45.30,0:20:47.31,Main Dialogue,Judge,0000,0000,0000,,I didn't think anyone'd still issue a
+Dialogue: 0,0:20:47.31,0:20:50.31,Main Dialogue,Judge,0000,0000,0000,,Shokugeki challenge after seeing \Nwhat happened yesterday.
+Dialogue: 0,0:20:50.83,0:20:53.37,Main Dialogue,Judge,0000,0000,0000,,Whoever it is must be quite the fool.
+Dialogue: 0,0:20:53.37,0:20:57.02,Main Dialogue,Judge,0000,0000,0000,,Let's just taste Eizan-dono's \Ncooking and call it a day.
+Dialogue: 0,0:20:57.02,0:20:58.68,Main Dialogue,Eizan,0000,0000,0000,,Do as you wish.
+Dialogue: 0,0:20:58.68,0:21:01.34,Main Dialogue,Eizan,0000,0000,0000,,I'm counting on you all \Nfor today's "evaluation."
+Dialogue: 0,0:21:01.34,0:21:02.69,Main Dialogue,Judge,0000,0000,0000,,Of course.
+Dialogue: 0,0:21:02.69,0:21:03.95,Main Dialogue,Judge,0000,0000,0000,,See you later.
+Dialogue: 0,0:21:03.95,0:21:07.05,Main Dialogue,Rindo,0000,0000,0000,,Too bad, eh, Eizan?
+Dialogue: 0,0:21:07.05,0:21:10.06,Main Dialogue,Rindo,0000,0000,0000,,What you were really trying to \Ndo with that "example" yesterday
+Dialogue: 0,0:21:10.06,0:21:13.96,Main Dialogue,Rindo,0000,0000,0000,,was crush Yukihira Soma's spirit, right?
+Dialogue: 0,0:21:14.41,0:21:18.29,Main Dialogue,Rindo,0000,0000,0000,,Instead, Yukihira is rising to the challenge.
+Dialogue: 0,0:21:18.29,0:21:19.54,Main Dialogue,Eizan,0000,0000,0000,,Hmph.
+Dialogue: 0,0:21:20.09,0:21:21.80,Main Dialogue,Rindo,0000,0000,0000,,Well, don't let it get to you.
+Dialogue: 0,0:21:21.80,0:21:25.51,Main Dialogue,Rindo,0000,0000,0000,,It just means he's that tough.
+Dialogue: 0,0:21:26.70,0:21:27.90,Main Dialogue,Eizan,0000,0000,0000,,Are the preparations complete?
+Dialogue: 0,0:21:28.97,0:21:31.93,Main Dialogue,Eizan,0000,0000,0000,,Good, follow instructions.
+Dialogue: 0,0:21:33.64,0:21:36.10,Main Dialogue,Host,0000,0000,0000,,Both opponents to your \Nrespective cooking counters!
+Dialogue: 0,0:21:45.32,0:21:47.28,Main Dialogue,Ibu,0000,0000,0000,,What's that?
+Dialogue: 0,0:21:48.46,0:21:50.74,Main Dialogue,Eizan,0000,0000,0000,,By the way, I neglected to mention
+Dialogue: 0,0:21:50.74,0:21:55.20,Main Dialogue,Eizan,0000,0000,0000,,that my subordinates are headed to \NPolar Star Dormitory this second
+Dialogue: 0,0:21:55.77,0:21:57.31,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:21:57.31,0:21:58.83,Main Dialogue,S,0000,0000,0000,,Did you need something there?
+Dialogue: 0,0:21:59.36,0:22:03.10,Main Dialogue,Eizan,0000,0000,0000,,I'd informed you all that the deadline for \Nvacating the dorm is ten days from now,
+Dialogue: 0,0:22:03.10,0:22:05.92,Main Dialogue,Eizan,0000,0000,0000,,but the schedule got sped up just a tiny bit.
+Dialogue: 0,0:22:06.65,0:22:09.02,Main Dialogue,Eizan,0000,0000,0000,,It's quite unfortunately, really.
+Dialogue: 0,0:22:09.02,0:22:11.39,Main Dialogue,Eizan,0000,0000,0000,,But there's going to be an eviction \Nat the Polar Star Dormitory.
+Dialogue: 0,0:22:12.85,0:22:17.33,Main Dialogue,Eizan,0000,0000,0000,,We will be doing that today.
+Dialogue: 0,0:22:17.33,0:22:19.77,Main Dialogue,Eizan,0000,0000,0000,,Now, on to the Shokugeki.
+Dialogue: 0,0:22:20.12,0:22:22.34,Main Dialogue,Eizan,0000,0000,0000,,You have three hours to finish cooking.
+Dialogue: 0,0:22:22.34,0:22:24.18,Main Dialogue,Eizan,0000,0000,0000,,By the time this match is over,
+Dialogue: 0,0:22:24.18,0:22:26.34,Main Dialogue,Eizan,0000,0000,0000,,the dormitory will be empty.
+Dialogue: 0,0:22:26.34,0:22:28.00,Main Dialogue,Eizan,0000,0000,0000,,All that will be waiting when you get back
+Dialogue: 0,0:22:28.00,0:22:31.27,Main Dialogue,Eizan,0000,0000,0000,,are your friends' crestfallen faces.
+Dialogue: 0,0:22:31.27,0:22:33.91,Main Dialogue,Eizan,0000,0000,0000,,Let's make this a good match, eh?
+Dialogue: 0,0:24:03.92,0:24:05.92,sign_34621_499_Totsuki,,0000,0000,0000,,Totsuki
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_424_Food_Wars,Sign 2407,0000,0000,0000,,Food Wars
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_425_The_Third_Plate,Sign 2407,0000,0000,0000,,The Third Plate
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_426_Next_Episode__Th,Next Episode,0000,0000,0000,,Next Episode:  {\fs26}The Alchemist
+Dialogue: 0,0:24:07.09,0:24:10.92,Main Dialogue Top,M,0000,0000,0000,,I hope you savor the next episode!

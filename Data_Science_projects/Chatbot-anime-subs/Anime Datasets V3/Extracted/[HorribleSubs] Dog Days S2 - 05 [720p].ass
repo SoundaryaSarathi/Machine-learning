@@ -1,0 +1,376 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DogDays-main,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: DogDays-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-internal,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-narrator,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: DogDays-ep-title,Amira,37,&H00F4FAFF,&H000000FF,&H007F769D,&H009C98C5,0,0,0,0,90,100,0,0,1,2,0,1,0082,0020,0082,0
+Style: DogDays-next-ep-title,Amira,40,&H00FFFEFF,&H000000FF,&H00E436EE,&H00647E8F,1,0,0,0,100,100,0,0,1,2,0,9,0020,0050,0025,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Basic Black - Big,Amira,45,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0010,0050,0020,1
+Style: Basic Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0010,0050,0020,1
+Style: Basic kanji Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0010,1
+Style: Basic Kanji white - Big,Amira,47,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: Basic Kanji white - Small,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: orange note,Amira,27,&H00AABDF4,&H000000FF,&H00101A24,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: location,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,0,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0070,0
+Style: blue note,Amira,27,&H00D69289,&H000000FF,&H00420E12,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: yellow note,Amira,27,&H00A8D6E1,&H000000FF,&H001A3A3F,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: violet note,Amira,27,&H00DA91CB,&H000000FF,&H00391A2C,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: grey note,Amira,27,&H00CFCFCF,&H000000FF,&H003E3E3E,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: green note,Amira,27,&H00A4F3A1,&H000000FF,&H00213F1A,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: teal note,Amira,27,&H00E7F3C0,&H000000FF,&H00212900,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.04,0:00:02.28,DogDays-narrator,Vert,0000,0000,0000,,It's summer!
+Dialogue: 0,0:00:02.28,0:00:04.22,DogDays-narrator,Vert,0000,0000,0000,,In preparation for the big event,
+Dialogue: 0,0:00:04.22,0:00:07.72,DogDays-narrator,,0000,0000,0000,,everyone's taking a \Nbreather and kicking back.
+Dialogue: 0,0:00:07.72,0:00:08.96,DogDays-narrator,Jaune,0000,0000,0000,,The young people of Biscotti
+Dialogue: 0,0:00:08.96,0:00:11.13,DogDays-narrator,,0000,0000,0000,,got together for a summer training camp.
+Dialogue: 0,0:00:11.13,0:00:13.27,DogDays-narrator,Jaune,0000,0000,0000,,I really would've liked to go,
+Dialogue: 0,0:00:13.27,0:00:15.36,DogDays-narrator,,0000,0000,0000,,since Sink and Noir were there, too.
+Dialogue: 0,0:00:15.36,0:00:18.48,DogDays-narrator,Vert,0000,0000,0000,,Meanwhile, what did we do in Galette
+Dialogue: 0,0:00:18.48,0:00:19.99,DogDays-narrator,,0000,0000,0000,,after welcoming our Hero, Nanami-chan?
+Dialogue: 0,0:01:56.52,0:02:00.48,DogDays-narrator,Vert,0000,0000,0000,,Galette is a territory blessed \Nby the bounty of the sea.
+Dialogue: 0,0:01:58.13,0:02:03.06,DogDays-ep-title,Vert,0000,0000,0000,,{\an7\fad(400,1)}Galette Sword Style Record!
+Dialogue: 0,0:02:00.48,0:02:03.06,DogDays-narrator,Vert,0000,0000,0000,,The town today is peaceful as usual.
+Dialogue: 0,0:02:14.65,0:02:18.10,DogDays-narrator,Vert,0000,0000,0000,,Noir is still in Biscotti, but...
+Dialogue: 0,0:02:19.86,0:02:21.06,DogDays-main,Nana,0000,0000,0000,,Sorry I'm late.
+Dialogue: 0,0:02:21.06,0:02:23.13,DogDays-main,Nana,0000,0000,0000,,All right, let's go eat!
+Dialogue: 0,0:02:23.13,0:02:27.41,DogDays-narrator,Vert,0000,0000,0000,,Our Hero, Nanami-chan, \Nspends so much time with us.
+Dialogue: 0,0:02:27.45,0:02:32.17,DogDays-main,Leo,0000,0000,0000,,Ugh, having all these meetings \Nback-to-back is exhausting.
+Dialogue: 0,0:02:32.21,0:02:35.80,DogDays-main,Gau,0000,0000,0000,,Yeah, huh. \NI really wish we could just
+Dialogue: 0,0:02:35.80,0:02:38.01,DogDays-main,,0000,0000,0000,,swing our swords and let loose.
+Dialogue: 0,0:02:38.25,0:02:39.98,DogDays-main,Leo,0000,0000,0000,,Seriously.
+Dialogue: 0,0:02:41.15,0:02:43.35,DogDays-main,Vio,0000,0000,0000,,Oh, Leo-sama. Gaul-sama.
+Dialogue: 0,0:02:43.35,0:02:44.59,DogDays-main,Leo,0000,0000,0000,,What's up, Violet?
+Dialogue: 0,0:02:44.59,0:02:45.47,DogDays-main,Gau,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:02:45.91,0:02:47.10,DogDays-main,Vio,0000,0000,0000,,Yes.
+Dialogue: 0,0:02:48.87,0:02:52.85,DogDays-main,Vio,0000,0000,0000,,A strange rumor has spread \Nhere from the town.
+Dialogue: 0,0:02:54.79,0:02:55.99,DogDays-main,wom,0000,0000,0000,,Thank you.
+Dialogue: 0,0:02:55.99,0:02:57.26,DogDays-main,wom,0000,0000,0000,,Welcome.
+Dialogue: 0,0:02:58.46,0:02:59.58,DogDays-main,Nana,0000,0000,0000,,A highwayman?
+Dialogue: 0,0:02:59.58,0:03:00.34,DogDays-main,Wait,0000,0000,0000,,That's right.
+Dialogue: 0,0:03:00.34,0:03:02.04,DogDays-main,Wait,0000,0000,0000,,That's what they've been saying.
+Dialogue: 0,0:03:02.04,0:03:04.26,DogDays-main,Vert,0000,0000,0000,,By "highwayman," you mean...
+Dialogue: 0,0:03:04.26,0:03:07.04,DogDays-main,,0000,0000,0000,,people who rob you of everything, \Neven your clothes?
+Dialogue: 0,0:03:07.08,0:03:11.51,DogDays-main,Wait,0000,0000,0000,,Yes. It's not really happening \Naround here, though,
+Dialogue: 0,0:03:11.51,0:03:14.06,DogDays-main,,0000,0000,0000,,but deeper in the \Ncontinent, around Ayase.
+Dialogue: 0,0:03:14.06,0:03:16.40,DogDays-main,Wait,0000,0000,0000,,All the guests coming from Ayase
+Dialogue: 0,0:03:16.40,0:03:18.99,DogDays-main,,0000,0000,0000,,have been talking about it.
+Dialogue: 0,0:03:18.99,0:03:21.65,DogDays-main,Wait,0000,0000,0000,,It's making a lot of people uneasy.
+Dialogue: 0,0:03:22.44,0:03:23.84,DogDays-main,Leo,0000,0000,0000,,I see.
+Dialogue: 0,0:03:23.84,0:03:25.88,DogDays-main,Leo,0000,0000,0000,,So the rumor is spreading \Nin town, as well...
+Dialogue: 0,0:03:26.24,0:03:27.24,DogDays-main,Nana,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:27.24,0:03:29.68,DogDays-main,,0000,0000,0000,,That's all everybody was talking \Nabout at the Sea Dragon Inn.
+Dialogue: 0,0:03:30.29,0:03:33.14,DogDays-main,Leo,0000,0000,0000,,I just confirmed it with Ayase's mayor.
+Dialogue: 0,0:03:33.80,0:03:36.59,DogDays-main,Leo,0000,0000,0000,,Because the town has a \Nlot of protective power,
+Dialogue: 0,0:03:36.59,0:03:39.65,DogDays-main,,0000,0000,0000,,there were no fatalities \Nor serious injuries.
+Dialogue: 0,0:03:39.69,0:03:42.67,DogDays-main,Gau,0000,0000,0000,,This is still armed robbery!
+Dialogue: 0,0:03:42.67,0:03:44.23,DogDays-main,Gau,0000,0000,0000,,We can't just let this go.
+Dialogue: 0,0:03:44.23,0:03:46.64,DogDays-main,Gau,0000,0000,0000,,I don't really like that \NNoir isn't back yet,
+Dialogue: 0,0:03:46.64,0:03:48.76,DogDays-main,,0000,0000,0000,,but do you three
+Dialogue: 0,0:03:48.76,0:03:50.78,DogDays-main,,0000,0000,0000,,want to go check it \Nout with me, tonight?
+Dialogue: 0,0:03:50.78,0:03:51.53,DogDays-main,Both,0000,0000,0000,,Yes!
+Dialogue: 0,0:03:51.53,0:03:52.21,DogDays-main,Nana,0000,0000,0000,,I'll go!
+Dialogue: 0,0:03:53.17,0:03:54.10,DogDays-main,Leo,0000,0000,0000,,In that case...
+Dialogue: 0,0:03:54.10,0:03:56.31,DogDays-main,Vio,0000,0000,0000,,Leo-sama. And you too, Gaul-sama!
+Dialogue: 0,0:03:56.83,0:03:58.27,DogDays-main,Vio,0000,0000,0000,,You mustn't!
+Dialogue: 0,0:03:58.27,0:04:00.58,DogDays-main,Vio,0000,0000,0000,,This whole thing will \Nblow out of proportion
+Dialogue: 0,0:04:00.58,0:04:02.36,DogDays-main,,0000,0000,0000,,if either of you two go out there.
+Dialogue: 0,0:04:02.36,0:04:04.74,DogDays-main,Vio,0000,0000,0000,,Plus, Princess Millihiore is scheduled
+Dialogue: 0,0:04:04.74,0:04:06.85,DogDays-main,,0000,0000,0000,,to dine with us tonight!
+Dialogue: 0,0:04:07.24,0:04:09.44,DogDays-main,Leo,0000,0000,0000,,I suppose you're right.
+Dialogue: 0,0:04:09.44,0:04:12.60,DogDays-main,Gau,0000,0000,0000,,But we can't possibly let \Nthem go on their own.
+Dialogue: 0,0:04:16.62,0:04:19.44,DogDays-main,Vio,0000,0000,0000,,Then I'll lead the operation.
+Dialogue: 0,0:04:20.48,0:04:23.93,DogDays-main,Gau,0000,0000,0000,,I guess, with that group, \Nwe have nothing to worry about.
+Dialogue: 0,0:04:26.06,0:04:29.50,DogDays-main,Leo,0000,0000,0000,,Still, I haven't been to \Nthe Ayase region in a while.
+Dialogue: 0,0:04:29.50,0:04:31.80,DogDays-main,,0000,0000,0000,,Going out there wouldn't have been bad.
+Dialogue: 0,0:04:31.80,0:04:32.96,DogDays-main,Gau,0000,0000,0000,,Yeah, huh.
+Dialogue: 0,0:04:33.00,0:04:36.26,DogDays-main,Leo,0000,0000,0000,,So, Millihi and the others \Nshould be here soon, right?
+Dialogue: 0,0:04:36.26,0:04:37.21,DogDays-main,Maid,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:37.21,0:04:39.50,DogDays-main,Maid,0000,0000,0000,,I believe they are arriving right now.
+Dialogue: 0,0:04:47.32,0:04:50.53,DogDays-internal,Vio,0000,0000,0000,,Ayase is a town in the \Neastern part of Galette.
+Dialogue: 0,0:04:51.21,0:04:53.17,DogDays-internal,Vio,0000,0000,0000,,The city was built by people
+Dialogue: 0,0:04:53.17,0:04:56.03,DogDays-internal,,0000,0000,0000,,who were originally from the\N various eastern countries,
+Dialogue: 0,0:04:56.03,0:04:58.31,DogDays-internal,Vio,0000,0000,0000,,and reflects the style \Nof their homelands.
+Dialogue: 0,0:05:00.63,0:05:03.40,DogDays-main,Vio,0000,0000,0000,,I'll go visit the mayor.
+Dialogue: 0,0:05:03.40,0:05:05.52,DogDays-main,Vio,0000,0000,0000,,Why don't you guys go talk \Nto the townspeople?
+Dialogue: 0,0:05:05.52,0:05:06.82,DogDays-main,Jaune,0000,0000,0000,,Sister, wait!
+Dialogue: 0,0:05:08.37,0:05:11.87,DogDays-main,Jaune,0000,0000,0000,,These are from Leo-sama.
+Dialogue: 0,0:05:11.87,0:05:13.62,DogDays-main,Vio,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:05:16.17,0:05:17.67,DogDays-main,Nana,0000,0000,0000,,This is so Leo-sama!
+Dialogue: 0,0:05:17.67,0:05:20.88,DogDays-main,Nana,0000,0000,0000,,When in Rome, dress\N as the Romans dress!
+Dialogue: 0,0:05:21.55,0:05:24.51,DogDays-main,Vert,0000,0000,0000,,Now we totally blend in with the locals!
+Dialogue: 0,0:05:24.51,0:05:25.88,DogDays-main,Jaune,0000,0000,0000,,It's perfect!
+Dialogue: 0,0:05:27.09,0:05:28.89,DogDays-main,Vio,0000,0000,0000,,Why do I have to wear one, too?
+Dialogue: 0,0:05:29.47,0:05:32.68,DogDays-main,Nana,0000,0000,0000,,Well then, let's start our investigation!
+Dialogue: 0,0:05:36.48,0:05:38.98,DogDays-main,Wom,0000,0000,0000,,They say that if you walk \Nthe roads at night,
+Dialogue: 0,0:05:38.98,0:05:42.27,DogDays-main,,0000,0000,0000,,a suspicious shadow will \Ncome up behind you.
+Dialogue: 0,0:05:42.27,0:05:45.74,DogDays-main,Wom2,0000,0000,0000,,Then it'll say, "What a \Nbeautiful kimono you have!"
+Dialogue: 0,0:05:45.74,0:05:48.03,DogDays-main,wom,0000,0000,0000,,And when you try to turn...
+Dialogue: 0,0:05:48.03,0:05:49.78,DogDays-main,Wom2,0000,0000,0000,,It goes, "Bam!"
+Dialogue: 0,0:05:49.78,0:05:50.74,DogDays-main,Jaune,0000,0000,0000,,Really?!
+Dialogue: 0,0:05:50.99,0:05:54.50,DogDays-main,Man,0000,0000,0000,,Yeah, they say that he'll take \Nyour goods and your clothes.
+Dialogue: 0,0:05:54.50,0:05:55.91,DogDays-main,Wom,0000,0000,0000,,It's horrible.
+Dialogue: 0,0:05:55.91,0:05:57.67,DogDays-main,Wom,0000,0000,0000,,You can't walk the streets at night.
+Dialogue: 0,0:05:58.75,0:06:00.29,DogDays-main,Girl,0000,0000,0000,,The highwayman got Yuuta's sister,
+Dialogue: 0,0:06:00.29,0:06:02.80,DogDays-main,,0000,0000,0000,,when she was coming home from an errand.
+Dialogue: 0,0:06:02.80,0:06:06.72,DogDays-main,Yuuta,0000,0000,0000,,The red kimono they had just \Nmade for her was stolen.
+Dialogue: 0,0:06:06.72,0:06:09.76,DogDays-main,Girl,0000,0000,0000,,They don't let us play outside much anymore.
+Dialogue: 0,0:06:09.76,0:06:11.18,DogDays-main,Nana,0000,0000,0000,,I see.
+Dialogue: 0,0:06:19.65,0:06:21.98,DogDays-main,Guy,0000,0000,0000,,Pops, I left the money here.
+Dialogue: 0,0:06:21.98,0:06:23.02,DogDays-main,Old,0000,0000,0000,,Got it! Thanks!
+Dialogue: 0,0:06:23.40,0:06:25.11,DogDays-main,Vert,0000,0000,0000,,He's not only a highwayman,
+Dialogue: 0,0:06:25.11,0:06:27.90,DogDays-main,,0000,0000,0000,,but a pervert who targets \Nkids and girls!
+Dialogue: 0,0:06:27.90,0:06:29.61,DogDays-main,,0000,0000,0000,,We've got to stop him.
+Dialogue: 0,0:06:29.61,0:06:32.07,DogDays-main,Jaune,0000,0000,0000,,I really want to find him!
+Dialogue: 0,0:06:32.07,0:06:35.62,DogDays-main,Nana,0000,0000,0000,,Hey, I've got a good idea \Nfor catching the perp.
+Dialogue: 0,0:06:35.91,0:06:37.45,DogDays-main,Man,0000,0000,0000,,That's good!
+Dialogue: 0,0:06:44.09,0:06:45.38,DogDays-main,Vert,0000,0000,0000,,Nanami-chan?
+Dialogue: 0,0:06:45.38,0:06:47.01,DogDays-main,Jaune,0000,0000,0000,,What was your idea?
+Dialogue: 0,0:06:47.01,0:06:48.51,DogDays-main,Nana,0000,0000,0000,,Oh, sorry, sorry.
+Dialogue: 0,0:06:48.51,0:06:50.76,DogDays-main,,0000,0000,0000,,I'll tell you after we've \Nmet up with Violet-san.
+Dialogue: 0,0:06:51.84,0:06:53.30,DogDays-main,Vert,0000,0000,0000,,That sounds good.
+Dialogue: 0,0:06:53.30,0:06:56.22,DogDays-main,Jaune,0000,0000,0000,,But first, let's have some \Nof those sweet dumplings.
+Dialogue: 0,0:06:59.89,0:07:01.02,DogDays-main,Vio,0000,0000,0000,,Absolutely not!
+Dialogue: 0,0:07:02.35,0:07:03.98,DogDays-main,Vio,0000,0000,0000,,I can't allow the Hero of our land
+Dialogue: 0,0:07:03.98,0:07:05.98,DogDays-main,,0000,0000,0000,,to become the bait for the investigation.
+Dialogue: 0,0:07:05.98,0:07:08.90,DogDays-main,Jaune,0000,0000,0000,,I know, but we're kind of famous,
+Dialogue: 0,0:07:08.90,0:07:11.03,DogDays-main,,0000,0000,0000,,and our ears and tails \Nare pretty flashy...
+Dialogue: 0,0:07:11.03,0:07:12.61,DogDays-main,vert,0000,0000,0000,,Nanami-chan doesn't \Nhave that problem!
+Dialogue: 0,0:07:12.99,0:07:14.83,DogDays-main,Vio,0000,0000,0000,,I said, "no."
+Dialogue: 0,0:07:15.66,0:07:17.75,DogDays-main,nan,0000,0000,0000,,Violet-san, please!
+Dialogue: 0,0:07:17.75,0:07:22.08,DogDays-main,nan,0000,0000,0000,,Everybody is scared, and the \Nkids can't play outside...
+Dialogue: 0,0:07:22.08,0:07:23.63,DogDays-main,,0000,0000,0000,,I just can't stand that!
+Dialogue: 0,0:07:23.63,0:07:25.75,DogDays-main,nan,0000,0000,0000,,I want to catch the perp \Nas soon as possible!
+Dialogue: 0,0:07:25.75,0:07:27.25,DogDays-main,nan,0000,0000,0000,,I'll be fine.
+Dialogue: 0,0:07:27.25,0:07:30.97,DogDays-main,,0000,0000,0000,,I have the Ex Machina and \NVert and Jau will be close by.
+Dialogue: 0,0:07:40.35,0:07:42.73,DogDays-main,Vio,0000,0000,0000,,You won't give up, will you?
+Dialogue: 0,0:07:43.40,0:07:44.73,DogDays-main,Vio,0000,0000,0000,,Fine.
+Dialogue: 0,0:07:45.94,0:07:48.19,DogDays-main,Vio,0000,0000,0000,,I will respect our Hero's opinion.
+Dialogue: 0,0:07:48.19,0:07:50.94,DogDays-main,nana,0000,0000,0000,,Yay! Thank you, Violet-san!
+Dialogue: 0,0:07:50.94,0:07:53.95,DogDays-main,nana,0000,0000,0000,,You're so kind!\N You're so wonderful!
+Dialogue: 0,0:08:03.21,0:08:04.58,DogDays-main,kid,0000,0000,0000,,See you tomorrow!
+Dialogue: 0,0:08:04.58,0:08:05.88,DogDays-main,kid,0000,0000,0000,,Bye-bye!
+Dialogue: 0,0:08:35.32,0:08:36.87,DogDays-main,nana,0000,0000,0000,,Thank you for your hard work.
+Dialogue: 0,0:08:36.87,0:08:38.20,DogDays-main,guarA,0000,0000,0000,,Be careful on the streets at night.
+Dialogue: 0,0:08:38.73,0:08:40.41,DogDays-main,guarB,0000,0000,0000,,It's not been too safe, lately.
+Dialogue: 0,0:08:40.41,0:08:42.00,DogDays-main,nana,0000,0000,0000,,Yes, thank you.
+Dialogue: 0,0:08:44.25,0:08:46.33,DogDays-main,vert,0000,0000,0000,,Nanami-chan's disguise is great.
+Dialogue: 0,0:08:46.33,0:08:49.92,DogDays-main,jau,0000,0000,0000,,Good. Let's scout the area \Nwhile we protect Nanami.
+Dialogue: 0,0:08:49.92,0:08:51.01,DogDays-main,vert,0000,0000,0000,,Yeah!
+Dialogue: 0,0:09:05.52,0:09:07.10,DogDays-main,guarB,0000,0000,0000,,I guess it's almost \Ntime for shift change.
+Dialogue: 0,0:09:07.10,0:09:08.48,DogDays-main,gaurA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:16.82,0:09:18.03,DogDays-main,gaurA,0000,0000,0000,,A kid?
+Dialogue: 0,0:09:38.01,0:09:39.18,DogDays-main,isu,0000,0000,0000,,Pardon me,
+Dialogue: 0,0:09:40.30,0:09:41.81,DogDays-main,,0000,0000,0000,,young lady.
+Dialogue: 0,0:09:43.27,0:09:44.81,DogDays-main,nanam,0000,0000,0000,,You mean me?
+Dialogue: 0,0:09:46.64,0:09:48.81,DogDays-main,isu,0000,0000,0000,,That's a nice kimono.
+Dialogue: 0,0:09:48.81,0:09:50.81,DogDays-internal,nana,0000,0000,0000,,So it really was him?!
+Dialogue: 0,0:09:51.65,0:09:53.98,DogDays-main,isu,0000,0000,0000,,Wearing something like\N that, at this hour,
+Dialogue: 0,0:09:53.98,0:09:56.57,DogDays-main,,0000,0000,0000,,is basically asking to be assaulted.
+Dialogue: 0,0:09:56.78,0:09:58.95,DogDays-main,jau,0000,0000,0000,,We found the perp! Vert!
+Dialogue: 0,0:09:58.95,0:10:00.07,DogDays-main,ver,0000,0000,0000,,Roger!
+Dialogue: 0,0:10:00.37,0:10:01.07,DogDays-main,,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:18.68,0:10:19.71,DogDays-main,,0000,0000,0000,,Oops...
+Dialogue: 0,0:10:22.72,0:10:24.72,DogDays-main,isu,0000,0000,0000,,No, wait a second.
+Dialogue: 0,0:10:28.69,0:10:31.94,DogDays-main,nana,0000,0000,0000,,You're the thief who \Nkeeps terrorizing Ayase!
+Dialogue: 0,0:10:33.86,0:10:37.86,DogDays-main,nana,0000,0000,0000,,Too bad you were not able \Nto see through my disguise!
+Dialogue: 0,0:10:38.90,0:10:40.11,DogDays-main,vert,0000,0000,0000,,Exactly!
+Dialogue: 0,0:10:40.11,0:10:42.12,DogDays-main,vert,0000,0000,0000,,We, the Lion Army's Investigation Unit,
+Dialogue: 0,0:10:42.12,0:10:43.99,DogDays-main,,0000,0000,0000,,have clearly seen your face!
+Dialogue: 0,0:10:44.74,0:10:47.50,DogDays-main,Jau,0000,0000,0000,,Now, let us arrest you!
+Dialogue: 0,0:10:48.00,0:10:50.75,DogDays-main,isu,0000,0000,0000,,Sorry, we'll have to continue \Nthis game another time.
+Dialogue: 0,0:10:57.76,0:10:58.72,DogDays-main,Jau,0000,0000,0000,,Oh no!
+Dialogue: 0,0:11:02.55,0:11:03.97,DogDays-main,Jau,0000,0000,0000,,We let him get away!
+Dialogue: 0,0:11:03.97,0:11:05.14,DogDays-main,Vert,0000,0000,0000,,We have to chase him!
+Dialogue: 0,0:11:20.61,0:11:23.24,DogDays-internal,isu,0000,0000,0000,,Just as I thought, \Nthe real one has come out.
+Dialogue: 0,0:11:23.24,0:11:25.28,DogDays-internal,isu,0000,0000,0000,,I wonder if I can handle this by myself.
+Dialogue: 0,0:11:25.28,0:11:27.16,DogDays-main,Jau,0000,0000,0000,,Let's split up. \NI'll go this way.
+Dialogue: 0,0:11:27.16,0:11:28.45,DogDays-main,Nana,0000,0000,0000,,I'll go that way.
+Dialogue: 0,0:11:28.45,0:11:29.91,DogDays-main,Vrt,0000,0000,0000,,Then, I'll go this way!
+Dialogue: 0,0:11:41.43,0:11:44.30,DogDays-main,jau,0000,0000,0000,,No, it's not here.
+Dialogue: 0,0:11:44.30,0:11:46.18,DogDays-main,girl,0000,0000,0000,,Big sister...
+Dialogue: 0,0:11:46.81,0:11:49.73,DogDays-main,girl,0000,0000,0000,,That's a nice kimono.
+Dialogue: 0,0:11:50.27,0:11:53.31,DogDays-main,girl,0000,0000,0000,,Please give it to me.
+Dialogue: 0,0:11:56.73,0:11:57.57,DogDays-main,vert,0000,0000,0000,,Jau?!
+Dialogue: 0,0:12:25.93,0:12:27.93,DogDays-main,isu,0000,0000,0000,,Don't stop! It's behind you!
+Dialogue: 0,0:12:32.27,0:12:33.27,DogDays-main,nan,0000,0000,0000,,Seriously?!
+Dialogue: 0,0:12:44.15,0:12:46.24,DogDays-main,isu,0000,0000,0000,,Heavenly Draw...
+Dialogue: 0,0:12:51.20,0:12:54.21,DogDays-main,isu,0000,0000,0000,,Flying Heaven Wolf Fang Attack!
+Dialogue: 0,0:13:03.17,0:13:04.17,DogDays-main,isu,0000,0000,0000,,Do you get it now?
+Dialogue: 0,0:13:04.17,0:13:05.47,DogDays-main,isu,0000,0000,0000,,These are the real perps.
+Dialogue: 0,0:13:06.34,0:13:08.47,DogDays-main,,0000,0000,0000,,Little monsters who are \Ndisguised as people.
+Dialogue: 0,0:13:08.68,0:13:11.22,DogDays-main,nana,0000,0000,0000,,Monster? These cute things?
+Dialogue: 0,0:13:15.14,0:13:16.94,DogDays-main,isu,0000,0000,0000,,There are probably more out there.
+Dialogue: 0,0:13:16.94,0:13:18.98,DogDays-main,,0000,0000,0000,,It's dangerous, so you \Nshould go back to your inn.
+Dialogue: 0,0:13:18.98,0:13:20.98,DogDays-main,nana,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:13:21.36,0:13:22.32,DogDays-main,isu,0000,0000,0000,,Got it?
+Dialogue: 0,0:13:22.32,0:13:24.36,DogDays-main,,0000,0000,0000,,Take your friends and go home quickly!
+Dialogue: 0,0:13:27.78,0:13:29.91,DogDays-main,nana,0000,0000,0000,,Oh yeah, Jau and Vert!
+Dialogue: 0,0:13:29.91,0:13:32.95,DogDays-main,nana,0000,0000,0000,,Well, I'm sure those two \Nwon't be defeated or...
+Dialogue: 0,0:13:32.95,0:13:34.20,DogDays-main,nana,0000,0000,0000,,They actually were.
+Dialogue: 0,0:13:38.88,0:13:41.21,DogDays-main,ver,0000,0000,0000,,We underestimated them.
+Dialogue: 0,0:13:50.85,0:13:52.81,DogDays-main,inu,0000,0000,0000,,I can sense them more clearly now.
+Dialogue: 0,0:13:52.81,0:13:54.43,DogDays-main,,0000,0000,0000,,There must be quite a \Nfew out there, still.
+Dialogue: 0,0:14:00.34,0:14:01.18,DogDays-main,,0000,0000,0000,,Hey!
+Dialogue: 0,0:14:01.36,0:14:02.82,DogDays-main,nana,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:05.24,0:14:06.65,DogDays-main,nana,0000,0000,0000,,We're sorry about before.
+Dialogue: 0,0:14:06.65,0:14:07.70,DogDays-main,isu,0000,0000,0000,,You are...
+Dialogue: 0,0:14:08.11,0:14:11.66,DogDays-main,nana,0000,0000,0000,,We're a Hero and bodyguard \Nteam from Vannette.
+Dialogue: 0,0:14:11.66,0:14:14.12,DogDays-main,,0000,0000,0000,,We came here to investigate.
+Dialogue: 0,0:14:14.12,0:14:16.37,DogDays-main,isu,0000,0000,0000,,Oh, you're from the castle...
+Dialogue: 0,0:14:16.83,0:14:17.83,DogDays-main,,0000,0000,0000,,A Hero?
+Dialogue: 0,0:14:17.83,0:14:19.71,DogDays-main,ver,0000,0000,0000,,We want to assist you!
+Dialogue: 0,0:14:20.88,0:14:23.71,DogDays-main,nana,0000,0000,0000,,Our captain of the Imperial Guard\N is also strengthening security
+Dialogue: 0,0:14:23.71,0:14:25.67,DogDays-main,,0000,0000,0000,,by directing the guards.
+Dialogue: 0,0:14:26.72,0:14:28.80,DogDays-main,jau,0000,0000,0000,,We will help you fight the monsters!
+Dialogue: 0,0:14:28.80,0:14:32.10,DogDays-main,isu,0000,0000,0000,,Okay. If that's the case,\N let's work together.
+Dialogue: 0,0:14:32.93,0:14:36.39,DogDays-main,isu,0000,0000,0000,,These monsters, the Highwayman \NRabbits, move in packs.
+Dialogue: 0,0:14:36.39,0:14:38.02,DogDays-main,,0000,0000,0000,,They have a habit of gathering
+Dialogue: 0,0:14:38.02,0:14:40.02,DogDays-main,,0000,0000,0000,,the things their boss likes.
+Dialogue: 0,0:14:40.02,0:14:43.02,DogDays-main,nana,0000,0000,0000,,This time, it's girls' clothes!
+Dialogue: 0,0:14:43.48,0:14:45.32,DogDays-main,isu,0000,0000,0000,,They have a strong sense of camaraderie.
+Dialogue: 0,0:14:45.32,0:14:47.07,DogDays-main,,0000,0000,0000,,If one of them gets captured...
+Dialogue: 0,0:14:47.07,0:14:48.70,DogDays-main,isu,0000,0000,0000,,They'll come to rescue them!
+Dialogue: 0,0:14:48.70,0:14:49.78,DogDays-main,isu,0000,0000,0000,,Here they come!
+Dialogue: 0,0:14:51.49,0:14:52.57,DogDays-main,isu,0000,0000,0000,,Four of them!
+Dialogue: 0,0:14:55.91,0:14:58.29,DogDays-main,Vert,0000,0000,0000,,Allow me to get you back \Nfor what you did before!
+Dialogue: 0,0:14:58.29,0:14:59.92,DogDays-main,Vert,0000,0000,0000,,Flak Arrows!
+Dialogue: 0,0:15:09.22,0:15:10.97,DogDays-main,Nana,0000,0000,0000,,Jau, let's go!
+Dialogue: 0,0:15:12.01,0:15:13.30,DogDays-main,jau,0000,0000,0000,,I'm ready, Nanami!
+Dialogue: 0,0:15:19.73,0:15:20.81,DogDays-main,nana,0000,0000,0000,,One, two...
+Dialogue: 0,0:15:20.81,0:15:23.56,DogDays-main,jau,0000,0000,0000,,Tiger King Fist!
+Dialogue: 0,0:15:24.23,0:15:25.69,DogDays-main,jau,0000,0000,0000,,Boom.
+Dialogue: 0,0:15:31.91,0:15:34.03,DogDays-main,Vert,0000,0000,0000,,That's four down.
+Dialogue: 0,0:15:36.20,0:15:37.70,DogDays-main,Vert,0000,0000,0000,,That sound...
+Dialogue: 0,0:15:49.55,0:15:50.72,DogDays-main,guar,0000,0000,0000,,It's a huge monster!
+Dialogue: 0,0:15:51.09,0:15:52.97,DogDays-main,guarD,0000,0000,0000,,It's headed towards \Nthe city's main gate.
+Dialogue: 0,0:15:53.22,0:15:55.85,DogDays-main,vio,0000,0000,0000,,Understood. I will chase it.
+Dialogue: 0,0:15:58.10,0:16:00.02,DogDays-main,isu,0000,0000,0000,,I guess he saw no chance \Nand decided to run.
+Dialogue: 0,0:16:00.02,0:16:02.35,DogDays-main,Vert,0000,0000,0000,,Violet-neesama is chasing it right now!
+Dialogue: 0,0:16:08.86,0:16:09.61,DogDays-main,vio,0000,0000,0000,,There it is.
+Dialogue: 0,0:16:12.99,0:16:13.99,DogDays-main,vio,0000,0000,0000,,Someone's there?!
+Dialogue: 0,0:16:14.37,0:16:15.99,DogDays-main,vio,0000,0000,0000,,You there! It's dangerous!
+Dialogue: 0,0:16:15.99,0:16:17.83,DogDays-main,,0000,0000,0000,,Please run!
+Dialogue: 0,0:16:23.96,0:16:26.00,DogDays-main,Leo,0000,0000,0000,,There's no need to run, is there?
+Dialogue: 0,0:16:26.00,0:16:27.50,DogDays-main,mill,0000,0000,0000,,No, there isn't.
+Dialogue: 0,0:16:51.82,0:16:55.16,DogDays-main,leo,0000,0000,0000,,First, you invaded these people's city!
+Dialogue: 0,0:16:55.91,0:16:59.66,DogDays-main,mill,0000,0000,0000,,Second, you performed filthy thefts!
+Dialogue: 0,0:17:00.20,0:17:01.41,DogDays-main,leo,0000,0000,0000,,Third!
+Dialogue: 0,0:17:01.62,0:17:05.42,DogDays-main,mill,0000,0000,0000,,Bad kids who bother everybody face...
+Dialogue: 0,0:17:07.50,0:17:09.42,DogDays-main,leo,0000,0000,0000,,This Lion King Samurai and...
+Dialogue: 0,0:17:11.26,0:17:13.17,DogDays-main,mill,0000,0000,0000,,Me, the Dog Princess Samurai...
+Dialogue: 0,0:17:13.72,0:17:15.18,DogDays-main,both,0000,0000,0000,,and will be vanquished!
+Dialogue: 0,0:17:21.47,0:17:23.18,DogDays-main,leo,0000,0000,0000,,Here we go, Dog Princess Samurai!
+Dialogue: 0,0:17:23.18,0:17:25.44,DogDays-main,mill,0000,0000,0000,,Yes, Lion King Samurai!
+Dialogue: 0,0:17:29.69,0:17:32.28,DogDays-main,leo,0000,0000,0000,,Run free, Blade of Judgment!
+Dialogue: 0,0:17:32.28,0:17:34.70,DogDays-main,mill,0000,0000,0000,,Illuminate the sky, Sword of Banishment!
+Dialogue: 0,0:17:37.99,0:17:42.08,DogDays-main,both,0000,0000,0000,,Ex Grandia Finale!
+Dialogue: 0,0:18:03.85,0:18:04.89,DogDays-main,both,0000,0000,0000,,Justice is served!
+Dialogue: 0,0:18:07.48,0:18:10.11,DogDays-main,jau,0000,0000,0000,,Th-They totally stole the show.
+Dialogue: 0,0:18:10.11,0:18:12.69,DogDays-main,vert,0000,0000,0000,,Leo-sama, Princess, that's not fair.
+Dialogue: 0,0:18:13.82,0:18:16.49,DogDays-main,vio,0000,0000,0000,,Oh jeez, those two...
+Dialogue: 0,0:18:17.61,0:18:20.49,DogDays-main,leo,0000,0000,0000,,Oh, you guys, it's fine now.
+Dialogue: 0,0:18:20.49,0:18:21.66,DogDays-main,both,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:22.33,0:18:23.70,DogDays-main,mill,0000,0000,0000,,Thank you, guys.
+Dialogue: 0,0:18:24.33,0:18:27.12,DogDays-main,rico,0000,0000,0000,,I captured all the heroic footage \Nof the Lion King Samurai
+Dialogue: 0,0:18:27.12,0:18:29.21,DogDays-main,,0000,0000,0000,,and the Dog Princess Samurai in here.
+Dialogue: 0,0:18:29.63,0:18:30.83,DogDays-main,rico,0000,0000,0000,,Perfect.
+Dialogue: 0,0:18:33.84,0:18:35.76,DogDays-main,gau,0000,0000,0000,,I guess they're done over there.
+Dialogue: 0,0:18:35.76,0:18:36.97,DogDays-main,sink,0000,0000,0000,,Looks like it.
+Dialogue: 0,0:18:36.97,0:18:38.34,DogDays-main,both,0000,0000,0000,,Noir!
+Dialogue: 0,0:18:39.13,0:18:41.72,DogDays-main,isu,0000,0000,0000,,Well, I'll be on my way, then...
+Dialogue: 0,0:18:41.72,0:18:42.81,DogDays-main,nan,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:42.81,0:18:44.47,DogDays-main,Jau,0000,0000,0000,,No, no, please wait.
+Dialogue: 0,0:18:44.47,0:18:45.72,DogDays-main,ver,0000,0000,0000,,At least tell us your name.
+Dialogue: 0,0:18:46.10,0:18:48.52,DogDays-main,Isu,0000,0000,0000,,Oh, I'm not really...
+Dialogue: 0,0:18:48.52,0:18:49.48,DogDays-main,yuki,0000,0000,0000,,Isuka-sama!
+Dialogue: 0,0:18:49.77,0:18:52.44,DogDays-main,yuki,0000,0000,0000,,I knew it, it's you!
+Dialogue: 0,0:18:54.02,0:18:55.19,DogDays-main,isu,0000,0000,0000,,Yuki-pup!
+Dialogue: 0,0:18:55.19,0:18:58.49,DogDays-main,yuki,0000,0000,0000,,Yes, Isuka-sama. \NIt's been a long time!
+Dialogue: 0,0:18:58.95,0:19:00.20,DogDays-main,isu,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:01.28,0:19:03.12,DogDays-main,yuki,0000,0000,0000,,I rushed over here when I sensed
+Dialogue: 0,0:19:03.12,0:19:05.12,DogDays-main,,0000,0000,0000,,that some monsters might be loose here,
+Dialogue: 0,0:19:05.12,0:19:08.16,DogDays-main,,0000,0000,0000,,but I guess you guys are all okay?
+Dialogue: 0,0:19:08.16,0:19:09.46,DogDays-main,nana,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:10.00,0:19:12.17,DogDays-main,jau,0000,0000,0000,,Yuki, who's that?
+Dialogue: 0,0:19:12.17,0:19:13.75,DogDays-main,bri,0000,0000,0000,,Jeez.
+Dialogue: 0,0:19:14.09,0:19:16.59,DogDays-main,,0000,0000,0000,,I was wondering who caused this ruckus.
+Dialogue: 0,0:19:16.59,0:19:18.80,DogDays-main,,0000,0000,0000,,Should have known it was you, brother.
+Dialogue: 0,0:19:21.34,0:19:22.26,DogDays-main,nana,0000,0000,0000,,Bro...
+Dialogue: 0,0:19:22.26,0:19:23.14,DogDays-main,vert,0000,0000,0000,,...ther?
+Dialogue: 0,0:19:23.14,0:19:25.93,DogDays-main,isu,0000,0000,0000,,Hina! Oh, you came, too?
+Dialogue: 0,0:19:25.93,0:19:28.39,DogDays-main,brio,0000,0000,0000,,I-I told you not to call me that!
+Dialogue: 0,0:19:28.39,0:19:32.06,DogDays-main,yuki,0000,0000,0000,,Oh, let me introduce you. \NThis is Isuka-sama.
+Dialogue: 0,0:19:32.06,0:19:33.15,DogDays-main,Isu,0000,0000,0000,,Hello.
+Dialogue: 0,0:19:33.15,0:19:35.98,DogDays-main,yuki,0000,0000,0000,,He's actually milady's older brother.
+Dialogue: 0,0:19:35.98,0:19:38.15,DogDays-main,bri,0000,0000,0000,,He's a foolish brother...
+Dialogue: 0,0:19:39.45,0:19:42.11,DogDays-main,mill,0000,0000,0000,,A counter-monster swordsman, \Njust like Brioche,
+Dialogue: 0,0:19:42.11,0:19:44.91,DogDays-main,,0000,0000,0000,,and a world famous swordsmith...
+Dialogue: 0,0:19:45.33,0:19:49.25,DogDays-main,mill,0000,0000,0000,,Isuka Makishima-san really \Nis an amazing person!
+Dialogue: 0,0:19:49.50,0:19:51.17,DogDays-main,mill,0000,0000,0000,,He's already crafted \Nmany wonderful swords
+Dialogue: 0,0:19:51.17,0:19:52.71,DogDays-main,,0000,0000,0000,,and blades that are on par
+Dialogue: 0,0:19:52.71,0:19:54.50,DogDays-main,,0000,0000,0000,,with the Treasure Swords.
+Dialogue: 0,0:19:54.75,0:19:58.80,DogDays-main,isu,0000,0000,0000,,No no, I am just a simple \Nwandering swordsmith.
+Dialogue: 0,0:19:58.80,0:20:00.30,DogDays-main,brio,0000,0000,0000,,It's fine that you're wandering,
+Dialogue: 0,0:20:00.30,0:20:03.72,DogDays-main,,0000,0000,0000,,but what were you thinking, \Nnever sending a note?
+Dialogue: 0,0:20:03.72,0:20:06.22,DogDays-main,brio,0000,0000,0000,,I thought you had died \Nin some random ditch.
+Dialogue: 0,0:20:06.64,0:20:08.81,DogDays-main,isu,0000,0000,0000,,You're so silly, Hina.
+Dialogue: 0,0:20:09.31,0:20:11.48,DogDays-main,isu,0000,0000,0000,,Like I would die so easily.
+Dialogue: 0,0:20:12.44,0:20:15.19,DogDays-main,isu,0000,0000,0000,,Actually, I hope you're not
+Dialogue: 0,0:20:15.19,0:20:16.82,DogDays-main,,0000,0000,0000,,ruining your body \Nby drinking too much.
+Dialogue: 0,0:20:16.82,0:20:19.11,DogDays-main,brio,0000,0000,0000,,You're one to talk.
+Dialogue: 0,0:20:19.11,0:20:21.32,DogDays-main,,0000,0000,0000,,You drink way more than I do.
+Dialogue: 0,0:20:21.70,0:20:24.41,DogDays-main,leo,0000,0000,0000,,We solved this case, \Nso I don't think anyone could
+Dialogue: 0,0:20:24.41,0:20:29.20,DogDays-main,,0000,0000,0000,,object to some booze at the \Nrare reunion of these two.
+Dialogue: 0,0:20:29.62,0:20:32.21,DogDays-main,mill,0000,0000,0000,,Nanami-san, you guys must be hungry, right?
+Dialogue: 0,0:20:32.71,0:20:34.71,DogDays-main,mill,0000,0000,0000,,Let's have some food, then!
+Dialogue: 0,0:20:34.71,0:20:36.88,DogDays-main,all,0000,0000,0000,,Yay!
+Dialogue: 0,0:20:48.68,0:20:49.89,DogDays-main,nana,0000,0000,0000,,Hey, Sink.
+Dialogue: 0,0:20:50.52,0:20:52.23,DogDays-main,nana,0000,0000,0000,,The monsters we catch...
+Dialogue: 0,0:20:52.23,0:20:54.10,DogDays-main,,0000,0000,0000,,you release them in the mountains, right?
+Dialogue: 0,0:20:54.10,0:20:56.69,DogDays-main,sink,0000,0000,0000,,Yes, in a location far \Nfrom the settlements.
+Dialogue: 0,0:20:56.98,0:20:58.61,DogDays-main,gual,0000,0000,0000,,Well, those are really
+Dialogue: 0,0:20:58.61,0:21:01.69,DogDays-main,,0000,0000,0000,,more like wild animals,\N rather than monsters.
+Dialogue: 0,0:21:01.69,0:21:04.20,DogDays-main,sink,0000,0000,0000,,If coexisting is possible, \Nthat's the best solution.
+Dialogue: 0,0:21:04.20,0:21:06.49,DogDays-main,nana,0000,0000,0000,,I see; that's good.
+Dialogue: 0,0:21:06.49,0:21:08.12,DogDays-main,jau,0000,0000,0000,,Apparently, they were able to reclaim
+Dialogue: 0,0:21:08.12,0:21:10.58,DogDays-main,,0000,0000,0000,,all the stolen clothes \Nfrom the monsters' nests.
+Dialogue: 0,0:21:10.58,0:21:11.45,DogDays-main,yuki,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:11.45,0:21:12.87,DogDays-main,ver,0000,0000,0000,,All is well, then.
+Dialogue: 0,0:21:13.91,0:21:16.50,DogDays-main,nana,0000,0000,0000,,I feel like I wasn't able to do
+Dialogue: 0,0:21:16.50,0:21:18.34,DogDays-main,,0000,0000,0000,,anything heroic at all, this time...
+Dialogue: 0,0:21:18.34,0:21:21.21,DogDays-main,,0000,0000,0000,,Oh well, it was a nice Monster Riot.
+Dialogue: 0,0:21:21.21,0:21:22.63,DogDays-main,rico,0000,0000,0000,,And thus...
+Dialogue: 0,0:21:22.63,0:21:24.17,DogDays-main,noir,0000,0000,0000,,Case closed.
+Dialogue: 0,0:21:34.60,0:21:36.10,DogDays-main,cou,0000,0000,0000,,Yes, yes, yes!
+Dialogue: 0,0:21:36.10,0:21:37.44,DogDays-main,cou,0000,0000,0000,,Perfect!
+Dialogue: 0,0:21:37.44,0:21:41.40,DogDays-main,cou,0000,0000,0000,,The welcoming plan is perfect, now!
+Dialogue: 0,0:21:41.40,0:21:44.86,DogDays-main,reb,0000,0000,0000,,Yeah! Let's surprise the \NPrincess and Leo-sama!
+Dialogue: 0,0:21:44.86,0:21:45.95,DogDays-main,cou,0000,0000,0000,,Of course!
+Dialogue: 0,0:21:45.95,0:21:48.07,DogDays-main,,0000,0000,0000,,We are ready to welcome both sides!
+Dialogue: 0,0:21:49.95,0:21:52.54,DogDays-main,both,0000,0000,0000,,For the pride of Pastillage!
+Dialogue: 0,0:23:30.90,0:23:32.37,DogDays-main,mill,0000,0000,0000,,Together we are...
+Dialogue: 0,0:23:32.37,0:23:33.58,DogDays-main,both,0000,0000,0000,,The Princess Samurais!
+Dialogue: 0,0:23:33.58,0:23:35.14,DogDays-main,sink,0000,0000,0000,,Don't you think I got \Ntoo little screen time?
+Dialogue: 0,0:23:35.14,0:23:36.43,DogDays-main,gau,0000,0000,0000,,Don't worry about it!
+Dialogue: 0,0:23:35.24,0:23:40.48,DogDays-next-ep-title,title,0000,0000,0000,,{\fad(500,1)}Pastillage's Hero King Legend
+Dialogue: 0,0:23:36.43,0:23:38.32,DogDays-main,isu,0000,0000,0000,,You've got fun company, Hina.
+Dialogue: 0,0:23:38.32,0:23:40.29,DogDays-main,brio,0000,0000,0000,,I told you to stop!

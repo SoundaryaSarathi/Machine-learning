@@ -1,0 +1,537 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00CDAC98,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00D8CFCD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,53,53,113,0
+Style: EyecatchA,Open Sans Semibold,36,&H002072D7,&H000000FF,&H00102967,&H0079671A,1,0,0,0,100,100,0,0,1,2,0,9,27,53,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H002072D7,&H000000FF,&H00102967,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00F6FFEA,&H000000FF,&H00759846,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Sunakawa,Open Sans Semibold,30,&H0036281C,&H000000FF,&H00F4F9F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Kurihara,Open Sans Semibold,30,&H0020405E,&H000000FF,&H005BC0C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-GrayWhite,Open Sans Semibold,33,&H0071706B,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,30,&H00423D32,&H000000FF,&H00F9F4E6,&H00F7F2E1,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SFX-Red,Open Sans Semibold,33,&H005F56CE,&H000000FF,&H00505247,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,107,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,80,33,0
+Style: SFX-BlackRed,Open Sans Semibold,24,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,24,0
+Style: SFX-BrownWhite,Open Sans Semibold,27,&H00262C4A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,80,24,0
+Style: SFX - WhiteBrown,Open Sans Semibold,27,&H00D2E1EB,&H000000FF,&H00102146,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignA,Open Sans Semibold,33,&H001B3F7D,&H000000FF,&H0091A1E2,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignB,Open Sans Semibold,33,&H00AAD6EB,&H000000FF,&H000F1D3C,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignC,Open Sans Semibold,27,&H0099BB9D,&H000000FF,&H00E6E2EE,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,6,53,53,24,0
+Style: SignD,Open Sans Semibold,33,&H007C8BAC,&H000000FF,&H00D0DDF2,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.52,0:00:05.82,Default,Y,0000,0000,0000,,"Maki-chan"?
+Dialogue: 0,0:00:05.82,0:00:07.02,Default,Y,0000,0000,0000,,How do you write that?
+Dialogue: 0,0:00:07.02,0:00:08.65,SFX-BlackWhite,Sign 0008,0000,0000,0000,,{\fs22}Ma
+Dialogue: 0,0:00:07.98,0:00:10.32,Default,Takeo,0000,0000,0000,,The first characters from the words for "truth"
+Dialogue: 0,0:00:08.65,0:00:10.32,SFX-BlackWhite,Sign 0009,0000,0000,0000,,{\fs22}Ki
+Dialogue: 0,0:00:10.32,0:00:16.45,SFX-BlackWhite,Sign 0011,0000,0000,0000,,Name: Maki \NFather: Gouda Yutaka \N Mother: Yuriko \NEldest Daughter
+Dialogue: 0,0:00:11.74,0:00:12.85,Default,Takeo,0000,0000,0000,,and "hope."
+Dialogue: 0,0:00:12.85,0:00:15.01,Default,Y,0000,0000,0000,,Wow! That's a great name.
+Dialogue: 0,0:00:15.01,0:00:16.45,Default,Y,0000,0000,0000,,Is her hair still sticking up?
+Dialogue: 0,0:00:16.45,0:00:18.72,Default,T,0000,0000,0000,,Yeah, she looks like a Saiyan.
+Dialogue: 0,0:00:18.72,0:00:20.79,Default,Y,0000,0000,0000,,I want to see Maki-chan.
+Dialogue: 0,0:00:20.79,0:00:26.00,Default,T,0000,0000,0000,,Yeah, she's growing really fast, \Nso you should come soon.
+Dialogue: 0,0:00:26.00,0:00:27.46,Default,Y,0000,0000,0000,,Really?
+Dialogue: 0,0:00:27.46,0:00:28.79,Default,Y,0000,0000,0000,,Is she all chubby?
+Dialogue: 0,0:00:29.84,0:00:31.56,Default,T,0000,0000,0000,,Yeah, she is.
+Dialogue: 0,0:00:31.56,0:00:32.55,Default,Y,0000,0000,0000,,I'm looking forward to seeing her.
+Dialogue: 0,0:00:32.55,0:00:33.20,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:33.20,0:00:34.74,Default,Y,0000,0000,0000,,Chubby, huh?
+Dialogue: 0,0:00:34.74,0:00:36.49,Default,Y,0000,0000,0000,,She's all chubby.
+Dialogue: 0,0:00:34.74,0:00:37.05,SFX-BlackWhite,Sign 0037,0000,0000,0000,,Name: Maki \NFather: Gouda Yutaka \N Mother: Yuriko \NEldest Daughter
+Dialogue: 0,0:00:38.38,0:00:39.52,Default,T,0000,0000,0000,,Maki...
+Dialogue: 0,0:00:40.60,0:00:42.83,Default,T,0000,0000,0000,,Do you know what month this is?
+Dialogue: 0,0:00:42.83,0:00:44.48,Default,T,0000,0000,0000,,It's February.
+Dialogue: 0,0:00:44.48,0:00:47.64,Default,T,0000,0000,0000,,In February, there's something \Nknown as Valentine's Day.
+Dialogue: 0,0:00:47.64,0:00:51.24,Default,T,0000,0000,0000,,It's the day girls give boys they like chocolate.
+Dialogue: 0,0:00:52.46,0:00:54.28,Default,T,0000,0000,0000,,The day's almost here!
+Dialogue: 0,0:00:54.28,0:00:55.28,SFX-BlackWhite,T,0000,0000,0000,,{\fs22}glare
+Dialogue: 0,0:00:55.75,0:00:56.59,Default,T,0000,0000,0000,,Yep!
+Dialogue: 0,0:02:27.00,0:02:32.00,Title1,Sign 0228,0000,0000,0000,,{\fad(1,516)}My Chocolate
+Dialogue: 0,0:02:29.77,0:02:32.00,Default - italics,T,0000,0000,0000,,Red, pink, and brown...
+Dialogue: 0,0:02:35.01,0:02:36.55,Default,S,0000,0000,0000,,You should watch where you're going.
+Dialogue: 0,0:02:37.30,0:02:39.97,Default,S,0000,0000,0000,,I wonder what kind of chocolate \NYamato-san will give you.
+Dialogue: 0,0:02:39.97,0:02:41.47,Default,T,0000,0000,0000,,You think she'll give me chocolate?
+Dialogue: 0,0:02:42.10,0:02:43.22,Default,S,0000,0000,0000,,Why wouldn't she?
+Dialogue: 0,0:02:44.89,0:02:46.89,Default - italics,T,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:02:45.82,0:02:46.89,SFX-BlackWhite,Sign 0246,0000,0000,0000,,{\fad(429,1)\an7}What's this, \Na banzai pose?
+Dialogue: 0,0:02:47.81,0:02:50.68,Default - italics,T,0000,0000,0000,,I've never gotten real chocolates from a girl.
+Dialogue: 0,0:02:50.68,0:02:52.05,Default - italics,T,0000,0000,0000,,I've gotten obligation chocolates, but...
+Dialogue: 0,0:02:52.05,0:02:52.81,Default - flashback,Ai,0000,0000,0000,,Here, have some chocolate.
+Dialogue: 0,0:02:53.27,0:02:57.40,SFX-RedBlack,Sign 0255,0000,0000,0000,,{\c&HFFFFFF&\fad(1,223)}Neighbor: \NIzumi-san
+Dialogue: 0,0:02:53.27,0:02:57.68,Default - flashback,Granny,0000,0000,0000,,Back in my younger days, \Nplenty of kids were like you.
+Dialogue: 0,0:02:57.68,0:02:59.95,Default - flashback,Yuriko,0000,0000,0000,,You're so generous every year. Thank you.
+Dialogue: 0,0:03:01.07,0:03:03.32,SFX-RedBlack,,0000,0000,0000,,{\an9\c&HFFFFFF&}Kindergarten
+Dialogue: 0,0:03:01.62,0:03:03.32,Default - italics,T,0000,0000,0000,,Suna gets chocolate every year.
+Dialogue: 0,0:03:04.14,0:03:06.33,Default - italics,T,0000,0000,0000,,Every year, I think I won't get any,
+Dialogue: 0,0:03:06.33,0:03:09.58,Default - italics,T,0000,0000,0000,,but I still wonder if I might.
+Dialogue: 0,0:03:06.33,0:03:09.58,SFX-RedBlack,T,0000,0000,0000,,{\an9\c&HFFFFFF&} Junior High
+Dialogue: 0,0:03:09.58,0:03:11.96,Default,T,0000,0000,0000,,And then, I'm always let down.
+Dialogue: 0,0:03:09.58,0:03:13.63,SFX-BlackWhite,Sign 0310,0000,0000,0000,,Gouda
+Dialogue: 0,0:03:12.48,0:03:15.96,Default - italics,T,0000,0000,0000,,So far, that's how Valentine's Day \Nhas gone for me.
+Dialogue: 0,0:03:15.96,0:03:17.91,Default - italics,T,0000,0000,0000,,But this year...
+Dialogue: 0,0:03:18.96,0:03:21.69,Default,S,0000,0000,0000,,I think Yamato-san will give you \Nsomething really amazing.
+Dialogue: 0,0:03:21.69,0:03:22.76,Default,T,0000,0000,0000,,You think so?
+Dialogue: 0,0:03:22.76,0:03:23.55,Default,S,0000,0000,0000,,Why wouldn't she?
+Dialogue: 0,0:03:23.55,0:03:24.51,Default,T,0000,0000,0000,,Would she?
+Dialogue: 0,0:03:27.36,0:03:28.77,Default,S,0000,0000,0000,,Why are you so happy?
+Dialogue: 0,0:03:28.77,0:03:33.78,Default,T,0000,0000,0000,,Well, I've never gotten chocolate \Nfrom a girl who liked me before.
+Dialogue: 0,0:03:33.78,0:03:35.15,Default,S,0000,0000,0000,,You mean a girl who really likes you.
+Dialogue: 0,0:03:36.66,0:03:37.40,SFX-RedBlack,Sign 0937,0000,0000,0000,,{\c&H663EC8&\fs22}Really
+Dialogue: 0,0:03:36.69,0:03:39.53,Default - italics,T,0000,0000,0000,,A girl who really likes me!
+Dialogue: 0,0:03:37.40,0:03:38.15,SFX-RedBlack,Sign 0938,0000,0000,0000,,{\c&H663EC8&\fs22}Likes
+Dialogue: 0,0:03:38.15,0:03:38.90,SFX-RedBlack,Sign 0939,0000,0000,0000,,{\c&H663EC8&\fs22}Me
+Dialogue: 0,0:03:43.53,0:03:45.81,Default,T,0000,0000,0000,,Oops, if I set my expectations too high,
+Dialogue: 0,0:03:45.81,0:03:48.58,Default,T,0000,0000,0000,,Yamato might feel pressured.
+Dialogue: 0,0:03:48.58,0:03:53.44,Default,T,0000,0000,0000,,I'll just act like it isn't a big deal.
+Dialogue: 0,0:03:53.44,0:03:54.73,Default,S,0000,0000,0000,,Good call.
+Dialogue: 0,0:03:55.29,0:03:57.73,Default,S,0000,0000,0000,,Though, you're doing a banzai pose.
+Dialogue: 0,0:03:57.73,0:04:02.05,Default - italics,T,0000,0000,0000,,So, this year, I'll actually get chocolate \Nfrom a girl who likes me?
+Dialogue: 0,0:04:02.54,0:04:04.22,Default - italics,T,0000,0000,0000,,I can't wait.
+Dialogue: 0,0:04:04.22,0:04:08.18,Default - italics,T,0000,0000,0000,,Wait, I was thinking of having \Nour second kiss on Valentine's.
+Dialogue: 0,0:04:08.18,0:04:11.68,Default - italics,T,0000,0000,0000,,Get my chocolate, say thank you, then...
+Dialogue: 0,0:04:11.68,0:04:13.44,Default - italics,T,0000,0000,0000,,The second kiss...
+Dialogue: 0,0:04:18.94,0:04:20.94,School,Sign 0421,0000,0000,0000,,{\c&HFFFFFF&}Koizumi Girls' Academy
+Dialogue: 0,0:04:19.83,0:04:20.94,Default,Nanako,0000,0000,0000,,Rinko...
+Dialogue: 0,0:04:20.94,0:04:22.69,Default,Nanako,0000,0000,0000,,Please! I'm begging you!
+Dialogue: 0,0:04:22.69,0:04:25.20,Default,Nanako,0000,0000,0000,,Please teach me how to make chocolate.
+Dialogue: 0,0:04:25.60,0:04:26.98,Default,Y,0000,0000,0000,,It's for Valentine's Day, right?
+Dialogue: 0,0:04:26.98,0:04:27.80,Default,Nanako,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:27.80,0:04:29.28,Default,Nanako,0000,0000,0000,,I've never made anything sweet in my life,
+Dialogue: 0,0:04:29.28,0:04:30.95,Default,Nanako,0000,0000,0000,,and I don't even have the equipment.
+Dialogue: 0,0:04:30.95,0:04:33.06,Default,Y,0000,0000,0000,,Why not make it together, at my place?
+Dialogue: 0,0:04:33.06,0:04:35.46,Default,Y,0000,0000,0000,,I'm making something for Takeo-kun, anyway.
+Dialogue: 0,0:04:35.46,0:04:37.83,Default,Nanako,0000,0000,0000,,You're a lifesaver! Thanks!
+Dialogue: 0,0:04:37.83,0:04:39.71,Default,Ayu,0000,0000,0000,,Having a boyfriend must be nice.
+Dialogue: 0,0:04:39.71,0:04:41.01,Default,Kojima,0000,0000,0000,,They look like they're having fun.
+Dialogue: 0,0:04:41.01,0:04:43.21,Default,Yuko,0000,0000,0000,,We don't have anything planned.
+Dialogue: 0,0:04:43.21,0:04:45.47,Default,Mana,0000,0000,0000,,We want to make some for ourselves, too.
+Dialogue: 0,0:04:45.47,0:04:48.22,Default,Y,0000,0000,0000,,Okay, let's all make chocolate \Nat my place, on the 13th.
+Dialogue: 0,0:04:48.22,0:04:50.00,Default,Mana,0000,0000,0000,,Really? Let's do that!
+Dialogue: 0,0:04:50.00,0:04:52.60,Default,Yuko,0000,0000,0000,,Then we'll buy the ingredients.
+Dialogue: 0,0:04:56.74,0:04:58.49,Default,Y,0000,0000,0000,,Takeo-kun...
+Dialogue: 0,0:04:59.47,0:05:00.43,Default,T,0000,0000,0000,,Hey!
+Dialogue: 0,0:05:03.98,0:05:05.85,Default,Y,0000,0000,0000,,The wind's strong today.
+Dialogue: 0,0:05:05.85,0:05:06.86,Default,T,0000,0000,0000,,Is it?
+Dialogue: 0,0:05:08.78,0:05:09.48,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:15.33,0:05:17.62,Default,Y,0000,0000,0000,,Just now, you were my shield.
+Dialogue: 0,0:05:18.25,0:05:19.25,Default - italics,T,0000,0000,0000,,I love her.
+Dialogue: 0,0:05:19.25,0:05:21.96,Default,Y,0000,0000,0000,,I don't really have much cash on me today.
+Dialogue: 0,0:05:21.96,0:05:24.47,Default,Y,0000,0000,0000,,Let's just buy something to drink \Nat the food court, and chat.
+Dialogue: 0,0:05:24.47,0:05:25.51,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:05:26.22,0:05:29.76,Default - italics,T,0000,0000,0000,,Is she low on cash because of Valentine's Day?
+Dialogue: 0,0:05:29.76,0:05:34.01,Default - italics,T,0000,0000,0000,,Yamato, you don't have to try so hard.
+Dialogue: 0,0:05:34.01,0:05:37.38,Default - italics,T,0000,0000,0000,,I'm fine, as long as I get something.
+Dialogue: 0,0:05:39.86,0:05:40.90,Default,Y,0000,0000,0000,,Takeo-kun,
+Dialogue: 0,0:05:40.90,0:05:42.00,Default,Y,0000,0000,0000,,on February 14th, are you—
+Dialogue: 0,0:05:42.00,0:05:43.01,Default,T,0000,0000,0000,,I'm free.
+Dialogue: 0,0:05:43.62,0:05:44.53,Default - italics,T,0000,0000,0000,,Crap.
+Dialogue: 0,0:05:44.53,0:05:46.78,Default - italics,T,0000,0000,0000,,She actually, didn't say anything specific.
+Dialogue: 0,0:05:46.78,0:05:50.03,Default,Y,0000,0000,0000,,Oh, I was just about to ask if you were free.
+Dialogue: 0,0:05:50.03,0:05:51.60,Default - italics,T,0000,0000,0000,,I love her!
+Dialogue: 0,0:05:52.29,0:05:54.43,Default,Y,0000,0000,0000,,I'll go throw these away.
+Dialogue: 0,0:05:56.99,0:05:58.29,Default,T,0000,0000,0000,,That was close.
+Dialogue: 0,0:05:58.80,0:06:01.40,Default,T,0000,0000,0000,,I have to be careful not to pressure her.
+Dialogue: 0,0:06:01.40,0:06:03.28,Default,S,0000,0000,0000,,You totally did.
+Dialogue: 0,0:06:03.28,0:06:05.07,Default,Y,0000,0000,0000,,It's almost Valentine's,
+Dialogue: 0,0:06:05.07,0:06:07.42,Default,Y,0000,0000,0000,,so there are lots of limited-edition \Nchocolates on sale!
+Dialogue: 0,0:06:07.42,0:06:10.51,Default,T,0000,0000,0000,,Oh, right, Valentine's is coming up.
+Dialogue: 0,0:06:09.22,0:06:10.93,SFX-BlueBlue,Sign 0610,0000,0000,0000,,{\fad(232,1)}You have no shame...
+Dialogue: 0,0:06:10.51,0:06:12.68,Default,Y,0000,0000,0000,,The limited-edition chocolates \Nare really something.
+Dialogue: 0,0:06:12.68,0:06:15.14,Default,Y,0000,0000,0000,,They come in beautiful colors and shapes.
+Dialogue: 0,0:06:12.93,0:06:14.68,SFX-BlackWhite,Sign 0614,0000,0000,0000,,{\fad(234,264)}The packaging is cute, too.
+Dialogue: 0,0:06:15.14,0:06:16.24,Default,T,0000,0000,0000,,Two-thousand yen?!
+Dialogue: 0,0:06:16.24,0:06:18.81,Default,T,0000,0000,0000,,It costs that much for this little?
+Dialogue: 0,0:06:18.81,0:06:22.31,Default,Y,0000,0000,0000,,I bet they use really good \Ncacao beans or something.
+Dialogue: 0,0:06:22.31,0:06:23.76,Default,Y,0000,0000,0000,,They're just so beautiful.
+Dialogue: 0,0:06:23.76,0:06:26.32,Default,Y,0000,0000,0000,,I want them for myself.
+Dialogue: 0,0:06:26.32,0:06:28.57,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:06:28.57,0:06:30.20,Default,Y,0000,0000,0000,,{\an8}This year, I've seen pistachios a lot.
+Dialogue: 0,0:06:29.11,0:06:30.75,Default - italics,T,0000,0000,0000,,I don't need anything expensive.
+Dialogue: 0,0:06:30.20,0:06:32.56,Default,Y,0000,0000,0000,,{\an8}I wonder if that's trendy right now.
+Dialogue: 0,0:06:30.75,0:06:34.02,Default - italics,T,0000,0000,0000,,You can even give me chocolate \Nthat didn't turn out okay.
+Dialogue: 0,0:06:34.02,0:06:36.10,Default - italics,T,0000,0000,0000,,I'll be waiting, Yamato.
+Dialogue: 0,0:06:36.10,0:06:38.83,Default,100,0000,0000,0000,,Please! I'm begging you, Takeo!
+Dialogue: 0,0:06:39.88,0:06:44.21,Default,100,0000,0000,0000,,Can we hang out with Yamato-san's \Nfriends on February 14th?
+Dialogue: 0,0:06:44.21,0:06:46.18,Default,T,0000,0000,0000,,February 14th?
+Dialogue: 0,0:06:46.18,0:06:47.42,Default,T,0000,0000,0000,,That's Valentine's Day.
+Dialogue: 0,0:06:47.42,0:06:48.32,Default,100,0000,0000,0000,,I know.
+Dialogue: 0,0:06:48.32,0:06:49.37,Default,Kakiya,0000,0000,0000,,I seriously know.
+Dialogue: 0,0:06:49.37,0:06:50.84,Default,Fudo,0000,0000,0000,,But that's why...
+Dialogue: 0,0:06:50.84,0:06:54.22,Default,Guys,0000,0000,0000,,We've never gotten chocolates \Non Valentine's Day!
+Dialogue: 0,0:06:56.72,0:06:58.20,Default,100,0000,0000,0000,,I only remember one, in kindergarten,
+Dialogue: 0,0:06:58.20,0:07:01.61,Default,100,0000,0000,0000,,when the mom of a girl who rode \Nthe same bus gave me one!
+Dialogue: 0,0:07:01.61,0:07:03.65,Default,Kakiya,0000,0000,0000,,At least you got some once!
+Dialogue: 0,0:07:03.65,0:07:04.88,Default,Fudo,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:04.88,0:07:07.01,Default,Nanashi,0000,0000,0000,,I don't want to be sitting at home, alone,
+Dialogue: 0,0:07:07.01,0:07:09.89,Default,Nanashi,0000,0000,0000,,wondering if I'll get some this year!
+Dialogue: 0,0:07:09.89,0:07:12.79,Default,Kuri,0000,0000,0000,,Nanako's saying she'll give \Nme some that's handmade.
+Dialogue: 0,0:07:12.79,0:07:15.62,Default,Kuri,0000,0000,0000,,Man, and I don't like sweet stuff.
+Dialogue: 0,0:07:18.04,0:07:23.58,Default,Kaki,0000,0000,0000,,I just feel like I'm gonna be all \Nalone again this year...
+Dialogue: 0,0:07:24.59,0:07:26.40,Default,S,0000,0000,0000,,Aren't you guys over-relying on Takeo?
+Dialogue: 0,0:07:27.51,0:07:30.09,Default,S,0000,0000,0000,,He wasn't able to spend Christmas \Nalone with his girlfriend, either.
+Dialogue: 0,0:07:30.09,0:07:31.59,Default,S,0000,0000,0000,,You should just let this go.
+Dialogue: 0,0:07:31.59,0:07:32.46,Default,100,0000,0000,0000,,Ri...
+Dialogue: 0,0:07:32.46,0:07:33.33,Default,Fudo,0000,0000,0000,,Right...
+Dialogue: 0,0:07:33.33,0:07:34.35,Default,Kakiya,0000,0000,0000,,You're right.
+Dialogue: 0,0:07:34.35,0:07:35.68,Default,T,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:07:35.68,0:07:36.97,Default,T,0000,0000,0000,,I'll ask Yamato.
+Dialogue: 0,0:07:36.97,0:07:37.93,Default,All,0000,0000,0000,,What?
+Dialogue: 0,0:07:39.94,0:07:42.31,Default,Guys,0000,0000,0000,,Takeo...
+Dialogue: 0,0:07:43.27,0:07:44.81,Default,T,0000,0000,0000,,Thanks, though, Suna.
+Dialogue: 0,0:07:45.64,0:07:46.87,Default,S,0000,0000,0000,,You do-gooder.
+Dialogue: 0,0:07:47.54,0:07:48.90,Default - italics,T,0000,0000,0000,,Thank you.
+Dialogue: 0,0:07:48.90,0:07:52.23,Default - italics,T,0000,0000,0000,,I can get chocolate from Yamato.
+Dialogue: 0,0:07:48.90,0:07:54.91,SignA,Sign 0751,0000,0000,0000,,True Love
+Dialogue: 0,0:07:52.23,0:07:54.91,Default - italics,T,0000,0000,0000,,That's enough for me.
+Dialogue: 0,0:07:56.64,0:08:01.66,Default,Y,0000,0000,0000,,On Valentine's Day, Takeo-kun's friends \Nwant to have fun with all of us.
+Dialogue: 0,0:08:01.66,0:08:02.84,Default,Y,0000,0000,0000,,Is that okay?
+Dialogue: 0,0:08:02.84,0:08:04.13,Default,Mana,0000,0000,0000,,Huh? Sure.
+Dialogue: 0,0:08:04.13,0:08:05.21,Default,Mana,0000,0000,0000,,We're fine.
+Dialogue: 0,0:08:05.21,0:08:07.54,Default,Kojima,0000,0000,0000,,Not like we have a date or someone we're after.
+Dialogue: 0,0:08:07.54,0:08:08.31,Default,Ayu,0000,0000,0000,,Oh!
+Dialogue: 0,0:08:08.31,0:08:12.35,Default,Ayu,0000,0000,0000,,Then why not give the chocolates we \Nmake on the 13th to the boys?
+Dialogue: 0,0:08:12.35,0:08:13.93,Default,Yuko,0000,0000,0000,,Oh, nice idea.
+Dialogue: 0,0:08:13.93,0:08:15.46,Default,Kojima,0000,0000,0000,,Sounds fun!
+Dialogue: 0,0:08:15.46,0:08:16.47,Default,Mana,0000,0000,0000,,Let's do that.
+Dialogue: 0,0:08:16.47,0:08:19.68,Default,Nanako,0000,0000,0000,,I'll be doing my own thing with Osamu.
+Dialogue: 0,0:08:19.68,0:08:20.77,Default,Girls,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:08:25.44,0:08:27.94,Sunakawa,Sign 0826,0000,0000,0000,,{\an9}The Hill on the East
+Dialogue: 0,0:08:29.01,0:08:30.53,Default,Kaki,0000,0000,0000,,Takeo fell out the window!
+Dialogue: 0,0:08:30.53,0:08:33.57,Default,100,0000,0000,0000,,He was doing back extensions out the window,
+Dialogue: 0,0:08:33.57,0:08:37.03,Default,100,0000,0000,0000,,and fell out when he tried \Nto open a new message.
+Dialogue: 0,0:08:37.03,0:08:38.58,Default,Girl,0000,0000,0000,,No way! What was he thinking?
+Dialogue: 0,0:08:38.58,0:08:39.55,Default,Girl,0000,0000,0000,,Boys are so stupid.
+Dialogue: 0,0:08:39.55,0:08:40.88,Default,Girl,0000,0000,0000,,Uh, is he okay?
+Dialogue: 0,0:08:40.88,0:08:42.30,Default,100,0000,0000,0000,,Yeah, no kidding!
+Dialogue: 0,0:08:43.79,0:08:46.12,Default,100,0000,0000,0000,,Takeo, I'm glad you're okay!
+Dialogue: 0,0:08:46.12,0:08:46.79,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:08:47.57,0:08:49.77,Default,T,0000,0000,0000,,Well, it went like that, and I was fine.
+Dialogue: 0,0:08:49.77,0:08:52.05,Default,T,0000,0000,0000,,But next time, please grip my legs firmly.
+Dialogue: 0,0:08:52.05,0:08:52.82,Default,100,0000,0000,0000,,Sorry.
+Dialogue: 0,0:08:52.82,0:08:53.81,Default,Kaki,0000,0000,0000,,Yeah, sorry.
+Dialogue: 0,0:08:53.81,0:08:55.70,Default,Kaki,0000,0000,0000,,Man, you're amazing, Takeo.
+Dialogue: 0,0:08:55.70,0:08:56.94,Default,T,0000,0000,0000,,It's okay.
+Dialogue: 0,0:08:56.94,0:08:58.80,Default,Fudo,0000,0000,0000,,Your cell phone's amazing, too.
+Dialogue: 0,0:08:58.80,0:09:01.93,Default,T,0000,0000,0000,,No, I mean we're okay for Valentine's.
+Dialogue: 0,0:09:01.93,0:09:02.79,Default,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:04.44,0:09:05.96,Default,All,0000,0000,0000,,Yay!
+Dialogue: 0,0:09:05.96,0:09:09.28,Default,S,0000,0000,0000,,Yamato-san's a really nice person...
+Dialogue: 0,0:09:10.98,0:09:13.53,Default - italics,T,0000,0000,0000,,I see... They're happy.
+Dialogue: 0,0:09:13.53,0:09:15.64,Default - italics,T,0000,0000,0000,,Of course they would be.
+Dialogue: 0,0:09:14.45,0:09:16.45,Phone,Sign 0916,0000,0000,0000,,Yamato Rinko \NSubject: It's Okay \N\NCan we decide the location?
+Dialogue: 0,0:09:15.64,0:09:17.80,Default - italics,T,0000,0000,0000,,Thank you, Yamato.
+Dialogue: 0,0:09:16.45,0:09:18.45,SignB,Sign 0917,0000,0000,0000,,Gorgeous Valentine \NChocolate Recipes
+Dialogue: 0,0:09:22.45,0:09:24.37,SignD,Sign 0924,0000,0000,0000,,{\fs18\fad(279,1)}Cupcake
+Dialogue: 0,0:09:23.45,0:09:24.87,SignC,Sign 0924,0000,0000,0000,,{\c&HA0A7BA&}Gateau Chocolat
+Dialogue: 0,0:09:24.37,0:09:26.67,SignD,Sign 0925,0000,0000,0000,,{\fs18}Cupcake \N\N\N{\c&H5F9076&}Cream Puffs
+Dialogue: 0,0:09:24.87,0:09:26.67,SignC,Sign 0925,0000,0000,0000,,Cookies \N\N\N{\c&HA0A7BA&}Gateau Chocolat
+Dialogue: 0,0:09:30.00,0:09:32.35,SignD,Sign 0931,0000,0000,0000,,{\fad(945,1)\fs18\an8}Valentine Chocolate Sweets to Make Your Loved One \N\N\N\N\N{\c&H807982&}Melt-in-Your-Mouth Chocolate Panna Cotta
+Dialogue: 0,0:09:39.77,0:09:43.02,Default,Nanako,0000,0000,0000,,Hey, how long do I have to keep stirring this?
+Dialogue: 0,0:09:43.02,0:09:45.20,Default,Nanako,0000,0000,0000,,My arm's getting tired.
+Dialogue: 0,0:09:45.20,0:09:47.97,Default,Ayu,0000,0000,0000,,Nanako, maybe you aren't cut out for this.
+Dialogue: 0,0:09:47.97,0:09:50.41,Default,Ayu,0000,0000,0000,,I can't believe you didn't know \Nhow to separate egg whites.
+Dialogue: 0,0:09:50.41,0:09:52.65,Default,Kojima,0000,0000,0000,,I'm surprised you'd consider \Ntrying handmade chocolate.
+Dialogue: 0,0:09:52.65,0:09:56.00,Default,Nanako,0000,0000,0000,,Well, I wanted to show off for Osamu.
+Dialogue: 0,0:09:56.00,0:09:57.43,Default,Y,0000,0000,0000,,Want me to do it?
+Dialogue: 0,0:09:57.43,0:09:59.66,Default,Nanako,0000,0000,0000,,No, I'll do it.
+Dialogue: 0,0:09:59.66,0:10:02.79,Default,Nanako,0000,0000,0000,,If others do it for me, there's no point.
+Dialogue: 0,0:10:04.04,0:10:05.29,Default,Y,0000,0000,0000,,You're right.
+Dialogue: 0,0:10:05.29,0:10:08.43,Default,Mana,0000,0000,0000,,Rinko, look.
+Dialogue: 0,0:10:08.43,0:10:09.85,Default,Mana,0000,0000,0000,,Is this about right?
+Dialogue: 0,0:10:09.85,0:10:11.72,Default,Y,0000,0000,0000,,Yeah, I think that's good.
+Dialogue: 0,0:10:11.72,0:10:13.55,Default,Y,0000,0000,0000,,Let's spread it and cut shapes.
+Dialogue: 0,0:10:13.55,0:10:16.05,SFX-GrayWhite,Sign 1016,0000,0000,0000,,Oven         Preheated
+Dialogue: 0,0:10:19.03,0:10:22.00,Default,Yuko,0000,0000,0000,,It's pretty fun when you know \Nyou're giving it to a guy.
+Dialogue: 0,0:10:22.00,0:10:24.84,Default,Ayu,0000,0000,0000,,Do you have anyone in mind?
+Dialogue: 0,0:10:24.84,0:10:26.56,Default,Kojima,0000,0000,0000,,Oh, I dunno.
+Dialogue: 0,0:10:26.56,0:10:29.75,Default,Ayu,0000,0000,0000,,Well, do you think they'll like \Ngetting chocolates from us?
+Dialogue: 0,0:10:29.75,0:10:30.74,Default,Mana,0000,0000,0000,,Yeah,
+Dialogue: 0,0:10:30.74,0:10:33.82,Default,Mana,0000,0000,0000,,I wonder how it feels, getting chocolate \Nfrom a girl you don't really like.
+Dialogue: 0,0:10:33.82,0:10:36.44,Default,Yuko,0000,0000,0000,,Maybe they'll think it's creepy \Nthat it's handmade.
+Dialogue: 0,0:10:36.44,0:10:39.49,Default,Y,0000,0000,0000,,Takeo-kun and I won't let that happen!
+Dialogue: 0,0:10:40.23,0:10:41.70,Default,Nanako,0000,0000,0000,,Yeah, Rinko will get mad at them!
+Dialogue: 0,0:10:43.29,0:10:45.45,Default - italics,T,0000,0000,0000,,Valentine's Day, huh?
+Dialogue: 0,0:10:45.82,0:10:50.58,Default - italics,T,0000,0000,0000,,In kindergarten, there was some \Nchocolate in Suna's bike basket...
+Dialogue: 0,0:10:48.21,0:10:50.58,SFX-GrayWhite,Sign 1050,0000,0000,0000,,{\fs18}Sunakawa Makoto
+Dialogue: 0,0:10:50.91,0:10:52.34,Default - flashback,BoyT,0000,0000,0000,,Who's it from?
+Dialogue: 0,0:10:52.34,0:10:54.46,Default - flashback,BoyS,0000,0000,0000,,No idea... There's no name.
+Dialogue: 0,0:10:55.96,0:11:02.97,SFX-BlackWhite,Sign 1057,0000,0000,0000,,To: Sunakawa-kun \NI don't need chocolates in return, \Nso please like me.
+Dialogue: 0,0:10:57.23,0:10:59.11,Default - italics,T,0000,0000,0000,,There was a letter and everything.
+Dialogue: 0,0:10:59.11,0:11:02.24,Default - italics,T,0000,0000,0000,,I remember thinking, "It must be \Nfrom a girl who likes him..."
+Dialogue: 0,0:11:03.39,0:11:06.72,Default - italics,T,0000,0000,0000,,For this year's Valentine's Day, love is in the air.
+Dialogue: 0,0:11:07.26,0:11:11.48,Default - italics,T,0000,0000,0000,,It's your turn to give love, Sis.
+Dialogue: 0,0:11:15.48,0:11:17.48,Default - italics,T,0000,0000,0000,,February 14th!
+Dialogue: 0,0:11:17.84,0:11:19.74,Default,T,0000,0000,0000,,It's a great day!
+Dialogue: 0,0:11:19.74,0:11:22.17,Default,T,0000,0000,0000,,It's a good day to get chocolate.
+Dialogue: 0,0:11:22.17,0:11:23.62,Default,T,0000,0000,0000,,It isn't too cold or too hot,
+Dialogue: 0,0:11:23.62,0:11:26.63,Default,T,0000,0000,0000,,so the chocolate won't melt. It's perfect!
+Dialogue: 0,0:11:26.63,0:11:28.87,Default,S,0000,0000,0000,,You're stacking your hopes way too high.
+Dialogue: 0,0:11:30.84,0:11:32.62,Default,T,0000,0000,0000,,Wow, you never disappoint!
+Dialogue: 0,0:11:33.73,0:11:36.25,Default,T,0000,0000,0000,,What do you do with all that?
+Dialogue: 0,0:11:37.09,0:11:38.51,Default,S,0000,0000,0000,,I guess I accept them.
+Dialogue: 0,0:11:39.42,0:11:42.96,Default,S,0000,0000,0000,,If there are names on any, I just return \Nthe favor on White Day. That's it.
+Dialogue: 0,0:11:42.96,0:11:43.64,Default,T,0000,0000,0000,,That's it?
+Dialogue: 0,0:11:43.64,0:11:44.82,Default,S,0000,0000,0000,,Yeah, that's it.
+Dialogue: 0,0:11:44.82,0:11:46.29,Default,T,0000,0000,0000,,Really?
+Dialogue: 0,0:11:48.85,0:11:53.03,Default,S,0000,0000,0000,,Well, I can't really imagine a situation \Nwhere it'd go any further than that.
+Dialogue: 0,0:11:53.03,0:11:58.12,Default,S,0000,0000,0000,,I guess some people start dating when they click.
+Dialogue: 0,0:11:58.12,0:12:02.22,Default,S,0000,0000,0000,,Unlike you, I've never clicked with any girl.
+Dialogue: 0,0:12:04.91,0:12:06.16,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:12:04.91,0:12:06.16,Board,Sign 1206,0000,0000,0000,,February 14th
+Dialogue: 0,0:12:06.86,0:12:08.95,Default - italics,T,0000,0000,0000,,I remember him saying it was a bother before.
+Dialogue: 0,0:12:09.62,0:12:12.65,Default - italics,T,0000,0000,0000,,He said girls talked behind my back, too.
+Dialogue: 0,0:12:13.79,0:12:15.46,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:12:16.04,0:12:17.29,Default,T,0000,0000,0000,,This is the place.
+Dialogue: 0,0:12:18.40,0:12:20.61,Default,T,0000,0000,0000,,I got a text saying they're already here.
+Dialogue: 0,0:12:20.61,0:12:22.44,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:12:23.45,0:12:24.10,Default,Kaki,0000,0000,0000,,Hi.
+Dialogue: 0,0:12:24.10,0:12:25.04,Default,Ayu,0000,0000,0000,,Been a while!
+Dialogue: 0,0:12:25.04,0:12:26.30,Default,100,0000,0000,0000,,Please stay where you are.
+Dialogue: 0,0:12:26.30,0:12:29.89,Default,Y,0000,0000,0000,,Hey, since it's Valentine's Day,
+Dialogue: 0,0:12:29.89,0:12:32.89,Default,Y,0000,0000,0000,,we made these yesterday.
+Dialogue: 0,0:12:33.55,0:12:35.40,Default,Y,0000,0000,0000,,They're chocolate cookies.
+Dialogue: 0,0:12:36.89,0:12:38.15,Default,Y,0000,0000,0000,,Here, Takeo-kun.
+Dialogue: 0,0:12:39.32,0:12:40.15,Default,T,0000,0000,0000,,Thanks.
+Dialogue: 0,0:12:40.15,0:12:42.17,Default,Y,0000,0000,0000,,Here, Sunakawa-kun.
+Dialogue: 0,0:12:42.17,0:12:42.73,Default,S,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:42.73,0:12:43.28,Default,100,0000,0000,0000,,Wai...
+Dialogue: 0,0:12:43.64,0:12:45.40,Default,100,0000,0000,0000,,Wait!
+Dialogue: 0,0:12:47.84,0:12:51.52,Default,100,0000,0000,0000,,C-Can you give them out so that it's like \None person's giving them to another?
+Dialogue: 0,0:12:51.52,0:12:52.91,Default,Kaki,0000,0000,0000,,Yeah, not like you're just distributing...
+Dialogue: 0,0:12:53.91,0:12:56.12,Default,Mana,0000,0000,0000,,{\an8}Huh? What's up with that?
+Dialogue: 0,0:12:54.36,0:12:55.93,Default - italics,T,0000,0000,0000,,What're they talking about?
+Dialogue: 0,0:12:55.93,0:12:57.42,Default - italics,T,0000,0000,0000,,Well, I know how they feel.
+Dialogue: 0,0:12:56.12,0:12:57.42,Default,Fudo,0000,0000,0000,,{\an8}That's a no-go?
+Dialogue: 0,0:12:57.42,0:12:59.99,Default,Ayu,0000,0000,0000,,Well, sure, why not?
+Dialogue: 0,0:13:02.16,0:13:02.72,Default,Ayu,0000,0000,0000,,Oh, then...
+Dialogue: 0,0:13:03.26,0:13:04.84,Default,100,0000,0000,0000,,Th-Thank you.
+Dialogue: 0,0:13:09.38,0:13:11.06,Default,Guys,0000,0000,0000,,Thanks so much!
+Dialogue: 0,0:13:11.56,0:13:13.42,Default,100,0000,0000,0000,,When I get home, I'm gonna brag to my parents.
+Dialogue: 0,0:13:13.42,0:13:15.20,Default,Kaki,0000,0000,0000,,I'm so happy.
+Dialogue: 0,0:13:14.25,0:13:16.03,Default,Ayu,0000,0000,0000,,They're super happy.
+Dialogue: 0,0:13:16.03,0:13:17.64,Default,Yuko,0000,0000,0000,,I'm glad we made them.
+Dialogue: 0,0:13:17.64,0:13:18.29,Default,Ayu,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:18.29,0:13:20.04,Default,Mana,0000,0000,0000,,They're even talking about their parents.
+Dialogue: 0,0:13:20.04,0:13:21.41,Default,T,0000,0000,0000,,It's delicious.
+Dialogue: 0,0:13:21.41,0:13:23.57,Default,Y,0000,0000,0000,,Takeo-kun, you shouldn't eat \Nthat in the restaurant.
+Dialogue: 0,0:13:24.08,0:13:24.99,Default,Y,0000,0000,0000,,Shh.
+Dialogue: 0,0:13:25.54,0:13:27.32,Default - italics,T,0000,0000,0000,,I love her.
+Dialogue: 0,0:13:27.78,0:13:29.07,Default,100,0000,0000,0000,,Let's order something!
+Dialogue: 0,0:13:29.07,0:13:31.58,Default,Ayu,0000,0000,0000,,We ordered drinks already.
+Dialogue: 0,0:13:31.58,0:13:34.60,Default,Fudo,0000,0000,0000,,Order more. Let us treat you today.
+Dialogue: 0,0:13:34.60,0:13:35.81,Default,Kojima,0000,0000,0000,,Huh, why?
+Dialogue: 0,0:13:35.81,0:13:36.71,Default,Kojima,0000,0000,0000,,That'd be bad.
+Dialogue: 0,0:13:36.71,0:13:39.18,Default,Guys,0000,0000,0000,,It's to thank you for what you did.
+Dialogue: 0,0:13:39.18,0:13:41.96,Default - italics,T,0000,0000,0000,,I guess they've given this \Na lot of thought, too.
+Dialogue: 0,0:13:41.96,0:13:43.57,Default,Y,0000,0000,0000,,What about you, Takeo-kun?
+Dialogue: 0,0:13:43.57,0:13:44.21,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:13:45.67,0:13:47.47,SFX-Red,Sign 1346,0000,0000,0000,,{\c&HD18FD4&}Hot Chocolate
+Dialogue: 0,0:13:45.96,0:13:47.47,Default,T,0000,0000,0000,,Chocolate...
+Dialogue: 0,0:13:47.47,0:13:48.64,Default,Y,0000,0000,0000,,Chocolate?
+Dialogue: 0,0:13:48.64,0:13:50.72,Default,T,0000,0000,0000,,No! That isn't what I meant!
+Dialogue: 0,0:13:50.72,0:13:53.24,Default - italics,T,0000,0000,0000,,I can't let Yamato guess how much I'm \Nlooking forward to the chocolate.
+Dialogue: 0,0:13:53.24,0:13:55.08,Default - italics,T,0000,0000,0000,,It'd stress her out.
+Dialogue: 0,0:13:55.08,0:13:55.63,Default,T,0000,0000,0000,,I...
+Dialogue: 0,0:13:55.63,0:13:56.72,Default,T,0000,0000,0000,,I'll have water!
+Dialogue: 0,0:13:56.72,0:13:58.22,Default,Y,0000,0000,0000,,Huh? Like Perrier?
+Dialogue: 0,0:13:58.22,0:13:59.51,Default,T,0000,0000,0000,,Just mineral water!
+Dialogue: 0,0:14:00.21,0:14:01.48,Default,Y,0000,0000,0000,,What about you, Sunakawa-kun?
+Dialogue: 0,0:14:03.58,0:14:06.74,Default - italics,T,0000,0000,0000,,Is the chocolate in her bag?
+Dialogue: 0,0:14:07.89,0:14:10.00,Default,Y,0000,0000,0000,,Is something wrong with my bag?
+Dialogue: 0,0:14:10.00,0:14:11.49,Default,T,0000,0000,0000,,Choc—
+Dialogue: 0,0:14:11.49,0:14:14.70,Default,Y,0000,0000,0000,,Right, it's chocolate brown.
+Dialogue: 0,0:14:14.70,0:14:17.79,Default,Y,0000,0000,0000,,It's just like yours. Only a different color.
+Dialogue: 0,0:14:17.79,0:14:20.21,Default - italics,T,0000,0000,0000,,Whew, that was close.
+Dialogue: 0,0:14:20.21,0:14:24.21,Default - italics,T,0000,0000,0000,,Cho-co-late...
+Dialogue: 0,0:14:24.53,0:14:26.66,Default - italics,Y,0000,0000,0000,,Rock-paper-scissors!
+Dialogue: 0,0:14:27.13,0:14:28.84,Default - italics,Y,0000,0000,0000,,I lost again!
+Dialogue: 0,0:14:28.84,0:14:30.34,Default - italics,T,0000,0000,0000,,Cho-co...
+Dialogue: 0,0:14:31.07,0:14:32.72,Default,Y,0000,0000,0000,,Wow, Takeo-kun!
+Dialogue: 0,0:14:32.72,0:14:35.18,Default,Y,0000,0000,0000,,You're scooping up all the chocolate!
+Dialogue: 0,0:14:37.27,0:14:38.62,Default,T,0000,0000,0000,,I'm having so much fun,
+Dialogue: 0,0:14:38.62,0:14:40.34,Default,T,0000,0000,0000,,it's hard to hide my excitement.
+Dialogue: 0,0:14:40.34,0:14:41.69,Default,S,0000,0000,0000,,Dude, you aren't hiding it at all.
+Dialogue: 0,0:14:41.69,0:14:42.82,Default,Ayu,0000,0000,0000,,What do you want to do next?
+Dialogue: 0,0:14:42.82,0:14:43.90,Default,Kojima,0000,0000,0000,,{\an8}Where should we go?
+Dialogue: 0,0:14:42.93,0:14:47.46,Default - italics,T,0000,0000,0000,,It'll be my very first chocolate \Nfrom a girl who likes me!
+Dialogue: 0,0:14:43.90,0:14:44.94,Default,Kojima,0000,0000,0000,,{\an8}What time is it?
+Dialogue: 0,0:14:47.46,0:14:48.70,Default,100,0000,0000,0000,,Thanks for everything.
+Dialogue: 0,0:14:48.70,0:14:50.58,Default,100,0000,0000,0000,,That was super fun!
+Dialogue: 0,0:14:50.58,0:14:52.49,Default,Kaki,0000,0000,0000,,I was really happy we got chocolate, too!
+Dialogue: 0,0:14:52.49,0:14:53.51,Default,Ayu,0000,0000,0000,,We had fun, too.
+Dialogue: 0,0:14:53.51,0:14:54.45,Default,Guys,0000,0000,0000,,Really?
+Dialogue: 0,0:14:55.38,0:15:01.46,Default,100,0000,0000,0000,,Um, can we hang out, even if Takeo \Nand Yamato-san aren't coming?
+Dialogue: 0,0:15:01.46,0:15:02.48,Default,Mana,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:02.48,0:15:03.82,Default,Mana,0000,0000,0000,,Sure...
+Dialogue: 0,0:15:03.82,0:15:04.74,Default,Kojima,0000,0000,0000,,Sure, right?
+Dialogue: 0,0:15:04.74,0:15:06.06,Default,Yuko,0000,0000,0000,,Sure, why not?
+Dialogue: 0,0:15:06.06,0:15:07.38,Default,Ayu,0000,0000,0000,,Yeah, let's hang out.
+Dialogue: 0,0:15:07.38,0:15:09.33,Default,Guys,0000,0000,0000,,Yeah!
+Dialogue: 0,0:15:09.33,0:15:10.54,Default,Girls,0000,0000,0000,,You're that happy?
+Dialogue: 0,0:15:10.54,0:15:13.36,Default,Nanashi,0000,0000,0000,,Okay, let's swap contact info, then.
+Dialogue: 0,0:15:13.36,0:15:15.50,Default - italics,T,0000,0000,0000,,This turned out well.
+Dialogue: 0,0:15:15.50,0:15:16.39,Default - italics,T,0000,0000,0000,,Great.
+Dialogue: 0,0:15:16.39,0:15:18.02,Default,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:15:18.02,0:15:20.10,Default,T,0000,0000,0000,,I'll walk you home.
+Dialogue: 0,0:15:18.02,0:15:20.10,SignD,Sign 1519,0000,0000,0000,,{\an8}Chocolate!!
+Dialogue: 0,0:15:20.10,0:15:23.01,Default,Y,0000,0000,0000,,Oh, I'm in a bit of a hurry today.
+Dialogue: 0,0:15:23.01,0:15:24.86,Default,Y,0000,0000,0000,,You go on ahead, Takeo-kun.
+Dialogue: 0,0:15:24.86,0:15:25.97,Default,Y,0000,0000,0000,,Later!
+Dialogue: 0,0:15:25.97,0:15:27.16,Default,Y,0000,0000,0000,,Today was so much fun!
+Dialogue: 0,0:15:27.16,0:15:28.07,Default,Y,0000,0000,0000,,Bye-bye!
+Dialogue: 0,0:15:28.07,0:15:29.19,Default,Y,0000,0000,0000,,Bye, guys!
+Dialogue: 0,0:15:29.19,0:15:30.99,Default,Kojima,0000,0000,0000,,Huh? You're going home, Rinko?
+Dialogue: 0,0:15:30.99,0:15:31.78,Default,Kojima,0000,0000,0000,,Bye!
+Dialogue: 0,0:15:36.91,0:15:37.98,Default,100,0000,0000,0000,,Later!
+Dialogue: 0,0:15:37.98,0:15:39.57,Default,100,0000,0000,0000,,We're going this way.
+Dialogue: 0,0:15:39.57,0:15:41.12,Default,Kaki,0000,0000,0000,,Thanks!
+Dialogue: 0,0:15:42.69,0:15:45.13,Default - italics,T,0000,0000,0000,,Did I get chocolate?
+Dialogue: 0,0:15:46.40,0:15:48.73,Default - italics,T,0000,0000,0000,,No, I didn't...
+Dialogue: 0,0:15:49.52,0:15:51.63,Default,S,0000,0000,0000,,Takeo, you can't go through there.
+Dialogue: 0,0:15:52.39,0:15:54.64,Default,S,0000,0000,0000,,Takeo, that's the wrong way.
+Dialogue: 0,0:15:55.62,0:15:56.75,Default,T,0000,0000,0000,,I'm home.
+Dialogue: 0,0:15:56.75,0:15:58.14,Default,S,0000,0000,0000,,That isn't your home.
+Dialogue: 0,0:15:58.92,0:16:03.15,Default - italics,T,0000,0000,0000,,Maybe, if you're already dating, you don't \Nbother giving each other chocolates?
+Dialogue: 0,0:16:03.80,0:16:05.90,Default - italics,T,0000,0000,0000,,She's always giving me things.
+Dialogue: 0,0:16:06.41,0:16:09.43,Default - italics,T,0000,0000,0000,,Maybe this time, there isn't anything.
+Dialogue: 0,0:16:09.43,0:16:10.15,Default,TMom,0000,0000,0000,,Take,
+Dialogue: 0,0:16:10.15,0:16:14.16,Default,TMom,0000,0000,0000,,Izumi-san's granny said this is for \Nyou because it's Valentine's.
+Dialogue: 0,0:16:14.16,0:16:16.19,Default,TMom,0000,0000,0000,,When you see her, thank her.
+Dialogue: 0,0:16:16.19,0:16:17.53,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:16:19.07,0:16:20.79,Default - italics,T,0000,0000,0000,,I see.
+Dialogue: 0,0:16:21.66,0:16:26.23,Default - italics,T,0000,0000,0000,,Maki, your brother couldn't get any \Nchocolate from the girl he likes.
+Dialogue: 0,0:16:26.96,0:16:29.80,Default - italics,T,0000,0000,0000,,I guess it just might be how things are...
+Dialogue: 0,0:16:30.84,0:16:32.80,Default - italics,T,0000,0000,0000,,That could be it.
+Dialogue: 0,0:16:32.80,0:16:34.70,Default - italics,T,0000,0000,0000,,But I wanted some.
+Dialogue: 0,0:16:34.70,0:16:38.81,Default - italics,T,0000,0000,0000,,I wanted chocolates from Yamato...
+Dialogue: 0,0:16:39.71,0:16:41.39,Default - flashback,Y,0000,0000,0000,,Is something wrong with my bag?
+Dialogue: 0,0:16:41.93,0:16:44.52,Default - flashback,Y,0000,0000,0000,,Right, it's chocolate brown.
+Dialogue: 0,0:16:45.58,0:16:47.52,Default - italics,T,0000,0000,0000,,I should have just asked her to give me some.
+Dialogue: 0,0:16:48.61,0:16:53.28,Default - italics,T,0000,0000,0000,,It's my fault for not telling her I was \Nreally looking forward to it.
+Dialogue: 0,0:16:54.66,0:16:56.28,Default - italics,Y,0000,0000,0000,,Here, Takeo-kun.
+Dialogue: 0,0:16:56.65,0:16:57.37,Default - italics,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:58.79,0:17:01.16,Default - italics,T,0000,0000,0000,,Wait... Chocolate!
+Dialogue: 0,0:17:01.68,0:17:02.97,Default - italics,T,0000,0000,0000,,I did get chocolate!
+Dialogue: 0,0:17:02.97,0:17:04.67,Default - italics,T,0000,0000,0000,,I did!
+Dialogue: 0,0:17:05.35,0:17:07.62,Default - italics,T,0000,0000,0000,,She was so casual about it,
+Dialogue: 0,0:17:07.62,0:17:09.96,Default - italics,T,0000,0000,0000,,I didn't realize she was giving me chocolate!
+Dialogue: 0,0:17:09.96,0:17:13.77,Default - italics,T,0000,0000,0000,,She must have made it the same as the \Nrest, so no one would feel awkward.
+Dialogue: 0,0:17:15.09,0:17:16.89,Default - italics,T,0000,0000,0000,,Crap!
+Dialogue: 0,0:17:16.79,0:17:19.97,SFX-RedBlack,Sign 1718,0000,0000,0000,,{\fad(538,1)\an8\c&HF4EED6&\fs20}My very first chocolate from a girl who \Nlikes me and I didn't savor it! \N{\c&H0300DB&}Idiot!
+Dialogue: 0,0:17:17.52,0:17:18.87,Default - italics,T,0000,0000,0000,,I didn't savor it!
+Dialogue: 0,0:17:18.87,0:17:19.97,Default - italics,T,0000,0000,0000,,I just ate it!
+Dialogue: 0,0:17:19.97,0:17:20.81,Default,Tmom,0000,0000,0000,,Take!
+Dialogue: 0,0:17:20.81,0:17:22.09,Default,Tmom,0000,0000,0000,,Simmer down!
+Dialogue: 0,0:17:22.09,0:17:23.89,Default,Tmom,0000,0000,0000,,You'll wake Maki!
+Dialogue: 0,0:17:24.76,0:17:25.65,Default - italics,T,0000,0000,0000,,Wait...
+Dialogue: 0,0:17:25.65,0:17:27.77,Default - italics,T,0000,0000,0000,,Try to remember what it tasted like!
+Dialogue: 0,0:17:34.03,0:17:37.28,Default - italics,T,0000,0000,0000,,Delicious!
+Dialogue: 0,0:17:40.61,0:17:42.87,Default - italics,T,0000,0000,0000,,I didn't realize she was giving me chocolate,
+Dialogue: 0,0:17:42.87,0:17:45.12,Default - italics,T,0000,0000,0000,,so I didn't thank her properly!
+Dialogue: 0,0:17:45.12,0:17:48.64,Default - flashback,Y,0000,0000,0000,,I bet they use really good \Ncacao beans or something.
+Dialogue: 0,0:17:48.64,0:17:49.89,Default - flashback,Y,0000,0000,0000,,They're just so beautiful.
+Dialogue: 0,0:17:49.89,0:17:52.64,Default - flashback,Y,0000,0000,0000,,I want them for myself.
+Dialogue: 0,0:17:57.05,0:17:58.22,Default,T,0000,0000,0000,,Suna!
+Dialogue: 0,0:17:58.22,0:18:00.66,Default,T,0000,0000,0000,,I want to get Yamato limited-edition chocolates!
+Dialogue: 0,0:18:00.66,0:18:02.49,Default,T,0000,0000,0000,,Come with me to the department store!
+Dialogue: 0,0:18:02.49,0:18:03.72,Default,S,0000,0000,0000,,Oh, you're up there.
+Dialogue: 0,0:18:03.72,0:18:05.81,Default,T,0000,0000,0000,,I'm coming down right now!
+Dialogue: 0,0:18:05.81,0:18:09.17,Default,S,0000,0000,0000,,Sure, but it's already closed, \Nso we should wait till tomorrow.
+Dialogue: 0,0:18:09.17,0:18:10.48,Default,TMom,0000,0000,0000,,Shut up, Take!
+Dialogue: 0,0:18:11.69,0:18:13.23,Default,S,0000,0000,0000,,Guess he isn't listening.
+Dialogue: 0,0:18:13.60,0:18:15.65,Default - italics,T,0000,0000,0000,,Yamato, thank you.
+Dialogue: 0,0:18:16.87,0:18:18.24,Default - italics,T,0000,0000,0000,,A box?
+Dialogue: 0,0:18:18.24,0:18:20.06,Default - italics,T,0000,0000,0000,,Wait, it's Yamato.
+Dialogue: 0,0:18:20.06,0:18:22.68,Default,Y,0000,0000,0000,,Oh, thank goodness you're here, Takeo-kun.
+Dialogue: 0,0:18:22.68,0:18:26.12,Default,Y,0000,0000,0000,,I wasn't sure how I'd get the doorbell.
+Dialogue: 0,0:18:26.12,0:18:29.00,Default,Y,0000,0000,0000,,Here's your Valentine's Day chocolate.
+Dialogue: 0,0:18:29.00,0:18:33.42,Default,Y,0000,0000,0000,,It was so big, I had to figure out the box.
+Dialogue: 0,0:18:33.42,0:18:37.97,Default,Y,0000,0000,0000,,Since it's Valentine's, I wanted to \Nmake something really special.
+Dialogue: 0,0:18:37.97,0:18:39.34,Default,Y,0000,0000,0000,,I got in over my head,
+Dialogue: 0,0:18:39.34,0:18:41.62,Default,Y,0000,0000,0000,,so I made a lot of mistakes. \NI was so nervous.
+Dialogue: 0,0:18:41.62,0:18:45.72,Default,Y,0000,0000,0000,,I've never messed up tempering chocolate, \Neven in elementary school.
+Dialogue: 0,0:18:45.72,0:18:47.78,Default,Y,0000,0000,0000,,I decorated it in a big hurry just now.
+Dialogue: 0,0:18:47.78,0:18:50.06,Default,Y,0000,0000,0000,,I wasn't sure I'd get it done in time today,
+Dialogue: 0,0:18:50.06,0:18:52.23,Default,Y,0000,0000,0000,,but I'm glad I did.
+Dialogue: 0,0:18:51.17,0:18:52.83,SFX-RedBlack,,0000,0000,0000,,{\c&HF4EED6&} Good for you
+Dialogue: 0,0:18:52.83,0:18:55.98,Default,T,0000,0000,0000,,But you gave me chocolate earlier.
+Dialogue: 0,0:18:55.98,0:18:56.61,Default,Y,0000,0000,0000,,Earlier?
+Dialogue: 0,0:18:56.61,0:18:59.34,Default,Y,0000,0000,0000,,No, that was just a group thing.
+Dialogue: 0,0:18:59.34,0:19:01.48,Default,Y,0000,0000,0000,,This is special.
+Dialogue: 0,0:19:05.69,0:19:07.23,Default - italics,T,0000,0000,0000,,Special...
+Dialogue: 0,0:19:07.75,0:19:10.23,Default - italics,T,0000,0000,0000,,For both you and me.
+Dialogue: 0,0:19:10.78,0:19:12.79,Default,TMom,0000,0000,0000,,Oh, hello, Yamato-san.
+Dialogue: 0,0:19:12.79,0:19:14.13,Default,Y,0000,0000,0000,,Oh, good evening.
+Dialogue: 0,0:19:14.13,0:19:16.77,Default,Y,0000,0000,0000,,How's Maki-chan doing?
+Dialogue: 0,0:19:16.77,0:19:17.91,Default,TMom,0000,0000,0000,,She's growing every day.
+Dialogue: 0,0:19:17.91,0:19:19.63,Default,TMom,0000,0000,0000,,She's taking a bath with her daddy now.
+Dialogue: 0,0:19:19.63,0:19:22.10,Default,Y,0000,0000,0000,,I'll come to hold her soon.
+Dialogue: 0,0:19:22.10,0:19:23.78,Default,TMom,0000,0000,0000,,You're welcome anytime.
+Dialogue: 0,0:19:23.78,0:19:24.70,Default,Y,0000,0000,0000,,Okay!
+Dialogue: 0,0:19:30.29,0:19:33.05,Default,Y,0000,0000,0000,,I'm really glad I got to give this to you today.
+Dialogue: 0,0:19:33.77,0:19:35.27,Default,Y,0000,0000,0000,,Okay, I'll get going!
+Dialogue: 0,0:19:35.27,0:19:36.07,Default,Y,0000,0000,0000,,Bye-bye!
+Dialogue: 0,0:19:36.07,0:19:37.43,Default,T,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:19:37.43,0:19:39.03,Default,T,0000,0000,0000,,Th-Thanks!
+Dialogue: 0,0:19:41.81,0:19:43.53,Default - italics,T,0000,0000,0000,,Thank you, Yamato.
+Dialogue: 0,0:19:45.04,0:19:49.66,SFX-BlackWhite,Sign 1946,0000,0000,0000,,overwhelmed
+Dialogue: 0,0:19:45.78,0:19:48.83,Default - italics,T,0000,0000,0000,,Thank you for giving me chocolate.
+Dialogue: 0,0:19:51.79,0:19:53.56,Default,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:19:54.66,0:19:56.32,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:20:10.09,0:20:11.40,Default - italics,T,0000,0000,0000,,I love you.
+Dialogue: 0,0:20:14.31,0:20:16.82,Default - italics,T,0000,0000,0000,,Wow!
+Dialogue: 0,0:20:17.80,0:20:19.23,Message Body - Default,Y,0000,0000,0000,,For Takeo-kun.
+Dialogue: 0,0:20:19.23,0:20:21.79,Message Body - Default,Y,0000,0000,0000,,Thank you for falling in love with me.
+Dialogue: 0,0:20:21.79,0:20:23.20,Message Body - Default,Y,0000,0000,0000,,I love you.
+Dialogue: 0,0:20:23.20,0:20:24.38,Message Body - Default,Y,0000,0000,0000,,Rinko.
+Dialogue: 0,0:20:24.38,0:20:28.95,Default - italics,T,0000,0000,0000,,My very first chocolate from \Na girl who likes me!
+Dialogue: 0,0:20:30.71,0:20:32.00,Default,T,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:35.00,0:20:38.07,Default,T,0000,0000,0000,,Delicious!
+Dialogue: 0,0:20:38.63,0:20:39.76,Default,T,0000,0000,0000,,Delicious!
+Dialogue: 0,0:20:39.76,0:20:40.81,Default,T,0000,0000,0000,,Sweet!
+Dialogue: 0,0:20:40.81,0:20:42.06,Default,T,0000,0000,0000,,Delicious!
+Dialogue: 0,0:20:42.06,0:20:43.43,Default,T,0000,0000,0000,,Sweet!
+Dialogue: 0,0:20:43.06,0:20:44.64,Default,TMom,0000,0000,0000,,Take, shut up!
+Dialogue: 0,0:20:43.43,0:20:44.64,Default,T,0000,0000,0000,,Delicious!
+Dialogue: 0,0:20:45.96,0:20:47.64,Default,T,0000,0000,0000,,Delicious.
+Dialogue: 0,0:20:47.64,0:20:49.89,Default,Sai,0000,0000,0000,,Master, here's my obligation chocolate.
+Dialogue: 0,0:20:49.89,0:20:52.19,Default,T,0000,0000,0000,,Oh, thanks, Saijou.
+Dialogue: 0,0:20:52.19,0:20:54.35,Default,Sai,0000,0000,0000,,Here, you can have one, too, Sunakawa.
+Dialogue: 0,0:20:54.35,0:20:55.13,Default,S,0000,0000,0000,,Thanks.
+Dialogue: 0,0:20:55.13,0:20:55.90,Default,Sai,0000,0000,0000,,Later.
+Dialogue: 0,0:20:58.52,0:21:01.89,Default,S,0000,0000,0000,,I think she was being considerate \Nby waiting till the day after.
+Dialogue: 0,0:21:01.89,0:21:03.08,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:21:03.08,0:21:04.36,Default,S,0000,0000,0000,,She's a nice person.
+Dialogue: 0,0:21:05.53,0:21:10.54,Default,S,0000,0000,0000,,I think everyone who falls \Nfor you is a nice person.
+Dialogue: 0,0:21:11.19,0:21:13.83,Default - italics,T,0000,0000,0000,,All the girls who ever asked Suna out
+Dialogue: 0,0:21:13.83,0:21:15.79,Default - italics,T,0000,0000,0000,,had been talking about me behind my back.
+Dialogue: 0,0:21:16.42,0:21:18.96,Default - italics,T,0000,0000,0000,,And that's why he turned them all down.
+Dialogue: 0,0:21:18.96,0:21:22.91,Default - italics,Sign 2123,0000,0000,0000,,But there must've been someone \Nwho wasn't doing that
+Dialogue: 0,0:21:19.55,0:21:26.55,SFX-BlueBlue,Sign 2123,0000,0000,0000,,{\fs18\an7}Sunakawa Makoto-sama \N\NI don't need chocolates in return, \Nso please like me.
+Dialogue: 0,0:21:22.91,0:21:26.55,Default - italics,Sign 2123,0000,0000,0000,,among the girls who gave him chocolate.
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign,0000,0000,0000,,{\fad(1,515)}The Letter and Me
+Dialogue: 0,0:22:46.71,0:22:49.34,Default - margin,T,0000,0000,0000,,Next time: The Letter and Me.

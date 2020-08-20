@@ -1,0 +1,476 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Location,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,53,53,51,0
+Style: Inventory,Open Sans Semibold,33,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,37,0
+Style: HUD Big,Open Sans Semibold,42,&H00F1EDEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Open Sans Semibold,36,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Monsters,Open Sans Semibold,33,&H00BAB6DE,&H000000FF,&H001F2151,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,37,0
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Open Sans Semibold,27,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Open Sans Semibold,27,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Open Sans Semibold,36,&H002E3438,&H000000FF,&H008C98AD,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignB1,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,37,0
+Style: SignB2,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,53,53,37,0
+Style: SignB3,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,53,53,104,0
+Style: SignC,Open Sans Semibold,33,&H00302C51,&H000000FF,&H00C0AC93,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SignB4,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,53,53,93,0
+Style: SignB5,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,53,53,287,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.94,0:00:09.44,Location,Gu,0000,0000,0000,,{\an9\fad(356,181)}Abyssal Shaft — Entrance\N{\fs18}Japan Server \NBeneath Tearstone Mountains\NDungeon/ No Monsters\NNo PVP \NEntry Restrictions/ None \NExit Restrictions/ None
+Dialogue: 0,0:00:05.27,0:00:07.32,Default,Gu,0000,0000,0000,,It's finally time for our full raid.
+Dialogue: 0,0:00:08.02,0:00:11.75,Default,Gi,0000,0000,0000,,And we're the first adventurers to ever come here.
+Dialogue: 0,0:00:11.75,0:00:13.74,Default,Gu,0000,0000,0000,,I love this tension.
+Dialogue: 0,0:00:14.03,0:00:16.41,Default,Gi,0000,0000,0000,,I-I'll do my best, too.
+Dialogue: 0,0:00:16.41,0:00:17.85,Default,Gu,0000,0000,0000,,Don't worry!
+Dialogue: 0,0:00:17.85,0:00:19.33,Default,Gu,0000,0000,0000,,It'll work out.
+Dialogue: 0,0:00:20.03,0:00:21.00,Default,W,0000,0000,0000,,Okay, guys...
+Dialogue: 0,0:00:21.92,0:00:23.28,Default,W,0000,0000,0000,,Everyone ready?
+Dialogue: 0,0:00:24.47,0:00:28.53,Default,W,0000,0000,0000,,We're going to plant our flag in this raid zone!
+Dialogue: 0,0:01:59.30,0:02:00.93,Default,Gu,0000,0000,0000,,We let two of them through.
+Dialogue: 0,0:02:00.93,0:02:02.12,Default,Gu,0000,0000,0000,,Get them back here!
+Dialogue: 0,0:02:02.12,0:02:03.27,Default,Gu,0000,0000,0000,,Go around!
+Dialogue: 0,0:02:03.89,0:02:07.64,Default - italics,S,0000,0000,0000,,A raid zone on the lowest level \Nof the Depths of Palm...
+Dialogue: 0,0:02:07.91,0:02:11.15,Location,S,0000,0000,0000,,{\an7\fad(176,1)}Abyssal Shaft — Zone A\N{\fs18}Japan Server \NBeneath Tearstone Mountains\NDungeon/ Monsters Present\NPVP Permitted \NSkill Use Permitted \NEntry Restrictions/ Yes \NFull Raids Supported \NExit Restrictions/ None
+Dialogue: 0,0:02:08.39,0:02:11.15,Default - italics,S,0000,0000,0000,,The Abyssal Shaft.
+Dialogue: 0,0:02:15.26,0:02:19.28,Default - italics,S,0000,0000,0000,,This is a familiar raid dungeon \Nfrom the original game.
+Dialogue: 0,0:02:20.77,0:02:22.98,Default - italics,S,0000,0000,0000,,It's an expanded, strengthened version \Nof a normal dungeon,
+Dialogue: 0,0:02:23.47,0:02:25.36,Default - italics,S,0000,0000,0000,,with more corridors and rooms,
+Dialogue: 0,0:02:25.36,0:02:27.38,Default - italics,S,0000,0000,0000,,and more traps and puzzles.
+Dialogue: 0,0:02:27.38,0:02:30.06,Default - italics,S,0000,0000,0000,,And it's composed of multiple large zones.
+Dialogue: 0,0:02:31.82,0:02:37.26,Default - italics,S,0000,0000,0000,,You search these zones for your goal, \Nfor treasure, and for the exit.
+Dialogue: 0,0:02:38.32,0:02:44.18,Title,S,0000,0000,0000,,{\fad(1756,1)}The Abyssal Shaft
+Dialogue: 0,0:02:40.19,0:02:41.95,Default,S,0000,0000,0000,,The Abyssal Shaft.
+Dialogue: 0,0:02:45.16,0:02:46.72,Default,Gu,0000,0000,0000,,Enemy encounter!
+Dialogue: 0,0:02:46.72,0:02:47.80,Default,Gu,0000,0000,0000,,Get ready quick!
+Dialogue: 0,0:02:47.80,0:02:49.44,Default,Gu,0000,0000,0000,,Orks' Jelly x 3.
+Dialogue: 0,0:02:49.78,0:02:50.67,Default,S,0000,0000,0000,,Naotsugu!
+Dialogue: 0,0:02:50.67,0:02:51.48,Default,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:52.44,0:03:02.18,HUD1,S,0000,0000,0000,,Full Raid
+Dialogue: 0,0:02:53.35,0:02:58.92,Default - italics,S,0000,0000,0000,,A full raid is carried out by twenty-four \Nmembers, in four parties of six.
+Dialogue: 0,0:02:59.99,0:03:02.02,Default - italics,S,0000,0000,0000,,This is our formation for this raid.
+Dialogue: 0,0:03:02.36,0:03:04.20,HUD1,S,0000,0000,0000,,{\an6}Party 1
+Dialogue: 0,0:03:02.83,0:03:04.60,Default - italics,S,0000,0000,0000,,Party 1 consists of the tanks.
+Dialogue: 0,0:03:05.09,0:03:08.83,Default - italics,S,0000,0000,0000,,Their job is to attract the enemy from \Nthe front and endure their attacks.
+Dialogue: 0,0:03:10.91,0:03:14.59,Default - italics,S,0000,0000,0000,,If they go down, so does our whole plan.
+Dialogue: 0,0:03:15.03,0:03:17.46,Default,Gu,0000,0000,0000,,Three enemies coming from the southwest exit.
+Dialogue: 0,0:03:17.87,0:03:18.67,Default,N,0000,0000,0000,,Leave 'em to me!
+Dialogue: 0,0:03:19.10,0:03:20.62,Default - italics,N,0000,0000,0000,,Anchor Howl!
+Dialogue: 0,0:03:22.48,0:03:24.93,Default - italics,D,0000,0000,0000,,Wyvern Kick!
+Dialogue: 0,0:03:25.69,0:03:27.68,Default - italics,S,0000,0000,0000,,Party 2 is the seek-and-destroy team.
+Dialogue: 0,0:03:28.49,0:03:31.28,Default - italics,S,0000,0000,0000,,They're in charge of handling \Nany enemies Party 1 missed,
+Dialogue: 0,0:03:31.28,0:03:33.44,Default - italics,S,0000,0000,0000,,or dealing with unexpected reinforcements.
+Dialogue: 0,0:03:32.25,0:03:35.13,HUD1,S,0000,0000,0000,,{\fad(462,1)\an7}Party 2
+Dialogue: 0,0:03:34.76,0:03:39.24,Default - italics,S,0000,0000,0000,,Depending on the situation, \Nthey have to think fast and react fast.
+Dialogue: 0,0:03:35.13,0:03:37.19,HUD1,S,0000,0000,0000,,Party 2              Party 1              Party 3
+Dialogue: 0,0:03:39.82,0:03:41.74,Default,S,0000,0000,0000,,Enemy reinforcements. Requesting support.
+Dialogue: 0,0:03:40.34,0:03:44.95,HUD1,S,0000,0000,0000,,{\fad(213,1)}Party Chat \NParty 1        Party 2        Party 3        Party 4
+Dialogue: 0,0:03:41.74,0:03:44.02,Default,S,0000,0000,0000,,East exit, in the direction Party 4 is traveling.
+Dialogue: 0,0:03:44.37,0:03:46.13,Default,S,0000,0000,0000,,Orks' Jelly x 6!
+Dialogue: 0,0:03:46.13,0:03:47.70,Default - italics,W,0000,0000,0000,,Rapid Shot!
+Dialogue: 0,0:03:51.30,0:03:55.26,Default - italics,S,0000,0000,0000,,The primary job of Parties 3 and 4 is attacking.
+Dialogue: 0,0:03:55.26,0:03:57.74,Default - italics,S,0000,0000,0000,,They're comprised of members \Nwhose emphasis is on attack.
+Dialogue: 0,0:03:59.71,0:04:01.78,Default - italics,S,0000,0000,0000,,But their defense is weak.
+Dialogue: 0,0:04:02.39,0:04:03.61,Default - italics,S,0000,0000,0000,,When the situation calls for it,
+Dialogue: 0,0:04:02.80,0:04:03.61,Default,S,0000,0000,0000,,{\a6}Get back!
+Dialogue: 0,0:04:03.61,0:04:04.41,Default,,0000,0000,0000,,{\a6}Right!
+Dialogue: 0,0:04:03.61,0:04:05.77,Default - italics,,0000,0000,0000,,Party 3 becomes our main offensive force,
+Dialogue: 0,0:04:05.09,0:04:09.24,SignB1,S,0000,0000,0000,,{\fad(1,477)}Party 1                                              Party 3
+Dialogue: 0,0:04:05.09,0:04:09.24,SignB2,S,0000,0000,0000,,{\fad(1,477)}Party 2
+Dialogue: 0,0:04:05.09,0:04:09.35,SignB3,S,0000,0000,0000,,{\fad(1,477)}Party 4
+Dialogue: 0,0:04:05.77,0:04:08.19,Default - italics,,0000,0000,0000,,while Party 4 guards the surrounding area.
+Dialogue: 0,0:04:10.19,0:04:12.70,Default - italics,S,0000,0000,0000,,That's our formation for this raid team,
+Dialogue: 0,0:04:12.70,0:04:14.73,Default - italics,S,0000,0000,0000,,and the basis of our strategy.
+Dialogue: 0,0:04:17.76,0:04:19.73,Default - italics,S,0000,0000,0000,,Standard monsters in a raid zone
+Dialogue: 0,0:04:19.73,0:04:22.11,Default - italics,,0000,0000,0000,,are far more powerful than normal monsters.
+Dialogue: 0,0:04:23.53,0:04:28.47,HUD1,S,0000,0000,0000,,{\fad(192,244)\an7}Shiroe \N{\fs20}Race/ Human \NEnchanter, Lv. 92 \NLog Horizon
+Dialogue: 0,0:04:24.30,0:04:29.12,Default - italics,S,0000,0000,0000,,After the Apocalypse, the level cap \Nwas raised from 90 to 100.
+Dialogue: 0,0:04:30.29,0:04:33.02,Default - italics,S,0000,0000,0000,,Even so, if we aren't careful, we'll be wiped out.
+Dialogue: 0,0:04:35.71,0:04:39.26,Default - italics,S,0000,0000,0000,,Dead adventurers revive at \Nthe raid zone's entrance.
+Dialogue: 0,0:04:39.83,0:04:41.38,Default,Gu,0000,0000,0000,,I screwed that up.
+Dialogue: 0,0:04:41.60,0:04:44.17,Default - italics,D,0000,0000,0000,,Wyvern Kick!
+Dialogue: 0,0:04:44.50,0:04:45.49,Default,Gu,0000,0000,0000,,Demikas!
+Dialogue: 0,0:04:45.49,0:04:46.93,Default,Gu,0000,0000,0000,,You're too far ahead!
+Dialogue: 0,0:04:46.93,0:04:48.39,Default,Gu,0000,0000,0000,,Our healers can't reach you!
+Dialogue: 0,0:04:49.09,0:04:50.49,Default,D,0000,0000,0000,,I don't care!
+Dialogue: 0,0:04:51.86,0:04:53.32,Default,D,0000,0000,0000,,This is too easy!
+Dialogue: 0,0:04:54.94,0:04:56.22,Default,{Status,0000,0000,0000,,What's this?
+Dialogue: 0,0:04:55.79,0:04:57.81,HUD1,{Status,0000,0000,0000,,{\an7\fs20\fad(130,1)}Physical Damage Increased \NBrigandia
+Dialogue: 0,0:05:01.71,0:05:05.81,Default - italics,{Status,0000,0000,0000,,If you defeat a raid monster, \Nit'll drop special materials.
+Dialogue: 0,0:05:07.73,0:05:11.38,Default - italics,{Status,0000,0000,0000,,It's possible to use these to create powerful items.
+Dialogue: 0,0:05:11.79,0:05:12.81,Default,T,0000,0000,0000,,Here! Heal!
+Dialogue: 0,0:05:12.81,0:05:13.72,Default,Gu,0000,0000,0000,,Thanks!
+Dialogue: 0,0:05:13.19,0:05:13.95,Default,Gu,0000,0000,0000,,Oh, dear!
+Dialogue: 0,0:05:14.44,0:05:16.27,Default,T,0000,0000,0000,,Are you doing okay, Naotsugu?
+Dialogue: 0,0:05:16.27,0:05:18.83,Default,N,0000,0000,0000,,I can handle these slimes anytime!
+Dialogue: 0,0:05:19.24,0:05:21.79,Default,N,0000,0000,0000,,Hey, you're using me as a shield, aren't you?
+Dialogue: 0,0:05:21.79,0:05:24.84,Default,T,0000,0000,0000,,I'll heal you, so just keep \Nsacrificing yourself for me.
+Dialogue: 0,0:05:26.36,0:05:27.34,Default - italics,S,0000,0000,0000,,And...
+Dialogue: 0,0:05:28.30,0:05:29.54,Default,Gu,0000,0000,0000,,That's...
+Dialogue: 0,0:05:30.11,0:05:35.03,Default - italics,S,0000,0000,0000,,Raid zones have anywhere from five to ten \Nspecial monsters called "raid bosses."
+Dialogue: 0,0:05:35.75,0:05:39.32,Default,Gu,0000,0000,0000,,It looks just like Vendémiaire of the First Prison.
+Dialogue: 0,0:05:39.32,0:05:42.69,Default,Gi,0000,0000,0000,,"The Nine Great Prisons of Heilos"? \NI remember that.
+Dialogue: 0,0:05:42.63,0:05:47.35,Monsters,Gi,0000,0000,0000,,{\fad(171,170)\an9\fs20}Vendémiaire of the First Prison, Lv. 91 \NRank/ Raid
+Dialogue: 0,0:05:42.69,0:05:44.74,Default,Gu,0000,0000,0000,,It's the raid boss from that dungeon, right?
+Dialogue: 0,0:05:44.74,0:05:47.44,Default,Gu,0000,0000,0000,,Data gets reused all the time.
+Dialogue: 0,0:05:49.69,0:05:51.28,Default,Gu,0000,0000,0000,,Everyone, it's coming!
+Dialogue: 0,0:05:51.61,0:05:53.53,Default,W,0000,0000,0000,,Split up and get ready!
+Dialogue: 0,0:05:55.12,0:05:57.49,Default,W,0000,0000,0000,,Party 1, get in front of its right leg.
+Dialogue: 0,0:05:57.90,0:05:59.38,Default,W,0000,0000,0000,,Party 2, flank its left leg.
+Dialogue: 0,0:05:59.94,0:06:01.88,Default,W,0000,0000,0000,,Party 3, take the left rear.
+Dialogue: 0,0:06:02.24,0:06:04.63,Default,W,0000,0000,0000,,Party 4, take the right rear.
+Dialogue: 0,0:06:05.14,0:06:06.62,Default - italics,N,0000,0000,0000,,Anchor Howl!
+Dialogue: 0,0:06:09.20,0:06:10.13,Default,,0000,0000,0000,,All right!
+Dialogue: 0,0:06:10.13,0:06:12.44,Default,W,0000,0000,0000,,We'll start by knocking its HP down the usual way!
+Dialogue: 0,0:06:12.44,0:06:13.60,Default,All,0000,0000,0000,,Roger.
+Dialogue: 0,0:06:14.91,0:06:18.99,Default - italics,S,0000,0000,0000,,Offensive classes are given attack \Nboosts and extra damage buffs,
+Dialogue: 0,0:06:19.32,0:06:21.61,Default - italics,S,0000,0000,0000,,and the rear forces use ranged \Nattacks from a safe location.
+Dialogue: 0,0:06:23.40,0:06:25.29,Default - italics,S,0000,0000,0000,,Warrior tanks are given
+Dialogue: 0,0:06:25.29,0:06:29.20,Default - italics,,0000,0000,0000,,heavy healing, plus defense boosts \Nand reduced-damage buffs.
+Dialogue: 0,0:06:29.96,0:06:32.34,Default - italics,S,0000,0000,0000,,And their most important task is controlling aggro.
+Dialogue: 0,0:06:32.90,0:06:36.48,Default - italics,S,0000,0000,0000,,In other words, keeping the enemy's attention.
+Dialogue: 0,0:06:33.30,0:06:34.49,Default,Gu,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:06:35.08,0:06:37.58,Default,Gu,0000,0000,0000,,Look over here, ostrich monster!
+Dialogue: 0,0:06:38.58,0:06:39.38,Default,Gu,0000,0000,0000,,What?
+Dialogue: 0,0:06:39.38,0:06:40.25,Default,Gu,0000,0000,0000,,It's going to fly?
+Dialogue: 0,0:06:40.25,0:06:42.08,Default,Gu,0000,0000,0000,,No, it's some other motion.
+Dialogue: 0,0:06:49.33,0:06:50.57,Default,Gi,0000,0000,0000,,Shiroe!
+Dialogue: 0,0:06:50.57,0:06:52.59,Default,S,0000,0000,0000,,An area-of-effect attack that ignores aggro?
+Dialogue: 0,0:06:53.62,0:06:55.55,Default,W,0000,0000,0000,,Shiroe, damage report.
+Dialogue: 0,0:06:56.13,0:06:58.10,Default,S,0000,0000,0000,,Five rooted. Four petrified.
+Dialogue: 0,0:06:58.97,0:07:00.24,Default,S,0000,0000,0000,,One instant kill.
+Dialogue: 0,0:07:00.24,0:07:01.36,Default,Gu,0000,0000,0000,,We need healers.
+Dialogue: 0,0:07:01.36,0:07:02.60,Default,Gu,0000,0000,0000,,Get them a revive!
+Dialogue: 0,0:07:02.60,0:07:03.97,Default,N,0000,0000,0000,,You're kidding me...
+Dialogue: 0,0:07:03.97,0:07:06.29,Default,N,0000,0000,0000,,He didn't have that skill during Heilos!
+Dialogue: 0,0:07:06.29,0:07:07.61,Default,N,0000,0000,0000,,Hurry up with those debuffs!
+Dialogue: 0,0:07:07.90,0:07:09.34,Default,Gu,0000,0000,0000,,Hey, Demikas!
+Dialogue: 0,0:07:09.34,0:07:11.74,Default,D,0000,0000,0000,,I'm not waiting for your slow healers!
+Dialogue: 0,0:07:12.26,0:07:14.70,Default - italics,D,0000,0000,0000,,Tiger Echo Fist!
+Dialogue: 0,0:07:15.61,0:07:16.62,Default - italics,N,0000,0000,0000,,Cross Slash!
+Dialogue: 0,0:07:16.77,0:07:21.61,Monsters,N,0000,0000,0000,,{\fad(166,1)\an7\fs20}Vendémiaire of the First Prison, Lv. 91 \NRank/ Raid
+Dialogue: 0,0:07:17.54,0:07:18.75,Default,Gu,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:07:18.75,0:07:20.75,Default,Gu,0000,0000,0000,,We finally chipped off ten percent, huh?
+Dialogue: 0,0:07:22.66,0:07:24.91,Default,N,0000,0000,0000,,That knocked off a few of us!
+Dialogue: 0,0:07:24.91,0:07:26.36,Default,S,0000,0000,0000,,One's on the platform below.
+Dialogue: 0,0:07:26.36,0:07:27.96,Default,S,0000,0000,0000,,Two have vanished from the zone!
+Dialogue: 0,0:07:28.40,0:07:30.63,Default,Gu,0000,0000,0000,,The damned thing's moving up.
+Dialogue: 0,0:07:30.87,0:07:31.89,Default,Gu,0000,0000,0000,,Follow it.
+Dialogue: 0,0:07:31.89,0:07:33.14,Default,Gu,0000,0000,0000,,Right!
+Dialogue: 0,0:07:33.43,0:07:34.75,Default,Gu,0000,0000,0000,,Be careful!
+Dialogue: 0,0:07:34.75,0:07:36.51,Default,Gu,0000,0000,0000,,He has a fire knockback, right?
+Dialogue: 0,0:07:36.99,0:07:41.35,Default - italics,S,0000,0000,0000,,A raid boss uses more powerful \Nattacks each time its HP drops.
+Dialogue: 0,0:07:47.27,0:07:49.92,Default,N,0000,0000,0000,,Its timing and attributes are \Ndifferent than the last time!
+Dialogue: 0,0:07:49.92,0:07:51.82,Default,T,0000,0000,0000,,It's gotten a lot nastier...
+Dialogue: 0,0:07:52.83,0:07:57.46,Default - italics,S,0000,0000,0000,,To deal with it, you need different \Ntactics than for normal battles.
+Dialogue: 0,0:08:01.36,0:08:03.16,Default,S,0000,0000,0000,,Naotsugu! Tetra!
+Dialogue: 0,0:08:05.79,0:08:07.96,Default - italics,S,0000,0000,0000,,Strong party members alone
+Dialogue: 0,0:08:08.57,0:08:10.21,Default - italics,,0000,0000,0000,,aren't enough to win.
+Dialogue: 0,0:08:10.82,0:08:12.47,Default,Gu,0000,0000,0000,,Dinkuron's petrified!
+Dialogue: 0,0:08:12.47,0:08:13.43,Default,Gu,0000,0000,0000,,That's bad...
+Dialogue: 0,0:08:13.43,0:08:14.69,Default,Gu,0000,0000,0000,,All our tanks are down.
+Dialogue: 0,0:08:14.69,0:08:15.98,Default,Gu,0000,0000,0000,,Any healers left?
+Dialogue: 0,0:08:15.98,0:08:17.72,Default,Gu,0000,0000,0000,,No! They're lost!
+Dialogue: 0,0:08:18.12,0:08:19.69,Default,S,0000,0000,0000,,William, we need to...
+Dialogue: 0,0:08:20.54,0:08:21.73,Default,W,0000,0000,0000,,I guess we'll have to.
+Dialogue: 0,0:08:22.56,0:08:23.79,Default,W,0000,0000,0000,,Retreat!
+Dialogue: 0,0:08:23.79,0:08:25.10,Default,W,0000,0000,0000,,Everyone, fall back!
+Dialogue: 0,0:08:28.40,0:08:32.01,Default - italics,S,0000,0000,0000,,And so, through repeated defeats and retreats,
+Dialogue: 0,0:08:32.01,0:08:33.98,Default - italics,,0000,0000,0000,,you discover the enemy's abilities
+Dialogue: 0,0:08:33.98,0:08:35.34,Default - italics,S,0000,0000,0000,,and break through them.
+Dialogue: 0,0:08:40.60,0:08:44.92,Default - italics,S,0000,0000,0000,,We continued to fight Vendémiaire \Nof the First Prison again and again.
+Dialogue: 0,0:08:56.73,0:08:58.82,Default - italics,S,0000,0000,0000,,We were never completely wiped out,
+Dialogue: 0,0:08:58.82,0:09:01.24,Default - italics,S,0000,0000,0000,,but several times, we came very close.
+Dialogue: 0,0:08:59.88,0:09:01.24,Default,S,0000,0000,0000,,Damn it...
+Dialogue: 0,0:09:01.24,0:09:03.14,Default,Gu,0000,0000,0000,,I screwed up again.
+Dialogue: 0,0:09:03.62,0:09:06.41,Default - italics,S,0000,0000,0000,,You learn the patterns until they're \Ninstinctive, analyze them,
+Dialogue: 0,0:09:06.41,0:09:08.65,Default - italics,S,0000,0000,0000,,and try many different ways of winning.
+Dialogue: 0,0:09:09.44,0:09:14.15,Default - italics,S,0000,0000,0000,,Raids are long fights. Some can \Ntake more than a month.
+Dialogue: 0,0:09:16.91,0:09:18.03,Default - italics,S,0000,0000,0000,,And...
+Dialogue: 0,0:09:18.73,0:09:20.20,Default,W,0000,0000,0000,,It's the blink...
+Dialogue: 0,0:09:20.20,0:09:22.26,Default,Gu,0000,0000,0000,,After that, it disregards aggro,
+Dialogue: 0,0:09:22.26,0:09:24.40,Default,,0000,0000,0000,,and uses that attack that inflicts
+Dialogue: 0,0:09:24.40,0:09:26.94,Default,,0000,0000,0000,,negative status effects or insta-kill \Non ten people at random.
+Dialogue: 0,0:09:28.04,0:09:30.04,Default,Gu,0000,0000,0000,,We'll measure the intervals in the next fight.
+Dialogue: 0,0:09:30.04,0:09:31.21,Default,S,0000,0000,0000,,Sixty seconds.
+Dialogue: 0,0:09:34.04,0:09:35.88,Default,S,0000,0000,0000,,It's a sixty-second interval.
+Dialogue: 0,0:09:38.52,0:09:39.68,Default,W,0000,0000,0000,,Start counting!
+Dialogue: 0,0:09:39.68,0:09:43.51,Default,Gu,0000,0000,0000,,One, two, three, four...
+Dialogue: 0,0:09:40.26,0:09:41.36,Default,Gu,0000,0000,0000,,Go around!
+Dialogue: 0,0:09:41.36,0:09:42.77,Default,Gu,0000,0000,0000,,Debuffs! Now!
+Dialogue: 0,0:09:43.90,0:09:45.56,Default,Gu,0000,0000,0000,,Five... Six...
+Dialogue: 0,0:09:43.98,0:09:45.56,Default,Gi,0000,0000,0000,,Hurry and get into positions!
+Dialogue: 0,0:09:45.88,0:09:46.58,Default,,0000,0000,0000,,Seven...
+Dialogue: 0,0:09:46.96,0:09:49.81,Default - italics,S,0000,0000,0000,,Some raid boss attacks have a cool down.
+Dialogue: 0,0:09:50.32,0:09:55.07,Default - italics,S,0000,0000,0000,,If you can figure them out, avoid them, \Nand minimize the damage...
+Dialogue: 0,0:09:55.26,0:09:56.32,Default,Gu,0000,0000,0000,,Sixty!
+Dialogue: 0,0:09:56.32,0:09:57.32,Default,S,0000,0000,0000,,William!
+Dialogue: 0,0:09:57.81,0:09:59.08,Default,W,0000,0000,0000,,Right!
+Dialogue: 0,0:09:59.08,0:10:00.66,Default,W,0000,0000,0000,,Take this!
+Dialogue: 0,0:10:04.11,0:10:05.91,Default,GU,0000,0000,0000,,There's no flash this time!
+Dialogue: 0,0:10:06.21,0:10:07.09,Default,N,0000,0000,0000,,Okay!
+Dialogue: 0,0:10:07.09,0:10:09.04,Default,N,0000,0000,0000,,The attack was canceled!
+Dialogue: 0,0:10:09.04,0:10:10.17,Default,T,0000,0000,0000,,This is our chance!
+Dialogue: 0,0:10:10.65,0:10:12.42,Default,W,0000,0000,0000,,Shave down its HP!
+Dialogue: 0,0:10:12.90,0:10:14.92,Default,W,0000,0000,0000,,Up the DPS!
+Dialogue: 0,0:10:15.63,0:10:18.69,Default - italics,S,0000,0000,0000,,If you can memorize every one of the \Nenemy's strengths and weaknesses,
+Dialogue: 0,0:10:18.69,0:10:21.29,Default - italics,S,0000,0000,0000,,and get the team to work together well,
+Dialogue: 0,0:10:21.29,0:10:23.43,Default - italics,S,0000,0000,0000,,it's just a matter of time.
+Dialogue: 0,0:10:28.18,0:10:32.22,Default - italics,S,0000,0000,0000,,If you defeat a raid boss, you can \Nget a phantasm-level item.
+Dialogue: 0,0:10:34.20,0:10:36.19,Default - italics,S,0000,0000,0000,,Then, we found the second raid boss,
+Dialogue: 0,0:10:36.90,0:10:38.95,Default - italics,S,0000,0000,0000,,El Raida of the Fifth Prison.
+Dialogue: 0,0:10:40.22,0:10:41.98,Default - italics,S,0000,0000,0000,,Though she was a tough opponent,
+Dialogue: 0,0:10:41.98,0:10:44.14,Default - italics,,0000,0000,0000,,with aggro resets and guardian beast summons...
+Dialogue: 0,0:10:52.78,0:10:56.08,Default - italics,S,0000,0000,0000,,After a dozen or so tries, we beat her.
+Dialogue: 0,0:10:57.85,0:11:01.47,Default - italics,S,0000,0000,0000,,You defeat each raid boss, one by one, \Nand attempt to clear the dungeon.
+Dialogue: 0,0:11:02.84,0:11:05.12,Default - italics,S,0000,0000,0000,,That is what a full raid is.
+Dialogue: 0,0:11:14.00,0:11:17.20,Default - italics,S,0000,0000,0000,,It's been three weeks since we started the raid.
+Dialogue: 0,0:11:18.25,0:11:19.39,Default,Gu,0000,0000,0000,,Demikas!
+Dialogue: 0,0:11:19.39,0:11:20.28,Default,Gu,0000,0000,0000,,Sheesh...
+Dialogue: 0,0:11:20.28,0:11:22.47,Default,D,0000,0000,0000,,Die, monsters!
+Dialogue: 0,0:11:22.47,0:11:23.62,Default,N,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:23.62,0:11:26.07,Default,N,0000,0000,0000,,I told you to wait for my next taunt!
+Dialogue: 0,0:11:26.07,0:11:27.29,Default,T,0000,0000,0000,,Demi-Demi's aggro is...
+Dialogue: 0,0:11:27.29,0:11:29.12,Default,D,0000,0000,0000,,Shut up, blabbermouth.
+Dialogue: 0,0:11:29.12,0:11:30.17,Default,D,0000,0000,0000,,I'm—
+Dialogue: 0,0:11:29.36,0:11:31.85,Default,T,0000,0000,0000,,Demi-Demi! Behind you!
+Dialogue: 0,0:11:33.38,0:11:35.88,Default - italics,D,0000,0000,0000,,Wyvern Kick!
+Dialogue: 0,0:11:36.73,0:11:39.05,Default,Gu,0000,0000,0000,,His teamwork is a mess.
+Dialogue: 0,0:11:39.05,0:11:40.84,Default,Gu,0000,0000,0000,,We'll just have to back him up.
+Dialogue: 0,0:11:45.23,0:11:46.85,Default - italics,S,0000,0000,0000,,As we get deeper in,
+Dialogue: 0,0:11:47.44,0:11:50.10,Default - italics,,0000,0000,0000,,we've really begun to understand \Nhow hard the dungeon is.
+Dialogue: 0,0:11:51.10,0:11:54.24,Default - italics,S,0000,0000,0000,,The monsters have leveled up, \Nand the fights are more difficult.
+Dialogue: 0,0:11:55.17,0:11:57.32,Default - italics,S,0000,0000,0000,,We don't even know how big the zone is,
+Dialogue: 0,0:11:57.32,0:11:59.61,Default - italics,,0000,0000,0000,,let alone how close we are to clearing it.
+Dialogue: 0,0:11:59.96,0:12:02.88,Default,T,0000,0000,0000,,Here I go! Here I go!
+Dialogue: 0,0:12:02.88,0:12:05.62,Default,T,0000,0000,0000,,Sorry if you fall in love with me!
+Dialogue: 0,0:12:05.84,0:12:07.62,Default,N,0000,0000,0000,,Just shut up and do it!
+Dialogue: 0,0:12:08.96,0:12:10.28,Default,T,0000,0000,0000,,Here I go, then!
+Dialogue: 0,0:12:11.68,0:12:15.33,Default,T,0000,0000,0000,,What everyone's been asking for...
+Dialogue: 0,0:12:15.84,0:12:18.55,Default - italics,T,0000,0000,0000,,Aurora Heal!
+Dialogue: 0,0:12:20.49,0:12:21.74,Default,Gu,0000,0000,0000,,We're saved.
+Dialogue: 0,0:12:22.09,0:12:23.26,Default,S,0000,0000,0000,,Concentrate your attacks!
+Dialogue: 0,0:12:23.69,0:12:25.14,Default,S,0000,0000,0000,,Avoid close-range attacks!
+Dialogue: 0,0:12:25.14,0:12:26.53,Default,,0000,0000,0000,,Right!
+Dialogue: 0,0:12:27.11,0:12:29.14,Default - italics,S,0000,0000,0000,,Ever since we defeated the first two,
+Dialogue: 0,0:12:29.81,0:12:32.02,Default - italics,,0000,0000,0000,,we haven't encountered any raid bosses.
+Dialogue: 0,0:12:32.02,0:12:34.14,Default - italics,S,0000,0000,0000,,And searching the dungeon \Nis getting us nowhere.
+Dialogue: 0,0:12:35.28,0:12:38.15,Default - italics,S,0000,0000,0000,,The battle had entered a stalemate.
+Dialogue: 0,0:12:39.21,0:12:41.21,Default,W,0000,0000,0000,,How much do you think is left?
+Dialogue: 0,0:12:41.21,0:12:42.87,Default,S,0000,0000,0000,,How many raid bosses?
+Dialogue: 0,0:12:42.38,0:12:46.65,Location,W,0000,0000,0000,,{\an7\fad(341,1)}Abyssal Shaft — Safe Zone\N{\fs18}Japan Server \NBeneath Tearstone Mountains\NDungeon/ No Monsters\NPVP Permitted \NSkill Use Permitted \NEntry Restrictions/ None \NExit Restrictions/ None
+Dialogue: 0,0:12:42.87,0:12:45.42,Default,S,0000,0000,0000,,Three or four, probably.
+Dialogue: 0,0:12:45.42,0:12:46.66,Default,W,0000,0000,0000,,This isn't good...
+Dialogue: 0,0:12:47.11,0:12:48.56,Default,W,0000,0000,0000,,We can't last for ten days.
+Dialogue: 0,0:12:49.87,0:12:53.16,Default - italics,S,0000,0000,0000,,We're currently facing supply problems.
+Dialogue: 0,0:12:54.06,0:12:56.63,Default - italics,S,0000,0000,0000,,During repeated battles, \Nequipment gets damaged.
+Dialogue: 0,0:12:57.55,0:13:02.77,Default - italics,S,0000,0000,0000,,To keep it in good shape, you need someone \Nwith crafter skills to do maintenance.
+Dialogue: 0,0:13:05.06,0:13:08.43,Default - italics,S,0000,0000,0000,,William only has a limited \Nsupply of crystal comets.
+Dialogue: 0,0:13:08.86,0:13:13.20,Default - italics,S,0000,0000,0000,,A high-level crafter had to use \Nphantasm-level materials to make them.
+Dialogue: 0,0:13:16.25,0:13:18.09,Default,Gu,0000,0000,0000,,Supplies, huh?
+Dialogue: 0,0:13:18.09,0:13:20.28,Default,Gu,0000,0000,0000,,Who knows how long our food will last?
+Dialogue: 0,0:13:20.28,0:13:23.69,Default,Gi,0000,0000,0000,,To attempt a full raid, you need good equipment.
+Dialogue: 0,0:13:24.03,0:13:27.56,Default,Gu,0000,0000,0000,,And the only real way to get it is during a raid.
+Dialogue: 0,0:13:27.56,0:13:29.70,Default,Gu,0000,0000,0000,,Same with crafting materials.
+Dialogue: 0,0:13:30.20,0:13:36.22,Default,Gi,0000,0000,0000,,Other raid guilds will do low-level \Nraids simply for materials.
+Dialogue: 0,0:13:36.22,0:13:40.71,Default,Gu,0000,0000,0000,,Since the Apocalypse, it's been \Nharder to visit a lot of raid zones.
+Dialogue: 0,0:13:40.71,0:13:45.97,Default,Gi,0000,0000,0000,,But we can't go through easy raids just for supplies.
+Dialogue: 0,0:13:46.26,0:13:49.08,Default,Gu,0000,0000,0000,,We aren't a weak guild like that.
+Dialogue: 0,0:13:49.08,0:13:52.14,Default,Gu,0000,0000,0000,,Our guild master doesn't like \Nanything done halfway.
+Dialogue: 0,0:13:52.14,0:13:52.97,Default,Gu,0000,0000,0000,,Indeed.
+Dialogue: 0,0:13:53.66,0:13:58.56,Default,Gu,0000,0000,0000,,Isn't that why we followed him here?
+Dialogue: 0,0:13:59.86,0:14:02.45,Default,S,0000,0000,0000,,I have some materials I prepared.
+Dialogue: 0,0:14:02.45,0:14:04.09,Default,Gu,0000,0000,0000,,How long will they last?
+Dialogue: 0,0:14:04.77,0:14:07.18,Default,S,0000,0000,0000,,I'd guess twenty days total.
+Dialogue: 0,0:14:08.07,0:14:09.27,Default,W,0000,0000,0000,,Twenty days?
+Dialogue: 0,0:14:09.27,0:14:11.11,Default,S,0000,0000,0000,,That isn't much, is it?
+Dialogue: 0,0:14:11.11,0:14:13.12,Default,W,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:14:13.39,0:14:14.70,Default,W,0000,0000,0000,,You're right.
+Dialogue: 0,0:14:14.70,0:14:15.94,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:16.70,0:14:17.75,Default - italics,W,0000,0000,0000,,Seriously?
+Dialogue: 0,0:14:18.28,0:14:22.12,Default - italics,W,0000,0000,0000,,Log Horizon is a small guild, \Nwith only eight members.
+Dialogue: 0,0:14:22.64,0:14:25.26,Default - italics,W,0000,0000,0000,,How did he get all those materials?
+Dialogue: 0,0:14:26.36,0:14:28.77,Default - italics,W,0000,0000,0000,,He's obviously no ordinary guy.
+Dialogue: 0,0:14:31.18,0:14:36.15,Default - italics,W,0000,0000,0000,,After I left the Round Table and \Nwandered to a bunch of raid zones,
+Dialogue: 0,0:14:36.15,0:14:37.79,Default - italics,W,0000,0000,0000,,I ended up in Susukino.
+Dialogue: 0,0:14:39.21,0:14:42.31,Default - italics,W,0000,0000,0000,,I don't regret my actions.
+Dialogue: 0,0:14:43.63,0:14:45.32,Default - italics,W,0000,0000,0000,,I don't, but...
+Dialogue: 0,0:14:48.86,0:14:50.82,Default - flashback,Gu,0000,0000,0000,,We're tired.
+Dialogue: 0,0:14:51.23,0:14:52.40,Default - flashback,Gu,0000,0000,0000,,Bye.
+Dialogue: 0,0:14:52.40,0:14:54.42,Default - flashback,Gu,0000,0000,0000,,It was fun, guild master.
+Dialogue: 0,0:14:55.28,0:14:57.26,Default - flashback,Gu,0000,0000,0000,,What are they planning to do?
+Dialogue: 0,0:14:57.26,0:14:58.59,Default - flashback,Gu,0000,0000,0000,,Weaklings.
+Dialogue: 0,0:14:58.96,0:15:02.95,Default - italics,W,0000,0000,0000,,And this time, I came to a place \Nlike this without even asking
+Dialogue: 0,0:15:02.95,0:15:04.79,Default - italics,,0000,0000,0000,,what Shiroe was after.
+Dialogue: 0,0:15:07.12,0:15:08.81,Default - italics,W,0000,0000,0000,,And they believe in me.
+Dialogue: 0,0:15:11.76,0:15:14.04,Default - italics,W,0000,0000,0000,,I don't know what's right.
+Dialogue: 0,0:15:14.67,0:15:16.64,Default - italics,W,0000,0000,0000,,Or what I should say to them.
+Dialogue: 0,0:15:18.10,0:15:20.30,Default - italics,W,0000,0000,0000,,I'm no more than a gamer.
+Dialogue: 0,0:15:20.62,0:15:24.55,Default - italics,W,0000,0000,0000,,Games are the only thing I've ever \Ntaken seriously in my life.
+Dialogue: 0,0:15:25.42,0:15:26.37,Default - italics,W,0000,0000,0000,,But...
+Dialogue: 0,0:15:28.21,0:15:31.01,Default - italics,W,0000,0000,0000,,What do you think, Shiroe?
+Dialogue: 0,0:15:31.48,0:15:35.49,SignA,,0000,0000,0000,,{\an7\fs20}No Goofing Off!
+Dialogue: 0,0:15:32.32,0:15:35.49,Default - italics,S,0000,0000,0000,,It's convenient that we can go underground.
+Dialogue: 0,0:15:36.56,0:15:39.75,Default - italics,S,0000,0000,0000,,But they aren't people we can keep \Nfooling forever with tricks like that.
+Dialogue: 0,0:15:41.59,0:15:44.75,Default - italics,S,0000,0000,0000,,Maybe Minami, but not them.
+Dialogue: 0,0:15:47.56,0:15:49.24,Default,D,0000,0000,0000,,That bastard!
+Dialogue: 0,0:15:49.84,0:15:51.80,Default,D,0000,0000,0000,,That bastard!
+Dialogue: 0,0:15:54.35,0:15:55.93,Default - italics,D,0000,0000,0000,,Shiroe...
+Dialogue: 0,0:15:57.01,0:15:59.53,Default - italics,D,0000,0000,0000,,I can take the cat-head and the guardian.
+Dialogue: 0,0:15:59.53,0:16:01.85,Default - italics,D,0000,0000,0000,,They fought with their own power.
+Dialogue: 0,0:16:02.73,0:16:04.13,Default - italics,D,0000,0000,0000,,But he...
+Dialogue: 0,0:16:07.16,0:16:10.38,Default - italics,D,0000,0000,0000,,He just lurked in the back and issued orders,
+Dialogue: 0,0:16:11.28,0:16:12.61,Default - italics,D,0000,0000,0000,,and even worse, he...
+Dialogue: 0,0:16:15.15,0:16:17.24,Default - flashback,S,0000,0000,0000,,Which of you is Brigandia's Demi-glace?
+Dialogue: 0,0:16:17.77,0:16:20.29,Default - flashback,S,0000,0000,0000,,Mister, uh... Delicious?
+Dialogue: 0,0:16:25.02,0:16:27.80,Default - italics,{Status,0000,0000,0000,,It was an enchanter skill \Nthat gave me that buff.
+Dialogue: 0,0:16:27.96,0:16:29.09,HUD1,{Status,0000,0000,0000,,{\fad(319,1)\an7\fs20}Physical Damage Increased \NBrigandia
+Dialogue: 0,0:16:29.90,0:16:31.88,Default - italics,{Status,0000,0000,0000,,He used Keen Edge to buff me,
+Dialogue: 0,0:16:31.88,0:16:34.75,Default - italics,{Status,0000,0000,0000,,and Mind Shock to stun the enemy for a moment.
+Dialogue: 0,0:16:36.25,0:16:39.31,Default,{Status,0000,0000,0000,,That bastard saved me?
+Dialogue: 0,0:16:40.39,0:16:42.81,Default,{Status,0000,0000,0000,,Saved{\i1} me{\i0}?!
+Dialogue: 0,0:16:48.02,0:16:51.83,Default,Gu,0000,0000,0000,,Maybe he discovered I gave him extra veggies?
+Dialogue: 0,0:16:51.83,0:16:53.57,Default,Gu,0000,0000,0000,,I don't think that's it.
+Dialogue: 0,0:16:54.59,0:16:56.29,Default,Gu,0000,0000,0000,,What a problem he is...
+Dialogue: 0,0:16:56.29,0:16:57.58,Default,Gu,0000,0000,0000,,You said it.
+Dialogue: 0,0:16:57.58,0:16:58.58,Default,Gu,0000,0000,0000,,But...
+Dialogue: 0,0:16:58.81,0:17:02.33,Default,Gu,0000,0000,0000,,Yeah. If nothing else, he's no coward.
+Dialogue: 0,0:17:04.42,0:17:05.83,Default,D,0000,0000,0000,,Check out this stew!
+Dialogue: 0,0:17:06.09,0:17:08.16,Default,D,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:17:12.27,0:17:13.30,Default,T,0000,0000,0000,,Chomp!
+Dialogue: 0,0:17:16.43,0:17:18.51,Default,T,0000,0000,0000,,Isn't this great, Naotsugu?
+Dialogue: 0,0:17:19.78,0:17:21.21,Default,T,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:17:22.87,0:17:25.51,Default,N,0000,0000,0000,,It seems like Shiro isn't doing so well.
+Dialogue: 0,0:17:25.51,0:17:26.86,Default,T,0000,0000,0000,,Does it?
+Dialogue: 0,0:17:26.86,0:17:30.07,Default,N,0000,0000,0000,,He's always busy, and he always looks upset.
+Dialogue: 0,0:17:32.34,0:17:36.74,Default,N,0000,0000,0000,,But he's actually enjoying \Nhimself, and taking it easy.
+Dialogue: 0,0:17:37.67,0:17:40.34,Default,N,0000,0000,0000,,But since he's always that way,
+Dialogue: 0,0:17:40.34,0:17:43.62,Default,N,0000,0000,0000,,he can't tell when he's really suffering.
+Dialogue: 0,0:17:44.38,0:17:47.12,Default,T,0000,0000,0000,,And is he really suffering now?
+Dialogue: 0,0:17:48.24,0:17:48.94,Default,N,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:49.31,0:17:51.53,Default,T,0000,0000,0000,,Then he needs an idol.
+Dialogue: 0,0:17:51.53,0:17:53.46,Default,N,0000,0000,0000,,I think he's got one.
+Dialogue: 0,0:17:53.73,0:17:55.52,Default,T,0000,0000,0000,,Should I show him my panties?
+Dialogue: 0,0:17:55.86,0:17:57.55,Default,N,0000,0000,0000,,Listen, pan—
+Dialogue: 0,0:17:59.12,0:18:00.97,Default,N,0000,0000,0000,,A-Akatsuki's curse again!
+Dialogue: 0,0:18:02.60,0:18:05.81,Default,N,0000,0000,0000,,I don't think he needs that, either.
+Dialogue: 0,0:18:05.81,0:18:10.23,Default,T,0000,0000,0000,,But if he's suffering that much, \Nwhat's he doing in a hole like this?
+Dialogue: 0,0:18:11.45,0:18:12.62,Default,N,0000,0000,0000,,Why, indeed...
+Dialogue: 0,0:18:16.26,0:18:17.49,Default,N,0000,0000,0000,,This is just a guess,
+Dialogue: 0,0:18:17.49,0:18:19.39,Default,N,0000,0000,0000,,but it might be to protect his home.
+Dialogue: 0,0:18:19.39,0:18:21.03,Default,T,0000,0000,0000,,His home?
+Dialogue: 0,0:18:21.03,0:18:23.37,Default,N,0000,0000,0000,,Not like an actual building.
+Dialogue: 0,0:18:23.37,0:18:26.37,Default,N,0000,0000,0000,,By his home, I mean... His guild? His town?
+Dialogue: 0,0:18:26.37,0:18:27.97,Default,N,0000,0000,0000,,No, the world?
+Dialogue: 0,0:18:27.97,0:18:29.07,Default,T,0000,0000,0000,,The world?
+Dialogue: 0,0:18:29.07,0:18:31.38,Default,N,0000,0000,0000,,A human needs a home, \Nand a place to eat, right?
+Dialogue: 0,0:18:31.70,0:18:33.12,Default,N,0000,0000,0000,,And companions.
+Dialogue: 0,0:18:33.12,0:18:35.28,Default,N,0000,0000,0000,,In our old world, that would be family.
+Dialogue: 0,0:18:35.28,0:18:38.99,Default,N,0000,0000,0000,,In this world, that'd be our guild, right?
+Dialogue: 0,0:18:39.72,0:18:43.95,Default,N,0000,0000,0000,,And something like that needs a place to belong.
+Dialogue: 0,0:18:44.77,0:18:48.14,Default,N,0000,0000,0000,,His home's home would be... \NAkihabara, in other words.
+Dialogue: 0,0:18:49.10,0:18:54.15,Default,N,0000,0000,0000,,If the town isn't happy, the many \Nguilds there can't be happy.
+Dialogue: 0,0:18:54.79,0:18:58.28,Default,N,0000,0000,0000,,And the people in those guilds \Nwould have to be sad.
+Dialogue: 0,0:18:59.36,0:19:06.11,Default,N,0000,0000,0000,,Shiro would fight a whole town, or a \Nwhole world, to protect his home.
+Dialogue: 0,0:19:07.48,0:19:09.62,Default,T,0000,0000,0000,,His home?
+Dialogue: 0,0:19:09.62,0:19:10.73,Default,N,0000,0000,0000,,Akihabara, huh?
+Dialogue: 0,0:19:12.07,0:19:14.42,Default - italics,N,0000,0000,0000,,It's about time to talk to Marie...
+Dialogue: 0,0:19:15.02,0:19:18.23,Default - italics,N,0000,0000,0000,,No, I guess it isn't quite time yet.
+Dialogue: 0,0:19:18.23,0:19:20.95,Default - italics,N,0000,0000,0000,,No, but I can't...
+Dialogue: 0,0:19:22.34,0:19:24.69,Default,T,0000,0000,0000,,What's wrong, Naotsugu?
+Dialogue: 0,0:19:25.43,0:19:27.01,Default,N,0000,0000,0000,,N-Nothing!
+Dialogue: 0,0:19:27.01,0:19:28.64,Default,N,0000,0000,0000,,Nothing at all!
+Dialogue: 0,0:19:28.64,0:19:30.86,Default,N,0000,0000,0000,,Absolutely nothing whatsoever!
+Dialogue: 0,0:19:35.61,0:19:39.64,Default,R,0000,0000,0000,,Is "Christmas" different from "Snowfell"?
+Dialogue: 0,0:19:39.64,0:19:42.51,Default,T,0000,0000,0000,,Isn't that the People of the Land's winter festival?
+Dialogue: 0,0:19:42.51,0:19:43.45,Default,R,0000,0000,0000,,That's right.
+Dialogue: 0,0:19:43.84,0:19:47.45,Default,Mi,0000,0000,0000,,Do you think Shiroe will make \Nit back in time for Christmas?
+Dialogue: 0,0:19:47.45,0:19:49.62,Default,I,0000,0000,0000,,Christmas, huh?
+Dialogue: 0,0:19:50.77,0:19:53.46,Default,Gu,0000,0000,0000,,Right about now, the old world must be...
+Dialogue: 0,0:19:56.51,0:19:58.45,Default,Gi,0000,0000,0000,,What's wrong, Katsuo?
+Dialogue: 0,0:19:59.48,0:20:04.61,Default,Gu,0000,0000,0000,,I-I've never spent Christmas with \Nanyone except my family.
+Dialogue: 0,0:20:04.61,0:20:06.36,Default,Gu,0000,0000,0000,,I... I...
+Dialogue: 0,0:20:06.36,0:20:07.75,Default,Gu,0000,0000,0000,,Don't say anymore.
+Dialogue: 0,0:20:07.75,0:20:09.48,Default,Gi,0000,0000,0000,,This year, we're all together.
+Dialogue: 0,0:20:12.31,0:20:14.19,Default,R,0000,0000,0000,,Santa Claus?
+Dialogue: 0,0:20:14.19,0:20:17.16,Default,,0000,0000,0000,,During Snowfell, people exchange presents.
+Dialogue: 0,0:20:17.16,0:20:20.49,Default,T,0000,0000,0000,,Christmas is when Santa hands out presents.
+Dialogue: 0,0:20:20.81,0:20:21.53,Default,Mi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:21.53,0:20:22.96,Default,Mi,0000,0000,0000,,He rides a reindeer.
+Dialogue: 0,0:20:22.96,0:20:25.31,Default,I,0000,0000,0000,,No, he rides a sleigh, actually.
+Dialogue: 0,0:20:25.81,0:20:27.29,Default,R,0000,0000,0000,,Presents, huh?
+Dialogue: 0,0:20:27.29,0:20:29.10,Default,R,0000,0000,0000,,I wonder what he'll give us.
+Dialogue: 0,0:20:29.10,0:20:30.50,Default,T,0000,0000,0000,,I want the Teachings.
+Dialogue: 0,0:20:30.50,0:20:33.00,Default,T,0000,0000,0000,,If there were a scroll of the Teachings, \NI would definitely want it.
+Dialogue: 0,0:20:33.87,0:20:35.46,Default,A,0000,0000,0000,,What's that about the Teachings?
+Dialogue: 0,0:20:36.32,0:20:37.54,Default,Mi,0000,0000,0000,,Akatsuki?
+Dialogue: 0,0:20:37.54,0:20:38.67,Default,Mi,0000,0000,0000,,When did you get here?
+Dialogue: 0,0:20:38.67,0:20:40.38,Default,R,0000,0000,0000,,That's our mysterious ninja!
+Dialogue: 0,0:20:40.74,0:20:42.88,Default,Mi,0000,0000,0000,,Welcome back, Akatsuki!
+Dialogue: 0,0:20:43.11,0:20:44.48,Default,A,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:20:44.48,0:20:46.99,Default,N,0000,0000,0000,,Thanks for the hard work.
+Dialogue: 0,0:20:46.99,0:20:49.59,Default,N,0000,0000,0000,,How about some tea and snacks?
+Dialogue: 0,0:20:49.59,0:20:50.89,Default,A,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:51.17,0:20:53.58,Default,I,0000,0000,0000,,Hey, what are the Teachings?
+Dialogue: 0,0:20:53.58,0:20:55.12,Default,R,0000,0000,0000,,You don't know?
+Dialogue: 0,0:20:55.12,0:20:56.65,Default,R,0000,0000,0000,,The whole town's been talking about it.
+Dialogue: 0,0:20:56.65,0:20:59.22,Default,N,0000,0000,0000,,I've heard of them, too.
+Dialogue: 0,0:20:59.22,0:21:02.91,Default,N,0000,0000,0000,,Basically, it's a new rank for skills.
+Dialogue: 0,0:21:03.62,0:21:06.25,Default,N,0000,0000,0000,,The same skill can be more or less powerful,
+Dialogue: 0,0:21:06.25,0:21:09.03,Default,,0000,0000,0000,,depending on who's using it, yes?
+Dialogue: 0,0:21:09.31,0:21:11.66,Default,R,0000,0000,0000,,Because their rank is different, right?
+Dialogue: 0,0:21:11.97,0:21:14.75,Default,,0000,0000,0000,,Correct. The same skill can have four ranks—
+Dialogue: 0,0:21:12.85,0:21:21.41,HUD1,R,0000,0000,0000,,{\fad(214,1)\fs20}Fatal Flash/Assassinate
+Dialogue: 0,0:21:14.35,0:21:21.41,SignB4,,0000,0000,0000,,Adept \N\NBasic
+Dialogue: 0,0:21:14.75,0:21:17.47,Default,,0000,0000,0000,,Basic, Adept, Hidden, and Secret—
+Dialogue: 0,0:21:15.52,0:21:21.41,SignB5,,0000,0000,0000,,Secret \N\NHidden
+Dialogue: 0,0:21:17.47,0:21:21.42,Default,,0000,0000,0000,,with each more powerful than the last.
+Dialogue: 0,0:21:21.85,0:21:26.73,Default,Mi,0000,0000,0000,,For "Adept," you need a scroll made by \Nan adventurer in the same job class.
+Dialogue: 0,0:21:26.73,0:21:31.75,Default,Mi,0000,0000,0000,,For "Hidden," you need a scroll made \Nwith rare materials, right?
+Dialogue: 0,0:21:32.26,0:21:35.82,Default,N,0000,0000,0000,,Both can be purchased, though at a high price.
+Dialogue: 0,0:21:35.82,0:21:40.18,Default,N,0000,0000,0000,,But "Secret" requires one to clear a special quest.
+Dialogue: 0,0:21:40.18,0:21:43.44,Default,N,0000,0000,0000,,You have to participate in a raid.
+Dialogue: 0,0:21:44.50,0:21:45.68,Default,A,0000,0000,0000,,A raid...
+Dialogue: 0,0:21:46.39,0:21:50.26,Default,R,0000,0000,0000,,And the "Teachings" are a level above that.
+Dialogue: 0,0:21:50.26,0:21:52.17,Default,I,0000,0000,0000,,But isn't it just a rumor?
+Dialogue: 0,0:21:52.17,0:21:57.96,Default,N,0000,0000,0000,,It seems very few people have \Nactually acquired or seen one.
+Dialogue: 0,0:21:58.51,0:22:00.64,Default,T,0000,0000,0000,,Shiroe said they're real.
+Dialogue: 0,0:22:01.21,0:22:02.46,Default,Mi,0000,0000,0000,,Shiroe did?
+Dialogue: 0,0:22:02.46,0:22:05.30,Default,T,0000,0000,0000,,Yeah, he says they exist.
+Dialogue: 0,0:22:05.30,0:22:07.75,Default,R,0000,0000,0000,,We'd also like to earn them, right?
+Dialogue: 0,0:22:09.56,0:22:13.55,Default - italics,A,0000,0000,0000,,A special rank for skills, one that \Ndidn't exist when this was a game...
+Dialogue: 0,0:22:14.15,0:22:15.16,Default - italics,A,0000,0000,0000,,The Teachings.
+Dialogue: 0,0:22:15.98,0:22:16.91,Default,,0000,0000,0000,,Come on in!
+Dialogue: 0,0:22:15.98,0:22:17.42,Default,,0000,0000,0000,,How about it?
+Dialogue: 0,0:22:15.98,0:22:18.98,SignC,A,0000,0000,0000,,Let's Eat Bird! \N{\c&H744857&}6 Days Until Christmas! \N\N{\fs20\c&H407B5A&}Bird Is Yummy
+Dialogue: 0,0:22:16.91,0:22:18.98,Default,Gi,0000,0000,0000,,Six days until Christmas!
+Dialogue: 0,0:22:17.42,0:22:18.98,Default,Gi,0000,0000,0000,,It's almost Christmas!
+Dialogue: 0,0:22:19.84,0:22:23.48,Default,Gu,0000,0000,0000,,What frivolous, weak fools...
+Dialogue: 0,0:22:24.71,0:22:27.99,Default,Gu,0000,0000,0000,,We are not your dogs.
+Dialogue: 0,0:22:28.91,0:22:33.07,Default,Gu,0000,0000,0000,,Don't get cocky, lowly adventurers.
+Dialogue: 0,0:24:06.88,0:24:08.39,Default,Gu,0000,0000,0000,,"I want to become strong."
+Dialogue: 0,0:24:08.81,0:24:12.51,Default,Gu,0000,0000,0000,,In Akihabara, Akatsuki is uncertain \Nand alone without Shiroe.
+Dialogue: 0,0:24:12.51,0:24:15.10,Default,Gu,0000,0000,0000,,Why did Shiroe leave her?
+Dialogue: 0,0:24:15.10,0:24:16.81,Default,Gu,0000,0000,0000,,Why is she weak?
+Dialogue: 0,0:24:17.12,0:24:20.48,Default,Gu,0000,0000,0000,,And Lenessia has given up, as well.
+Dialogue: 0,0:24:20.48,0:24:23.82,Default,Gu,0000,0000,0000,,She believes adventurers and People of the \NLand cannot understand each other.
+Dialogue: 0,0:24:23.98,0:24:30.94,Title,,0000,0000,0000,,Shattered Wings
+Dialogue: 0,0:24:24.17,0:24:26.30,Default,,0000,0000,0000,,Next time: Shattered Wings.
+Dialogue: 0,0:24:26.74,0:24:28.58,Default,,0000,0000,0000,,Rise up once more.

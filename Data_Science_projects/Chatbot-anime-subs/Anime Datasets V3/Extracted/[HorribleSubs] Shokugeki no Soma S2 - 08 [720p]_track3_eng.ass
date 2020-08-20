@@ -1,0 +1,498 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Main Title 1,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Main Title 2,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Episode Title,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H0064594A,&H0064594A,1,0,0,0,100,100,0,0,1,3,0,9,27,80,127,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Preview Sign,Open Sans Semibold,36,&H004576AE,&H000000FF,&H0000006E,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,80,1
+Style: End Title,Open Sans Semibold,54,&H00251FD7,&H000000FF,&H00FFFFFF,&H00676777,1,0,0,0,110,100,0,0,1,2,3,8,40,573,93,1
+Style: End Title 2,Open Sans Semibold,27,&H004B8BB7,&H000000FF,&H00FFFFFF,&H003C2F8D,1,0,0,0,100,100,0,0,1,2,2,8,40,573,209,1
+Style: Next Episode,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,67,80,120,1
+Style: Days Until Sign,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,307,1
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Days Until Sign 2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,293,1
+Style: sign_8329_91_Rigor__Index____,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,287,471,132,1
+Style: sign_8329_92_Time__hours_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,507,176,388,1
+Style: sign_11292_136_Fall,Open Sans Semibold,42,&H001E1767,&H000000FF,&H0066BBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,687,29,1
+Style: sign_11292_137_Fall,Open Sans Semibold,30,&H001E1767,&H000000FF,&H0066BBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,687,113,16,1
+Style: sign_11292_138_Fall,Open Sans Semibold,36,&H001E1767,&H000000FF,&H0066BBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,747,43,147,1
+Style: sign_11292_139_Fall,Open Sans Semibold,33,&H001E1767,&H000000FF,&H0066BBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,700,20,313,1
+Style: sign_11292_140_Fall,Open Sans Semibold,36,&H001E1767,&H000000FF,&H0066BBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,47,743,280,1
+Style: sign_15069_199_Kitchen_No__5,Open Sans Semibold,36,&H002E2E2E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,7.429,1,2,0,8,268,356,72,1
+Style: sign_15891_211_Do__Not__Enter,Open Sans Semibold,30,&H00000000,&H000000FF,&H00B7CAC9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,579,197,264,1
+Style: sign_23909_335_Pacific_Saury__P,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,417,25,183,1
+Style: sign_23996_336_Smoked_Pacific_S,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,96,445,45,1
+Style: sign_24041_337_Pacific_Saury_Ag,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,45,440,219,1
+Style: sign_27916_389_Fall_Elections__,Open Sans Semibold,27,&H00000000,&H000000FF,&H00CDF7F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,37,509,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.98,0:00:02.48,Main Title 2,Sign,0000,0000,0000,,Episode 8
+Dialogue: 0,0:00:00.98,0:00:02.48,Main Title 1,Sign,0000,0000,0000,,The Second Plate
+Dialogue: 0,0:00:08.23,0:00:10.90,Main Dialogue,M,0000,0000,0000,,Soma-kun, are you going somewhere?
+Dialogue: 0,0:00:11.16,0:00:12.53,Main Dialogue,S,0000,0000,0000,,Oh, sorry!
+Dialogue: 0,0:00:13.03,0:00:14.36,Main Dialogue,S,0000,0000,0000,,Did I wake you?
+Dialogue: 0,0:00:14.64,0:00:16.32,Main Dialogue,M,0000,0000,0000,,What're you doing so early before dawn?
+Dialogue: 0,0:00:17.05,0:00:18.53,Main Dialogue,S,0000,0000,0000,,Quick trip the fish market.
+Dialogue: 0,0:00:18.84,0:00:19.89,Main Dialogue,M,0000,0000,0000,,The fish market!
+Dialogue: 0,0:00:19.89,0:00:21.54,Main Dialogue,M,0000,0000,0000,,You're going to check out Pacific saury!
+Dialogue: 0,0:00:21.87,0:00:23.46,Italics Dialogue,M,0000,0000,0000,,The fish market!
+Dialogue: 0,0:00:23.74,0:00:26.56,Main Dialogue,M,0000,0000,0000,,Hey, can I tag along?
+Dialogue: 0,0:00:26.56,0:00:28.22,Main Dialogue,S,0000,0000,0000,,Sure! Come!
+Dialogue: 0,0:00:28.22,0:00:29.48,Main Dialogue,M,0000,0000,0000,,I'll go get ready!
+Dialogue: 0,0:00:29.48,0:00:30.67,Main Dialogue,S,0000,0000,0000,,I'll be waiting outside.
+Dialogue: 0,0:00:31.51,0:00:34.68,Main Dialogue,S,0000,0000,0000,,First, I have to figure out what to make.
+Dialogue: 0,0:00:35.06,0:00:39.89,Main Dialogue,S,0000,0000,0000,,I'm gonna find the key to \Ndefeating Kurokiba and Hayama!
+Dialogue: 0,0:02:11.00,0:02:15.00,Episode Title,Sign 0212,0000,0000,0000,,{\fad(500,500)}Battle of Seasonality
+Dialogue: 0,0:02:11.37,0:02:12.51,Main Dialogue,A,0000,0000,0000,,Outta the way!
+Dialogue: 0,0:02:12.51,0:02:13.60,Main Dialogue,A,0000,0000,0000,,How much for a kilo?!
+Dialogue: 0,0:02:13.60,0:02:15.28,Main Dialogue,A,0000,0000,0000,,Gimme the big one in the back!
+Dialogue: 0,0:02:16.82,0:02:17.68,Main Dialogue,M,0000,0000,0000,,Wow!
+Dialogue: 0,0:02:17.68,0:02:18.36,Main Dialogue,M,0000,0000,0000,,It's so lively!
+Dialogue: 0,0:02:18.57,0:02:20.32,Main Dialogue,M,0000,0000,0000,,This is really exciting!
+Dialogue: 0,0:02:20.57,0:02:22.95,Main Dialogue,S,0000,0000,0000,,Oh, the yellowtail amberjack's cheap.
+Dialogue: 0,0:02:22.95,0:02:25.36,Main Dialogue,S,0000,0000,0000,,The horse mackerel, too.
+Dialogue: 0,0:02:25.36,0:02:26.74,Main Dialogue,M,0000,0000,0000,,Soma-kun!
+Dialogue: 0,0:02:26.74,0:02:29.17,Main Dialogue,M,0000,0000,0000,,Don't you think the other fish \Ncan wait until next time?
+Dialogue: 0,0:02:29.47,0:02:31.50,Main Dialogue,S,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:02:32.73,0:02:34.88,Main Dialogue,M,0000,0000,0000,,Soma-kun, have you ever been here before?
+Dialogue: 0,0:02:35.24,0:02:38.07,Main Dialogue,S,0000,0000,0000,,Yeah, I came with my dad a lot.
+Dialogue: 0,0:02:38.07,0:02:40.84,Main Dialogue,S,0000,0000,0000,,Oh, there it is! Pacific saury!
+Dialogue: 0,0:02:40.84,0:02:45.06,Main Dialogue,S,0000,0000,0000,,I gotta say, this time I think the recipe \Ntesting process will be pretty smooth.
+Dialogue: 0,0:02:45.06,0:02:47.31,Black Signs,Sign 0246,0000,0000,0000,,Yukihira Diner
+Dialogue: 0,0:02:45.65,0:02:49.39,Main Dialogue,S,0000,0000,0000,,Pacific saury was always \Non our fall menu at Yukihira.
+Dialogue: 0,0:02:47.31,0:02:49.39,Black Signs,Sign 0248,0000,0000,0000,,Miso Mackerel Set Menu     \NGrilled Fish Set Menu (Salmon, Mackerel, Atka Mackerel)  \NPacific Saury Set Meal    Daily Special Set Menu
+Dialogue: 0,0:02:49.65,0:02:53.25,Main Dialogue,S,0000,0000,0000,,So I'm pretty confident \Nwhen it comes to Pacific saury.
+Dialogue: 0,0:02:57.03,0:02:57.53,Main Dialogue,Alice,0000,0000,0000,,Oh.
+Dialogue: 0,0:02:57.84,0:03:00.00,Main Dialogue,M,0000,0000,0000,,Kurokiba-kun, Nakiri-san?
+Dialogue: 0,0:03:00.00,0:03:02.28,Main Dialogue,S,0000,0000,0000,,You came to look at Pacific saury, too?
+Dialogue: 0,0:03:02.68,0:03:04.01,Main Dialogue,S,0000,0000,0000,,What a coincidence!
+Dialogue: 0,0:03:04.01,0:03:05.77,Main Dialogue,Kuro,0000,0000,0000,,What coincidence?
+Dialogue: 0,0:03:05.77,0:03:08.50,Main Dialogue,Kuro,0000,0000,0000,,I've been coming here practically every day.
+Dialogue: 0,0:03:08.76,0:03:09.87,Main Dialogue,S,0000,0000,0000,,Huh.
+Dialogue: 0,0:03:09.87,0:03:12.33,Main Dialogue,Alice,0000,0000,0000,,Me, I only come sometimes.
+Dialogue: 0,0:03:12.33,0:03:15.31,Main Dialogue,Alice,0000,0000,0000,,The fish market's open \Ntoo early in the morning!
+Dialogue: 0,0:03:15.31,0:03:16.34,Italics Dialogue,M,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:03:16.34,0:03:19.01,Italics Dialogue,M,0000,0000,0000,,Why'd we have to come \Nface to face with his opponent?!
+Dialogue: 0,0:03:19.35,0:03:21.37,Main Dialogue,S,0000,0000,0000,,I can't take a back seat to you guys!
+Dialogue: 0,0:03:21.37,0:03:24.63,Main Dialogue,S,0000,0000,0000,,I'd better find myself some good \NPacific saury, and get ahead!
+Dialogue: 0,0:03:24.63,0:03:28.32,Main Dialogue,M,0000,0000,0000,,Pacific saury should have a \Nrounded body with taut flesh,
+Dialogue: 0,0:03:28.73,0:03:31.47,Main Dialogue,M,0000,0000,0000,,eyes that are clear and bright,
+Dialogue: 0,0:03:31.94,0:03:34.23,Main Dialogue,M,0000,0000,0000,,and mouths with a yellow tip.
+Dialogue: 0,0:03:34.23,0:03:37.11,Main Dialogue,M,0000,0000,0000,,It's said that means it's fresh \Nand has good fat.
+Dialogue: 0,0:03:37.39,0:03:41.75,Main Dialogue,Kuro,0000,0000,0000,,But it doesn't mean you should \Njust spring for the freshest ones.
+Dialogue: 0,0:03:41.75,0:03:43.95,Main Dialogue,Kuro,0000,0000,0000,,Then their umami hasn't fully developed.
+Dialogue: 0,0:03:44.65,0:03:49.66,Main Dialogue,Kuro,0000,0000,0000,,Inosinic acid, the umami component \Nin fish, increases over time.
+Dialogue: 0,0:03:49.66,0:03:52.33,Main Dialogue,Kuro,0000,0000,0000,,The amount and development rate \Nof inosinic acid
+Dialogue: 0,0:03:52.33,0:03:54.88,Main Dialogue,Kuro,0000,0000,0000,,are dependent on the conditions \Nwhen the fish was caught.
+Dialogue: 0,0:03:55.49,0:03:58.38,Main Dialogue,Kuro,0000,0000,0000,,You need a certain amount of experience
+Dialogue: 0,0:03:58.38,0:04:00.34,Main Dialogue,Kuro,0000,0000,0000,,to gauge the fish's freshness and umami.
+Dialogue: 0,0:04:00.59,0:04:04.22,Main Dialogue,S,0000,0000,0000,,Oh, but it's not just about \Ngauging with the eye.
+Dialogue: 0,0:04:05.10,0:04:06.96,Main Dialogue,S,0000,0000,0000,,There's a way to tell by feel, too!
+Dialogue: 0,0:04:06.96,0:04:07.68,Main Dialogue,,0000,0000,0000,,Look!
+Dialogue: 0,0:04:09.42,0:04:11.07,Main Dialogue,M,0000,0000,0000,,Oh, wow!
+Dialogue: 0,0:04:11.07,0:04:12.10,Main Dialogue,M,0000,0000,0000,,Even though you're holding it by the tail,
+Dialogue: 0,0:04:12.10,0:04:13.56,Main Dialogue,M,0000,0000,0000,,it's standing straight up!
+Dialogue: 0,0:04:13.56,0:04:15.52,Main Dialogue,M,0000,0000,0000,,It's proof that the flesh is still firm!
+Dialogue: 0,0:04:15.96,0:04:18.90,Main Dialogue,S,0000,0000,0000,,The eyes and belly look fresh, too.
+Dialogue: 0,0:04:18.90,0:04:23.78,Main Dialogue,S,0000,0000,0000,,Without a doubt, this is the best \NPacific saury this shop has to offer today!
+Dialogue: 0,0:04:24.86,0:04:25.66,Main Dialogue,Kuro,0000,0000,0000,,You're wrong.
+Dialogue: 0,0:04:27.19,0:04:29.86,Main Dialogue,Kuro,0000,0000,0000,,I'll take this one.
+Dialogue: 0,0:04:29.86,0:04:30.60,Main Dialogue,M,0000,0000,0000,,What?
+Dialogue: 0,0:04:30.60,0:04:31.58,Main Dialogue,M,0000,0000,0000,,That?
+Dialogue: 0,0:04:31.58,0:04:34.28,Italics Dialogue,M,0000,0000,0000,,It's smaller than Soma-kun's Pacific saury,
+Dialogue: 0,0:04:34.28,0:04:36.71,Italics Dialogue,M,0000,0000,0000,,and the belly's flatter than his, too.
+Dialogue: 0,0:04:38.49,0:04:40.91,Main Dialogue,Kuro,0000,0000,0000,,You don't look convinced.
+Dialogue: 0,0:04:40.91,0:04:42.34,Main Dialogue,Kuro,0000,0000,0000,,Do you want to put them to the test?
+Dialogue: 0,0:04:43.55,0:04:45.90,Main Dialogue,Kuro,0000,0000,0000,,If we make sashimi with these two fish,
+Dialogue: 0,0:04:45.90,0:04:48.05,Main Dialogue,Kuro,0000,0000,0000,,you can tell which one's of higher quality,
+Dialogue: 0,0:04:48.37,0:04:51.46,Main Dialogue,Kuro,0000,0000,0000,,and which one of us \Nhas the more discerning eye.
+Dialogue: 0,0:04:54.96,0:04:57.25,Main Dialogue,M,0000,0000,0000,,Sorry for doing this at your storefront.
+Dialogue: 0,0:04:57.25,0:05:00.57,Main Dialogue,Store,0000,0000,0000,,Oh, it's fine, since they're Totsuki students.
+Dialogue: 0,0:05:12.58,0:05:15.29,Main Dialogue,Kuro,0000,0000,0000,,Try them, Tadokoro Megumi.
+Dialogue: 0,0:05:23.33,0:05:27.45,Main Dialogue,M,0000,0000,0000,,Soma-kun's Pacific saury... is less firm.
+Dialogue: 0,0:05:29.45,0:05:34.14,Main Dialogue,M,0000,0000,0000,,Kurokiba-kun's Pacific saury \Nhas firmer flesh, but why?
+Dialogue: 0,0:05:34.37,0:05:37.40,Main Dialogue,Alice,0000,0000,0000,,That's why there is a time lag \Nbetween that fish's rigor index
+Dialogue: 0,0:05:37.40,0:05:40.06,Main Dialogue,Alice,0000,0000,0000,,and breaking strength of the fish's flesh.
+Dialogue: 0,0:05:41.28,0:05:44.33,Main Dialogue Top,Alice,0000,0000,0000,,For Pacific saury, the rigor index, which \Nis the indicator of how firm the flesh is,
+Dialogue: 0,0:05:44.33,0:05:48.89,Main Dialogue Top,,0000,0000,0000,,gradually decreases after an average of ten hours \Nafter the fish was subjected to ikejime.
+Dialogue: 0,0:05:47.36,0:05:55.91,sign_8329_91_Rigor__Index____,Sign 0546,0000,0000,0000,,{\fad(500,1)}Rigor\N Index \N(%)
+Dialogue: 0,0:05:47.36,0:05:55.91,sign_8329_92_Time__hours_,Sign 0546,0000,0000,0000,,{\fad(500,1)}Time (hours)
+Dialogue: 0,0:05:48.89,0:05:52.35,Main Dialogue Top,Alice,0000,0000,0000,,But what determines mouthfeel \Nis the muscle's breaking strength.
+Dialogue: 0,0:05:52.35,0:05:55.91,Main Dialogue Top,Alice,0000,0000,0000,,That rapidly plummets after \Napproximately five hours.
+Dialogue: 0,0:05:56.19,0:05:58.73,Main Dialogue,M,0000,0000,0000,,That means, even if the flesh feels firm,
+Dialogue: 0,0:05:58.73,0:06:02.64,Main Dialogue,M,0000,0000,0000,,it may already have poor mouthfeel \Nif more than five hours have passed?
+Dialogue: 0,0:06:02.64,0:06:05.73,Main Dialogue,Alice,0000,0000,0000,,Yes, it's a pitfall when \Npicking Pacific saury.
+Dialogue: 0,0:06:05.73,0:06:08.59,Main Dialogue,Kuro,0000,0000,0000,,Well, not that it matters to me.
+Dialogue: 0,0:06:08.59,0:06:09.92,Main Dialogue,Alice,0000,0000,0000,,What's with that?!
+Dialogue: 0,0:06:09.92,0:06:11.39,Main Dialogue,Alice,0000,0000,0000,,I went through the trouble \Nof explaining it for you!
+Dialogue: 0,0:06:11.39,0:06:14.40,Main Dialogue,Kuro,0000,0000,0000,,I can tell by looking and touching it.
+Dialogue: 0,0:06:14.40,0:06:16.83,Main Dialogue,Kuro,0000,0000,0000,,I can tell how it was swimming in the sea,
+Dialogue: 0,0:06:16.83,0:06:18.97,Main Dialogue,Kuro,0000,0000,0000,,how good the ikejime technique was,
+Dialogue: 0,0:06:18.97,0:06:21.98,Main Dialogue,Kuro,0000,0000,0000,,and whether enough ice was used \Nwhen transporting the fish.
+Dialogue: 0,0:06:22.30,0:06:23.73,Main Dialogue,Kuro,0000,0000,0000,,I can tell everything.
+Dialogue: 0,0:06:24.47,0:06:25.92,Main Dialogue,Kuro,0000,0000,0000,,Listen, Yukihira.
+Dialogue: 0,0:06:25.92,0:06:28.39,Main Dialogue,Kuro,0000,0000,0000,,When something's in season,\N the quality of the ingredient and its flavor
+Dialogue: 0,0:06:28.39,0:06:31.03,Main Dialogue,Kuro,0000,0000,0000,,dramatically increase to incomparable levels.
+Dialogue: 0,0:06:31.34,0:06:32.51,Main Dialogue,Kuro,0000,0000,0000,,The flip side of that is,
+Dialogue: 0,0:06:32.51,0:06:34.74,Main Dialogue,Kuro,0000,0000,0000,,if you can't get the best,
+Dialogue: 0,0:06:34.74,0:06:37.70,Main Dialogue,Kuro,0000,0000,0000,,you're already putting yourself \Nat a big disadvantage.
+Dialogue: 0,0:06:38.22,0:06:40.60,Main Dialogue,Kuro,0000,0000,0000,,The reason I keep going to the fish market
+Dialogue: 0,0:06:40.60,0:06:42.30,Main Dialogue,Kuro,0000,0000,0000,,is that my feel for ingredients will dull
+Dialogue: 0,0:06:42.30,0:06:45.13,Main Dialogue,Kuro,0000,0000,0000,,if I spend even a short time away.
+Dialogue: 0,0:06:45.45,0:06:46.88,Main Dialogue,Kuro,0000,0000,0000,,It's been ten years now.
+Dialogue: 0,0:06:46.88,0:06:49.51,Main Dialogue,Kuro,0000,0000,0000,,That's how I've lived my life.
+Dialogue: 0,0:06:49.86,0:06:52.46,Main Dialogue,Kuro,0000,0000,0000,,I won't take a back seat to someone
+Dialogue: 0,0:06:52.46,0:06:54.67,Main Dialogue,Kuro,0000,0000,0000,,who's judging quality \Nwith half-assed knowledge.
+Dialogue: 0,0:06:57.65,0:06:59.08,Main Dialogue,Alice,0000,0000,0000,,Excuse us.
+Dialogue: 0,0:07:03.45,0:07:04.56,Main Dialogue,People,0000,0000,0000,,Now that I think about,
+Dialogue: 0,0:07:04.56,0:07:06.94,Main Dialogue,People,0000,0000,0000,,another Totsuki student was here earlier.
+Dialogue: 0,0:07:07.89,0:07:08.84,Main Dialogue,People,0000,0000,0000,,Oh, I saw him, too!
+Dialogue: 0,0:07:08.84,0:07:10.88,Main Dialogue,People,0000,0000,0000,,That tanned-looking hottie, right?
+Dialogue: 0,0:07:11.98,0:07:16.20,Main Dialogue,People,0000,0000,0000,,He was walking sort of looking down \Nwhen he suddenly stopped in his tracks, and...
+Dialogue: 0,0:07:18.05,0:07:19.39,Flashback Dialogue,Hayama,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:07:19.39,0:07:21.36,Flashback Dialogue,Hayama,0000,0000,0000,,I want the middle one in the front box,
+Dialogue: 0,0:07:21.36,0:07:24.37,Flashback Dialogue,Hayama,0000,0000,0000,,and the one second \Nfrom the left in the back box.
+Dialogue: 0,0:07:24.37,0:07:28.38,Main Dialogue,People,0000,0000,0000,,He chose my best fish of the day \Nwithout even taking a look!
+Dialogue: 0,0:07:28.73,0:07:30.00,Main Dialogue,People,0000,0000,0000,,Wow.
+Dialogue: 0,0:07:30.00,0:07:32.47,Main Dialogue,People,0000,0000,0000,,I bet hotties have good instincts!
+Dialogue: 0,0:07:32.90,0:07:36.43,Main Dialogue,S,0000,0000,0000,,So I guess they're much better than me \Nat judging ingredients.
+Dialogue: 0,0:07:36.74,0:07:39.06,Main Dialogue,S,0000,0000,0000,,If I can't get the best,
+Dialogue: 0,0:07:39.36,0:07:42.73,Main Dialogue,S,0000,0000,0000,,I'm already at a huge disadvantage, huh...
+Dialogue: 0,0:07:47.32,0:07:48.42,Main Dialogue,S,0000,0000,0000,,It's done.
+Dialogue: 0,0:07:48.42,0:07:48.98,Main Dialogue,M,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:50.94,0:07:52.45,sign_11292_136_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:50.94,0:07:52.45,sign_11292_137_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:50.94,0:07:52.45,sign_11292_138_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:50.94,0:07:52.45,sign_11292_139_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:50.94,0:07:52.45,sign_11292_140_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:57.95,0:07:59.70,sign_11292_136_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:57.95,0:07:59.70,sign_11292_137_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:57.95,0:07:59.70,sign_11292_138_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:57.95,0:07:59.70,sign_11292_139_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:57.95,0:07:59.70,sign_11292_140_Fall,Sign 0752,0000,0000,0000,,Autumn
+Dialogue: 0,0:07:58.34,0:07:59.70,Main Dialogue,M,0000,0000,0000,,It's so good!
+Dialogue: 0,0:08:00.07,0:08:02.43,Main Dialogue,S,0000,0000,0000,,Guess this is the power \Nof it being in season.
+Dialogue: 0,0:08:02.43,0:08:08.67,Main Dialogue,S,0000,0000,0000,,But I bet those two will find even better ones \Nthan this on the day of the match.
+Dialogue: 0,0:08:09.12,0:08:11.87,Main Dialogue,M,0000,0000,0000,,If you're going to try to reach their level,
+Dialogue: 0,0:08:11.87,0:08:15.63,Main Dialogue,M,0000,0000,0000,,you'll have to come here every day to study.
+Dialogue: 0,0:08:15.63,0:08:16.22,Main Dialogue,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:16.56,0:08:19.43,Main Dialogue,S,0000,0000,0000,,But it'll be tough.
+Dialogue: 0,0:08:21.43,0:08:22.17,Flashback Dialogue,S,0000,0000,0000,,Dad!
+Dialogue: 0,0:08:22.17,0:08:22.64,Flashback Dialogue,SDad,0000,0000,0000,,Yeah?
+Dialogue: 0,0:08:23.49,0:08:26.20,Flashback Dialogue,SDad,0000,0000,0000,,Hey, Soma. That sardine is no good.
+Dialogue: 0,0:08:26.20,0:08:26.79,Flashback Dialogue,S,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:26.79,0:08:27.67,Flashback Dialogue,S,0000,0000,0000,,Why?
+Dialogue: 0,0:08:28.57,0:08:31.44,Flashback Dialogue,SDad,0000,0000,0000,,Each type of fish has a million \Ndifferent pointers for its quality.
+Dialogue: 0,0:08:31.81,0:08:34.95,Flashback Dialogue,SDad,0000,0000,0000,,Even if you're only talking about one fish,
+Dialogue: 0,0:08:34.95,0:08:38.33,Flashback Dialogue,SDad,0000,0000,0000,,it'll take more than ten years \Nto be good at judging them.
+Dialogue: 0,0:08:38.33,0:08:39.75,Flashback Dialogue,S,0000,0000,0000,,Crap!
+Dialogue: 0,0:08:40.20,0:08:41.59,Main Dialogue,S,0000,0000,0000,,What a laugh.
+Dialogue: 0,0:08:41.59,0:08:44.06,Main Dialogue,S,0000,0000,0000,,I have less than ten days to go \Nuntil the match.
+Dialogue: 0,0:08:44.06,0:08:47.46,Main Dialogue,S,0000,0000,0000,,Besides, even if I get better \Nat choosing the fish,
+Dialogue: 0,0:08:47.46,0:08:52.30,Main Dialogue,S,0000,0000,0000,,it won't mean anything if I slack \Non brainstorming what dish to make.
+Dialogue: 0,0:08:52.30,0:08:53.69,Main Dialogue,M,0000,0000,0000,,You're right.
+Dialogue: 0,0:08:53.69,0:08:59.14,Main Dialogue,S,0000,0000,0000,,I bet those two will make dishes that'll \Nmaximize the best ingredients they can find.
+Dialogue: 0,0:08:59.74,0:09:01.16,Italics Dialogue,S,0000,0000,0000,,What should I do?
+Dialogue: 0,0:09:01.16,0:09:03.60,Italics Dialogue,S,0000,0000,0000,,Even now, those two are...
+Dialogue: 0,0:09:04.97,0:09:07.06,Main Dialogue,S,0000,0000,0000,,I guess I'm in trouble.
+Dialogue: 0,0:09:08.59,0:09:13.18,Main Dialogue,News,0000,0000,0000,,Professor Shiomi, can you tell us what \Nkind of assistant Hayama-kun is to you?
+Dialogue: 0,0:09:13.18,0:09:14.35,Main Dialogue,Jun,0000,0000,0000,,Uh...
+Dialogue: 0,0:09:14.35,0:09:18.99,Main Dialogue,Jun,0000,0000,0000,,Um, H-Hayama-kun is v-v-very competent!
+Dialogue: 0,0:09:18.99,0:09:22.57,Main Dialogue,Jun,0000,0000,0000,,He's an excellent a-a-assistant.
+Dialogue: 0,0:09:22.57,0:09:25.73,Main Dialogue,Hayama,0000,0000,0000,,Don't get so nervous over \Na simple interview, Jun.
+Dialogue: 0,0:09:22.57,0:09:27.50,Main Dialogue Top,Jun,0000,0000,0000,,Um, so, er, well, uh...
+Dialogue: 0,0:09:25.73,0:09:27.50,Main Dialogue,Hayama,0000,0000,0000,,You're such a research nerd.
+Dialogue: 0,0:09:27.50,0:09:28.75,Main Dialogue,Jun,0000,0000,0000,,Don't call me Jun!
+Dialogue: 0,0:09:29.18,0:09:32.25,Main Dialogue,News,0000,0000,0000,,Hayama-kun, is it true that you can tell \Nwhich Pacific saury is good
+Dialogue: 0,0:09:32.25,0:09:33.96,Main Dialogue,News,0000,0000,0000,,just from the smell alone?
+Dialogue: 0,0:09:34.20,0:09:35.21,Main Dialogue,Hayama,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:35.21,0:09:40.26,Main Dialogue,Hayama,0000,0000,0000,,The smell of fish comes from \Naldehydes and other components.
+Dialogue: 0,0:09:40.26,0:09:45.48,Main Dialogue,Hayama,0000,0000,0000,,They are produced when \Npolyunsaturated fatty acid oxidizes.
+Dialogue: 0,0:09:45.48,0:09:49.94,Main Dialogue,Hayama,0000,0000,0000,,My nose can detect the volatile compounds \Nreleased as a precursor to that process.
+Dialogue: 0,0:09:50.65,0:09:52.22,Main Dialogue,Hayama,0000,0000,0000,,It can also detect the stench of blood,
+Dialogue: 0,0:09:52.22,0:09:54.15,Main Dialogue,Hayama,0000,0000,0000,,and how much umami has developed.
+Dialogue: 0,0:09:54.54,0:09:57.23,Main Dialogue,Hayama,0000,0000,0000,,Ingredients give off a lot of information.
+Dialogue: 0,0:09:57.23,0:09:59.66,Main Dialogue,Hayama,0000,0000,0000,,Not only can I smell how fresh they are,
+Dialogue: 0,0:09:59.66,0:10:04.58,Main Dialogue,Hayama,0000,0000,0000,,I can figure out which Pacific saury \Nwill be best for my specific dish.
+Dialogue: 0,0:10:07.70,0:10:09.01,Main Dialogue,News,0000,0000,0000,,Hey, Mitsuru.
+Dialogue: 0,0:10:09.01,0:10:11.08,Main Dialogue,News,0000,0000,0000,,Did you finish interviewing Yukihira?
+Dialogue: 0,0:10:11.08,0:10:12.62,Main Dialogue,Mitsu,0000,0000,0000,,N-No.
+Dialogue: 0,0:10:12.62,0:10:15.85,Main Dialogue,Mitsu,0000,0000,0000,,He hasn't come back from the fish market yet.
+Dialogue: 0,0:10:15.85,0:10:18.50,Main Dialogue,Mitsu,0000,0000,0000,,I don't think he's started \Ntesting recipes yet.
+Dialogue: 0,0:10:18.50,0:10:20.89,Main Dialogue,News,0000,0000,0000,,So he's behind.
+Dialogue: 0,0:10:20.89,0:10:23.35,Main Dialogue,News,0000,0000,0000,,I figured Yukihira wasn't up to the task.
+Dialogue: 0,0:10:23.35,0:10:24.64,Main Dialogue,News,0000,0000,0000,,Just like most predicted,
+Dialogue: 0,0:10:24.93,0:10:27.47,Main Dialogue,News,0000,0000,0000,,looks like it'll be a face-off \Nbetween Hayama and Kurokiba.
+Dialogue: 0,0:10:28.48,0:10:30.19,sign_15069_199_Kitchen_No__5,Sign 1029,0000,0000,0000,,Kitchen No. 5
+Dialogue: 0,0:10:29.30,0:10:32.33,Main Dialogue,News,0000,0000,0000,,Kurokiba-kun, Hayama-kun seems to be \Npreparing himself at a steady pace,
+Dialogue: 0,0:10:32.33,0:10:34.57,Main Dialogue,News,0000,0000,0000,,but Yukihira-kun seems to be struggling.
+Dialogue: 0,0:10:34.57,0:10:37.11,Main Dialogue,News,0000,0000,0000,,Do you feel it's safe to say that you \Nhave one less rival to worry about?
+Dialogue: 0,0:10:37.49,0:10:40.11,Main Dialogue,Kuro,0000,0000,0000,,I don't consider them rivals.
+Dialogue: 0,0:10:40.11,0:10:42.33,Main Dialogue,Kuro,0000,0000,0000,,I don't care about Yukihira or Hayama.
+Dialogue: 0,0:10:42.33,0:10:44.41,Main Dialogue,Kuro,0000,0000,0000,,I'm the one who'll win, anyway.
+Dialogue: 0,0:10:44.41,0:10:48.87,Main Dialogue,News,0000,0000,0000,,I'm sorry, can you speak up a little louder?
+Dialogue: 0,0:10:50.47,0:10:53.54,Main Dialogue,News,0000,0000,0000,,You're going to use all this \Nin the Pacific saury dish?
+Dialogue: 0,0:10:55.52,0:10:57.30,Main Dialogue,Kuro,0000,0000,0000,,How long are you going to stick around?!
+Dialogue: 0,0:10:57.30,0:10:59.01,Main Dialogue,Kuro,0000,0000,0000,,Get out!
+Dialogue: 0,0:10:59.36,0:11:02.76,Main Dialogue,News,0000,0000,0000,,H-He said we could interview him earlier!
+Dialogue: 0,0:11:02.76,0:11:04.72,sign_15891_211_Do__Not__Enter,Sign 1103,0000,0000,0000,,Do \NNot \NEnter
+Dialogue: 0,0:11:04.99,0:11:06.72,Italics Dialogue,Hayama,0000,0000,0000,,They'd better not be thinking
+Dialogue: 0,0:11:06.72,0:11:09.02,Italics Dialogue,Hayama,0000,0000,0000,,that they've reached my level\Njust because of that curry match!
+Dialogue: 0,0:11:10.48,0:11:11.65,Italics Dialogue,Hayama,0000,0000,0000,,Yukihira...
+Dialogue: 0,0:11:12.27,0:11:13.42,Italics Dialogue,Hayama,0000,0000,0000,,...and...
+Dialogue: 0,0:11:14.16,0:11:16.57,Flashback Dialogue,Kuro,0000,0000,0000,,There's no heat from you about our battle.
+Dialogue: 0,0:11:17.29,0:11:18.77,Italics Dialogue,Hayama,0000,0000,0000,,Kurokiba Ryo...
+Dialogue: 0,0:11:18.77,0:11:20.57,Italics Dialogue,Hayama,0000,0000,0000,,I'll burn you both into cinders.
+Dialogue: 0,0:11:21.71,0:11:26.83,Main Dialogue,Hayama,0000,0000,0000,,I'm gonna redeem myself from the \Nhumiliating defeat at the semi-finals.
+Dialogue: 0,0:11:27.67,0:11:29.77,Flashback Dialogue,Hayama,0000,0000,0000,,It's hard to imagine \Nhow I could lose against you.
+Dialogue: 0,0:11:30.98,0:11:32.25,Italics Dialogue,Kuro,0000,0000,0000,,Hayama!
+Dialogue: 0,0:11:32.25,0:11:34.33,Italics Dialogue,Kuro,0000,0000,0000,,I'm the one who'll win!
+Dialogue: 0,0:11:36.36,0:11:37.80,Main Dialogue,M,0000,0000,0000,,Sorry, Fumio-san!
+Dialogue: 0,0:11:38.12,0:11:40.49,Main Dialogue,M,0000,0000,0000,,Thank you for coming to pick us up.
+Dialogue: 0,0:11:40.49,0:11:41.89,Main Dialogue,Fumio,0000,0000,0000,,No worries.
+Dialogue: 0,0:11:41.89,0:11:43.68,Main Dialogue,Fumio,0000,0000,0000,,Doing well in the Autumn Elections
+Dialogue: 0,0:11:43.68,0:11:46.88,Main Dialogue,Fumio,0000,0000,0000,,improves Polar Star Dormitory's prestige.
+Dialogue: 0,0:11:49.28,0:11:53.16,Main Dialogue,Fumio,0000,0000,0000,,But it looks like he's \Nhitting a wall of some sort.
+Dialogue: 0,0:11:53.16,0:11:53.77,Main Dialogue,M,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:54.10,0:11:56.61,Main Dialogue,M,0000,0000,0000,,Soma-kun's been like this for a while.
+Dialogue: 0,0:11:56.85,0:12:00.74,Main Dialogue,Fumio,0000,0000,0000,,It's true that the cards \Nare pretty stacked against you
+Dialogue: 0,0:12:00.74,0:12:02.81,Main Dialogue,Fumio,0000,0000,0000,,when you're up against \Ntwo such discerning opponents.
+Dialogue: 0,0:12:02.81,0:12:04.54,Main Dialogue,Fumio,0000,0000,0000,,If the playing field was a little more even,
+Dialogue: 0,0:12:04.54,0:12:07.65,Main Dialogue,Fumio,0000,0000,0000,,there are ways to narrow \Nthe gap in small ways.
+Dialogue: 0,0:12:07.65,0:12:08.41,Main Dialogue,M,0000,0000,0000,,Ways?
+Dialogue: 0,0:12:08.69,0:12:11.38,Main Dialogue,Fumio,0000,0000,0000,,For example, when you'll salt the fish.
+Dialogue: 0,0:12:11.38,0:12:12.41,Main Dialogue,Fumio,0000,0000,0000,,The taste will change
+Dialogue: 0,0:12:12.75,0:12:16.38,Main Dialogue,Fumio,0000,0000,0000,,depending on how long you salt the \NPacific saury before cooking it.
+Dialogue: 0,0:12:16.60,0:12:17.96,Main Dialogue,M,0000,0000,0000,,I see.
+Dialogue: 0,0:12:17.96,0:12:20.92,Main Dialogue,M,0000,0000,0000,,The salt will draw out the water \Nand make the flesh firmer.
+Dialogue: 0,0:12:20.92,0:12:22.34,Main Dialogue,M,0000,0000,0000,,It's the same principle as light pickling.
+Dialogue: 0,0:12:22.66,0:12:25.68,Main Dialogue,Fumio,0000,0000,0000,,You can also expect the umami to increase.
+Dialogue: 0,0:12:26.07,0:12:29.22,Main Dialogue,Fumio,0000,0000,0000,,On the flip side, if you let it rest \Nfor too long after salting,
+Dialogue: 0,0:12:29.22,0:12:30.64,Main Dialogue,Fumio,0000,0000,0000,,you'll lose out on the freshness.
+Dialogue: 0,0:12:31.68,0:12:33.30,Italics Dialogue,S,0000,0000,0000,,Time, huh...
+Dialogue: 0,0:12:34.80,0:12:37.75,Italics Dialogue,S,0000,0000,0000,,When it's freshly caught, \Nthere's not enough umami.
+Dialogue: 0,0:12:37.75,0:12:41.11,Italics Dialogue,S,0000,0000,0000,,But the more time passes, \Nthe less fresh it'll become.
+Dialogue: 0,0:12:42.97,0:12:47.15,Main Dialogue,S,0000,0000,0000,,It's often said that fish \Ntastes the best when it's overripe...
+Dialogue: 0,0:12:48.51,0:12:49.33,Main Dialogue,S,0000,0000,0000,,Wait a minute...
+Dialogue: 0,0:12:54.61,0:12:56.89,Main Dialogue,S,0000,0000,0000,,Ibusaki, there you are!
+Dialogue: 0,0:12:57.93,0:12:59.71,Main Dialogue,S,0000,0000,0000,,Sakaki!
+Dialogue: 0,0:13:00.95,0:13:01.84,Main Dialogue,S,0000,0000,0000,,Are you here?!
+Dialogue: 0,0:13:02.10,0:13:03.29,Main Dialogue,Ryoko,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:08.16,0:13:10.64,Main Dialogue,S,0000,0000,0000,,Nikumi!
+Dialogue: 0,0:13:10.99,0:13:13.20,Main Dialogue,Ikumi,0000,0000,0000,,Huh?! Yukihira?
+Dialogue: 0,0:13:13.20,0:13:15.56,Main Dialogue,S,0000,0000,0000,,Please come with me, Nikumi.
+Dialogue: 0,0:13:15.80,0:13:18.09,Main Dialogue,Ikumi,0000,0000,0000,,Huh? With you?
+Dialogue: 0,0:13:19.94,0:13:22.69,Main Dialogue,S,0000,0000,0000,,Sorry for asking you all to come here.
+Dialogue: 0,0:13:22.69,0:13:24.57,Main Dialogue,Ryo,0000,0000,0000,,What's going on, Yukihira-kun?
+Dialogue: 0,0:13:24.57,0:13:26.57,Main Dialogue,Ikumi,0000,0000,0000,,Not this again.
+Dialogue: 0,0:13:26.95,0:13:30.09,Main Dialogue,Ibu,0000,0000,0000,,You have no chance of winning \Nunless you can get the best Pacific saury
+Dialogue: 0,0:13:30.09,0:13:31.41,Main Dialogue,Ibu,0000,0000,0000,,on the day of the match, right?
+Dialogue: 0,0:13:31.68,0:13:34.16,Main Dialogue,S,0000,0000,0000,,I'm not going to go to the \Nfish market in the morning.
+Dialogue: 0,0:13:34.16,0:13:35.37,Main Dialogue,RII,0000,0000,0000,,What?
+Dialogue: 0,0:13:35.37,0:13:37.12,Main Dialogue,M,0000,0000,0000,,What do you mean, Soma-kun?
+Dialogue: 0,0:13:37.37,0:13:40.96,Main Dialogue,S,0000,0000,0000,,I'll go buy my Pacific saury \Na couple of days before the match.
+Dialogue: 0,0:13:41.46,0:13:44.20,Main Dialogue,S,0000,0000,0000,,I won't have much time to experiment,
+Dialogue: 0,0:13:44.20,0:13:46.47,Main Dialogue,S,0000,0000,0000,,but if I succeed, at the match itself,
+Dialogue: 0,0:13:46.77,0:13:48.97,Main Dialogue,S,0000,0000,0000,,I can have Pacific saury that surpasses \Nwhat the season has to offer!
+Dialogue: 0,0:13:49.35,0:13:50.25,Main Dialogue,Ryoko,0000,0000,0000,,So you mean...
+Dialogue: 0,0:13:50.25,0:13:50.93,Main Dialogue,,0000,0000,0000,,And so...
+Dialogue: 0,0:13:50.93,0:13:52.97,Main Dialogue,S,0000,0000,0000,,I'm going to age the fish!
+Dialogue: 0,0:13:53.32,0:13:54.83,Main Dialogue,M,0000,0000,0000,,Age the fish...
+Dialogue: 0,0:13:54.83,0:13:56.37,Main Dialogue,M,0000,0000,0000,,I see!
+Dialogue: 0,0:13:56.37,0:13:58.11,Main Dialogue,M,0000,0000,0000,,Ryoko-chan specializes in rice malt,
+Dialogue: 0,0:13:58.11,0:13:59.96,Main Dialogue,M,0000,0000,0000,,and Ibusaki-kun in smoking.
+Dialogue: 0,0:13:59.96,0:14:02.52,Main Dialogue,M,0000,0000,0000,,They're all experts in aging methods!
+Dialogue: 0,0:14:02.52,0:14:03.96,Main Dialogue,S,0000,0000,0000,,Nikumi is an expert, too.
+Dialogue: 0,0:14:03.96,0:14:06.39,Main Dialogue,S,0000,0000,0000,,You're up to speed \Non trendy aged meats, aren't you?
+Dialogue: 0,0:14:06.39,0:14:09.08,Main Dialogue,Ikumi,0000,0000,0000,,Yeah. You're talking about aged beef?
+Dialogue: 0,0:14:09.08,0:14:12.13,Main Dialogue,Ikumi,0000,0000,0000,,It involves controlling \Nthe temperature and humidity
+Dialogue: 0,0:14:12.13,0:14:13.95,Main Dialogue,Ikumi,0000,0000,0000,,while air-drying and resting meat.
+Dialogue: 0,0:14:14.17,0:14:17.99,Main Dialogue,S,0000,0000,0000,,The flavor of ingredients isn't \Nnecessarily dependent on freshness.
+Dialogue: 0,0:14:18.40,0:14:21.97,Main Dialogue,S,0000,0000,0000,,If I can succeed in aging the fish \Nto bring out its umami,
+Dialogue: 0,0:14:21.97,0:14:24.73,Main Dialogue,S,0000,0000,0000,,I bet I can compete with \Ntheir ability to judge fish!
+Dialogue: 0,0:14:24.73,0:14:27.55,Main Dialogue,S,0000,0000,0000,,So, can you guys please help me?
+Dialogue: 0,0:14:28.04,0:14:28.68,Main Dialogue,M,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:29.03,0:14:30.50,Main Dialogue,Ryoko,0000,0000,0000,,Of course!
+Dialogue: 0,0:14:30.50,0:14:32.76,Main Dialogue,Ryoko,0000,0000,0000,,We eat at the same table! We're family!
+Dialogue: 0,0:14:33.22,0:14:35.39,Main Dialogue,Ikumi,0000,0000,0000,,Yeah! It's worth a shot!
+Dialogue: 0,0:14:35.73,0:14:37.56,Main Dialogue,Ryoko,0000,0000,0000,,You'll help too, right, Ibusaki-kun?
+Dialogue: 0,0:14:37.56,0:14:39.52,Main Dialogue,Ibu,0000,0000,0000,,Well, sure, I guess.
+Dialogue: 0,0:14:39.52,0:14:40.77,Main Dialogue,S,0000,0000,0000,,All right!
+Dialogue: 0,0:14:40.77,0:14:42.40,Main Dialogue,S,0000,0000,0000,,Let's start testing!
+Dialogue: 0,0:14:42.40,0:14:43.52,Main Dialogue,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:44.39,0:14:47.40,Main Dialogue,Fumio,0000,0000,0000,,Ah, youth...
+Dialogue: 0,0:14:47.44,0:14:50.36,Days Until Sign,Sign 1449,0000,0000,0000,,{\fad(500,1)}9 Days Until the Match
+Dialogue: 0,0:14:48.19,0:14:50.36,Main Dialogue,S,0000,0000,0000,,I'll try three aging methods:
+Dialogue: 0,0:14:50.36,0:14:51.72,Main Dialogue,S,0000,0000,0000,,salted rice malt,
+Dialogue: 0,0:14:51.72,0:14:52.73,Main Dialogue,S,0000,0000,0000,,smoking,
+Dialogue: 0,0:14:52.73,0:14:56.41,Main Dialogue,S,0000,0000,0000,,and a high-humidity refrigerator.
+Dialogue: 0,0:14:56.86,0:14:59.20,Main Dialogue,S,0000,0000,0000,,Thanks for lending this to me, Nikumi.
+Dialogue: 0,0:14:59.20,0:15:01.37,Main Dialogue,Ikumi,0000,0000,0000,,I-It's nothing!
+Dialogue: 0,0:15:01.73,0:15:06.35,Main Dialogue,Ryoko,0000,0000,0000,,About the aging period, it's best \Nto let it rest at least three days.
+Dialogue: 0,0:15:06.35,0:15:08.12,Main Dialogue,Ibu,0000,0000,0000,,I'd say about the same \Nlength of time for smoking.
+Dialogue: 0,0:15:08.12,0:15:10.31,Main Dialogue,Ibu,0000,0000,0000,,Drying and salting take two days,
+Dialogue: 0,0:15:10.31,0:15:12.39,Main Dialogue,Ibu,0000,0000,0000,,and curing will take one whole day.
+Dialogue: 0,0:15:12.39,0:15:15.89,Main Dialogue,Ikumi,0000,0000,0000,,The fridge will also finish the job \Nin about three, four days.
+Dialogue: 0,0:15:16.19,0:15:17.35,Main Dialogue,M,0000,0000,0000,,I see.
+Dialogue: 0,0:15:17.35,0:15:18.76,Main Dialogue,M,0000,0000,0000,,With those timelines,
+Dialogue: 0,0:15:18.76,0:15:22.12,Main Dialogue,M,0000,0000,0000,,you can test each method twice.
+Dialogue: 0,0:15:22.12,0:15:23.83,Main Dialogue,S,0000,0000,0000,,Yeah, but only twice.
+Dialogue: 0,0:15:24.32,0:15:26.52,Main Dialogue,S,0000,0000,0000,,Will that be enough to surpass \Ntheir ability to judge fish?
+Dialogue: 0,0:15:26.91,0:15:27.90,Main Dialogue,S,0000,0000,0000,,It'll be intense.
+Dialogue: 0,0:15:30.14,0:15:33.36,Main Dialogue,Ryoko,0000,0000,0000,,You have to make sure that the \Nrice malt penetrates the fish.
+Dialogue: 0,0:15:33.36,0:15:34.70,Main Dialogue,Ryoko,0000,0000,0000,,It's important to control \Nthe temperature, too.
+Dialogue: 0,0:15:34.70,0:15:37.95,Main Dialogue,Ibu,0000,0000,0000,,The type of saumur liquid \Nand fumigant you use
+Dialogue: 0,0:15:37.95,0:15:39.83,Main Dialogue,Ibu,0000,0000,0000,,will both slightly affect the curing process.
+Dialogue: 0,0:15:39.83,0:15:45.06,Main Dialogue,Ikumi,0000,0000,0000,,By letting it rest at 3C and 90% humidity,
+Dialogue: 0,0:15:45.06,0:15:46.94,Main Dialogue,Ikumi,0000,0000,0000,,you'll lose just the \Nright amount of moisture,
+Dialogue: 0,0:15:46.94,0:15:49.30,Main Dialogue,Ikumi,0000,0000,0000,,which will concentrate the umami.
+Dialogue: 0,0:15:52.91,0:15:53.55,Main Dialogue,S,0000,0000,0000,,Great!
+Dialogue: 0,0:15:53.86,0:15:57.55,Main Dialogue,S,0000,0000,0000,,All three of them will be done \Nin three days.
+Dialogue: 0,0:15:57.55,0:16:00.00,Main Dialogue,S,0000,0000,0000,,I'm going to take advantage of this wait time
+Dialogue: 0,0:16:00.00,0:16:02.60,Main Dialogue,S,0000,0000,0000,,and do everything I can.
+Dialogue: 0,0:16:17.83,0:16:19.33,Main Dialogue Top,Ryoko,0000,0000,0000,,It's finally done.
+Dialogue: 0,0:16:18.95,0:16:22.25,Days Until Sign 2,Sign 1620,0000,0000,0000,,{\fad(500,1)}6 Days Until the Match
+Dialogue: 0,0:16:19.33,0:16:22.25,Main Dialogue Top,S,0000,0000,0000,,Yeah! The aged Pacific saury \Ntests are all done!
+Dialogue: 0,0:16:22.25,0:16:23.71,Main Dialogue,Ryoko,0000,0000,0000,,Well, no point in waiting!
+Dialogue: 0,0:16:30.33,0:16:31.55,Main Dialogue,Ikumi,0000,0000,0000,,They're great!
+Dialogue: 0,0:16:31.76,0:16:34.68,Main Dialogue,Ryoko,0000,0000,0000,,All of them have a vastly improved umami.
+Dialogue: 0,0:16:34.95,0:16:37.09,Main Dialogue,Ikumi,0000,0000,0000,,They're all great!
+Dialogue: 0,0:16:37.09,0:16:39.80,Main Dialogue,Ikumi,0000,0000,0000,,The salted rice malt one has \Na mellow and gentle depth of flavor.
+Dialogue: 0,0:16:37.20,0:16:53.53,sign_23909_335_Pacific_Saury__P,Sign 1640,0000,0000,0000,,{\fad(500,1)}Pacific Saury \NPickled with Salted Rice Malt
+Dialogue: 0,0:16:39.80,0:16:42.57,Main Dialogue,Ikumi,0000,0000,0000,,In terms of fragrance, \Nthe smoked one is the best!
+Dialogue: 0,0:16:40.83,0:16:53.53,sign_23996_336_Smoked_Pacific_S,Sign 1642,0000,0000,0000,,{\fad(500,1)}Smoked Pacific Saury
+Dialogue: 0,0:16:42.57,0:16:44.05,Main Dialogue,Ryoko,0000,0000,0000,,The one aged in high-humidity conditions
+Dialogue: 0,0:16:42.70,0:16:53.53,sign_24041_337_Pacific_Saury_Ag,Sign 1645,0000,0000,0000,,{\fad(500,1)}Pacific Saury Aged in \NHigh-Humidity Conditions
+Dialogue: 0,0:16:44.05,0:16:46.70,Main Dialogue,Ryoko,0000,0000,0000,,can be used in a lot of \Ndifferent dishes, too.
+Dialogue: 0,0:16:46.70,0:16:50.73,Main Dialogue,Ibu,0000,0000,0000,,Baked in foil, fried and marinated, \Nor broiled. They all sound good.
+Dialogue: 0,0:16:50.73,0:16:53.53,Main Dialogue,Ikumi,0000,0000,0000,,I bet it'd be great if you just \Nmake sushi with this, too!
+Dialogue: 0,0:16:53.53,0:16:54.15,Main Dialogue,M,0000,0000,0000,,But...
+Dialogue: 0,0:16:55.49,0:16:59.57,Main Dialogue,M,0000,0000,0000,,I still think Kurokiba-kun's \NPacific saury back at the fish market
+Dialogue: 0,0:16:59.57,0:17:00.87,Main Dialogue,M,0000,0000,0000,,tasted better.
+Dialogue: 0,0:17:01.41,0:17:03.03,Main Dialogue,S,0000,0000,0000,,Yeah, I thought so.
+Dialogue: 0,0:17:03.03,0:17:05.15,Main Dialogue,Ikumi,0000,0000,0000,,But it's been aged perfectly!
+Dialogue: 0,0:17:05.15,0:17:07.28,Main Dialogue,Ryoko,0000,0000,0000,,This still isn't enough?
+Dialogue: 0,0:17:11.28,0:17:12.73,Main Dialogue,Ikumi,0000,0000,0000,,Hey, Tadokoro.
+Dialogue: 0,0:17:12.73,0:17:14.76,Main Dialogue,Ikumi,0000,0000,0000,,Tell Yukihira something for me.
+Dialogue: 0,0:17:14.99,0:17:18.64,Main Dialogue,Ikumi,0000,0000,0000,,He can call me if he ever needs help.
+Dialogue: 0,0:17:19.03,0:17:19.84,Main Dialogue,M,0000,0000,0000,,Okay!
+Dialogue: 0,0:17:19.84,0:17:21.13,Main Dialogue,Ikumi,0000,0000,0000,,Later.
+Dialogue: 0,0:17:21.13,0:17:23.09,Main Dialogue,M,0000,0000,0000,,Good night, Mito-san.
+Dialogue: 0,0:17:28.06,0:17:33.40,Italics Dialogue,S,0000,0000,0000,,Was it pointless to try using aging\Nmethods to surpass their Pacific saury?
+Dialogue: 0,0:17:34.18,0:17:38.06,Italics Dialogue,S,0000,0000,0000,,Should I use the rest of my time \Nto study how to judge fish?
+Dialogue: 0,0:17:38.89,0:17:41.53,Italics Dialogue,S,0000,0000,0000,,No... it's too soon to give up on aging.
+Dialogue: 0,0:17:41.75,0:17:45.72,Italics Dialogue,S,0000,0000,0000,,All the Pacific saury I tested \Nhad much stronger umami.
+Dialogue: 0,0:17:45.72,0:17:47.87,Italics Dialogue,S,0000,0000,0000,,I'm on the right track here.
+Dialogue: 0,0:17:48.28,0:17:51.24,Italics Dialogue,S,0000,0000,0000,,I only have one more round of testing left.
+Dialogue: 0,0:17:51.24,0:17:54.20,Italics Dialogue,S,0000,0000,0000,,After that, I have to prepare \Nfor the actual match.
+Dialogue: 0,0:17:54.70,0:17:56.09,Italics Dialogue,S,0000,0000,0000,,What should I test?
+Dialogue: 0,0:17:56.32,0:18:00.28,Italics Dialogue,S,0000,0000,0000,,Something better than rice malt, curing, \Nor high-humidity aging...
+Dialogue: 0,0:18:01.01,0:18:03.52,Italics Dialogue,S,0000,0000,0000,,What would let me surpass those two?
+Dialogue: 0,0:18:05.00,0:18:06.17,Italics Dialogue,S,0000,0000,0000,,Think.
+Dialogue: 0,0:18:06.81,0:18:08.43,Italics Dialogue,S,0000,0000,0000,,What's better?
+Dialogue: 0,0:18:09.26,0:18:13.66,Italics Dialogue,S,0000,0000,0000,,I need a catalyst for aging Pacific saury. \NSomething to develop its umami!
+Dialogue: 0,0:18:18.66,0:18:20.78,Main Dialogue,S,0000,0000,0000,,Time to go buy Pacific saury.
+Dialogue: 0,0:18:22.90,0:18:24.71,Main Dialogue,Fumio,0000,0000,0000,,What's wrong, Yukihira?
+Dialogue: 0,0:18:24.71,0:18:26.29,Main Dialogue,Fumio,0000,0000,0000,,Why the long face?
+Dialogue: 0,0:18:27.45,0:18:30.15,Main Dialogue,Fumio,0000,0000,0000,,You're not gonna get any decent \Ntesting done like that.
+Dialogue: 0,0:18:30.15,0:18:31.96,Main Dialogue,Fumio,0000,0000,0000,,Stand up straight, won't you?
+Dialogue: 0,0:18:31.96,0:18:35.09,Main Dialogue,S,0000,0000,0000,,What, are you lecturing me while \Nenjoying your nighttime sake?
+Dialogue: 0,0:18:35.97,0:18:37.49,Main Dialogue,Fumio,0000,0000,0000,,Well, in times like that,
+Dialogue: 0,0:18:37.49,0:18:40.12,Main Dialogue,Fumio,0000,0000,0000,,it's important to stop what you're doing.
+Dialogue: 0,0:18:45.69,0:18:47.31,Main Dialogue,S,0000,0000,0000,,I love you, Fumio-san!
+Dialogue: 0,0:18:47.31,0:18:47.97,Main Dialogue,Fumio,0000,0000,0000,,Hey!
+Dialogue: 0,0:18:47.97,0:18:49.27,Main Dialogue,Fumio,0000,0000,0000,,You're going to spill my sake!
+Dialogue: 0,0:18:49.90,0:18:52.66,Main Dialogue,Fumio,0000,0000,0000,,Looks like you have an idea, Yukihira.
+Dialogue: 0,0:18:52.66,0:18:53.51,Main Dialogue,S,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:53.51,0:18:55.68,Main Dialogue,S,0000,0000,0000,,It just might work!
+Dialogue: 0,0:18:56.86,0:19:00.28,Days Until Sign 2,Sign 1900,0000,0000,0000,,{\fad(500,1)}Day of the Match: Early Morning
+Dialogue: 0,0:19:01.48,0:19:04.12,Italics Dialogue,Kuro,0000,0000,0000,,Yukihira Soma isn't here today, either.
+Dialogue: 0,0:19:04.46,0:19:06.07,Italics Dialogue,Hayama,0000,0000,0000,,What's his game?
+Dialogue: 0,0:19:06.07,0:19:08.08,Italics Dialogue,Hayama,0000,0000,0000,,He hasn't been here in days.
+Dialogue: 0,0:19:08.08,0:19:10.42,Italics Dialogue,Kuro,0000,0000,0000,,Did he give up on the match?
+Dialogue: 0,0:19:10.42,0:19:11.17,Italics Dialogue,Kuro,0000,0000,0000,,...No.
+Dialogue: 0,0:19:11.61,0:19:13.88,Italics Dialogue,Hiyama,0000,0000,0000,,He's better than that.
+Dialogue: 0,0:19:14.83,0:19:16.62,Italics Dialogue,HK,0000,0000,0000,,What's he planning?
+Dialogue: 0,0:19:24.30,0:19:31.56,sign_27916_389_Fall_Elections__,Sign 1926,0000,0000,0000,,Autumn Elections \NMain Tournament Finals
+Dialogue: 0,0:19:24.55,0:19:26.59,Main Dialogue,U,0000,0000,0000,,Thank you for waiting, everyone!
+Dialogue: 0,0:19:26.59,0:19:28.73,Main Dialogue,U,0000,0000,0000,,It's the Autumn Elections Finals!
+Dialogue: 0,0:19:28.73,0:19:31.56,Main Dialogue,U,0000,0000,0000,,The three candidates will enter the arena!
+Dialogue: 0,0:19:32.06,0:19:35.32,Main Dialogue,U,0000,0000,0000,,The Prince of Aroma, Candidate Hayama Akira!
+Dialogue: 0,0:19:38.11,0:19:41.53,Main Dialogue,U,0000,0000,0000,,The Dictator of the Kitchen, \NCandidate Kurokiba Ryo!
+Dialogue: 0,0:19:44.11,0:19:50.08,Main Dialogue,U,0000,0000,0000,,And the third, from the downtown diner, \NCandidate Yukihira Soma!
+Dialogue: 0,0:19:51.71,0:19:53.68,Main Dialogue,AS,0000,0000,0000,,Yukihira!
+Dialogue: 0,0:19:53.68,0:19:55.71,Main Dialogue,Yuki,0000,0000,0000,,We've got your back!
+Dialogue: 0,0:19:55.71,0:19:57.35,Main Dialogue,Ikumi,0000,0000,0000,,You can do it!
+Dialogue: 0,0:19:57.35,0:19:58.93,Main Dialogue,Ikumi,0000,0000,0000,,I believe in you!
+Dialogue: 0,0:19:58.93,0:20:03.22,Main Dialogue,U,0000,0000,0000,,We'll now begin the Autumn Election Finals!
+Dialogue: 0,0:20:04.14,0:20:07.47,Main Dialogue,I,0000,0000,0000,,Allow me to introduce to you \Nour honored judges today.
+Dialogue: 0,0:20:07.83,0:20:09.74,Main Dialogue,Yuki,0000,0000,0000,,Oh, Isshiki-senpai.
+Dialogue: 0,0:20:09.74,0:20:12.23,Main Dialogue,Ryoko,0000,0000,0000,,It's hard to recognize him \Nwhen he's wearing clothes.
+Dialogue: 0,0:20:12.23,0:20:16.00,Main Dialogue,Ikumi,0000,0000,0000,,Forget that. Did Yukihira finish \Ndeveloping his dish?
+Dialogue: 0,0:20:16.00,0:20:18.65,Main Dialogue,Ryoko,0000,0000,0000,,Well, none of us actually knows.
+Dialogue: 0,0:20:18.65,0:20:19.94,Main Dialogue,Ikumi,0000,0000,0000,,I see.
+Dialogue: 0,0:20:20.23,0:20:26.03,Main Dialogue,I,0000,0000,0000,,First, serving as the chair is \NAcademy Director Nakiri Senzaemon-dono.
+Dialogue: 0,0:20:26.95,0:20:31.09,Main Dialogue,I,0000,0000,0000,,Executive Chef of Totsuki Resort \Nand head of the tourism division,
+Dialogue: 0,0:20:31.09,0:20:32.62,Main Dialogue,I,0000,0000,0000,,Dojima Gin-senpai.
+Dialogue: 0,0:20:33.26,0:20:34.58,Main Dialogue,I,0000,0000,0000,,And we have one more:
+Dialogue: 0,0:20:35.54,0:20:40.21,Main Dialogue,I,0000,0000,0000,,head of Nakiri International, \NTotsuki's research division,
+Dialogue: 0,0:20:40.75,0:20:42.77,Main Dialogue,I,0000,0000,0000,,Nakiri Leonora-dono!
+Dialogue: 0,0:20:42.77,0:20:44.06,Main Dialogue,M,0000,0000,0000,,She's beautiful!
+Dialogue: 0,0:20:44.06,0:20:45.34,Main Dialogue,Yuki,0000,0000,0000,,She's so fair!
+Dialogue: 0,0:20:45.34,0:20:46.97,Main Dialogue,Ryoko,0000,0000,0000,,I wonder if she's Scandinavian.
+Dialogue: 0,0:20:46.97,0:20:48.18,Main Dialogue,Alice,0000,0000,0000,,Oh, my mom.
+Dialogue: 0,0:20:48.18,0:20:49.07,Main Dialogue,Yuki,0000,0000,0000,,What?!
+Dialogue: 0,0:20:50.28,0:20:53.50,Main Dialogue,I,0000,0000,0000,,Leonora-dono leads Nakiri International,
+Dialogue: 0,0:20:53.50,0:20:56.96,Main Dialogue,I,0000,0000,0000,,an academic institute that \Nconducts research on gourmet food
+Dialogue: 0,0:20:56.96,0:21:00.36,Main Dialogue,I,0000,0000,0000,,and molecular gastronomy, \Nusing cutting edge technology.
+Dialogue: 0,0:21:00.81,0:21:03.05,Main Dialogue,I,0000,0000,0000,,Would you be so kind as to say a few words?
+Dialogue: 0,0:21:09.09,0:21:11.79,Main Dialogue,L,0000,0000,0000,,G-Good day, everyone!
+Dialogue: 0,0:21:11.79,0:21:14.61,Main Dialogue,L,0000,0000,0000,,I am Nakiri Leonora, yes.
+Dialogue: 0,0:21:14.61,0:21:16.62,Main Dialogue,L,0000,0000,0000,,I live in Denmark!
+Dialogue: 0,0:21:16.62,0:21:18.90,Main Dialogue,L,0000,0000,0000,,Judging feels hard,
+Dialogue: 0,0:21:18.90,0:21:20.46,Main Dialogue,L,0000,0000,0000,,but I'll try my best!
+Dialogue: 0,0:21:20.46,0:21:22.01,Main Dialogue,Yuki,0000,0000,0000,,Her Japanese is horrible!
+Dialogue: 0,0:21:22.01,0:21:25.42,Main Dialogue,Alice,0000,0000,0000,,Mother, you should at least tell me \Nwhen you're coming to Japan!
+Dialogue: 0,0:21:25.42,0:21:26.57,Main Dialogue,E,0000,0000,0000,,Hey, Alice.
+Dialogue: 0,0:21:26.57,0:21:28.47,Main Dialogue,E,0000,0000,0000,,Only staff can be in here!
+Dialogue: 0,0:21:28.77,0:21:31.26,Main Dialogue,L,0000,0000,0000,,Oh, Alice, good to see you.
+Dialogue: 0,0:21:31.26,0:21:33.31,Main Dialogue,L,0000,0000,0000,,Erina-chan, you too.
+Dialogue: 0,0:21:33.92,0:21:36.64,Main Dialogue,L,0000,0000,0000,,You're super angry, as usual.
+Dialogue: 0,0:21:36.64,0:21:38.19,Main Dialogue,E,0000,0000,0000,,It's because of your daughter!
+Dialogue: 0,0:21:39.56,0:21:42.73,Main Dialogue,L,0000,0000,0000,,You're Yukihira-kun, \Nwho defeated my daughter?
+Dialogue: 0,0:21:43.15,0:21:45.44,Main Dialogue,L,0000,0000,0000,,I was big surprised!
+Dialogue: 0,0:21:45.44,0:21:49.24,Main Dialogue,L,0000,0000,0000,,That's why I'm looking forward \Nto your dish, okay?
+Dialogue: 0,0:21:50.14,0:21:54.67,Main Dialogue,L,0000,0000,0000,,If it's not good, I might get mad-angry!
+Dialogue: 0,0:23:25.00,0:23:28.92,Main Dialogue,I,0000,0000,0000,,First, let us see each\Ncandidate's Pacific saury
+Dialogue: 0,0:23:34.34,0:23:36.31,Main Dialogue,D,0000,0000,0000,,What exquisite shine and firmness.
+Dialogue: 0,0:23:36.31,0:23:38.44,Main Dialogue,D,0000,0000,0000,,They have nice fat, too.
+Dialogue: 0,0:23:38.44,0:23:40.27,Main Dialogue,D,0000,0000,0000,,They are like drawn blades!
+Dialogue: 0,0:23:41.48,0:23:44.48,Main Dialogue,E,0000,0000,0000,,Like famed swords, suitable for the finals!
+Dialogue: 0,0:23:44.73,0:23:45.47,Main Dialogue,Ikumi,0000,0000,0000,,Shit!
+Dialogue: 0,0:23:45.47,0:23:47.48,Main Dialogue,Ikumi,0000,0000,0000,,How can he win against fish like {\i1}that{\i0}?!
+Dialogue: 0,0:23:47.48,0:23:48.57,Main Dialogue,M,0000,0000,0000,,Soma-kun...
+Dialogue: 0,0:23:54.82,0:23:56.81,Main Dialogue,M,0000,0000,0000,,What?!
+Dialogue: 0,0:23:55.91,0:23:57.40,Main Dialogue,Sato,0000,0000,0000,,What is that?
+Dialogue: 0,0:23:57.40,0:23:58.69,Main Dialogue,Aoki,0000,0000,0000,,It doesn't look...
+Dialogue: 0,0:23:58.69,0:24:00.38,Main Dialogue,All,0000,0000,0000,,...like it's any kind of sword!
+Dialogue: 0,0:24:04.92,0:24:09.42,End Title,Sign,0000,0000,0000,,F{\c&H1744E8&}o{\c&H146FED&}o{\c&H1A8BED&}d \N{\c&H89B717&}Wars
+Dialogue: 0,0:24:04.92,0:24:09.42,End Title 2,Sign,0000,0000,0000,,{\fs18}The Second Plate
+Dialogue: 0,0:24:04.92,0:24:09.42,Next Episode,Sign,0000,0000,0000,,Next Episode: {\fs20}A Sword that Signals Autumn
+Dialogue: 0,0:24:06.02,0:24:09.42,Main Dialogue,Narr,0000,0000,0000,,Next time, "A Sword that Signals Autumn."
+Dialogue: 0,0:24:09.42,0:24:11.42,Next Episode,,0000,0000,0000,,

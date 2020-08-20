@@ -1,0 +1,481 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Ore_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ore_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ore_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ore_Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Show_Title,Open Sans Semibold,27,&H00D4A514,&H000000FF,&H00FDFDFD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,17,13,87,0
+Style: Ep_Title,Open Sans Semibold,36,&H00202C29,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,13,67,173,0
+Style: Next_Ep_Title,Open Sans Semibold,30,&H00FDFDFA,&H000000FF,&H003C3F3F,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,67,80,0
+Style: Ore_Show_Title,Open Sans Semibold,33,&H00DCA02E,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,4,160,13,13,1
+Style: hikigaya_03:01,Open Sans Semibold,27,&H004D4637,&H000000FF,&H00D5C9B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,187,13,213,1
+Style: Jalan_05:49,Open Sans Semibold,36,&H00CFE3D9,&H000000FF,&H004F9956,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,13,13,27,1
+Style: visit_05:49,Open Sans Semibold,18,&H0031797E,&H000000FF,&H0055E7E0,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,13,213,93,1
+Style: Tour,Open Sans Semibold,27,&H00C8C9D3,&H000000FF,&H006A41B9,&H00000000,0,0,0,0,100,100,0,0,1,4,0,6,13,200,93,1
+Style: trainboard_13:20,Open Sans Semibold,18,&H005293A4,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,220,13,27,1
+Style: hugesign_15:45,Open Sans Semibold,30,&H008573AF,&H000000FF,&H00D7F0DA,&H00000000,1,0,0,0,100,100,0,0,1,4,0,5,333,27,13,1
+Style: Marriage_17:02,Open Sans Semibold,24,&H002F38B8,&H000000FF,&H00A1DCE7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,600,13,133,1
+Style: goodmatch_17:02,Open Sans Semibold,24,&H005E6B70,&H000000FF,&H00F5FFF4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,3,13,600,133,1
+Style: lovefortune_17:04,Open Sans Semibold,30,&H00675ACE,&H000000FF,&H00E3E8EC,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,53,47,1
+Style: lovefortune_17:04 - Copy,Open Sans Semibold,27,&H00424449,&H000000FF,&H00E3E8EC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,13,53,120,1
+Style: hotel_18:13,Open Sans Semibold,21,&H0069768F,&H000000FF,&H00000000,&H00362525,1,0,0,0,100,100,0,-6,1,0,2,8,113,13,153,1
+Style: kyoto_18:28,Open Sans Semibold,33,&H002B3847,&H000000FF,&H004C46AC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,13,400,13,1
+Style: pan-san_18:28,Open Sans Semibold,24,&H00666C70,&H000000FF,&H00C7D5D4,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,320,13,93,1
+Style: souvenirs_18:42,Open Sans Semibold,30,&H004D4C7E,&H000000FF,&H00898AB7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,400,13,40,1
+Style: hotel_21:47,Open Sans Semibold,30,&H007590A5,&H000000FF,&H00000000,&H00362525,1,0,0,0,100,100,0,0,1,0,2,8,13,13,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.23,0:00:06.41,Ore_Italics,Song,0000,0000,0000,,I want to send them to you today
+Dialogue: 0,0:00:07.23,0:00:12.74,Ore_Italics,Song,0000,0000,0000,,The suddenly serious look \NI see in your profile
+Dialogue: 0,0:00:13.08,0:00:18.80,Ore_Italics,Song,0000,0000,0000,,Makes my heart race faster and faster
+Dialogue: 0,0:00:18.80,0:00:20.78,Ore_Italics,Song,0000,0000,0000,,You know? We go! Miracle
+Dialogue: 0,0:00:21.54,0:00:23.59,Ore_Italics,Song,0000,0000,0000,,Jesus, Jesus! Please hurry
+Dialogue: 0,0:00:23.04,0:00:28.17,Ore_Italics,Song,0000,0000,0000,,{\a6}Every time I look at you, \Nmy heart is pounding
+Dialogue: 0,0:00:28.17,0:00:33.97,Ore_Italics,Song,0000,0000,0000,,I want to be closer to you
+Dialogue: 0,0:00:33.97,0:00:39.30,Ore_Italics,Song,0000,0000,0000,,Please notice before this \Nsweet premonition melts
+Dialogue: 0,0:00:39.30,0:00:44.39,Ore_Italics,Song,0000,0000,0000,,I want to be special to you
+Dialogue: 0,0:00:46.81,0:00:50.71,Ore_Main,Hayama,0000,0000,0000,,Why is that the only way \Nyou can handle things?
+Dialogue: 0,0:01:00.53,0:01:02.58,Ore_Italics,Hachi,0000,0000,0000,,See? It's easy.
+Dialogue: 0,0:01:03.16,0:01:05.80,Ore_Italics,Hachi,0000,0000,0000,,I just created a world \Nwhere nobody gets hurt.
+Dialogue: 0,0:01:20.05,0:01:23.39,Ore_Show_Title,,0000,0000,0000,,{\fad(235,1)}My Teen\NRomantic\NComedy\N{\c&H8D39E0&}SNAFU\N{\c&HDCA02E&}TOO!
+Dialogue: 0,0:02:38.03,0:02:41.34,Ore_Italics,Hachi,0000,0000,0000,,After the cultural and athletic festivals \Nended with no major problems,
+Dialogue: 0,0:02:41.79,0:02:43.10,Ore_Italics,Hachi,0000,0000,0000,,the temperature dropped,
+Dialogue: 0,0:02:43.59,0:02:46.60,Ore_Italics,Hachi,0000,0000,0000,,and a wind better described as \Ncold than cool blew through.
+Dialogue: 0,0:02:47.20,0:02:50.23,Ore_Italics,Hachi,0000,0000,0000,,For that matter, it's even \Nmore bitterly cold around me.
+Dialogue: 0,0:02:50.94,0:02:52.18,Ore_Italics,Hachi,0000,0000,0000,,Nothing new there.
+Dialogue: 0,0:02:52.18,0:02:53.15,Ore_Main,Tobe,0000,0000,0000,,Hey!
+Dialogue: 0,0:02:53.15,0:02:56.00,Ore_Main,Tobe,0000,0000,0000,,No fair leaving me out! \NWhat Hikitani-kun is that?
+Dialogue: 0,0:02:56.00,0:02:57.17,Ore_Main,Tobe,0000,0000,0000,,Whattytani-kun?
+Dialogue: 0,0:02:57.17,0:02:58.99,Ore_Italics,Hachi,0000,0000,0000,,Yeah, yeah. Very funny.
+Dialogue: 0,0:02:59.70,0:03:02.70,Ore_Italics,Hachi,0000,0000,0000,,Also, my name isn't even Hikitani.
+Dialogue: 0,0:03:01.70,0:03:02.70,hikigaya_03:01,Text,0000,0000,0000,,Hikigaya
+Dialogue: 0,0:03:03.26,0:03:04.31,Ore_Main,Yui,0000,0000,0000,,Yahello!
+Dialogue: 0,0:03:05.42,0:03:06.17,Ore_Main,Hachi,0000,0000,0000,,Hey.
+Dialogue: 0,0:03:07.12,0:03:08.78,Ore_Main,Yui,0000,0000,0000,,You're coming to club today, right?
+Dialogue: 0,0:03:08.78,0:03:09.45,Ore_Main,Hachi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:09.45,0:03:11.83,Ore_Main,Yui,0000,0000,0000,,Okay, I'll see you there!
+Dialogue: 0,0:03:14.53,0:03:15.44,Ore_Main,Saika,0000,0000,0000,,Hachiman...
+Dialogue: 0,0:03:16.25,0:03:18.20,Ore_Main,Saika,0000,0000,0000,,I heard we're going to be picking groups for
+Dialogue: 0,0:03:18.20,0:03:20.34,Ore_Main,,0000,0000,0000,,the field trip in our next long homeroom.
+Dialogue: 0,0:03:20.71,0:03:21.73,Ore_Main,Hachi,0000,0000,0000,,Yeah?
+Dialogue: 0,0:03:22.09,0:03:24.45,Ore_Main,Hachi,0000,0000,0000,,I'd say everyone's pretty much \Ndecided already, though.
+Dialogue: 0,0:03:24.45,0:03:28.68,Ore_Main,Saika,0000,0000,0000,,You think so? I haven't decided yet...
+Dialogue: 0,0:03:32.97,0:03:35.02,Ore_Italics,Hachi,0000,0000,0000,,I want to protect this smile!
+Dialogue: 0,0:03:35.60,0:03:37.54,Ore_Main,Hachi,0000,0000,0000,,Want to be in the same group, then?
+Dialogue: 0,0:03:37.93,0:03:38.84,Ore_Main,Saika,0000,0000,0000,,Sure!
+Dialogue: 0,0:03:38.84,0:03:40.19,Ore_Main,Hina,0000,0000,0000,,Yeah, that's true.
+Dialogue: 0,0:03:41.84,0:03:42.86,Ore_Main,Hina,0000,0000,0000,,Hello, hello!
+Dialogue: 0,0:03:43.13,0:03:45.19,Ore_Main,Tobe,0000,0000,0000,,Hayato-kun, where've you been?
+Dialogue: 0,0:03:45.19,0:03:47.93,Ore_Main,Tobe,0000,0000,0000,,Going off on your own like \Nthat... Are you Whattytani-kun?
+Dialogue: 0,0:03:47.93,0:03:50.05,Ore_Main,Hayama,0000,0000,0000,,At least let me go to \Nthe bathroom by myself.
+Dialogue: 0,0:03:50.05,0:03:52.18,Ore_Main,Hayama,0000,0000,0000,,Also, you use that joke too much, Tobe.
+Dialogue: 0,0:03:52.18,0:03:52.87,Ore_Main,Tobe,0000,0000,0000,,Huh?!
+Dialogue: 0,0:03:52.47,0:03:54.90,Ore_Main,Ohoka,0000,0000,0000,,Yeah, go overboard with \Nthat and you'll flop.
+Dialogue: 0,0:03:54.90,0:03:56.21,Ore_Main,Ohoka,0000,0000,0000,,It's bound "Tobe" a flop!
+Dialogue: 0,0:03:56.21,0:03:59.40,Ore_Main,Tobe,0000,0000,0000,,I'm the joke now? Gimme a break, seriously!
+Dialogue: 0,0:04:10.86,0:04:12.06,Ore_Main,Yui,0000,0000,0000,,Thanks!
+Dialogue: 0,0:04:23.42,0:04:25.19,Ore_Main,Yukino,0000,0000,0000,,Your tea's getting cold.
+Dialogue: 0,0:04:26.90,0:04:28.62,Ore_Main,Hachi,0000,0000,0000,,I don't like hot stuff...
+Dialogue: 0,0:04:29.00,0:04:33.12,Ore_Main,Yui,0000,0000,0000,,You know, I wish our school \Ncould've gone to Okinawa, too.
+Dialogue: 0,0:04:33.12,0:04:35.04,Ore_Main,Yui,0000,0000,0000,,What is there to do in Kyoto, anyway?
+Dialogue: 0,0:04:35.53,0:04:37.69,Ore_Main,Yukino,0000,0000,0000,,There are plenty of things to do.
+Dialogue: 0,0:04:38.02,0:04:40.45,Ore_Main,Yukino,0000,0000,0000,,Like seeing and experiencing \NJapan's culture firsthand...
+Dialogue: 0,0:04:40.45,0:04:42.84,Ore_Main,Hachi,0000,0000,0000,,I don't think that's what it's about.
+Dialogue: 0,0:04:43.22,0:04:47.00,Ore_Main,Yukino,0000,0000,0000,,Oh? Why are we going on \Nthis field trip, then?
+Dialogue: 0,0:04:47.00,0:04:49.44,Ore_Main,Hachi,0000,0000,0000,,It's an imitation of social living.
+Dialogue: 0,0:04:49.44,0:04:49.89,Ore_Main,Yui,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:50.22,0:04:51.89,Ore_Main,Hachi,0000,0000,0000,,On a business trip with your superior,
+Dialogue: 0,0:04:51.89,0:04:54.52,Ore_Main,Hachi,0000,0000,0000,,you don't get to choose where you \Nstay or what you have for dinner.
+Dialogue: 0,0:04:55.09,0:04:57.93,Ore_Main,Hachi,0000,0000,0000,,This trains you to fool yourself \Ninto thinking that by compromising,
+Dialogue: 0,0:04:57.93,0:05:00.64,Ore_Main,,0000,0000,0000,,you get some enjoyment out of it.
+Dialogue: 0,0:05:01.06,0:05:04.16,Ore_Main,Yui,0000,0000,0000,,I bet you're no fun to go on \Na field trip with, Hikki.
+Dialogue: 0,0:05:04.16,0:05:08.53,Ore_Main,Yukino,0000,0000,0000,,There must be something you \Ntwo are looking forward to.
+Dialogue: 0,0:05:08.53,0:05:09.45,Ore_Main,Hachi,0000,0000,0000,,Maybe...
+Dialogue: 0,0:05:09.62,0:05:10.83,Ore_Italics,Hachi,0000,0000,0000,,Bathing with Totsuka?
+Dialogue: 0,0:05:10.83,0:05:14.33,Ore_Main,Yui,0000,0000,0000,,I haven't looked into it at all yet.
+Dialogue: 0,0:05:14.33,0:05:15.47,Ore_Main,Yui,0000,0000,0000,,What about you?
+Dialogue: 0,0:05:15.47,0:05:19.45,Ore_Main,Yukino,0000,0000,0000,,Well, I'm looking forward to seeing \NRyouanji and Kiyomizudera,
+Dialogue: 0,0:05:19.45,0:05:23.55,Ore_Main,Yukino,0000,0000,0000,,but I'd also like to see famous \Nplaces like Rokuonji and Jishouji.
+Dialogue: 0,0:05:24.24,0:05:25.97,Ore_Main,Yui,0000,0000,0000,,Rokuonjishouji?
+Dialogue: 0,0:05:25.97,0:05:26.84,Ore_Main,Hachi,0000,0000,0000,,Don't combine them.
+Dialogue: 0,0:05:27.13,0:05:29.64,Ore_Main,Hachi,0000,0000,0000,,That sounds like some cool \Nname for a character.
+Dialogue: 0,0:05:30.05,0:05:34.50,Ore_Main,Yukino,0000,0000,0000,,I suppose Kinkaku and Ginkaku \Nare their more common names.
+Dialogue: 0,0:05:34.95,0:05:36.64,Ore_Main,Yui,0000,0000,0000,,Then why didn't you just call them that?
+Dialogue: 0,0:05:36.64,0:05:37.65,Ore_Main,Yukino,0000,0000,0000,,Also...
+Dialogue: 0,0:05:39.49,0:05:40.77,Ore_Main,Yukino,0000,0000,0000,,I think that's about it.
+Dialogue: 0,0:05:41.11,0:05:42.18,Ore_Main,Yui,0000,0000,0000,,You know a lot!
+Dialogue: 0,0:05:42.18,0:05:44.22,Ore_Main,Hachi,0000,0000,0000,,What are you, Jalan?
+Dialogue: 0,0:05:44.22,0:05:46.59,Ore_Italics,Hachi,0000,0000,0000,,I think she's a little too \Nexcited about this...
+Dialogue: 0,0:05:46.59,0:05:50.38,Ore_Main,Yukino,0000,0000,0000,,Isn't familiarity with Kyoto \Nconsidered common knowledge?
+Dialogue: 0,0:05:49.16,0:05:50.82,Jalan_05:49,Text,0000,0000,0000,,Jalan
+Dialogue: 0,0:05:49.16,0:05:50.82,Tour,Text,0000,0000,0000,,Enjoy a Tour of\N{\fs26\b1}Kyoto
+Dialogue: 0,0:05:49.16,0:05:50.82,visit_05:49,Text,0000,0000,0000,,Now's the time \Nto visit Kyoto!!\NTop 100 recommended lodgings
+Dialogue: 0,0:05:57.40,0:05:58.16,Ore_Main,Yukino,0000,0000,0000,,What?
+Dialogue: 0,0:05:58.16,0:06:00.13,Ore_Main,Yui,0000,0000,0000,,Nothing, nothing!
+Dialogue: 0,0:06:03.31,0:06:04.28,Ore_Main,Yukino,0000,0000,0000,,Come in.
+Dialogue: 0,0:06:06.36,0:06:07.26,Ore_Main,Hayama,0000,0000,0000,,Hey.
+Dialogue: 0,0:06:07.69,0:06:09.14,Ore_Main,Yukino,0000,0000,0000,,Do you have business with us?
+Dialogue: 0,0:06:09.66,0:06:12.50,Ore_Main,Hayama,0000,0000,0000,,He wanted some help, so I brought him here.
+Dialogue: 0,0:06:12.50,0:06:16.89,Ore_Main,Tobe,0000,0000,0000,,Wait, I don't think I can ask \NHikitani-kun for help, after all.
+Dialogue: 0,0:06:16.13,0:06:16.89,Ore_Italics,Hachi,0000,0000,0000,,{\a6}What?
+Dialogue: 0,0:06:17.29,0:06:18.96,Ore_Main,Hayama,0000,0000,0000,,We're the ones who came to ask for help.
+Dialogue: 0,0:06:18.96,0:06:23.02,Ore_Main,Tobe,0000,0000,0000,,Yeah, but you know, I can't tell \NHikitani-kun about stuff like this.
+Dialogue: 0,0:06:23.02,0:06:24.57,Ore_Main,Tobe,0000,0000,0000,,He doesn't seem trustworthy at all.
+Dialogue: 0,0:06:24.98,0:06:26.32,Ore_Main,Yui,0000,0000,0000,,Snap.
+Dialogue: 0,0:06:27.18,0:06:29.61,Ore_Main,Yui,0000,0000,0000,,Tobecchi, was that really necessary?
+Dialogue: 0,0:06:29.61,0:06:33.23,Ore_Main,Yukino,0000,0000,0000,,Well, it's Hikigaya-kun's \Nfault. We can't help that.
+Dialogue: 0,0:06:33.23,0:06:34.03,Ore_Main,Yukino,0000,0000,0000,,It's only natural.
+Dialogue: 0,0:06:35.41,0:06:37.92,Ore_Main,Yukino,0000,0000,0000,,Then, forgive my asking, \Nbut would you leave?
+Dialogue: 0,0:06:37.92,0:06:40.50,Ore_Main,Hachi,0000,0000,0000,,Okay, call me whenever \Nyou're done with stuff.
+Dialogue: 0,0:06:40.50,0:06:42.70,Ore_Main,Yukino,0000,0000,0000,,Hold it. Where are you going?
+Dialogue: 0,0:06:42.70,0:06:43.48,Ore_Main,Hachi,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:44.51,0:06:46.56,Ore_Main,Yukino,0000,0000,0000,,I was asking them to leave.
+Dialogue: 0,0:06:47.61,0:06:50.88,Ore_Main,Yukino,0000,0000,0000,,No manners, no sense of propriety.
+Dialogue: 0,0:06:51.24,0:06:55.39,Ore_Main,Yukino,0000,0000,0000,,I don't see why we need to do any \Nfavors for someone like that.
+Dialogue: 0,0:06:56.07,0:06:58.43,Ore_Main,Yukino,0000,0000,0000,,I'd appreciate it if you'd leave right away.
+Dialogue: 0,0:06:58.43,0:07:00.14,Ore_Main,Yui,0000,0000,0000,,Yeah, you're kinda rude!
+Dialogue: 0,0:07:02.53,0:07:04.97,Ore_Main,Hayama,0000,0000,0000,,Well... I guess we were wrong.
+Dialogue: 0,0:07:04.97,0:07:06.64,Ore_Main,Hayama,0000,0000,0000,,Tobe, let's go.
+Dialogue: 0,0:07:06.64,0:07:07.92,Ore_Main,,0000,0000,0000,,We should figure this out ourselves.
+Dialogue: 0,0:07:07.92,0:07:11.00,Ore_Main,Tobe,0000,0000,0000,,No, I can't back out of this now!
+Dialogue: 0,0:07:12.69,0:07:14.66,Ore_Main,Tobe,0000,0000,0000,,Look, the thing is, I...
+Dialogue: 0,0:07:16.59,0:07:17.62,Ore_Main,Yui,0000,0000,0000,,For real?!
+Dialogue: 0,0:07:17.91,0:07:21.78,Ore_Main,Hachi,0000,0000,0000,,So basically, you want to ask \NEbina-san to go out with you?
+Dialogue: 0,0:07:21.78,0:07:23.41,Ore_Main,Tobe,0000,0000,0000,,Yeah, something like that!
+Dialogue: 0,0:07:23.41,0:07:25.25,Ore_Main,Tobe,0000,0000,0000,,It'd hurt to get rejected, you know?
+Dialogue: 0,0:07:26.40,0:07:27.76,Ore_Main,Hachi,0000,0000,0000,,You don't want to get rejected, huh...
+Dialogue: 0,0:07:28.00,0:07:30.24,Ore_Main,Yui,0000,0000,0000,,I love that sort of thing!
+Dialogue: 0,0:07:30.24,0:07:31.83,Ore_Main,Yui,0000,0000,0000,,We'll back you up!
+Dialogue: 0,0:07:33.06,0:07:35.68,Ore_Main,Hayama,0000,0000,0000,,I guess it won't be that easy, huh?
+Dialogue: 0,0:07:35.68,0:07:37.10,Ore_Main,Hachi,0000,0000,0000,,Well, I'd say not.
+Dialogue: 0,0:07:37.10,0:07:39.94,Ore_Main,Yukino,0000,0000,0000,,Sorry, but it looks like \Nwe can't be of any help.
+Dialogue: 0,0:07:39.94,0:07:43.81,Ore_Main,Yui,0000,0000,0000,,Aww, why not? Let's help him!
+Dialogue: 0,0:07:46.24,0:07:47.42,Ore_Main,Hachi,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:07:47.42,0:07:49.32,Ore_Main,,0000,0000,0000,,Don't try to force this decision on me.
+Dialogue: 0,0:07:49.32,0:07:51.45,Ore_Main,Tobe,0000,0000,0000,,Hikitani-kun... I mean...
+Dialogue: 0,0:07:51.45,0:07:53.60,Ore_Main,Tobe,0000,0000,0000,,Hikitani-san, please!
+Dialogue: 0,0:07:53.60,0:07:55.55,Ore_Italics,Hachi,0000,0000,0000,,Wait, wait. You're trying to look polite,
+Dialogue: 0,0:07:55.55,0:07:56.20,Ore_Main,Tobe,0000,0000,0000,,{\a6}Please!
+Dialogue: 0,0:07:55.55,0:07:57.87,Ore_Italics,,0000,0000,0000,,but you lapped yourself and \Njust ended up more impolite.
+Dialogue: 0,0:07:57.87,0:07:59.66,Ore_Main,Tobe,0000,0000,0000,,And you're still getting my name wrong.
+Dialogue: 0,0:07:57.95,0:07:58.71,Ore_Main,Hachi,0000,0000,0000,,Please, please!
+Dialogue: 0,0:07:59.82,0:08:03.10,Ore_Main,Yui,0000,0000,0000,,Yukinon, this is really bothering Tobecchi.
+Dialogue: 0,0:08:03.85,0:08:06.89,Ore_Main,Yukino,0000,0000,0000,,Well, if you insist, I'll think about it.
+Dialogue: 0,0:08:06.17,0:08:07.48,Ore_Italics,Hachi,0000,0000,0000,,Um, Yukinoshita-san?
+Dialogue: 0,0:08:07.48,0:08:09.67,Ore_Italics,,0000,0000,0000,,You're a bit too soft \Non Yuigahama-san lately.
+Dialogue: 0,0:08:13.32,0:08:15.47,Ore_Main,Hachi,0000,0000,0000,,All right, let's do this.
+Dialogue: 0,0:08:15.91,0:08:18.31,Ore_Main,Hachi,0000,0000,0000,,So, what exactly do you want us to do?
+Dialogue: 0,0:08:18.59,0:08:21.11,Ore_Main,Tobe,0000,0000,0000,,Well, you know, I tell her I like her, right?
+Dialogue: 0,0:08:21.11,0:08:22.23,Ore_Main,Tobe,0000,0000,0000,,So you help me do that?
+Dialogue: 0,0:08:22.47,0:08:23.59,Ore_Main,Yui,0000,0000,0000,,Aww!
+Dialogue: 0,0:08:23.34,0:08:25.60,Ore_Main,Hachi,0000,0000,0000,,Okay, it's clear what you're after.
+Dialogue: 0,0:08:26.06,0:08:29.11,Ore_Main,Hachi,0000,0000,0000,,But isn't that a little risky?
+Dialogue: 0,0:08:29.39,0:08:30.21,Ore_Main,Yui,0000,0000,0000,,Risky?
+Dialogue: 0,0:08:30.21,0:08:31.17,Ore_Main,Yukino,0000,0000,0000,,A risk.
+Dialogue: 0,0:08:31.55,0:08:33.96,Ore_Main,Yukino,0000,0000,0000,,It means there's a possibility \Nof danger or loss.
+Dialogue: 0,0:08:33.96,0:08:37.28,Ore_Main,Yui,0000,0000,0000,,I know what it means! I \Nmeant, what {\i1}kind{\i0} of risk?
+Dialogue: 0,0:08:37.61,0:08:39.83,Ore_Main,Hachi,0000,0000,0000,,Well, he tells her, right? \NThen she rejects him, right?
+Dialogue: 0,0:08:39.83,0:08:41.30,Ore_Main,Yui,0000,0000,0000,,That's already established?!
+Dialogue: 0,0:08:41.30,0:08:42.60,Ore_Main,Hachi,0000,0000,0000,,Not only that.
+Dialogue: 0,0:08:42.60,0:08:46.46,Ore_Main,Hachi,0000,0000,0000,,It's a given that the whole class \Nwill know about it the next day.
+Dialogue: 0,0:08:46.46,0:08:48.39,Ore_Main,Hachi,0000,0000,0000,,If they just know about it, that's fine,
+Dialogue: 0,0:08:48.39,0:08:51.05,Ore_Main,Hachi,0000,0000,0000,,but you'll hear it from all around...
+Dialogue: 0,0:08:51.46,0:08:54.09,Ore_Flashback,Girl,0000,0000,0000,,Hey, I heard Hikigaya \Ntold Kaori he liked her.
+Dialogue: 0,0:08:54.09,0:08:56.32,Ore_Flashback,Girl,0000,0000,0000,,Eww, poor Kaori!
+Dialogue: 0,0:08:56.32,0:08:58.12,Ore_Flashback,Girl,0000,0000,0000,,I'm glad I didn't give him my address!
+Dialogue: 0,0:08:58.12,0:09:00.78,Ore_Flashback,Girl,0000,0000,0000,,{\a6}You're safe. He wouldn't say that to you.
+Dialogue: 0,0:08:58.69,0:09:01.77,Ore_Main,Hachi,0000,0000,0000,,Then you'll come up in their \Nmerry little conversations.
+Dialogue: 0,0:09:01.77,0:09:03.93,Ore_Main,Hachi,0000,0000,0000,,There is a risk that you'll be slightly hurt.
+Dialogue: 0,0:09:04.33,0:09:06.32,Ore_Main,Yui,0000,0000,0000,,You were talking about yourself again.
+Dialogue: 0,0:09:06.32,0:09:07.65,Ore_Main,Hachi,0000,0000,0000,,I've got more.
+Dialogue: 0,0:09:07.65,0:09:10.19,Ore_Main,Hachi,0000,0000,0000,,Such as, what happens after you \Ntell someone you're friends
+Dialogue: 0,0:09:10.19,0:09:11.50,Ore_Main,,0000,0000,0000,,with that you like them...
+Dialogue: 0,0:09:11.50,0:09:13.61,Ore_Main,Hayama,0000,0000,0000,,Okay, we get the point.
+Dialogue: 0,0:09:13.95,0:09:15.36,Ore_Main,Hayama,0000,0000,0000,,We'll take care of that part.
+Dialogue: 0,0:09:16.23,0:09:18.02,Ore_Main,Hayama,0000,0000,0000,,Well, I've gotta get to my club.
+Dialogue: 0,0:09:21.42,0:09:25.75,Ore_Main,Yukino,0000,0000,0000,,So, let's start by looking \Nfor Tobe-kun's good points.
+Dialogue: 0,0:09:28.25,0:09:29.59,Ore_Main,Tobe,0000,0000,0000,,I'm friends with Hayato-kun?
+Dialogue: 0,0:09:29.59,0:09:31.17,Ore_Main,Yui,0000,0000,0000,,You're already relying on someone else!
+Dialogue: 0,0:09:31.17,0:09:32.81,Ore_Main,Hachi,0000,0000,0000,,Got anything else?
+Dialogue: 0,0:09:32.81,0:09:35.30,Ore_Main,Yui,0000,0000,0000,,Uh... He's cheerful?
+Dialogue: 0,0:09:35.30,0:09:37.63,Ore_Main,Hachi,0000,0000,0000,,If cheerfulness were enough, \Nbald guys could be popular.
+Dialogue: 0,0:09:38.28,0:09:39.48,Ore_Main,Hachi,0000,0000,0000,,You, Yukinoshita?
+Dialogue: 0,0:09:39.48,0:09:40.47,Ore_Main,Yukino,0000,0000,0000,,Let me see...
+Dialogue: 0,0:09:40.88,0:09:45.75,Ore_Main,Yukino,0000,0000,0000,,He's loud... No, he's noisy... Raucous...
+Dialogue: 0,0:09:46.15,0:09:47.81,Ore_Main,Yukino,0000,0000,0000,,He's very lively?
+Dialogue: 0,0:09:47.81,0:09:48.87,Ore_Main,Yukino,0000,0000,0000,,How's that?
+Dialogue: 0,0:09:48.87,0:09:50.33,Ore_Main,Hachi,0000,0000,0000,,Okay, I got it.
+Dialogue: 0,0:09:51.04,0:09:52.03,Ore_Main,Hachi,0000,0000,0000,,We're changing plans.
+Dialogue: 0,0:09:52.03,0:09:52.98,Ore_Main,Yui,0000,0000,0000,,That was fast!
+Dialogue: 0,0:09:52.98,0:09:54.87,Ore_Main,Hachi,0000,0000,0000,,Instead of looking for Tobe's good points,
+Dialogue: 0,0:09:54.87,0:09:56.61,Ore_Main,Hachi,0000,0000,0000,,let's try appealing to what Ebina-san likes.
+Dialogue: 0,0:09:57.09,0:09:58.73,Ore_Main,Yui,0000,0000,0000,,Oh, I get it!
+Dialogue: 0,0:09:59.10,0:10:02.82,Ore_Main,Yukino,0000,0000,0000,,By the way, how does Ebina-san \Nfeel about Tobe-kun?
+Dialogue: 0,0:10:02.82,0:10:03.37,Ore_Main,Yui,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:03.94,0:10:05.54,Ore_Main,Yui,0000,0000,0000,,G-Good question...
+Dialogue: 0,0:10:05.54,0:10:07.79,Ore_Italics,Hachi,0000,0000,0000,,Ah. Looks like we've got our answer.
+Dialogue: 0,0:10:08.18,0:10:11.44,Ore_Main,Tobe,0000,0000,0000,,Oh, man! You totally got me all curious!
+Dialogue: 0,0:10:11.44,0:10:12.63,Ore_Main,Hachi,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:10:12.63,0:10:15.11,Ore_Main,Hachi,0000,0000,0000,,You know what this is, right? \NThe final judgment.
+Dialogue: 0,0:10:15.11,0:10:18.29,Ore_Main,Tobe,0000,0000,0000,,Nah, I can't move forward if I \Ndon't know the answer to that!
+Dialogue: 0,0:10:19.12,0:10:21.22,Ore_Italics,Hachi,0000,0000,0000,,Okay, go ahead.
+Dialogue: 0,0:10:24.89,0:10:28.02,Ore_Main,Yui,0000,0000,0000,,She thinks you're a nice guy... I think.
+Dialogue: 0,0:10:28.02,0:10:29.48,Ore_Italics,Hachi,0000,0000,0000,,Ugh, I could cry...
+Dialogue: 0,0:10:29.86,0:10:31.50,Ore_Italics,Hachi,0000,0000,0000,,When a girl says a guy is nice,
+Dialogue: 0,0:10:31.50,0:10:34.02,Ore_Italics,,0000,0000,0000,,that means she couldn't care less about him.
+Dialogue: 0,0:10:34.64,0:10:36.00,Ore_Main,Tobe,0000,0000,0000,,That's a plus for me, right?
+Dialogue: 0,0:10:36.00,0:10:38.11,Ore_Italics,Hachi,0000,0000,0000,,The only plus here is your outlook.
+Dialogue: 0,0:10:39.21,0:10:40.20,Ore_Main,Yui,0000,0000,0000,,I've got it!
+Dialogue: 0,0:10:40.85,0:10:43.81,Ore_Main,Yui,0000,0000,0000,,You get a good mood going \Nwhile we're exploring Kyoto!
+Dialogue: 0,0:10:43.81,0:10:46.69,Ore_Main,Yui,0000,0000,0000,,Hina said she likes Kyoto, \Nso I think it'll work!
+Dialogue: 0,0:10:47.21,0:10:51.59,Ore_Main,Yukino,0000,0000,0000,,That means we'll have to create \Na situation in which Tobe-kun
+Dialogue: 0,0:10:51.59,0:10:53.63,Ore_Main,,0000,0000,0000,,and Ebina-san are together, right?
+Dialogue: 0,0:10:54.86,0:10:55.71,Ore_Main,Yukino,0000,0000,0000,,Come in.
+Dialogue: 0,0:10:56.25,0:10:57.89,Ore_Main,Hina,0000,0000,0000,,Sorry to interrupt.
+Dialogue: 0,0:10:57.89,0:10:58.55,Ore_Main,Yui,0000,0000,0000,,Oh...
+Dialogue: 0,0:10:58.99,0:11:00.30,Ore_Main,Yui,0000,0000,0000,,Hina-chan!
+Dialogue: 0,0:11:00.30,0:11:02.68,Ore_Main,Hina,0000,0000,0000,,Hey, Yui. Hello, hello.
+Dialogue: 0,0:11:03.12,0:11:04.29,Ore_Main,Yui,0000,0000,0000,,Yahello!
+Dialogue: 0,0:11:04.72,0:11:06.93,Ore_Italics,Hachi,0000,0000,0000,,What is that? Some tribe's \Ntraditional greeting?
+Dialogue: 0,0:11:07.21,0:11:10.41,Ore_Main,Hina,0000,0000,0000,,And Yukinoshita-san and \NHikitani-kun, hello, hello!
+Dialogue: 0,0:11:10.41,0:11:11.10,Ore_Main,Hachi,0000,0000,0000,,Hi.
+Dialogue: 0,0:11:11.10,0:11:12.61,Ore_Main,Yukino,0000,0000,0000,,Please sit wherever you like.
+Dialogue: 0,0:11:13.40,0:11:14.80,Ore_Main,Yui,0000,0000,0000,,What's up?
+Dialogue: 0,0:11:14.80,0:11:16.40,Ore_Main,Hina,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:11:17.18,0:11:21.15,Ore_Main,Hina,0000,0000,0000,,I wanted to talk to you about Tobecchi...
+Dialogue: 0,0:11:22.06,0:11:24.49,Ore_Main,Yui,0000,0000,0000,,T-T-T-Tobecchi?! What about him?
+Dialogue: 0,0:11:24.90,0:11:26.91,Ore_Main,Hina,0000,0000,0000,,Well, Tobecchi...
+Dialogue: 0,0:11:26.91,0:11:28.32,Ore_Main,Yui,0000,0000,0000,,Tobecchi...?
+Dialogue: 0,0:11:29.53,0:11:30.79,Ore_Main,Hina,0000,0000,0000,,Tobecchi...
+Dialogue: 0,0:11:30.79,0:11:32.54,Ore_Main,Hina,0000,0000,0000,,...seems to be getting along
+Dialogue: 0,0:11:32.54,0:11:34.96,Ore_Main,,0000,0000,0000,,really well with Hayato-kun \Nand Hikitani-kun lately,
+Dialogue: 0,0:11:34.96,0:11:37.88,Ore_Main,Hina,0000,0000,0000,,and I think it's making Ohoka-kun \Nand Yamato-kun frustrated!
+Dialogue: 0,0:11:37.88,0:11:40.30,Ore_Main,Hina,0000,0000,0000,,I want to see more depraved \Nrelationships between them!
+Dialogue: 0,0:11:40.30,0:11:43.87,Ore_Main,Hina,0000,0000,0000,,This is ruining their triangle heart!
+Dialogue: 0,0:11:49.20,0:11:50.22,Ore_Main,Yui,0000,0000,0000,,Um...
+Dialogue: 0,0:11:50.22,0:11:53.89,Ore_Main,Hina,0000,0000,0000,,Tobecchi's been talking to \NHikitani-kun a lot lately, right?
+Dialogue: 0,0:11:53.89,0:11:56.40,Ore_Main,Hina,0000,0000,0000,,And giving him suggestive looks...
+Dialogue: 0,0:11:57.07,0:11:59.13,Ore_Main,Hina,0000,0000,0000,,Listen, if you're going to invite someone,
+Dialogue: 0,0:11:59.13,0:12:00.67,Ore_Main,,0000,0000,0000,,I wish you'd invite all of them.
+Dialogue: 0,0:12:00.67,0:12:02.75,Ore_Main,Hina,0000,0000,0000,,And then accept all of them.
+Dialogue: 0,0:12:02.75,0:12:05.16,Ore_Main,Hina,0000,0000,0000,,To cut to the chase, \NI want you to seduce them.
+Dialogue: 0,0:12:05.16,0:12:06.16,Ore_Main,Hachi,0000,0000,0000,,Nope. Not happening.
+Dialogue: 0,0:12:06.48,0:12:08.57,Ore_Main,Yukino,0000,0000,0000,,What are you saying?
+Dialogue: 0,0:12:08.57,0:12:13.42,Ore_Main,Hina,0000,0000,0000,,Well, it feels like that whole \Ngroup isn't the same now.
+Dialogue: 0,0:12:13.98,0:12:18.84,Ore_Main,Yui,0000,0000,0000,,But there's some complicated stuff that \Ngoes on between guys, isn't there?
+Dialogue: 0,0:12:18.84,0:12:20.43,Ore_Main,Yui,0000,0000,0000,,Like relationships with others...
+Dialogue: 0,0:12:20.43,0:12:22.90,Ore_Main,Hina,0000,0000,0000,,Complicated relationships between boys...
+Dialogue: 0,0:12:22.90,0:12:24.51,Ore_Main,Hina,0000,0000,0000,,Goodness, Yui, how lewd.
+Dialogue: 0,0:12:24.51,0:12:26.18,Ore_Main,Yui,0000,0000,0000,,Did I say something weird?!
+Dialogue: 0,0:12:26.18,0:12:28.72,Ore_Main,Hachi,0000,0000,0000,,No, what you said was perfectly \Nrespectable. Don't worry.
+Dialogue: 0,0:12:29.43,0:12:32.19,Ore_Main,Hina,0000,0000,0000,,But it's definitely something \Nthat's never happened before,
+Dialogue: 0,0:12:32.19,0:12:33.90,Ore_Main,Hina,0000,0000,0000,,and I guess I don't like that.
+Dialogue: 0,0:12:33.90,0:12:36.40,Ore_Main,Hina,0000,0000,0000,,I want them to get along as \Nwell as they always have.
+Dialogue: 0,0:12:36.70,0:12:41.08,Ore_Main,Hina,0000,0000,0000,,Oh, but I think it'd be great if you'd \Nget along with them, too, Hikitani-kun!
+Dialogue: 0,0:12:41.08,0:12:42.78,Ore_Main,Hina,0000,0000,0000,,It'd be a feast for my eyes, too.
+Dialogue: 0,0:12:43.06,0:12:45.25,Ore_Main,Hina,0000,0000,0000,,Well, I'll be looking forward to some...
+Dialogue: 0,0:12:45.25,0:12:47.41,Ore_Main,Hina,0000,0000,0000,,{\i1}tasty{\i0} developments on the field trip.
+Dialogue: 0,0:12:48.71,0:12:50.12,Ore_Main,Hina,0000,0000,0000,,Invite them!
+Dialogue: 0,0:12:51.85,0:12:54.16,Ore_Main,Hina,0000,0000,0000,,Counting on you, Hikitani-kun!
+Dialogue: 0,0:12:56.64,0:12:58.14,Ore_Main,Yukino,0000,0000,0000,,What was that?
+Dialogue: 0,0:12:58.14,0:12:59.20,Ore_Main,Hachi,0000,0000,0000,,No idea.
+Dialogue: 0,0:12:59.20,0:13:02.92,Ore_Main,Hachi,0000,0000,0000,,Anyway, we just need to make sure \Nthey can all get along, right?
+Dialogue: 0,0:13:02.92,0:13:04.17,Ore_Main,Yui,0000,0000,0000,,Yeah...
+Dialogue: 0,0:13:04.17,0:13:07.89,Ore_Main,,0000,0000,0000,,But, Hikki, how do guys get to be friends?
+Dialogue: 0,0:13:08.57,0:13:12.06,Ore_Main,Yukino,0000,0000,0000,,Don't you think it's a bit cruel \Nto ask that of Hikigaya-kun?
+Dialogue: 0,0:13:12.67,0:13:16.48,Ore_Main,Yukino,0000,0000,0000,,Yuigahama-san, try to be a \Nlittle more considerate, okay?
+Dialogue: 0,0:13:16.84,0:13:20.02,Ore_Italics,Hachi,0000,0000,0000,,Yeah, what you just said. \NBe more considerate.
+Dialogue: 0,0:13:20.77,0:13:22.32,trainboard_13:20,Text,0000,0000,0000,,Nozomi 19  {\c&HCED2CF&}9:10  Hakata  Unreserved seats in cars 1-3\NOut of Service  701  Out of service. Passengers may not board.\N{\c&H422C25&}Kodama 645  {\c&HCFD4D0&}9:56  Shin-Osaka  Unreserved seats in cars 1-7, 13-15
+Dialogue: 0,0:13:23.77,0:13:24.97,Ore_Main,Yui,0000,0000,0000,,Hmm...
+Dialogue: 0,0:13:24.97,0:13:26.70,Ore_Main,Yui,0000,0000,0000,,So, how should we sit?
+Dialogue: 0,0:13:26.70,0:13:27.99,Ore_Main,Hayama,0000,0000,0000,,However we want?
+Dialogue: 0,0:13:27.99,0:13:29.90,Ore_Main,Yumiko,0000,0000,0000,,I want a window seat.
+Dialogue: 0,0:13:30.36,0:13:32.08,Ore_Main,Yumiko,0000,0000,0000,,Thanks, Hayato.
+Dialogue: 0,0:13:32.74,0:13:34.50,Ore_Main,Yumiko,0000,0000,0000,,Come on, Yui, Ebina.
+Dialogue: 0,0:13:34.50,0:13:37.41,Ore_Main,Yui,0000,0000,0000,,Okay, Hina can sit there, \Nand Tobecchi can sit next to...
+Dialogue: 0,0:13:37.41,0:13:39.62,Ore_Main,Hina,0000,0000,0000,,Okay, Yui, you sit there.
+Dialogue: 0,0:13:39.62,0:13:40.72,Ore_Main,Hina,0000,0000,0000,,I'm sitting here.
+Dialogue: 0,0:13:40.72,0:13:42.18,Ore_Main,,0000,0000,0000,,Kawasaki-san, you're across from me.
+Dialogue: 0,0:13:42.87,0:13:45.01,Ore_Main,Saki,0000,0000,0000,,N-No, I'll sit somewhere el—
+Dialogue: 0,0:13:45.01,0:13:46.47,Ore_Main,Hina,0000,0000,0000,,Just come on!
+Dialogue: 0,0:13:50.58,0:13:52.47,Ore_Main,Saika,0000,0000,0000,,Where should we sit?
+Dialogue: 0,0:13:57.63,0:13:59.44,Ore_Main,Saika,0000,0000,0000,,Hachiman...
+Dialogue: 0,0:14:00.68,0:14:03.31,Ore_Main,Yui,0000,0000,0000,,Whew, this isn't easy.
+Dialogue: 0,0:14:03.74,0:14:05.43,Ore_Main,Hachi,0000,0000,0000,,Did something happen with them?
+Dialogue: 0,0:14:05.43,0:14:06.74,Ore_Main,Yui,0000,0000,0000,,Well...
+Dialogue: 0,0:14:07.24,0:14:10.23,Ore_Main,Yui,0000,0000,0000,,Tobecchi's so freaked out with \NKawasaki-san next to him,
+Dialogue: 0,0:14:10.23,0:14:12.95,Ore_Main,Yui,0000,0000,0000,,he can't keep up a conversation at all.
+Dialogue: 0,0:14:12.95,0:14:17.24,Ore_Main,Hina,0000,0000,0000,,{\a6}Saki-san, do you think a window \Nseat or an aisle seat is more uke?
+Dialogue: 0,0:14:13.39,0:14:15.82,Ore_Main,Yui,0000,0000,0000,,Hina-chan is even more incredible \Nthan usual, though...
+Dialogue: 0,0:14:16.43,0:14:18.06,Ore_Main,Hachi,0000,0000,0000,,That's a disaster for Tobe, too.
+Dialogue: 0,0:14:18.90,0:14:21.40,Ore_Main,Yui,0000,0000,0000,,I hope they'll have time to be alone...
+Dialogue: 0,0:14:21.40,0:14:24.41,Ore_Main,Hachi,0000,0000,0000,,I don't think anything would happen \Nif those two were alone, though.
+Dialogue: 0,0:14:24.75,0:14:25.78,Ore_Main,Yui,0000,0000,0000,,True...
+Dialogue: 0,0:14:26.29,0:14:28.01,Ore_Main,Saika,0000,0000,0000,,You mean Tobe-kun's...
+Dialogue: 0,0:14:28.84,0:14:30.65,Ore_Main,Yui,0000,0000,0000,,Sai-chan, you heard us?
+Dialogue: 0,0:14:30.65,0:14:34.46,Ore_Main,Saika,0000,0000,0000,,Yeah... But I found out about it \Nover summer break, in Chiba Village.
+Dialogue: 0,0:14:34.93,0:14:36.11,Ore_Main,Saika,0000,0000,0000,,Right, Hachiman?
+Dialogue: 0,0:14:36.11,0:14:37.43,Ore_Main,Hachi,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:14:38.56,0:14:43.65,Ore_Flashback,Tobe,0000,0000,0000,,I actually think Ebina-san's pretty cool.
+Dialogue: 0,0:14:45.21,0:14:48.07,Ore_Main,Saiki,0000,0000,0000,,Oh, it's Mount Fuji! Look, over there!
+Dialogue: 0,0:14:51.16,0:14:51.95,Ore_Italics,Hachi,0000,0000,0000,,He's close...
+Dialogue: 0,0:14:52.51,0:14:54.54,Ore_Main,Yui,0000,0000,0000,,I wanna see, too!
+Dialogue: 0,0:14:55.12,0:14:57.65,Ore_Main,Yui,0000,0000,0000,,Wow! Mount Fuji's so pretty!
+Dialogue: 0,0:14:57.00,0:14:59.16,Ore_Italics,Hachi,0000,0000,0000,,You know, innocent moves like that
+Dialogue: 0,0:14:59.16,0:15:01.00,Ore_Italics,Hachi,0000,0000,0000,,will give most guys the wrong idea
+Dialogue: 0,0:15:01.00,0:15:03.54,Ore_Italics,,0000,0000,0000,,and put them in a position \Nno better than death.
+Dialogue: 0,0:15:03.54,0:15:05.76,Ore_Italics,Hachi,0000,0000,0000,,If you understand that, never touch a guy,
+Dialogue: 0,0:15:05.76,0:15:08.05,Ore_Italics,Hachi,0000,0000,0000,,sit in a guy's chair during \Nbreaks or after school,
+Dialogue: 0,0:15:08.05,0:15:11.44,Ore_Italics,Hachi,0000,0000,0000,,or borrow from a guy if you \Nforget something, ever again.
+Dialogue: 0,0:15:11.44,0:15:12.08,Ore_Main,Hachi,0000,0000,0000,,Listen...
+Dialogue: 0,0:15:12.08,0:15:13.26,Ore_Main,Yui,0000,0000,0000,,Okay...
+Dialogue: 0,0:15:13.26,0:15:15.63,Ore_Main,Yui,0000,0000,0000,,I'm gonna get back to my seat.
+Dialogue: 0,0:15:17.42,0:15:19.02,Ore_Main,Saika,0000,0000,0000,,Uh, Hachiman...
+Dialogue: 0,0:15:19.87,0:15:21.52,Ore_Main,Saika,0000,0000,0000,,Is that... long enough?
+Dialogue: 0,0:15:22.47,0:15:23.69,Ore_Main,Hachi,0000,0000,0000,,S-Sorry!
+Dialogue: 0,0:15:35.25,0:15:36.54,Ore_Main,Yui,0000,0000,0000,,Hikki!
+Dialogue: 0,0:15:36.78,0:15:37.87,Ore_Main,Yui,0000,0000,0000,,Got a second?
+Dialogue: 0,0:15:37.87,0:15:38.81,Ore_Main,Hachi,0000,0000,0000,,Later.
+Dialogue: 0,0:15:39.61,0:15:41.59,Ore_Main,Yui,0000,0000,0000,,Did you forget we have work to do?
+Dialogue: 0,0:15:41.59,0:15:45.50,Ore_Main,Yui,0000,0000,0000,,I already called Tobecchi and Hina! Hurry up!
+Dialogue: 0,0:15:45.50,0:15:47.63,hugesign_15:45,Text,0000,0000,0000,,Zuigu Hall Tours\N{\c&H7B766B&\fs15}Your senses will be sharpened as you proceed through the darkness, relying only on a rope to guide you. Eventually you will find the Sanskrit word for "womb" glowing faintly in a stone, and your heart will feel calm. Turn the stone and pray, then continue to walk forward into the sunlight to feel as if your mind and body have been reborn.\N← Entrance This Way\NHours: 9:00AM ~ 4:00PM
+Dialogue: 0,0:15:48.19,0:15:49.88,Ore_Main,Hachi,0000,0000,0000,,It looks pitch dark.
+Dialogue: 0,0:15:50.28,0:15:54.06,Ore_Main,Yui,0000,0000,0000,,If we all go in at different times, \Nthey can be alone, right?
+Dialogue: 0,0:15:54.06,0:15:54.59,Ore_Main,Hachi,0000,0000,0000,,Yeah...
+Dialogue: 0,0:15:54.59,0:15:56.72,Ore_Main,Yui,0000,0000,0000,,Okay, let's go through here in pairs!
+Dialogue: 0,0:15:56.72,0:15:58.79,Ore_Main,Yui,0000,0000,0000,,Yumiko and Hayato-kun can go first.
+Dialogue: 0,0:15:58.79,0:16:00.60,Ore_Main,Yui,0000,0000,0000,,We'll go last.
+Dialogue: 0,0:16:01.05,0:16:02.62,Ore_Main,Hayama,0000,0000,0000,,We don't have much time,
+Dialogue: 0,0:16:02.62,0:16:04.83,Ore_Main,,0000,0000,0000,,so we probably shouldn't leave \Ntoo much space between us.
+Dialogue: 0,0:16:04.83,0:16:05.93,Ore_Main,Hina,0000,0000,0000,,True.
+Dialogue: 0,0:16:05.93,0:16:09.69,Ore_Main,Tobe,0000,0000,0000,,Yeah, but this doesn't look like it'll \Ntake long, so it should be fine.
+Dialogue: 0,0:16:09.98,0:16:12.82,Ore_Main,Hayama,0000,0000,0000,,Well, you can't go wrong \Nin getting back early.
+Dialogue: 0,0:16:13.89,0:16:16.75,Ore_Main,Yumiko,0000,0000,0000,,C'mon, let's just go, Hayato.
+Dialogue: 0,0:16:16.75,0:16:18.13,Ore_Main,,0000,0000,0000,,It looks fun.
+Dialogue: 0,0:16:18.13,0:16:20.00,Ore_Main,Yumiko,0000,0000,0000,,See you guys on the other side.
+Dialogue: 0,0:16:23.77,0:16:26.54,Ore_Main,Tobe,0000,0000,0000,,Man, it's seriously dark in here!
+Dialogue: 0,0:16:26.54,0:16:29.96,Ore_Main,Tobe,0000,0000,0000,,This is it! This is as dark as dark gets!
+Dialogue: 0,0:16:30.64,0:16:31.75,Ore_Main,Hina,0000,0000,0000,,Yep.
+Dialogue: 0,0:16:33.02,0:16:36.46,Ore_Main,Yui,0000,0000,0000,,We're supposed to turn this \Nstone and make a wish.
+Dialogue: 0,0:16:37.86,0:16:39.63,Ore_Main,Yui,0000,0000,0000,,Did you decide what to wish for?
+Dialogue: 0,0:16:39.63,0:16:40.43,Ore_Main,Hachi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:40.43,0:16:42.49,Ore_Main,Yui,0000,0000,0000,,Okay, let's turn it together.
+Dialogue: 0,0:16:49.67,0:16:51.99,Ore_Italics,Hachi,0000,0000,0000,,That's what you do at a shrine.
+Dialogue: 0,0:16:57.22,0:16:58.03,Ore_Main,Yui,0000,0000,0000,,All done?
+Dialogue: 0,0:16:58.03,0:16:59.13,Ore_Main,Hachi,0000,0000,0000,,Uh... Yeah.
+Dialogue: 0,0:16:59.13,0:17:00.94,Ore_Main,Yui,0000,0000,0000,,Okay! Then, let's go!
+Dialogue: 0,0:17:02.41,0:17:04.42,Marriage_17:02,Sign,0000,0000,0000,,God of Marriage\N{\c&H626A6F&}Jishu Shrine
+Dialogue: 0,0:17:02.41,0:17:04.42,goodmatch_17:02,Sign,0000,0000,0000,,Prayers for a\NGood Match
+Dialogue: 0,0:17:04.42,0:17:06.38,lovefortune_17:04,Paper,0000,0000,0000,,Your Love Fortune\NGod of Marriage\N{\c&H32363D&}Jishu Shrine, Kyoto
+Dialogue: 0,0:17:04.42,0:17:06.38,lovefortune_17:04 - Copy,Paper,0000,0000,0000,,No. 3: Bad Luck
+Dialogue: 0,0:17:04.61,0:17:06.38,Ore_Main,Hina,0000,0000,0000,,I got bad luck...
+Dialogue: 0,0:17:05.74,0:17:08.87,Ore_Main,Yumiko,0000,0000,0000,,All right! I got very good luck!
+Dialogue: 0,0:17:06.80,0:17:09.23,Ore_Main,Tobe,0000,0000,0000,,Hey, but y'know what that means.
+Dialogue: 0,0:17:09.23,0:17:11.78,Ore_Main,Tobe,0000,0000,0000,,It can only go up from \Nhere, so it's good, right?
+Dialogue: 0,0:17:11.78,0:17:12.92,Ore_Main,Hina,0000,0000,0000,,Maybe...
+Dialogue: 0,0:17:12.92,0:17:13.66,Ore_Main,Hachi,0000,0000,0000,,Hey.
+Dialogue: 0,0:17:14.81,0:17:18.58,Ore_Main,Hachi,0000,0000,0000,,If you're going to tie it on, \Nthe higher you put it, the better.
+Dialogue: 0,0:17:21.06,0:17:22.75,Ore_Main,Tobe,0000,0000,0000,,Here, let me do that.
+Dialogue: 0,0:17:24.15,0:17:26.81,Ore_Main,Hina,0000,0000,0000,,Thanks. Glad I had a guy around.
+Dialogue: 0,0:17:28.06,0:17:31.32,Ore_Main,Hachi,0000,0000,0000,,He's trying pretty hard, \Neven without our help.
+Dialogue: 0,0:17:31.97,0:17:34.85,Ore_Main,Yui,0000,0000,0000,,I hope it'll keep going so well.
+Dialogue: 0,0:17:34.85,0:17:35.74,Ore_Main,Hachi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:37.44,0:17:40.14,Ore_Main,Yui,0000,0000,0000,,You think everyone's wishing for romance?
+Dialogue: 0,0:17:40.14,0:17:41.36,Ore_Main,Hachi,0000,0000,0000,,Huh? Yeah...
+Dialogue: 0,0:17:43.43,0:17:44.87,Ore_Italics,Hachi,0000,0000,0000,,What is she doing?
+Dialogue: 0,0:17:48.99,0:17:50.42,Ore_Main,Yui,0000,0000,0000,,That's really good!
+Dialogue: 0,0:17:50.87,0:17:52.17,Ore_Main,Yui,0000,0000,0000,,Here, Hikki.
+Dialogue: 0,0:17:53.09,0:17:54.67,Ore_Italics,Hachi,0000,0000,0000,,I keep telling you...
+Dialogue: 0,0:17:54.97,0:17:58.28,Ore_Main,Hachi,0000,0000,0000,,Nah, that's... I shouldn't... \NNot right after you did.
+Dialogue: 0,0:18:03.71,0:18:06.90,Ore_Main,Yui,0000,0000,0000,,Y-You don't have to worry about that...
+Dialogue: 0,0:18:06.90,0:18:08.36,Ore_Italics,Hachi,0000,0000,0000,,I will worry about it!
+Dialogue: 0,0:18:08.99,0:18:12.86,Ore_Italics,Hachi,0000,0000,0000,,Besides, if I drank from that, \NI wouldn't notice how it tasted at all.
+Dialogue: 0,0:18:13.57,0:18:16.44,hotel_18:13,Text,0000,0000,0000,,Tranquil Forest Hotel, Kyoto
+Dialogue: 0,0:18:17.13,0:18:18.60,Ore_Main,Hachi,0000,0000,0000,,No Max cans...
+Dialogue: 0,0:18:28.96,0:18:31.04,kyoto_18:28,Tags,0000,0000,0000,,Kyoto
+Dialogue: 0,0:18:28.96,0:18:31.04,pan-san_18:28,Sign,0000,0000,0000,,Only in Kyoto\NPan-san the Panda
+Dialogue: 0,0:18:29.75,0:18:30.62,Ore_Main,Hachi,0000,0000,0000,,Figures.
+Dialogue: 0,0:18:41.14,0:18:42.35,Ore_Main,Hachi,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:18:42.35,0:18:48.35,souvenirs_18:42,Text,0000,0000,0000,,Souvenirs
+Dialogue: 0,0:18:48.83,0:18:50.29,Ore_Main,Yukino,0000,0000,0000,,Well, what a coincidence.
+Dialogue: 0,0:18:50.29,0:18:52.27,Ore_Main,Hachi,0000,0000,0000,,That's what you should've said a second ago.
+Dialogue: 0,0:18:52.59,0:18:53.69,Ore_Main,Yukino,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:18:53.69,0:18:55.80,Ore_Main,,0000,0000,0000,,Felt uncomfortable in your \Nroom, so you ran away?
+Dialogue: 0,0:18:55.80,0:18:59.16,Ore_Main,Hachi,0000,0000,0000,,If I ran away over that, \NI wouldn't go on field trips.
+Dialogue: 0,0:18:59.16,0:18:59.78,Ore_Main,Hachi,0000,0000,0000,,You?
+Dialogue: 0,0:19:01.28,0:19:05.01,Ore_Main,Yukino,0000,0000,0000,,The topic of conversation among \Nmy classmates turned toward me.
+Dialogue: 0,0:19:05.61,0:19:07.88,Ore_Main,Yukino,0000,0000,0000,,Why do they enjoy talking \Nabout things like that?
+Dialogue: 0,0:19:07.88,0:19:11.71,Ore_Main,Hachi,0000,0000,0000,,But if they're talking about you, \Ndoesn't it mean they're interested in you?
+Dialogue: 0,0:19:11.71,0:19:12.82,Ore_Main,Hachi,0000,0000,0000,,Why don't you make friends with them?
+Dialogue: 0,0:19:13.23,0:19:14.92,Ore_Main,Yukino,0000,0000,0000,,You say that as if it's no problem of yours,
+Dialogue: 0,0:19:15.30,0:19:17.52,Ore_Main,Yukino,0000,0000,0000,,but it's all because of what you \Ndid at the cultural festival.
+Dialogue: 0,0:19:16.76,0:19:18.09,Ore_Main,Hachi,0000,0000,0000,,{\a6}Huh? Me?
+Dialogue: 0,0:19:18.39,0:19:20.31,Ore_Main,Hachi,0000,0000,0000,,Hang on. This isn't my fault.
+Dialogue: 0,0:19:20.31,0:19:21.35,Ore_Main,Hachi,0000,0000,0000,,It's society's fault.
+Dialogue: 0,0:19:24.71,0:19:27.17,Ore_Main,Yukino,0000,0000,0000,,And? How's that service request going?
+Dialogue: 0,0:19:27.17,0:19:29.94,Ore_Main,Hachi,0000,0000,0000,,Neither good nor bad, I guess.
+Dialogue: 0,0:19:30.95,0:19:35.43,Ore_Main,Yukino,0000,0000,0000,,Sorry I can't help very much, \Nsince I'm in a different class.
+Dialogue: 0,0:19:35.43,0:19:36.63,Ore_Main,Hachi,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:19:36.63,0:19:39.13,Ore_Main,,0000,0000,0000,,I'm in their class, \Nand I haven't done a thing.
+Dialogue: 0,0:19:39.52,0:19:40.95,Ore_Main,Yukino,0000,0000,0000,,You should worry about that.
+Dialogue: 0,0:19:46.40,0:19:48.45,Ore_Main,Hira,0000,0000,0000,,Man, that was good!
+Dialogue: 0,0:19:48.92,0:19:50.66,Ore_Main,Yukino,0000,0000,0000,,It was certainly an intense flavor.
+Dialogue: 0,0:19:52.15,0:19:53.35,Ore_Italics,Hachi,0000,0000,0000,,Accurate.
+Dialogue: 0,0:19:55.07,0:19:58.00,Ore_Main,Yukino,0000,0000,0000,,But why did we have to come with you?
+Dialogue: 0,0:19:58.00,0:19:59.37,Ore_Main,Hachi,0000,0000,0000,,Should a teacher be doing this?
+Dialogue: 0,0:19:59.37,0:20:00.91,Ore_Main,Hira,0000,0000,0000,,You know I shouldn't.
+Dialogue: 0,0:20:00.91,0:20:03.20,Ore_Main,Hira,0000,0000,0000,,That's why I bought your silence with ramen.
+Dialogue: 0,0:20:03.20,0:20:05.97,Ore_Main,Yukino,0000,0000,0000,,That's an even worse thing \Nfor a teacher to do.
+Dialogue: 0,0:20:06.35,0:20:07.88,Ore_Main,Hachi,0000,0000,0000,,If you're caught, you'll get in trouble.
+Dialogue: 0,0:20:07.88,0:20:10.49,Ore_Main,Hira,0000,0000,0000,,Being scolded isn't a bad thing.
+Dialogue: 0,0:20:10.49,0:20:12.85,Ore_Main,Hira,0000,0000,0000,,It means someone is looking out for you.
+Dialogue: 0,0:20:13.29,0:20:15.33,Ore_Main,Hira,0000,0000,0000,,I'm looking out for you guys, too,
+Dialogue: 0,0:20:15.33,0:20:17.19,Ore_Main,Hira,0000,0000,0000,,so make all the mistakes you want.
+Dialogue: 0,0:20:20.59,0:20:23.00,Ore_Main,Hira,0000,0000,0000,,I'm going to buy some liquor for the party.
+Dialogue: 0,0:20:23.30,0:20:25.80,Ore_Main,Hira,0000,0000,0000,,Later. Be careful getting back.
+Dialogue: 0,0:20:56.43,0:20:57.74,Ore_Main,Hachi,0000,0000,0000,,Turn right here.
+Dialogue: 0,0:20:57.74,0:20:59.26,Ore_Main,Yukino,0000,0000,0000,,O-Oh...
+Dialogue: 0,0:21:15.32,0:21:18.23,Ore_Main,Hachi,0000,0000,0000,,If you walk that far behind, \Nyou'll get lost again.
+Dialogue: 0,0:21:19.08,0:21:21.21,Ore_Main,Yukino,0000,0000,0000,,You could just go on ahead.
+Dialogue: 0,0:21:21.21,0:21:24.09,Ore_Main,Hachi,0000,0000,0000,,I don't see much point in that.
+Dialogue: 0,0:21:24.09,0:21:25.18,Ore_Main,,0000,0000,0000,,It's right there.
+Dialogue: 0,0:21:25.64,0:21:28.18,Ore_Main,Yukino,0000,0000,0000,,Maybe you don't, but it bothers me.
+Dialogue: 0,0:21:28.18,0:21:28.99,Ore_Main,Hachi,0000,0000,0000,,What does?
+Dialogue: 0,0:21:29.82,0:21:30.78,Ore_Main,Yukino,0000,0000,0000,,Well...
+Dialogue: 0,0:21:31.75,0:21:33.33,Ore_Main,,0000,0000,0000,,It's late at night...
+Dialogue: 0,0:21:33.78,0:21:35.69,Ore_Main,Yukino,0000,0000,0000,,If anyone sees us together...
+Dialogue: 0,0:21:36.62,0:21:38.83,Ore_Main,Hachi,0000,0000,0000,,O-Oh, right...
+Dialogue: 0,0:21:47.61,0:21:51.07,hotel_21:47,Text,0000,0000,0000,,{\fad(1280,1)}Tranquil Forest Hotel, Kyoto
+Dialogue: 0,0:21:49.30,0:21:50.26,Ore_Main,Hachi,0000,0000,0000,,Later, then.
+Dialogue: 0,0:21:51.77,0:21:53.64,Ore_Main,Yukino,0000,0000,0000,,Yeah. Goodnight.
+Dialogue: 0,0:21:55.54,0:21:56.58,Ore_Main,Yukino,0000,0000,0000,,Um...
+Dialogue: 0,0:21:58.68,0:22:00.59,Ore_Main,Yukino,0000,0000,0000,,Thanks for walking me back.
+Dialogue: 0,0:22:05.34,0:22:09.33,Ep_Title,Title,0000,0000,0000,,Nobody Knows Why They \NCame to the Service Club.
+Dialogue: 0,0:22:06.03,0:22:07.86,Ore_Italics,Hachi,0000,0000,0000,,{\a6}Guess I'll head back and take a bath...
+Dialogue: 0,0:22:07.86,0:22:08.90,Ore_Main,Hachi,0000,0000,0000,,{\a6}with Totsuka.
+Dialogue: 0,0:23:38.89,0:24:08.71,Next_Ep_Title,Title,0000,0000,0000,,#02 His and Her Love Confessions Will Reach No One.
+Dialogue: 0,0:23:39.51,0:23:41.05,Ore_Main,Saika,0000,0000,0000,,{\a6}Kyoto, huh?
+Dialogue: 0,0:23:41.05,0:23:42.97,Ore_Main,Saika,0000,0000,0000,,{\a6}Is there anywhere you'd like to go, Hachiman?
+Dialogue: 0,0:23:42.97,0:23:45.65,Ore_Main,Hachi,0000,0000,0000,,{\a6}Well, no matter where we \Ngo, we'll be together...
+Dialogue: 0,0:23:45.65,0:23:47.82,Ore_Main,Hachi,0000,0000,0000,,{\a6}Or I should say, as long as we're \Ntogether, anywhere's great.
+Dialogue: 0,0:23:47.82,0:23:49.61,Ore_Main,Saika,0000,0000,0000,,{\a6}That's just like you, Hachiman.
+Dialogue: 0,0:23:49.61,0:23:52.39,Ore_Main,Saika,0000,0000,0000,,{\a6}I think I'd like to see \NStudio Park and Arashiyama.
+Dialogue: 0,0:23:52.39,0:23:54.51,Ore_Main,Saika,0000,0000,0000,,{\a6}Ah, Arashiyama has hot springs...
+Dialogue: 0,0:23:54.51,0:23:56.35,Ore_Main,Hachi,0000,0000,0000,,{\a6}Wh-What? Hot springs?!
+Dialogue: 0,0:23:56.87,0:23:59.04,Ore_Main,Hachi,0000,0000,0000,,{\a6}Huh? T-Totsuka?
+Dialogue: 0,0:23:59.04,0:24:00.93,Ore_Main,Saika,0000,0000,0000,,{\a6}Hachiman...
+Dialogue: 0,0:24:01.87,0:24:04.22,Ore_Main,Hachi,0000,0000,0000,,{\a6}Shut up! Zaimokuza, you're \Ntoo loud! Keep it down!
+Dialogue: 0,0:24:04.54,0:24:06.73,Ore_Main,Saika,0000,0000,0000,,{\a6}Let's go together...
+Dialogue: 0,0:24:06.73,0:24:08.71,Ore_Main,Hachi,0000,0000,0000,,{\a6}I want to protect this sleeping face!
+Dialogue: 0,0:24:08.71,0:24:10.71,Ore_Main,,0000,0000,0000,,

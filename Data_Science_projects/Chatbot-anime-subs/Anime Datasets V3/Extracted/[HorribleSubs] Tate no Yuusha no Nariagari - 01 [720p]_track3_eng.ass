@@ -1,0 +1,842 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbackitalics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_3005_15_The_Records_of_t,Open Sans Semibold,23,&H00534F6D,&H000000FF,&H00120F26,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_3070_17_The_Waves_of_Apo,Open Sans Semibold,23,&H00435355,&H000000FF,&H00788789,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_5013_40_The_Rising_of_th,Open Sans Semibold,42,&H004810EA,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_5131_42_Summoning_and_Be,Open Sans Semibold,23,&H00494949,&H000000FF,&H00BBBBBB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,40,280,1
+Style: sign_14873_142_The_Bow_Hero,Open Sans Semibold,17,&H00E5F6FF,&H000000FF,&H003033A9,&H00000000,1,0,0,0,100,100,0,-8,1,3,0,9,40,333,73,1
+Style: sign_14873_143_Status_ATT_17_MA,Open Sans Semibold,17,&H00E5F6FF,&H000000FF,&H003033A9,&H00000000,1,0,0,0,100,100,0,-8,1,3,0,8,435,333,73,1
+Style: sign_14873_143_Status__ATT_17_M,Open Sans Semibold,23,&H0098C3E1,&H000000FF,&H003033A9,&H00000000,1,0,0,0,100,100,0,-9,1,3,0,8,180,587,187,1
+Style: sign_14873_144_Affinity__Fire__,Open Sans Semibold,23,&H0098C3E1,&H000000FF,&H003033A9,&H00000000,1,0,0,0,100,100,0,-9,1,3,0,2,340,380,107,1
+Style: sign_14873_145_Equipment__Small,Open Sans Semibold,23,&H0098C3E1,&H000000FF,&H003033A9,&H00000000,1,0,0,0,100,100,0,-9,1,3,0,8,507,140,240,1
+Style: sign_16244_165_When_two_more_wi,Open Sans Semibold,23,&H00EEF0FD,&H000000FF,&H00120F26,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_17488_181_Small_Shield,Open Sans Semibold,20,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-17,1,3,0,7,333,40,60,1
+Style: sign_33122_363_Legendary_Weapon,Open Sans Semibold,23,&H00EEF0FD,&H000000FF,&H00091116,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,100,1
+Style: sign_34321_382_Chain_Mail,Open Sans Semibold,20,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,227,40,67,1
+Style: sign_65310_663_Orange_Balloon_D,Open Sans Semibold,17,&H003883D7,&H000000FF,&H001B2011,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,47,580,100,1
+Style: sign_81788_789_Walking_Over_Cor,Open Sans Semibold,28,&H00F3F4F2,&H000000FF,&H000A0A09,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,40,267,1
+Style: sign_5036_40_The_Shield_Hero,Open Sans Semibold,23,&H00EFF1F1,&H000000FF,&H00BBBBBB,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,113,40,73,1
+Style: sign_15689_180_Status__ATT__0_M,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-13,1,3,0,7,165,572,187,1
+Style: sign_15689_180_ATT__0_MAG__0_P_,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-13,1,3,0,7,280,487,133,1
+Style: sign_15689_181_Affinity__Fire__,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-13,1,3,0,7,387,367,160,1
+Style: sign_15749_182_Heat__Unlock_Req,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-13,1,3,0,7,500,180,193,1
+Style: sign_30364_380_ATT__0_MAG__0_P_,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,191,576,167,1
+Style: sign_15689_181_P_DEF__3,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,-11,1,3,0,7,251,529,308,1
+Style: sign_30364_381_ATT__0_MAG__0_P_,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,191,471,167,1
+Style: sign_30364_382_Slash_Resistance,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,204,457,359,1
+Style: sign_30364_383_Fire__0_Water__0,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,333,424,164,1
+Style: sign_30364_384_Durability__Weig,Open Sans Semibold,17,&H00FEFCFF,&H000000FF,&H002B272F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,520,40,167,1
+Style: sign_32982_399_Absorbed_Orange_,Open Sans Semibold,17,&H00AEE5A6,&H000000FF,&H0065BF42,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,240,1
+Style: sign_53062_658_Max_HP__167_MAX_,Open Sans Semibold,17,&H003883D7,&H000000FF,&H001B2011,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,47,47,27,1
+Style: sign_53062_658_Max_HP__167____A,Open Sans Semibold,17,&H003883D7,&H000000FF,&H001B2011,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,247,40,80,1
+Style: sign_53836_660_Shield_Hero,Open Sans Semibold,17,&H00F9F9FA,&H000000FF,&H00172F3A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,3,40,327,373,1
+Style: sign_53836_661_Status_ATK__1_MA,Open Sans Semibold,17,&H00F9F9FA,&H000000FF,&H00172F3A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,280,493,213,1
+Style: sign_53836_662_Affinity_Fire__0,Open Sans Semibold,17,&H00F9F9FA,&H000000FF,&H00172F3A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,413,340,200,1
+Style: sign_53836_663_Equipment_Small_,Open Sans Semibold,17,&H00F9F9FA,&H000000FF,&H00172F3A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,560,187,213,1
+Style: sign_57539_699_There_are_shield,Open Sans Semibold,17,&H00CAD4D0,&H000000FF,&H00171E1D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,213,1
+Style: sign_57618_700_Mastery_Bonus_Wh,Open Sans Semibold,23,&H00D9DDD7,&H000000FF,&H000C0C0C,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,100,1
+Style: sign_58168_704_Foraging_Skill_1,Open Sans Semibold,17,&H00DDFFEC,&H000000FF,&H0045D67E,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,133,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:59.95,0:01:01.83,main,Naofumi,0000,0000,0000,,What a weird dream.
+Dialogue: 0,0:01:03.41,0:01:06.04,italics,Naofumi,0000,0000,0000,,My name is Iwatani Naofumi.
+Dialogue: 0,0:01:06.67,0:01:09.67,italicstop,Naofumi,0000,0000,0000,,I'm a somewhat otaku-leaning \Nsecond-year college student.
+Dialogue: 0,0:01:14.26,0:01:15.55,main,Naofumi,0000,0000,0000,,Sunny day, huh?
+Dialogue: 0,0:01:17.76,0:01:22.51,italics,Naofumi,0000,0000,0000,,When my kid brother started breaking bad,\N I brought him back in line,
+Dialogue: 0,0:01:22.51,0:01:25.98,italics,Naofumi,0000,0000,0000,,and so I had the privilege of living \Nat home, allowance included.
+Dialogue: 0,0:01:26.39,0:01:31.02,italics,Naofumi,0000,0000,0000,,With no need to work part-time,\NI got to enjoy an idyllic otaku life.
+Dialogue: 0,0:01:36.28,0:01:40.62,italicstop,Naofumi,0000,0000,0000,,That said, I certainly wasn't \None of your so-called shut-ins.
+Dialogue: 0,0:01:41.12,0:01:43.37,italics,Naofumi,0000,0000,0000,,When I'd run out of money to spend,
+Dialogue: 0,0:01:43.37,0:01:46.37,italics,Naofumi,0000,0000,0000,,I'd go to the library to browse \Nthrough my light novels.
+Dialogue: 0,0:01:47.00,0:01:51.25,italics,Naofumi,0000,0000,0000,,I was a completely run-of-the-mill otaku \Nleading a completely ordinary life.
+Dialogue: 0,0:01:51.63,0:01:52.59,main,Naofumi,0000,0000,0000,,Ow!
+Dialogue: 0,0:01:54.13,0:01:56.17,main,Naofumi,0000,0000,0000,,What the hell, man?
+Dialogue: 0,0:01:56.80,0:01:58.76,italics,Naofumi,0000,0000,0000,,But it all changed when \NI picked up this book.
+Dialogue: 0,0:02:00.30,0:02:02.81,sign_3005_15_The_Records_of_t,Sign,0000,0000,0000,,The Records of the Four Cardinal Weapons
+Dialogue: 0,0:02:00.55,0:02:02.68,main,N,0000,0000,0000,,"The Records of the Four Cardinal Weapons"?
+Dialogue: 0,0:02:03.01,0:02:07.06,sign_3070_17_The_Waves_of_Apo,Sign,0000,0000,0000,,The Waves of Apocalyptic Catastrophe
+Dialogue: 0,0:02:04.72,0:02:07.64,main,N,0000,0000,0000,,"The Waves of Apocalyptic Catastrophe...
+Dialogue: 0,0:02:07.64,0:02:13.02,main,N,0000,0000,0000,,To save the world from them, four heroes \Nwill be summoned from another world."
+Dialogue: 0,0:02:13.02,0:02:14.98,main,N,0000,0000,0000,,How very like an LN.
+Dialogue: 0,0:02:15.78,0:02:17.95,main,N,0000,0000,0000,,"Each of the four heroes
+Dialogue: 0,0:02:17.95,0:02:22.03,main,N,0000,0000,0000,,wield a characteristic weapon:\N a sword, a spear, a bow, or a shield."
+Dialogue: 0,0:02:22.03,0:02:25.79,main,N,0000,0000,0000,,Uh, I'm pretty sure a shield \Nis more like armor than a weapon.
+Dialogue: 0,0:02:25.79,0:02:28.50,main,N,0000,0000,0000,,And where's the heroine, anyway?
+Dialogue: 0,0:02:28.50,0:02:31.75,main,N,0000,0000,0000,,I don't think it's this princess. \NShe seems kinda slutty.
+Dialogue: 0,0:02:32.08,0:02:36.88,main,N,0000,0000,0000,,Huh... Each of the heroes seems \Nimpressive and pretty damn cool.
+Dialogue: 0,0:02:37.34,0:02:40.01,main,N,0000,0000,0000,,I guess all four of them \Nare the protagonists.
+Dialogue: 0,0:02:40.01,0:02:42.05,main,N,0000,0000,0000,,The sword, spear, and bow \Nheroes all get spotlights,
+Dialogue: 0,0:02:42.05,0:02:43.76,main,N,0000,0000,0000,,and even the shield hero gets focus...
+Dialogue: 0,0:02:44.51,0:02:45.82,main,N,0000,0000,0000,,What the heck?
+Dialogue: 0,0:03:02.82,0:03:05.18,main,G,0000,0000,0000,,We did it! The summoning was a success!
+Dialogue: 0,0:03:06.04,0:03:06.87,main,N,0000,0000,0000,,Where am I?
+Dialogue: 0,0:03:06.87,0:03:10.96,main,G,0000,0000,0000,,O brave heroes, please save our world!
+Dialogue: 0,0:03:10.96,0:03:12.08,main,All,0000,0000,0000,,Excuse me?
+Dialogue: 0,0:03:13.42,0:03:15.00,italics,N,0000,0000,0000,,Who are these guys?
+Dialogue: 0,0:03:15.38,0:03:18.46,italics,N,0000,0000,0000,,And where am I, anyway?
+Dialogue: 0,0:03:19.76,0:03:20.97,main,N,0000,0000,0000,,The hell is this?
+Dialogue: 0,0:03:21.34,0:03:22.47,main,N,0000,0000,0000,,A shield?
+Dialogue: 0,0:03:24.05,0:03:28.97,sign_5013_40_The_Rising_of_th,Title Card,0000,0000,0000,,{\fad(500,1)}The Rising of the Shield Hero
+Dialogue: 0,0:03:30.02,0:03:34.40,sign_5036_40_The_Shield_Hero,,0000,0000,0000,,{\fad(481,740)}The Shield Hero
+Dialogue: 0,0:03:30.48,0:03:34.65,main,G,0000,0000,0000,,O brave heroes, please save our world!
+Dialogue: 0,0:03:34.94,0:03:36.61,main,N,0000,0000,0000,,Seriously?
+Dialogue: 0,0:03:36.61,0:03:38.65,main,Itsuki,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:03:38.65,0:03:42.11,main,G,0000,0000,0000,,There is a long and complicated \Nstory behind this,
+Dialogue: 0,0:03:42.11,0:03:48.04,main,G,0000,0000,0000,,but we've summoned you Four Cardinal \NHeroes here using an ancient ritual.
+Dialogue: 0,0:03:48.37,0:03:53.00,italics,N,0000,0000,0000,,"Four Cardinal"? So he thinks the \Nfour of us are heroes of legend?
+Dialogue: 0,0:03:53.00,0:03:57.59,main,G,0000,0000,0000,,Our world teeters on the \Nbrink of destruction.
+Dialogue: 0,0:03:57.59,0:04:01.01,main,G,0000,0000,0000,,We beg you, O brave heroes! Please help us!
+Dialogue: 0,0:04:02.17,0:04:03.93,main,N,0000,0000,0000,,I guess I could hear you out, at least.
+Dialogue: 0,0:04:03.93,0:04:04.51,main,Ren,0000,0000,0000,,I refuse.
+Dialogue: 0,0:04:05.93,0:04:07.60,main,Itsuki,0000,0000,0000,,Likewise.
+Dialogue: 0,0:04:07.60,0:04:10.14,main,Motoyasu,0000,0000,0000,,We can go back to our world, right?
+Dialogue: 0,0:04:10.14,0:04:11.48,main,Motoyasu,0000,0000,0000,,We'll talk about your problems after that.
+Dialogue: 0,0:04:11.98,0:04:17.11,main,Ren,0000,0000,0000,,Don't you guys feel any guilt at all for \Nbringing us here without our consent?
+Dialogue: 0,0:04:17.11,0:04:22.24,main,Its,0000,0000,0000,,And if you throw us out as soon as peace \Nis restored, we'd have worked for nothing.
+Dialogue: 0,0:04:22.61,0:04:25.70,main,Mot,0000,0000,0000,,How willing are you to accommodate us?
+Dialogue: 0,0:04:26.20,0:04:30.58,main,Mot,0000,0000,0000,,Depending on your answer, we might end \Nup becoming your enemies instead.
+Dialogue: 0,0:04:30.87,0:04:34.25,italics,N,0000,0000,0000,,Not only are these guys \Ntaking all this in stride,
+Dialogue: 0,0:04:34.25,0:04:36.96,italics,N,0000,0000,0000,,they've already started to \Ndemand respect and rewards!
+Dialogue: 0,0:04:36.96,0:04:42.84,main,G,0000,0000,0000,,F-First, we'd like you to have an audience \Nwith the king of our country, Melromarc.
+Dialogue: 0,0:04:42.84,0:04:46.47,main,G,0000,0000,0000,,You can negotiate your reward \Nafter that, so please...
+Dialogue: 0,0:04:46.97,0:04:48.51,main,Ren,0000,0000,0000,,Fine, I guess.
+Dialogue: 0,0:04:48.51,0:04:51.18,main,Its,0000,0000,0000,,I suppose we could consider their offer.
+Dialogue: 0,0:04:51.18,0:04:55.48,main,Mot,0000,0000,0000,,Not like our demands are gonna change,\N no matter who we talk to.
+Dialogue: 0,0:04:55.48,0:04:58.15,italics,N,0000,0000,0000,,Yeesh! Could these guys \Nbe any more confident?
+Dialogue: 0,0:05:02.86,0:05:05.95,main,Its,0000,0000,0000,,We really are in another world, huh?
+Dialogue: 0,0:05:06.32,0:05:07.36,main,Mot,0000,0000,0000,,We sure are.
+Dialogue: 0,0:05:07.95,0:05:09.83,main,N,0000,0000,0000,,Such a pleasant breeze...
+Dialogue: 0,0:05:09.83,0:05:12.83,main,N,0000,0000,0000,,It's like the typical sales pitch \Nin all those tour brochures.
+Dialogue: 0,0:05:13.33,0:05:16.67,main,Its,0000,0000,0000,,Wait, have you never traveled \Nout of Japan before?
+Dialogue: 0,0:05:16.67,0:05:18.83,main,Ren,0000,0000,0000,,Going by the breeze outside,
+Dialogue: 0,0:05:18.83,0:05:21.30,main,Ren,0000,0000,0000,,this place probably has your \Nstandard Mediterranean climate.
+Dialogue: 0,0:05:22.00,0:05:26.26,main,N,0000,0000,0000,,Yeah, yeah. {\i1}Excuse{\i0} me for my lack \Nof knowledge and vocabulary.
+Dialogue: 0,0:05:34.31,0:05:38.94,main,Aul,0000,0000,0000,,So these men are the Four Cardinal \NHeroes of ancient legend?
+Dialogue: 0,0:05:39.48,0:05:44.65,main,Aul,0000,0000,0000,,I am the king of Melromarc, \NAultcray Melromarc XXXII.
+Dialogue: 0,0:05:44.65,0:05:45.82,main,Aul,0000,0000,0000,,Heroes,
+Dialogue: 0,0:05:46.32,0:05:48.41,main,Aul,0000,0000,0000,,name yourselves.
+Dialogue: 0,0:05:49.16,0:05:52.74,main,Ren,0000,0000,0000,,Amaki Ren, sixteen years old, high schooler.
+Dialogue: 0,0:05:53.58,0:05:56.96,main,Mot,0000,0000,0000,,I'm Kitamura Motoyasu. Twenty-one, \Nand a college student.
+Dialogue: 0,0:05:56.96,0:05:59.21,main,Its,0000,0000,0000,,I suppose I'm up next.
+Dialogue: 0,0:05:59.21,0:06:02.84,main,Its,0000,0000,0000,,Kawasumi Itsuki, seventeen years \Nold, and a high schooler.
+Dialogue: 0,0:06:02.84,0:06:05.26,main,N,0000,0000,0000,,And lastly, me. I'm...
+Dialogue: 0,0:06:05.26,0:06:05.80,main,Aul,0000,0000,0000,,I see.
+Dialogue: 0,0:06:05.80,0:06:08.09,main,Aul,0000,0000,0000,,Ren, Motoyasu, and Itsuki, huh?
+Dialogue: 0,0:06:08.09,0:06:10.64,main,N,0000,0000,0000,,Y-Yo, King, aren't you forgetting me?
+Dialogue: 0,0:06:10.64,0:06:13.10,main,Aul,0000,0000,0000,,Hmm? Oh, forgive me.
+Dialogue: 0,0:06:13.43,0:06:17.64,main,Its,0000,0000,0000,,"Yo, King"? You mustn't be so disrespectful.
+Dialogue: 0,0:06:17.64,0:06:19.60,main,N,0000,0000,0000,,Should I call him His Highness, then?
+Dialogue: 0,0:06:19.60,0:06:21.19,main,Mot,0000,0000,0000,,That's too formal, no?
+Dialogue: 0,0:06:22.31,0:06:23.77,main,Aul,0000,0000,0000,,"King" is fine.
+Dialogue: 0,0:06:24.69,0:06:26.69,main,N,0000,0000,0000,,Well, whatever works.
+Dialogue: 0,0:06:26.69,0:06:30.74,main,N,0000,0000,0000,,My name is Iwatani Naofumi. I'm \Ntwenty, and a college student.
+Dialogue: 0,0:06:31.78,0:06:32.74,main,Aul,0000,0000,0000,,Now...
+Dialogue: 0,0:06:32.74,0:06:35.79,main,Aul,0000,0000,0000,,I suppose I owe you an explanation.
+Dialogue: 0,0:06:35.79,0:06:36.91,main,N,0000,0000,0000,,You're ignoring me?
+Dialogue: 0,0:06:36.91,0:06:43.17,main,Aul,0000,0000,0000,,My country, Melromarc, and the entire \Nworld is headed toward destruction.
+Dialogue: 0,0:06:43.79,0:06:49.13,italics,N,0000,0000,0000,,I'm still pissed off at how the king's \Ntreating me, but here's the long story short.
+Dialogue: 0,0:06:49.47,0:06:53.05,italics,N,0000,0000,0000,,This world has an apocalyptic prophecy,
+Dialogue: 0,0:06:53.05,0:06:57.14,italics,N,0000,0000,0000,,which mentions "Waves" that \Nwill lead the world to ruin
+Dialogue: 0,0:06:57.14,0:06:59.77,italics,N,0000,0000,0000,,and reportedly appear in, \Nwell, several waves.
+Dialogue: 0,0:07:00.35,0:07:03.44,italics,N,0000,0000,0000,,Unless the calamities wrought \Nby the Waves are thwarted,
+Dialogue: 0,0:07:03.44,0:07:05.36,italics,N,0000,0000,0000,,the world will end.
+Dialogue: 0,0:07:06.73,0:07:11.36,italics,N,0000,0000,0000,,Each country here has an \Nancient dragon hourglass
+Dialogue: 0,0:07:11.36,0:07:14.33,italics,N,0000,0000,0000,,which can predict the arrival of the Waves.
+Dialogue: 0,0:07:15.16,0:07:19.87,italics,N,0000,0000,0000,,The first Wave washed over this \Ncountry before we were summoned.
+Dialogue: 0,0:07:20.29,0:07:25.29,italics,N,0000,0000,0000,,Local knights and traveling adventurers \Nsomehow managed to fend it off,
+Dialogue: 0,0:07:26.42,0:07:30.76,italics,N,0000,0000,0000,,but the following Waves \Nwill be even more potent.
+Dialogue: 0,0:07:31.09,0:07:35.51,italics,N,0000,0000,0000,,The hourglass's sands will keep trickling \Nas long as the Waves keep coming...
+Dialogue: 0,0:07:35.51,0:07:38.85,italics,N,0000,0000,0000,,Currently, less than a month \Nremains until the second Wave.
+Dialogue: 0,0:07:39.56,0:07:43.15,main,Aul,0000,0000,0000,,We underestimated the prophesied Waves.
+Dialogue: 0,0:07:43.56,0:07:47.11,main,Aul,0000,0000,0000,,We realized once we actually experienced one
+Dialogue: 0,0:07:47.11,0:07:51.24,main,Aul,0000,0000,0000,,that only the Four Cardinal \NHeroes could counter them.
+Dialogue: 0,0:07:51.24,0:07:54.70,main,Aul,0000,0000,0000,,And so, we followed the \Nlegend and summoned you four.
+Dialogue: 0,0:07:54.70,0:07:57.53,main,Aul,0000,0000,0000,,We have no time to lose!
+Dialogue: 0,0:07:57.53,0:07:59.16,italics,N,0000,0000,0000,,Wait a sec.
+Dialogue: 0,0:07:58.87,0:08:01.58,sign_3005_15_The_Records_of_t,Sign,0000,0000,0000,,{\fad(500,500)}The Records of the Four Cardinal Weapons
+Dialogue: 0,0:07:59.16,0:08:02.12,italics,N,0000,0000,0000,,Isn't this the exact same story \Nas the one in that book?
+Dialogue: 0,0:08:03.46,0:08:05.17,main,Ren,0000,0000,0000,,We get the gist of it now.
+Dialogue: 0,0:08:05.17,0:08:08.92,main,Ren,0000,0000,0000,,Anyway, surely you didn't summon us \Nexpecting us to save you for free.
+Dialogue: 0,0:08:08.92,0:08:12.47,main,Minister,0000,0000,0000,,Of course, once you repel all the Waves,
+Dialogue: 0,0:08:12.47,0:08:14.51,main,Minister,0000,0000,0000,,we shall reward you handsomely.
+Dialogue: 0,0:08:14.80,0:08:18.76,main,Mot,0000,0000,0000,,Will you, now? Well,\N as long as we have your word.
+Dialogue: 0,0:08:18.76,0:08:21.43,main,Ren,0000,0000,0000,,We'll work with you provided \Nyou don't turn on us.
+Dialogue: 0,0:08:21.43,0:08:23.59,main,Ren,0000,0000,0000,,But don't think for a moment \Nthat you can tame us.
+Dialogue: 0,0:08:23.59,0:08:26.77,main,Its,0000,0000,0000,,Exactly. We can't have \Nyou looking down on us.
+Dialogue: 0,0:08:26.77,0:08:29.02,main,N,0000,0000,0000,,R-Right...
+Dialogue: 0,0:08:29.78,0:08:32.40,italics,N,0000,0000,0000,,God, these guys are so high-and-mighty.
+Dialogue: 0,0:08:32.40,0:08:34.15,main,Aul,0000,0000,0000,,I trust we have an agreement.
+Dialogue: 0,0:08:34.15,0:08:38.37,main,Aul,0000,0000,0000,,Then, heroes, you should \Nall check your statuses.
+Dialogue: 0,0:08:38.37,0:08:40.29,main,N,0000,0000,0000,,Wait, what's a status?
+Dialogue: 0,0:08:40.29,0:08:42.04,main,Its,0000,0000,0000,,Uh...
+Dialogue: 0,0:08:42.79,0:08:44.21,main,Ren,0000,0000,0000,,What's wrong with you guys?
+Dialogue: 0,0:08:44.21,0:08:46.67,main,Ren,0000,0000,0000,,It should've been the first thing \Nyou noticed in this world.
+Dialogue: 0,0:08:47.13,0:08:50.84,italics,N,0000,0000,0000,,Oh, get over yourself! Quit acting \Nlike you know everything!
+Dialogue: 0,0:08:50.84,0:08:54.05,main,Ren,0000,0000,0000,,Don't you see an icon in \Nthe corner of your field of vision?
+Dialogue: 0,0:08:54.05,0:08:54.80,main,N,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:56.47,0:08:58.18,main,N,0000,0000,0000,,You're right. There it is.
+Dialogue: 0,0:08:58.18,0:09:00.85,main,Ren,0000,0000,0000,,Try focusing on it.
+Dialogue: 0,0:09:02.10,0:09:03.23,main,N,0000,0000,0000,,Like this?
+Dialogue: 0,0:09:05.27,0:09:05.52,sign_14873_144_Affinity__Fire__,SignM,0000,0000,0000,,Affinity\N\N{\c&HE5F6FF&\fs12}Fire: 0\NWater: 0\NIce: 0\NWind: 0\NEarth: 0\NLightning: 0\NLight: 0\NDark: 0
+Dialogue: 0,0:09:05.27,0:09:07.52,sign_14873_142_The_Bow_Hero,SignMTop,0000,0000,0000,,The Bow Hero
+Dialogue: 0,0:09:05.27,0:09:07.52,sign_14873_143_Status__ATT_17_M,SignL,0000,0000,0000,,Status\N\N{\c&HE5F6FF&\fs12}ATT: 17\NMAG: 13\NP. DEF: 10\NM. DEF: 14\NDEX:  15
+Dialogue: 0,0:09:05.27,0:09:07.52,sign_14873_145_Equipment__Small,SignR,0000,0000,0000,,Equipment\N\N{\c&HE5F6FF&\fs12}Small Bow\NOtherworld Clothes
+Dialogue: 0,0:09:05.98,0:09:07.52,main,Its,0000,0000,0000,,"Level 1"?
+Dialogue: 0,0:09:08.11,0:09:09.94,main,Its,0000,0000,0000,,That's worrying.
+Dialogue: 0,0:09:09.94,0:09:13.49,main,Mot,0000,0000,0000,,Yeah. No telling if we can fight like this.
+Dialogue: 0,0:09:13.49,0:09:15.74,main,N,0000,0000,0000,,What's all this, anyway?
+Dialogue: 0,0:09:15.74,0:09:19.62,main,Min,0000,0000,0000,,Status Magic, an ability \Nexclusive to the heroes.
+Dialogue: 0,0:09:19.62,0:09:21.49,main,Ren,0000,0000,0000,,So what are we supposed to do?
+Dialogue: 0,0:09:21.91,0:09:24.12,main,Min,0000,0000,0000,,You must leave on an adventure
+Dialogue: 0,0:09:24.12,0:09:28.25,main,Min,0000,0000,0000,,to develop and upgrade the legendary \Nweapons that you have equipped.
+Dialogue: 0,0:09:28.67,0:09:31.67,main,N,0000,0000,0000,,They aren't maxed out of the box?
+Dialogue: 0,0:09:31.67,0:09:34.30,main,N,0000,0000,0000,,Wait, mine isn't even a weapon.
+Dialogue: 0,0:09:34.80,0:09:38.55,main,Mot,0000,0000,0000,,Couldn't we just wield other \Nweapons until these are usable?
+Dialogue: 0,0:09:39.89,0:09:42.60,main,Ren,0000,0000,0000,,We can figure that out as we go.
+Dialogue: 0,0:09:42.60,0:09:46.02,main,Ren,0000,0000,0000,,Anyway, it looks like we \Nought to train ourselves.
+Dialogue: 0,0:09:46.02,0:09:48.27,main,Its,0000,0000,0000,,We'll have to level up as much as we can.
+Dialogue: 0,0:09:48.27,0:09:51.61,main,N,0000,0000,0000,,Then if the four of us form a party...
+Dialogue: 0,0:09:51.61,0:09:53.48,main,Min,0000,0000,0000,,One moment, heroes.
+Dialogue: 0,0:09:54.40,0:09:59.49,main,Min,0000,0000,0000,,You will each recruit and \Nadventure separately.
+Dialogue: 0,0:09:59.49,0:10:00.95,main,Its,0000,0000,0000,,And why is that?
+Dialogue: 0,0:10:01.28,0:10:07.08,main,Min,0000,0000,0000,,It is said that the legendary weapons \Nrepel one another by nature.
+Dialogue: 0,0:10:02.45,0:10:11.63,sign_16244_165_When_two_more_wi,Sign,0000,0000,0000,,{\fad(500,1)}When two more wielders of the legendary\N weapons operate together, it causes\N an adverse reaction in the weapons.\N Working separately is highly advised.
+Dialogue: 0,0:10:07.08,0:10:11.29,main,Min,0000,0000,0000,,If you work together, it apparently \Nhinders their development.
+Dialogue: 0,0:10:12.13,0:10:13.92,main,N,0000,0000,0000,,He's telling the truth, huh?
+Dialogue: 0,0:10:13.92,0:10:19.22,italics,N,0000,0000,0000,,And the weapons are translating all verbal \Nand visual information into Japanese for us.
+Dialogue: 0,0:10:19.22,0:10:21.47,main,Aul,0000,0000,0000,,The sun is about to set.
+Dialogue: 0,0:10:21.47,0:10:24.81,main,Aul,0000,0000,0000,,Rest up tonight, and set forth tomorrow.
+Dialogue: 0,0:10:24.81,0:10:28.23,main,Aul,0000,0000,0000,,In the meantime, we'll gather the best \Nof the best to form your parties.
+Dialogue: 0,0:10:30.44,0:10:32.48,main,Noble,0000,0000,0000,,We've prepared rooms for you.
+Dialogue: 0,0:10:32.48,0:10:34.40,main,Noble,0000,0000,0000,,Please come this way.
+Dialogue: 0,0:10:34.78,0:10:37.65,main,GA,0000,0000,0000,,I hear the Four Cardinal \NHeroes have been summoned.
+Dialogue: 0,0:10:37.65,0:10:39.04,main,GB,0000,0000,0000,,All four of them, in this country?
+Dialogue: 0,0:10:39.49,0:10:40.95,main,GC,0000,0000,0000,,Are they sure about this?
+Dialogue: 0,0:10:40.95,0:10:43.62,main,GD,0000,0000,0000,,Wait, that means the Shield Hero is also...
+Dialogue: 0,0:10:44.49,0:10:48.08,main,Mot,0000,0000,0000,,I guess you get special treatment \Nwhen you're heroes of legend.
+Dialogue: 0,0:10:48.50,0:10:50.83,main,Mot,0000,0000,0000,,The girl who showed us here \Nwas a cutie pie, too.
+Dialogue: 0,0:10:50.83,0:10:54.34,main,Its,0000,0000,0000,,And our dinner was sumptuous, \Nthough it did taste unusual.
+Dialogue: 0,0:10:54.34,0:10:57.09,sign_17488_181_Small_Shield,Sign,0000,0000,0000,,{\fad(1,250)}Small Shield
+Dialogue: 0,0:10:54.34,0:10:57.09,sign_15689_180_ATT__0_MAG__0_P_,Sign,0000,0000,0000,,ATT: 0\NMAG: 0\NP. DEF: +6\NM. DEF: +4\NDEX:  0
+Dialogue: 0,0:10:54.34,0:10:57.09,sign_15689_181_P_DEF__3,Sign,0000,0000,0000,,P.DEF +3
+Dialogue: 0,0:10:54.34,0:10:57.09,sign_15689_181_Affinity__Fire__,Sign,0000,0000,0000,,Fire: 0\NWater: 0\NIce: 0\NWind: 0\NEarth: 0\NLightning: 0\NLight: 0\NDark: 0
+Dialogue: 0,0:10:54.34,0:10:57.46,main,N,0000,0000,0000,,Hey, isn't this kinda like a game?
+Dialogue: 0,0:10:56.84,0:10:57.09,sign_15749_182_Heat__Unlock_Req,Sign,0000,0000,0000,,Heat\N\NUnlock Requirements:\NNone
+Dialogue: 0,0:10:57.46,0:10:59.47,main,Mot,0000,0000,0000,,You mean it {\i1}is{\i0} one.
+Dialogue: 0,0:10:59.47,0:11:01.80,main,Mot,0000,0000,0000,,It's exactly like {\i1}Emerald Online.{\i0}
+Dialogue: 0,0:11:01.80,0:11:03.60,main,N,0000,0000,0000,,Huh? What's that game?
+Dialogue: 0,0:11:03.60,0:11:06.06,main,Mot,0000,0000,0000,,Are you serious? It's super famous!
+Dialogue: 0,0:11:06.06,0:11:07.93,main,Its,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:11:07.93,0:11:11.56,main,Its,0000,0000,0000,,This isn't some online game. \NIt's a world out of a console game.
+Dialogue: 0,0:11:11.56,0:11:13.40,main,Its,0000,0000,0000,,It's called {\i1}Dimension Web.{\i0}
+Dialogue: 0,0:11:13.40,0:11:16.15,main,Ren,0000,0000,0000,,You're wrong. It's a VRMMO.
+Dialogue: 0,0:11:16.15,0:11:18.99,main,Ren,0000,0000,0000,,It's pretty much the exact \Nsame as {\i1}Brave Star Online.{\i0}
+Dialogue: 0,0:11:20.07,0:11:21.45,main,Mot,0000,0000,0000,,Let's sort out the information we have.
+Dialogue: 0,0:11:21.45,0:11:25.62,main,Mot,0000,0000,0000,,Ren, can we take "VRMMO" literally?
+Dialogue: 0,0:11:25.62,0:11:26.58,main,Ren,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:26.58,0:11:29.20,main,Ren,0000,0000,0000,,You guys get what means too, right?
+Dialogue: 0,0:11:29.20,0:11:31.92,main,Its,0000,0000,0000,,I think a sci-fi game I'm familiar\N with explored the concept.
+Dialogue: 0,0:11:31.92,0:11:34.04,main,N,0000,0000,0000,,I've read about them in LNs, yeah.
+Dialogue: 0,0:11:34.04,0:11:37.21,main,Mot,0000,0000,0000,,Just to be sure, let's check \Nour general knowledge.
+Dialogue: 0,0:11:37.67,0:11:39.41,main,Mot,0000,0000,0000,,Who's the person on the thousand yen bill?
+Dialogue: 0,0:11:40.05,0:11:41.01,main,Mot,0000,0000,0000,,One, two...
+Dialogue: 0,0:11:41.01,0:11:42.84,top,Mot,0000,0000,0000,,Yawara Gotaro.
+Dialogue: 0,0:11:41.01,0:11:42.84,top,Ren,0000,0000,0000,,Yuda Masato.
+Dialogue: 0,0:11:41.01,0:11:42.84,main,Its,0000,0000,0000,,Kodaka Enichi.
+Dialogue: 0,0:11:41.01,0:11:42.84,main,N,0000,0000,0000,,Noguchi Hideyo.
+Dialogue: 0,0:11:43.72,0:11:44.72,main,All,0000,0000,0000,,Who?!
+Dialogue: 0,0:11:45.01,0:11:46.47,main,Mot,0000,0000,0000,,What won Buzzword of the Year last year?!
+Dialogue: 0,0:11:46.47,0:11:47.39,main,N,0000,0000,0000,,Your favorite voice actors?
+Dialogue: 0,0:11:47.39,0:11:49.14,main,Ren,0000,0000,0000,,Which countries won World War II?
+Dialogue: 0,0:11:49.14,0:11:50.68,main,Its,0000,0000,0000,,Who's the Prime Minister?
+Dialogue: 0,0:11:53.10,0:11:57.07,main,Its,0000,0000,0000,,It seems we're all from \Ndifferent versions of Japan.
+Dialogue: 0,0:11:57.07,0:11:59.99,main,Ren,0000,0000,0000,,Looks like it. They sound nothing alike.
+Dialogue: 0,0:12:01.32,0:12:04.49,main,N,0000,0000,0000,,So there are parallel world \NJapans out there too, huh?
+Dialogue: 0,0:12:04.49,0:12:06.78,main,Mot,0000,0000,0000,,I thought we might just \Nbe from different eras,
+Dialogue: 0,0:12:06.78,0:12:08.62,main,Mot,0000,0000,0000,,but I guess not, if they're so different.
+Dialogue: 0,0:12:08.62,0:12:13.71,main,N,0000,0000,0000,,And I can't believe all three of you played \Ngames that are just like this world.
+Dialogue: 0,0:12:13.71,0:12:15.67,main,N,0000,0000,0000,,Why am I the only one \Nunfamiliar with this stuff?
+Dialogue: 0,0:12:16.54,0:12:18.30,main,N,0000,0000,0000,,Huh? What is it?
+Dialogue: 0,0:12:18.30,0:12:21.84,main,Its,0000,0000,0000,,W-Well, I just thought it might \Nbecause you're the Shield Hero.
+Dialogue: 0,0:12:21.84,0:12:23.18,main,Mot,0000,0000,0000,,Oh, you too?
+Dialogue: 0,0:12:23.51,0:12:25.51,main,Ren,0000,0000,0000,,It's only natural.
+Dialogue: 0,0:12:25.51,0:12:28.64,main,N,0000,0000,0000,,Wh-What're you guys talking about?\NIs there something wrong with the shield?
+Dialogue: 0,0:12:28.97,0:12:33.44,main,Mot,0000,0000,0000,,All right. Big Bro Motoyasu's gonna \Nget you up to speed on the basics.
+Dialogue: 0,0:12:34.31,0:12:36.52,main,Mot,0000,0000,0000,,As far as I know, the Shielder,
+Dialogue: 0,0:12:36.52,0:12:38.02,main,Mot,0000,0000,0000,,the class that specializes in the shield...
+Dialogue: 0,0:12:38.02,0:12:38.98,main,N,0000,0000,0000,,Yeah?
+Dialogue: 0,0:12:39.44,0:12:42.70,main,Mot,0000,0000,0000,,...is one for losers. \NNo high-level gamers play it.
+Dialogue: 0,0:12:44.91,0:12:47.04,main,N,0000,0000,0000,,No!
+Dialogue: 0,0:12:47.67,0:12:49.28,main,N,0000,0000,0000,,How about in your worlds?
+Dialogue: 0,0:12:49.79,0:12:50.74,main,Ren,0000,0000,0000,,Sorry.
+Dialogue: 0,0:12:50.74,0:12:51.54,main,Its,0000,0000,0000,,Likewise.
+Dialogue: 0,0:12:55.92,0:12:57.38,main,Mot,0000,0000,0000,,How's the terrain here?
+Dialogue: 0,0:12:58.25,0:13:00.47,main,Ren,0000,0000,0000,,Very similar to what I'm familiar with.
+Dialogue: 0,0:13:00.96,0:13:05.30,top,Its,0000,0000,0000,,Each weapon has its own ideal hunting ground,\N so let's spread out.
+Dialogue: 0,0:13:03.97,0:13:05.30,italics,N,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:13:05.30,0:13:07.93,italics,N,0000,0000,0000,,If I'm weak, I can just rely on my party.
+Dialogue: 0,0:13:08.55,0:13:11.56,italics,N,0000,0000,0000,,It might have girls and all, too.
+Dialogue: 0,0:13:14.02,0:13:18.61,italics,N,0000,0000,0000,,The shield's role would be to thwart enemy \Nattacks and defend the party, right?
+Dialogue: 0,0:13:18.94,0:13:23.32,italics,N,0000,0000,0000,,And while my life back home was devoid of \Nromance, I might just meet The One here.
+Dialogue: 0,0:13:24.57,0:13:27.61,italics,N,0000,0000,0000,,It'll be fine. I've been summoned \Nto another world, after all.
+Dialogue: 0,0:13:28.03,0:13:30.33,italics,N,0000,0000,0000,,Even if I'm weak, things will work out.
+Dialogue: 0,0:13:31.08,0:13:33.54,main,N,0000,0000,0000,,All right! I'm gonna give it my all!
+Dialogue: 0,0:13:34.41,0:13:36.25,main,M-Mot,0000,0000,0000,,R-Right.
+Dialogue: 0,0:13:36.25,0:13:38.04,main,M-Mot,0000,0000,0000,,We have to set out on adventures tomorrow.
+Dialogue: 0,0:13:38.04,0:13:40.79,main,M-Mot,0000,0000,0000,,Let's head back to our rooms \Nand get a good night's sleep.
+Dialogue: 0,0:13:41.21,0:13:42.92,main,Its,0000,0000,0000,,Do you think they have baths here?
+Dialogue: 0,0:13:42.92,0:13:44.76,main,Mot,0000,0000,0000,,It's quite likely you'll \Nhave to go outdoors.
+Dialogue: 0,0:13:44.76,0:13:45.92,italics,N,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:45.92,0:13:49.01,italics,N,0000,0000,0000,,My grand adventure begins tomorrow!
+Dialogue: 0,0:14:05.90,0:14:12.03,main,Aul,0000,0000,0000,,We have gathered brave warriors who will \Nfight the Waves with you legendary heroes.
+Dialogue: 0,0:14:12.70,0:14:16.16,italics,N,0000,0000,0000,,These people will join our parties, huh?
+Dialogue: 0,0:14:16.87,0:14:20.00,italics,N,0000,0000,0000,,Wow, there's a real looker here, too.
+Dialogue: 0,0:14:22.29,0:14:24.59,main,Aul,0000,0000,0000,,Now, our future champions!
+Dialogue: 0,0:14:24.59,0:14:26.05,main,Aul,0000,0000,0000,,Time to begin your journey!
+Dialogue: 0,0:14:29.55,0:14:32.10,italics,N,0000,0000,0000,,What? {\i0}They're{\i1} the ones choosing?!
+Dialogue: 0,0:14:38.98,0:14:41.86,main,N,0000,0000,0000,,Three... four... five...
+Dialogue: 0,0:14:42.65,0:14:44.11,main,N,0000,0000,0000,,Yo, King!
+Dialogue: 0,0:14:44.11,0:14:48.32,main,Aul,0000,0000,0000,,I have to admit, I wasn't expecting this.
+Dialogue: 0,0:14:48.32,0:14:51.37,main,Min,0000,0000,0000,,No volunteers? He must have no charisma.
+Dialogue: 0,0:14:52.91,0:14:55.58,main,Aul,0000,0000,0000,,So there have been rumors.
+Dialogue: 0,0:14:55.58,0:14:57.66,main,Mot,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:14:57.66,0:15:04.96,main,Aul,0000,0000,0000,,Well, rumors that the Shield Hero is ignorant\N of this world have spread around town.
+Dialogue: 0,0:15:04.96,0:15:06.01,main,N,0000,0000,0000,,What?
+Dialogue: 0,0:15:06.01,0:15:10.38,main,Aul,0000,0000,0000,,Legend says the heroes come with a \Nfirm understanding of our lands.
+Dialogue: 0,0:15:10.38,0:15:13.60,main,Aul,0000,0000,0000,,And they seem to think he \Ndoesn't meet that criteria.
+Dialogue: 0,0:15:14.64,0:15:17.89,main,Mot,0000,0000,0000,,Maybe someone was eavesdropping \Non our chat last night.
+Dialogue: 0,0:15:17.89,0:15:18.81,main,N,0000,0000,0000,,Seriously?
+Dialogue: 0,0:15:19.35,0:15:21.10,italics,N,0000,0000,0000,,Just for that?
+Dialogue: 0,0:15:21.10,0:15:23.69,italics,N,0000,0000,0000,,Sure, I may not know much, but...
+Dialogue: 0,0:15:23.69,0:15:26.82,main,N,0000,0000,0000,,That aside, Ren, you don't need five!\NGimme some of them!
+Dialogue: 0,0:15:26.82,0:15:29.57,main,Ren,0000,0000,0000,,I'm actually more of a loner.
+Dialogue: 0,0:15:29.57,0:15:31.57,main,Ren,0000,0000,0000,,If any of you can't cut it, \NI'll leave you behind.
+Dialogue: 0,0:15:32.87,0:15:35.70,main,N,0000,0000,0000,,What do you make of this, Motoyasu? \NDon't you think it's unfair?
+Dialogue: 0,0:15:35.70,0:15:38.95,main,Mot,0000,0000,0000,,I'm actually surprised that \Nmy party is all girls, too.
+Dialogue: 0,0:15:38.95,0:15:42.00,italics,N,0000,0000,0000,,It pisses me off that he doesn't \Nseem all that broken up about it.
+Dialogue: 0,0:15:42.00,0:15:45.46,main,Its,0000,0000,0000,,It would be best to split them three each,
+Dialogue: 0,0:15:45.46,0:15:48.51,main,Its,0000,0000,0000,,but if we force it, it could destroy morale.
+Dialogue: 0,0:15:49.13,0:15:51.80,main,N,0000,0000,0000,,So, what, you're telling me to go it alone?!
+Dialogue: 0,0:15:52.38,0:15:53.93,italics,N,0000,0000,0000,,I'm a Shielder, you know!
+Dialogue: 0,0:15:53.93,0:15:56.47,italics,N,0000,0000,0000,,The class {\i0}you{\i1} guys said was for losers!
+Dialogue: 0,0:15:56.85,0:15:59.93,italics,N,0000,0000,0000,,How am I supposed to grow \Nstronger without a party?
+Dialogue: 0,0:16:02.60,0:16:03.90,main,Myne,0000,0000,0000,,Sir Hero!
+Dialogue: 0,0:16:07.15,0:16:07.94,italics,N,0000,0000,0000,,It's that girl.
+Dialogue: 0,0:16:08.65,0:16:12.36,main,Myne,0000,0000,0000,,Would you allow me to join the Shield Hero?
+Dialogue: 0,0:16:13.11,0:16:14.49,main,Mot,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:16:14.49,0:16:15.45,main,Myne,0000,0000,0000,,Yes!
+Dialogue: 0,0:16:15.45,0:16:17.83,italics,N,0000,0000,0000,,F-For real?
+Dialogue: 0,0:16:17.83,0:16:20.41,italics,N,0000,0000,0000,,She'll join my party?
+Dialogue: 0,0:16:22.33,0:16:27.00,main,Aul,0000,0000,0000,,Are there any others who wouldn't \Nmind joining Naofumi-dono?
+Dialogue: 0,0:16:28.00,0:16:30.09,main,Aul,0000,0000,0000,,I suppose we'll have to take other measures.
+Dialogue: 0,0:16:30.09,0:16:35.76,main,Aul,0000,0000,0000,,Naofumi-dono, you will have to \Nrecruit for your party yourself.
+Dialogue: 0,0:16:37.30,0:16:39.10,main,G,0000,0000,0000,,A-All right.
+Dialogue: 0,0:16:39.10,0:16:42.81,main,Aul,0000,0000,0000,,Every month, we shall provide each \Nhero with the funds they require.
+Dialogue: 0,0:16:42.81,0:16:47.44,main,Aul,0000,0000,0000,,This time, Naofumi-dono's payment \Nwill be higher than the others.
+Dialogue: 0,0:16:48.40,0:16:52.19,main,Aul,0000,0000,0000,,Here are your initial war \Nchests. Please accept them.
+Dialogue: 0,0:16:52.70,0:16:55.28,main,Min,0000,0000,0000,,Naofumi-sama gets 800 silver coins.
+Dialogue: 0,0:16:55.28,0:16:58.33,main,Min,0000,0000,0000,,The others get 600.
+Dialogue: 0,0:16:58.66,0:17:01.58,main,Aul,0000,0000,0000,,Use this to procure all necessary equipment \Nand set forth on your journey.
+Dialogue: 0,0:17:02.04,0:17:03.04,main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:17:07.92,0:17:09.71,main,Mot,0000,0000,0000,,Later, Naofumi.
+Dialogue: 0,0:17:10.71,0:17:12.97,main,Mot,0000,0000,0000,,Take good care of her, you hear me?
+Dialogue: 0,0:17:13.42,0:17:18.10,main,Its,0000,0000,0000,,It's sad that we can't help you, \Nbut good luck with your recruiting.
+Dialogue: 0,0:17:18.10,0:17:20.35,main,Ren,0000,0000,0000,,See you again when the time comes.
+Dialogue: 0,0:17:21.22,0:17:22.73,main,Y,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:17:23.85,0:17:26.06,main,Myne,0000,0000,0000,,Um, Shield Hero.
+Dialogue: 0,0:17:26.44,0:17:30.82,main,Myne,0000,0000,0000,,My name is Myne Suphia. It is \Nan honor to fight with you.
+Dialogue: 0,0:17:31.23,0:17:34.74,main,N,0000,0000,0000,,I'm Iwatani Naofumi. Nice to meet you.
+Dialogue: 0,0:17:34.74,0:17:35.86,main,Myne,0000,0000,0000,,My pleasure!
+Dialogue: 0,0:17:37.36,0:17:40.28,italics,N,0000,0000,0000,,She's so open and friendly.
+Dialogue: 0,0:17:40.28,0:17:43.41,italics,N,0000,0000,0000,,And she chose to join me \Nwhen no one else would.
+Dialogue: 0,0:17:43.75,0:17:45.91,italics,N,0000,0000,0000,,I've gotta keep her safe, no matter what!
+Dialogue: 0,0:17:46.71,0:17:50.54,main,N,0000,0000,0000,,Shall we get going, uh, Myne-san?
+Dialogue: 0,0:17:50.54,0:17:52.63,main,Myne,0000,0000,0000,,Yes, Sir Hero.
+Dialogue: 0,0:17:53.59,0:17:56.43,main,Myne,0000,0000,0000,,Let me show you around the \Ncastle town to start off.
+Dialogue: 0,0:17:59.80,0:18:01.60,main,N,0000,0000,0000,,I caught a glimpse last night,
+Dialogue: 0,0:18:01.60,0:18:05.31,main,N,0000,0000,0000,,but taking a closer look really drives \Nit home that this is another world.
+Dialogue: 0,0:18:05.64,0:18:08.19,main,Myne,0000,0000,0000,,What shall we do now, Sir Hero?
+Dialogue: 0,0:18:08.19,0:18:10.52,main,N,0000,0000,0000,,Hmm, let's see...
+Dialogue: 0,0:18:10.99,0:18:14.36,main,N,0000,0000,0000,,I'd like to check out a shop that \Nsells weapons and armor first.
+Dialogue: 0,0:18:14.36,0:18:16.20,main,Myne,0000,0000,0000,,That makes sense.
+Dialogue: 0,0:18:16.20,0:18:19.49,main,Myne,0000,0000,0000,,With that much money, you can \Nbuy some fine equipment.
+Dialogue: 0,0:18:19.49,0:18:22.79,main,Myne,0000,0000,0000,,I'll take you to a shop I trust, then.
+Dialogue: 0,0:18:22.79,0:18:24.50,main,N,0000,0000,0000,,Yeah, please do.
+Dialogue: 0,0:18:24.50,0:18:26.66,main,Myne,0000,0000,0000,,Sure thing! Follow me!
+Dialogue: 0,0:18:28.46,0:18:29.79,italics,N,0000,0000,0000,,So cute.
+Dialogue: 0,0:18:29.79,0:18:32.92,italics,N,0000,0000,0000,,Nothing beats having a\N girl in your party, huh?
+Dialogue: 0,0:18:36.47,0:18:38.63,main,Myne,0000,0000,0000,,I wholeheartedly recommend this place.
+Dialogue: 0,0:18:40.34,0:18:41.85,main,N,0000,0000,0000,,So this is what a weapons shop is like.
+Dialogue: 0,0:18:43.47,0:18:44.68,main,Erhardt,0000,0000,0000,,Welcome.
+Dialogue: 0,0:18:45.52,0:18:50.19,main,Erhardt,0000,0000,0000,,Is this your first time in a weapons shop?\NYou sure know how to pick 'em.
+Dialogue: 0,0:18:50.19,0:18:52.69,main,N,0000,0000,0000,,Actually, she brought me here.
+Dialogue: 0,0:18:53.98,0:18:56.07,main,Erh,0000,0000,0000,,Have we met before, Miss?\N Why do you look so familiar?
+Dialogue: 0,0:18:56.07,0:18:58.53,main,Myne,0000,0000,0000,,I've come shopping here before.
+Dialogue: 0,0:18:58.53,0:19:00.86,main,Myne,0000,0000,0000,,Your shop is quite famous, you know.
+Dialogue: 0,0:19:00.86,0:19:03.08,main,Erh,0000,0000,0000,,Ain't that nice of ya.
+Dialogue: 0,0:19:03.08,0:19:06.70,main,Erh,0000,0000,0000,,By the way, who's your companion \Nwith the funny outfit?
+Dialogue: 0,0:19:08.29,0:19:10.42,main,Myne,0000,0000,0000,,Can't you tell, boss?
+Dialogue: 0,0:19:11.33,0:19:14.29,main,Erh,0000,0000,0000,,You mean you're one of the heroes?
+Dialogue: 0,0:19:14.29,0:19:17.55,main,Erh,0000,0000,0000,,Ah, I see you've got a shield. \NYou must be the dud.
+Dialogue: 0,0:19:19.43,0:19:23.01,italics,N,0000,0000,0000,,Why are rumors about me \Nspreading like wildfire?
+Dialogue: 0,0:19:23.01,0:19:25.64,italics,N,0000,0000,0000,,Whatever. I can't let it get me down.
+Dialogue: 0,0:19:26.27,0:19:29.44,main,N,0000,0000,0000,,I'm Iwatani Naofumi, the Shield Hero.
+Dialogue: 0,0:19:29.44,0:19:31.15,main,N,0000,0000,0000,,Pleased to meet you!
+Dialogue: 0,0:19:31.15,0:19:32.81,main,Erh,0000,0000,0000,,Naofumi, eh?
+Dialogue: 0,0:19:32.81,0:19:37.65,main,Erh,0000,0000,0000,,Well, if you'll be a regular, I don't give \Ntwo hoots if you wield a shield or what.
+Dialogue: 0,0:19:37.65,0:19:39.24,main,Erh,0000,0000,0000,,Nice to meet ya, kid!
+Dialogue: 0,0:19:40.74,0:19:42.49,main,Erh,0000,0000,0000,,Anyway, boss,
+Dialogue: 0,0:19:42.49,0:19:45.24,main,Erh,0000,0000,0000,,could you provide Sir Hero \Nwith the equipment he needs?
+Dialogue: 0,0:19:45.24,0:19:49.20,main,Erh,0000,0000,0000,,Our budget is, let's see... \NAround 250 silvers.
+Dialogue: 0,0:19:49.91,0:19:52.79,main,Erh,0000,0000,0000,,Left to right, that's iron, magic iron,
+Dialogue: 0,0:19:52.79,0:19:55.96,main,Erh,0000,0000,0000,,magic steel, and silver iron \Nin ascending order of cost.
+Dialogue: 0,0:19:55.96,0:19:57.92,main,Erh,0000,0000,0000,,I guarantee they're all \Nquality swords, though.
+Dialogue: 0,0:19:57.92,0:20:00.22,main,N,0000,0000,0000,,Wow. With one of these, even I could...
+Dialogue: 0,0:20:02.34,0:20:03.43,main,N,0000,0000,0000,,What the...
+Dialogue: 0,0:20:08.27,0:20:09.93,main,N,0000,0000,0000,,Seriously, what's going on?
+Dialogue: 0,0:20:09.93,0:20:12.23,main,Erh,0000,0000,0000,,I don't get it, either.
+Dialogue: 0,0:20:12.23,0:20:14.61,main,Myne,0000,0000,0000,,It looked like it just \Nflew out of your hand.
+Dialogue: 0,0:20:15.02,0:20:16.52,main,N,0000,0000,0000,,What?
+Dialogue: 0,0:20:16.40,0:20:20.24,sign_33122_363_Legendary_Weapon,Sign,0000,0000,0000,,{\fad(500,500)}Legendary Weapon Rule Violation:\NHolding non-assigned weapon
+Dialogue: 0,0:20:18.78,0:20:20.74,main,N,0000,0000,0000,,"Rule Violation"?
+Dialogue: 0,0:20:20.32,0:20:22.03,sign_33122_363_Legendary_Weapon,Sign,0000,0000,0000,,{\fad(500,1)}A hero may not hold, with intent to fight,\Nany weapon other than their assigned legendary weapon
+Dialogue: 0,0:20:20.74,0:20:22.03,main,N,0000,0000,0000,,What the hell?
+Dialogue: 0,0:20:23.28,0:20:25.28,italics,N,0000,0000,0000,,How am I supposed to fight \Nwith just a shield?
+Dialogue: 0,0:20:26.12,0:20:30.50,main,N,0000,0000,0000,,Well, looks like I can't use any \Nweapons other than this shield.
+Dialogue: 0,0:20:30.50,0:20:32.41,main,Erh,0000,0000,0000,,How does that work?
+Dialogue: 0,0:20:35.75,0:20:38.80,main,Erh,0000,0000,0000,,It looks like any other small \Nshield at first glance.
+Dialogue: 0,0:20:39.09,0:20:41.38,main,Erh,0000,0000,0000,,Doesn't this thing come off?
+Dialogue: 0,0:20:41.38,0:20:45.47,main,N,0000,0000,0000,,I can move it around, but I can't \Nseem to remove it from my body.
+Dialogue: 0,0:20:45.47,0:20:47.35,main,Erh,0000,0000,0000,,That's so weird.
+Dialogue: 0,0:20:47.35,0:20:49.85,main,Erh,0000,0000,0000,,I sense a great amount \Nof power in this thing,
+Dialogue: 0,0:20:49.85,0:20:52.69,main,Erh,0000,0000,0000,,but even my appraisal magic \Nisn't telling me much.
+Dialogue: 0,0:20:52.94,0:20:54.14,main,N,0000,0000,0000,,Right...
+Dialogue: 0,0:20:54.14,0:20:56.69,main,Erh,0000,0000,0000,,Well, thanks for showing \Nme something interesting.
+Dialogue: 0,0:20:57.19,0:20:58.94,main,Erh,0000,0000,0000,,Want to buy some armor instead?
+Dialogue: 0,0:21:00.48,0:21:01.78,main,Erh,0000,0000,0000,,Oh, hey.
+Dialogue: 0,0:21:01.78,0:21:04.66,main,Erh,0000,0000,0000,,You're starting to look the part now.
+Dialogue: 0,0:21:05.24,0:21:06.03,main,N,0000,0000,0000,,Thanks.
+Dialogue: 0,0:21:06.41,0:21:08.99,sign_34321_382_Chain_Mail,Sign,0000,0000,0000,,{\fad(500,1)}Chain Mail
+Dialogue: 0,0:21:06.41,0:21:08.99,sign_30364_381_ATT__0_MAG__0_P_,Sign,0000,0000,0000,,{\fad(500,1)}ATT: 0\NMAG: 0\NP. DEF: +21\NM. DEF: +15\NDEX:  0
+Dialogue: 0,0:21:06.41,0:21:08.99,sign_30364_382_Slash_Resistance,Sign,0000,0000,0000,,{\fad(500,1)}Slash Resistance (Small)
+Dialogue: 0,0:21:06.41,0:21:08.99,sign_30364_383_Fire__0_Water__0,Sign,0000,0000,0000,,{\fad(500,1)}Fire: 0\NWater: 0\NIce: 0\NWind: 0\NEarth: 0\NLightning: 0\NLight: 0\NDark: 0
+Dialogue: 0,0:21:06.41,0:21:08.99,sign_30364_384_Durability__Weig,Sign,0000,0000,0000,,{\fad(500,1)}Durability\N\NWeight: 11\NQuality: *\N\NUnlock Requirements:\NHumanoid Lv. 1
+Dialogue: 0,0:21:09.24,0:21:11.04,main,Myne,0000,0000,0000,,How much is it?
+Dialogue: 0,0:21:11.04,0:21:13.83,main,Erh,0000,0000,0000,,I'll give you a discount. 120 silvers.
+Dialogue: 0,0:21:13.83,0:21:15.37,main,Myne,0000,0000,0000,,How much would you buy it for?
+Dialogue: 0,0:21:15.37,0:21:20.00,main,Erh,0000,0000,0000,,Huh? Well, if it's mostly new,\N I'd pay 100 silvers.
+Dialogue: 0,0:21:20.67,0:21:22.13,main,N,0000,0000,0000,,Why do you ask?
+Dialogue: 0,0:21:22.13,0:21:25.43,main,Myne,0000,0000,0000,,When you grow stronger,\N you won't need it anymore.
+Dialogue: 0,0:21:25.43,0:21:28.10,main,Myne,0000,0000,0000,,That's why I asked him how much \Nwe could sell it back for.
+Dialogue: 0,0:21:28.51,0:21:29.68,main,N,0000,0000,0000,,Makes sense.
+Dialogue: 0,0:21:29.68,0:21:31.43,main,Myne,0000,0000,0000,,All right. We'll take it.
+Dialogue: 0,0:21:31.43,0:21:34.60,main,Erh,0000,0000,0000,,Thanks! I'll throw in some \Ninnerwear to show my gratitude!
+Dialogue: 0,0:21:36.15,0:21:39.73,main,Myne,0000,0000,0000,,Shall we head off to battle now, Sir Hero?
+Dialogue: 0,0:21:40.15,0:21:41.69,main,N,0000,0000,0000,,Y-Yeah!
+Dialogue: 0,0:21:41.98,0:21:43.65,italics,N,0000,0000,0000,,Time to level up, huh?
+Dialogue: 0,0:21:43.65,0:21:45.90,italics,N,0000,0000,0000,,My adventure's finally beginning!
+Dialogue: 0,0:22:52.18,0:22:55.85,main,Myne,0000,0000,0000,,Wow. There's no limit to \Nhow much it can absorb.
+Dialogue: 0,0:22:55.60,0:22:56.93,sign_32982_399_Absorbed_Orange_,,0000,0000,0000,,{\fad(232,138)}Absorbed Orange Balloon x1
+Dialogue: 0,0:22:58.73,0:23:02.06,main,Myne,0000,0000,0000,,This must be the power \Nof a legendary weapon.
+Dialogue: 0,0:23:02.52,0:23:03.69,main,N,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:03.69,0:23:07.07,main,N,0000,0000,0000,,This must be why I don't feel \Npain when I'm bitten, too.
+Dialogue: 0,0:23:07.07,0:23:11.99,main,N,0000,0000,0000,,Looks like I need a lot more fodder before \NI can upgrade it to a different shield.
+Dialogue: 0,0:23:11.99,0:23:13.62,main,Myne,0000,0000,0000,,I see.
+Dialogue: 0,0:23:13.62,0:23:18.08,main,N,0000,0000,0000,,By the way, can we sell these \Norange balloon fragments?
+Dialogue: 0,0:23:18.08,0:23:22.37,main,Myne,0000,0000,0000,,Yes, but only for one copper coin at most.
+Dialogue: 0,0:23:22.88,0:23:26.01,italics,N,0000,0000,0000,,Looking at how Ren destroyed them, \Nthey must be really weak monsters.
+Dialogue: 0,0:23:26.01,0:23:27.17,italics,N,0000,0000,0000,,I guess that's all they're worth.
+Dialogue: 0,0:23:27.72,0:23:30.80,main,N,0000,0000,0000,,That should be enough shield fodder.
+Dialogue: 0,0:23:31.26,0:23:34.85,main,N,0000,0000,0000,,It should evolve as I level up, too.
+Dialogue: 0,0:23:35.31,0:23:38.81,main,Myne,0000,0000,0000,,Let's call it a day and head \Nback to the weapons shop.
+Dialogue: 0,0:23:39.18,0:23:43.15,main,Myne,0000,0000,0000,,If we buy me some new equipment,\N we can go that much farther tomorrow.
+Dialogue: 0,0:23:44.73,0:23:46.23,main,N,0000,0000,0000,,Fair enough.
+Dialogue: 0,0:23:47.74,0:23:49.95,main,Erh,0000,0000,0000,,Equipment for the lady, huh?
+Dialogue: 0,0:23:50.65,0:23:53.70,main,Erh,0000,0000,0000,,Sure, you'll be much stronger \Nwith good equipment.
+Dialogue: 0,0:23:54.70,0:23:55.53,main,Myne,0000,0000,0000,,Right?
+Dialogue: 0,0:23:55.95,0:23:59.91,main,N,0000,0000,0000,,This might get expensive,\N so I should start haggling now.
+Dialogue: 0,0:24:00.87,0:24:03.17,main,Erh,0000,0000,0000,,I see our hero is a real comedian.
+Dialogue: 0,0:24:03.17,0:24:04.50,main,N,0000,0000,0000,,Eighty percent off.
+Dialogue: 0,0:24:04.50,0:24:06.09,main,Erh,0000,0000,0000,,Are you stupid? Twenty percent extra!
+Dialogue: 0,0:24:06.09,0:24:08.76,main,N,0000,0000,0000,,Wh-Why's it going up?\NEighty-nine percent off!
+Dialogue: 0,0:24:08.76,0:24:13.05,main,Erh,0000,0000,0000,,Anyone who tries to haggle without even \Nseeing the goods deserves to pay double!
+Dialogue: 0,0:24:13.05,0:24:15.55,main,N,0000,0000,0000,,Keep talking! Ninety percent off!
+Dialogue: 0,0:24:15.55,0:24:16.81,main,Erh,0000,0000,0000,,Twenty-nine percent extra!
+Dialogue: 0,0:24:16.81,0:24:19.39,main,N,0000,0000,0000,,Seriously, stop raising the price!\NOne hundred percent off!
+Dialogue: 0,0:24:19.39,0:24:21.35,main,Erh,0000,0000,0000,,That's just free, kid!
+Dialogue: 0,0:24:21.35,0:24:22.35,main,N,0000,0000,0000,,Free's fine by me!
+Dialogue: 0,0:24:21.89,0:24:22.90,main,Myne,0000,0000,0000,,Hup.
+Dialogue: 0,0:24:24.90,0:24:27.82,main,N,0000,0000,0000,,Boss, how much is that in total?\NAt sixty percent off.
+Dialogue: 0,0:24:27.82,0:24:31.82,main,Erh,0000,0000,0000,,Four hundred and eighty silvers with\N a discount. I can't go any lower.
+Dialogue: 0,0:24:32.15,0:24:36.12,main,N,0000,0000,0000,,Uh, that'll leave us with 200 silvers...
+Dialogue: 0,0:24:36.12,0:24:38.62,main,N,0000,0000,0000,,Myne, can you downgrade a bit?
+Dialogue: 0,0:24:38.62,0:24:41.75,main,N,0000,0000,0000,,I don't know how much we'll have to spend \Non inns and other living expenses yet.
+Dialogue: 0,0:24:41.75,0:24:43.79,main,Myne,0000,0000,0000,,It'll be fine, Sir Hero.
+Dialogue: 0,0:24:43.79,0:24:47.92,main,Myne,0000,0000,0000,,The stronger I am, the more \Nloot we'll get from monsters.
+Dialogue: 0,0:24:47.92,0:24:50.30,main,Myne,0000,0000,0000,,That should keep us going.
+Dialogue: 0,0:24:50.96,0:24:54.18,italics,N,0000,0000,0000,,There's the otherworld trope \NI've been waiting for!
+Dialogue: 0,0:24:54.64,0:24:56.89,main,N,0000,0000,0000,,F-Fine, I guess.
+Dialogue: 0,0:24:56.89,0:24:59.56,main,N,0000,0000,0000,,All right. We'll take these, boss.
+Dialogue: 0,0:24:59.93,0:25:01.93,main,Erh,0000,0000,0000,,Thanks a ton!
+Dialogue: 0,0:25:01.93,0:25:04.81,main,Erh,0000,0000,0000,,I see our hero's got a \Nreal nose for good deals.
+Dialogue: 0,0:25:04.81,0:25:06.11,main,Myne,0000,0000,0000,,Thank you, Sir Hero.
+Dialogue: 0,0:25:07.11,0:25:11.32,main,N,0000,0000,0000,,By the way, boss, do you know a \Nplace that'll buy these fragments?
+Dialogue: 0,0:25:11.32,0:25:13.90,main,Erh,0000,0000,0000,,There are shops for monster materials.
+Dialogue: 0,0:25:13.90,0:25:16.57,main,Erh,0000,0000,0000,,They'll buy most things off of ya.
+Dialogue: 0,0:25:16.57,0:25:17.70,main,N,0000,0000,0000,,Thanks.
+Dialogue: 0,0:25:19.45,0:25:20.74,main,N,0000,0000,0000,,Yum!
+Dialogue: 0,0:25:20.74,0:25:23.04,main,N,0000,0000,0000,,The food at the castle was great too,
+Dialogue: 0,0:25:23.04,0:25:26.21,main,N,0000,0000,0000,,but a pub is where you experience \Nreal otherworld cuisine!
+Dialogue: 0,0:25:27.50,0:25:29.67,main,Myne,0000,0000,0000,,I hope you relish the meal.
+Dialogue: 0,0:25:30.96,0:25:34.01,main,N,0000,0000,0000,,The meadow we fought in \Nwas over here, right?
+Dialogue: 0,0:25:34.01,0:25:34.63,main,Myne,0000,0000,0000,,Yes.
+Dialogue: 0,0:25:34.63,0:25:38.68,main,Myne,0000,0000,0000,,Tomorrow, we'll be heading to Lafan \NVillage, which lies beyond this map.
+Dialogue: 0,0:25:38.68,0:25:43.31,main,Myne,0000,0000,0000,,Past Lafan Village lies a dungeon \Nfor rookie adventurers.
+Dialogue: 0,0:25:43.31,0:25:44.52,main,N,0000,0000,0000,,A dungeon?
+Dialogue: 0,0:25:44.52,0:25:49.82,main,Myne,0000,0000,0000,,We won't make much money there, but it's \Nthe perfect spot for you to level up.
+Dialogue: 0,0:25:49.82,0:25:50.94,main,,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:25:51.32,0:25:53.24,main,Myne,0000,0000,0000,,Now that I have new equipment,
+Dialogue: 0,0:25:53.24,0:25:56.24,main,Myne,0000,0000,0000,,it should be a walk in the \Npark with you defending me.
+Dialogue: 0,0:25:56.24,0:25:59.07,main,N,0000,0000,0000,,Thanks. Very informative.
+Dialogue: 0,0:25:59.07,0:26:00.20,main,Myne,0000,0000,0000,,No problem.
+Dialogue: 0,0:26:00.20,0:26:02.58,main,Myne,0000,0000,0000,,By the way, Sir Hero,
+Dialogue: 0,0:26:03.29,0:26:06.29,main,Myne,0000,0000,0000,,aren't you going to drink your wine?
+Dialogue: 0,0:26:06.29,0:26:09.04,main,N,0000,0000,0000,,Nah, I'm not into booze.
+Dialogue: 0,0:26:09.04,0:26:12.92,main,Myne,0000,0000,0000,,Really? This is pretty good, you know.
+Dialogue: 0,0:26:17.80,0:26:21.78,main,Myne,0000,0000,0000,,I'd love to drink with you.
+Dialogue: 0,0:26:24.22,0:26:27.02,italics,N,0000,0000,0000,,She suddenly became twice as seductive!
+Dialogue: 0,0:26:27.02,0:26:27.98,italics,N,0000,0000,0000,,But...
+Dialogue: 0,0:26:27.98,0:26:30.31,main,N,0000,0000,0000,,S-Sorry. I really don't like it.
+Dialogue: 0,0:26:30.31,0:26:32.69,main,Myne,0000,0000,0000,,Is that so? That's too bad.
+Dialogue: 0,0:26:34.82,0:26:36.70,main,Myne,0000,0000,0000,,That's a hero for you, I suppose.
+Dialogue: 0,0:26:36.70,0:26:38.24,main,N,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:26:38.53,0:26:40.66,main,Myne,0000,0000,0000,,This country is a matriarchy.
+Dialogue: 0,0:26:40.66,0:26:45.00,main,Myne,0000,0000,0000,,No man would ever dare turn down \Na drink offered by a woman.
+Dialogue: 0,0:26:45.29,0:26:49.21,main,N,0000,0000,0000,,Really? I'm not very good at \Npicking up on this stuff.
+Dialogue: 0,0:26:49.21,0:26:50.96,main,Myne,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:26:51.42,0:26:54.46,main,N,0000,0000,0000,,I'm glad we got to discuss \Nour plans moving forward.
+Dialogue: 0,0:26:55.01,0:26:57.84,main,N,0000,0000,0000,,I'd like to turn in early tonight.\N Is that okay?
+Dialogue: 0,0:26:58.26,0:26:59.05,main,Myne,0000,0000,0000,,Of course.
+Dialogue: 0,0:26:59.68,0:27:01.80,main,Myne,0000,0000,0000,,I'll head up after I drink some more...
+Dialogue: 0,0:27:02.10,0:27:04.56,main,Myne,0000,0000,0000,,Although I feel {\i1}so{\i0} lonely drinking alone.
+Dialogue: 0,0:27:04.56,0:27:06.52,main,N,0000,0000,0000,,H-Hey, Myne?
+Dialogue: 0,0:27:07.60,0:27:12.86,main,N,0000,0000,0000,,Thanks for joining me, a shield \Nhero who can't fight at all.
+Dialogue: 0,0:27:13.40,0:27:15.57,main,N,0000,0000,0000,,I turned you down tonight,\N but I'll make it up to you someday.
+Dialogue: 0,0:27:17.78,0:27:19.49,main,Myne,0000,0000,0000,,It's totally fine.
+Dialogue: 0,0:27:19.49,0:27:21.62,main,Myne,0000,0000,0000,,Good night, Sir Hero.
+Dialogue: 0,0:27:22.07,0:27:23.12,main,N,0000,0000,0000,,Night.
+Dialogue: 0,0:27:29.29,0:27:31.08,main,N,0000,0000,0000,,Two hundred silvers left.
+Dialogue: 0,0:27:31.71,0:27:35.21,main,N,0000,0000,0000,,Two rooms at 30 coppers a night each,
+Dialogue: 0,0:27:35.21,0:27:38.34,main,N,0000,0000,0000,,and meals for two at five coppers each...
+Dialogue: 0,0:27:38.34,0:27:41.18,main,N,0000,0000,0000,,That leaves a little more than 199 silvers.
+Dialogue: 0,0:27:43.68,0:27:48.43,main,N,0000,0000,0000,,I'm such a stereotypical Japanese tourist,\Nstashing money like this.
+Dialogue: 0,0:27:49.39,0:27:51.48,main,N,0000,0000,0000,,What a day.
+Dialogue: 0,0:27:53.52,0:27:56.86,italics,N,0000,0000,0000,,I wonder if that's how it truly \Nfeels to kill a monster.
+Dialogue: 0,0:27:57.23,0:28:00.32,italics,N,0000,0000,0000,,I just went around popping balloons today.
+Dialogue: 0,0:28:00.65,0:28:04.33,italics,N,0000,0000,0000,,But man, I really did come to another world!
+Dialogue: 0,0:28:08.33,0:28:10.46,main,Mot,0000,0000,0000,,I leveled up quite a bit today.
+Dialogue: 0,0:28:10.46,0:28:12.54,main,Its,0000,0000,0000,,I won't let you outshine me tomorrow.
+Dialogue: 0,0:28:13.29,0:28:14.50,top,Mot,0000,0000,0000,,See you tomorrow, then.
+Dialogue: 0,0:28:13.67,0:28:15.96,italics,N,0000,0000,0000,,Is that Motoyasu and Itsuki?
+Dialogue: 0,0:28:14.50,0:28:15.96,top,Its,0000,0000,0000,,See you.
+Dialogue: 0,0:28:18.96,0:28:20.59,main,N,0000,0000,0000,,Guess I'll sleep.
+Dialogue: 0,0:28:20.59,0:28:22.38,main,N,0000,0000,0000,,Early start tomorrow and all.
+Dialogue: 0,0:28:36.07,0:28:39.86,main,N,0000,0000,0000,,Time to get some breakfast and head out!
+Dialogue: 0,0:28:40.40,0:28:41.15,main,N,0000,0000,0000,,Huh?
+Dialogue: 0,0:28:41.78,0:28:42.49,main,N,0000,0000,0000,,Gone...
+Dialogue: 0,0:28:43.07,0:28:43.74,main,N,0000,0000,0000,,It's gone!
+Dialogue: 0,0:28:44.45,0:28:46.33,main,N,0000,0000,0000,,The silvers, the chain mail,
+Dialogue: 0,0:28:46.74,0:28:50.16,main,N,0000,0000,0000,,and even my own clothes I'd \Nkept for a rainy day are gone!
+Dialogue: 0,0:28:50.70,0:28:51.79,main,N,0000,0000,0000,,No way...
+Dialogue: 0,0:28:51.79,0:28:53.04,main,N,0000,0000,0000,,I got robbed in my sleep?!
+Dialogue: 0,0:29:01.26,0:29:04.13,main,N,0000,0000,0000,,Big trouble, Myne! Our money \Nand equipment is gone!
+Dialogue: 0,0:29:06.22,0:29:07.39,main,N,0000,0000,0000,,Are you still asleep?
+Dialogue: 0,0:29:07.68,0:29:10.02,main,N,0000,0000,0000,,Wake up, Myne! We've got big trouble!
+Dialogue: 0,0:29:10.81,0:29:13.73,main,N,0000,0000,0000,,You're knights from the castle, right?
+Dialogue: 0,0:29:13.73,0:29:15.44,main,N,0000,0000,0000,,I'm glad you're here. Listen to this...
+Dialogue: 0,0:29:15.44,0:29:16.77,main,G,0000,0000,0000,,The Shield Hero, yes?
+Dialogue: 0,0:29:17.27,0:29:18.65,main,N,0000,0000,0000,,Yeah, why?
+Dialogue: 0,0:29:19.53,0:29:22.53,main,G,0000,0000,0000,,The king has issued a summons for you.
+Dialogue: 0,0:29:22.53,0:29:24.20,main,G,0000,0000,0000,,Come with us.
+Dialogue: 0,0:29:25.07,0:29:26.07,main,N,0000,0000,0000,,Huh?
+Dialogue: 0,0:29:28.79,0:29:30.45,main,N,0000,0000,0000,,That hurts!
+Dialogue: 0,0:29:31.62,0:29:33.67,main,N,0000,0000,0000,,What's going on?
+Dialogue: 0,0:29:35.33,0:29:37.00,main,N,0000,0000,0000,,Myne! You're okay?
+Dialogue: 0,0:29:38.92,0:29:39.80,main,N,0000,0000,0000,,Myne?
+Dialogue: 0,0:29:42.42,0:29:43.09,main,N,0000,0000,0000,,Yo, King!
+Dialogue: 0,0:29:43.09,0:29:48.64,main,N,0000,0000,0000,,I had all my money and equipment other than \Nthe shield stolen while I was asleep!
+Dialogue: 0,0:29:49.10,0:29:50.31,main,N,0000,0000,0000,,Please find the thief—
+Dialogue: 0,0:29:50.31,0:29:51.77,main,Aul,0000,0000,0000,,Quiet, scumbag!
+Dialogue: 0,0:29:52.18,0:29:53.48,main,N,0000,0000,0000,,What's that about?
+Dialogue: 0,0:29:54.48,0:29:56.86,main,Aul,0000,0000,0000,,Myne, you poor adventurer,
+Dialogue: 0,0:29:56.86,0:30:00.19,main,Aul,0000,0000,0000,,could you please testify once more for us?
+Dialogue: 0,0:30:01.74,0:30:09.16,main,Myne,0000,0000,0000,,Th-The Shield Hero barged into my \Nroom drunk and pinned me down...
+Dialogue: 0,0:30:09.16,0:30:10.41,main,N,0000,0000,0000,,Huh?
+Dialogue: 0,0:30:10.41,0:30:13.21,main,Myne,0000,0000,0000,,He said, "The night is still young,"
+Dialogue: 0,0:30:13.21,0:30:16.54,main,Myne,0000,0000,0000,,and tore my clothes off!
+Dialogue: 0,0:30:17.67,0:30:20.09,main,Myne,0000,0000,0000,,I somehow escaped
+Dialogue: 0,0:30:20.09,0:30:25.76,main,Myne,0000,0000,0000,,and ran to Sir Motoyasu, who happened to \Nbe staying in the same inn, for help!
+Dialogue: 0,0:30:28.34,0:30:30.31,main,N,0000,0000,0000,,Wh-What the hell?
+Dialogue: 0,0:30:30.31,0:30:33.93,main,Mot,0000,0000,0000,,If she hadn't asked me to wait \Ntill dawn and call the knights,
+Dialogue: 0,0:30:33.93,0:30:36.52,main,Mot,0000,0000,0000,,I would've cut you down myself!
+Dialogue: 0,0:30:36.52,0:30:37.94,main,N,0000,0000,0000,,What are you talking about?!
+Dialogue: 0,0:30:37.94,0:30:40.94,main,N,0000,0000,0000,,I went straight to bed \Nafter dinner last night!
+Dialogue: 0,0:30:41.53,0:30:44.15,main,N,0000,0000,0000,,Wait, that chain mail...
+Dialogue: 0,0:30:44.82,0:30:46.57,main,N,0000,0000,0000,,You were the robber?!
+Dialogue: 0,0:30:46.99,0:30:49.07,main,Mot,0000,0000,0000,,Who are you calling a robber?
+Dialogue: 0,0:30:49.07,0:30:53.54,main,Mot,0000,0000,0000,,Myne gave this to me as a present \Nwhen I met her at the pub yesterday.
+Dialogue: 0,0:30:55.66,0:31:00.54,main,Aul,0000,0000,0000,,To think the Shield Hero would commit \Nthe gravest sin in this country.
+Dialogue: 0,0:31:00.54,0:31:01.75,main,Mot,0000,0000,0000,,Sin?
+Dialogue: 0,0:31:01.75,0:31:06.88,main,Min,0000,0000,0000,,In Melromarc, even attempting to sexually \Nassault a woman is punishable by death!
+Dialogue: 0,0:31:07.26,0:31:10.68,main,Aul,0000,0000,0000,,If you weren't a hero,\N you would be executed immediately!
+Dialogue: 0,0:31:11.26,0:31:12.64,main,N,0000,0000,0000,,Executed?
+Dialogue: 0,0:31:13.06,0:31:15.85,main,N,0000,0000,0000,,I'm telling you, you've got the wrong idea!
+Dialogue: 0,0:31:15.85,0:31:17.02,main,N,0000,0000,0000,,I didn't do it!
+Dialogue: 0,0:31:17.02,0:31:19.94,main,N,0000,0000,0000,,If you're so convinced I did,\N show me the proof!
+Dialogue: 0,0:31:22.07,0:31:24.49,main,Knight,0000,0000,0000,,When we searched the Shield Hero's room,
+Dialogue: 0,0:31:24.94,0:31:28.99,main,Knight,0000,0000,0000,,um, we found this on his bed.
+Dialogue: 0,0:31:29.53,0:31:30.62,main,Myne,0000,0000,0000,,Eek!
+Dialogue: 0,0:31:30.62,0:31:32.03,main,Mot,0000,0000,0000,,You animal!
+Dialogue: 0,0:31:32.37,0:31:34.66,main,Aul,0000,0000,0000,,There you have it. Undeniable proof.
+Dialogue: 0,0:31:34.66,0:31:37.62,main,N,0000,0000,0000,,How? It wasn't there when I woke up!
+Dialogue: 0,0:31:38.04,0:31:39.33,main,Its,0000,0000,0000,,It's too bad.
+Dialogue: 0,0:31:39.33,0:31:42.63,main,Its,0000,0000,0000,,I was worried something bad might happen, \Nbut I was hoping you'd know better.
+Dialogue: 0,0:31:42.63,0:31:46.09,main,Ren,0000,0000,0000,,He thinks a hero can do whatever the \Nhell he wants and get away with it.
+Dialogue: 0,0:31:46.55,0:31:49.26,main,N,0000,0000,0000,,That's not even the least bit true.
+Dialogue: 0,0:31:49.26,0:31:52.81,main,Mot,0000,0000,0000,,You're not the be all and \Nend all in this world!
+Dialogue: 0,0:31:53.22,0:31:54.68,main,Mot,0000,0000,0000,,Know your place!
+Dialogue: 0,0:31:57.94,0:31:59.56,italics,N,0000,0000,0000,,What is all this?
+Dialogue: 0,0:32:00.56,0:32:01.94,italics,N,0000,0000,0000,,What the hell is going on?
+Dialogue: 0,0:32:02.36,0:32:04.40,italics,N,0000,0000,0000,,Myne... Myne!
+Dialogue: 0,0:32:04.40,0:32:05.90,italics,N,0000,0000,0000,,Why would you lie like that?
+Dialogue: 0,0:32:05.90,0:32:07.61,italics,N,0000,0000,0000,,Weren't we supposed to be a party?
+Dialogue: 0,0:32:13.37,0:32:14.49,italics,N,0000,0000,0000,,I see.
+Dialogue: 0,0:32:14.49,0:32:18.68,italics,N,0000,0000,0000,,Joining me was just a ruse \Nto destroy me right here.
+Dialogue: 0,0:32:18.68,0:32:20.00,italics,N,0000,0000,0000,,It was all a lie!
+Dialogue: 0,0:32:20.00,0:32:23.21,italics,N,0000,0000,0000,,The smiles she showed me, and her \Nacts of kindness, were all fake!
+Dialogue: 0,0:32:26.09,0:32:28.80,main,N,0000,0000,0000,,You tricked me!
+Dialogue: 0,0:32:29.22,0:32:31.43,main,N,0000,0000,0000,,It was a setup all along!
+Dialogue: 0,0:32:31.43,0:32:33.64,main,Myne,0000,0000,0000,,Sir Motoyasu, I'm so scared!
+Dialogue: 0,0:32:33.64,0:32:35.39,main,Mot,0000,0000,0000,,Shut your mouth, you criminal!
+Dialogue: 0,0:32:35.39,0:32:37.39,main,N,0000,0000,0000,,Screw you, too!
+Dialogue: 0,0:32:37.39,0:32:40.06,main,N,0000,0000,0000,,I bet you did all this to \Nsteal my money and equipment!
+Dialogue: 0,0:32:40.06,0:32:42.35,main,N,0000,0000,0000,,You two planned this together, didn't you?!
+Dialogue: 0,0:32:43.61,0:32:45.77,italics,N,0000,0000,0000,,Yeah, come to think of it...
+Dialogue: 0,0:32:45.77,0:32:49.19,italics,N,0000,0000,0000,,Myne only ever called me "Sir Hero,"
+Dialogue: 0,0:32:49.19,0:32:51.36,italics,N,0000,0000,0000,,but she's calling Motoyasu by name!
+Dialogue: 0,0:32:51.86,0:32:55.40,italics,N,0000,0000,0000,,If that isn't proof they were in it together,\N I don't know what is!
+Dialogue: 0,0:32:55.40,0:33:00.00,main,Ren,0000,0000,0000,,Refusing to admit his guilt and \Nmaking nonsensical accusations?
+Dialogue: 0,0:33:00.00,0:33:01.21,main,Its,0000,0000,0000,,I know, right?
+Dialogue: 0,0:33:01.21,0:33:03.42,main,Its,0000,0000,0000,,I don't think he deserves any mercy, either.
+Dialogue: 0,0:33:03.42,0:33:08.01,main,Noble2,0000,0000,0000,,It really was a mistake to \Nsummon all four together.
+Dialogue: 0,0:33:08.01,0:33:11.55,main,Noble3,0000,0000,0000,,Exactly. They never should've \Nsummoned the Shield Hero.
+Dialogue: 0,0:33:11.55,0:33:14.80,top,Noble1,0000,0000,0000,,But who would've thought he'd be such scum?
+Dialogue: 0,0:33:14.01,0:33:16.89,italics,N,0000,0000,0000,,The shield... It's all \Nabout the shield again?
+Dialogue: 0,0:33:17.64,0:33:18.77,italics,N,0000,0000,0000,,Because I'm the Shield Hero...
+Dialogue: 0,0:33:19.14,0:33:26.02,italics,N,0000,0000,0000,,Because I'm weak, they're trying to knock \Nme down to make themselves look better.
+Dialogue: 0,0:33:26.82,0:33:28.23,italics,N,0000,0000,0000,,Disgusting.
+Dialogue: 0,0:33:28.23,0:33:31.11,italics,N,0000,0000,0000,,These people are all \Ndirty, disgusting filth!
+Dialogue: 0,0:33:31.70,0:33:34.66,italics,N,0000,0000,0000,,This country's people don't \Nbelieve in me one bit, too.
+Dialogue: 0,0:33:35.20,0:33:38.16,italics,N,0000,0000,0000,,Why should I have to fight for them?
+Dialogue: 0,0:33:39.50,0:33:42.08,main,N,0000,0000,0000,,Fine. I don't care anymore.
+Dialogue: 0,0:33:42.54,0:33:45.29,main,N,0000,0000,0000,,Just send me back to my world.
+Dialogue: 0,0:33:45.29,0:33:48.13,main,N,0000,0000,0000,,And summon a new Shield Hero \Nor whatever the hell you want!
+Dialogue: 0,0:33:48.59,0:33:50.26,main,N,0000,0000,0000,,Another world? Screw that!
+Dialogue: 0,0:33:50.26,0:33:53.47,main,N,0000,0000,0000,,Why should I have to go through \Nthis in a whole different world?!
+Dialogue: 0,0:33:53.47,0:33:56.47,main,Ren,0000,0000,0000,,You're going to run as \Nsoon as things go south?
+Dialogue: 0,0:33:56.47,0:33:57.93,main,Ren,0000,0000,0000,,Could you stoop any lower?
+Dialogue: 0,0:33:57.93,0:34:01.35,main,Its,0000,0000,0000,,After all you've done, how could you \Neven think about not doing your job?
+Dialogue: 0,0:34:01.73,0:34:03.85,main,Mot,0000,0000,0000,,Yeah, get lost.
+Dialogue: 0,0:34:03.85,0:34:06.15,main,Mot,0000,0000,0000,,Who wants to fight alongside a rapist?
+Dialogue: 0,0:34:06.15,0:34:07.06,main,N,0000,0000,0000,,Shut up!
+Dialogue: 0,0:34:07.06,0:34:10.07,main,N,0000,0000,0000,,Now, send me back to my world already!
+Dialogue: 0,0:34:10.44,0:34:15.32,main,Aul,0000,0000,0000,,Well, I'd love to do as you \Nwish and kick you out,
+Dialogue: 0,0:34:15.32,0:34:21.83,main,Aul,0000,0000,0000,,but legend says new heroes can only be \Nsummoned once all Four Cardinal Heroes die.
+Dialogue: 0,0:34:22.79,0:34:23.79,main,Ren,0000,0000,0000,,What?
+Dialogue: 0,0:34:23.79,0:34:25.29,main,Mot,0000,0000,0000,,No way...
+Dialogue: 0,0:34:25.71,0:34:28.04,main,N,0000,0000,0000,,So I can't even go home?
+Dialogue: 0,0:34:28.63,0:34:35.43,main,Aul,0000,0000,0000,,Well, you can certainly go home after \Nyou fight off all the incoming Waves.
+Dialogue: 0,0:34:36.55,0:34:40.35,main,Mot,0000,0000,0000,,Are you saying we'll have to \Nfight alongside a guy like him?
+Dialogue: 0,0:34:40.35,0:34:41.52,main,N,0000,0000,0000,,Screw that!
+Dialogue: 0,0:34:43.18,0:34:47.15,main,N,0000,0000,0000,,I'll handle the Waves my way, then!
+Dialogue: 0,0:34:48.48,0:34:49.69,main,Kn,0000,0000,0000,,Don't move!
+Dialogue: 0,0:34:49.69,0:34:51.82,main,N,0000,0000,0000,,Get off of me already!
+Dialogue: 0,0:34:52.53,0:34:53.74,main,Kn,0000,0000,0000,,This guy...
+Dialogue: 0,0:34:56.82,0:34:58.28,main,N,0000,0000,0000,,What'll it be?
+Dialogue: 0,0:34:58.74,0:35:01.45,main,N,0000,0000,0000,,Will you throw me in jail \Nuntil the Waves arrive?
+Dialogue: 0,0:35:01.45,0:35:03.08,main,Aul,0000,0000,0000,,I won't imprison you.
+Dialogue: 0,0:35:03.08,0:35:05.33,main,Aul,0000,0000,0000,,There's hardly any time until the next Wave.
+Dialogue: 0,0:35:05.33,0:35:09.71,main,Aul,0000,0000,0000,,Scum or not, you're still a hero, one of \Nthe only beings who can fight the Waves.
+Dialogue: 0,0:35:10.25,0:35:13.80,main,Aul,0000,0000,0000,,But news of your crime is already \Nspreading among the people.
+Dialogue: 0,0:35:13.80,0:35:15.05,main,Aul,0000,0000,0000,,That is your punishment.
+Dialogue: 0,0:35:15.05,0:35:19.18,main,Aul,0000,0000,0000,,Don't think you'll ever get to lead \Na decent life in this country.
+Dialogue: 0,0:35:19.51,0:35:20.47,main,N,0000,0000,0000,,I know that already!
+Dialogue: 0,0:35:26.98,0:35:28.77,main,N,0000,0000,0000,,This is what you wanted, right?
+Dialogue: 0,0:35:29.73,0:35:30.86,main,N,0000,0000,0000,,You can shove it up your ass!
+Dialogue: 0,0:35:32.94,0:35:34.81,main,Mot,0000,0000,0000,,Hey! Wait a second!
+Dialogue: 0,0:35:37.15,0:35:39.11,main,N,0000,0000,0000,,I'm really weak, you see.
+Dialogue: 0,0:35:39.11,0:35:40.98,main,N,0000,0000,0000,,I don't have a second to waste.
+Dialogue: 0,0:35:48.87,0:35:50.29,italics,N,0000,0000,0000,,And just like that,
+Dialogue: 0,0:35:50.29,0:35:54.55,italics,N,0000,0000,0000,,all my money, respect, and trust was gone.
+Dialogue: 0,0:35:54.55,0:35:56.26,italics,N,0000,0000,0000,,I lost it all.
+Dialogue: 0,0:36:04.39,0:36:06.60,main,Erh,0000,0000,0000,,Hey, kid with the shield.
+Dialogue: 0,0:36:08.73,0:36:11.73,main,Erh,0000,0000,0000,,I heard what you did to that girl.
+Dialogue: 0,0:36:11.73,0:36:13.23,main,Erh,0000,0000,0000,,You deserve a punch to the face!
+Dialogue: 0,0:36:14.40,0:36:15.69,main,N,0000,0000,0000,,You too?
+Dialogue: 0,0:36:17.61,0:36:18.70,main,Erh,0000,0000,0000,,You...
+Dialogue: 0,0:36:20.32,0:36:23.12,main,N,0000,0000,0000,,What? Weren't you going to punch me?
+Dialogue: 0,0:36:23.12,0:36:24.91,main,Erh,0000,0000,0000,,I changed my mind.
+Dialogue: 0,0:36:24.91,0:36:27.16,main,N,0000,0000,0000,,Good. You were about to \Nlose your life there.
+Dialogue: 0,0:36:27.87,0:36:29.00,main,Erh,0000,0000,0000,,Wait a second.
+Dialogue: 0,0:36:34.38,0:36:38.09,main,Erh,0000,0000,0000,,You'll never make it dressed like that.\NConsider this a parting gift.
+Dialogue: 0,0:36:38.67,0:36:39.84,main,N,0000,0000,0000,,How much?
+Dialogue: 0,0:36:40.38,0:36:41.59,main,Erh,0000,0000,0000,,Doesn't matter.
+Dialogue: 0,0:36:41.59,0:36:44.60,main,Erh,0000,0000,0000,,But let's call it a clearance \Nsale and say five coppers.
+Dialogue: 0,0:36:44.97,0:36:45.93,main,N,0000,0000,0000,,Gotcha.
+Dialogue: 0,0:36:47.35,0:36:49.14,main,N,0000,0000,0000,,I promise to come pay you someday.
+Dialogue: 0,0:36:51.06,0:36:53.11,italics,Erh,0000,0000,0000,,Don't die, kid.
+Dialogue: 0,0:37:18.96,0:37:22.38,sign_53062_658_Max_HP__167____A,,0000,0000,0000,,{\fad(735,1)}Max HP: 167    {\c&HBBB7BD&}ATK: 1        M.DEF: 29\N{\c&H5C9631&}MAX MP: 47     {\c&HBBB7BD&}MAG: 16      DEX: 13\N{\c&H856B36&}MAX SP: 50      {\c&HBBB7BD&}P.DEF: 39
+Dialogue: 0,0:37:18.96,0:37:22.38,sign_65310_663_Orange_Balloon_D,SignBL,0000,0000,0000,,{\fad(735,1)}Battle: {\c&HBBB7BD&}Orange Balloon Defeated\N{\c&H5C9631&}Exp: {\c&HBBB7BD&}Naofumi +1\N{\c&H3883D7&}Battle: {\c&HBBB7BD&}Orange Balloon Defeated\N{\c&H5C9631&}Exp: {\c&HBBB7BD&}Naofumi +1\N{\c&H5C9631&}Level Up: {\c&HBBB7BD&}Naofumi Lv.1 -> 2
+Dialogue: 0,0:37:25.38,0:37:28.89,sign_53836_660_Shield_Hero,,0000,0000,0000,,Shield Hero
+Dialogue: 0,0:37:25.38,0:37:28.89,sign_53836_661_Status_ATK__1_MA,,0000,0000,0000,,Status\NATK: 1\NMAG: 16\NP.DEF: 53\NM.DEF: 37\NDEX: 15
+Dialogue: 0,0:37:25.38,0:37:28.89,sign_53836_662_Affinity_Fire__0,,0000,0000,0000,,Affinity\NFire: 0\NWater: 0\NIce: 0\NWind: 0\NEarth: 0\NLightning: 0\NLight: 0\NDark: 0
+Dialogue: 0,0:37:25.38,0:37:28.89,sign_53836_663_Equipment_Small_,,0000,0000,0000,,Equipment\NSmall Shield\NHemp Outfit\NRagged Cape
+Dialogue: 0,0:37:25.68,0:37:28.89,main,N,0000,0000,0000,,I fight all night and finally hit Level 2, huh?
+Dialogue: 0,0:37:44.81,0:37:47.12,main,Merch,0000,0000,0000,,Well, for these things...
+Dialogue: 0,0:37:47.12,0:37:50.09,main,Merch,0000,0000,0000,,How does 1 copper for a pair sound?
+Dialogue: 0,0:37:50.09,0:37:51.87,main,Adv,0000,0000,0000,,Sure. I'll take that.
+Dialogue: 0,0:37:52.31,0:37:53.62,main,Merch,0000,0000,0000,,Thanks.
+Dialogue: 0,0:37:55.54,0:37:57.07,main,Merch,0000,0000,0000,,Come again.
+Dialogue: 0,0:37:59.84,0:38:00.96,main,Merch,0000,0000,0000,,Welcome.
+Dialogue: 0,0:38:04.78,0:38:06.02,main,N,0000,0000,0000,,Buy these.
+Dialogue: 0,0:38:06.95,0:38:09.93,main,Merch,0000,0000,0000,,Oh? Orange balloons, huh?
+Dialogue: 0,0:38:10.41,0:38:12.66,main,Merch,0000,0000,0000,,Twenty in all.
+Dialogue: 0,0:38:12.66,0:38:15.44,main,Merch,0000,0000,0000,,How does 1 copper sound?
+Dialogue: 0,0:38:16.83,0:38:20.02,main,N,0000,0000,0000,,Didn't you offer that guy 1 copper for two?
+Dialogue: 0,0:38:20.70,0:38:23.24,main,Merch,0000,0000,0000,,Did I, now?
+Dialogue: 0,0:38:23.24,0:38:25.96,main,Merch,0000,0000,0000,,You must understand,\NI have a business to run.
+Dialogue: 0,0:38:25.96,0:38:26.61,main,N,0000,0000,0000,,That so?
+Dialogue: 0,0:38:27.63,0:38:30.41,main,N,0000,0000,0000,,Will these things fetch \Na better price, then?
+Dialogue: 0,0:38:30.95,0:38:32.52,main,N,0000,0000,0000,,They're pretty lively.
+Dialogue: 0,0:38:33.32,0:38:35.00,main,Merch,0000,0000,0000,,Gah!
+Dialogue: 0,0:38:35.33,0:38:37.09,main,Merch,0000,0000,0000,,S-Stop it!
+Dialogue: 0,0:38:37.09,0:38:39.09,main,N,0000,0000,0000,,I'm not trying to rip you off here.
+Dialogue: 0,0:38:39.09,0:38:41.50,main,N,0000,0000,0000,,All I want is a fair market price.
+Dialogue: 0,0:38:41.76,0:38:45.65,main,N,0000,0000,0000,,Or wait, do you hate me \Nfor some reason, maybe?
+Dialogue: 0,0:38:45.65,0:38:47.73,main,Merch,0000,0000,0000,,F-Fine! I get it!
+Dialogue: 0,0:38:47.73,0:38:49.64,main,Merch,0000,0000,0000,,I understand, so get these things off me!
+Dialogue: 0,0:38:50.74,0:38:52.27,main,N,0000,0000,0000,,We have a deal.
+Dialogue: 0,0:38:52.27,0:38:55.95,main,N,0000,0000,0000,,Instead of trying to fleece me, \Nif you buy from me regularly,
+Dialogue: 0,0:38:55.95,0:38:57.77,main,N,0000,0000,0000,,I'm willing to give you a small discount.
+Dialogue: 0,0:38:58.98,0:39:00.34,main,Merch,0000,0000,0000,,C-Consider it done!
+Dialogue: 0,0:39:00.34,0:39:06.64,main,Merch,0000,0000,0000,,As much as I'd like to refuse,\N the goods and money are without sin.
+Dialogue: 0,0:39:07.39,0:39:11.28,main,N,0000,0000,0000,,Also, feel free to tell people all about me.
+Dialogue: 0,0:39:11.28,0:39:15.29,main,N,0000,0000,0000,,Tell them that any trader that messes with \Nme will end up with bite marks all over.
+Dialogue: 0,0:39:15.29,0:39:17.94,main,Merch,0000,0000,0000,,No need to ask me. I was \Nabout to do just that.
+Dialogue: 0,0:39:17.94,0:39:20.00,main,N,0000,0000,0000,,To a long business relationship.
+Dialogue: 0,0:39:49.80,0:39:50.72,main,N,0000,0000,0000,,Aren't these...
+Dialogue: 0,0:39:54.66,0:39:55.98,sign_33122_363_Legendary_Weapon,Sign,0000,0000,0000,,{\fad(500,500)}New Shields Unlocked
+Dialogue: 0,0:39:59.87,0:40:01.38,sign_57539_699_There_are_shield,,0000,0000,0000,,{\fad(486,190)}There are shields with available skill unlocks.
+Dialogue: 0,0:40:03.13,0:40:04.09,sign_57618_700_Mastery_Bonus_Wh,,0000,0000,0000,,{\fad(479,1)}Mastery Bonus\N\N{\fs12}When a shield is used for a while to achieve a certain level of proficiency,\N it will grant its wielder permanent bonuses.
+Dialogue: 0,0:40:04.09,0:40:10.38,main,N,0000,0000,0000,,So by mastering a shield, I can keep its\Nabilities even after I switch to another one?
+Dialogue: 0,0:40:12.38,0:40:13.72,main,N,0000,0000,0000,,Leaf Shield.
+Dialogue: 0,0:40:20.83,0:40:22.84,main,N,0000,0000,0000,,This really is like a game, \Nthrough and through.
+Dialogue: 0,0:40:26.06,0:40:28.48,sign_58168_704_Foraging_Skill_1,,0000,0000,0000,,{\fad(1448,1)}Foraging Skill 1 Activated\NAero: *
+Dialogue: 0,0:40:28.79,0:40:30.70,main,N,0000,0000,0000,,It can improve the mat's quality?
+Dialogue: 0,0:40:35.84,0:40:38.28,main,Herbist,0000,0000,0000,,Wow, this is good stuff.
+Dialogue: 0,0:40:38.28,0:40:39.76,main,Herbist,0000,0000,0000,,Where did you get these?
+Dialogue: 0,0:40:39.76,0:40:41.97,main,N,0000,0000,0000,,In the forest right outside the castle.
+Dialogue: 0,0:40:41.97,0:40:43.01,main,N,0000,0000,0000,,Didn't you know?
+Dialogue: 0,0:40:43.31,0:40:47.41,main,Herb,0000,0000,0000,,Hmm... I never knew you could \Nfind such fine stuff there.
+Dialogue: 0,0:40:47.41,0:40:49.69,main,Herb,0000,0000,0000,,I was sure the quality was more average.
+Dialogue: 0,0:40:58.03,0:41:01.54,italics,N,0000,0000,0000,,Ever since that day,\Nnothing I eat has any flavor.
+Dialogue: 0,0:41:01.54,0:41:03.66,main,PunkA,0000,0000,0000,,O Great Shield Hero,
+Dialogue: 0,0:41:03.66,0:41:05.83,main,PunkA,0000,0000,0000,,we'll join your party.
+Dialogue: 0,0:41:05.83,0:41:08.94,main,PunkB,0000,0000,0000,,Yeah, yeah. Thank your lucky stars.
+Dialogue: 0,0:41:10.80,0:41:14.44,main,N,0000,0000,0000,,Let's go ahead and discuss the terms first.
+Dialogue: 0,0:41:15.63,0:41:16.76,main,PunkB,0000,0000,0000,,Okay!
+Dialogue: 0,0:41:16.76,0:41:19.76,main,PunkB,0000,0000,0000,,Your pay will be entirely performance-based.
+Dialogue: 0,0:41:19.76,0:41:21.14,main,PunkB,0000,0000,0000,,I trust you know what that means.
+Dialogue: 0,0:41:21.14,0:41:23.02,main,PunkA,0000,0000,0000,,Nope, no clue!
+Dialogue: 0,0:41:24.27,0:41:27.94,main,N,0000,0000,0000,,It means you'll be paid according to \Nthe loot we get on our adventure.
+Dialogue: 0,0:41:28.48,0:41:32.02,main,N,0000,0000,0000,,I'm the leader, so I'll \Ntake at least 40 percent.
+Dialogue: 0,0:41:32.90,0:41:35.95,main,N,0000,0000,0000,,I'll split the rest at my discretion.
+Dialogue: 0,0:41:36.45,0:41:40.03,main,N,0000,0000,0000,,If you do nothing, you get paid nothing.
+Dialogue: 0,0:41:40.03,0:41:45.25,main,PunkA,0000,0000,0000,,The hell? That means you could \Nkeep it all for yourself!
+Dialogue: 0,0:41:45.25,0:41:47.62,main,N,0000,0000,0000,,I promise to pay you if you do your job.
+Dialogue: 0,0:41:47.62,0:41:49.29,main,N,0000,0000,0000,,{\i1}If{\i0} you can do your job.
+Dialogue: 0,0:41:50.71,0:41:53.25,main,PunkB,0000,0000,0000,,Let's go get us some equipment, then!
+Dialogue: 0,0:41:53.80,0:41:55.97,main,N,0000,0000,0000,,Buy your equipment yourselves.
+Dialogue: 0,0:41:55.97,0:41:59.30,main,N,0000,0000,0000,,I have no reason to do that much for you.
+Dialogue: 0,0:41:59.30,0:41:59.99,main,PunkB,0000,0000,0000,,Huh?
+Dialogue: 0,0:41:59.99,0:42:03.35,main,PunkA,0000,0000,0000,,Forget it. Just hand over your money.
+Dialogue: 0,0:42:03.78,0:42:07.81,main,N,0000,0000,0000,,If you'd said that to begin with, \Nwe could've saved some time.
+Dialogue: 0,0:42:08.27,0:42:09.10,main,PunkC,0000,0000,0000,,What do we have here?
+Dialogue: 0,0:42:09.10,0:42:10.69,main,PunkC,0000,0000,0000,,Aren't you awfully obedient.
+Dialogue: 0,0:42:14.36,0:42:16.22,main,PunkA,0000,0000,0000,,Quit freakin' out!
+Dialogue: 0,0:42:19.07,0:42:20.53,main,PunkA,0000,0000,0000,,Ow...
+Dialogue: 0,0:42:22.99,0:42:24.03,main,PunkB,0000,0000,0000,,Shit!
+Dialogue: 0,0:42:29.83,0:42:33.00,main,N,0000,0000,0000,,I have the defense,\N but lack offensive ability.
+Dialogue: 0,0:42:33.00,0:42:35.55,main,N,0000,0000,0000,,Because I lack it, I can't defeat monsters.
+Dialogue: 0,0:42:35.55,0:42:38.13,main,N,0000,0000,0000,,And because I can't defeat \Nthem, I can't farm EXP.
+Dialogue: 0,0:42:38.56,0:42:42.32,main,N,0000,0000,0000,,And because I can't farm,\Nmy offensive ability never goes up.
+Dialogue: 0,0:42:43.05,0:42:44.79,main,N,0000,0000,0000,,What an awful loop!
+Dialogue: 0,0:42:44.79,0:42:45.93,main,N,0000,0000,0000,,Damn it!
+Dialogue: 0,0:42:52.35,0:42:54.73,main,SlaveT,0000,0000,0000,,You seem to be having trouble.
+Dialogue: 0,0:43:00.11,0:43:02.22,main,SlaveT,0000,0000,0000,,You don't have help.
+Dialogue: 0,0:43:02.22,0:43:04.98,main,SlaveT,0000,0000,0000,,But I have just what you need.
+Dialogue: 0,0:43:05.27,0:43:07.68,main,N,0000,0000,0000,,If you're offering me party members,\N thanks but no thanks.
+Dialogue: 0,0:43:07.68,0:43:08.77,main,SlaveT,0000,0000,0000,,Party members?
+Dialogue: 0,0:43:08.77,0:43:14.25,main,SlaveT,0000,0000,0000,,Please. What I'm offering you is \Na service far more convenient.
+Dialogue: 0,0:43:14.99,0:43:16.45,main,N,0000,0000,0000,,What would that be?
+Dialogue: 0,0:43:16.85,0:43:18.50,main,SlaveT,0000,0000,0000,,Interested, are we?
+Dialogue: 0,0:43:18.50,0:43:19.75,main,N,0000,0000,0000,,Get away from me.
+Dialogue: 0,0:43:21.48,0:43:24.77,main,SlaveT,0000,0000,0000,,That look in your eyes \Nis the kind I just love.
+Dialogue: 0,0:43:24.77,0:43:27.39,main,SlaveT,0000,0000,0000,,You're every bit the man \Nthe rumors said you were.
+Dialogue: 0,0:43:27.39,0:43:29.67,main,N,0000,0000,0000,,You know who I am?
+Dialogue: 0,0:43:29.67,0:43:33.12,main,SlaveT,0000,0000,0000,,Of course I do, Shield Hero.
+Dialogue: 0,0:43:33.47,0:43:37.79,main,SlaveT,0000,0000,0000,,If my offer interests you, please follow me.
+Dialogue: 0,0:43:50.15,0:43:51.70,main,SlaveT,0000,0000,0000,,Here we are.
+Dialogue: 0,0:43:53.73,0:43:57.79,main,N,0000,0000,0000,,So, what exactly are you offering me?
+Dialogue: 0,0:43:58.53,0:44:00.36,main,SlaveT,0000,0000,0000,,Can't you tell at a glance?
+Dialogue: 0,0:44:00.75,0:44:02.76,main,SlaveT,0000,0000,0000,,Slaves!
+Dialogue: 0,0:44:02.76,0:44:03.32,main,N,0000,0000,0000,,Slaves?
+Dialogue: 0,0:44:03.32,0:44:07.71,main,SlaveT,0000,0000,0000,,Yes. I run a slave trading business.
+Dialogue: 0,0:44:08.69,0:44:11.27,main,N,0000,0000,0000,,What makes you think I want a slave?
+Dialogue: 0,0:44:11.66,0:44:17.38,main,SlaveT,0000,0000,0000,,The fact that they cannot \Nlie or betray their master.
+Dialogue: 0,0:44:17.94,0:44:21.62,main,SlaveT,0000,0000,0000,,Slaves are placed under \Nthe effect of a curse.
+Dialogue: 0,0:44:22.01,0:44:27.10,main,SlaveT,0000,0000,0000,,A strong, seal-based curse that \Ncan take their very lives.
+Dialogue: 0,0:44:27.77,0:44:29.29,main,SlaveT,0000,0000,0000,,What do you say?
+Dialogue: 0,0:44:30.03,0:44:32.10,main,N,0000,0000,0000,,Show me what you've got.
+Dialogue: 0,0:44:32.68,0:44:37.60,main,SlaveT,0000,0000,0000,,I knew it. You have everything it \Ntakes to be a most wonderful patron.
+Dialogue: 0,0:44:40.63,0:44:42.68,main,N,0000,0000,0000,,I see ones that aren't human, too.
+Dialogue: 0,0:44:42.68,0:44:45.20,main,SlaveT,0000,0000,0000,,You can call them human, technically.
+Dialogue: 0,0:44:45.69,0:44:49.49,main,N,0000,0000,0000,,Tell me more. I don't know \Nmuch about this world.
+Dialogue: 0,0:44:49.85,0:44:55.81,main,SlaveT,0000,0000,0000,,Creatures that look human but \Naren't are called demi-humans.
+Dialogue: 0,0:44:55.81,0:44:59.61,main,SlaveT,0000,0000,0000,,They're mostly used in manual \Nlabor or as servants.
+Dialogue: 0,0:44:59.61,0:45:04.31,main,SlaveT,0000,0000,0000,,Beastmen are demi-humans whose appearance \Nleans more toward the animal side.
+Dialogue: 0,0:45:04.31,0:45:09.31,main,SlaveT,0000,0000,0000,,They're used as bodyguards or as participants\N in death matches that are gambled on.
+Dialogue: 0,0:45:09.31,0:45:10.39,main,N,0000,0000,0000,,I see.
+Dialogue: 0,0:45:10.39,0:45:12.72,main,N,0000,0000,0000,,But they both fall under \Nthe same category, huh?
+Dialogue: 0,0:45:12.72,0:45:17.64,main,SlaveT,0000,0000,0000,,Indeed. And since demi-humans are \Nthought to be closer to monsters,
+Dialogue: 0,0:45:17.64,0:45:21.30,main,SlaveT,0000,0000,0000,,life would be hard for them in this country,\N which practices human supremacy.
+Dialogue: 0,0:45:21.30,0:45:24.62,main,SlaveT,0000,0000,0000,,As such, they're treated as slaves.

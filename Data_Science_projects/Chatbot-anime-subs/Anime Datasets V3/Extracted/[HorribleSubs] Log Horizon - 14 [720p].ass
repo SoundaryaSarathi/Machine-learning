@@ -1,0 +1,431 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,1
+Style: Default - margin,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Default - italics,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,1,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Default - flashback,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Location,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,53,37,0
+Style: Inventory,Commerce Black Condensed SSi,35,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Commerce Black Condensed SSi,35,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: HUD Big,Commerce Black Condensed SSi,45,&H00F1EDEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Commerce Black Condensed SSi,38,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Monsters,Commerce Black Condensed SSi,35,&H00B3AFD5,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Commerce Black Condensed SSi,29,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Commerce Black Condensed SSi,29,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Commerce Black Condensed SSi,38,&H00BCDD41,&H000000FF,&H00ECE6F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignB,Commerce Black Condensed SSi,38,&H00FED7FF,&H000000FF,&H00AC2C3A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignC,Commerce Black Condensed SSi,32,&H00EAE4DF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,27,53,24,0
+Style: SignD,Commerce Black Condensed SSi,35,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,11,0
+Style: SignE,Commerce Black Condensed SSi,32,&H00DEE442,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignF,Commerce Black Condensed SSi,38,&H00F78F46,&H000000FF,&H00FDF8E3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignG,Commerce Black Condensed SSi,38,&H009CB165,&H000000FF,&H00FDF8E3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.78,0:00:05.66,Default,Guy,0000,0000,0000,,Huh, that's strange...
+Dialogue: 0,0:00:05.66,0:00:07.96,Default,A,0000,0000,0000,,{\an8}This is even more amazing \Nthan your room, my lord.
+Dialogue: 0,0:00:05.66,0:00:08.40,Default,A,0000,0000,0000,,Where did they go? \NI was certain they were here...
+Dialogue: 0,0:00:09.17,0:00:10.89,Default,Guy,0000,0000,0000,,I'm terribly sorry.
+Dialogue: 0,0:00:10.89,0:00:15.09,Default,Guy,0000,0000,0000,,I could've sworn I had potions \Nto drink somewhere.
+Dialogue: 0,0:00:15.09,0:00:16.22,Default,S,0000,0000,0000,,It's fine.
+Dialogue: 0,0:00:21.02,0:00:22.02,Default,S,0000,0000,0000,,Help yourself.
+Dialogue: 0,0:00:27.03,0:00:32.05,Default,Guy,0000,0000,0000,,By the way, isn't that Dazaneg's magic bag?
+Dialogue: 0,0:00:32.05,0:00:36.78,Default,Guy,0000,0000,0000,,I believe making one requires a purple flame \Ncrystal and a winged dragon skin.
+Dialogue: 0,0:00:37.05,0:00:38.01,Default,S,0000,0000,0000,,Yes.
+Dialogue: 0,0:00:38.57,0:00:42.23,Default,S,0000,0000,0000,,I got the items, and I had \Nsomeone make it for me.
+Dialogue: 0,0:00:43.57,0:00:50.93,Default - italics,S,0000,0000,0000,,He knows the requirements for the \Nlevel-45 quest "Get the Magic Bag."
+Dialogue: 0,0:00:51.82,0:00:53.52,Default - italics,S,0000,0000,0000,,Who is he?
+Dialogue: 0,0:02:25.30,0:02:27.09,Default,T,0000,0000,0000,,Tomorrow, we'll go in the afternoon, too.
+Dialogue: 0,0:02:27.09,0:02:28.00,Default,,0000,0000,0000,,Right...
+Dialogue: 0,0:02:28.36,0:02:32.07,Default,T,0000,0000,0000,,An hour's rest will restore our \NHP and MP back to max.
+Dialogue: 0,0:02:32.07,0:02:33.03,Default,R,0000,0000,0000,,Yes.
+Dialogue: 0,0:02:33.03,0:02:37.42,Default,Se,0000,0000,0000,,But you're only allowed to enter \Na dungeon once per day...
+Dialogue: 0,0:02:37.65,0:02:39.10,Default,N,0000,0000,0000,,That's exactly right.
+Dialogue: 0,0:02:40.29,0:02:41.55,Default,T,0000,0000,0000,,Master Naotsugu!
+Dialogue: 0,0:02:41.93,0:02:44.93,Default,N,0000,0000,0000,,If you can't follow the rules, \Nyou'll have to go back to Akihabara.
+Dialogue: 0,0:02:45.25,0:02:46.50,Default,R,0000,0000,0000,,But...
+Dialogue: 0,0:02:46.50,0:02:50.46,Default,N,0000,0000,0000,,Adventurers should follow the rules.
+Dialogue: 0,0:02:50.46,0:02:53.19,Default,N,0000,0000,0000,,Part of your job is ensuring you get enough rest.
+Dialogue: 0,0:02:58.42,0:03:04.33,Title,N,0000,0000,0000,,{\fad(1593,1)}World Fraction
+Dialogue: 0,0:03:00.83,0:03:02.09,Default,N,0000,0000,0000,,World Fraction.
+Dialogue: 0,0:03:04.90,0:03:06.54,Default,Re,0000,0000,0000,,I'm sorry...
+Dialogue: 0,0:03:06.54,0:03:09.25,Default,Re,0000,0000,0000,,Back there, I called myself a mage,
+Dialogue: 0,0:03:09.25,0:03:12.25,Default,Re,0000,0000,0000,,but I am, more precisely, a magical scientist.
+Dialogue: 0,0:03:13.70,0:03:17.42,Default,Re,0000,0000,0000,,I the magician of Miral Lake,
+Dialogue: 0,0:03:18.26,0:03:19.63,Default,Re,0000,0000,0000,,Regan.
+Dialogue: 0,0:03:20.81,0:03:22.13,Default,S,0000,0000,0000,,Miral Lake?
+Dialogue: 0,0:03:22.79,0:03:25.94,Default,S,0000,0000,0000,,Are you saying you're the sage of Miral Lake?
+Dialogue: 0,0:03:25.94,0:03:27.64,Default,A,0000,0000,0000,,Do you know of him, master?
+Dialogue: 0,0:03:27.88,0:03:28.64,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:28.64,0:03:29.85,Default,S,0000,0000,0000,,When this was a game,
+Dialogue: 0,0:03:29.85,0:03:33.15,Default,,0000,0000,0000,,I heard the name in several \Nquests and town rumors.
+Dialogue: 0,0:03:33.69,0:03:38.98,Default,S,0000,0000,0000,,For example, the key item for the \N"Nine Dungeons of the Heilos" raid,
+Dialogue: 0,0:03:38.98,0:03:43.16,Default,S,0000,0000,0000,,the Key of Eternal Darkness, was said to \Nhave been made by Mirallake the Sage.
+Dialogue: 0,0:03:44.80,0:03:48.75,Default,S,0000,0000,0000,,I thought the name was just flavor text \Nfor the game's item descriptions,
+Dialogue: 0,0:03:48.75,0:03:53.17,Default,S,0000,0000,0000,,something that only existed as backstory \Nto give the game more depth.
+Dialogue: 0,0:03:53.43,0:03:59.42,Default,Re,0000,0000,0000,,Although, since taking the name from \Nmy master, I've never used it.
+Dialogue: 0,0:03:59.85,0:04:03.22,Default,S,0000,0000,0000,,"Sage of Miral Lake" is a hereditary title?
+Dialogue: 0,0:04:03.22,0:04:03.94,Default,Re,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:04.79,0:04:07.49,Default - italics,S,0000,0000,0000,,Seems I've run across someone very important.
+Dialogue: 0,0:04:08.41,0:04:11.53,Default - italics,S,0000,0000,0000,,This may be my chance to learn about this world.
+Dialogue: 0,0:04:12.21,0:04:15.59,Default,Re,0000,0000,0000,,There are many different types of magic,
+Dialogue: 0,0:04:15.59,0:04:17.44,Default,Re,0000,0000,0000,,dealing in a wide range of areas.
+Dialogue: 0,0:04:17.98,0:04:23.45,Default,Re,0000,0000,0000,,I specialize in the study of world-class magic.
+Dialogue: 0,0:04:23.67,0:04:26.50,Default,S,0000,0000,0000,,World-class? I'm not familiar with it.
+Dialogue: 0,0:04:26.50,0:04:30.16,Default,Re,0000,0000,0000,,A school of thought divides magic \Naccording to its scale...
+Dialogue: 0,0:04:30.16,0:04:31.06,Default,Re,0000,0000,0000,,Action-class magic,
+Dialogue: 0,0:04:30.16,0:04:31.06,HUD1,Re,0000,0000,0000,,Action-class Magic
+Dialogue: 0,0:04:31.06,0:04:32.26,Default,Re,0000,0000,0000,,combat-class magic,
+Dialogue: 0,0:04:31.33,0:04:32.58,HUD1,Re,0000,0000,0000,,Combat-class Magic
+Dialogue: 0,0:04:32.26,0:04:33.62,Default,Re,0000,0000,0000,,operation-class magic,
+Dialogue: 0,0:04:32.58,0:04:33.83,HUD1,,0000,0000,0000,,Operation-class Magic
+Dialogue: 0,0:04:33.62,0:04:34.81,Default,Re,0000,0000,0000,,tactical-class magic,
+Dialogue: 0,0:04:33.83,0:04:34.54,HUD1,,0000,0000,0000,,Tactical-class Magic
+Dialogue: 0,0:04:34.81,0:04:36.05,Default,Re,0000,0000,0000,,strategy-class magic,
+Dialogue: 0,0:04:35.08,0:04:36.33,HUD1,Re,0000,0000,0000,,Strategy-class Magic
+Dialogue: 0,0:04:36.05,0:04:37.31,Default,Re,0000,0000,0000,,national defense-class magic,
+Dialogue: 0,0:04:36.33,0:04:37.54,HUD1,,0000,0000,0000,,National Defense-class Magic
+Dialogue: 0,0:04:37.31,0:04:38.71,Default,Re,0000,0000,0000,,continent-class magic,
+Dialogue: 0,0:04:37.54,0:04:38.71,HUD1,,0000,0000,0000,,Continent-class Magic
+Dialogue: 0,0:04:38.92,0:04:39.92,Default,Re,0000,0000,0000,,and...
+Dialogue: 0,0:04:40.50,0:04:41.71,HUD1,Re,0000,0000,0000,,World-class Magic
+Dialogue: 0,0:04:40.56,0:04:41.71,Default,Re,0000,0000,0000,,world-class magic.
+Dialogue: 0,0:04:41.71,0:04:44.62,Default,S,0000,0000,0000,,Isn't magic usually divided by type?
+Dialogue: 0,0:04:44.62,0:04:49.41,Default,Re,0000,0000,0000,,Division by scale considers magic from \Na phenomenological perspective,
+Dialogue: 0,0:04:49.41,0:04:54.20,Default,Re,0000,0000,0000,,or in conjunction with its intended objective.
+Dialogue: 0,0:04:54.64,0:05:00.73,HUD Big,Re,0000,0000,0000,,{\an9}Action-class Magic
+Dialogue: 0,0:04:54.91,0:05:00.38,Default,Re,0000,0000,0000,,"Action-class" refers to magic capable \Nof replicating a single action.
+Dialogue: 0,0:05:00.98,0:05:03.47,Default,Re,0000,0000,0000,,For example, swinging a sword \Nand fighting a monster...
+Dialogue: 0,0:05:04.08,0:05:06.99,Default,Re,0000,0000,0000,,If you do that with magic, it's "action-class."
+Dialogue: 0,0:05:06.99,0:05:12.41,HUD Big,Re,0000,0000,0000,,{\an8}Combat-class Magic
+Dialogue: 0,0:05:07.37,0:05:12.41,Default,Re,0000,0000,0000,,Combat-class magic is capable of altering \Nthe course of a single battle.
+Dialogue: 0,0:05:13.03,0:05:13.95,Default,Re,0000,0000,0000,,For example,
+Dialogue: 0,0:05:13.95,0:05:19.42,Default,Re,0000,0000,0000,,a spell capable of deciding the fate \Nof a platoon of enemies or allies.
+Dialogue: 0,0:05:19.76,0:05:25.52,Default,Re,0000,0000,0000,,Operation-class magic can decide \Ntwo or three battles at a time.
+Dialogue: 0,0:05:26.38,0:05:34.10,HUD Big,Re,0000,0000,0000,,Tactical-class Magic
+Dialogue: 0,0:05:26.61,0:05:28.74,Default,Re,0000,0000,0000,,Tactical goes one step further.
+Dialogue: 0,0:05:28.74,0:05:33.18,Default,Re,0000,0000,0000,,Perhaps a spell capable of conquering \Nan enemy castle with a single hit.
+Dialogue: 0,0:05:34.80,0:05:37.61,Default,S,0000,0000,0000,,Does that mean it could also destroy a dungeon?
+Dialogue: 0,0:05:38.70,0:05:42.98,Default - italics,S,0000,0000,0000,,There wasn't any magic of \Nthat scale in the game.
+Dialogue: 0,0:05:43.62,0:05:47.99,Default,Re,0000,0000,0000,,Strategic-class would be a single spell \Ndeciding the outcome of a war.
+Dialogue: 0,0:05:48.34,0:05:50.62,Default,Re,0000,0000,0000,,National defense, a nation.
+Dialogue: 0,0:05:50.87,0:05:53.49,Default,Re,0000,0000,0000,,Continent-class, a continent.
+Dialogue: 0,0:05:54.10,0:05:56.12,Default,Re,0000,0000,0000,,And thus, world-class...
+Dialogue: 0,0:05:56.58,0:06:01.22,Default,S,0000,0000,0000,,A spell capable of controlling the laws, \Nthe fate, or the very existence
+Dialogue: 0,0:06:01.22,0:06:02.65,Default,S,0000,0000,0000,,of an entire world?
+Dialogue: 0,0:06:03.18,0:06:04.63,Default,Re,0000,0000,0000,,Indeed.
+Dialogue: 0,0:06:08.37,0:06:10.52,Default,S,0000,0000,0000,,I understand the concept,
+Dialogue: 0,0:06:10.52,0:06:13.24,Default,S,0000,0000,0000,,but does such magic exist?
+Dialogue: 0,0:06:14.72,0:06:19.56,Default,Re,0000,0000,0000,,To my knowledge, it has been \Nused at least three times.
+Dialogue: 0,0:06:20.27,0:06:26.81,HUD Big,Re,0000,0000,0000,,{\an8}World Fraction
+Dialogue: 0,0:06:20.39,0:06:26.15,Default,Re,0000,0000,0000,,A spell called "World Fraction."
+Dialogue: 0,0:06:28.16,0:06:30.07,Default,S,0000,0000,0000,,The Apocalypse, yes?
+Dialogue: 0,0:06:31.96,0:06:35.23,Default,Re,0000,0000,0000,,I invited you here because I hoped
+Dialogue: 0,0:06:35.23,0:06:39.50,Default,,0000,0000,0000,,to hear the information you \Nknow about this matter.
+Dialogue: 0,0:06:40.01,0:06:42.92,Default,S,0000,0000,0000,,Then I'd like to ask you, as well.
+Dialogue: 0,0:06:44.05,0:06:48.01,Default,S,0000,0000,0000,,We know next to nothing about the Apocalypse.
+Dialogue: 0,0:06:48.76,0:06:50.70,Default,S,0000,0000,0000,,We need information.
+Dialogue: 0,0:06:51.36,0:06:54.27,Default,Re,0000,0000,0000,,I would be happy to tell you anything I know.
+Dialogue: 0,0:06:54.27,0:06:57.16,Default,S,0000,0000,0000,,Then would you begin by telling us
+Dialogue: 0,0:06:57.16,0:07:01.65,Default,,0000,0000,0000,,about the first and second times \NWorld Fraction was used?
+Dialogue: 0,0:07:01.96,0:07:03.85,Default,Re,0000,0000,0000,,The story will take some time to tell.
+Dialogue: 0,0:07:03.85,0:07:05.15,Default,Re,0000,0000,0000,,Is that all right?
+Dialogue: 0,0:07:05.45,0:07:06.44,Default,S,0000,0000,0000,,That's fine.
+Dialogue: 0,0:07:06.89,0:07:10.35,Default,Re,0000,0000,0000,,Then I will begin with the older story.
+Dialogue: 0,0:07:15.45,0:07:19.98,Default - italics,Mi,0000,0000,0000,,Formation... Operator... Field monitor...
+Dialogue: 0,0:07:20.41,0:07:21.95,Default - italics,Mi,0000,0000,0000,,Patrol teams...
+Dialogue: 0,0:07:22.84,0:07:23.86,Default - italics,Mi,0000,0000,0000,,Right?
+Dialogue: 0,0:07:25.13,0:07:28.71,Default - italics,Mi,0000,0000,0000,,I remember everything Shiroe taught \Nme about fighting in a party.
+Dialogue: 0,0:07:29.86,0:07:33.07,Default - italics,Mi,0000,0000,0000,,But why am I so uneasy?
+Dialogue: 0,0:07:34.32,0:07:37.45,Default - italics,Mi,0000,0000,0000,,Am I missing something?
+Dialogue: 0,0:07:38.56,0:07:41.23,Default,Re,0000,0000,0000,,Approximately three hundred and fifty years ago,
+Dialogue: 0,0:07:41.62,0:07:45.26,Default,Re,0000,0000,0000,,the world is said to have been a far \Nmore prosperous place than today.
+Dialogue: 0,0:07:46.63,0:07:52.07,Default,Re,0000,0000,0000,,It was a pale shadow of the age of gods, \Nwhich has passed into legend.
+Dialogue: 0,0:07:52.60,0:07:54.02,Default,Re,0000,0000,0000,,But during that time,
+Dialogue: 0,0:07:54.02,0:07:58.17,Default,Re,0000,0000,0000,,humans, elves, dwarves, and alvs...
+Dialogue: 0,0:07:58.17,0:08:00.68,Default,,0000,0000,0000,,These four races lived together.
+Dialogue: 0,0:08:01.23,0:08:04.50,Default,Re,0000,0000,0000,,The alvs, in particular, were magical inventors,
+Dialogue: 0,0:08:04.83,0:08:08.20,Default,Re,0000,0000,0000,,and the vanguard of a vast magical civilization.
+Dialogue: 0,0:08:08.74,0:08:12.56,Default,Re,0000,0000,0000,,However, that power became their undoing.
+Dialogue: 0,0:08:12.56,0:08:13.88,Default,A,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:08:14.26,0:08:17.23,Default,Re,0000,0000,0000,,As a race, their reproductive \Ncapacity was quite slim,
+Dialogue: 0,0:08:17.23,0:08:19.14,Default,Re,0000,0000,0000,,and their nation was small.
+Dialogue: 0,0:08:19.92,0:08:23.20,Default,Re,0000,0000,0000,,They were despised for their monopoly \Nover magical technology,
+Dialogue: 0,0:08:23.20,0:08:27.74,Default,Re,0000,0000,0000,,so the other races used their \Nsuperior numbers to destroy them.
+Dialogue: 0,0:08:28.48,0:08:30.04,Default,S,0000,0000,0000,,Then what about me?
+Dialogue: 0,0:08:30.04,0:08:31.90,Default,S,0000,0000,0000,,I'm a half-alv.
+Dialogue: 0,0:08:32.33,0:08:36.90,Default,Re,0000,0000,0000,,Throughout the world, \Nthe alvs were treated as slaves.
+Dialogue: 0,0:08:37.37,0:08:40.41,Default,Re,0000,0000,0000,,Their descendants are the half-alvs.
+Dialogue: 0,0:08:41.50,0:08:44.77,Default,Re,0000,0000,0000,,In any event, the alv kingdom was destroyed.
+Dialogue: 0,0:08:45.30,0:08:50.67,Default,Re,0000,0000,0000,,And then, the six bent princesses, \Nthe Luquenje, were born.
+Dialogue: 0,0:08:50.92,0:08:57.18,HUD1,A,0000,0000,0000,,Luquenje
+Dialogue: 0,0:08:51.33,0:08:52.89,Default,A,0000,0000,0000,,Six bent princess?
+Dialogue: 0,0:08:52.89,0:08:54.37,Default,S,0000,0000,0000,,Luquenje?
+Dialogue: 0,0:08:54.95,0:08:57.18,Default,Re,0000,0000,0000,,The six bent princesses.
+Dialogue: 0,0:08:57.94,0:09:02.77,Default,Re,0000,0000,0000,,The six didn't know each other, and \Nthey certainly weren't acting in concert.
+Dialogue: 0,0:09:03.26,0:09:06.61,Default,Re,0000,0000,0000,,Nonetheless, each of these six alv women
+Dialogue: 0,0:09:06.61,0:09:09.67,Default,,0000,0000,0000,,swore revenge independently, yet simultaneously.
+Dialogue: 0,0:09:11.23,0:09:14.19,Default,Re,0000,0000,0000,,Some seduced those in power.
+Dialogue: 0,0:09:14.19,0:09:17.57,Default,Re,0000,0000,0000,,Some led the remaining alvs.
+Dialogue: 0,0:09:19.82,0:09:23.49,Default,Re,0000,0000,0000,,And the world was plunged into chaos once more.
+Dialogue: 0,0:09:24.12,0:09:28.29,Default,Re,0000,0000,0000,,But in the end, all six were left \Non the verge of defeat.
+Dialogue: 0,0:09:28.71,0:09:34.09,Default,Re,0000,0000,0000,,And it was then that the first \NWorld Fraction was used.
+Dialogue: 0,0:09:34.42,0:09:37.34,Default,S,0000,0000,0000,,By the alvs?
+Dialogue: 0,0:09:37.74,0:09:39.08,Default,Re,0000,0000,0000,,Indeed.
+Dialogue: 0,0:09:39.08,0:09:42.94,Default,Re,0000,0000,0000,,But the technologies and principles used \Nremain deeply shrouded in mystery.
+Dialogue: 0,0:09:44.38,0:09:46.85,Default,Re,0000,0000,0000,,And the spell brought about the birth of
+Dialogue: 0,0:09:47.98,0:09:49.77,Default,,0000,0000,0000,,the demi-humans.
+Dialogue: 0,0:09:50.91,0:09:54.41,Default,Re,0000,0000,0000,,Until three hundred years ago, \Nthere were no demi-humans.
+Dialogue: 0,0:09:54.89,0:09:56.36,Default,Re,0000,0000,0000,,As to how they were created...
+Dialogue: 0,0:09:57.82,0:10:02.37,Default,Re,0000,0000,0000,,Repeated war had decreased the population,
+Dialogue: 0,0:10:02.37,0:10:05.03,Default,,0000,0000,0000,,leaving the planet overrun with souls.
+Dialogue: 0,0:10:10.31,0:10:14.42,Default,Re,0000,0000,0000,,These souls were used, it seems, \Nin the creation of the demi-humans.
+Dialogue: 0,0:10:15.14,0:10:18.32,Default,Re,0000,0000,0000,,The wars with the demi-humans \Npushed humanity to the brink,
+Dialogue: 0,0:10:18.32,0:10:21.62,Default,Re,0000,0000,0000,,and the world entered a dark age.
+Dialogue: 0,0:10:22.76,0:10:25.78,Default,Re,0000,0000,0000,,Humanity defeated the Luquenje,
+Dialogue: 0,0:10:25.78,0:10:29.81,Default,Re,0000,0000,0000,,but there is no doubt their revenge succeeded.
+Dialogue: 0,0:10:31.04,0:10:33.98,Default,,0000,0000,0000,,To counter the demi-humans,
+Dialogue: 0,0:10:33.98,0:10:38.42,Default,,0000,0000,0000,,humanity used alv secrets to create new races...
+Dialogue: 0,0:10:38.42,0:10:46.19,Default,,0000,0000,0000,,The cat people, the wolf fangs, \Nthe fox tails, and the robed ones.
+Dialogue: 0,0:10:39.07,0:10:40.86,HUD1,,0000,0000,0000,,{\an7}Wolf Fangs \N\NCat People
+Dialogue: 0,0:10:40.86,0:10:42.28,HUD1,,0000,0000,0000,,{\an7}Fox Tails \N\NWolf Fangs
+Dialogue: 0,0:10:42.28,0:10:45.58,HUD1,,0000,0000,0000,,{\an7}Robed Ones \N\NFox Tails \N\NWolf Fangs
+Dialogue: 0,0:10:45.58,0:10:46.58,HUD1,,0000,0000,0000,,{\an7}Robed Ones \N\NFox Tails
+Dialogue: 0,0:10:47.02,0:10:50.29,Default,,0000,0000,0000,,It seems the precursors were \Ncreated then, as well.
+Dialogue: 0,0:10:51.28,0:10:52.88,Default - italics,S,0000,0000,0000,,The precursors are
+Dialogue: 0,0:10:52.88,0:10:57.97,Default - italics,S,0000,0000,0000,,among the most powerful non-player characters, \Nwith strength rivaling that of adventurers.
+Dialogue: 0,0:10:58.63,0:11:04.56,Default - italics,S,0000,0000,0000,,Within the game's story, they're \Nregarded as legendary heroes.
+Dialogue: 0,0:11:05.14,0:11:08.75,Default,Re,0000,0000,0000,,We can discuss the precursors another time.
+Dialogue: 0,0:11:08.75,0:11:11.42,Default,Re,0000,0000,0000,,For now, I will simply say it is the souls,
+Dialogue: 0,0:11:09.31,0:11:14.98,HUD Big,Re,0000,0000,0000,,{\an7}Spirit Theory
+Dialogue: 0,0:11:11.42,0:11:14.98,Default,Re,0000,0000,0000,,an issue of Spirit Theory, that interests us.
+Dialogue: 0,0:11:15.25,0:11:17.18,Default,S,0000,0000,0000,,Spirit Theory?
+Dialogue: 0,0:11:17.18,0:11:22.49,Default,R,0000,0000,0000,,Even so, humanity was incapable of \Nhalting its slide toward the abyss.
+Dialogue: 0,0:11:22.86,0:11:27.52,Default,R,0000,0000,0000,,No matter how many demi-humans one \Ndefeated, they simply reincarnated.
+Dialogue: 0,0:11:27.92,0:11:30.50,Default,R,0000,0000,0000,,Which meant there was no way to defeat them.
+Dialogue: 0,0:11:31.01,0:11:33.22,Default - italics,S,0000,0000,0000,,Is he talking about respawns?
+Dialogue: 0,0:11:33.71,0:11:36.00,Default - italics,S,0000,0000,0000,,I thought that was part of the game.
+Dialogue: 0,0:11:36.67,0:11:41.56,Default - italics,S,0000,0000,0000,,If players in the game wipe out \Nall monsters within a zone,
+Dialogue: 0,0:11:41.56,0:11:44.03,Default - italics,S,0000,0000,0000,,there'd be nothing left for other players.
+Dialogue: 0,0:11:44.56,0:11:48.63,Default - italics,S,0000,0000,0000,,Thus, after a certain amount of time, \Nmonsters always reappear
+Dialogue: 0,0:11:48.63,0:11:50.77,Default - italics,S,0000,0000,0000,,in a process called respawning.
+Dialogue: 0,0:11:51.09,0:11:54.08,Default,Re,0000,0000,0000,,Sixty years after the first World Fraction,
+Dialogue: 0,0:11:54.65,0:11:59.51,Default,Re,0000,0000,0000,,humanity had fallen nearly completely to \Nthe endless wars with demi-humans.
+Dialogue: 0,0:12:00.22,0:12:03.72,Default,Re,0000,0000,0000,,And then, a divine summoning spell was used,
+Dialogue: 0,0:12:03.72,0:12:06.53,Default,Re,0000,0000,0000,,and messengers of God appeared.
+Dialogue: 0,0:12:09.58,0:12:12.16,Default,Re,0000,0000,0000,,This was two hundred and forty years ago.
+Dialogue: 0,0:12:13.14,0:12:16.11,Default,,0000,0000,0000,,The second World Fraction.
+Dialogue: 0,0:12:18.99,0:12:21.52,Default,Re,0000,0000,0000,,The appearance of the adventurers.
+Dialogue: 0,0:12:22.82,0:12:24.78,Default,S,0000,0000,0000,,Two hundred and forty years...
+Dialogue: 0,0:12:26.06,0:12:29.97,Default,S,0000,0000,0000,,Come to think of it, why did you talk to me?
+Dialogue: 0,0:12:29.97,0:12:31.33,Default,Re,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:12:31.33,0:12:33.94,Default,S,0000,0000,0000,,There are other Round Table representatives...
+Dialogue: 0,0:12:34.32,0:12:37.33,Default,Re,0000,0000,0000,,You are an archmage, you know.
+Dialogue: 0,0:12:37.33,0:12:39.91,Default,Re,0000,0000,0000,,I thought you might have a better \Nidea as to what's happening.
+Dialogue: 0,0:12:40.50,0:12:41.94,Default,A,0000,0000,0000,,An archmage?
+Dialogue: 0,0:12:42.21,0:12:44.28,Default,A,0000,0000,0000,,Is that true, my lord?
+Dialogue: 0,0:12:44.28,0:12:45.70,Default,S,0000,0000,0000,,I don't know...
+Dialogue: 0,0:12:45.90,0:12:50.95,Default,Re,0000,0000,0000,,Your name first appeared in our \Nhistory books ninety-eight years ago.
+Dialogue: 0,0:12:51.55,0:12:56.71,Default,Re,0000,0000,0000,,The time you've been active alone \Nis proof that you're an archmage.
+Dialogue: 0,0:12:57.02,0:12:58.71,Default,A,0000,0000,0000,,Ninety-eight years?
+Dialogue: 0,0:12:59.03,0:13:01.52,Default,A,0000,0000,0000,,You're that old, my lord?
+Dialogue: 0,0:13:01.52,0:13:02.72,Default,S,0000,0000,0000,,No, that's imposs—
+Dialogue: 0,0:13:03.19,0:13:03.98,Default,,0000,0000,0000,,Wait...
+Dialogue: 0,0:13:04.44,0:13:06.38,Default,S,0000,0000,0000,,{\i1}In the{\i0} Elder Tale {\i1}game,{\i0}
+Dialogue: 0,0:13:06.38,0:13:09.58,Default - italics,,0000,0000,0000,,time advanced at twelve times \Nthe rate of the real world.
+Dialogue: 0,0:13:09.58,0:13:14.45,Default - italics,S,0000,0000,0000,,In other words, one day in the game \Nequals two real world hours.
+Dialogue: 0,0:13:15.98,0:13:18.94,Default - italics,S,0000,0000,0000,,Ninety-eight years ago, in this world,
+Dialogue: 0,0:13:18.94,0:13:22.26,Default - italics,,0000,0000,0000,,would be eight years and \Nseveral months in ours.
+Dialogue: 0,0:13:23.54,0:13:26.03,Default,S,0000,0000,0000,,{\i1}That's when I started playing{\i0} Elder Tale.
+Dialogue: 0,0:13:27.63,0:13:31.15,Default - italics,S,0000,0000,0000,,Two hundred and forty years ago, \Nwhen adventurers first appeared in this world,
+Dialogue: 0,0:13:31.15,0:13:33.22,Default - italics,,0000,0000,0000,,would be twenty years in our world.
+Dialogue: 0,0:13:33.78,0:13:35.00,Default - italics,S,0000,0000,0000,,That would align
+Dialogue: 0,0:13:35.62,0:13:40.06,Default,,0000,0000,0000,,{\i1}with the start of the open beta \Nfor the{\i0} Elder Tale {\i1}game.{\i0}
+Dialogue: 0,0:13:46.66,0:13:50.51,Default,T,0000,0000,0000,,Surprisingly few lords want troops.
+Dialogue: 0,0:13:51.10,0:13:52.04,Default,Cr,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:52.04,0:13:55.81,Default,Cr,0000,0000,0000,,Most of them want technology sharing, \Nor trade agreements.
+Dialogue: 0,0:13:55.81,0:13:58.27,Default,Mi,0000,0000,0000,,They knew all about the steam engine.
+Dialogue: 0,0:13:58.68,0:14:02.24,Default,T,0000,0000,0000,,We know they had spies in Akihabara.
+Dialogue: 0,0:14:02.84,0:14:06.53,Default,S,0000,0000,0000,,Knowing about it doesn't mean they'd \Nbe able to easily make one.
+Dialogue: 0,0:14:06.77,0:14:10.18,Default,Cr,0000,0000,0000,,Shiroe's right. It's nothing to worry over now.
+Dialogue: 0,0:14:10.53,0:14:12.38,Default,Mi,0000,0000,0000,,That's true, but...
+Dialogue: 0,0:14:16.28,0:14:17.37,Default,A,0000,0000,0000,,My lord?
+Dialogue: 0,0:14:19.36,0:14:20.88,Default,A,0000,0000,0000,,Are you thinking about yesterday?
+Dialogue: 0,0:14:21.49,0:14:22.42,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:24.15,0:14:27.05,Default - flashback,S,0000,0000,0000,,What is this "Spirit Theory" you mentioned?
+Dialogue: 0,0:14:27.38,0:14:31.99,Default - flashback,Re,0000,0000,0000,,The mystical energy that animates humans \Nand demi-humans is called the "spirit."
+Dialogue: 0,0:14:31.39,0:14:36.56,HUD Big,S,0000,0000,0000,,{\fad(231,1)\an8}Spirit
+Dialogue: 0,0:14:32.44,0:14:36.56,Default - flashback,Re,0000,0000,0000,,Spirit consists of two distinct \Nenergies, psyche and anima.
+Dialogue: 0,0:14:36.56,0:14:42.31,SignA,Re,0000,0000,0000,,Psyche
+Dialogue: 0,0:14:37.11,0:14:39.85,Default - flashback,Re,0000,0000,0000,,Psyche is the energy that animates the mind.
+Dialogue: 0,0:14:39.85,0:14:42.26,Default - flashback,Re,0000,0000,0000,,It affects things such as magic, as well.
+Dialogue: 0,0:14:42.65,0:14:45.82,Green HUD,Re,0000,0000,0000,,Psyche = Magic Points
+Dialogue: 0,0:14:42.93,0:14:46.31,Default - flashback,Re,0000,0000,0000,,It is also called MP, magic points.
+Dialogue: 0,0:14:45.82,0:14:48.90,SignA,Re,0000,0000,0000,,Anima
+Dialogue: 0,0:14:46.97,0:14:49.83,Default - flashback,Re,0000,0000,0000,,Anima is the energy that animates the body.
+Dialogue: 0,0:14:49.20,0:14:55.33,Green HUD,Re,0000,0000,0000,,Anima = Hit Points
+Dialogue: 0,0:14:49.83,0:14:51.98,Default - flashback,Re,0000,0000,0000,,HP... Hit points.
+Dialogue: 0,0:14:51.98,0:14:55.33,Default - flashback,,0000,0000,0000,,It is also the energy known as "ki."
+Dialogue: 0,0:14:55.86,0:14:59.87,Default - flashback,Re,0000,0000,0000,,When someone is defeated in battle, \Nthey can no longer move,
+Dialogue: 0,0:14:59.87,0:15:02.33,Default - flashback,,0000,0000,0000,,but the mind remains healthy.
+Dialogue: 0,0:15:02.92,0:15:05.81,Default - flashback,Re,0000,0000,0000,,However, the anima and psyche are split,
+Dialogue: 0,0:15:05.81,0:15:09.34,Default - flashback,Re,0000,0000,0000,,and the psyche is trapped in darkness.
+Dialogue: 0,0:15:10.08,0:15:12.74,Default - flashback,Re,0000,0000,0000,,This is because the information \Nthat flows to the mind
+Dialogue: 0,0:15:12.74,0:15:15.09,Default - flashback,,0000,0000,0000,,from the body, which senses light, \Nhas been cut off.
+Dialogue: 0,0:15:15.63,0:15:19.30,Default - flashback,Re,0000,0000,0000,,Then the dispersal of the body, \Nthe anima, begins...
+Dialogue: 0,0:15:20.26,0:15:23.11,Default - flashback,Re,0000,0000,0000,,This process is called anima-dispersal.
+Dialogue: 0,0:15:21.19,0:15:23.11,HUD Big,Re,0000,0000,0000,,{\an8}Anima-Dispersal
+Dialogue: 0,0:15:23.81,0:15:27.29,Default - flashback,Re,0000,0000,0000,,Resurrection magic is used \Non corpses in this state.
+Dialogue: 0,0:15:27.29,0:15:32.11,Default - flashback,Re,0000,0000,0000,,The anima that has dispersed into \Nthe air is gathered and reconstructed.
+Dialogue: 0,0:15:32.87,0:15:37.65,Default - flashback,Re,0000,0000,0000,,The information required for the reconstruction \Nis derived by calculating backwards
+Dialogue: 0,0:15:37.65,0:15:40.12,Default - flashback,,0000,0000,0000,,from the information left in the corpse.
+Dialogue: 0,0:15:40.69,0:15:45.63,Default - flashback,Re,0000,0000,0000,,And the healer provides any missing energy.
+Dialogue: 0,0:15:46.18,0:15:50.51,Default - flashback,S,0000,0000,0000,,So information from before death \Ncannot be perfectly restored.
+Dialogue: 0,0:15:50.88,0:15:54.89,SignD,S,0000,0000,0000,,{\an9}You have been resurrected.                                          Smash \NRace/ Wolf Fang \NSwashbuckler, Lv. 88 \NDread Pack
+Dialogue: 0,0:15:50.88,0:15:54.89,SignC,S,0000,0000,0000,,Status Info \N\NYou have lost 1,811,933 \NEXP as a penalty.
+Dialogue: 0,0:15:51.67,0:15:54.89,Default - flashback,S,0000,0000,0000,,That's why, when you are revived, EXP is lost.
+Dialogue: 0,0:15:55.45,0:15:58.39,Default - flashback,Re,0000,0000,0000,,You could say that information \Ndegradation is unavoidable.
+Dialogue: 0,0:15:58.78,0:16:02.78,Default - flashback,Re,0000,0000,0000,,Naturally, if the body, the anima, \Ndisperses completely,
+Dialogue: 0,0:16:02.78,0:16:04.82,Default - flashback,Re,0000,0000,0000,,resurrection becomes impossible.
+Dialogue: 0,0:16:05.27,0:16:07.90,Default - flashback,Re,0000,0000,0000,,At this point, People of the Land die.
+Dialogue: 0,0:16:08.24,0:16:10.65,Default - flashback,S,0000,0000,0000,,But before that point...
+Dialogue: 0,0:16:11.04,0:16:14.37,Default - flashback,Re,0000,0000,0000,,Resurrection magic will work \Non People of the Land, also.
+Dialogue: 0,0:16:14.81,0:16:16.42,Default - flashback,Re,0000,0000,0000,,For an adventurer, though,
+Dialogue: 0,0:16:16.42,0:16:18.69,Default - flashback,Re,0000,0000,0000,,once anima dispersal is complete,
+Dialogue: 0,0:16:18.69,0:16:21.13,Default - flashback,Re,0000,0000,0000,,the body decomposes into particles.
+Dialogue: 0,0:16:21.13,0:16:24.02,Default - flashback,Re,0000,0000,0000,,And the psyche, the mind, uses its power
+Dialogue: 0,0:16:24.02,0:16:27.05,Default - flashback,,0000,0000,0000,,to transport the adventurer to the \NCathedral, where they revive.
+Dialogue: 0,0:16:27.57,0:16:31.67,Default - flashback,Re,0000,0000,0000,,This system is quite similar to \Nthat of the demi-humans.
+Dialogue: 0,0:16:31.67,0:16:37.26,Default - flashback,Re,0000,0000,0000,,Of course, this is merely a hypothesis that \Nmy teacher and I were researching.
+Dialogue: 0,0:16:37.65,0:16:41.98,Default - flashback,S,0000,0000,0000,,Then, do demi-humans possess \Nmemories from before death?
+Dialogue: 0,0:16:41.98,0:16:43.27,Default - flashback,Re,0000,0000,0000,,We don't know.
+Dialogue: 0,0:16:43.27,0:16:48.82,SignE,Re,0000,0000,0000,,Consciousness    {\c&HE242D1&}Personality    {\c&H34C2B6&}Memories \N\N {\c&HBCDD41&\fs24}Psyche
+Dialogue: 0,0:16:43.71,0:16:45.74,Default - flashback,Re,0000,0000,0000,,An individual's personality and consciousness
+Dialogue: 0,0:16:45.74,0:16:48.52,Default - flashback,,0000,0000,0000,,are stored inside the psyche as information.
+Dialogue: 0,0:16:48.82,0:16:56.28,SignA,Re,0000,0000,0000,,{\c&HF78F46&}Psyche                      {\c&H9CB165&}Anima
+Dialogue: 0,0:16:49.28,0:16:53.87,Default - flashback,Re,0000,0000,0000,,Memories, however, are also stored within \Nan organ of the body called the brain.
+Dialogue: 0,0:16:53.87,0:16:56.28,Default - flashback,Re,0000,0000,0000,,The body, of course, being anima.
+Dialogue: 0,0:16:56.74,0:17:00.92,Default - flashback,S,0000,0000,0000,,So memories exist both within \Nthe anima and the psyche?
+Dialogue: 0,0:17:01.56,0:17:05.89,Default - flashback,S,0000,0000,0000,,Is that information damaged \Nwhen the body is reconstructed?
+Dialogue: 0,0:17:05.89,0:17:07.79,Default - flashback,Re,0000,0000,0000,,Yes, most likely.
+Dialogue: 0,0:17:08.50,0:17:13.44,Default - flashback,Re,0000,0000,0000,,It's quite possible that memories are \Ndamaged or lost during death.
+Dialogue: 0,0:17:14.84,0:17:21.56,Default - flashback,Re,0000,0000,0000,,The demi-human psyches were warped \Nby the first World Fraction's curse.
+Dialogue: 0,0:17:21.56,0:17:23.90,Default - flashback,Re,0000,0000,0000,,Even if their memories remain,
+Dialogue: 0,0:17:23.90,0:17:27.56,Default - flashback,Re,0000,0000,0000,,they may not recognize those \Nmemories as their own.
+Dialogue: 0,0:17:28.16,0:17:32.16,Default - flashback,Re,0000,0000,0000,,In other words, they may recall \Nthem as we would a story.
+Dialogue: 0,0:17:32.68,0:17:36.43,Default - flashback,S,0000,0000,0000,,{\i1}Does that mean we'll lose \Nour memories, as well?
+Dialogue: 0,0:17:37.57,0:17:38.63,Default - flashback,A,0000,0000,0000,,My lord?
+Dialogue: 0,0:17:42.58,0:17:44.83,Default,A,0000,0000,0000,,I don't understand any of it.
+Dialogue: 0,0:17:46.71,0:17:50.34,Default,A,0000,0000,0000,,If we die in this world, don't we simply revive?
+Dialogue: 0,0:17:53.28,0:17:57.13,Default,S,0000,0000,0000,,The person sitting at the computer, \Nplaying the game, is the mind.
+Dialogue: 0,0:17:57.45,0:17:59.35,SignF,S,0000,0000,0000,,{\fad(419,1)}Psyche
+Dialogue: 0,0:17:57.84,0:17:59.35,Default,S,0000,0000,0000,,In other words, the psyche.
+Dialogue: 0,0:17:59.35,0:18:09.34,SignF,S,0000,0000,0000,,{\c&HF78F46&}Psyche                      {\c&H9CB165&}Anima
+Dialogue: 0,0:18:00.14,0:18:04.01,Default,S,0000,0000,0000,,The character inside the screen \Nis the body, the anima.
+Dialogue: 0,0:18:04.94,0:18:07.06,Default,S,0000,0000,0000,,Naturally, the player is the one with
+Dialogue: 0,0:18:07.06,0:18:09.36,Default,,0000,0000,0000,,memories of what happened during the game.
+Dialogue: 0,0:18:09.36,0:18:15.35,SignG,S,0000,0000,0000,,Anima
+Dialogue: 0,0:18:09.91,0:18:14.84,Default,S,0000,0000,0000,,But the player's character is the one \Nwith the EXP, level, and other data.
+Dialogue: 0,0:18:15.84,0:18:17.92,Default,S,0000,0000,0000,,Until now, if the character died,
+Dialogue: 0,0:18:17.92,0:18:20.80,Default,,0000,0000,0000,,it only meant losing experience in a game.
+Dialogue: 0,0:18:20.80,0:18:23.87,Default,S,0000,0000,0000,,It wouldn't hurt us in the real world at all.
+Dialogue: 0,0:18:25.09,0:18:31.47,Default,S,0000,0000,0000,,But it's possible that now, our psyche \Nand anima are united in one place.
+Dialogue: 0,0:18:31.95,0:18:32.94,Default,A,0000,0000,0000,,In other words...
+Dialogue: 0,0:18:33.42,0:18:38.38,Default,S,0000,0000,0000,,Our memories and the experience points \Nour characters had have become one.
+Dialogue: 0,0:18:39.40,0:18:41.55,Default,S,0000,0000,0000,,If we die, we'll lose our memories,
+Dialogue: 0,0:18:42.55,0:18:44.14,Default,,0000,0000,0000,,along with our experience points.
+Dialogue: 0,0:18:46.72,0:18:49.10,Default,S,0000,0000,0000,,I don't know how much we'd lose.
+Dialogue: 0,0:18:49.65,0:18:54.33,Default,S,0000,0000,0000,,Since we came to this world, \Nmany people have died,
+Dialogue: 0,0:18:54.33,0:18:56.65,Default,S,0000,0000,0000,,but I haven't heard anyone \Nmaking a big deal about it.
+Dialogue: 0,0:18:57.66,0:19:01.66,Default,S,0000,0000,0000,,So it may be no more than a little forgetfulness.
+Dialogue: 0,0:19:02.07,0:19:03.34,Default,A,0000,0000,0000,,But even so...
+Dialogue: 0,0:19:04.64,0:19:05.91,Default,S,0000,0000,0000,,Even so,
+Dialogue: 0,0:19:05.91,0:19:07.66,Default,S,0000,0000,0000,,it isn't pleasant to contemplate.
+Dialogue: 0,0:19:08.20,0:19:11.17,Default,S,0000,0000,0000,,Forgetting about the real world...
+Dialogue: 0,0:19:12.39,0:19:16.17,Default,S,0000,0000,0000,,Anyway, we won't tell anyone \Nabout this for a while.
+Dialogue: 0,0:19:16.86,0:19:17.76,Default,S,0000,0000,0000,,Got it?
+Dialogue: 0,0:19:18.48,0:19:19.43,Default,A,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:23.36,0:19:25.04,Default,I,0000,0000,0000,,Good morning...
+Dialogue: 0,0:19:25.04,0:19:26.60,Default,Mi,0000,0000,0000,,Good morning.
+Dialogue: 0,0:19:26.60,0:19:28.67,Default,I,0000,0000,0000,,You're up early.
+Dialogue: 0,0:19:28.67,0:19:31.06,Default,Mi,0000,0000,0000,,Yeah, I couldn't sleep.
+Dialogue: 0,0:19:31.06,0:19:32.51,Default,I,0000,0000,0000,,Me, either.
+Dialogue: 0,0:19:32.91,0:19:35.07,Default,I,0000,0000,0000,,I wonder if it'll go well today.
+Dialogue: 0,0:19:39.37,0:19:41.50,Default,I,0000,0000,0000,,I'll go take a quick bath!
+Dialogue: 0,0:19:42.44,0:19:43.66,Default,Mi,0000,0000,0000,,See you.
+Dialogue: 0,0:19:47.98,0:19:49.76,Default,Mi,0000,0000,0000,,Tohya, good morning.
+Dialogue: 0,0:19:49.76,0:19:50.58,Default,T,0000,0000,0000,,Mm.
+Dialogue: 0,0:20:10.64,0:20:12.02,Default,I,0000,0000,0000,,Those are...
+Dialogue: 0,0:20:12.98,0:20:15.02,Default,I,0000,0000,0000,,Dungeon corridors?
+Dialogue: 0,0:20:15.69,0:20:17.82,Default,I,0000,0000,0000,,He's practicing.
+Dialogue: 0,0:20:20.78,0:20:22.32,Default,I,0000,0000,0000,,S-Sorry...
+Dialogue: 0,0:20:22.81,0:20:24.52,Default,R,0000,0000,0000,,Hey, Miss Isuzu.
+Dialogue: 0,0:20:24.96,0:20:26.33,Default,R,0000,0000,0000,,Splendid morning, isn't it?
+Dialogue: 0,0:20:26.92,0:20:29.57,Default,I,0000,0000,0000,,You don't need to force yourself.
+Dialogue: 0,0:20:29.57,0:20:31.47,Default,R,0000,0000,0000,,What are you talking about?!
+Dialogue: 0,0:20:31.47,0:20:35.62,Default,R,0000,0000,0000,,I was just taking a morning walk, \Ninvited by the forest nymphs,
+Dialogue: 0,0:20:35.62,0:20:37.84,Default,,0000,0000,0000,,to listen to the birds' harmony...
+Dialogue: 0,0:20:38.25,0:20:39.12,Default,R,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:39.12,0:20:41.16,Default,I,0000,0000,0000,,R-Really?
+Dialogue: 0,0:20:41.16,0:20:44.19,Default,R,0000,0000,0000,,So what are you doing, Miss Isuzu?
+Dialogue: 0,0:20:44.19,0:20:46.13,Default,I,0000,0000,0000,,I'm going for a bath.
+Dialogue: 0,0:20:46.13,0:20:49.10,Default,I,0000,0000,0000,,Oh, I know! Why not come with me, Rundel Haus?
+Dialogue: 0,0:20:49.10,0:20:50.35,Default,R,0000,0000,0000,,B-Bath?
+Dialogue: 0,0:20:50.98,0:20:54.46,Default,R,0000,0000,0000,,I'm not interested in peeking at bathing ladies!
+Dialogue: 0,0:20:54.46,0:20:56.31,Default,R,0000,0000,0000,,Please don't insult me...
+Dialogue: 0,0:20:56.31,0:20:58.86,Default,I,0000,0000,0000,,No one said anything about taking one together.
+Dialogue: 0,0:20:59.28,0:21:03.64,Default,I,0000,0000,0000,,You wouldn't want a lady walking \Nthrough the forest alone, right?
+Dialogue: 0,0:21:03.64,0:21:05.09,Default,R,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:21:05.09,0:21:06.87,Default,R,0000,0000,0000,,That's true...
+Dialogue: 0,0:21:07.17,0:21:09.31,Default,R,0000,0000,0000,,Yes, your escort, then.
+Dialogue: 0,0:21:09.66,0:21:11.12,Default,R,0000,0000,0000,,I would be glad to.
+Dialogue: 0,0:21:11.44,0:21:13.87,Default,R,0000,0000,0000,,So, which way is the spring?
+Dialogue: 0,0:21:16.24,0:21:18.75,Default,I,0000,0000,0000,,That way, Rundel Haus.
+Dialogue: 0,0:21:18.75,0:21:21.74,Default,R,0000,0000,0000,,Miss Isuzu, call me Rudy.
+Dialogue: 0,0:21:21.74,0:21:23.88,Default,R,0000,0000,0000,,My parents call me that.
+Dialogue: 0,0:21:28.17,0:21:29.39,Default,R,0000,0000,0000,,Delicious!
+Dialogue: 0,0:21:30.09,0:21:32.21,Default,R,0000,0000,0000,,Another wonderful breakfast today!
+Dialogue: 0,0:21:32.21,0:21:34.64,Default,R,0000,0000,0000,,Don't you all think so?
+Dialogue: 0,0:21:34.89,0:21:37.43,Default,Se,0000,0000,0000,,It's Nyanta's special recipe!
+Dialogue: 0,0:21:37.43,0:21:39.29,Default,I,0000,0000,0000,,Rudy, this is good, too.
+Dialogue: 0,0:21:39.29,0:21:41.39,Default,Mi,0000,0000,0000,,Hmm? Rudy?
+Dialogue: 0,0:21:41.90,0:21:45.47,Default,T,0000,0000,0000,,This is salad with mashed pumpkins.
+Dialogue: 0,0:21:41.90,0:21:46.16,HUD1,Mi,0000,0000,0000,,{\3c&H643829&}Isuzu/ Adventurer                Rundel Haus Code/ Sorcerer
+Dialogue: 0,0:21:45.47,0:21:46.87,Default,T,0000,0000,0000,,How exquisite.
+Dialogue: 0,0:21:49.43,0:21:50.66,Default,T,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:21:51.77,0:21:52.92,Default,Se,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:21:52.92,0:21:55.19,Default,Se,0000,0000,0000,,There's no more soup!
+Dialogue: 0,0:21:55.19,0:21:56.69,Default,Se,0000,0000,0000,,I... I...
+Dialogue: 0,0:21:56.69,0:21:58.34,Default,T,0000,0000,0000,,No, I mean...
+Dialogue: 0,0:22:00.87,0:22:03.31,Default - italics,Mi,0000,0000,0000,,Tohya's thinking the same thing?
+Dialogue: 0,0:22:04.77,0:22:07.17,Default,T,0000,0000,0000,,You know, well...
+Dialogue: 0,0:22:08.01,0:22:08.97,Default - italics,Mi,0000,0000,0000,,No.
+Dialogue: 0,0:22:09.60,0:22:11.61,Default - italics,Mi,0000,0000,0000,,It'll just end up like last time.
+Dialogue: 0,0:22:12.12,0:22:15.24,Default - italics,Mi,0000,0000,0000,,If I'm too scared to say it, nothing will change.
+Dialogue: 0,0:22:16.23,0:22:17.88,Default - italics,Mi,0000,0000,0000,,I have to say it!
+Dialogue: 0,0:22:18.82,0:22:20.98,Default,R,0000,0000,0000,,Okay, breakfast is done.
+Dialogue: 0,0:22:21.43,0:22:24.44,Default,R,0000,0000,0000,,Let's get to the dungeon, men.
+Dialogue: 0,0:22:24.44,0:22:26.03,Default,R,0000,0000,0000,,Today, I'll finally—
+Dialogue: 0,0:22:28.97,0:22:30.12,Default,Mi,0000,0000,0000,,Everyone...
+Dialogue: 0,0:22:30.58,0:22:34.53,Default,Mi,0000,0000,0000,,Why don't we wait until this afternoon \Nto enter the dungeon?
+Dialogue: 0,0:24:06.94,0:24:09.63,Default,Preview,0000,0000,0000,,The real answer isn't written down anywhere.
+Dialogue: 0,0:24:09.63,0:24:11.79,Default,Preview,0000,0000,0000,,Not in a textbook, on the internet,
+Dialogue: 0,0:24:11.79,0:24:14.01,Default,,0000,0000,0000,,or in the notebook you're always reading.
+Dialogue: 0,0:24:14.35,0:24:16.99,Default,Preview,0000,0000,0000,,And no one can teach it to you.
+Dialogue: 0,0:24:17.60,0:24:20.10,Default,Preview,0000,0000,0000,,But when you understand it on your own,
+Dialogue: 0,0:24:20.10,0:24:22.78,Default,Preview,0000,0000,0000,,what was merely a party becomes \Na group of true friends.
+Dialogue: 0,0:24:23.10,0:24:30.99,Title,Next time,0000,0000,0000,,Attacks
+Dialogue: 0,0:24:23.27,0:24:25.29,Default,Next time,0000,0000,0000,,Next time: Attacks.
+Dialogue: 0,0:24:25.29,0:24:27.75,Default,Next time,0000,0000,0000,,Always look thirty seconds ahead.

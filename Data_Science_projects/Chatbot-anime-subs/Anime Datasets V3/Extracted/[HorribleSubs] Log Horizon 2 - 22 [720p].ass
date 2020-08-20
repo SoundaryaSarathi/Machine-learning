@@ -1,0 +1,473 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Location,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,27,51,0
+Style: Inventory,Open Sans Semibold,33,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Open Sans Semibold,36,&H00ECEBEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: HUD Big,Open Sans Semibold,42,&H00F1EDEA,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Open Sans Semibold,27,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,80,0
+Style: Monsters,Open Sans Semibold,30,&H00BAB6DE,&H000000FF,&H001F2151,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,53,53,37,0
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Open Sans Semibold,27,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Open Sans Semibold,27,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Open Sans Semibold,33,&H005C34C9,&H000000FF,&H00FD995E,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignB,Open Sans Semibold,30,&H00011215,&H000000FF,&H00D4EDEF,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,7,53,53,27,0
+Style: SignC,Open Sans Semibold,33,&H00C38072,&H000000FF,&H00FFFFFF,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignD,Open Sans Semibold,33,&H00000000,&H000000FF,&H00AEB59F,&H00BC6D20,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.00,0:00:05.48,SignD,,0000,0000,0000,,Stop playing around.
+Dialogue: 0,0:00:04.85,0:00:06.13,Default,R,0000,0000,0000,,"Hello.
+Dialogue: 0,0:00:06.64,0:00:09.25,Default,R,0000,0000,0000,,I wasn't sure how to begin,
+Dialogue: 0,0:00:09.25,0:00:11.71,Default,R,0000,0000,0000,,but for my first word, a greeting is appropriate.
+Dialogue: 0,0:00:12.20,0:00:13.66,Default,R,0000,0000,0000,,Hello, world.
+Dialogue: 0,0:00:13.66,0:00:14.99,Default,R,0000,0000,0000,,Hello, Shiroe.
+Dialogue: 0,0:00:15.99,0:00:17.91,Default,R,0000,0000,0000,,'Shiroe, of Log Horizon.'
+Dialogue: 0,0:00:18.31,0:00:21.91,Default,R,0000,0000,0000,,When I heard that name, I felt so strange.
+Dialogue: 0,0:00:22.43,0:00:26.15,Default,R,0000,0000,0000,,Because your memories are still within me.
+Dialogue: 0,0:00:27.23,0:00:32.07,Default,R,0000,0000,0000,,Just like you are beings who have \Ncome to this world from another,
+Dialogue: 0,0:00:32.07,0:00:36.14,Default,R,0000,0000,0000,,we have done the same, as well.
+Dialogue: 0,0:00:37.03,0:00:38.76,Default,R,0000,0000,0000,,My name is Roe 2.
+Dialogue: 0,0:00:38.76,0:00:47.02,SignB,R,0000,0000,0000,,{\c&H4D35C7&}Top Secret \N\N{\c&H000000&}New and Unconfirmed Monsters \N\NInvestigation Report
+Dialogue: 0,0:00:39.85,0:00:43.01,Default,R,0000,0000,0000,,We call ourselves the Navigators.
+Dialogue: 0,0:00:43.67,0:00:46.18,Default,R,0000,0000,0000,,From your perspective, we are sentient \Nintelligences from another world.
+Dialogue: 0,0:00:46.62,0:00:51.41,Default,R,0000,0000,0000,,And at the same time, I'm also your little sister."
+Dialogue: 0,0:02:24.34,0:02:27.28,Default,Se,0000,0000,0000,,What should we make today, Nyanta?
+Dialogue: 0,0:02:27.28,0:02:29.19,Default,Ny,0000,0000,0000,,Let me see...
+Dialogue: 0,0:02:35.49,0:02:37.24,Default,S,0000,0000,0000,,Working hard, Shiro?
+Dialogue: 0,0:02:37.63,0:02:40.13,Default,S,0000,0000,0000,,I know you just got back, \Nbut can you tell me the details
+Dialogue: 0,0:02:41.18,0:02:43.14,Default,,0000,0000,0000,,about this new type of monster?
+Dialogue: 0,0:02:43.22,0:02:49.14,Title,S,0000,0000,0000,,{\fad(1610,1)}Stranger
+Dialogue: 0,0:02:46.04,0:02:47.22,Default,S,0000,0000,0000,,Stranger.
+Dialogue: 0,0:02:49.53,0:02:51.16,Default,S,0000,0000,0000,,And that's what happened.
+Dialogue: 0,0:02:52.91,0:02:55.30,Default,S,0000,0000,0000,,The genius of marriage, Camaysar.
+Dialogue: 0,0:02:55.30,0:02:58.67,Default,Gi,0000,0000,0000,,That was more like marriage fraud than marriage.
+Dialogue: 0,0:02:58.67,0:03:00.80,Default,S,0000,0000,0000,,The West Wind girls were the \Nones who first found him?
+Dialogue: 0,0:03:01.07,0:03:02.11,Default,N,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:02.50,0:03:05.15,Default,,0000,0000,0000,,We have access to the girls' information network,
+Dialogue: 0,0:03:05.15,0:03:07.18,Default,N,0000,0000,0000,,so we're really good at that.
+Dialogue: 0,0:03:08.14,0:03:10.36,Default,A,0000,0000,0000,,Yes, it's amazing, my lord.
+Dialogue: 0,0:03:10.36,0:03:11.86,Default,S,0000,0000,0000,,You also knew about it, Akatsuki?
+Dialogue: 0,0:03:11.86,0:03:13.09,Default,A,0000,0000,0000,,No, not at all.
+Dialogue: 0,0:03:14.48,0:03:16.55,Default,S,0000,0000,0000,,So what happened?
+Dialogue: 0,0:03:16.55,0:03:17.81,Default,A,0000,0000,0000,,Well...
+Dialogue: 0,0:03:18.81,0:03:20.06,Default - flashback,N,0000,0000,0000,,A second form?
+Dialogue: 0,0:03:20.06,0:03:21.34,Default - flashback,S,0000,0000,0000,,We'll attack immediately.
+Dialogue: 0,0:03:21.61,0:03:24.35,Default - flashback,Gu,0000,0000,0000,,Give them to me, adventurers.
+Dialogue: 0,0:03:24.35,0:03:25.08,Default - flashback,S,0000,0000,0000,,Nazuna!
+Dialogue: 0,0:03:25.08,0:03:26.01,Default - flashback,N,0000,0000,0000,,Right.
+Dialogue: 0,0:03:27.29,0:03:29.48,Default - flashback,Gu,0000,0000,0000,,My beautiful brides...
+Dialogue: 0,0:03:31.06,0:03:32.37,Default - flashback,S,0000,0000,0000,,{\i1}Ittou Ryoudan!
+Dialogue: 0,0:03:34.14,0:03:36.32,Default,S,0000,0000,0000,,You guys are as crazy as ever...
+Dialogue: 0,0:03:36.32,0:03:39.82,Default,N,0000,0000,0000,,We'll show no mercy to anyone \Nwho touches our girls.
+Dialogue: 0,0:03:39.82,0:03:42.31,Default,A,0000,0000,0000,,Yes, we show no mercy, my lord!
+Dialogue: 0,0:03:42.31,0:03:43.88,Default,S,0000,0000,0000,,Did you also help, Akatsuki?
+Dialogue: 0,0:03:43.88,0:03:45.23,Default,A,0000,0000,0000,,No, not at all.
+Dialogue: 0,0:03:46.87,0:03:50.02,Default,N,0000,0000,0000,,So what is he, exactly?
+Dialogue: 0,0:03:50.71,0:03:51.81,Default,S,0000,0000,0000,,Is he an enemy?
+Dialogue: 0,0:03:52.76,0:03:54.45,Default,S,0000,0000,0000,,An enemy, huh?
+Dialogue: 0,0:03:55.09,0:03:58.93,Default,S,0000,0000,0000,,Since they're attacking us, we have to fight.
+Dialogue: 0,0:03:58.93,0:04:01.63,Default,N,0000,0000,0000,,Then we just need to protect the town, huh?
+Dialogue: 0,0:04:01.63,0:04:03.09,Default,S,0000,0000,0000,,Leave it to us.
+Dialogue: 0,0:04:03.09,0:04:04.34,Default,A,0000,0000,0000,,Leave it to me, my lord.
+Dialogue: 0,0:04:04.34,0:04:06.11,Default,S,0000,0000,0000,,Ah, thanks.
+Dialogue: 0,0:04:06.11,0:04:08.78,Default,S,0000,0000,0000,,Come to think of it, he was a weird enemy.
+Dialogue: 0,0:04:08.78,0:04:09.43,Default,S,0000,0000,0000,,Weird?
+Dialogue: 0,0:04:09.91,0:04:13.69,Default,S,0000,0000,0000,,Since we came to this world, he's the \Nenemy most like those in {\i1}Elder Tale{\i0}.
+Dialogue: 0,0:04:14.29,0:04:17.94,Default,N,0000,0000,0000,,Yeah, like it was too easy...
+Dialogue: 0,0:04:15.42,0:04:17.94,Default - flashback,Gu,0000,0000,0000,,{\an8}Be my beautiful bride...
+Dialogue: 0,0:04:18.74,0:04:20.33,Default,S,0000,0000,0000,,It was like a game.
+Dialogue: 0,0:04:20.80,0:04:22.70,Default,S,0000,0000,0000,,It felt hollow.
+Dialogue: 0,0:04:22.70,0:04:24.68,Default,,0000,0000,0000,,Like I was fighting from \Nbehind a computer screen.
+Dialogue: 0,0:04:26.32,0:04:29.45,Default,Gu,0000,0000,0000,,Fried rockfish is the best!
+Dialogue: 0,0:04:29.45,0:04:32.45,Default,Gu,0000,0000,0000,,Fried rockfish is the best!
+Dialogue: 0,0:04:33.55,0:04:35.90,Default,Gu,0000,0000,0000,,Sir Isaac! Sir Isaac!
+Dialogue: 0,0:04:37.55,0:04:40.84,Default,Gu,0000,0000,0000,,How can he jump so high?
+Dialogue: 0,0:04:41.67,0:04:43.93,Default,Gu,0000,0000,0000,,Sir Isaac, how can he—
+Dialogue: 0,0:04:43.93,0:04:45.23,Default,I,0000,0000,0000,,Just call me "Isaac."
+Dialogue: 0,0:04:45.74,0:04:46.72,Default,Gu,0000,0000,0000,,But...
+Dialogue: 0,0:04:47.11,0:04:48.22,Default,I,0000,0000,0000,,You know, uh...
+Dialogue: 0,0:04:48.58,0:04:49.97,Default,Gu,0000,0000,0000,,I'm Iselus.
+Dialogue: 0,0:04:50.67,0:04:54.43,Default,I,0000,0000,0000,,Iselus, can you try to be a little less formal?
+Dialogue: 0,0:04:54.43,0:04:56.76,Default,Gu,0000,0000,0000,,You're an adventurer, Sir Isaac.
+Dialogue: 0,0:04:56.76,0:05:00.57,Default,Gu,0000,0000,0000,,And you're training the knights of Maihama.
+Dialogue: 0,0:05:01.08,0:05:02.99,Default,I,0000,0000,0000,,I'm just doing it because I want to.
+Dialogue: 0,0:05:03.24,0:05:08.66,Default,Gu,0000,0000,0000,,And I'm told that, in Akihabara, \Nyou help my sister, Lenessia.
+Dialogue: 0,0:05:09.11,0:05:12.03,Default,I,0000,0000,0000,,Taking care of her is the elite glasses guy's job.
+Dialogue: 0,0:05:12.03,0:05:14.48,Default,I,0000,0000,0000,,He's on a trip now, though.
+Dialogue: 0,0:05:14.48,0:05:18.32,Default,Gu,0000,0000,0000,,Then is he an adventurer, too, Sir Isaac?
+Dialogue: 0,0:05:18.59,0:05:19.72,Default,I,0000,0000,0000,,I told you...
+Dialogue: 0,0:05:19.72,0:05:20.75,Default,Gu,0000,0000,0000,,Isaac,
+Dialogue: 0,0:05:21.55,0:05:23.55,Default,,0000,0000,0000,,should we let them take a break?
+Dialogue: 0,0:05:23.55,0:05:25.63,Default,I,0000,0000,0000,,And I told you not to be so informal!
+Dialogue: 0,0:05:25.94,0:05:27.61,Default,Gu,0000,0000,0000,,See, Sir Iselus.
+Dialogue: 0,0:05:27.61,0:05:29.40,Default,Gu,0000,0000,0000,,Just talk to him like I do.
+Dialogue: 0,0:05:29.40,0:05:31.28,Default,Gu,0000,0000,0000,,All right, I'll try.
+Dialogue: 0,0:05:31.28,0:05:32.97,Default,I,0000,0000,0000,,You guys are seriously...
+Dialogue: 0,0:05:33.20,0:05:35.49,Default,Gu,0000,0000,0000,,What's wrong, Isaac?
+Dialogue: 0,0:05:35.49,0:05:38.08,Default,Gu,0000,0000,0000,,It's kind of cool! Isaac!
+Dialogue: 0,0:05:38.58,0:05:39.98,Default,Gi,0000,0000,0000,,He's so cute!
+Dialogue: 0,0:05:40.87,0:05:45.30,Default,I,0000,0000,0000,,I swear, you guys, I'm going \Nto use Sword of Pain Black!
+Dialogue: 0,0:05:46.57,0:05:49.65,Default,Gu,0000,0000,0000,,At a glance, he looked like a \Nnormal Person of the Land.
+Dialogue: 0,0:05:50.09,0:05:53.37,Default,Gu,0000,0000,0000,,And he was able to judge the quality of ores.
+Dialogue: 0,0:05:53.37,0:05:56.95,Default,Gu,0000,0000,0000,,Ever since the Apocalypse, \Nthe prices of material items
+Dialogue: 0,0:05:56.95,0:06:00.49,Default,,0000,0000,0000,,have depended on their quality.
+Dialogue: 0,0:06:00.49,0:06:04.13,Default,Gu,0000,0000,0000,,So lots of adventurers started \Nto ask him for appraisals.
+Dialogue: 0,0:06:04.51,0:06:08.23,Default,Gu,0000,0000,0000,,But let's say he picked up a rock from the ground
+Dialogue: 0,0:06:08.23,0:06:11.14,Default,,0000,0000,0000,,and said it was top-grade ore.
+Dialogue: 0,0:06:11.24,0:06:13.63,HUD1,Gu,0000,0000,0000,,{\fad(381,1)\an7}Rock {\fs20}\N\NEffect: Rock \NJust a rock
+Dialogue: 0,0:06:11.93,0:06:15.22,Default,Gu,0000,0000,0000,,For some reason, everyone would believe him
+Dialogue: 0,0:06:15.22,0:06:18.00,Default,,0000,0000,0000,,and buy a simple rock for an incredible price.
+Dialogue: 0,0:06:18.71,0:06:23.42,Default,Gu,0000,0000,0000,,In other words, he was a monster \Nthat destroyed things' measures,
+Dialogue: 0,0:06:23.42,0:06:26.40,Default,,0000,0000,0000,,their weights, lengths, and values.
+Dialogue: 0,0:06:27.84,0:06:30.41,Default,S,0000,0000,0000,,The genius of measures, Bagris.
+Dialogue: 0,0:06:30.85,0:06:34.46,Default,Gu,0000,0000,0000,,What tipped us off was the "ate a ton \Nand still felt hungry" incident.
+Dialogue: 0,0:06:34.93,0:06:38.37,Default,Gu,0000,0000,0000,,After an investigation, we found out what he was.
+Dialogue: 0,0:06:38.81,0:06:40.64,Default,Gu,0000,0000,0000,,We put together a quick half-raid team
+Dialogue: 0,0:06:40.64,0:06:42.39,Default,,0000,0000,0000,,and went to get rid of him, but...
+Dialogue: 0,0:06:43.40,0:06:47.79,Default - flashback,Gu,0000,0000,0000,,I should be able to gain ample empathions from this.
+Dialogue: 0,0:06:47.79,0:06:49.92,Default - flashback,Gu,0000,0000,0000,,{\i1}Lightning Straight!
+Dialogue: 0,0:06:50.68,0:06:52.68,Monsters,Gu,0000,0000,0000,,{\fad(230,1)\an9}Genius of Measures \NBagris/ Genius \NRank/ Half Raid
+Dialogue: 0,0:06:51.77,0:06:54.38,Default,Gu,0000,0000,0000,,The problem was that he could control
+Dialogue: 0,0:06:54.38,0:06:58.14,Default,,0000,0000,0000,,distance, speed, skill damage, and even targets.
+Dialogue: 0,0:06:58.14,0:06:59.89,Default,Gu,0000,0000,0000,,It wasn't even a fight.
+Dialogue: 0,0:07:01.67,0:07:04.91,Default - flashback,Gu,0000,0000,0000,,Give me your empathions now.
+Dialogue: 0,0:07:04.91,0:07:08.35,Default,Gu,0000,0000,0000,,Just when everyone was about to give up...
+Dialogue: 0,0:07:08.35,0:07:09.89,Default - flashback,Gu,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:07:10.53,0:07:14.73,Default - flashback,Gu,0000,0000,0000,,With the help of the Kunie Clan, \NI've finished our secret weapon at last!
+Dialogue: 0,0:07:14.73,0:07:15.91,Default - flashback,Gu,0000,0000,0000,,Oh, you did it?
+Dialogue: 0,0:07:16.33,0:07:18.14,Default - flashback,Gu,0000,0000,0000,,This is the end, Bagris.
+Dialogue: 0,0:07:18.14,0:07:20.53,Default - flashback,Gu,0000,0000,0000,,I'll stop your evil deeds.
+Dialogue: 0,0:07:21.00,0:07:21.92,Default - flashback,Gu,0000,0000,0000,,With...
+Dialogue: 0,0:07:23.41,0:07:24.64,Default - flashback,,0000,0000,0000,,this Source Vessel!
+Dialogue: 0,0:07:24.38,0:07:25.67,HUD1,,0000,0000,0000,,{\an9\fad(398,1)}Source Vessel
+Dialogue: 0,0:07:25.06,0:07:25.67,Default,S,0000,0000,0000,,"Source Vessel"?
+Dialogue: 0,0:07:26.97,0:07:29.28,Default,M,0000,0000,0000,,Is that a ruler?
+Dialogue: 0,0:07:29.28,0:07:30.57,Default,S,0000,0000,0000,,It's a ruler, yeah.
+Dialogue: 0,0:07:30.57,0:07:31.43,Default,A,0000,0000,0000,,Definitely a ruler.
+Dialogue: 0,0:07:32.48,0:07:34.18,Default,Gu,0000,0000,0000,,It is a Source Vessel.
+Dialogue: 0,0:07:34.18,0:07:39.43,Default,Gu,0000,0000,0000,,It is a magical device that measures all \Nthings, and fixes their dimensions.
+Dialogue: 0,0:07:39.74,0:07:42.17,Default,Gu,0000,0000,0000,,We sealed his abilities, and then...
+Dialogue: 0,0:07:42.79,0:07:44.65,Default - flashback,Gu,0000,0000,0000,,{\i1}Tiger Echo Fist!
+Dialogue: 0,0:07:48.59,0:07:50.62,Default,Gu,0000,0000,0000,,Something like that.
+Dialogue: 0,0:07:50.62,0:07:51.53,Default,S,0000,0000,0000,,There was one more.
+Dialogue: 0,0:07:52.26,0:07:53.82,Default,S,0000,0000,0000,,Tell everyone, Seine.
+Dialogue: 0,0:07:53.82,0:07:55.03,Default,Gi,0000,0000,0000,,Oh...
+Dialogue: 0,0:07:56.53,0:07:59.79,Default,Gi,0000,0000,0000,,I'm Nyanko Tavern's guild master, Seine.
+Dialogue: 0,0:08:00.41,0:08:02.09,Default,Gi,0000,0000,0000,,There was another matter
+Dialogue: 0,0:08:02.09,0:08:04.29,Default,,0000,0000,0000,,besides the Genius of Scandal \NI told you about last week.
+Dialogue: 0,0:08:04.74,0:08:07.80,Default,Gi,0000,0000,0000,,The poisoning incident before the Scale Festival.
+Dialogue: 0,0:08:08.18,0:08:10.79,Default,Gi,0000,0000,0000,,The monster behind it, Sislau,
+Dialogue: 0,0:08:09.82,0:08:11.29,Monsters,Gi,0000,0000,0000,,{\fad(169,1)\an7}Genius of Plague \NSislau/ Genius \NRank/ Party
+Dialogue: 0,0:08:10.79,0:08:12.79,Default,Gi,0000,0000,0000,,called herself the "genius of poison."
+Dialogue: 0,0:08:14.03,0:08:17.60,Default,R,0000,0000,0000,,At the time, we decided she \Nmight be a new monster
+Dialogue: 0,0:08:17.60,0:08:20.05,Default,,0000,0000,0000,,from the expansion pack.
+Dialogue: 0,0:08:23.48,0:08:24.49,Default,A,0000,0000,0000,,My lord...
+Dialogue: 0,0:08:25.23,0:08:26.63,Default,A,0000,0000,0000,,Are you tired, my lord?
+Dialogue: 0,0:08:26.63,0:08:29.57,Default,S,0000,0000,0000,,Why do you ask? I'm not.
+Dialogue: 0,0:08:30.11,0:08:31.53,Default,A,0000,0000,0000,,Oh...
+Dialogue: 0,0:08:31.53,0:08:33.44,Default,Mi,0000,0000,0000,,Shiroe!
+Dialogue: 0,0:08:34.24,0:08:35.71,Default,,0000,0000,0000,,Are you done for today?
+Dialogue: 0,0:08:36.24,0:08:36.92,Default,S,0000,0000,0000,,Minori...
+Dialogue: 0,0:08:37.19,0:08:38.46,Default,S,0000,0000,0000,,Is your part-time job done?
+Dialogue: 0,0:08:38.46,0:08:39.36,Default,Mi,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:39.36,0:08:42.23,Default,Mi,0000,0000,0000,,I got a lot of presents today!
+Dialogue: 0,0:08:42.23,0:08:43.41,Default,A,0000,0000,0000,,"Again today," you mean.
+Dialogue: 0,0:08:43.78,0:08:44.82,Default,S,0000,0000,0000,,Want me to hold them for you?
+Dialogue: 0,0:08:44.82,0:08:46.21,Default,Mi,0000,0000,0000,,I'm just fine.
+Dialogue: 0,0:08:45.73,0:08:47.07,HUD1,S,0000,0000,0000,,{\fad(337,1)\an9}Air Glasses
+Dialogue: 0,0:08:46.21,0:08:47.08,Default,Mi,0000,0000,0000,,Because...
+Dialogue: 0,0:08:47.49,0:08:48.67,Default,Mi,0000,0000,0000,,Ta-da!
+Dialogue: 0,0:08:48.67,0:08:50.66,Default,Mi,0000,0000,0000,,Magic Bag!
+Dialogue: 0,0:08:51.61,0:08:53.09,Default,S,0000,0000,0000,,Did you design that, Minori?
+Dialogue: 0,0:08:54.65,0:08:56.09,Default,M,0000,0000,0000,,That's right.
+Dialogue: 0,0:08:56.09,0:08:58.49,Default,M,0000,0000,0000,,It really holds a ton!
+Dialogue: 0,0:08:58.49,0:09:01.13,Default,A,0000,0000,0000,,Wow, Minori! Your feminine power is sky-high!
+Dialogue: 0,0:09:04.38,0:09:06.35,Default,S,0000,0000,0000,,Okay, let's buy some things to take back.
+Dialogue: 0,0:09:06.69,0:09:09.40,Default,A,0000,0000,0000,,My lord, I want a red bead bun.
+Dialogue: 0,0:09:09.40,0:09:11.27,Default,Mi,0000,0000,0000,,Why not get a gelatin for once?
+Dialogue: 0,0:09:11.27,0:09:13.11,Default,A,0000,0000,0000,,Do you have a problem with red bean buns?
+Dialogue: 0,0:09:13.11,0:09:14.86,Default,Mi,0000,0000,0000,,Well, for some variety...
+Dialogue: 0,0:09:15.92,0:09:17.87,Default,A,0000,0000,0000,,It's not just a regular red bean bun today.
+Dialogue: 0,0:09:18.23,0:09:19.67,Default,A,0000,0000,0000,,It's cherry tree-scented red bean.
+Dialogue: 0,0:09:19.67,0:09:21.18,Default,A,0000,0000,0000,,A seasonal item.
+Dialogue: 0,0:09:21.18,0:09:24.92,Default,T,0000,0000,0000,,I want strawberry shortcake! I do!
+Dialogue: 0,0:09:25.52,0:09:26.40,Default,S,0000,0000,0000,,Tetra?
+Dialogue: 0,0:09:26.75,0:09:29.21,Default,A,0000,0000,0000,,Get off my lord, you half-idol!
+Dialogue: 0,0:09:29.21,0:09:30.78,Default,T,0000,0000,0000,,I'm not a half-idol!
+Dialogue: 0,0:09:30.78,0:09:35.09,Default,T,0000,0000,0000,,I'm a complete, galactic, perfect idol!
+Dialogue: 0,0:09:35.09,0:09:40.00,Default,T,0000,0000,0000,,And Shiroe said he likes it when I hold him!
+Dialogue: 0,0:09:40.00,0:09:40.64,Default,S,0000,0000,0000,,I did not.
+Dialogue: 0,0:09:42.01,0:09:42.89,Default,A,0000,0000,0000,,I'll kill you.
+Dialogue: 0,0:09:42.89,0:09:44.89,Default,T,0000,0000,0000,,Buy me some cake!
+Dialogue: 0,0:09:44.89,0:09:46.89,Default,Mi,0000,0000,0000,,Gelatin!
+Dialogue: 0,0:09:47.17,0:09:49.40,Default,A,0000,0000,0000,,The red bean bun is waiting, my lord.
+Dialogue: 0,0:09:53.14,0:09:54.61,Default,Gu,0000,0000,0000,,I'll have the fried rockfish!
+Dialogue: 0,0:09:54.61,0:09:55.52,Default,Gu,0000,0000,0000,,Me, too!
+Dialogue: 0,0:09:55.52,0:09:56.56,Default,Gi,0000,0000,0000,,Okay!
+Dialogue: 0,0:09:56.56,0:09:58.41,Default,Gu,0000,0000,0000,,Hello, Isaac.
+Dialogue: 0,0:09:59.85,0:10:00.70,Default,Gu,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:01.88,0:10:03.92,Default,I,0000,0000,0000,,You've been a lot more relaxed lately.
+Dialogue: 0,0:10:03.92,0:10:05.34,Default,Gu,0000,0000,0000,,Oh, please.
+Dialogue: 0,0:10:05.34,0:10:08.06,Default,Gu,0000,0000,0000,,You aren't the type to worry about that.
+Dialogue: 0,0:10:08.06,0:10:10.74,Default,Gu,0000,0000,0000,,I'll have a cold one and the fried rockfish.
+Dialogue: 0,0:10:10.74,0:10:11.42,Default,,0000,0000,0000,,Right!
+Dialogue: 0,0:10:11.78,0:10:13.49,Default,I,0000,0000,0000,,Another business trip?
+Dialogue: 0,0:10:13.49,0:10:16.73,Default,Gu,0000,0000,0000,,Don't say that. This is one of our restaurants.
+Dialogue: 0,0:10:16.73,0:10:18.67,Default,Gu,0000,0000,0000,,Of course I'll stop by to see the kitchen.
+Dialogue: 0,0:10:18.67,0:10:24.48,Default,Gu,0000,0000,0000,,I could've sworn I told you that this was \Na branch of Shopping District 8, Isaac.
+Dialogue: 0,0:10:24.48,0:10:26.55,Default,Gu,0000,0000,0000,,I told you to stop that.
+Dialogue: 0,0:10:26.91,0:10:27.69,Default,Gu,0000,0000,0000,,Here you go.
+Dialogue: 0,0:10:27.69,0:10:30.69,SignB,Gu,0000,0000,0000,,{\c&H4D35C7&}Top Secret \N\N{\c&H000000&}New and Unconfirmed Monsters \N\NInvestigation Report
+Dialogue: 0,0:10:28.04,0:10:29.94,Default,Gu,0000,0000,0000,,It arrived from the Round Table.
+Dialogue: 0,0:10:31.66,0:10:35.13,Default,Gu,0000,0000,0000,,Supposedly, it's a report on an \Nenemy called the "Geniuses."
+Dialogue: 0,0:10:35.13,0:10:37.29,Default,I,0000,0000,0000,,I've heard of them, but what are they?
+Dialogue: 0,0:10:37.29,0:10:38.45,Default,Gu,0000,0000,0000,,I couldn't say...
+Dialogue: 0,0:10:38.84,0:10:42.45,Default,Gu,0000,0000,0000,,And it seems like the People of the \NLand are gearing up for war.
+Dialogue: 0,0:10:43.19,0:10:45.45,Default,I,0000,0000,0000,,Things are looking bad everywhere.
+Dialogue: 0,0:10:45.81,0:10:47.79,Default,Gu,0000,0000,0000,,The wyvern attack on Safil was
+Dialogue: 0,0:10:47.79,0:10:51.46,Default,,0000,0000,0000,,an after-effect of Minami \Npower-leveling People of the Land.
+Dialogue: 0,0:10:52.08,0:10:55.96,Default,Gu,0000,0000,0000,,That might be why he sent us to Maihama.
+Dialogue: 0,0:10:56.32,0:10:58.97,Default,Gu,0000,0000,0000,,Shiroe's quite the villain, after all.
+Dialogue: 0,0:10:59.80,0:11:00.73,Default,I,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:02.86,0:11:03.72,Default,S,0000,0000,0000,,Oh, yeah...
+Dialogue: 0,0:11:04.22,0:11:07.28,Default,S,0000,0000,0000,,It's been almost a year since the Apocalypse.
+Dialogue: 0,0:11:07.28,0:11:08.48,Default,Ny,0000,0000,0000,,It has.
+Dialogue: 0,0:11:09.61,0:11:11.98,Default,S,0000,0000,0000,,I'm sure there are people who want to go home.
+Dialogue: 0,0:11:12.55,0:11:16.48,Default,Ny,0000,0000,0000,,Some want it so badly, it's driving them insane.
+Dialogue: 0,0:11:17.33,0:11:18.99,Default,S,0000,0000,0000,,I understand how they feel, but...
+Dialogue: 0,0:11:20.24,0:11:21.99,Default,Ny,0000,0000,0000,,It's hard...
+Dialogue: 0,0:11:28.53,0:11:29.83,Default,M,0000,0000,0000,,You're helping out?
+Dialogue: 0,0:11:29.83,0:11:30.70,Default,Se,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:31.41,0:11:33.37,Default,M,0000,0000,0000,,You're so good at this now.
+Dialogue: 0,0:11:33.37,0:11:34.73,Default,M,0000,0000,0000,,What did they say?
+Dialogue: 0,0:11:34.73,0:11:41.46,Default,M,0000,0000,0000,,Lately, even if you don't have the \Nskill, you can do simple cooking.
+Dialogue: 0,0:11:41.46,0:11:43.61,Default,Se,0000,0000,0000,,That isn't all.
+Dialogue: 0,0:11:45.41,0:11:46.76,Default,Se,0000,0000,0000,,It's done!
+Dialogue: 0,0:11:47.10,0:11:49.27,Default,Ny,0000,0000,0000,,This is beautiful.
+Dialogue: 0,0:11:50.84,0:11:52.55,Default,Ny,0000,0000,0000,,How about the new potatoes?
+Dialogue: 0,0:11:52.55,0:11:55.60,Default,Se,0000,0000,0000,,They've all been boiled, and they're ready to go.
+Dialogue: 0,0:11:55.60,0:11:58.03,Default,Ny,0000,0000,0000,,You've gotten a lot better.
+Dialogue: 0,0:11:58.44,0:12:01.15,Default,Se,0000,0000,0000,,Because you taught me!
+Dialogue: 0,0:12:01.15,0:12:04.98,Default,Ny,0000,0000,0000,,Maybe we'll have tea while we wait \Nfor the vegetables to cool down.
+Dialogue: 0,0:12:04.98,0:12:06.03,Default,Se,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:08.66,0:12:10.10,Default,Ny,0000,0000,0000,,Is it good?
+Dialogue: 0,0:12:10.10,0:12:12.14,Default,Se,0000,0000,0000,,Yes. It's nice and warm.
+Dialogue: 0,0:12:12.14,0:12:15.17,Default,Ny,0000,0000,0000,,Today's a very quiet day.
+Dialogue: 0,0:12:15.17,0:12:17.98,Default,Ny,0000,0000,0000,,It makes me want to take a nap.
+Dialogue: 0,0:12:22.56,0:12:25.05,Default,Ny,0000,0000,0000,,You look like you're having a good time.
+Dialogue: 0,0:12:25.28,0:12:26.80,Default,Se,0000,0000,0000,,I am!
+Dialogue: 0,0:12:28.31,0:12:29.62,Default,Ny,0000,0000,0000,,I see.
+Dialogue: 0,0:12:32.01,0:12:34.68,Default,Se,0000,0000,0000,,Are you doing well, Nyanta?
+Dialogue: 0,0:12:34.68,0:12:36.23,Default,Ny,0000,0000,0000,,I am.
+Dialogue: 0,0:12:37.08,0:12:38.57,Default,Se,0000,0000,0000,,Okay.
+Dialogue: 0,0:12:40.07,0:12:44.29,Default,Ny,0000,0000,0000,,Are you glad you came to this world, Serara?
+Dialogue: 0,0:12:44.80,0:12:46.07,Default,Se,0000,0000,0000,,Um, yes.
+Dialogue: 0,0:12:46.77,0:12:48.19,Default,Ny,0000,0000,0000,,You are?
+Dialogue: 0,0:12:48.77,0:12:49.59,Default,Se,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:49.59,0:12:52.75,Default,Se,0000,0000,0000,,Well, I can't see my mom and dad anymore,
+Dialogue: 0,0:12:52.75,0:12:55.22,Default,Se,0000,0000,0000,,and lots of hard things have happened.
+Dialogue: 0,0:12:55.75,0:12:58.32,Default,Se,0000,0000,0000,,But lots of good things have happened, too.
+Dialogue: 0,0:12:58.32,0:12:59.28,Default,Se,0000,0000,0000,,And...
+Dialogue: 0,0:13:00.34,0:13:03.72,Default,Se,0000,0000,0000,,I have a dream of what I want to be, and a future...
+Dialogue: 0,0:13:04.12,0:13:05.55,Default,Ny,0000,0000,0000,,You do?
+Dialogue: 0,0:13:05.55,0:13:06.97,Default,Se,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:09.18,0:13:10.60,Default - italics,Ny,0000,0000,0000,,I see.
+Dialogue: 0,0:13:11.84,0:13:17.19,Default - italics,Ny,0000,0000,0000,,Children aren't invited to be born in this world.
+Dialogue: 0,0:13:17.65,0:13:21.52,Default - italics,Ny,0000,0000,0000,,However, all children become young people
+Dialogue: 0,0:13:21.52,0:13:25.23,Default - italics,Ny,0000,0000,0000,,and can be reborn by their own will,
+Dialogue: 0,0:13:25.73,0:13:29.16,Default - italics,Ny,0000,0000,0000,,choosing their own lives.
+Dialogue: 0,0:13:29.74,0:13:30.70,Default,,0000,0000,0000,,Meow...
+Dialogue: 0,0:13:30.70,0:13:35.19,Default,Ny,0000,0000,0000,,I'm sure you can make any \Ndream you have come true.
+Dialogue: 0,0:13:38.36,0:13:41.61,Default,Se,0000,0000,0000,,B-B-But it's a long way away!
+Dialogue: 0,0:13:41.61,0:13:45.47,Default,Se,0000,0000,0000,,Oh, I don't mean I'm going \Nto give up or anything.
+Dialogue: 0,0:13:45.85,0:13:51.12,Default,Se,0000,0000,0000,,But whenever I look at Isuzu and Minori, \NI feel like I'm lacking a little...
+Dialogue: 0,0:13:51.12,0:13:53.22,Default,Se,0000,0000,0000,,Like I'm not good enough.
+Dialogue: 0,0:13:53.93,0:13:59.98,Default,Se,0000,0000,0000,,I think I need to get better at being who I am
+Dialogue: 0,0:14:00.37,0:14:02.81,Default,Se,0000,0000,0000,,before I make that dream come true.
+Dialogue: 0,0:14:03.51,0:14:06.76,Default,Se,0000,0000,0000,,I have to be a fully-grown version of me.
+Dialogue: 0,0:14:07.83,0:14:09.74,Default,Se,0000,0000,0000,,That's what I want to become.
+Dialogue: 0,0:14:11.90,0:14:13.00,Default,Ny,0000,0000,0000,,Serara...
+Dialogue: 0,0:14:13.00,0:14:13.74,Default,,0000,0000,0000,,Yes!
+Dialogue: 0,0:14:14.12,0:14:15.62,Default,Se,0000,0000,0000,,Just a little is fine.
+Dialogue: 0,0:14:15.62,0:14:17.94,Default,Se,0000,0000,0000,,Every little bit is important.
+Dialogue: 0,0:14:18.99,0:14:22.65,Default,Se,0000,0000,0000,,I'm cheering you on.
+Dialogue: 0,0:14:23.32,0:14:26.01,Default,Se,0000,0000,0000,,So is everyone.
+Dialogue: 0,0:14:33.08,0:14:35.02,Default - italics,S,0000,0000,0000,,What would Kanami do?
+Dialogue: 0,0:14:36.18,0:14:39.46,Default - italics,S,0000,0000,0000,,When I think about it, I was lucky.
+Dialogue: 0,0:14:39.92,0:14:43.18,Default - italics,S,0000,0000,0000,,At the very start, when things were \Ntoughest, everyone was with me.
+Dialogue: 0,0:14:45.30,0:14:48.28,Default,S,0000,0000,0000,,I'm grateful to Naotsugu and Akatsuki. Really.
+Dialogue: 0,0:14:48.66,0:14:50.91,Default,A,0000,0000,0000,,You can say "thank you," my lord.
+Dialogue: 0,0:14:51.28,0:14:52.43,Default,S,0000,0000,0000,,When did you get here?
+Dialogue: 0,0:14:52.43,0:14:53.63,Default,A,0000,0000,0000,,I flew here.
+Dialogue: 0,0:14:53.63,0:14:54.64,Default,A,0000,0000,0000,,By running along the roofs.
+Dialogue: 0,0:14:55.20,0:14:56.66,Default,S,0000,0000,0000,,You're really starting to become a ninja.
+Dialogue: 0,0:14:57.23,0:14:59.16,Default,A,0000,0000,0000,,I'm your ninja, my lord!
+Dialogue: 0,0:15:00.32,0:15:03.17,Default,A,0000,0000,0000,,So what's bothering you?
+Dialogue: 0,0:15:03.45,0:15:04.94,Default,A,0000,0000,0000,,Whenever something bothers you,
+Dialogue: 0,0:15:04.94,0:15:08.69,Default,,0000,0000,0000,,you get wrinkles up here that make your \Nforehead look like an old man's.
+Dialogue: 0,0:15:08.69,0:15:09.76,Default,S,0000,0000,0000,,Do I?
+Dialogue: 0,0:15:09.76,0:15:10.93,Default,A,0000,0000,0000,,You do.
+Dialogue: 0,0:15:11.20,0:15:13.18,Default,N,0000,0000,0000,,Oh, there you are, Shiro.
+Dialogue: 0,0:15:13.55,0:15:15.50,Default,T,0000,0000,0000,,I'm seeing something on my idol radar!
+Dialogue: 0,0:15:15.50,0:15:17.39,Default,T,0000,0000,0000,,A night rendezvous!
+Dialogue: 0,0:15:17.39,0:15:20.34,Default,T,0000,0000,0000,,So are you coming up with another plan?
+Dialogue: 0,0:15:20.69,0:15:22.66,Default,N,0000,0000,0000,,That's right... Are you coming up with a plan?
+Dialogue: 0,0:15:23.67,0:15:30.79,Default,T,0000,0000,0000,,Do you need a cute, attractive, and talented idol?
+Dialogue: 0,0:15:30.79,0:15:32.58,Default,N,0000,0000,0000,,You need a guardian, too, don't you?
+Dialogue: 0,0:15:33.08,0:15:35.08,Default,S,0000,0000,0000,,You two are in perfect harmony.
+Dialogue: 0,0:15:35.08,0:15:36.00,Default,T,0000,0000,0000,,Oh, my!
+Dialogue: 0,0:15:36.00,0:15:37.75,Default,N,0000,0000,0000,,Wh-Wh-What are you saying, Shiro?
+Dialogue: 0,0:15:38.14,0:15:39.91,Default,T,0000,0000,0000,,The two of us are as one now!
+Dialogue: 0,0:15:40.34,0:15:42.12,Default,T,0000,0000,0000,,We're like "Tetsugu"!
+Dialogue: 0,0:15:40.34,0:15:42.12,SignC,T,0000,0000,0000,,{\c&HDAA2D1&}Tetsugu
+Dialogue: 0,0:15:42.27,0:15:45.61,SignC,T,0000,0000,0000,,Roar \N\N{\c&HB2ADD3&\fs20}Anchor Howl!!
+Dialogue: 0,0:15:42.60,0:15:45.93,Default,T,0000,0000,0000,,The impenetrable armor of a Guardian,
+Dialogue: 0,0:15:45.61,0:15:48.24,SignC,T,0000,0000,0000,,{\c&H99F7B6&}Pah!
+Dialogue: 0,0:15:45.93,0:15:48.26,Default,T,0000,0000,0000,,protected by my responsive heals!
+Dialogue: 0,0:15:48.68,0:15:51.29,Default,T,0000,0000,0000,,My love for him shines each time he's struck.
+Dialogue: 0,0:15:51.29,0:15:54.41,Default,T,0000,0000,0000,,In other words, Naotsugu's entranced by my love!
+Dialogue: 0,0:15:54.41,0:15:55.26,Default,N,0000,0000,0000,,I am not.
+Dialogue: 0,0:15:55.53,0:15:57.58,Default,T,0000,0000,0000,,You're such a shy boy, Naotsugu.
+Dialogue: 0,0:15:59.39,0:16:00.58,Default,T,0000,0000,0000,,Well?
+Dialogue: 0,0:16:00.58,0:16:02.61,Default,S,0000,0000,0000,,It's been almost a year since the Apocalypse.
+Dialogue: 0,0:16:03.09,0:16:04.27,Default,S,0000,0000,0000,,There are a lot of adventurers
+Dialogue: 0,0:16:04.88,0:16:08.33,Default,,0000,0000,0000,,who haven't been able to adapt to \Nthis world, and want to go home.
+Dialogue: 0,0:16:08.88,0:16:11.46,Default,A,0000,0000,0000,,But there's no way to go home...
+Dialogue: 0,0:16:11.77,0:16:12.53,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:12.92,0:16:16.55,Default,S,0000,0000,0000,,So Eins thinks we should save those people.
+Dialogue: 0,0:16:17.16,0:16:19.97,Default,N,0000,0000,0000,,He wants to take the money \Nfrom wealthy adventurers,
+Dialogue: 0,0:16:19.97,0:16:21.59,Default,,0000,0000,0000,,and give it to everyone, right?
+Dialogue: 0,0:16:21.98,0:16:24.20,Default,T,0000,0000,0000,,Will that really work?
+Dialogue: 0,0:16:24.65,0:16:26.04,Default,S,0000,0000,0000,,I doubt it.
+Dialogue: 0,0:16:27.62,0:16:32.86,Default,S,0000,0000,0000,,The only way for them to really be \Nsaved is for them to go home.
+Dialogue: 0,0:16:33.37,0:16:34.30,Default,S,0000,0000,0000,,And...
+Dialogue: 0,0:16:34.60,0:16:36.93,Default,N,0000,0000,0000,,War's coming to Yamato.
+Dialogue: 0,0:16:37.41,0:16:38.71,Default,T,0000,0000,0000,,Yeah...
+Dialogue: 0,0:16:40.76,0:16:45.44,Default,S,0000,0000,0000,,And one of the reasons for that \Nis our arrival in this world.
+Dialogue: 0,0:16:45.80,0:16:50.76,Default,A,0000,0000,0000,,Then we need to find a way to get back home.
+Dialogue: 0,0:16:53.83,0:16:56.22,Default,S,0000,0000,0000,,There's something I need to tell you all.
+Dialogue: 0,0:16:57.58,0:17:01.58,Default,Ny,0000,0000,0000,,I'd like to hear it, too.
+Dialogue: 0,0:17:02.09,0:17:03.08,Default,S,0000,0000,0000,,Of course.
+Dialogue: 0,0:17:05.75,0:17:08.25,Inventory,A,0000,0000,0000,,{\fs20\c&H45554B&}Log Horizon \NOlder Members Meeting \N{\fs18}\NBe Sure You Knock
+Dialogue: 0,0:17:07.21,0:17:08.25,Default,A,0000,0000,0000,,A letter, huh?
+Dialogue: 0,0:17:08.64,0:17:09.88,Default,N,0000,0000,0000,,A love letter?
+Dialogue: 0,0:17:10.32,0:17:12.17,Default,S,0000,0000,0000,,I wish.
+Dialogue: 0,0:17:12.71,0:17:14.46,Default,S,0000,0000,0000,,It was from Roe 2.
+Dialogue: 0,0:17:14.82,0:17:16.39,Default,S,0000,0000,0000,,My second character.
+Dialogue: 0,0:17:17.57,0:17:22.30,Default,N,0000,0000,0000,,The other body you left on the test \Nserver when this was a game?
+Dialogue: 0,0:17:22.30,0:17:25.89,Default,T,0000,0000,0000,,The rumor was that the test server \Nwas on the moon, right?
+Dialogue: 0,0:17:27.20,0:17:28.02,Default,A,0000,0000,0000,,The moon?
+Dialogue: 0,0:17:28.51,0:17:31.42,Default,T,0000,0000,0000,,Could they even write letters?
+Dialogue: 0,0:17:31.42,0:17:33.49,Default,T,0000,0000,0000,,And how did it get here?
+Dialogue: 0,0:17:33.79,0:17:35.51,Default,S,0000,0000,0000,,Minori brought it to me.
+Dialogue: 0,0:17:35.99,0:17:37.95,Default,S,0000,0000,0000,,She met Roe 2 during their travels.
+Dialogue: 0,0:17:38.64,0:17:41.42,Default,S,0000,0000,0000,,And... According to this letter,
+Dialogue: 0,0:17:41.96,0:17:46.51,Default,,0000,0000,0000,,Roe 2 is the person I've been looking for.
+Dialogue: 0,0:17:48.40,0:17:50.36,Default,S,0000,0000,0000,,I've been thinking about it for a long time.
+Dialogue: 0,0:17:51.13,0:17:54.26,Default,S,0000,0000,0000,,Why did we come to this world?
+Dialogue: 0,0:17:55.13,0:17:56.26,Default,S,0000,0000,0000,,It doesn't make sense, right?
+Dialogue: 0,0:17:56.70,0:17:58.90,Default,S,0000,0000,0000,,If this really is another world,
+Dialogue: 0,0:17:58.90,0:18:02.46,Default,S,0000,0000,0000,,there's no way it could be this similar \Nto the {\i1}Elder Tale{\i0} we know.
+Dialogue: 0,0:18:03.38,0:18:06.16,Default,S,0000,0000,0000,,But it's unbelievable that a game world
+Dialogue: 0,0:18:06.16,0:18:09.16,Default,,0000,0000,0000,,became reality, and we went into it.
+Dialogue: 0,0:18:09.16,0:18:10.15,Default,S,0000,0000,0000,,It's impossible.
+Dialogue: 0,0:18:10.94,0:18:15.05,Default,S,0000,0000,0000,,As far as we know, technology \Nhasn't advanced that far.
+Dialogue: 0,0:18:15.85,0:18:17.25,Default,T,0000,0000,0000,,Right.
+Dialogue: 0,0:18:17.82,0:18:20.28,Default,S,0000,0000,0000,,And the changes since the Apocalypse \Ndon't make any sense, either.
+Dialogue: 0,0:18:21.19,0:18:26.29,Default,S,0000,0000,0000,,In this world, physical laws and the \Ngame's laws are all jumbled up.
+Dialogue: 0,0:18:26.90,0:18:30.06,Default,S,0000,0000,0000,,It's like two different rule sets were \Njust mixed together randomly.
+Dialogue: 0,0:18:30.74,0:18:33.30,Default,N,0000,0000,0000,,It's only a game in the weird parts, yeah.
+Dialogue: 0,0:18:33.30,0:18:38.43,Default,S,0000,0000,0000,,I get the feeling that we weren't \Nsimply sent to another world.
+Dialogue: 0,0:18:39.19,0:18:45.18,Default,S,0000,0000,0000,,And in this world, there must be a \Nthird party who can explain it.
+Dialogue: 0,0:18:45.65,0:18:51.46,Default,S,0000,0000,0000,,Someone who isn't a Person of the Land \Nor a player like us, who can explain this.
+Dialogue: 0,0:18:51.46,0:18:53.76,Default,N,0000,0000,0000,,They brought us to this world?
+Dialogue: 0,0:18:53.76,0:18:55.69,Default,Ny,0000,0000,0000,,What did the letter say?
+Dialogue: 0,0:18:56.19,0:18:59.25,Default,S,0000,0000,0000,,Roe 2 took over my unused second character...
+Dialogue: 0,0:18:59.25,0:19:03.91,Default,,0000,0000,0000,,That is, a body without a soul, \Nand came to this world.
+Dialogue: 0,0:19:03.91,0:19:05.45,Default,A,0000,0000,0000,,Who is she?
+Dialogue: 0,0:19:06.04,0:19:08.72,Default,S,0000,0000,0000,,She calls herself a "Navigator."
+Dialogue: 0,0:19:09.38,0:19:11.20,Default,S,0000,0000,0000,,A sentient intelligence from another world.
+Dialogue: 0,0:19:11.20,0:19:15.37,Default,S,0000,0000,0000,,You might say a person from another \Nworld or, perhaps, an alien.
+Dialogue: 0,0:19:16.44,0:19:19.09,Default,S,0000,0000,0000,,They're artificially created creatures.
+Dialogue: 0,0:19:19.59,0:19:21.87,SignB,S,0000,0000,0000,,{\an8}Observers
+Dialogue: 0,0:19:19.83,0:19:21.81,Default,S,0000,0000,0000,,And there are two types. \N"Observers" like Roe 2,
+Dialogue: 0,0:19:21.87,0:19:25.60,SignB,S,0000,0000,0000,,{\an8}Harvesters
+Dialogue: 0,0:19:22.30,0:19:25.05,Default,S,0000,0000,0000,,and another type called "Harvesters."
+Dialogue: 0,0:19:26.37,0:19:32.86,Default,S,0000,0000,0000,,These Navigators were created to harvest \Na resource called "empathions."
+Dialogue: 0,0:19:33.25,0:19:35.36,HUD1,T,0000,0000,0000,,{\fad(340,1)\an7}Empathions
+Dialogue: 0,0:19:33.72,0:19:35.36,Default,T,0000,0000,0000,,What are those?
+Dialogue: 0,0:19:35.96,0:19:38.48,Default,S,0000,0000,0000,,Unfortunately, she didn't say.
+Dialogue: 0,0:19:38.48,0:19:44.01,Default,S,0000,0000,0000,,But their society had run out of this \Nresource and begun to decline.
+Dialogue: 0,0:19:44.43,0:19:48.69,Default,S,0000,0000,0000,,To resolve this crisis, another world was needed.
+Dialogue: 0,0:19:48.69,0:19:53.26,Default,S,0000,0000,0000,,And we were created to investigate other \Nuniverses that could be searched.
+Dialogue: 0,0:19:54.70,0:19:58.92,Default,S,0000,0000,0000,,Roe 2 and her kind came here via \Nwhat they called the "Match,"
+Dialogue: 0,0:19:57.63,0:20:01.12,SignB,S,0000,0000,0000,,{\an8}Match
+Dialogue: 0,0:19:58.92,0:20:03.61,Default,S,0000,0000,0000,,the same way the Apocalypse brought us here.
+Dialogue: 0,0:20:03.61,0:20:06.43,Default,N,0000,0000,0000,,Then does she know the Apocalypse's cause?
+Dialogue: 0,0:20:06.43,0:20:10.64,Default,S,0000,0000,0000,,No, it looks like they don't \Nunderstand everything, either.
+Dialogue: 0,0:20:10.95,0:20:14.56,Default,T,0000,0000,0000,,So did they get these empathions?
+Dialogue: 0,0:20:15.01,0:20:15.65,Default,S,0000,0000,0000,,Well...
+Dialogue: 0,0:20:16.69,0:20:21.09,Default,R,0000,0000,0000,,"We believe you to be sentient \Nintelligences of a rank 3 or higher.
+Dialogue: 0,0:20:21.57,0:20:23.82,Default,R,0000,0000,0000,,Minori and her friends proved that.
+Dialogue: 0,0:20:24.27,0:20:27.87,Default,R,0000,0000,0000,,Thus, the rights to this world's \Nresources belong to you.
+Dialogue: 0,0:20:28.63,0:20:31.76,Default,R,0000,0000,0000,,The Harvesters are given orders \Nto prioritize harvesting,
+Dialogue: 0,0:20:31.76,0:20:35.13,Default,R,0000,0000,0000,,but we Observers are tasked with searching.
+Dialogue: 0,0:20:35.99,0:20:40.44,Default,R,0000,0000,0000,,I don't know if my brother, Shiroe, \Nwill be the one to read this message,
+Dialogue: 0,0:20:40.99,0:20:44.01,Default,R,0000,0000,0000,,but I recommend acquiring a method \Nof communication with the moon.
+Dialogue: 0,0:20:45.52,0:20:48.80,Default,R,0000,0000,0000,,Our community is on this world's moon,
+Dialogue: 0,0:20:48.80,0:20:50.52,Default,R,0000,0000,0000,,and we are observing the situation.
+Dialogue: 0,0:20:50.91,0:20:55.52,Default,R,0000,0000,0000,,If you wish to return, we can help you.
+Dialogue: 0,0:20:57.05,0:21:00.39,Default,R,0000,0000,0000,,Lastly, I'll warn you about the Harvesters.
+Dialogue: 0,0:21:01.16,0:21:04.41,Default,R,0000,0000,0000,,They are Navigators like us,
+Dialogue: 0,0:21:04.41,0:21:07.03,Default,R,0000,0000,0000,,but they are intelligences equivalent to rank 2.
+Dialogue: 0,0:21:07.84,0:21:11.10,Default,R,0000,0000,0000,,In this world, they're using \Nbodies prepared on the moon
+Dialogue: 0,0:21:11.10,0:21:14.36,Default,,0000,0000,0000,,of monsters with powerful combat capabilities.
+Dialogue: 0,0:21:15.73,0:21:18.30,Default,R,0000,0000,0000,,I recommend extreme caution."
+Dialogue: 0,0:21:21.77,0:21:25.72,Default,R,0000,0000,0000,,The Harvesters are most likely \Nthe monsters called "Geniuses."
+Dialogue: 0,0:21:26.14,0:21:29.22,Default,N,0000,0000,0000,,Then why are they after us adventurers?
+Dialogue: 0,0:21:29.79,0:21:30.84,Default,S,0000,0000,0000,,I don't know.
+Dialogue: 0,0:21:31.35,0:21:33.15,Default,R,0000,0000,0000,,"PS, Minori...
+Dialogue: 0,0:21:33.50,0:21:36.02,Default,R,0000,0000,0000,,I tried writing this seriously, \Nlike a big sister would.
+Dialogue: 0,0:21:36.36,0:21:40.63,Default,R,0000,0000,0000,,May your warm empathions light your future.
+Dialogue: 0,0:21:40.98,0:21:43.49,SignB,R,0000,0000,0000,,{\an8}From your big sister.
+Dialogue: 0,0:21:41.18,0:21:42.47,Default,R,0000,0000,0000,,From your big sister."
+Dialogue: 0,0:21:45.78,0:21:47.87,Default,S,0000,0000,0000,,There are still things we don't understand,
+Dialogue: 0,0:21:48.63,0:21:52.24,Default,S,0000,0000,0000,,but if we can make contact with \NRoe 2's companions on the moon,
+Dialogue: 0,0:21:52.24,0:21:55.25,Default,S,0000,0000,0000,,we may be able to find a hint to returning home.
+Dialogue: 0,0:21:55.51,0:21:57.84,Default,T,0000,0000,0000,,Are you going to believe that letter?
+Dialogue: 0,0:21:58.37,0:21:59.68,Default,S,0000,0000,0000,,I think we can.
+Dialogue: 0,0:22:00.05,0:22:02.52,Default,Ny,0000,0000,0000,,You have some reason, right?
+Dialogue: 0,0:22:03.38,0:22:05.63,Default,S,0000,0000,0000,,When I died in the Abyssal Shaft, I saw it...
+Dialogue: 0,0:22:06.84,0:22:08.43,Default,S,0000,0000,0000,,That was a beach on the moon.
+Dialogue: 0,0:22:09.09,0:22:10.97,Default,S,0000,0000,0000,,After reading this letter, I'm sure of it.
+Dialogue: 0,0:22:12.11,0:22:13.85,Default,S,0000,0000,0000,,That wasn't a dream.
+Dialogue: 0,0:22:14.15,0:22:16.45,Default,A,0000,0000,0000,,I... I saw it, too!
+Dialogue: 0,0:22:16.45,0:22:18.85,Default,A,0000,0000,0000,,Those sparkles I saw with you...
+Dialogue: 0,0:22:20.67,0:22:22.65,Default,A,0000,0000,0000,,I remember, my lord.
+Dialogue: 0,0:22:26.49,0:22:29.99,Default,A,0000,0000,0000,,If we can get back there,
+Dialogue: 0,0:22:31.01,0:22:34.29,Default,A,0000,0000,0000,,we can go home!
+Dialogue: 0,0:24:06.56,0:24:09.73,Default,Preview,0000,0000,0000,,Lenessia's little brother, Iselus, \Nthe Prince of Maihama.
+Dialogue: 0,0:24:09.73,0:24:11.91,Default,Preview,0000,0000,0000,,His birthday party is to be used to introduce him
+Dialogue: 0,0:24:11.91,0:24:13.89,Default,,0000,0000,0000,,to the world as the next Lord of Maihama.
+Dialogue: 0,0:24:13.89,0:24:18.16,Default,Preview,0000,0000,0000,,But even during this celebration, \Nthe presence of war draws near.
+Dialogue: 0,0:24:18.56,0:24:21.31,Default,Preview,0000,0000,0000,,A cowardly shadow is after the young boy's life,
+Dialogue: 0,0:24:21.31,0:24:23.35,Default,Preview,0000,0000,0000,,and a black blade of rage howls at it.
+Dialogue: 0,0:24:23.90,0:24:26.12,Default,Next time,0000,0000,0000,,Next time: Isaac and Iselus.
+Dialogue: 0,0:24:23.90,0:24:30.94,Title,Next time,0000,0000,0000,,Isaac and Iselus
+Dialogue: 0,0:24:26.59,0:24:28.43,Default,Next time,0000,0000,0000,,I have friends to run with me.

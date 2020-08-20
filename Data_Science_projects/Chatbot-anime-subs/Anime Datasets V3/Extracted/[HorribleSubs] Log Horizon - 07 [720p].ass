@@ -1,0 +1,463 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,1
+Style: Default - margin,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Default - italics,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,1,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Default - flashback,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1.2,2,30,30,30,0
+Style: Location,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H00203023,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,53,37,0
+Style: Inventory,Commerce Black Condensed SSi,35,&H00606865,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,13,0
+Style: HUD1,Commerce Black Condensed SSi,35,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: HUD Big,Commerce Black Condensed SSi,45,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Green HUD,Commerce Black Condensed SSi,38,&H00D7F9E0,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Monsters,Commerce Black Condensed SSi,35,&H00B3AFD5,&H000000FF,&H001C3821,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title,Commerce Black Condensed SSi,38,&H00FFFFFF,&H000000FF,&H00AB4F1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Game Text Left,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right,Commerce Black Condensed SSi,32,&H00FFFFFF,&H000000FF,&H005C2C0B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: Game Text Left G,Commerce Black Condensed SSi,29,&H00192517,&H000000FF,&H00A4D395,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Game Text Right Y,Commerce Black Condensed SSi,29,&H00192517,&H000000FF,&H008DC6D0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignA,Commerce Black Condensed SSi,45,&H00C4AFFC,&H000000FF,&H005F4337,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,80,53,24,0
+Style: SignB1,Commerce Black Condensed SSi,29,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,27,24,0
+Style: SignB2,Commerce Black Condensed SSi,29,&H00EAE4DF,&H000000FF,&H000B0B05,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,13,27,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:04.24,0:00:07.74,Default - italics,S,0000,0000,0000,,This world has one type of currency: gold.
+Dialogue: 0,0:00:08.82,0:00:12.99,Default - italics,S,0000,0000,0000,,The standard cost for the items in \Na single meal is around five gold.
+Dialogue: 0,0:00:13.82,0:00:16.56,Default - italics,S,0000,0000,0000,,A night at a cheap inn is ten gold.
+Dialogue: 0,0:00:17.40,0:00:21.23,Default - italics,S,0000,0000,0000,,Thirty-five gold a day will suffice \Nto supply life's basic needs.
+Dialogue: 0,0:00:22.53,0:00:25.72,Default - italics,S,0000,0000,0000,,You can earn that much by defeating six goblins.
+Dialogue: 0,0:00:26.88,0:00:28.34,Default - italics,S,0000,0000,0000,,And adventurers
+Dialogue: 0,0:00:28.34,0:00:32.93,Default - italics,,0000,0000,0000,,can put money and items in \Nthe guild building's bank,
+Dialogue: 0,0:00:32.93,0:00:35.28,Default - italics,,0000,0000,0000,,to keep them from being stolen by others.
+Dialogue: 0,0:00:35.93,0:00:40.53,Default - italics,S,0000,0000,0000,,Of course, any one person's \Naccount has limited space.
+Dialogue: 0,0:00:41.76,0:00:43.18,Default - flashback,S,0000,0000,0000,,I need money.
+Dialogue: 0,0:00:43.98,0:00:45.14,Default - flashback,S,0000,0000,0000,,For now,
+Dialogue: 0,0:00:45.69,0:00:47.15,Default - flashback,,0000,0000,0000,,five million gold.
+Dialogue: 0,0:00:47.40,0:00:48.53,Default - flashback,H,0000,0000,0000,,That's insane!
+Dialogue: 0,0:00:48.53,0:00:50.32,Default - flashback,H,0000,0000,0000,,Our treasury only has sixty thousand.
+Dialogue: 0,0:00:50.32,0:00:52.57,Default - flashback,H,0000,0000,0000,,Even if we included all our members' belongings...
+Dialogue: 0,0:00:53.00,0:00:55.53,Default - flashback,M,0000,0000,0000,,What would you use all that money for?
+Dialogue: 0,0:02:29.04,0:02:31.99,HUD1,M,0000,0000,0000,,{\an7}Imperial Garden Forest\N{\fs18}Japan Server\NLeague of Freedom Cities, Eastal/ Shinjuku \NField/ Monsters Present \NEntry Restrictions/ None \NEvents/ None Currently
+Dialogue: 0,0:02:32.38,0:02:33.67,Monsters,M,0000,0000,0000,,{\an9}Imperial Forest Boar, Lv. 18 \NRank/ Normal
+Dialogue: 0,0:02:34.02,0:02:36.89,Default,Guy,0000,0000,0000,,It's pretty tough to catch them alive...
+Dialogue: 0,0:02:37.24,0:02:40.97,Default,N,0000,0000,0000,,If you kill them, they just become ingredient items.
+Dialogue: 0,0:02:41.26,0:02:42.40,Default,Guy,0000,0000,0000,,It's impossible...
+Dialogue: 0,0:02:42.40,0:02:47.18,Default,Guy,0000,0000,0000,,That huge boar becomes a mere \Ntwo kilograms of meat!
+Dialogue: 0,0:02:47.18,0:02:51.94,Default,N,0000,0000,0000,,But with a good cook, if you catch them \Nalive, you can use the entire thing.
+Dialogue: 0,0:02:54.32,0:02:55.77,Default,N,0000,0000,0000,,Okay, let's do this!
+Dialogue: 0,0:02:56.62,0:02:59.28,Default,,0000,0000,0000,,Our quota for today is sixty!
+Dialogue: 0,0:02:59.28,0:02:59.95,Default,Guy,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:00.62,0:03:02.05,Default,Guy,0000,0000,0000,,If it's for Marie,
+Dialogue: 0,0:03:02.44,0:03:04.45,Default,Guy,0000,0000,0000,,I'll catch as many as you need!
+Dialogue: 0,0:03:10.89,0:03:12.70,Default,Maids,0000,0000,0000,,That isn't quite right.
+Dialogue: 0,0:03:12.70,0:03:15.42,Default,Loli,0000,0000,0000,,Something easier to move in would be nice.
+Dialogue: 0,0:03:15.42,0:03:18.53,Default,Blonde,0000,0000,0000,,Let's see what clothes we have in the bank.
+Dialogue: 0,0:03:18.53,0:03:19.59,Default,Loli,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:20.35,0:03:21.59,Default,Cook,0000,0000,0000,,Taste this!
+Dialogue: 0,0:03:22.15,0:03:23.30,Default,Ny,0000,0000,0000,,Let me see...
+Dialogue: 0,0:03:24.28,0:03:26.51,Default,Ny,0000,0000,0000,,It needs a little salt.
+Dialogue: 0,0:03:26.93,0:03:30.39,Default,Ny,0000,0000,0000,,And add coriander as a secret ingredient.
+Dialogue: 0,0:03:30.67,0:03:32.84,Default,Cook,0000,0000,0000,,Okay, thank you!
+Dialogue: 0,0:03:32.84,0:03:35.27,Default,Se,0000,0000,0000,,Nyanta is so wonderful...
+Dialogue: 0,0:03:35.46,0:03:41.28,Title,Se,0000,0000,0000,,{\fad(1256,1)}Crescent Moon
+Dialogue: 0,0:03:37.39,0:03:38.80,Default,Se,0000,0000,0000,,Crescent Moon.
+Dialogue: 0,0:03:45.68,0:03:48.79,Default,M,0000,0000,0000,,I haven't left the room for three days...
+Dialogue: 0,0:03:50.33,0:03:51.91,Default,,0000,0000,0000,,I can't take this anymore...
+Dialogue: 0,0:03:52.81,0:03:55.61,Default,H,0000,0000,0000,,We need these registers for our plan.
+Dialogue: 0,0:03:55.61,0:03:57.88,Default,H,0000,0000,0000,,Look through and approve them.
+Dialogue: 0,0:03:57.88,0:04:00.62,Default,M,0000,0000,0000,,Wait, it's impossible... That's impossible!
+Dialogue: 0,0:04:00.62,0:04:02.07,Default,H,0000,0000,0000,,It is, indeed.
+Dialogue: 0,0:04:02.07,0:04:04.90,Default,M,0000,0000,0000,,You know paperwork isn't really my thing.
+Dialogue: 0,0:04:04.90,0:04:08.51,Default,H,0000,0000,0000,,Approving budgets is your job, guild master.
+Dialogue: 0,0:04:08.79,0:04:10.23,Default,M,0000,0000,0000,,Shut up, shut up...
+Dialogue: 0,0:04:10.23,0:04:11.59,Default,M,0000,0000,0000,,Stupid Umeko!
+Dialogue: 0,0:04:11.59,0:04:13.02,Default,H,0000,0000,0000,,Don't use my real name!
+Dialogue: 0,0:04:13.17,0:04:16.03,Default,M,0000,0000,0000,,Umeko! Umeko! Umeko!
+Dialogue: 0,0:04:17.57,0:04:19.26,Default,S,0000,0000,0000,,I've brought more, Marie.
+Dialogue: 0,0:04:19.62,0:04:21.53,Default,M,0000,0000,0000,,Shiro, you're a demon...
+Dialogue: 0,0:04:21.89,0:04:25.18,Default,H,0000,0000,0000,,Shiroe, I've compiled a list of \Neverything you requested.
+Dialogue: 0,0:04:25.18,0:04:26.85,Default,S,0000,0000,0000,,That was fast!
+Dialogue: 0,0:04:28.06,0:04:29.54,Default,S,0000,0000,0000,,And the numbers are accurate.
+Dialogue: 0,0:04:29.81,0:04:32.58,Default,M,0000,0000,0000,,Our treasurer is amazing.
+Dialogue: 0,0:04:32.58,0:04:34.25,Default,M,0000,0000,0000,,The devil himself would run
+Dialogue: 0,0:04:34.25,0:04:36.04,Default,,0000,0000,0000,,if he saw her coming with a stack of budgets.
+Dialogue: 0,0:04:36.24,0:04:39.86,Default,H,0000,0000,0000,,No, there are limits to my abilities.
+Dialogue: 0,0:04:40.21,0:04:44.80,Default,H,0000,0000,0000,,What amazes me is the \Nmercilessness of Shiroe's plans.
+Dialogue: 0,0:04:44.80,0:04:48.43,Default,H,0000,0000,0000,,He should just call himself Mr. Super Villain.
+Dialogue: 0,0:04:48.70,0:04:53.93,Default,S,0000,0000,0000,,Compared to Marie's spaciness, \Nmy villainy is nothing.
+Dialogue: 0,0:04:54.20,0:04:55.69,Default,H,0000,0000,0000,,That's true!
+Dialogue: 0,0:04:56.56,0:04:58.27,Default,M,0000,0000,0000,,I give up...
+Dialogue: 0,0:05:00.23,0:05:02.24,Default,H,0000,0000,0000,,Anyway, there's so much work,
+Dialogue: 0,0:05:02.24,0:05:06.61,Default,,0000,0000,0000,,having Akatsuki for a full day is \Nthe only way I can keep going.
+Dialogue: 0,0:05:06.61,0:05:10.91,Default,S,0000,0000,0000,,She's on a separate mission right now, \Nbut she could probably spare a bit of time.
+Dialogue: 0,0:05:12.58,0:05:13.41,Default,H,0000,0000,0000,,Oh, my!
+Dialogue: 0,0:05:16.04,0:05:19.58,Default,A,0000,0000,0000,,Is catching a cold even possible in this world?
+Dialogue: 0,0:05:19.58,0:05:24.02,Default,Guy,0000,0000,0000,,Here's the money for this week. \NThis is a great way to earn money.
+Dialogue: 0,0:05:24.75,0:05:26.02,Default,Guy2,0000,0000,0000,,Thank you.
+Dialogue: 0,0:05:26.02,0:05:27.82,Default,Guy2,0000,0000,0000,,Tell Isaac hello for me.
+Dialogue: 0,0:05:27.82,0:05:30.93,Default,Guy,0000,0000,0000,,Hey, I heard you started dealing \Nin leather-working, too.
+Dialogue: 0,0:05:31.40,0:05:34.95,Default,Guy2,0000,0000,0000,,We're open twenty-four hours a day, \Nand can repair things quickly.
+Dialogue: 0,0:05:36.47,0:05:39.59,Default,Ny,0000,0000,0000,,Well, now... This is quite the haul.
+Dialogue: 0,0:05:39.94,0:05:42.09,Default,N,0000,0000,0000,,Now it's up to you, chief!
+Dialogue: 0,0:05:42.09,0:05:45.44,Default,M,0000,0000,0000,,Naotsugu! Thank you!
+Dialogue: 0,0:05:47.14,0:05:48.62,Default,M,0000,0000,0000,,Rub, rub, rub, rub!
+Dialogue: 0,0:05:47.65,0:05:48.62,Default,M,0000,0000,0000,,Hey...
+Dialogue: 0,0:05:48.62,0:05:49.82,Default,N,0000,0000,0000,,Don't cling to me!
+Dialogue: 0,0:05:50.61,0:05:52.68,Default,H,0000,0000,0000,,Marie, behave yourself.
+Dialogue: 0,0:05:54.16,0:05:56.12,Default,M,0000,0000,0000,,Shouryuu and Hien, thank you both, also!
+Dialogue: 0,0:05:56.12,0:05:57.83,Default,Hi,0000,0000,0000,,He was all fired up.
+Dialogue: 0,0:05:58.79,0:06:00.71,Default,Sh,0000,0000,0000,,No, you're just good at slacking off!
+Dialogue: 0,0:06:00.71,0:06:02.46,Default,Hi,0000,0000,0000,,Who's slacking off?
+Dialogue: 0,0:06:02.46,0:06:04.51,Default,Hi,0000,0000,0000,,You loyal little puppy!
+Dialogue: 0,0:06:04.51,0:06:06.26,Default,Sh,0000,0000,0000,,Shut up, you flippant fox!
+Dialogue: 0,0:06:07.15,0:06:09.22,Default,M,0000,0000,0000,,But there still isn't enough.
+Dialogue: 0,0:06:09.93,0:06:10.68,Default,Sh,0000,0000,0000,,I'm on it!
+Dialogue: 0,0:06:13.91,0:06:17.06,Default,M,0000,0000,0000,,I don't know why, but he's really into this...
+Dialogue: 0,0:06:17.72,0:06:19.80,Default,M,0000,0000,0000,,I can always count on you, Shouryuu!
+Dialogue: 0,0:06:23.33,0:06:25.19,Default,M,0000,0000,0000,,No more!
+Dialogue: 0,0:06:25.41,0:06:27.72,Default,H,0000,0000,0000,,This is all the paperwork.
+Dialogue: 0,0:06:27.72,0:06:30.62,Default,H,0000,0000,0000,,Then, I'll return to my own job.
+Dialogue: 0,0:06:31.75,0:06:33.53,Default,M,0000,0000,0000,,Now I'm scared of glasses.
+Dialogue: 0,0:06:33.95,0:06:36.70,Default,M,0000,0000,0000,,The glasses all frighten me!
+Dialogue: 0,0:06:37.14,0:06:38.71,Default,,0000,0000,0000,,Ta-da!
+Dialogue: 0,0:06:39.11,0:06:40.99,Default,H,0000,0000,0000,,Oh, it's wonderful!
+Dialogue: 0,0:06:40.99,0:06:42.61,Default,Loli,0000,0000,0000,,Cute and distinctive.
+Dialogue: 0,0:06:42.61,0:06:44.57,Default,Loli,0000,0000,0000,,It's amazing how nice handmade stuff looks.
+Dialogue: 0,0:06:44.57,0:06:46.21,Default,Girl,0000,0000,0000,,Now we're almost done.
+Dialogue: 0,0:06:47.74,0:06:49.68,Default - italics,H,0000,0000,0000,,It's finally time...
+Dialogue: 0,0:06:50.93,0:06:53.10,Default - flashback,S,0000,0000,0000,,What do you think, Henrietta?
+Dialogue: 0,0:06:54.96,0:06:57.68,Default - flashback,S,0000,0000,0000,,In the old world, weren't you an accountant,
+Dialogue: 0,0:06:57.68,0:07:00.06,Default - flashback,S,0000,0000,0000,,with a master's in business administration?
+Dialogue: 0,0:07:01.62,0:07:03.44,Default - flashback,S,0000,0000,0000,,I think it can work.
+Dialogue: 0,0:07:03.87,0:07:07.48,Default - flashback,S,0000,0000,0000,,Basically, we just need to get \Nthe money, any way we can.
+Dialogue: 0,0:07:08.15,0:07:12.49,Default - flashback,S,0000,0000,0000,,We don't have to worry about where \Nit came from or whose it was.
+Dialogue: 0,0:07:12.95,0:07:16.10,Default - flashback,S,0000,0000,0000,,At the moment, this world has no rules.
+Dialogue: 0,0:07:16.73,0:07:19.50,Default - flashback,S,0000,0000,0000,,There's no point in restricting \Nourselves by making new ones.
+Dialogue: 0,0:07:21.68,0:07:24.00,Default - flashback,H,0000,0000,0000,,{\i1}This world has no rules...
+Dialogue: 0,0:07:24.62,0:07:29.01,Default - flashback,H,0000,0000,0000,,{\i1}In other words, we can make up our own...
+Dialogue: 0,0:07:29.79,0:07:32.57,Default - flashback,H,0000,0000,0000,,{\i1}We need a new rule to make money.
+Dialogue: 0,0:07:33.14,0:07:37.48,Default - flashback,H,0000,0000,0000,,{\i1}A way to make people bring us money, \Nand be happy doing so...
+Dialogue: 0,0:07:43.41,0:07:44.57,Default - flashback,H,0000,0000,0000,,We can do it.
+Dialogue: 0,0:07:45.15,0:07:46.94,Default - flashback,H,0000,0000,0000,,Five million gold.
+Dialogue: 0,0:07:46.94,0:07:49.40,Default - flashback,H,0000,0000,0000,,We can get the money.
+Dialogue: 0,0:07:54.99,0:07:58.51,Default,H,0000,0000,0000,,Now it's time for the plan's first stage.
+Dialogue: 0,0:08:02.21,0:08:04.43,Default,N,0000,0000,0000,,Marie, I brought you a snack.
+Dialogue: 0,0:08:04.75,0:08:06.76,Default,N,0000,0000,0000,,Chief Nyanta made this sandwich himse—
+Dialogue: 0,0:08:08.40,0:08:10.10,Default,M,0000,0000,0000,,I can't go on!
+Dialogue: 0,0:08:10.10,0:08:12.17,Default,M,0000,0000,0000,,Stupid Umeko, I hate you!
+Dialogue: 0,0:08:12.17,0:08:13.33,Default,M,0000,0000,0000,,Hey, come on...
+Dialogue: 0,0:08:13.62,0:08:15.84,Default,M,0000,0000,0000,,I can't take this room anymore.
+Dialogue: 0,0:08:16.11,0:08:17.43,Default,M,0000,0000,0000,,I want a bath.
+Dialogue: 0,0:08:17.43,0:08:20.55,Default,M,0000,0000,0000,,I want to go outside!
+Dialogue: 0,0:08:18.09,0:08:20.55,Default,N,0000,0000,0000,,Okay... Okay, Marie...
+Dialogue: 0,0:08:20.55,0:08:21.61,Default,N,0000,0000,0000,,Easy there.
+Dialogue: 0,0:08:24.90,0:08:26.59,Default,M,0000,0000,0000,,This is great!
+Dialogue: 0,0:08:26.59,0:08:27.40,Default,N,0000,0000,0000,,Hey...
+Dialogue: 0,0:08:27.40,0:08:28.51,Default,,0000,0000,0000,,Hmm?
+Dialogue: 0,0:08:28.51,0:08:31.19,Default,,0000,0000,0000,,Thanks for going along with Shiro's plan.
+Dialogue: 0,0:08:31.57,0:08:32.36,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:08:32.68,0:08:37.28,Default,N,0000,0000,0000,,I think it made him happy that you agreed.
+Dialogue: 0,0:08:38.27,0:08:39.54,Default,N,0000,0000,0000,,Thank you.
+Dialogue: 0,0:08:41.86,0:08:43.99,Default,M,0000,0000,0000,,You're a good boy, Naotsugu...
+Dialogue: 0,0:08:46.44,0:08:48.19,Default,M,0000,0000,0000,,Good boy, good boy.
+Dialogue: 0,0:08:48.19,0:08:51.05,Default,M,0000,0000,0000,,I'm glad you're with Shiro.
+Dialogue: 0,0:08:51.53,0:08:53.26,Default,M,0000,0000,0000,,Keep being his friend.
+Dialogue: 0,0:08:53.79,0:08:55.55,Default,N,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:08:56.65,0:08:59.05,Default,N,0000,0000,0000,,So, tomorrow's the day.
+Dialogue: 0,0:08:59.52,0:09:01.39,Default,M,0000,0000,0000,,Yeah, tomorrow.
+Dialogue: 0,0:09:06.33,0:09:07.56,Default,Guy,0000,0000,0000,,Hey...
+Dialogue: 0,0:09:07.76,0:09:10.80,Default,,0000,0000,0000,,Before we head into the field, \Nlet's grab something to eat.
+Dialogue: 0,0:09:10.80,0:09:12.45,Default,Girl,0000,0000,0000,,Does it matter what?
+Dialogue: 0,0:09:12.45,0:09:14.67,Default,Girl,0000,0000,0000,,Everything tastes the same, anyway.
+Dialogue: 0,0:09:15.06,0:09:17.07,Default,Girl2,0000,0000,0000,,Don't say that.
+Dialogue: 0,0:09:17.74,0:09:20.00,Default,Girl,0000,0000,0000,,Anyway, this place sure is deserted...
+Dialogue: 0,0:09:20.00,0:09:21.60,Default,Guy,0000,0000,0000,,Of course it is.
+Dialogue: 0,0:09:21.91,0:09:26.95,Default,Girl2,0000,0000,0000,,Well, if it all tastes the same, \Nthe cheapest food is as good as any...
+Dialogue: 0,0:09:26.95,0:09:28.80,Default,Guy,0000,0000,0000,,I smell something good.
+Dialogue: 0,0:09:28.80,0:09:30.09,Default,Girl,0000,0000,0000,,No way.
+Dialogue: 0,0:09:30.76,0:09:33.59,Default,M,0000,0000,0000,,Hello, residents of Akihabara!
+Dialogue: 0,0:09:34.06,0:09:37.34,Default,M,0000,0000,0000,,For those of you who miss real food, \Nwe have good news.
+Dialogue: 0,0:09:37.70,0:09:40.85,Default,M,0000,0000,0000,,Now you can bring genuine \Nflavor back to your table!
+Dialogue: 0,0:09:41.19,0:09:44.77,Default,M,0000,0000,0000,,The Crescent Moon refreshment stand opens today!
+Dialogue: 0,0:09:44.77,0:09:46.35,Default,M,0000,0000,0000,,Please give it a try!
+Dialogue: 0,0:09:46.92,0:09:50.12,Default,Se,0000,0000,0000,,Thank you! Thank you for your purchase!
+Dialogue: 0,0:09:50.12,0:09:52.36,Default,Loli,0000,0000,0000,,Serara, we haven't sold any yet.
+Dialogue: 0,0:09:52.75,0:09:55.47,Default,Guy,0000,0000,0000,,"Crescent Burger, fifteen gold.
+Dialogue: 0,0:09:55.47,0:09:58.45,Default,,0000,0000,0000,,One crispy chicken strip, eighteen gold...
+Dialogue: 0,0:09:58.45,0:10:00.37,Default,,0000,0000,0000,,Black rose tea, five gold."
+Dialogue: 0,0:10:00.93,0:10:02.80,Default,,0000,0000,0000,,That's pretty pricey!
+Dialogue: 0,0:10:03.18,0:10:05.79,Default,Girl,0000,0000,0000,,What noisy, strange people.
+Dialogue: 0,0:10:06.29,0:10:09.29,Default,M,0000,0000,0000,,Mister, care to take a \Nleap of faith and try one?
+Dialogue: 0,0:10:10.01,0:10:12.29,Default,M,0000,0000,0000,,You'll be amazed at how good it is.
+Dialogue: 0,0:10:12.54,0:10:16.39,Default,Guy,0000,0000,0000,,Ah, th-then... I'll take a Crescent Burger.
+Dialogue: 0,0:10:16.39,0:10:17.43,Default,Guy,0000,0000,0000,,Or she will.
+Dialogue: 0,0:10:17.43,0:10:18.55,Default,Girl,0000,0000,0000,,Me?!
+Dialogue: 0,0:10:19.61,0:10:20.97,Default,M,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:20.97,0:10:22.72,Default,M,0000,0000,0000,,One Crescent Burger coming right up.
+Dialogue: 0,0:10:23.22,0:10:24.47,Default,Girls,0000,0000,0000,,Thank you!
+Dialogue: 0,0:10:25.03,0:10:27.00,Default,Guy,0000,0000,0000,,This smell...
+Dialogue: 0,0:10:27.00,0:10:28.98,Default,Guy,0000,0000,0000,,No, even if it smells good...
+Dialogue: 0,0:10:28.98,0:10:32.05,Default,Guy,0000,0000,0000,,It either tastes like nothing or like salt.
+Dialogue: 0,0:10:32.05,0:10:33.57,Default,M,0000,0000,0000,,Give it a try!
+Dialogue: 0,0:10:38.16,0:10:39.34,Default,Girl,0000,0000,0000,,What is this?
+Dialogue: 0,0:10:39.34,0:10:40.12,Default,Guy,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:43.23,0:10:46.37,Default,Girl,0000,0000,0000,,It tastes like a hamburger!
+Dialogue: 0,0:10:46.59,0:10:47.99,Default,Guy,0000,0000,0000,,What?!
+Dialogue: 0,0:10:47.99,0:10:49.89,Default,,0000,0000,0000,,Hey, I want one, too!
+Dialogue: 0,0:10:48.59,0:10:49.89,Default,,0000,0000,0000,,Me, too!
+Dialogue: 0,0:10:53.19,0:10:56.47,Default,Guy,0000,0000,0000,,It tastes like grilled meat and sauce...
+Dialogue: 0,0:10:56.47,0:10:58.34,Default,Girl,0000,0000,0000,,It's so good!
+Dialogue: 0,0:10:58.34,0:11:00.20,Default,Girl,0000,0000,0000,,We can't just stand here!
+Dialogue: 0,0:11:00.20,0:11:01.64,Default,Guy,0000,0000,0000,,Let's go tell Sou!
+Dialogue: 0,0:11:01.86,0:11:03.04,Default,Guy,0000,0000,0000,,I'll take three Crescent Burgers!
+Dialogue: 0,0:11:03.04,0:11:04.04,Default,,0000,0000,0000,,Don't cut in line!
+Dialogue: 0,0:11:04.04,0:11:05.64,Default,Guy,0000,0000,0000,,Five crispy chicken strips!
+Dialogue: 0,0:11:05.64,0:11:08.14,Default,Guy,0000,0000,0000,,I'll take one of everything on the menu!
+Dialogue: 0,0:11:16.99,0:11:20.49,SignA,Guy,0000,0000,0000,,End {\c&H78E0DF&}of {\c&HDBD694&}Line
+Dialogue: 0,0:11:17.94,0:11:20.87,Default,Se,0000,0000,0000,,Um... Um, this is the end of the line.
+Dialogue: 0,0:11:20.87,0:11:24.49,Default,Se,0000,0000,0000,,Thank you for staying in line!
+Dialogue: 0,0:11:24.81,0:11:26.59,Default,Girl,0000,0000,0000,,We only have one box of burgers left!
+Dialogue: 0,0:11:26.59,0:11:27.91,Default,M,0000,0000,0000,,Eh? Really?
+Dialogue: 0,0:11:27.91,0:11:30.21,Default,H,0000,0000,0000,,Don't worry, Marie.
+Dialogue: 0,0:11:30.52,0:11:32.21,Default,H,0000,0000,0000,,I'm bringing more.
+Dialogue: 0,0:11:33.70,0:11:36.40,Default,H,0000,0000,0000,,This is where things will get tough.
+Dialogue: 0,0:11:38.09,0:11:39.92,Default,H,0000,0000,0000,,We'll go at full speed!
+Dialogue: 0,0:11:41.19,0:11:42.43,Default,Sou,0000,0000,0000,,This is...
+Dialogue: 0,0:11:42.93,0:11:43.91,Default,,0000,0000,0000,,Delicious?
+Dialogue: 0,0:11:44.38,0:11:45.55,Default,Sou,0000,0000,0000,,Who made this?
+Dialogue: 0,0:11:46.31,0:11:47.41,Default,Sou,0000,0000,0000,,How?
+Dialogue: 0,0:11:48.87,0:11:51.34,Default,Guys,0000,0000,0000,,Have you tried the Crescent Burger?
+Dialogue: 0,0:11:51.34,0:11:53.81,Default,Guys,0000,0000,0000,,I heard it's food that actually tastes like food.
+Dialogue: 0,0:11:53.81,0:11:56.33,Default,Guys,0000,0000,0000,,Not just ingredient items? Seriously?
+Dialogue: 0,0:11:58.57,0:12:00.26,Default,Hat,0000,0000,0000,,This flavor, at this price.
+Dialogue: 0,0:12:00.80,0:12:03.20,Default,Hat,0000,0000,0000,,I wonder if we can get in on this...
+Dialogue: 0,0:12:04.33,0:12:06.07,Default,Guy,0000,0000,0000,,Trouble, boss!
+Dialogue: 0,0:12:06.07,0:12:06.70,Default,Guy,0000,0000,0000,,Look at this!
+Dialogue: 0,0:12:07.32,0:12:09.21,Default,Guy,0000,0000,0000,,You're too slow on the draw, Kayu...
+Dialogue: 0,0:12:09.56,0:12:11.27,Default,Guy,0000,0000,0000,,This is good, though.
+Dialogue: 0,0:12:12.23,0:12:13.64,Default,Guy,0000,0000,0000,,Investigate the shop.
+Dialogue: 0,0:12:13.64,0:12:16.59,Default,Guy,0000,0000,0000,,Who's running it, what they use for \Ningredients, and how they get them.
+Dialogue: 0,0:12:17.03,0:12:19.15,Default,Guy,0000,0000,0000,,Everything you can find!
+Dialogue: 0,0:12:19.97,0:12:20.80,Default,Kayu,0000,0000,0000,,Right!
+Dialogue: 0,0:12:22.73,0:12:25.51,Default,Guy,0000,0000,0000,,This will change the world.
+Dialogue: 0,0:12:29.20,0:12:31.76,Default,N,0000,0000,0000,,Okay, that's enough for now.
+Dialogue: 0,0:12:32.38,0:12:33.86,Default,N,0000,0000,0000,,Let's go, kids.
+Dialogue: 0,0:12:33.86,0:12:35.31,Default,Hi,0000,0000,0000,,Right!
+Dialogue: 0,0:12:35.31,0:12:36.52,Default,Sh,0000,0000,0000,,I will gather more.
+Dialogue: 0,0:12:37.13,0:12:38.86,Default,Sh,0000,0000,0000,,You two, go on back.
+Dialogue: 0,0:12:39.31,0:12:42.21,Default,N,0000,0000,0000,,Don't push yourself... There's a long way to go.
+Dialogue: 0,0:12:42.21,0:12:43.03,Default,Sh,0000,0000,0000,,No.
+Dialogue: 0,0:12:44.35,0:12:45.53,Default,Sh,0000,0000,0000,,I don't want to lose.
+Dialogue: 0,0:12:46.15,0:12:47.61,Default,N,0000,0000,0000,,Huh? To whom?
+Dialogue: 0,0:12:47.61,0:12:49.67,Default,Hi,0000,0000,0000,,Then, let's go.
+Dialogue: 0,0:12:49.67,0:12:50.67,Default,N,0000,0000,0000,,Is he okay?
+Dialogue: 0,0:12:50.67,0:12:52.04,Default,Hi,0000,0000,0000,,He'll be fine...
+Dialogue: 0,0:12:52.97,0:12:54.04,Default,N,0000,0000,0000,,Just watch me,
+Dialogue: 0,0:12:54.84,0:12:55.67,Default,,0000,0000,0000,,Marie.
+Dialogue: 0,0:12:56.13,0:12:56.83,Default,N,0000,0000,0000,,I...
+Dialogue: 0,0:12:59.99,0:13:01.55,Default,N,0000,0000,0000,,A-An area boss?
+Dialogue: 0,0:13:02.93,0:13:04.05,Default,N,0000,0000,0000,,You're joking.
+Dialogue: 0,0:13:06.44,0:13:08.54,Default,S,0000,0000,0000,,Good work, everyone.
+Dialogue: 0,0:13:08.54,0:13:09.47,Default,M,0000,0000,0000,,Well? Well?
+Dialogue: 0,0:13:09.47,0:13:11.07,Default,M,0000,0000,0000,,How much did we make?
+Dialogue: 0,0:13:11.07,0:13:15.23,Default,H,0000,0000,0000,,We earned 43,776 gold in sales,
+Dialogue: 0,0:13:15.23,0:13:20.48,Default,H,0000,0000,0000,,representing 1,159 customers who \Nspent an average of 38 gold each.
+Dialogue: 0,0:13:20.96,0:13:23.68,Default,H,0000,0000,0000,,We sold out the crescent burgers we prepared,
+Dialogue: 0,0:13:23.24,0:13:24.10,Default,H,0000,0000,0000,,{\an8}Cheers!
+Dialogue: 0,0:13:23.68,0:13:27.61,Default,H,0000,0000,0000,,as well as everything else, \Nexcept the black rose tea.
+Dialogue: 0,0:13:27.89,0:13:29.00,Default,M,0000,0000,0000,,Wow!
+Dialogue: 0,0:13:29.00,0:13:30.61,Default,M,0000,0000,0000,,This is great!
+Dialogue: 0,0:13:30.61,0:13:34.12,Default,M,0000,0000,0000,,At this rate, we'll get that five \Nmillion in no time at all!
+Dialogue: 0,0:13:34.35,0:13:37.84,Default,S,0000,0000,0000,,We'll never make it in time... \NNot even close, Marie.
+Dialogue: 0,0:13:37.84,0:13:39.13,Default,H,0000,0000,0000,,We won't?
+Dialogue: 0,0:13:39.53,0:13:42.63,Default,S,0000,0000,0000,,Basic math shows it would take \None hundred, twenty days...
+Dialogue: 0,0:13:42.88,0:13:44.77,Default,S,0000,0000,0000,,Or four months.
+Dialogue: 0,0:13:44.77,0:13:48.63,Default,M,0000,0000,0000,,But today, we turned away a lot of customers...
+Dialogue: 0,0:13:48.63,0:13:50.41,Default,M,0000,0000,0000,,If we wanted, we could sell a lot more.
+Dialogue: 0,0:13:50.41,0:13:53.93,Default,S,0000,0000,0000,,Our total market size probably \Nmeasures in the tens of thousands.
+Dialogue: 0,0:13:54.73,0:13:58.50,Default,S,0000,0000,0000,,In Akihabara alone, there are \Nover fifteen thousand players.
+Dialogue: 0,0:13:59.10,0:14:00.44,Default,H,0000,0000,0000,,The problem is,
+Dialogue: 0,0:14:00.70,0:14:03.27,Default,,0000,0000,0000,,no matter how high the demand,
+Dialogue: 0,0:14:03.27,0:14:07.20,Default,H,0000,0000,0000,,we can only serve around a \Nthousand customers a day.
+Dialogue: 0,0:14:07.72,0:14:09.86,Default,H,0000,0000,0000,,Our guild just isn't big enough.
+Dialogue: 0,0:14:10.73,0:14:12.06,Default,S,0000,0000,0000,,That's it.
+Dialogue: 0,0:14:12.06,0:14:15.62,Default,S,0000,0000,0000,,Money isn't the point of this plan, anyway.
+Dialogue: 0,0:14:15.95,0:14:17.09,Default,M,0000,0000,0000,,That's right.
+Dialogue: 0,0:14:17.09,0:14:20.21,Default,M,0000,0000,0000,,I was just blinded by the huge \Nfortune in front of me.
+Dialogue: 0,0:14:21.99,0:14:25.41,Default,H,0000,0000,0000,,I'll go deposit our earnings in the bank.
+Dialogue: 0,0:14:25.41,0:14:26.31,Default,S,0000,0000,0000,,Thanks.
+Dialogue: 0,0:14:26.31,0:14:27.68,Default,M,0000,0000,0000,,Hey, Shiro.
+Dialogue: 0,0:14:27.68,0:14:31.10,Default,M,0000,0000,0000,,If money wasn't the Crescent Burger's goal,
+Dialogue: 0,0:14:31.54,0:14:34.15,Default,,0000,0000,0000,,does that mean you'll use your other plan?
+Dialogue: 0,0:14:35.52,0:14:37.27,Default,S,0000,0000,0000,,I'm sure it'll work.
+Dialogue: 0,0:14:37.27,0:14:40.02,Default,M,0000,0000,0000,,But I don't know if I can do it.
+Dialogue: 0,0:14:40.86,0:14:43.22,Default,S,0000,0000,0000,,Just leave it to Henrietta.
+Dialogue: 0,0:14:43.72,0:14:44.44,Default,S,0000,0000,0000,,Right?
+Dialogue: 0,0:14:44.85,0:14:46.04,Default,H,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:46.04,0:14:48.01,Default,H,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:14:48.37,0:14:49.70,Default,H,0000,0000,0000,,In exchange...
+Dialogue: 0,0:14:53.08,0:14:56.12,Default,H,0000,0000,0000,,Where are you going?
+Dialogue: 0,0:14:56.80,0:14:59.83,Default,A,0000,0000,0000,,My lord has given me a secret mission!
+Dialogue: 0,0:14:59.83,0:15:01.12,Default,A,0000,0000,0000,,Don't try to stop me!
+Dialogue: 0,0:15:02.06,0:15:06.09,Default,H,0000,0000,0000,,Shiroe was kind enough to lend you to me.
+Dialogue: 0,0:15:06.68,0:15:10.01,Default,A,0000,0000,0000,,My lord, you sold me out again!
+Dialogue: 0,0:15:10.24,0:15:11.47,Default,H,0000,0000,0000,,Now, hurry...
+Dialogue: 0,0:15:12.22,0:15:13.20,Default,H,0000,0000,0000,,Put this on!
+Dialogue: 0,0:15:13.20,0:15:14.01,Default,A,0000,0000,0000,,I refuse!
+Dialogue: 0,0:15:14.56,0:15:16.47,Default,A,0000,0000,0000,,I am not a doll for you to dress up!
+Dialogue: 0,0:15:19.00,0:15:22.39,Default,H,0000,0000,0000,,You can't enter that room.
+Dialogue: 0,0:15:22.39,0:15:23.31,Default,A,0000,0000,0000,,What?
+Dialogue: 0,0:15:23.80,0:15:27.49,Default,H,0000,0000,0000,,This zone belongs to the Crescent Moon Alliance.
+Dialogue: 0,0:15:27.55,0:15:32.32,SignB1,H,0000,0000,0000,,Zone Setting:                                                                                Guild Hall 236 \N\NEntry Restrictions Active                                              Guild Master: Marielle \NGuild: Crescent Moon Alliance
+Dialogue: 0,0:15:27.55,0:15:32.32,SignB2,H,0000,0000,0000,,ID Recognition                                                                       Zone Information: \N\NAkatsuki   Guild/ Log Horizon                                          No Combat Allowed \NAccess: Not Allowed                                                          No Skill Use Allowed
+Dialogue: 0,0:15:27.96,0:15:32.32,Default,,0000,0000,0000,,And that warehouse only permits guild members.
+Dialogue: 0,0:15:33.57,0:15:35.07,Default,A,0000,0000,0000,,I guess I'll have to...
+Dialogue: 0,0:15:35.83,0:15:37.49,HUD1,,0000,0000,0000,,Skills
+Dialogue: 0,0:15:37.49,0:15:40.33,HUD1,A,0000,0000,0000,,Zone Information \N{\c&HD0D3F4&\3c&H151569&}This zone does not \Npermit skill use.
+Dialogue: 0,0:15:37.87,0:15:39.17,Default,A,0000,0000,0000,,I can't use it?
+Dialogue: 0,0:15:39.17,0:15:40.33,Default,H,0000,0000,0000,,It's useless...
+Dialogue: 0,0:15:40.83,0:15:44.15,Default,H,0000,0000,0000,,I set it so that skills can't be used here.
+Dialogue: 0,0:15:44.15,0:15:47.84,Default,H,0000,0000,0000,,And I can also set combat \Npermissions individually.
+Dialogue: 0,0:15:48.43,0:15:50.09,Default,H,0000,0000,0000,,Have you forgotten?
+Dialogue: 0,0:15:51.69,0:15:52.94,Default,A,0000,0000,0000,,Curse you...
+Dialogue: 0,0:15:54.00,0:15:55.58,Default,All,0000,0000,0000,,So cute!
+Dialogue: 0,0:15:55.58,0:15:56.92,Default,,0000,0000,0000,,My, my...
+Dialogue: 0,0:15:56.92,0:15:59.44,Default,Ny,0000,0000,0000,,It looks wonderful on you.
+Dialogue: 0,0:15:59.44,0:16:02.88,Default,H,0000,0000,0000,,Ah! My exhaustion is flying away!
+Dialogue: 0,0:16:03.42,0:16:05.51,Default,M,0000,0000,0000,,Hey, have you seen Shouryuu?
+Dialogue: 0,0:16:06.33,0:16:07.90,Default,N,0000,0000,0000,,Now that you mention it, he's late.
+Dialogue: 0,0:16:07.90,0:16:11.78,Default,Hi,0000,0000,0000,,He was so excited, he hasn't \Nreturned from hunting...
+Dialogue: 0,0:16:12.08,0:16:13.75,Default,M,0000,0000,0000,,R-Really?
+Dialogue: 0,0:16:13.75,0:16:15.33,Default,M,0000,0000,0000,,Maybe something happened...
+Dialogue: 0,0:16:16.63,0:16:17.65,Default,Girl,0000,0000,0000,,What's going on?
+Dialogue: 0,0:16:17.65,0:16:20.11,Default,Girl,0000,0000,0000,,There's a boar stuck in the hall.
+Dialogue: 0,0:16:21.87,0:16:22.98,Default,Hi,0000,0000,0000,,Shouryuu...
+Dialogue: 0,0:16:22.98,0:16:26.81,Default,Sh,0000,0000,0000,,Marie, am I helping a little?
+Dialogue: 0,0:16:28.07,0:16:29.25,Default,M,0000,0000,0000,,Shouryuu!
+Dialogue: 0,0:16:30.04,0:16:31.61,Default,M,0000,0000,0000,,Shouryuu!
+Dialogue: 0,0:16:33.49,0:16:34.09,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:16:34.71,0:16:37.19,Default,N,0000,0000,0000,,He hasn't rested or slept for a long time.
+Dialogue: 0,0:16:37.19,0:16:38.64,Default,Hi,0000,0000,0000,,He's been killing himself.
+Dialogue: 0,0:16:39.92,0:16:41.93,Default,M,0000,0000,0000,,Thank goodness...
+Dialogue: 0,0:16:42.84,0:16:44.77,Default,M,0000,0000,0000,,Thank you, everyone.
+Dialogue: 0,0:16:45.31,0:16:47.74,Default,M,0000,0000,0000,,I'm blessed with such wonderful companions.
+Dialogue: 0,0:16:47.74,0:16:49.84,Default,Hi,0000,0000,0000,,He looks so happy in his sleep.
+Dialogue: 0,0:16:49.84,0:16:51.44,Default,Hi,0000,0000,0000,,Guess it was worth almost killing himself.
+Dialogue: 0,0:16:52.01,0:16:54.95,Default,Ny,0000,0000,0000,,After all that work, I'm sorry to say this...
+Dialogue: 0,0:16:55.28,0:16:58.95,Default,Ny,0000,0000,0000,,But giant boar tastes too strong, \Nso I can't use it.
+Dialogue: 0,0:17:02.18,0:17:02.96,Default,,0000,0000,0000,,Shh!
+Dialogue: 0,0:17:03.26,0:17:04.75,Default,M,0000,0000,0000,,You'll wake him up!
+Dialogue: 0,0:17:06.70,0:17:10.22,Default - italics,S,0000,0000,0000,,The Crescent Moon Alliance \Nmembers are all so nice.
+Dialogue: 0,0:17:13.97,0:17:15.17,Default,S,0000,0000,0000,,Yes...
+Dialogue: 0,0:17:15.17,0:17:18.47,Default,S,0000,0000,0000,,I'm sure it's due to Marie's kindness
+Dialogue: 0,0:17:18.94,0:17:21.29,Default,S,0000,0000,0000,,and sunflower-like smile.
+Dialogue: 0,0:17:22.73,0:17:26.19,Default,S,0000,0000,0000,,Actually, I've made a guild of my own.
+Dialogue: 0,0:17:27.30,0:17:29.58,Default,S,0000,0000,0000,,I'll introduce you to them soon.
+Dialogue: 0,0:17:31.53,0:17:33.39,Default,S,0000,0000,0000,,Our preparations are progressing.
+Dialogue: 0,0:17:34.54,0:17:36.07,Default,S,0000,0000,0000,,Hold out just a little longer.
+Dialogue: 0,0:17:43.24,0:17:44.58,Default,S,0000,0000,0000,,It'll be okay,
+Dialogue: 0,0:17:45.03,0:17:46.73,Default,,0000,0000,0000,,Minori... Tohya.
+Dialogue: 0,0:17:58.51,0:18:00.10,SignB1,S,0000,0000,0000,,Zone Setting:                                                                                Guild Hall 185 \N\NEntry Restrictions Active                              Guild Master: Twilight Explorer \NGuild: Hamelin
+Dialogue: 0,0:17:58.51,0:18:00.10,SignB2,S,0000,0000,0000,,ID Recognition                                                                       Zone Information:\N\NShrayda   Guild/ Hamelin                                                        Combat Allowed\NAccess: Allowed                                                                       Skill Use Allowed
+Dialogue: 0,0:17:59.15,0:18:00.10,Default,T,0000,0000,0000,,Shiroe said that?
+Dialogue: 0,0:18:01.06,0:18:01.86,Default,Mi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:04.71,0:18:05.56,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:18:06.93,0:18:08.02,Default,Mi,0000,0000,0000,,Is this okay?
+Dialogue: 0,0:18:09.65,0:18:12.76,Default,Mi,0000,0000,0000,,Is this really okay?
+Dialogue: 0,0:18:16.34,0:18:17.61,Default,S,0000,0000,0000,,Chief, did you know this?
+Dialogue: 0,0:18:18.56,0:18:21.92,Default,S,0000,0000,0000,,When this was a game, \Nthese buildings were just background.
+Dialogue: 0,0:18:21.92,0:18:24.24,Default,S,0000,0000,0000,,But now they appear to be zones for purchase.
+Dialogue: 0,0:18:24.86,0:18:26.34,Default,Ny,0000,0000,0000,,So it seems.
+Dialogue: 0,0:18:27.12,0:18:28.37,Default,S,0000,0000,0000,,And that isn't all...
+Dialogue: 0,0:18:29.03,0:18:32.42,Default,S,0000,0000,0000,,Every city and building in the world is for sale.
+Dialogue: 0,0:18:32.99,0:18:34.68,Default,S,0000,0000,0000,,But they're astronomically expensive.
+Dialogue: 0,0:18:35.18,0:18:41.93,Default,Ny,0000,0000,0000,,Then should we buy Tokyo Station \Nas the Log Horizon base?
+Dialogue: 0,0:18:43.39,0:18:44.35,Default,S,0000,0000,0000,,No.
+Dialogue: 0,0:18:49.62,0:18:50.85,Default,So,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:18:51.53,0:18:55.03,Default,So,0000,0000,0000,,Shiro and Master Nyanta, it's been a long time.
+Dialogue: 0,0:18:55.73,0:18:57.20,Default,S,0000,0000,0000,,Hey, Soujirou.
+Dialogue: 0,0:18:57.20,0:19:01.28,Default,Ny,0000,0000,0000,,Souji, I hear you've started your own guild?
+Dialogue: 0,0:19:01.49,0:19:05.19,Default,So,0000,0000,0000,,Yes, it's called the Caravan of the West Wind.
+Dialogue: 0,0:19:03.20,0:19:06.29,HUD1,So,0000,0000,0000,,{\an7}Soujirou Theta  \N{\fs20}Race/ Human \NSamurai, Lv. 90 \NCaravan of the West Wind
+Dialogue: 0,0:19:05.19,0:19:10.91,Default,S,0000,0000,0000,,It's a small guild, but as powerful \Nas the biggest ones.
+Dialogue: 0,0:19:12.11,0:19:12.79,Default,So,0000,0000,0000,,Not at all...
+Dialogue: 0,0:19:13.51,0:19:19.30,Default,So,0000,0000,0000,,We were just getting things set up \Nwhen the Apocalypse happened.
+Dialogue: 0,0:19:19.75,0:19:25.18,Default,Ny,0000,0000,0000,,Since the Tea Party disbanded, \NI hadn't been logging in as often.
+Dialogue: 0,0:19:25.63,0:19:29.31,Default,Ny,0000,0000,0000,,Are Nazuna and Miss Saki still with you?
+Dialogue: 0,0:19:29.59,0:19:31.19,Default,So,0000,0000,0000,,Nazuna is still with me.
+Dialogue: 0,0:19:31.62,0:19:34.11,Default,So,0000,0000,0000,,She's as relaxed as ever.
+Dialogue: 0,0:19:34.69,0:19:39.47,Default,So,0000,0000,0000,,Saki, too, but she wasn't logged \Nin during the Apocalypse.
+Dialogue: 0,0:19:40.39,0:19:42.18,Default,S,0000,0000,0000,,Hey, so, um...
+Dialogue: 0,0:19:42.18,0:19:46.15,Default,S,0000,0000,0000,,Are you still as popular with \Ngirls as you used to be?
+Dialogue: 0,0:19:47.01,0:19:48.88,Default,So,0000,0000,0000,,No, well...
+Dialogue: 0,0:19:48.88,0:19:50.69,Default,Ny,0000,0000,0000,,It's nice to be young.
+Dialogue: 0,0:19:51.37,0:19:52.83,Default,So,0000,0000,0000,,A-Anyway...
+Dialogue: 0,0:19:53.47,0:19:57.59,Default,So,0000,0000,0000,,Why did you contact me?
+Dialogue: 0,0:19:57.97,0:19:59.70,Default,S,0000,0000,0000,,Oh, you see...
+Dialogue: 0,0:20:00.49,0:20:03.89,Default,So,0000,0000,0000,,I thought you didn't like me.
+Dialogue: 0,0:20:04.45,0:20:06.35,Default,S,0000,0000,0000,,Hmm? Why?
+Dialogue: 0,0:20:07.32,0:20:08.65,Default,So,0000,0000,0000,,Because, well...
+Dialogue: 0,0:20:09.25,0:20:13.94,Default,So,0000,0000,0000,,When I founded my guild, \NI invited you, but you didn't join.
+Dialogue: 0,0:20:13.94,0:20:15.36,Default,S,0000,0000,0000,,It wasn't like that.
+Dialogue: 0,0:20:15.80,0:20:17.81,Default,S,0000,0000,0000,,It wasn't that I didn't like you.
+Dialogue: 0,0:20:19.15,0:20:22.66,Default,S,0000,0000,0000,,Back then, I just didn't want \Nanything to do with guilds.
+Dialogue: 0,0:20:24.81,0:20:27.27,Default,S,0000,0000,0000,,But after the Apocalypse, I realized
+Dialogue: 0,0:20:28.12,0:20:32.32,Default,S,0000,0000,0000,,that I had to make a place for myself...
+Dialogue: 0,0:20:33.41,0:20:37.38,Default,S,0000,0000,0000,,That I have to be one of those \Nthat protects others.
+Dialogue: 0,0:20:38.78,0:20:40.09,Default,S,0000,0000,0000,,I made a guild.
+Dialogue: 0,0:20:40.65,0:20:44.30,Default,S,0000,0000,0000,,There aren't many in it yet, \Nand it's just getting started...
+Dialogue: 0,0:20:45.70,0:20:47.72,Default,S,0000,0000,0000,,But I'll only have a place for myself
+Dialogue: 0,0:20:48.17,0:20:50.31,Default,,0000,0000,0000,,after I've made one for others.
+Dialogue: 0,0:20:51.98,0:20:53.48,Default,S,0000,0000,0000,,I finally realized that.
+Dialogue: 0,0:20:57.25,0:20:59.36,Default,So,0000,0000,0000,,So what did you want from me?
+Dialogue: 0,0:21:00.01,0:21:04.02,Default,Ny,0000,0000,0000,,What do you think of Akihabara, as it is now?
+Dialogue: 0,0:21:06.81,0:21:09.12,Default,So,0000,0000,0000,,I think it's a prison...
+Dialogue: 0,0:21:09.63,0:21:10.67,Default,S,0000,0000,0000,,A prison?
+Dialogue: 0,0:21:11.72,0:21:13.25,Default,So,0000,0000,0000,,Not only Akihabara.
+Dialogue: 0,0:21:13.25,0:21:15.17,Default,So,0000,0000,0000,,Depending on your point of view,
+Dialogue: 0,0:21:15.17,0:21:17.54,Default,,0000,0000,0000,,this whole world is currently a prison.
+Dialogue: 0,0:21:19.28,0:21:20.83,Default,S,0000,0000,0000,,I have a way to improve it.
+Dialogue: 0,0:21:21.34,0:21:23.03,Default,S,0000,0000,0000,,And I need your help.
+Dialogue: 0,0:21:25.98,0:21:27.26,Default,So,0000,0000,0000,,All right!
+Dialogue: 0,0:21:27.60,0:21:29.30,Default,S,0000,0000,0000,,Huh? Are you sure?
+Dialogue: 0,0:21:29.30,0:21:31.34,Default,S,0000,0000,0000,,Don't you want to hear the plan?
+Dialogue: 0,0:21:31.83,0:21:34.00,Default,So,0000,0000,0000,,But you're busy, aren't you?
+Dialogue: 0,0:21:34.48,0:21:36.69,Default,So,0000,0000,0000,,I can't take up your time.
+Dialogue: 0,0:21:37.22,0:21:40.11,Default,So,0000,0000,0000,,And I'm a moron whose place \Nis in the front row.
+Dialogue: 0,0:21:40.43,0:21:44.01,Default,So,0000,0000,0000,,Even if the Tea Party's best \Nstrategist told me the plan,
+Dialogue: 0,0:21:44.01,0:21:45.32,Default,So,0000,0000,0000,,I wouldn't understand half.
+Dialogue: 0,0:21:46.62,0:21:47.82,Default,S,0000,0000,0000,,Soujirou...
+Dialogue: 0,0:21:48.78,0:21:51.09,Default,Ny,0000,0000,0000,,You're a good kid, Souji.
+Dialogue: 0,0:21:51.09,0:21:52.33,Default,So,0000,0000,0000,,No...
+Dialogue: 0,0:21:57.09,0:21:58.10,Default,Girl,0000,0000,0000,,I have more burgers!
+Dialogue: 0,0:21:58.10,0:21:59.34,Default,Guys,0000,0000,0000,,I'll take three Crescent Burgers!
+Dialogue: 0,0:21:59.34,0:22:01.37,Default,Guys,0000,0000,0000,,Five super Crescent Burgers!
+Dialogue: 0,0:21:59.85,0:22:02.84,Default,So,0000,0000,0000,,While you wait, I'll take your orders!
+Dialogue: 0,0:22:02.84,0:22:04.12,Default,Girls,0000,0000,0000,,You're so cute...
+Dialogue: 0,0:22:04.12,0:22:05.92,Default,Girls,0000,0000,0000,,Please add me to your Friends List.
+Dialogue: 0,0:22:05.92,0:22:08.72,Default,Girls,0000,0000,0000,,Hey, stay in line, and follow the rules!
+Dialogue: 0,0:22:09.36,0:22:15.23,Default,Guy,0000,0000,0000,,Oh, so this Shiro guy wanted \Nyou to help with the store?
+Dialogue: 0,0:22:15.81,0:22:16.75,Default,So,0000,0000,0000,,Of course not.
+Dialogue: 0,0:22:17.33,0:22:18.86,Default,So,0000,0000,0000,,It's far more than just this.
+Dialogue: 0,0:22:19.83,0:22:21.87,Default,So,0000,0000,0000,,There's no end
+Dialogue: 0,0:22:22.88,0:22:24.59,Default,,0000,0000,0000,,to his plans.
+Dialogue: 0,0:22:28.86,0:22:33.49,Default - italics,S,0000,0000,0000,,Now, then... Time for the plan's second stage.
+Dialogue: 0,0:24:06.62,0:24:08.23,Default,Preview,0000,0000,0000,,Michitaka, of the Marine Agency.
+Dialogue: 0,0:24:08.23,0:24:10.09,Default,Preview,0000,0000,0000,,Karashin, of Shopping Street 8.
+Dialogue: 0,0:24:10.09,0:24:11.55,Default,Preview,0000,0000,0000,,Roderic, of the Roderic Merchant Guild.
+Dialogue: 0,0:24:11.98,0:24:15.01,Default,Preview,0000,0000,0000,,Masters of the largest crafting \Nguilds gather in one place.
+Dialogue: 0,0:24:15.55,0:24:18.97,Default,,0000,0000,0000,,Their trading partners are the Crescent \NMoon's sunflower and lily,
+Dialogue: 0,0:24:18.97,0:24:20.66,Default,,0000,0000,0000,,Marielle and Henrietta.
+Dialogue: 0,0:24:20.66,0:24:23.73,Default,,0000,0000,0000,,And the shadow that manipulates \Nthem from behind...
+Dialogue: 0,0:24:24.19,0:24:26.03,Default,Next time,0000,0000,0000,,Next time: Villain in Glasses.
+Dialogue: 0,0:24:24.19,0:24:30.99,Title,Next time,0000,0000,0000,,Villain in Glasses
+Dialogue: 0,0:24:26.46,0:24:28.20,Default,Next time,0000,0000,0000,,This is our reality.

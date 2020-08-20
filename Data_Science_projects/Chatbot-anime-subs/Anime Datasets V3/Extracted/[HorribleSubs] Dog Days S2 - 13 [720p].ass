@@ -1,0 +1,405 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DogDays-main,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: DogDays-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-internal,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-narrator,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: DogDays-song,Amira,35,&H00FFFFFF,&H000000FF,&H005E039F,&H00EDDAFB,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,0
+Style: DogDays-ep-title,Amira,37,&H00F4FFFF,&H000000FF,&H009FB1CB,&H00B8BFCA,0,0,0,0,90,100,0,0,1,2,0,1,0082,0020,0080,0
+Style: DogDays-next-ep-title,Amira,40,&H00FFFEFF,&H000000FF,&H00E436EE,&H00647E8F,1,0,0,0,100,100,0,0,1,2,0,9,0020,0040,0025,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Basic Black - Big,Amira,45,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0010,0050,0020,1
+Style: Basic Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0010,0050,0020,1
+Style: Basic kanji Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0010,1
+Style: Basic Kanji white - Big,Amira,47,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: Basic Kanji white - Small,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: orange note,Amira,27,&H00AABDF4,&H000000FF,&H00101A24,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: location,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,0,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0065,0
+Style: blue note,Amira,27,&H00D69289,&H000000FF,&H00420E12,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: yellow note,Amira,27,&H00A8D6E1,&H000000FF,&H001A3A3F,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: violet note,Amira,27,&H00DA91CB,&H000000FF,&H00391A2C,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: grey note,Amira,27,&H00CFCFCF,&H000000FF,&H003E3E3E,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: green note,Amira,27,&H00A4F3A1,&H000000FF,&H00213F1A,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: teal note,Amira,27,&H00E7F3C0,&H000000FF,&H00212900,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:06.14,0:00:08.52,DogDays-main,mill,0000,0000,0000,,Union Fest is over now,
+Dialogue: 0,0:00:08.96,0:00:11.01,DogDays-main,,0000,0000,0000,,but I would like to create more events
+Dialogue: 0,0:00:11.01,0:00:15.66,DogDays-main,,0000,0000,0000,,with you all that are \Nas fun as this one was!
+Dialogue: 0,0:00:24.39,0:00:26.80,DogDays-narrator,noir,0000,0000,0000,,Union Fest's final stage.
+Dialogue: 0,0:00:27.76,0:00:30.55,DogDays-narrator,noir,0000,0000,0000,,The passion that connected \Nthe three countries
+Dialogue: 0,0:00:30.55,0:00:32.92,DogDays-narrator,,0000,0000,0000,,never waned...
+Dialogue: 0,0:00:33.76,0:00:36.66,DogDays-narrator,noir,0000,0000,0000,,That night, the party continued\N with great enthusiasm
+Dialogue: 0,0:00:36.66,0:00:38.52,DogDays-narrator,,0000,0000,0000,,until the end.
+Dialogue: 0,0:00:39.33,0:00:42.02,DogDays-narrator,noir,0000,0000,0000,,Starting tomorrow,\N we'll return to our usual,
+Dialogue: 0,0:00:42.02,0:00:44.59,DogDays-narrator,,0000,0000,0000,,calm and peaceful days.
+Dialogue: 0,0:00:44.59,0:00:46.06,DogDays-narrator,noir,0000,0000,0000,,And then...
+Dialogue: 0,0:02:29.83,0:02:30.79,DogDays-main,sink,0000,0000,0000,,Yes?
+Dialogue: 0,0:02:31.56,0:02:34.97,DogDays-main,ecl,0000,0000,0000,,Hero, you're going out with the \NPrincess and the others, right?
+Dialogue: 0,0:02:34.97,0:02:39.22,DogDays-main,sink,0000,0000,0000,,Yes, they're making \Nour lunches right now.
+Dialogue: 0,0:02:39.22,0:02:41.38,DogDays-main,ecl,0000,0000,0000,,Yeah, I took a peek earlier.
+Dialogue: 0,0:02:43.39,0:02:45.68,DogDays-main,ecl,0000,0000,0000,,This is for you.
+Dialogue: 0,0:02:48.13,0:02:49.65,DogDays-main,sink,0000,0000,0000,,Are these clothes?
+Dialogue: 0,0:02:49.65,0:02:51.94,DogDays-main,ecl,0000,0000,0000,,I had them made at a shop I frequent.
+Dialogue: 0,0:02:52.40,0:02:54.53,DogDays-main,ecl,0000,0000,0000,,Try it on. I'm sure it'll suit you.
+Dialogue: 0,0:02:55.72,0:02:58.15,DogDays-main,sink,0000,0000,0000,,Wow, this is nice!
+Dialogue: 0,0:02:58.15,0:03:01.07,DogDays-main,ecl,0000,0000,0000,,It's not bad to wear something other \Nthan your Hero outfit, right?
+Dialogue: 0,0:03:01.07,0:03:04.03,DogDays-main,sink,0000,0000,0000,,Yeah! But is it really \Nokay for me to have these?
+Dialogue: 0,0:03:04.03,0:03:06.58,DogDays-main,ecl,0000,0000,0000,,I don't want to take them back. \NPlease wear them.
+Dialogue: 0,0:03:07.84,0:03:11.53,DogDays-main,ecl,0000,0000,0000,,Now, Hero, this will be your \Nlast mission this summer.
+Dialogue: 0,0:03:11.53,0:03:12.37,DogDays-main,sinK,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:12.37,0:03:14.21,DogDays-main,ecl,0000,0000,0000,,Relax and enjoy your day today
+Dialogue: 0,0:03:14.21,0:03:16.57,DogDays-main,,0000,0000,0000,,with the Princess and your friends.
+Dialogue: 0,0:03:16.57,0:03:20.20,DogDays-main,ecl,0000,0000,0000,,Have fun with the Princess, \NRebecca, and the others.
+Dialogue: 0,0:03:20.20,0:03:21.01,DogDays-main,ecl,0000,0000,0000,,Can you do it?
+Dialogue: 0,0:03:21.45,0:03:24.01,DogDays-main,sink,0000,0000,0000,,I will do my best, \NI swear on my Hero title!
+Dialogue: 0,0:03:24.01,0:03:25.97,DogDays-main,ecl,0000,0000,0000,,Right, then go!
+Dialogue: 0,0:03:28.56,0:03:30.64,DogDays-main,nana,0000,0000,0000,,Hey, Sink!
+Dialogue: 0,0:03:30.64,0:03:32.65,DogDays-main,sinK,0000,0000,0000,,Your Highness, Nanami!
+Dialogue: 0,0:03:33.60,0:03:35.40,DogDays-main,nana,0000,0000,0000,,Sink, where'd you get those clothes?
+Dialogue: 0,0:03:35.40,0:03:37.01,DogDays-main,sink,0000,0000,0000,,Ecle gave them to me.
+Dialogue: 0,0:03:37.01,0:03:38.73,DogDays-main,nana,0000,0000,0000,,Oh really?
+Dialogue: 0,0:03:39.08,0:03:40.69,DogDays-main,,0000,0000,0000,,Looks good.
+Dialogue: 0,0:03:41.49,0:03:44.07,DogDays-main,cou,0000,0000,0000,,Everybody's here.
+Dialogue: 0,0:03:44.47,0:03:46.58,DogDays-main,mill,0000,0000,0000,,Sorry for the wait.
+Dialogue: 0,0:03:48.10,0:03:49.47,DogDays-main,leo,0000,0000,0000,,Then, shall we?
+Dialogue: 0,0:03:49.47,0:03:53.08,DogDays-main,nana,0000,0000,0000,,The highland picnic tour for \Nthe rulers and the Heroes!
+Dialogue: 0,0:03:53.08,0:03:55.28,DogDays-main,all,0000,0000,0000,,Off we go!
+Dialogue: 0,0:04:01.57,0:04:02.95,DogDays-main,nana,0000,0000,0000,,This is amazing!
+Dialogue: 0,0:04:02.95,0:04:04.59,DogDays-main,leo,0000,0000,0000,,It's nice, isn't it?
+Dialogue: 0,0:04:04.59,0:04:07.98,DogDays-main,cou,0000,0000,0000,,This is our favorite summer spot.
+Dialogue: 0,0:04:07.98,0:04:11.10,DogDays-main,mill,0000,0000,0000,,The water is really nice \Nand there are even fish.
+Dialogue: 0,0:04:11.36,0:04:13.69,DogDays-main,nana,0000,0000,0000,,You're right, there are so many!
+Dialogue: 0,0:04:14.29,0:04:15.94,DogDays-main,sink,0000,0000,0000,,And so many local gods...
+Dialogue: 0,0:04:15.94,0:04:19.26,DogDays-main,cou,0000,0000,0000,,The protection of the sprites \Nis especially strong here.
+Dialogue: 0,0:04:19.26,0:04:21.40,DogDays-main,,0000,0000,0000,,That's why nature's bounty \Nis so plentiful here,
+Dialogue: 0,0:04:21.78,0:04:24.40,DogDays-main,cou,0000,0000,0000,,but you shouldn't be so \Nimpressed quite yet.
+Dialogue: 0,0:04:24.40,0:04:26.91,DogDays-main,,0000,0000,0000,,We have much more to show you.
+Dialogue: 0,0:04:35.17,0:04:36.77,DogDays-main,nana,0000,0000,0000,,Let's take a picture!
+Dialogue: 0,0:04:36.77,0:04:38.42,DogDays-main,,0000,0000,0000,,A picture with everybody!
+Dialogue: 0,0:04:38.42,0:04:40.65,DogDays-main,reb,0000,0000,0000,,Shall we take turns?
+Dialogue: 0,0:04:40.65,0:04:42.68,DogDays-main,,0000,0000,0000,,First, Nanami and you guys...
+Dialogue: 0,0:04:42.68,0:04:44.67,DogDays-main,nana,0000,0000,0000,,Oh, don't worry about that.
+Dialogue: 0,0:04:44.67,0:04:46.28,DogDays-main,,0000,0000,0000,,Leo-sama, it's okay, right?
+Dialogue: 0,0:04:46.28,0:04:47.23,DogDays-main,leo,0000,0000,0000,,Yes. Noir!
+Dialogue: 0,0:04:47.23,0:04:48.18,DogDays-main,noi,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:04:49.24,0:04:50.43,DogDays-main,noi,0000,0000,0000,,Secret Escort Troop.
+Dialogue: 0,0:04:50.43,0:04:52.68,DogDays-main,yuki,0000,0000,0000,,At your service!
+Dialogue: 0,0:04:54.54,0:04:57.01,DogDays-main,yuki,0000,0000,0000,,Okay, Noir, can you \Ntake the picture then?
+Dialogue: 0,0:04:57.01,0:04:58.44,DogDays-main,noir,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:59.85,0:05:03.94,DogDays-main,cou,0000,0000,0000,,All right, there's still plenty \Nof places I want to show you!
+Dialogue: 0,0:05:37.87,0:05:40.86,DogDays-main,cou,0000,0000,0000,,Adel-sama, Isuka-dono?
+Dialogue: 0,0:05:43.59,0:05:46.36,DogDays-main,adel,0000,0000,0000,,The Hero Crystals I gave \Nto Sink and Gaul...
+Dialogue: 0,0:05:46.36,0:05:48.62,DogDays-main,adel,0000,0000,0000,,we never gave you one, Nanami.
+Dialogue: 0,0:05:48.62,0:05:50.16,DogDays-main,nan,0000,0000,0000,,Oh, yeah...
+Dialogue: 0,0:05:50.16,0:05:53.55,DogDays-main,adel,0000,0000,0000,,You also have the proper \Nqualifications to be a Hero.
+Dialogue: 0,0:05:53.55,0:05:56.06,DogDays-main,,0000,0000,0000,,We'll make sure to have created one
+Dialogue: 0,0:05:56.06,0:05:57.71,DogDays-main,,0000,0000,0000,,for you by next time.
+Dialogue: 0,0:05:57.71,0:06:00.91,DogDays-main,nan,0000,0000,0000,,Really?! Thank you!
+Dialogue: 0,0:06:00.91,0:06:03.30,DogDays-main,val,0000,0000,0000,,Well, kid, we had quite \Nsome experiences,
+Dialogue: 0,0:06:03.80,0:06:07.10,DogDays-main,,0000,0000,0000,,but it was you and our little \Nshrimp that woke me,
+Dialogue: 0,0:06:07.10,0:06:08.80,DogDays-main,,0000,0000,0000,,so I'll say thanks.
+Dialogue: 0,0:06:08.80,0:06:11.90,DogDays-main,sink,0000,0000,0000,,I'd like to express \Nmy gratitude as well.
+Dialogue: 0,0:06:11.90,0:06:14.50,DogDays-main,val,0000,0000,0000,,You've inherited the Demon Crystal!
+Dialogue: 0,0:06:14.50,0:06:16.52,DogDays-main,,0000,0000,0000,,Make sure to keep training \Non the other side, as well!
+Dialogue: 0,0:06:16.98,0:06:19.52,DogDays-main,reb,0000,0000,0000,,Yes, I'll do my best!
+Dialogue: 0,0:06:19.93,0:06:21.10,DogDays-main,isu,0000,0000,0000,,Sorry that I didn't find
+Dialogue: 0,0:06:21.10,0:06:23.94,DogDays-main,,0000,0000,0000,,a better time to secretly \Nhand this over...
+Dialogue: 0,0:06:23.94,0:06:25.64,DogDays-main,mill,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:06:25.64,0:06:28.72,DogDays-main,leo,0000,0000,0000,,Really, thank you for \Nmaking the trip out here.
+Dialogue: 0,0:06:29.48,0:06:31.95,DogDays-main,isu,0000,0000,0000,,So anyway, here's what \Nyou asked for.
+Dialogue: 0,0:06:44.38,0:06:46.21,DogDays-main,gau,0000,0000,0000,,Everyone!
+Dialogue: 0,0:06:46.85,0:06:50.22,DogDays-main,,0000,0000,0000,,Our rulers and Heroes \Nare about to return!
+Dialogue: 0,0:06:50.22,0:06:52.21,DogDays-main,jau,0000,0000,0000,,The surprise Hero farewell party
+Dialogue: 0,0:06:52.21,0:06:54.51,DogDays-main,,0000,0000,0000,,organized by us young knights...
+Dialogue: 0,0:06:54.51,0:06:57.35,DogDays-main,ver,0000,0000,0000,,...will have to be really huge!
+Dialogue: 0,0:06:59.67,0:07:02.05,DogDays-main,ecl,0000,0000,0000,,This has indeed become quite huge.
+Dialogue: 0,0:07:02.05,0:07:04.75,DogDays-main,cara,0000,0000,0000,,Yes, Prince Gaul's \Nholding the reins.
+Dialogue: 0,0:07:04.75,0:07:08.81,DogDays-main,emi,0000,0000,0000,,The princesses and Heroes are arriving!
+Dialogue: 0,0:07:08.81,0:07:10.61,DogDays-main,ric,0000,0000,0000,,Everybody, get ready!
+Dialogue: 0,0:07:20.83,0:07:23.84,DogDays-main,gau,0000,0000,0000,,I bet you didn't expect that, did you?!
+Dialogue: 0,0:07:23.84,0:07:26.70,DogDays-main,ver,0000,0000,0000,,You were probably thinking \Nof having a light meal,
+Dialogue: 0,0:07:26.70,0:07:28.67,DogDays-main,,0000,0000,0000,,but we won't allow that!
+Dialogue: 0,0:07:28.67,0:07:30.50,DogDays-main,jau,0000,0000,0000,,A surprise party organized by us
+Dialogue: 0,0:07:30.50,0:07:32.98,DogDays-main,,0000,0000,0000,,young knights to thank our rulers
+Dialogue: 0,0:07:32.98,0:07:34.51,DogDays-main,,0000,0000,0000,,and Heroes for their hard work.
+Dialogue: 0,0:07:35.06,0:07:38.27,DogDays-main,jau,0000,0000,0000,,I bet you never suspected that \Nwe had planned this all along!
+Dialogue: 0,0:07:38.27,0:07:40.74,DogDays-main,sink,0000,0000,0000,,We didn't!
+Dialogue: 0,0:07:40.74,0:07:42.60,DogDays-main,nana,0000,0000,0000,,You got us!
+Dialogue: 0,0:07:42.97,0:07:45.25,DogDays-main,jau,0000,0000,0000,,Now rulers and Heroes, please...
+Dialogue: 0,0:07:45.25,0:07:47.94,DogDays-main,ver,0000,0000,0000,,...take each others' hands \Nand get up on stage!
+Dialogue: 0,0:08:01.59,0:08:03.71,DogDays-main,isu,0000,0000,0000,,Hey, Hina. I'm back.
+Dialogue: 0,0:08:04.00,0:08:05.17,DogDays-main,brio,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:08:05.60,0:08:07.42,DogDays-main,isu,0000,0000,0000,,I got this from the princesses.
+Dialogue: 0,0:08:07.42,0:08:08.52,DogDays-main,isu,0000,0000,0000,,Shall we?
+Dialogue: 0,0:08:09.37,0:08:11.86,DogDays-main,brio,0000,0000,0000,,Sounds good. I'll have some.
+Dialogue: 0,0:08:17.36,0:08:19.22,DogDays-main,brio,0000,0000,0000,,So how was the farewell party?
+Dialogue: 0,0:08:19.22,0:08:21.93,DogDays-main,isu,0000,0000,0000,,The young ones all seemed to have fun.
+Dialogue: 0,0:08:21.93,0:08:26.44,DogDays-main,isu,0000,0000,0000,,They liked the swords\NI made, too.
+Dialogue: 0,0:08:26.44,0:08:28.19,DogDays-main,brio,0000,0000,0000,,What did you make them?
+Dialogue: 0,0:08:28.59,0:08:30.70,DogDays-main,isu,0000,0000,0000,,Small blades for use at home.
+Dialogue: 0,0:08:30.70,0:08:32.36,DogDays-main,isu,0000,0000,0000,,An all-around knife
+Dialogue: 0,0:08:32.36,0:08:35.68,DogDays-main,,0000,0000,0000,,great for cutting fruit or for camping.
+Dialogue: 0,0:08:36.65,0:08:39.87,DogDays-main,isu,0000,0000,0000,,Since Rebecca likes cooking, \NI made her a cooking knife.
+Dialogue: 0,0:08:40.32,0:08:42.85,DogDays-main,brio,0000,0000,0000,,You made household blades, eh?
+Dialogue: 0,0:08:42.85,0:08:44.78,DogDays-main,,0000,0000,0000,,That brings back memories.
+Dialogue: 0,0:08:44.78,0:08:46.21,DogDays-main,isu,0000,0000,0000,,You're telling me.
+Dialogue: 0,0:08:46.95,0:08:51.34,DogDays-main,isu,0000,0000,0000,,But I got to make nice blades \Nand see nice smiles.
+Dialogue: 0,0:08:51.98,0:08:55.22,DogDays-main,isu,0000,0000,0000,,That alone made it worth coming back.
+Dialogue: 0,0:08:55.57,0:08:56.55,DogDays-main,brio,0000,0000,0000,,I see.
+Dialogue: 0,0:09:01.47,0:09:04.18,DogDays-main,rize,0000,0000,0000,,Welcome back, everybody.
+Dialogue: 0,0:09:04.18,0:09:05.72,DogDays-main,isnk,0000,0000,0000,,Captain Riselle!
+Dialogue: 0,0:09:05.72,0:09:07.66,DogDays-main,mill,0000,0000,0000,,We're back!
+Dialogue: 0,0:09:09.29,0:09:11.03,DogDays-main,reb,0000,0000,0000,,Princess, sorry for the wait.
+Dialogue: 0,0:09:11.03,0:09:12.34,DogDays-main,mill,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:09:12.34,0:09:14.10,DogDays-main,mill,0000,0000,0000,,Oh, where's Cou-sama?
+Dialogue: 0,0:09:14.10,0:09:17.01,DogDays-main,reb,0000,0000,0000,,We both left after getting \Nready, but she said
+Dialogue: 0,0:09:17.01,0:09:18.91,DogDays-main,,0000,0000,0000,,she remembered some urgent business.
+Dialogue: 0,0:09:18.91,0:09:20.41,DogDays-main,mill,0000,0000,0000,,Oh.
+Dialogue: 0,0:09:25.55,0:09:27.54,DogDays-main,cou,0000,0000,0000,,Sink, you're late!
+Dialogue: 0,0:09:27.54,0:09:29.96,DogDays-main,sink,0000,0000,0000,,Wha... Cou-sama?!
+Dialogue: 0,0:09:29.96,0:09:32.82,DogDays-main,cou,0000,0000,0000,,I wanted to give \Nthose two "girl talk" fans
+Dialogue: 0,0:09:32.82,0:09:34.59,DogDays-main,,0000,0000,0000,,as much time alone as possible.
+Dialogue: 0,0:09:34.59,0:09:38.00,DogDays-main,cou,0000,0000,0000,,So why don't we two inheritors of
+Dialogue: 0,0:09:38.00,0:09:40.60,DogDays-main,,0000,0000,0000,,the Hero King take a bath together?
+Dialogue: 0,0:09:50.13,0:09:52.19,DogDays-main,mill,0000,0000,0000,,That reminds me, Rebecca-san.
+Dialogue: 0,0:09:52.19,0:09:55.24,DogDays-main,mill,0000,0000,0000,,Do you think you'll get \Nanywhere with that thing?
+Dialogue: 0,0:09:55.24,0:10:00.07,DogDays-main,reb,0000,0000,0000,,Oh, you mean that Sink \Nalways calls me Becky?
+Dialogue: 0,0:10:00.07,0:10:01.55,DogDays-main,mil,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:01.55,0:10:03.22,DogDays-main,reb,0000,0000,0000,,Not at all.
+Dialogue: 0,0:10:03.22,0:10:06.08,DogDays-main,,0000,0000,0000,,I think I'll always be Becky to him.
+Dialogue: 0,0:10:06.55,0:10:09.37,DogDays-main,reb,0000,0000,0000,,To him, I'll always be the girl
+Dialogue: 0,0:10:09.37,0:10:12.53,DogDays-main,,0000,0000,0000,,that was his little childhood friend.
+Dialogue: 0,0:10:13.20,0:10:15.65,DogDays-main,mill,0000,0000,0000,,I don't think that's necessarily true.
+Dialogue: 0,0:10:15.65,0:10:17.40,DogDays-main,reb,0000,0000,0000,,Well, it's okay.
+Dialogue: 0,0:10:17.40,0:10:19.43,DogDays-main,,0000,0000,0000,,Nothing's changed anyway.
+Dialogue: 0,0:10:19.43,0:10:24.06,DogDays-main,reb,0000,0000,0000,,Anyway, I think your work \Nwill be really hard,
+Dialogue: 0,0:10:24.06,0:10:26.43,DogDays-main,reb,0000,0000,0000,,so if you ever need \Nmy help, let me know.
+Dialogue: 0,0:10:26.43,0:10:31.42,DogDays-main,reb,0000,0000,0000,,I'm Pastillage's Hero, but \NI am also your best friend.
+Dialogue: 0,0:10:31.42,0:10:34.25,DogDays-main,mill,0000,0000,0000,,Yes, thank you.
+Dialogue: 0,0:10:35.19,0:10:38.19,DogDays-main,mill,0000,0000,0000,,The same goes for you, \Nany time you need me!
+Dialogue: 0,0:10:38.19,0:10:40.82,DogDays-main,reb,0000,0000,0000,,Yes, thank you, Princess.
+Dialogue: 0,0:10:42.19,0:10:44.93,DogDays-main,cou,0000,0000,0000,,Sink, you're so good.
+Dialogue: 0,0:10:44.93,0:10:47.26,DogDays-main,sin,0000,0000,0000,,Really? Thank you.
+Dialogue: 0,0:10:47.26,0:10:48.44,DogDays-main,sin,0000,0000,0000,,All right. Rinsing it out now.
+Dialogue: 0,0:10:48.44,0:10:49.08,DogDays-main,cou,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:56.19,0:11:01.20,DogDays-main,cou,0000,0000,0000,,Oh yeah, I wanted to \Nask you something.
+Dialogue: 0,0:11:01.20,0:11:02.55,DogDays-main,sink,0000,0000,0000,,Yes, what is it?
+Dialogue: 0,0:11:03.17,0:11:05.41,DogDays-main,cou,0000,0000,0000,,Do you have any plans to get together
+Dialogue: 0,0:11:05.41,0:11:08.35,DogDays-main,,0000,0000,0000,,with Rebecca or Millihi-nee, \Nor maybe both?
+Dialogue: 0,0:11:08.35,0:11:09.26,DogDays-main,sink,0000,0000,0000,,What?!
+Dialogue: 0,0:11:09.26,0:11:11.97,DogDays-main,cou,0000,0000,0000,,You know, if a ruler \Nand Hero get married,
+Dialogue: 0,0:11:11.97,0:11:14.36,DogDays-main,,0000,0000,0000,,it has some influence on the \Ncountry ruling business, so...
+Dialogue: 0,0:11:14.36,0:11:19.36,DogDays-main,cou,0000,0000,0000,,Uhh.. let's wash your tail first!
+Dialogue: 0,0:11:19.36,0:11:21.24,DogDays-main,cou,0000,0000,0000,,Please do!
+Dialogue: 0,0:11:22.08,0:11:25.76,DogDays-main,sin,0000,0000,0000,,Well, I'm still just a fledgling \NHero, and I haven't
+Dialogue: 0,0:11:25.76,0:11:27.49,DogDays-main,,0000,0000,0000,,reached my goal yet.
+Dialogue: 0,0:11:27.79,0:11:29.19,DogDays-main,cou,0000,0000,0000,,Goal?
+Dialogue: 0,0:11:29.74,0:11:31.00,DogDays-main,sink,0000,0000,0000,,Winning against Nanami.
+Dialogue: 0,0:11:32.00,0:11:34.06,DogDays-main,sink,0000,0000,0000,,We've had quite a few fights,
+Dialogue: 0,0:11:34.06,0:11:36.25,DogDays-main,,0000,0000,0000,,but I've never beat her in a serious match
+Dialogue: 0,0:11:36.25,0:11:38.26,DogDays-main,,0000,0000,0000,,or public event.
+Dialogue: 0,0:11:38.26,0:11:40.00,DogDays-flashback,nana,0000,0000,0000,,Victory!
+Dialogue: 0,0:11:40.00,0:11:43.27,DogDays-main,cou,0000,0000,0000,,Oh yeah, you did lose in the \None-on-one during the Fest.
+Dialogue: 0,0:11:43.27,0:11:44.26,DogDays-main,sin,0000,0000,0000,,Yes...
+Dialogue: 0,0:11:45.59,0:11:47.93,DogDays-main,sin,0000,0000,0000,,It's my goal to win \Nagainst Nanami during
+Dialogue: 0,0:11:47.93,0:11:49.71,DogDays-main,,0000,0000,0000,,a public event on earth.
+Dialogue: 0,0:11:49.71,0:11:53.46,DogDays-main,sin,0000,0000,0000,,Until that's done,\N I'll always be just a kid.
+Dialogue: 0,0:11:54.00,0:11:57.27,DogDays-main,sin,0000,0000,0000,,That's why I think it's too \Nearly for things like that.
+Dialogue: 0,0:11:57.27,0:11:59.55,DogDays-main,cou,0000,0000,0000,,I see.
+Dialogue: 0,0:11:59.55,0:12:02.64,DogDays-main,cou,0000,0000,0000,,Don't forget that you \Nhave to take care of those
+Dialogue: 0,0:12:02.64,0:12:05.57,DogDays-main,,0000,0000,0000,,who stay by your side while \Nyou march towards your goal.
+Dialogue: 0,0:12:05.57,0:12:06.85,DogDays-main,sink,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:08.04,0:12:09.84,DogDays-main,sink,0000,0000,0000,,Thank you, Cou-sama.
+Dialogue: 0,0:12:09.84,0:12:10.95,DogDays-main,,0000,0000,0000,,I'll make sure to remember that.
+Dialogue: 0,0:12:10.95,0:12:12.32,DogDays-main,cou,0000,0000,0000,,Okay.
+Dialogue: 0,0:12:15.46,0:12:17.10,DogDays-main,cou,0000,0000,0000,,Rebecca!
+Dialogue: 0,0:12:17.10,0:12:18.13,DogDays-main,reb,0000,0000,0000,,Cou-sama!
+Dialogue: 0,0:12:18.13,0:12:20.02,DogDays-main,reb,0000,0000,0000,,Was your bath okay?
+Dialogue: 0,0:12:20.02,0:12:23.01,DogDays-main,cou,0000,0000,0000,,Sink washed me, so I'm all good.
+Dialogue: 0,0:12:23.01,0:12:25.72,DogDays-main,reb,0000,0000,0000,,Ah, a freshly washed Cou-sama.
+Dialogue: 0,0:12:25.72,0:12:27.11,DogDays-main,,0000,0000,0000,,You smell good.
+Dialogue: 0,0:12:27.11,0:12:28.51,DogDays-main,cou,0000,0000,0000,,Indeed.
+Dialogue: 0,0:12:28.96,0:12:31.77,DogDays-main,mill,0000,0000,0000,,You two, please feel free \Nto move onto the bed.
+Dialogue: 0,0:12:31.77,0:12:33.02,DogDays-main,both,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:33.53,0:12:35.08,DogDays-main,mill,0000,0000,0000,,Sink, you, too.
+Dialogue: 0,0:12:35.08,0:12:36.04,DogDays-main,sink,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:36.04,0:12:37.73,DogDays-main,sink,0000,0000,0000,,Wait, I don't think that's okay.
+Dialogue: 0,0:12:38.38,0:12:40.65,DogDays-main,cou,0000,0000,0000,,Let's sleep together!
+Dialogue: 0,0:12:40.65,0:12:42.34,DogDays-main,mil,0000,0000,0000,,Come on, Sink.
+Dialogue: 0,0:12:42.34,0:12:45.24,DogDays-main,sink,0000,0000,0000,,If you say so...
+Dialogue: 0,0:12:45.24,0:12:48.55,DogDays-main,cou,0000,0000,0000,,Sink, come here!
+Dialogue: 0,0:12:53.12,0:12:55.30,DogDays-main,sink,0000,0000,0000,,Those two are already asleep.
+Dialogue: 0,0:12:55.30,0:12:57.38,DogDays-main,mill,0000,0000,0000,,They got up early today.
+Dialogue: 0,0:13:00.25,0:13:02.57,DogDays-main,mill,0000,0000,0000,,I'll turn off the lights.
+Dialogue: 0,0:13:07.44,0:13:09.07,DogDays-main,mill,0000,0000,0000,,So, Sink...
+Dialogue: 0,0:13:09.07,0:13:09.99,DogDays-main,sin,0000,0000,0000,,Yes?
+Dialogue: 0,0:13:09.99,0:13:12.05,DogDays-main,mill,0000,0000,0000,,Do you remember how I said
+Dialogue: 0,0:13:12.05,0:13:16.98,DogDays-main,,0000,0000,0000,,that I loved you when \Nwe parted last time?
+Dialogue: 0,0:13:16.98,0:13:19.61,DogDays-main,sink,0000,0000,0000,,Of course. I said the same thing.
+Dialogue: 0,0:13:19.61,0:13:21.94,DogDays-main,mill,0000,0000,0000,,It's kind of like a dream
+Dialogue: 0,0:13:21.94,0:13:26.36,DogDays-main,,0000,0000,0000,,that I'm holding the hand \NI let go of back then.
+Dialogue: 0,0:13:26.36,0:13:29.78,DogDays-main,mill,0000,0000,0000,,Though we do have to part again soon.
+Dialogue: 0,0:13:33.37,0:13:35.05,DogDays-main,sin,0000,0000,0000,,The next time I can come
+Dialogue: 0,0:13:35.05,0:13:36.87,DogDays-main,,0000,0000,0000,,will be after my exams in fall.
+Dialogue: 0,0:13:36.87,0:13:38.80,DogDays-main,sin,0000,0000,0000,,It'll be really soon.
+Dialogue: 0,0:13:38.80,0:13:41.38,DogDays-main,mill,0000,0000,0000,,Yes, I'll be waiting.
+Dialogue: 0,0:13:42.23,0:13:44.79,DogDays-main,mill,0000,0000,0000,,Tonight I want to hug you tightly
+Dialogue: 0,0:13:44.79,0:13:49.11,DogDays-main,,0000,0000,0000,,so I won't forget your \Nsmell and warmth.
+Dialogue: 0,0:13:49.11,0:13:50.42,DogDays-main,,0000,0000,0000,,Is that okay?
+Dialogue: 0,0:13:50.42,0:13:53.00,DogDays-main,sin,0000,0000,0000,,Of course, as much as you want.
+Dialogue: 0,0:13:53.00,0:13:55.63,DogDays-main,mill,0000,0000,0000,,Then hug!
+Dialogue: 0,0:13:59.38,0:14:02.66,DogDays-main,mill,0000,0000,0000,,So warm... and happy...
+Dialogue: 0,0:14:12.96,0:14:16.84,DogDays-main,vio,0000,0000,0000,,Now, Leo-sama, \NNanami-san, it's morning!
+Dialogue: 0,0:14:16.84,0:14:21.00,DogDays-main,vio,0000,0000,0000,,Gau-sama and Genoise, \Nget up, get up, get up!
+Dialogue: 0,0:14:26.63,0:14:28.13,DogDays-main,vio,0000,0000,0000,,Come on, get up, please!
+Dialogue: 0,0:14:28.97,0:14:32.24,DogDays-main,nana,0000,0000,0000,,Violet-san, you're sticking \Nto the routine too much...
+Dialogue: 0,0:14:32.24,0:14:34.31,DogDays-main,leo,0000,0000,0000,,Can't you think of a more gentle way
+Dialogue: 0,0:14:34.31,0:14:36.98,DogDays-main,,0000,0000,0000,,to wake us on the day we have to part?
+Dialogue: 0,0:14:36.98,0:14:39.98,DogDays-main,vio,0000,0000,0000,,This has nothing to do with that.
+Dialogue: 0,0:14:42.64,0:14:45.86,DogDays-main,old,0000,0000,0000,,After completing many tasks,
+Dialogue: 0,0:14:45.86,0:14:49.49,DogDays-main,,0000,0000,0000,,the Heroes will return to \Ntheir homeland for now.
+Dialogue: 0,0:14:49.93,0:14:52.10,DogDays-main,old,0000,0000,0000,,Biscotti's Hero, Sink,
+Dialogue: 0,0:14:52.10,0:14:54.36,DogDays-main,,0000,0000,0000,,and Pastillage's Hero, Rebecca,
+Dialogue: 0,0:14:54.36,0:14:56.33,DogDays-main,,0000,0000,0000,,shall have some time to recover.
+Dialogue: 0,0:14:56.62,0:15:00.51,DogDays-main,old,0000,0000,0000,,Now, please return the divine \Nswords to your summoners.
+Dialogue: 0,0:15:07.15,0:15:10.36,DogDays-main,leo,0000,0000,0000,,The return ritual is now finished.
+Dialogue: 0,0:15:11.32,0:15:13.10,DogDays-main,nana,0000,0000,0000,,Thank you!
+Dialogue: 0,0:15:20.93,0:15:23.65,DogDays-main,cou,0000,0000,0000,,Rebecca, I want you to have this.
+Dialogue: 0,0:15:26.30,0:15:31.24,DogDays-main,cou,0000,0000,0000,,It's my treasure; my mother \Ngave it to me before she left.
+Dialogue: 0,0:15:32.05,0:15:34.03,DogDays-main,reb,0000,0000,0000,,So the other day, you \Nwent to go get this?
+Dialogue: 0,0:15:34.03,0:15:35.78,DogDays-main,cou,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:36.53,0:15:38.40,DogDays-main,cou,0000,0000,0000,,I want you to have it...
+Dialogue: 0,0:15:38.40,0:15:41.37,DogDays-main,,0000,0000,0000,,and, if possible, wear it often.
+Dialogue: 0,0:15:41.37,0:15:43.81,DogDays-main,reb,0000,0000,0000,,But this is too precious...
+Dialogue: 0,0:15:45.75,0:15:47.92,DogDays-main,cou,0000,0000,0000,,The summoner and the Hero.
+Dialogue: 0,0:15:47.92,0:15:50.80,DogDays-main,cou,0000,0000,0000,,An article of promise to \Nconnect the two worlds.
+Dialogue: 0,0:15:51.14,0:15:54.66,DogDays-main,cou,0000,0000,0000,,For that, an item that both \Nhave deep ties to is best.
+Dialogue: 0,0:15:54.66,0:15:56.10,DogDays-main,cou,0000,0000,0000,,That's one of the requirements
+Dialogue: 0,0:15:56.10,0:15:58.06,DogDays-main,,0000,0000,0000,,of Rico's new summoning technique.
+Dialogue: 0,0:15:58.06,0:16:02.06,DogDays-main,cou,0000,0000,0000,,I'm sure that this will definitely \Ncreate a path for us.
+Dialogue: 0,0:16:03.53,0:16:05.52,DogDays-main,reb,0000,0000,0000,,Then I'll keep it safe for you.
+Dialogue: 0,0:16:05.52,0:16:07.05,DogDays-main,reb,0000,0000,0000,,I'll make sure that I can return it
+Dialogue: 0,0:16:07.05,0:16:09.44,DogDays-main,,0000,0000,0000,,any time you want to wear it.
+Dialogue: 0,0:16:09.44,0:16:11.72,DogDays-main,cou,0000,0000,0000,,Thank you.
+Dialogue: 0,0:16:14.52,0:16:16.07,DogDays-main,reb,0000,0000,0000,,I love you, Cou-sama!
+Dialogue: 0,0:16:16.07,0:16:18.12,DogDays-main,cou,0000,0000,0000,,I love you, too, Rebecca!
+Dialogue: 0,0:16:20.24,0:16:22.46,DogDays-main,mill,0000,0000,0000,,Sink, I have this for you.
+Dialogue: 0,0:16:23.26,0:16:25.88,DogDays-main,mill,0000,0000,0000,,It's a Biscotti-made Earth clock.
+Dialogue: 0,0:16:26.21,0:16:28.13,DogDays-main,mill,0000,0000,0000,,Rico designed it,
+Dialogue: 0,0:16:28.13,0:16:33.38,DogDays-main,,0000,0000,0000,,and Eclair, Yukikaze, and \NI helped with the assembly.
+Dialogue: 0,0:16:35.86,0:16:39.14,DogDays-main,sink,0000,0000,0000,,Thank you. I will treasure this.
+Dialogue: 0,0:16:39.14,0:16:39.97,DogDays-main,mill,0000,0000,0000,,Okay!
+Dialogue: 0,0:16:44.17,0:16:45.73,DogDays-main,leo,0000,0000,0000,,This is from me.
+Dialogue: 0,0:16:46.17,0:16:50.99,DogDays-main,leo,0000,0000,0000,,The Galette army's MVP \Nprize for the Union Fest.
+Dialogue: 0,0:16:51.42,0:16:54.15,DogDays-main,nana,0000,0000,0000,,Awesome! Thank you!
+Dialogue: 0,0:16:56.16,0:16:58.80,DogDays-main,nana,0000,0000,0000,,I'll probably be back here in no time!
+Dialogue: 0,0:16:58.80,0:17:00.49,DogDays-main,,0000,0000,0000,,So please wait for me, Leo-sama!
+Dialogue: 0,0:17:00.49,0:17:03.99,DogDays-main,leo,0000,0000,0000,,Yes, I'm counting on you, Hero Nanami.
+Dialogue: 0,0:17:06.23,0:17:08.75,DogDays-main,reb,0000,0000,0000,,All right, Princess, Cou-sama.
+Dialogue: 0,0:17:08.75,0:17:10.61,DogDays-main,cou,0000,0000,0000,,Bye you two!
+Dialogue: 0,0:17:10.61,0:17:12.51,DogDays-main,mill,0000,0000,0000,,See you soon!
+Dialogue: 0,0:17:12.51,0:17:13.75,DogDays-main,both,0000,0000,0000,,Yes!
+Dialogue: 0,0:17:32.53,0:17:35.53,location,txt,0000,0000,0000,,{\fad(500,1)}Earth / Great Britain, City of London
+Dialogue: 0,0:17:39.84,0:17:40.66,DogDays-main,ikk,0000,0000,0000,,Oh?
+Dialogue: 0,0:17:40.66,0:17:42.98,DogDays-main,ikk,0000,0000,0000,,Welcome back, Nanami.
+Dialogue: 0,0:17:44.66,0:17:46.11,DogDays-main,nan,0000,0000,0000,,Mom...
+Dialogue: 0,0:17:46.11,0:17:47.97,DogDays-main,ikk,0000,0000,0000,,When did you get back?
+Dialogue: 0,0:17:47.97,0:17:50.92,DogDays-main,,0000,0000,0000,,I would have come to pick \Nyou up, if you had called.
+Dialogue: 0,0:17:51.27,0:17:53.49,DogDays-main,nana,0000,0000,0000,,I'm home...
+Dialogue: 0,0:17:53.49,0:17:55.65,DogDays-main,ikk,0000,0000,0000,,What?  Are you still jet-lagged?
+Dialogue: 0,0:17:56.28,0:17:58.93,DogDays-main,ikk,0000,0000,0000,,Make sure to put out \Nyour laundry and trash.
+Dialogue: 0,0:17:58.93,0:18:00.37,DogDays-main,nana,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:01.18,0:18:03.93,location,txt,0000,0000,0000,,{\fad(500,1)}Same Day - Earth / Japan Kinokawa City, Tokino
+Dialogue: 0,0:18:08.80,0:18:11.19,DogDays-main,reb,0000,0000,0000,,Is this your room?
+Dialogue: 0,0:18:17.98,0:18:18.93,DogDays-main,sin,0000,0000,0000,,Yes?!
+Dialogue: 0,0:18:18.93,0:18:20.36,DogDays-main,nana,0000,0000,0000,,Hey, Sink.
+Dialogue: 0,0:18:20.36,0:18:22.70,DogDays-main,sin,0000,0000,0000,,Nanami? You got home safely?
+Dialogue: 0,0:18:22.70,0:18:25.23,DogDays-main,nana,0000,0000,0000,,Yeah, how about you?
+Dialogue: 0,0:18:25.23,0:18:26.41,DogDays-main,sin,0000,0000,0000,,We're fine, too.
+Dialogue: 0,0:18:26.41,0:18:27.39,DogDays-main,,0000,0000,0000,,Want to talk to Becky?
+Dialogue: 0,0:18:27.39,0:18:28.21,DogDays-main,sin,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:28.21,0:18:30.94,DogDays-main,reb,0000,0000,0000,,Yes. I'm fine, too.
+Dialogue: 0,0:18:30.94,0:18:33.28,DogDays-main,,0000,0000,0000,,Where did you go back to?
+Dialogue: 0,0:18:34.58,0:18:39.57,DogDays-narrator,reb,0000,0000,0000,,So our summer of \Nadventures came to a close.
+Dialogue: 0,0:18:43.26,0:18:45.92,DogDays-narrator,reb,0000,0000,0000,,Our memories stayed with us,
+Dialogue: 0,0:18:45.92,0:18:48.15,DogDays-narrator,reb,0000,0000,0000,,and we have solid proof we were there, too.
+Dialogue: 0,0:18:51.72,0:18:53.77,DogDays-main,reb,0000,0000,0000,,It's nice to be home,
+Dialogue: 0,0:18:53.77,0:18:57.24,DogDays-main,,0000,0000,0000,,but since I slept with \NCou-sama every night,
+Dialogue: 0,0:18:57.24,0:18:59.24,DogDays-main,,0000,0000,0000,,I can't settle down...
+Dialogue: 0,0:18:59.52,0:19:02.17,DogDays-internal,sink,0000,0000,0000,,That's something every \NHero has to deal with.
+Dialogue: 0,0:19:02.17,0:19:03.44,DogDays-main,,0000,0000,0000,,Hang in there!
+Dialogue: 0,0:19:03.44,0:19:06.37,DogDays-main,reb,0000,0000,0000,,I really understand how you felt \Nat the beginning of spring now.
+Dialogue: 0,0:19:06.37,0:19:07.33,DogDays-main,sink,0000,0000,0000,,See!
+Dialogue: 0,0:19:08.14,0:19:09.79,DogDays-internal,sink,0000,0000,0000,,Oh, did you write your letter?
+Dialogue: 0,0:19:09.79,0:19:11.33,DogDays-main,reb,0000,0000,0000,,Yes, I did.
+Dialogue: 0,0:19:11.33,0:19:14.22,DogDays-main,reb,0000,0000,0000,,We're doing our homework at \Nthe library tomorrow, right?
+Dialogue: 0,0:19:14.22,0:19:16.26,DogDays-main,reb,0000,0000,0000,,Will you look over it to make sure I
+Dialogue: 0,0:19:16.26,0:19:18.09,DogDays-main,,0000,0000,0000,,didn't mess up the Flonyard letters?
+Dialogue: 0,0:19:18.09,0:19:20.14,DogDays-main,reb,0000,0000,0000,,Roger that.
+Dialogue: 0,0:19:20.14,0:19:22.14,DogDays-main,mom,0000,0000,0000,,Sink, come eat.
+Dialogue: 0,0:19:22.55,0:19:23.64,DogDays-main,sin,0000,0000,0000,,Okay!
+Dialogue: 0,0:19:23.64,0:19:25.88,DogDays-main,reb,0000,0000,0000,,See you tomorrow.
+Dialogue: 0,0:19:32.65,0:19:34.11,DogDays-main,reb,0000,0000,0000,,Mom, this way!
+Dialogue: 0,0:19:37.77,0:19:39.62,DogDays-main,reb,0000,0000,0000,,Sink, sorry for the wait.
+Dialogue: 0,0:19:39.62,0:19:41.28,DogDays-main,reb,0000,0000,0000,,Hey...
+Dialogue: 0,0:19:47.40,0:19:48.57,DogDays-main,reb,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:19:48.57,0:19:50.04,DogDays-main,sin,0000,0000,0000,,No, it's just that I haven't
+Dialogue: 0,0:19:50.04,0:19:52.37,DogDays-main,,0000,0000,0000,,seen you outside with your hair down often.
+Dialogue: 0,0:19:53.79,0:19:57.38,DogDays-main,reb,0000,0000,0000,,I kind of did it so that it would \Nwork with Cou-sama's pendant.
+Dialogue: 0,0:19:58.93,0:20:01.08,DogDays-main,reb,0000,0000,0000,,I look a bit older, don't I?
+Dialogue: 0,0:20:01.08,0:20:02.93,DogDays-main,sin,0000,0000,0000,,I was surprised because you \Nlook quite a bit older.
+Dialogue: 0,0:20:03.33,0:20:05.22,DogDays-main,sin,0000,0000,0000,,Becky, you're really pretty!
+Dialogue: 0,0:20:06.54,0:20:08.03,DogDays-main,reb,0000,0000,0000,,Thanks.
+Dialogue: 0,0:20:08.86,0:20:10.35,DogDays-main,sin,0000,0000,0000,,That reminds me,
+Dialogue: 0,0:20:10.35,0:20:13.74,DogDays-main,,0000,0000,0000,,you saved me during the \Npendant episode, too.
+Dialogue: 0,0:20:13.74,0:20:16.86,DogDays-main,reb,0000,0000,0000,,We both did it. The two Heroes.
+Dialogue: 0,0:20:17.20,0:20:21.36,DogDays-main,sin,0000,0000,0000,,Since you're a Hero and \Ntotally look grown up,
+Dialogue: 0,0:20:21.75,0:20:26.48,DogDays-main,,0000,0000,0000,,I think calling you by your childhood \Nname "Becky" might be rude.
+Dialogue: 0,0:20:26.48,0:20:30.16,DogDays-main,sin,0000,0000,0000,,I guess then it's "Rebecca"?
+Dialogue: 0,0:20:31.81,0:20:35.81,DogDays-main,reb,0000,0000,0000,,Well, I did think that I might like it
+Dialogue: 0,0:20:35.81,0:20:37.67,DogDays-main,,0000,0000,0000,,if you called me that...
+Dialogue: 0,0:20:44.44,0:20:45.40,DogDays-main,sin,0000,0000,0000,,Rebecca.
+Dialogue: 0,0:20:47.02,0:20:49.04,DogDays-main,reb,0000,0000,0000,,It's way more embarrassing\N than I imagined
+Dialogue: 0,0:20:49.04,0:20:50.91,DogDays-main,,0000,0000,0000,,to have you \Nactually call me that!
+Dialogue: 0,0:20:50.91,0:20:52.44,DogDays-main,reb,0000,0000,0000,,Why does it feel so weird?!
+Dialogue: 0,0:20:52.44,0:20:55.71,DogDays-main,sin,0000,0000,0000,,Rebecca, it's just because \Nyou're not used to it.
+Dialogue: 0,0:20:55.71,0:20:56.65,DogDays-main,,0000,0000,0000,,Rebecca?
+Dialogue: 0,0:20:56.65,0:20:59.29,DogDays-main,reb,0000,0000,0000,,Stop. Stop, I can't!
+Dialogue: 0,0:21:00.51,0:21:01.23,DogDays-main,,0000,0000,0000,,Really?
+Dialogue: 0,0:21:02.14,0:21:05.46,DogDays-main,reb,0000,0000,0000,,I'm sorry. I'll be fine \Nwith Becky for now.
+Dialogue: 0,0:21:05.46,0:21:07.00,DogDays-main,reb,0000,0000,0000,,I'll change my hair back, too.
+Dialogue: 0,0:21:07.00,0:21:09.99,DogDays-main,sin,0000,0000,0000,,Well if you say so, Becky.
+Dialogue: 0,0:21:11.52,0:21:14.67,DogDays-main,reb,0000,0000,0000,,Sink, you're so nice, even though \NI'm being totally crazy.
+Dialogue: 0,0:21:14.67,0:21:16.21,DogDays-main,sin,0000,0000,0000,,No, no.
+Dialogue: 0,0:21:17.18,0:21:19.90,DogDays-main,reb,0000,0000,0000,,Thank you, Sink. I love you!
+Dialogue: 0,0:21:19.90,0:21:22.76,DogDays-main,sin,0000,0000,0000,,Yes! I love you, too!
+Dialogue: 0,0:21:23.19,0:21:24.22,DogDays-main,reb,0000,0000,0000,,Let's go!
+Dialogue: 0,0:21:24.22,0:21:25.14,DogDays-main,sin,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:27.19,0:21:29.77,DogDays-narrator,reb,0000,0000,0000,,The second summer vacation \Nof middle school...
+Dialogue: 0,0:21:29.77,0:21:32.47,DogDays-narrator,reb,0000,0000,0000,,It was the second time for \NSink, and the first time
+Dialogue: 0,0:21:32.47,0:21:34.50,DogDays-narrator,,0000,0000,0000,,for Nanami and myself to \Nlive the Hero experience.
+Dialogue: 0,0:21:35.22,0:21:37.43,DogDays-narrator,reb,0000,0000,0000,,The place where fun and hot days
+Dialogue: 0,0:21:37.43,0:21:40.16,DogDays-narrator,,0000,0000,0000,,and people we love are waiting for us...
+Dialogue: 0,0:21:40.70,0:21:44.56,DogDays-narrator,reb,0000,0000,0000,,We'll definitely be \Ngoing back there again.
+Dialogue: 0,0:23:30.72,0:23:32.95,DogDays-main,Leo,0000,0000,0000,,This summer was truly great, again.
+Dialogue: 0,0:23:32.95,0:23:35.48,DogDays-main,mill,0000,0000,0000,,Yes, and we'll be back \Ntogether in no time, right?
+Dialogue: 0,0:23:35.48,0:23:37.25,DogDays-main,cou,0000,0000,0000,,Yes, so everybody...
+Dialogue: 0,0:23:37.18,0:23:45.00,DogDays-next-ep-title,all/txt,0000,0000,0000,,{\an1\fad(900,1)}See you soon!
+Dialogue: 0,0:23:37.25,0:23:40.05,DogDays-main,all/txt,0000,0000,0000,,See you soon!
+Dialogue: 0,0:23:40.05,0:23:42.05,DogDays-main,,0000,0000,0000,,

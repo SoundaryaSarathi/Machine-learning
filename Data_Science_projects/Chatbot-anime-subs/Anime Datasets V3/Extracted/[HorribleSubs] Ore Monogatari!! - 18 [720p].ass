@@ -1,0 +1,477 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00CDAC98,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00D8CFCD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,160,53,113,0
+Style: EyecatchA,Open Sans Semibold,36,&H006461DA,&H000000FF,&H00FAFAFA,&H0079671A,1,0,0,0,100,100,0,0,1,2,0,9,27,53,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H00F5F7F2,&H000000FF,&H00000707,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,107,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00F6FFEA,&H000000FF,&H00759846,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Sunakawa,Open Sans Semibold,30,&H0036281C,&H000000FF,&H00F4F9F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Kurihara,Open Sans Semibold,30,&H0020405E,&H000000FF,&H005BC0C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-GrayWhite,Open Sans Semibold,33,&H0071706B,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,39,&H007A7050,&H000000FF,&H00F9F4E6,&H00F7F2E1,1,0,0,0,100,100,0,0,1,2,0,7,293,107,24,0
+Style: SFX-Red,Open Sans Semibold,33,&H005F56CE,&H000000FF,&H00505247,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,107,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,80,33,0
+Style: SFX-BlackRed,Open Sans Semibold,24,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,24,0
+Style: SFX-BrownWhite,Open Sans Semibold,27,&H00262C4A,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,80,80,24,0
+Style: SignA,Open Sans Semibold,33,&H00B36966,&H000000FF,&H002D0B04,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SignB,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00B9449F,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,53,53,131,0
+Style: SignC,Open Sans Semibold,33,&H0080C7C8,&H000000FF,&H00ECF9F9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,27,0
+Style: SignD,Open Sans Semibold,27,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,53,53,357,0
+Style: SignE,Open Sans Semibold,30,&H00304C95,&H000000FF,&H00A4E4F4,&H00726B7B,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.90,0:00:06.36,Default - italics,Kuri,0000,0000,0000,,I'm Kurihara Osamu, a first-year in high school.
+Dialogue: 0,0:00:06.86,0:00:10.11,Default - italics,Kuri,0000,0000,0000,,The candle we both lit in \Nour hearts on a holy night
+Dialogue: 0,0:00:10.52,0:00:13.03,Default - italics,Kuri,0000,0000,0000,,can never be extinguished.
+Dialogue: 0,0:00:18.20,0:00:20.87,Default,T,0000,0000,0000,,You kissed Nanako-san on Christmas?!
+Dialogue: 0,0:00:20.87,0:00:22.73,Default,T,0000,0000,0000,,The very first day you started dating?
+Dialogue: 0,0:00:22.73,0:00:23.54,Default,Kuri,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:23.54,0:00:25.75,Default,T,0000,0000,0000,,Isn't that too fast?
+Dialogue: 0,0:00:25.75,0:00:28.00,Default,Kuri,0000,0000,0000,,There aren't any rules for that—
+Dialogue: 0,0:00:28.00,0:00:28.73,Default,T,0000,0000,0000,,It's too fast!
+Dialogue: 0,0:00:28.73,0:00:29.79,Default,Kuri,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:29.79,0:00:31.76,Default,Kuri,0000,0000,0000,,Then when is it okay for you, Takeo?
+Dialogue: 0,0:00:34.99,0:00:36.51,Default,T,0000,0000,0000,,The autumn of my third year in high school!
+Dialogue: 0,0:00:37.33,0:00:39.01,Default - italics,S,0000,0000,0000,,Why autumn?
+Dialogue: 0,0:02:08.98,0:02:13.44,Title1,Sign 0209,0000,0000,0000,,{\fad(1,516)}My Birthday
+Dialogue: 0,0:02:10.20,0:02:13.29,Default,Kuri,0000,0000,0000,,Okay, I'm off to a date with Nanako.
+Dialogue: 0,0:02:13.29,0:02:15.69,Default,T,0000,0000,0000,,Hey, you do well by her.
+Dialogue: 0,0:02:15.69,0:02:17.44,Default,Kuri,0000,0000,0000,,Of course!
+Dialogue: 0,0:02:18.20,0:02:19.97,Default,T,0000,0000,0000,,He's so easygoing...
+Dialogue: 0,0:02:20.71,0:02:22.64,Default,S,0000,0000,0000,,Why is it the autumn of your third year?
+Dialogue: 0,0:02:22.64,0:02:24.70,Default,T,0000,0000,0000,,Spring would be too fast.
+Dialogue: 0,0:02:24.70,0:02:27.16,Default,T,0000,0000,0000,,And I thought winter would be too slow.
+Dialogue: 0,0:02:27.63,0:02:29.13,Default,S,0000,0000,0000,,Hmm...
+Dialogue: 0,0:02:29.13,0:02:30.20,Default,T,0000,0000,0000,,A kiss...
+Dialogue: 0,0:02:30.20,0:02:32.04,Default,T,0000,0000,0000,,That's so far beyond holding hands.
+Dialogue: 0,0:02:32.13,0:02:36.30,SFX-BrownWhite,Sign 0234,0000,0000,0000,,Good thing you don't have cavities.
+Dialogue: 0,0:02:32.46,0:02:34.26,Default,T,0000,0000,0000,,It's mouth to mouth.
+Dialogue: 0,0:02:34.26,0:02:36.30,Default,T,0000,0000,0000,,It's a big deal.
+Dialogue: 0,0:02:36.30,0:02:41.83,Default - italics,T,0000,0000,0000,,I bet it's an even bigger deal \Nfor girls than for me.
+Dialogue: 0,0:02:42.77,0:02:44.40,Default - italics,T,0000,0000,0000,,When the time comes,
+Dialogue: 0,0:02:44.40,0:02:47.81,Default - italics,T,0000,0000,0000,,I hope I can make it a good experience.
+Dialogue: 0,0:02:49.56,0:02:53.06,Default,Y,0000,0000,0000,,Takeo-kun, your birthday's in three days.
+Dialogue: 0,0:02:53.06,0:02:57.07,Default,Y,0000,0000,0000,,Oh, but maybe you'll be spending it with \Nyour family because it's New Year's Day.
+Dialogue: 0,0:02:57.07,0:02:59.07,Default,T,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:02:59.07,0:03:00.28,Default,Y,0000,0000,0000,,Really?
+Dialogue: 0,0:03:00.28,0:03:01.67,Default,Y,0000,0000,0000,,Then I can see you?
+Dialogue: 0,0:03:01.67,0:03:02.20,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:03:02.20,0:03:04.15,Default,T,0000,0000,0000,,Want to do the holiday shrine visit together?
+Dialogue: 0,0:03:04.15,0:03:05.08,Default,Y,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:08.79,0:03:09.87,Default,Y,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:03:11.23,0:03:12.42,Default - italics,T,0000,0000,0000,,I can't, not yet!
+Dialogue: 0,0:03:16.46,0:03:21.93,Default - italics,T,0000,0000,0000,,Right, this year, I'll be spending \Nmy birthday with Yamato...
+Dialogue: 0,0:03:21.93,0:03:23.18,Sunakawa,,0000,0000,0000,,Sunakawa
+Dialogue: 0,0:03:23.18,0:03:25.30,Default,Ai,0000,0000,0000,,Oh, welcome back, Makoto!
+Dialogue: 0,0:03:26.11,0:03:27.11,Default,S,0000,0000,0000,,Thanks.
+Dialogue: 0,0:03:28.10,0:03:30.31,Default,S,0000,0000,0000,,Welcome back, yourself. You came home?
+Dialogue: 0,0:03:30.31,0:03:32.03,Default,Ai,0000,0000,0000,,Yeah, just now.
+Dialogue: 0,0:03:30.43,0:03:31.94,SFX-BlackWhite,Sign 0331,0000,0000,0000,,{\fad(1,229)}Bullet train was supper crowded.
+Dialogue: 0,0:03:31.94,0:03:34.02,SFX-BlackWhite,Sign 0333,0000,0000,0000,,{\fad(1,223)}Home's where the heart is.
+Dialogue: 0,0:03:32.03,0:03:34.13,Default,Ai,0000,0000,0000,,The last day of the year should \Nbe spent with family, after all.
+Dialogue: 0,0:03:34.13,0:03:35.31,Default,Ai,0000,0000,0000,,How's Takeo?
+Dialogue: 0,0:03:35.31,0:03:37.43,Default,Ai,0000,0000,0000,,Are things going well with him and his girlfriend?
+Dialogue: 0,0:03:37.43,0:03:38.20,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:40.23,0:03:40.82,Default,S,0000,0000,0000,,Hello?
+Dialogue: 0,0:03:43.77,0:03:46.21,Default,Ai,0000,0000,0000,,Oh, Yamato-san... Long time, no see!
+Dialogue: 0,0:03:46.21,0:03:47.57,Default,Y,0000,0000,0000,,Oh, hello.
+Dialogue: 0,0:03:47.57,0:03:48.70,Default,Y,0000,0000,0000,,It's been a while.
+Dialogue: 0,0:03:49.24,0:03:50.24,Default,Ai,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:03:50.24,0:03:52.16,Default,Ai,0000,0000,0000,,Did you get mixed up, trying to see Takeo?
+Dialogue: 0,0:03:52.16,0:03:54.71,Default,Y,0000,0000,0000,,No, that isn't it...
+Dialogue: 0,0:03:55.51,0:03:58.64,Default,Y,0000,0000,0000,,Tomorrow is Takeo-kun's birthday.
+Dialogue: 0,0:03:58.64,0:03:59.59,Default,Ai,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:03:59.59,0:04:02.03,Default,Y,0000,0000,0000,,I was wondering what kind of cake to make.
+Dialogue: 0,0:04:02.03,0:04:03.25,Default,Ai,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:04:03.25,0:04:06.35,Default,Ai,0000,0000,0000,,He likes everything, so that almost \Nmakes it harder to choose...
+Dialogue: 0,0:04:03.98,0:04:06.35,SFX-BlackWhite,Sign 0405,0000,0000,0000,,Why are you guys in my room?
+Dialogue: 0,0:04:07.26,0:04:09.85,Default,S,0000,0000,0000,,How about the first cake you made for him?
+Dialogue: 0,0:04:10.21,0:04:12.69,Default,S,0000,0000,0000,,The cheesecake Takeo ate that first time?
+Dialogue: 0,0:04:12.69,0:04:14.15,Default,Y,0000,0000,0000,,Oh, right!
+Dialogue: 0,0:04:14.15,0:04:16.91,Default,Y,0000,0000,0000,,I don't have to make something new.
+Dialogue: 0,0:04:16.91,0:04:19.32,Default,Y,0000,0000,0000,,Okay, I'll try doing something \Nwith a cheesecake.
+Dialogue: 0,0:04:19.32,0:04:21.38,Default,Y,0000,0000,0000,,Thanks, Sunakawa-kun.
+Dialogue: 0,0:04:21.38,0:04:23.95,Default,Ai,0000,0000,0000,,Good... I'm glad we figured it out.
+Dialogue: 0,0:04:24.94,0:04:28.37,Default,Y,0000,0000,0000,,Oh... And um...
+Dialogue: 0,0:04:28.78,0:04:29.92,Default,Y,0000,0000,0000,,Uh...
+Dialogue: 0,0:04:30.53,0:04:34.83,Default,Y,0000,0000,0000,,I'm wondering what Takeo-kun would \Nthink if a girl tried to kiss him.
+Dialogue: 0,0:04:36.43,0:04:37.32,Default,Ai,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:37.32,0:04:40.76,Default,Ai,0000,0000,0000,,Weren't you worried before that he \Nmistakenly thought you were naïve?
+Dialogue: 0,0:04:40.76,0:04:42.08,Default,Y,0000,0000,0000,,Oh, yes.
+Dialogue: 0,0:04:42.08,0:04:44.22,Default,Y,0000,0000,0000,,That's been cleared up.
+Dialogue: 0,0:04:44.22,0:04:48.39,Default,Y,0000,0000,0000,,But he isn't holding back because of me.
+Dialogue: 0,0:04:49.03,0:04:51.10,Default,Y,0000,0000,0000,,Takeo-kun's just very modest.
+Dialogue: 0,0:04:51.10,0:04:52.60,SignA,Sign 0452,0000,0000,0000,,Modest
+Dialogue: 0,0:04:52.64,0:04:53.32,Default,Ai,0000,0000,0000,,Right...
+Dialogue: 0,0:04:53.32,0:04:55.59,Default,Ai,0000,0000,0000,,You might have something there...
+Dialogue: 0,0:04:55.59,0:04:56.51,Default,S,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:56.51,0:04:58.73,Default,S,0000,0000,0000,,He said he won't kiss until the \Nautumn of his third year.
+Dialogue: 0,0:04:58.73,0:05:00.15,Default,YA,0000,0000,0000,,Huh?!
+Dialogue: 0,0:05:00.15,0:05:01.61,Default,S,0000,0000,0000,,He said spring would be too early.
+Dialogue: 0,0:05:02.55,0:05:06.45,Default,Y,0000,0000,0000,,Th-Third year... Autumn... Okay.
+Dialogue: 0,0:05:06.45,0:05:08.94,Default,Y,0000,0000,0000,,Okay, Takeo-kun...
+Dialogue: 0,0:05:08.94,0:05:11.74,Default,Y,0000,0000,0000,,Then I'll wait till third year.
+Dialogue: 0,0:05:12.19,0:05:13.96,Default,S,0000,0000,0000,,But if you wanted to,
+Dialogue: 0,0:05:13.96,0:05:15.50,Default,S,0000,0000,0000,,you could just do it whenever.
+Dialogue: 0,0:05:15.50,0:05:16.54,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:16.54,0:05:18.88,Default,S,0000,0000,0000,,I think Takeo would be happy.
+Dialogue: 0,0:05:21.33,0:05:21.88,Default,Y,0000,0000,0000,,What?
+Dialogue: 0,0:05:21.88,0:05:23.88,Default,Y,0000,0000,0000,,What should I do?!
+Dialogue: 0,0:05:22.41,0:05:23.88,SFX-RedBlack,,0000,0000,0000,,{\c&HF2E0D8&}Now she doesn't \Nknow what to do.
+Dialogue: 0,0:05:25.92,0:05:28.89,Default,Y,0000,0000,0000,,Have you ever kissed someone, Sunakawa-kun?
+Dialogue: 0,0:05:34.89,0:05:43.15,SignB,Sign 0539,0000,0000,0000,,Dostoevsky
+Dialogue: 0,0:05:35.32,0:05:36.86,Default,Ai,0000,0000,0000,,Why aren't you saying anything?
+Dialogue: 0,0:05:36.86,0:05:38.42,Default,Ai,0000,0000,0000,,Of course he hasn't.
+Dialogue: 0,0:05:38.17,0:05:43.15,SFX-BlackWhite,Sign 0539,0000,0000,0000,,Are you being pretentious?
+Dialogue: 0,0:05:38.42,0:05:40.24,Default,Ai,0000,0000,0000,,He's never had a girlfriend.
+Dialogue: 0,0:05:40.24,0:05:43.15,Default,Y,0000,0000,0000,,Right, sorry for asking such a strange question.
+Dialogue: 0,0:05:44.40,0:05:47.40,Default,Y,0000,0000,0000,,Thank you for helping me \Ntoday by hearing me out.
+Dialogue: 0,0:05:48.16,0:05:51.16,Default,Y,0000,0000,0000,,And thank you, too!
+Dialogue: 0,0:05:51.49,0:05:52.98,Default,Ai,0000,0000,0000,,Take care.
+Dialogue: 0,0:05:52.98,0:05:54.26,Default,Ai,0000,0000,0000,,Have a good New Year!
+Dialogue: 0,0:05:54.26,0:05:54.90,Default,Y,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:54.90,0:05:56.50,Default,Y,0000,0000,0000,,You, too.
+Dialogue: 0,0:05:58.49,0:06:02.74,Default,Ai,0000,0000,0000,,Yamato-san really loves Takeo, huh?
+Dialogue: 0,0:05:59.53,0:06:04.80,SFX-BlackWhite,Sign 0601,0000,0000,0000,,Sincere
+Dialogue: 0,0:06:02.74,0:06:05.47,Default,Ai,0000,0000,0000,,So she's going to kiss Takeo...
+Dialogue: 0,0:06:07.45,0:06:10.55,Default,Ai,0000,0000,0000,,Imagining it, I feel a little down!
+Dialogue: 0,0:06:09.54,0:06:10.55,SFX-BlackWhite,Sign 0610,0000,0000,0000,,{\an7}Then maybe you \Nshouldn't imagine it.
+Dialogue: 0,0:06:10.55,0:06:12.07,Default,S,0000,0000,0000,,How's Oda-san?
+Dialogue: 0,0:06:12.07,0:06:13.73,Default,Ai,0000,0000,0000,,Oh, he's fine.
+Dialogue: 0,0:06:13.73,0:06:17.81,Default,Ai,0000,0000,0000,,Actually, ever since MM Land, \Nhe's been coming on really strong.
+Dialogue: 0,0:06:14.31,0:06:19.06,Gouda,Sign 0618,0000,0000,0000,,{\an9}Gouda!!
+Dialogue: 0,0:06:19.06,0:06:21.69,SignC,Sign 0620,0000,0000,0000,,Singing {\c&H9B86D0&}Contest
+Dialogue: 0,0:06:19.56,0:06:21.69,Default - italics,TV,0000,0000,0000,,Have a happy New Year, everyone.
+Dialogue: 0,0:06:23.85,0:06:25.69,Default - italics,T,0000,0000,0000,,And so ends this year.
+Dialogue: 0,0:06:26.28,0:06:29.15,Default - italics,T,0000,0000,0000,,It was a good year...
+Dialogue: 0,0:06:29.15,0:06:32.45,Default,TMom,0000,0000,0000,,Take, if you're sleepy, go sleep in your room.
+Dialogue: 0,0:06:33.04,0:06:34.41,Default,TMom,0000,0000,0000,,Oof...
+Dialogue: 0,0:06:37.23,0:06:39.58,Default,TMom,0000,0000,0000,,What are you up to tomorrow?
+Dialogue: 0,0:06:39.58,0:06:42.46,Default,T,0000,0000,0000,,At ten, I'm going to a shrine with Yamato.
+Dialogue: 0,0:06:42.46,0:06:43.59,Default,TMom,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:06:43.59,0:06:44.62,Default,T,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:06:44.62,0:06:45.84,Default,TMom,0000,0000,0000,,Night.
+Dialogue: 0,0:06:54.52,0:06:56.60,Default,Y,0000,0000,0000,,Happy Birthday, Takeo-kun!
+Dialogue: 0,0:06:59.77,0:07:01.44,Default,T,0000,0000,0000,,Oh, thanks.
+Dialogue: 0,0:07:01.44,0:07:03.05,Default,Y,0000,0000,0000,,Were you sleeping, Takeo-kun?
+Dialogue: 0,0:07:03.05,0:07:04.95,Default,T,0000,0000,0000,,Oh, don't worry about it.
+Dialogue: 0,0:07:04.95,0:07:05.94,Default,Y,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:07:05.94,0:07:09.07,Default,Y,0000,0000,0000,,See you tomorrow... Oh, it's already today!
+Dialogue: 0,0:07:09.07,0:07:09.78,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:10.32,0:07:11.48,Default,Y,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:07:11.48,0:07:12.66,Default,T,0000,0000,0000,,Night.
+Dialogue: 0,0:07:24.87,0:07:27.13,Default - italics,T,0000,0000,0000,,This year will be a good year, too.
+Dialogue: 0,0:07:29.67,0:07:30.34,SFX-BrownWhite,Sign 0730,0000,0000,0000,,Ram  HNY  Gouda Takeo
+Dialogue: 0,0:07:30.65,0:07:31.34,SFX-BlackWhite,Sign 0731,0000,0000,0000,,{\an9\fad(134,1)}first laugh of the year
+Dialogue: 0,0:07:31.47,0:07:33.22,Default,T,0000,0000,0000,,Happy New Year!
+Dialogue: 0,0:07:33.64,0:07:34.64,Default,TMom,0000,0000,0000,,Happy New Year.
+Dialogue: 0,0:07:34.86,0:07:35.64,Default,TMom,0000,0000,0000,,Happy New Year.
+Dialogue: 0,0:07:35.92,0:07:37.40,Default,TDad,0000,0000,0000,,Here, your New Year's gift.
+Dialogue: 0,0:07:36.05,0:07:38.64,SFX-BlackWhite,,0000,0000,0000,,{\fad(447,1)}New Year's Gift
+Dialogue: 0,0:07:37.40,0:07:38.89,Default,T,0000,0000,0000,,Oh, thanks!
+Dialogue: 0,0:07:39.32,0:07:40.26,Default,T,0000,0000,0000,,I'm off.
+Dialogue: 0,0:07:40.26,0:07:41.28,Default,TMom,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:45.00,0:07:46.65,Default,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:07:46.65,0:07:48.40,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:07:49.12,0:07:50.65,Default - italics,T,0000,0000,0000,,I love her this year, too.
+Dialogue: 0,0:07:51.89,0:07:53.79,Default,Y,0000,0000,0000,,Happy birthday.
+Dialogue: 0,0:07:53.79,0:07:54.72,Default,T,0000,0000,0000,,Thanks.
+Dialogue: 0,0:07:54.72,0:07:55.78,Default - italics,T,0000,0000,0000,,It's her second time saying it.
+Dialogue: 0,0:07:56.13,0:07:57.53,Default,Y,0000,0000,0000,,It's my second time saying it.
+Dialogue: 0,0:07:57.86,0:07:58.58,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:00.04,0:08:03.79,Default,Y,0000,0000,0000,,I was really happy I could be there \Nfor your birthday this year.
+Dialogue: 0,0:08:03.79,0:08:05.47,Default,Y,0000,0000,0000,,Oh, I guess it's last year now.
+Dialogue: 0,0:08:05.47,0:08:06.79,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:07.14,0:08:15.05,Default,Y,0000,0000,0000,,So I'd like to make your birthday \Nsomething you'll never forget.
+Dialogue: 0,0:08:15.05,0:08:16.16,Default,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:16.57,0:08:18.81,Default - italics,T,0000,0000,0000,,I'll never forget, not ever.
+Dialogue: 0,0:08:19.77,0:08:22.29,Default,Y,0000,0000,0000,,Aren't your hands cold, Takeo-kun?
+Dialogue: 0,0:08:22.29,0:08:23.23,Default,T,0000,0000,0000,,Not at all.
+Dialogue: 0,0:08:23.23,0:08:25.71,Default,Y,0000,0000,0000,,I need gloves!
+Dialogue: 0,0:08:25.71,0:08:27.56,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:08:28.56,0:08:29.57,Default - italics,T,0000,0000,0000,,I love her!
+Dialogue: 0,0:08:30.10,0:08:32.11,Default,Y,0000,0000,0000,,Do you always come here, Takeo-kun?
+Dialogue: 0,0:08:32.11,0:08:33.57,Default,T,0000,0000,0000,,Not always...
+Dialogue: 0,0:08:34.10,0:08:37.20,Default,T,0000,0000,0000,,But last year, I was going to take \Nentrance exams, so I came with Suna.
+Dialogue: 0,0:08:37.20,0:08:38.91,Default,Y,0000,0000,0000,,I came last year, too.
+Dialogue: 0,0:08:39.55,0:08:42.18,Default,Y,0000,0000,0000,,This year, your family will be having a new baby.
+Dialogue: 0,0:08:42.18,0:08:42.99,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:42.99,0:08:44.42,Default,Y,0000,0000,0000,,It'll be fun.
+Dialogue: 0,0:08:44.42,0:08:47.17,Default,T,0000,0000,0000,,Yeah, I'm looking forward to it.
+Dialogue: 0,0:08:51.05,0:08:52.88,Default,Y,0000,0000,0000,,Wow, look!
+Dialogue: 0,0:08:51.05,0:08:52.88,SFX-GrayWhite,Sign 0853,0000,0000,0000,,Fortune | Great Luck
+Dialogue: 0,0:08:52.88,0:08:55.06,Default,Y,0000,0000,0000,,You got "great luck" on your fortune!
+Dialogue: 0,0:08:55.06,0:08:56.42,Default,T,0000,0000,0000,,What did you get?
+Dialogue: 0,0:08:56.42,0:08:57.89,Default,Y,0000,0000,0000,,I got "small luck."
+Dialogue: 0,0:08:58.68,0:09:02.14,Default,Y,0000,0000,0000,,But if you got great luck, \Nthat's what I'll have, too.
+Dialogue: 0,0:09:03.64,0:09:06.26,Default,T,0000,0000,0000,,If you got small luck, I'll have small luck, too.
+Dialogue: 0,0:09:06.26,0:09:08.04,Default,Y,0000,0000,0000,,Oh, right!
+Dialogue: 0,0:09:08.61,0:09:12.11,SFX-GrayWhite,Sign 0910,0000,0000,0000,,Fortune | Small Luck \NRomance: Women will do well to take the initiative
+Dialogue: 0,0:09:09.24,0:09:11.54,Default - italics,T,0000,0000,0000,,I don't care if I have small luck...
+Dialogue: 0,0:09:15.81,0:09:18.97,Default - italics,T,0000,0000,0000,,I've never been lucky with fortunes.
+Dialogue: 0,0:09:16.70,0:09:20.20,SFX-GrayWhite,Sign 0917,0000,0000,0000,,Romance: Sleep on it, and wait for good news
+Dialogue: 0,0:09:20.20,0:09:23.74,Default - italics,T,0000,0000,0000,,I hope everyone will have a good year.
+Dialogue: 0,0:09:24.46,0:09:28.46,Default - italics,T,0000,0000,0000,,I hope that my little brother or \Nsister will be born healthy.
+Dialogue: 0,0:09:29.75,0:09:31.21,Default - italics,T,0000,0000,0000,,I hope that Yamato and I can...
+Dialogue: 0,0:09:32.37,0:09:34.21,Default - italics,T,0000,0000,0000,,I hope that we'll stay together.
+Dialogue: 0,0:09:37.49,0:09:40.77,Default,Y,0000,0000,0000,,Hey, Takeo-kun... I made a cake.
+Dialogue: 0,0:09:40.77,0:09:43.06,Default,Y,0000,0000,0000,,Can I come to your place?
+Dialogue: 0,0:09:43.06,0:09:44.32,Default,T,0000,0000,0000,,Sure!
+Dialogue: 0,0:09:44.32,0:09:47.36,Default,T,0000,0000,0000,,I haven't really cleaned up, though... \NIs that okay?
+Dialogue: 0,0:09:49.02,0:09:51.02,EyecatchA,Sign 0951,0000,0000,0000,,{\an8}Fortune
+Dialogue: 0,0:09:49.39,0:09:50.21,Default,Y,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:51.02,0:09:52.52,EyecatchA,Sign 0952,0000,0000,0000,,{\an8}Good
+Dialogue: 0,0:09:52.52,0:09:53.80,Default,T,0000,0000,0000,,I'm home!
+Dialogue: 0,0:09:53.80,0:09:54.64,Default,TMom,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:09:54.64,0:09:55.65,Default,TMom,0000,0000,0000,,That was quick.
+Dialogue: 0,0:09:55.65,0:09:56.88,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:56.88,0:09:58.28,Default,T,0000,0000,0000,,Yamato's with me.
+Dialogue: 0,0:09:58.28,0:09:59.40,Default,TMom,0000,0000,0000,,Oh, hello, Yamato-san.
+Dialogue: 0,0:09:59.40,0:10:01.19,Default,TMom,0000,0000,0000,,Happy New Year.
+Dialogue: 0,0:10:01.57,0:10:03.88,Default,Y,0000,0000,0000,,Happy New Year.
+Dialogue: 0,0:10:03.88,0:10:06.21,Default,Y,0000,0000,0000,,I hope we have a good year ahead!
+Dialogue: 0,0:10:08.71,0:10:11.42,Default - italics,T,0000,0000,0000,,Crap... It's messier than I thought.
+Dialogue: 0,0:10:12.11,0:10:14.05,Default,Y,0000,0000,0000,,Oh, I'll help, too.
+Dialogue: 0,0:10:23.23,0:10:24.22,Default,TMom,0000,0000,0000,,Take!
+Dialogue: 0,0:10:24.22,0:10:27.19,Default,TMom,0000,0000,0000,,Mom's going with Dad to the shrine \Nand the New Year's sales.
+Dialogue: 0,0:10:27.19,0:10:29.14,Default,TMom,0000,0000,0000,,We'll stop on our way home to buy food,
+Dialogue: 0,0:10:29.14,0:10:31.12,Default,TMom,0000,0000,0000,,so we won't be back for about five hours.
+Dialogue: 0,0:10:31.12,0:10:32.44,Default,T,0000,0000,0000,,Okay, that's a long time.
+Dialogue: 0,0:10:32.44,0:10:34.48,Default,TMom,0000,0000,0000,,Make yourself at home, Yamato-san.
+Dialogue: 0,0:10:39.21,0:10:41.05,Default,T,0000,0000,0000,,Would you like something to drink?
+Dialogue: 0,0:10:41.56,0:10:43.33,Default,Y,0000,0000,0000,,No, I'm fine...
+Dialogue: 0,0:10:49.00,0:10:50.24,Default,Friends,0000,0000,0000,,Happy New Year!
+Dialogue: 0,0:10:50.24,0:10:51.42,Default,Friends,0000,0000,0000,,We're here, Takeo!
+Dialogue: 0,0:10:51.42,0:10:52.50,Default,Friends,0000,0000,0000,,Here's your present!
+Dialogue: 0,0:10:52.50,0:10:54.02,Default,Friends,0000,0000,0000,,I just got it at the arcade!
+Dialogue: 0,0:10:54.02,0:10:55.13,Default,T,0000,0000,0000,,Thanks!
+Dialogue: 0,0:10:55.13,0:10:56.51,Default,Friends,0000,0000,0000,,Whoa, your girlfriend is here?
+Dialogue: 0,0:10:56.51,0:10:57.13,Default,Friends,0000,0000,0000,,Seriously?
+Dialogue: 0,0:10:57.13,0:10:58.11,Default,Friends,0000,0000,0000,,Can we come in for a bit?
+Dialogue: 0,0:10:58.11,0:10:59.08,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:59.08,0:11:00.16,Default,Friends,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:11:00.16,0:11:02.12,Default,Friends,0000,0000,0000,,Sorry to interrupt...
+Dialogue: 0,0:11:02.35,0:11:04.33,Default,Y,0000,0000,0000,,I'm Yamato. It's nice to meet you.
+Dialogue: 0,0:11:04.33,0:11:05.89,Default,Friends,0000,0000,0000,,We went to elementary school with Takeo.
+Dialogue: 0,0:11:05.89,0:11:07.11,Default,Y,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:11:07.11,0:11:08.56,Default,Friends,0000,0000,0000,,Yep.
+Dialogue: 0,0:11:07.49,0:11:08.92,Default,Friends,0000,0000,0000,,Hey, is Takeo here?
+Dialogue: 0,0:11:08.56,0:11:09.87,Default,Friends,0000,0000,0000,,Oh, cut it out.
+Dialogue: 0,0:11:08.92,0:11:10.17,Default,Friends,0000,0000,0000,,Congrats! Happy Birthday!
+Dialogue: 0,0:11:10.17,0:11:11.06,Default,Friends,0000,0000,0000,,Can we come in?
+Dialogue: 0,0:11:11.06,0:11:11.90,Default,T,0000,0000,0000,,Sure.
+Dialogue: 0,0:11:11.90,0:11:15.25,Default,Friends,0000,0000,0000,,I just can't start the new year \Nwithout seeing Takeo first.
+Dialogue: 0,0:11:15.25,0:11:15.90,Default,Friends,0000,0000,0000,,No kidding!
+Dialogue: 0,0:11:15.90,0:11:18.86,Default,Friends,0000,0000,0000,,But, Takeo, it's so funny that you \Nwere born on New Year's Day.
+Dialogue: 0,0:11:18.86,0:11:20.56,Default,Friends,0000,0000,0000,,It's funny every time.
+Dialogue: 0,0:11:21.25,0:11:22.88,Default,Friends,0000,0000,0000,,Did Takeo ask you out?
+Dialogue: 0,0:11:22.88,0:11:24.10,Default,Friends,0000,0000,0000,,I know the story!
+Dialogue: 0,0:11:24.10,0:11:26.85,Default,Friends,0000,0000,0000,,Takeo saved her from a groper.
+Dialogue: 0,0:11:26.85,0:11:27.64,Default,Y,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:27.64,0:11:29.18,Default,Y,0000,0000,0000,,I asked him out.
+Dialogue: 0,0:11:29.18,0:11:30.33,Default,Y,0000,0000,0000,,For me, it was love at first sight.
+Dialogue: 0,0:11:30.90,0:11:32.37,Default,Friends,0000,0000,0000,,Yamato-san, you have good taste.
+Dialogue: 0,0:11:32.37,0:11:33.83,Default,Friends,0000,0000,0000,,Please take good care of Takeo.
+Dialogue: 0,0:11:35.34,0:11:36.85,Default,Friends,0000,0000,0000,,See you, Takeo!
+Dialogue: 0,0:11:38.46,0:11:39.69,Default,T,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:11:39.69,0:11:41.43,Default,T,0000,0000,0000,,They come every year.
+Dialogue: 0,0:11:41.43,0:11:42.34,Default,Y,0000,0000,0000,,No problem.
+Dialogue: 0,0:11:44.32,0:11:46.20,Default,Y,0000,0000,0000,,Oh, Takeo-kun...
+Dialogue: 0,0:11:47.90,0:11:49.70,Default,Y,0000,0000,0000,,This is my present to you.
+Dialogue: 0,0:11:49.70,0:11:51.10,Default,T,0000,0000,0000,,Oh, thanks.
+Dialogue: 0,0:11:51.85,0:11:53.31,Default,T,0000,0000,0000,,Can I open it?
+Dialogue: 0,0:11:53.31,0:11:54.12,Default,Y,0000,0000,0000,,Sure.
+Dialogue: 0,0:11:57.88,0:12:00.57,Default,T,0000,0000,0000,,It's the first time I've gotten a \Nstuffed animal as a present.
+Dialogue: 0,0:12:00.57,0:12:03.73,Default,Y,0000,0000,0000,,If you press the stomach, it squeaks.
+Dialogue: 0,0:12:06.36,0:12:08.08,Default - italics,T,0000,0000,0000,,What a shocker!
+Dialogue: 0,0:12:08.32,0:12:16.34,SFX-BlackWhite,Sign 1209,0000,0000,0000,,Squeak
+Dialogue: 0,0:12:09.16,0:12:12.84,Default - italics,T,0000,0000,0000,,Why did Yamato think to give \Nme a stuffed animal?
+Dialogue: 0,0:12:13.86,0:12:15.15,Default,T,0000,0000,0000,,How cute!
+Dialogue: 0,0:12:15.38,0:12:16.34,SignD,,0000,0000,0000,,A-ha ha
+Dialogue: 0,0:12:16.34,0:12:18.40,Default,Y,0000,0000,0000,,I wasn't really sure what to get you,
+Dialogue: 0,0:12:18.40,0:12:22.09,Default,Y,0000,0000,0000,,but she was so cute, I couldn't turn away.
+Dialogue: 0,0:12:23.06,0:12:25.94,Default - italics,T,0000,0000,0000,,I see, so it was cute...
+Dialogue: 0,0:12:26.64,0:12:30.22,Default - italics,T,0000,0000,0000,,She gave me something she liked.
+Dialogue: 0,0:12:30.22,0:12:33.19,Default,Y,0000,0000,0000,,I also baked a cake.
+Dialogue: 0,0:12:35.87,0:12:37.83,Default,Y,0000,0000,0000,,I consulted Sunakawa-kun,
+Dialogue: 0,0:12:37.83,0:12:41.67,Default,Y,0000,0000,0000,,and decided to bake the first cake \Nyou had from me, a cheesecake.
+Dialogue: 0,0:12:39.41,0:12:45.36,SignE,Sign 1242,0000,0000,0000,,Happy Birthday, Takeo-kun
+Dialogue: 0,0:12:42.00,0:12:45.36,Default,Y,0000,0000,0000,,I thought about serving it \Nwhen everyone was here,
+Dialogue: 0,0:12:45.36,0:12:49.37,Default,Y,0000,0000,0000,,but I wanted you to see it \Nbefore it got all cut up.
+Dialogue: 0,0:12:50.96,0:12:53.87,Default,T,0000,0000,0000,,Yeah, I can't let anyone else have this.
+Dialogue: 0,0:12:56.82,0:13:00.65,Default,Y,0000,0000,0000,,Oh, I brought candles! Sixteen!
+Dialogue: 0,0:13:00.65,0:13:03.27,Default,T,0000,0000,0000,,I think there's a lighter in the kitchen.
+Dialogue: 0,0:13:03.27,0:13:04.37,Default,T,0000,0000,0000,,I'll go get it.
+Dialogue: 0,0:13:04.37,0:13:05.18,Default,Y,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:20.34,0:13:21.69,SFX-BlackWhite,Sign 1321,0000,0000,0000,,Okay...
+Dialogue: 0,0:13:23.49,0:13:26.20,Default,Y,0000,0000,0000,,Happy Birthday, Takeo-kun.
+Dialogue: 0,0:13:27.96,0:13:29.95,Default,T,0000,0000,0000,,Yep, thanks.
+Dialogue: 0,0:13:30.73,0:13:32.20,Default - italics,T,0000,0000,0000,,It's beautiful.
+Dialogue: 0,0:13:56.70,0:13:59.40,Default - italics,T,0000,0000,0000,,Thank you, Yamato.
+Dialogue: 0,0:13:59.96,0:14:00.95,Default,Y,0000,0000,0000,,Takeo-kun,
+Dialogue: 0,0:14:00.95,0:14:04.41,Default,Y,0000,0000,0000,,you have to close your eyes and make a \Nwish before you blow out the candles.
+Dialogue: 0,0:14:04.41,0:14:06.02,Default,T,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:14:06.02,0:14:07.72,Default,Y,0000,0000,0000,,Slowly, okay?
+Dialogue: 0,0:14:07.72,0:14:10.16,Default,T,0000,0000,0000,,Got it, make a wish.
+Dialogue: 0,0:14:12.21,0:14:14.16,Default - italics,T,0000,0000,0000,,I'll never forget this.
+Dialogue: 0,0:14:15.03,0:14:18.06,Default - italics,T,0000,0000,0000,,Not the phone call right at \Nthe stroke of midnight,
+Dialogue: 0,0:14:18.06,0:14:20.17,Default - italics,T,0000,0000,0000,,not the stuffed animal or the cake.
+Dialogue: 0,0:14:20.68,0:14:23.17,Default - italics,T,0000,0000,0000,,I'll never forget.
+Dialogue: 0,0:14:27.96,0:14:33.86,Default - italics,T,0000,0000,0000,,I hope Yamato will stay happy all year...
+Dialogue: 0,0:14:46.64,0:14:47.71,Default,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:14:49.89,0:14:51.41,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:14:53.70,0:14:55.18,Default,T,0000,0000,0000,,Can I blow them out now?
+Dialogue: 0,0:14:53.70,0:14:56.87,SFX-BlackWhite,Sign 1455,0000,0000,0000,,{\an9}the candles
+Dialogue: 0,0:14:55.18,0:14:55.79,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:55.79,0:14:56.87,Default,Y,0000,0000,0000,,Y-Yeah!
+Dialogue: 0,0:14:57.75,0:14:59.08,SFX-BrownWhite,Sign 1459,0000,0000,0000,,{\an9}Could it be...
+Dialogue: 0,0:14:59.65,0:15:00.46,Default,T,0000,0000,0000,,Good.
+Dialogue: 0,0:15:00.46,0:15:03.45,Default,T,0000,0000,0000,,Oh, I forgot to bring a knife and plates.
+Dialogue: 0,0:15:00.46,0:15:05.21,SFX-BlackWhite,Sign 1501,0000,0000,0000,,{\an9}he didn't...
+Dialogue: 0,0:15:03.45,0:15:04.71,Default,T,0000,0000,0000,,I'll get some!
+Dialogue: 0,0:15:05.21,0:15:07.97,Default - italics,Y,0000,0000,0000,,I don't think he noticed at all!
+Dialogue: 0,0:15:07.97,0:15:09.97,SFX-BlueBlue,Sign 1509,0000,0000,0000,,orz
+Dialogue: 0,0:15:09.97,0:15:11.42,Default,TMom,0000,0000,0000,,We're back.
+Dialogue: 0,0:15:11.42,0:15:12.33,Default,T,0000,0000,0000,,Oh, hey, Mom.
+Dialogue: 0,0:15:12.33,0:15:13.57,Default,T,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:15:13.57,0:15:15.26,Default,TMom,0000,0000,0000,,Are you going to fillet fish or something?
+Dialogue: 0,0:15:15.26,0:15:17.44,Default,T,0000,0000,0000,,I need to slice a cake.
+Dialogue: 0,0:15:17.44,0:15:18.77,Default,TMom,0000,0000,0000,,Here's a knife.
+Dialogue: 0,0:15:21.35,0:15:22.77,Default,T,0000,0000,0000,,Found a knife.
+Dialogue: 0,0:15:24.40,0:15:27.40,Default,T,0000,0000,0000,,Don't want to mess up the cake...
+Dialogue: 0,0:15:28.20,0:15:30.03,Default,T,0000,0000,0000,,Digging in!
+Dialogue: 0,0:15:35.21,0:15:36.20,Default,T,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:15:41.00,0:15:45.71,Default - italics,T,0000,0000,0000,,I don't remember cakes being this delicious.
+Dialogue: 0,0:15:46.96,0:15:49.17,Default,T,0000,0000,0000,,Thank you, Yamato.
+Dialogue: 0,0:15:49.17,0:15:51.66,Default,T,0000,0000,0000,,It's been a great birthday for me.
+Dialogue: 0,0:15:53.91,0:15:55.34,Default,Y,0000,0000,0000,,I'm glad.
+Dialogue: 0,0:16:08.67,0:16:10.74,Default - italics,T,0000,0000,0000,,I'm happy...
+Dialogue: 0,0:16:09.73,0:16:10.74,SFX-RedBlack,Sign 1610,0000,0000,0000,,{\an9\c&HFFFFFF&}From: Yamato
+Dialogue: 0,0:16:11.40,0:16:14.89,Message Body - Default,Y,0000,0000,0000,,Takeo-kun, I'm glad I could celebrate \Nyour birthday with you.
+Dialogue: 0,0:16:14.89,0:16:16.21,Message Body - Default,Y,0000,0000,0000,,Congratulations!
+Dialogue: 0,0:16:16.21,0:16:18.18,Message Body - Default,Y,0000,0000,0000,,Oh, and I forgot to say it earlier,
+Dialogue: 0,0:16:18.18,0:16:19.74,Message Body - Default,Y,0000,0000,0000,,but Happy New Year.
+Dialogue: 0,0:16:19.74,0:16:21.75,Message Body - Default,Y,0000,0000,0000,,I'm looking forward to our time together.
+Dialogue: 0,0:16:21.75,0:16:23.73,Message Body - Default,Y,0000,0000,0000,,I love you, Takeo-kun.
+Dialogue: 0,0:16:25.79,0:16:30.69,Default - italics,T,0000,0000,0000,,For Yamato, January first isn't New Year's Day.
+Dialogue: 0,0:16:30.69,0:16:32.72,Default - italics,T,0000,0000,0000,,It's my birthday...
+Dialogue: 0,0:16:33.25,0:16:36.59,Default - italics,T,0000,0000,0000,,She almost forgot it was New Year's Day.
+Dialogue: 0,0:16:38.83,0:16:39.63,Default,T,0000,0000,0000,,Suna!
+Dialogue: 0,0:16:39.63,0:16:41.55,Default,T,0000,0000,0000,,Happy New Year!
+Dialogue: 0,0:16:41.55,0:16:42.89,Default,S,0000,0000,0000,,Yeah, Happy New Year.
+Dialogue: 0,0:16:43.47,0:16:45.89,Default,S,0000,0000,0000,,Takeo, here's your birthday present.
+Dialogue: 0,0:16:43.82,0:16:47.08,SFX-BlackWhite,Sign 1645,0000,0000,0000,,Notebook
+Dialogue: 0,0:16:45.89,0:16:47.90,Default,T,0000,0000,0000,,Oh, thanks.
+Dialogue: 0,0:16:48.49,0:16:49.90,SFX-BlackWhite,Sign 1650,0000,0000,0000,,{\an7}Good luck on your studies.
+Dialogue: 0,0:16:48.82,0:16:49.90,Default,S,0000,0000,0000,,Where's Yamato-san?
+Dialogue: 0,0:16:49.90,0:16:51.75,Default,T,0000,0000,0000,,I just saw her home.
+Dialogue: 0,0:16:51.75,0:16:53.58,Default,T,0000,0000,0000,,I got a stuffed animal from her...
+Dialogue: 0,0:16:53.58,0:16:55.28,Default,S,0000,0000,0000,,Huh, a stuffed animal.
+Dialogue: 0,0:16:55.75,0:16:58.05,Default,S,0000,0000,0000,,That sounds like her, all right.
+Dialogue: 0,0:16:57.77,0:16:59.54,SFX-BlackWhite,Sign 1659,0000,0000,0000,,{\an7}I'd never think \Nof giving you a \Nstuffed animal.
+Dialogue: 0,0:16:58.05,0:16:59.54,Default,T,0000,0000,0000,,I think so, too.
+Dialogue: 0,0:17:00.30,0:17:02.80,Default,T,0000,0000,0000,,She baked me a cheesecake.
+Dialogue: 0,0:17:02.80,0:17:05.18,Default,T,0000,0000,0000,,It was a cute, round one.
+Dialogue: 0,0:17:05.18,0:17:07.45,Default,T,0000,0000,0000,,It was a great birthday.
+Dialogue: 0,0:17:07.45,0:17:09.80,Default,S,0000,0000,0000,,Congrats, I'm happy for you.
+Dialogue: 0,0:17:10.35,0:17:15.30,Default,T,0000,0000,0000,,She asked me to close my eyes and make \Na wish, before blowing out the candles.
+Dialogue: 0,0:17:15.30,0:17:18.55,Default,T,0000,0000,0000,,While my eyes were closed, \Na bug landed on my mouth.
+Dialogue: 0,0:17:19.42,0:17:22.93,Default,T,0000,0000,0000,,I was making a wish, so I \Nalmost opened my mouth.
+Dialogue: 0,0:17:23.61,0:17:24.61,Default,S,0000,0000,0000,,A bug?
+Dialogue: 0,0:17:24.61,0:17:27.69,Default,T,0000,0000,0000,,I didn't hear one flying around, \Nso I didn't notice it at all.
+Dialogue: 0,0:17:27.69,0:17:29.44,Default,T,0000,0000,0000,,It was pretty big.
+Dialogue: 0,0:17:29.86,0:17:32.04,Default,T,0000,0000,0000,,It was kind of soft.
+Dialogue: 0,0:17:32.04,0:17:34.24,Default,T,0000,0000,0000,,It stayed for a while...
+Dialogue: 0,0:17:34.79,0:17:36.73,Default,T,0000,0000,0000,,I wonder what kind of bug it was.
+Dialogue: 0,0:17:38.22,0:17:39.45,Default,S,0000,0000,0000,,Doesn't that mean
+Dialogue: 0,0:17:40.60,0:17:41.87,Default,S,0000,0000,0000,,you were kissed?
+Dialogue: 0,0:17:45.83,0:17:46.58,Default - italics,T,0000,0000,0000,,A kiss?
+Dialogue: 0,0:17:49.34,0:17:51.28,Default - italics,T,0000,0000,0000,,A kiss...
+Dialogue: 0,0:17:51.28,0:17:52.32,Default - italics,T,0000,0000,0000,,A kiss!
+Dialogue: 0,0:17:52.70,0:17:54.11,Default - italics,T,0000,0000,0000,,A kiss!
+Dialogue: 0,0:17:55.49,0:17:56.72,Default,T,0000,0000,0000,,It wasn't a bug!
+Dialogue: 0,0:17:57.93,0:17:59.60,Default - italics,T,0000,0000,0000,,It wasn't a bug?!
+Dialogue: 0,0:18:07.28,0:18:08.71,Default - italics,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:18:08.71,0:18:12.15,Default - flashback,Y,0000,0000,0000,,So I'd like to make your birthday \Nsomething you'll never forget.
+Dialogue: 0,0:18:12.15,0:18:13.22,Default - italics,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:18:13.22,0:18:15.83,Default - flashback,Y,0000,0000,0000,,Happy Birthday, Takeo-kun.
+Dialogue: 0,0:18:15.83,0:18:16.74,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:18:16.74,0:18:17.88,Default - flashback,Y,0000,0000,0000,,I'm glad.
+Dialogue: 0,0:18:17.88,0:18:19.20,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:18:32.13,0:18:34.85,Default,Y,0000,0000,0000,,Hi, Takeo-kun, what's wrong?
+Dialogue: 0,0:18:36.09,0:18:38.16,Default,Y,0000,0000,0000,,Yeah, I'm home.
+Dialogue: 0,0:18:39.01,0:18:41.10,Default,Y,0000,0000,0000,,Huh? Look outside?
+Dialogue: 0,0:18:48.60,0:18:50.85,Sunakawa,Sign 1849,0000,0000,0000,,{\an9}Yamato
+Dialogue: 0,0:18:50.85,0:18:53.15,Default,Y,0000,0000,0000,,What's wrong, Takeo-kun?
+Dialogue: 0,0:18:55.63,0:18:57.15,Default,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:18:57.15,0:18:58.74,Default,T,0000,0000,0000,,Did you
+Dialogue: 0,0:18:59.41,0:19:01.40,Default,T,0000,0000,0000,,kiss me?
+Dialogue: 0,0:19:01.40,0:19:02.28,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:05.30,0:19:06.91,Default,T,0000,0000,0000,,Let me do it over!
+Dialogue: 0,0:19:06.91,0:19:08.07,Default,Y,0000,0000,0000,,Eh?
+Dialogue: 0,0:19:32.03,0:19:34.69,Default - italics,T,0000,0000,0000,,One more time... Properly, this time...
+Dialogue: 0,0:19:44.27,0:19:45.55,Default - italics,T,0000,0000,0000,,I love you.
+Dialogue: 0,0:20:09.88,0:20:13.23,Default,T,0000,0000,0000,,I'll be good to you! I will!
+Dialogue: 0,0:20:13.23,0:20:17.23,Default,Y,0000,0000,0000,,Yeah! I will, too!
+Dialogue: 0,0:20:17.23,0:20:19.16,Default,T,0000,0000,0000,,Yeah, thanks.
+Dialogue: 0,0:20:19.16,0:20:20.55,Default,T,0000,0000,0000,,I'll be good to you.
+Dialogue: 0,0:20:20.55,0:20:22.33,Default,Y,0000,0000,0000,,Thank you, Takeo-kun.
+Dialogue: 0,0:20:22.33,0:20:24.28,Default,Y,0000,0000,0000,,I'll be good to you, too.
+Dialogue: 0,0:20:24.28,0:20:26.56,Default,T,0000,0000,0000,,Yeah, me, too.
+Dialogue: 0,0:20:27.23,0:20:29.37,Default - italics,T,0000,0000,0000,,My sixteenth birthday...
+Dialogue: 0,0:20:31.23,0:20:36.00,Default - italics,T,0000,0000,0000,,I'll remember this day for the rest of my life.
+Dialogue: 0,0:21:48.71,0:21:49.24,Default,S,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:21:49.24,0:21:51.99,Default,T,0000,0000,0000,,Suna, it's thanks to you!
+Dialogue: 0,0:21:51.99,0:21:53.49,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:21:54.00,0:21:54.75,Default,S,0000,0000,0000,,Don't mention it.
+Dialogue: 0,0:21:54.75,0:21:55.78,Default,T,0000,0000,0000,,Thank you.
+Dialogue: 0,0:21:55.78,0:21:57.75,Default,T,0000,0000,0000,,It's really all thanks to you!
+Dialogue: 0,0:21:58.26,0:21:59.57,Default,S,0000,0000,0000,,No, not really.
+Dialogue: 0,0:21:59.00,0:22:00.75,SFX-BlackWhite,Sign 2159,0000,0000,0000,,I don't really want to think about it.
+Dialogue: 0,0:21:59.57,0:22:00.75,Default,S,0000,0000,0000,,I didn't do anything.
+Dialogue: 0,0:22:00.75,0:22:02.81,Default,T,0000,0000,0000,,It's because you put yourself out there!
+Dialogue: 0,0:22:02.81,0:22:04.05,Default,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:22:04.05,0:22:08.89,SFX-BlackWhite,Sign 2205,0000,0000,0000,,You're being loud.
+Dialogue: 0,0:22:04.63,0:22:07.65,Default,S,0000,0000,0000,,Well, I'm glad to see you looking so happy.
+Dialogue: 0,0:22:07.65,0:22:08.89,Default,T,0000,0000,0000,,By the way...
+Dialogue: 0,0:22:08.89,0:22:10.61,Default,T,0000,0000,0000,,In this kind of situation,
+Dialogue: 0,0:22:10.61,0:22:12.84,Default,T,0000,0000,0000,,when does one have a second kiss?
+Dialogue: 0,0:22:12.84,0:22:14.80,Default,S,0000,0000,0000,,I think whenever you feel like it.
+Dialogue: 0,0:22:14.80,0:22:16.13,Default,T,0000,0000,0000,,I see!
+Dialogue: 0,0:22:16.13,0:22:19.23,Default,T,0000,0000,0000,,But sometimes, Yamato may not feel like it!
+Dialogue: 0,0:22:19.23,0:22:21.23,Default,S,0000,0000,0000,,Then you shouldn't do it.
+Dialogue: 0,0:22:19.23,0:22:23.71,SFX-BlackWhite,Sign 2220,0000,0000,0000,,Like I'd know.
+Dialogue: 0,0:22:21.23,0:22:24.49,Default,T,0000,0000,0000,,I'd like to practice reading people!
+Dialogue: 0,0:22:24.49,0:22:28.28,Default,T,0000,0000,0000,,Think "yes" or "no," and let me feel it.
+Dialogue: 0,0:22:28.28,0:22:29.99,Default,S,0000,0000,0000,,There's never gonna be a "yes."
+Dialogue: 0,0:22:29.99,0:22:32.24,Default,S,0000,0000,0000,,Why not just do it on anniversaries \Nor something?
+Dialogue: 0,0:22:32.24,0:22:33.61,Default,T,0000,0000,0000,,Anniversaries!
+Dialogue: 0,0:22:34.36,0:22:35.85,Default,T,0000,0000,0000,,I see.
+Dialogue: 0,0:22:35.74,0:22:38.00,SFX-BlackWhite,Sign 2237,0000,0000,0000,,{\an9}You're the best, Suna.
+Dialogue: 0,0:22:35.85,0:22:38.00,Default,T,0000,0000,0000,,The next one's Valentine's Day...
+Dialogue: 0,0:22:39.29,0:22:42.00,Default,T,0000,0000,0000,,That's nerve-wracking to think about!
+Dialogue: 0,0:22:43.38,0:22:44.25,Default,S,0000,0000,0000,,It's getting hot.
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign 2247,0000,0000,0000,,{\fad(1,515)}My Mom
+Dialogue: 0,0:22:46.67,0:22:49.35,Default - margin,T,0000,0000,0000,,Next time: My Mom.

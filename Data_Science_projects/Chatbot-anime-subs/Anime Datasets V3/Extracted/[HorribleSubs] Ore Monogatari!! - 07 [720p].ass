@@ -1,0 +1,479 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Default - flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Message Body - Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Title1,Open Sans Semibold,33,&H00842224,&H000000FF,&H00EFEFE8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Title2,Open Sans Semibold,30,&H00842224,&H000000FF,&H00EFEFE8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,160,80,107,0
+Style: EyecatchA,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00CDBDA9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,107,24,0
+Style: EyecatchB,Open Sans Semibold,36,&H0085F5EF,&H000000FF,&H00CDBDA9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,107,27,24,0
+Style: School,Open Sans Semibold,27,&H00A1EEE8,&H000000FF,&H004A605B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Board,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H0066943F,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Gouda,Open Sans Semibold,33,&H00716A5E,&H000000FF,&H00F0F3F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Phone,Open Sans Semibold,27,&H00604C3E,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,53,24,0
+Style: Planner,Open Sans Semibold,27,&H001F201E,&H000000FF,&H00AD9D9F,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Message,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00D8607C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: Shuuei,Open Sans Semibold,27,&H00443D27,&H000000FF,&H00BCC8B2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Class,Open Sans Semibold,30,&H009D6953,&H000000FF,&H00F8EAD6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: Play,Open Sans Semibold,27,&H006457DC,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,53,53,24,0
+Style: SFX-BlueBlue,Open Sans Semibold,30,&H00392808,&H000000FF,&H00E7DF8B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,107,24,0
+Style: SFX-Red,Open Sans Semibold,30,&H00614693,&H000000FF,&H00FAFAFA,&H00000000,1,0,0,0,100,100,0,0,1,1,0,9,53,107,24,0
+Style: SFX-BlueWhite,Open Sans Semibold,30,&H00392808,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,53,107,24,0
+Style: SFX-BlackWhite,Open Sans Semibold,33,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,53,24,0
+Style: SFX-BlackRed,Open Sans Semibold,27,&H00312C28,&H000000FF,&H003610D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,53,24,0
+Style: SFX-RedBlack,Open Sans Semibold,27,&H005449E0,&H000000FF,&H00020600,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,53,24,0
+Style: SignA,Open Sans Semibold,30,&H004489C8,&H000000FF,&H0017267D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,53,24,0
+Style: SignB,Open Sans Semibold,30,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,9,53,53,24,0
+Style: SignC,Open Sans Semibold,30,&H00312C28,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,1,373,53,291,0
+Style: Copy of Default,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: SignD,Open Sans Semibold,30,&H002D4668,&H000000FF,&H00ABBFF7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,53,107,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.42,0:00:05.35,Default - italics,T,0000,0000,0000,,I'm Gouda Takeo, a first-year in high school.
+Dialogue: 0,0:00:05.35,0:00:08.77,Default - italics,T,0000,0000,0000,,He's Sunakawa Makoto, a friend of mine.
+Dialogue: 0,0:00:09.26,0:00:13.89,Default - italics,T,0000,0000,0000,,And that's my girlfriend, Yamato.
+Dialogue: 0,0:00:13.89,0:00:15.28,Default,Y,0000,0000,0000,,Takeo-kun!
+Dialogue: 0,0:00:15.28,0:00:16.70,Default,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:00:20.29,0:00:21.70,SFX-BlueWhite,Sign 0021,0000,0000,0000,,Shuuei
+Dialogue: 0,0:00:30.03,0:00:32.88,Default,Capt,0000,0000,0000,,You must be the first-year, Gouda Takeo.
+Dialogue: 0,0:00:35.40,0:00:37.21,Default,Capt,0000,0000,0000,,We need to talk to you.
+Dialogue: 0,0:00:41.17,0:00:43.69,Default - italics,T,0000,0000,0000,,Don't worry, Yamato.
+Dialogue: 0,0:00:43.69,0:00:46.09,Default - italics,T,0000,0000,0000,,I will protect you.
+Dialogue: 0,0:00:46.09,0:00:48.51,Default - italics,T,0000,0000,0000,,I'll be your shield.
+Dialogue: 0,0:02:18.99,0:02:22.49,Title1,Sign 0220,0000,0000,0000,,My Strength
+Dialogue: 0,0:02:29.42,0:02:30.56,Default,Capt,0000,0000,0000,,Please, Gouda!
+Dialogue: 0,0:02:30.56,0:02:31.63,Default,VC,0000,0000,0000,,Help us!
+Dialogue: 0,0:02:31.63,0:02:33.00,Default,T,0000,0000,0000,,Okay!
+Dialogue: 0,0:02:34.95,0:02:36.43,Default,Capt,0000,0000,0000,,You will?
+Dialogue: 0,0:02:36.91,0:02:39.27,Default,S,0000,0000,0000,,But you have no idea what help you'll be giving.
+Dialogue: 0,0:02:39.27,0:02:41.29,Default,T,0000,0000,0000,,Men are bowing down to me.
+Dialogue: 0,0:02:41.29,0:02:42.37,Default,T,0000,0000,0000,,How could I refuse?
+Dialogue: 0,0:02:43.01,0:02:45.51,Default,T,0000,0000,0000,,And they're second-years, too.
+Dialogue: 0,0:02:45.51,0:02:47.92,Default,Y,0000,0000,0000,,You're so cool, Takeo-kun.
+Dialogue: 0,0:02:47.92,0:02:50.27,Default,T,0000,0000,0000,,So what did you need help with?
+Dialogue: 0,0:02:51.00,0:02:52.71,Default,Capt,0000,0000,0000,,Join the judo club.
+Dialogue: 0,0:02:52.71,0:02:54.19,Default,VC,0000,0000,0000,,Just for a month.
+Dialogue: 0,0:02:54.19,0:02:55.27,Default,CVC,0000,0000,0000,,We're begging you!
+Dialogue: 0,0:02:56.02,0:02:57.28,Default,Capt,0000,0000,0000,,At the end of this month,
+Dialogue: 0,0:02:57.28,0:03:01.03,Default,Capt,0000,0000,0000,,our judo club will participate \Nin the Shuu-Bi Match.
+Dialogue: 0,0:03:01.11,0:03:08.41,SignB,Sign 0304,0000,0000,0000,,{\an8}Shuu-Bi Match?
+Dialogue: 0,0:03:01.98,0:03:03.37,Default,Capt,0000,0000,0000,,It's an annual tradition
+Dialogue: 0,0:03:03.37,0:03:06.35,Default,Capt,0000,0000,0000,,where we compete with Bianka High School,
+Dialogue: 0,0:03:06.35,0:03:08.41,Default,Capt,0000,0000,0000,,our long-time rivals.
+Dialogue: 0,0:03:08.41,0:03:11.16,Default,VC,0000,0000,0000,,So far, our score is 9-9.
+Dialogue: 0,0:03:11.16,0:03:14.37,Default,Capt,0000,0000,0000,,We must secure victory in \Nthe 10th match for glory!
+Dialogue: 0,0:03:14.37,0:03:15.54,Default,VC,0000,0000,0000,,Indeed!
+Dialogue: 0,0:03:15.54,0:03:18.97,Default,Capt,0000,0000,0000,,There's even a superstition that \Nthe years we lose the match,
+Dialogue: 0,0:03:18.97,0:03:21.55,Default,Capt,0000,0000,0000,,we won't make it to nationals!
+Dialogue: 0,0:03:21.55,0:03:23.19,Default,VC,0000,0000,0000,,It's pretty much our Battle of Mt. Tennou!
+Dialogue: 0,0:03:23.19,0:03:26.22,Default,Capt,0000,0000,0000,,It's a team competition where we need \Nto win three out of five matches,
+Dialogue: 0,0:03:26.22,0:03:27.93,Default,Capt,0000,0000,0000,,but our champion's been injured,
+Dialogue: 0,0:03:27.93,0:03:30.02,Default,Capt,0000,0000,0000,,and we have no one to take his place.
+Dialogue: 0,0:03:30.02,0:03:31.56,Default,VC,0000,0000,0000,,Please fight for me!
+Dialogue: 0,0:03:32.57,0:03:34.25,Default,S,0000,0000,0000,,The explanation's so long
+Dialogue: 0,0:03:34.25,0:03:36.33,Default,S,0000,0000,0000,,that you weren't able to take it in, right?
+Dialogue: 0,0:03:37.49,0:03:41.16,Default,T,0000,0000,0000,,So I just have to try to win the \Nmatch happening in a month?
+Dialogue: 0,0:03:41.16,0:03:42.69,Default,CVC,0000,0000,0000,,That's right.
+Dialogue: 0,0:03:42.69,0:03:44.82,Default,S,0000,0000,0000,,Oh, guess you got the gist of it.
+Dialogue: 0,0:03:44.82,0:03:46.21,Default,VC,0000,0000,0000,,Thanks, Gouda!
+Dialogue: 0,0:03:46.21,0:03:47.41,Default,T,0000,0000,0000,,I'll do it!
+Dialogue: 0,0:03:47.41,0:03:49.49,Default,Capt,0000,0000,0000,,See you at morning practice tomorrow!
+Dialogue: 0,0:03:49.49,0:03:50.41,Default,T,0000,0000,0000,,Right!
+Dialogue: 0,0:03:50.41,0:03:52.01,Default,Capt,0000,0000,0000,,We're counting on you!
+Dialogue: 0,0:03:53.29,0:03:55.93,Default,Y,0000,0000,0000,,It's amazing that they'd ask you for help.
+Dialogue: 0,0:03:55.93,0:03:58.11,Default,Y,0000,0000,0000,,I didn't know you did judo, Takeo-kun.
+Dialogue: 0,0:03:58.11,0:03:59.73,Default,T,0000,0000,0000,,Up till the end of junior high.
+Dialogue: 0,0:03:59.73,0:04:01.74,Default,S,0000,0000,0000,,You even competed in the nationals.
+Dialogue: 0,0:04:01.74,0:04:02.95,Default,Y,0000,0000,0000,,Eh? Wow!
+Dialogue: 0,0:04:02.95,0:04:03.80,Default,Y,0000,0000,0000,,That's so cool!
+Dialogue: 0,0:04:04.96,0:04:07.41,Default,Y,0000,0000,0000,,Why did you stop in high school?
+Dialogue: 0,0:04:08.13,0:04:09.92,Default,T,0000,0000,0000,,I forgot to join...
+Dialogue: 0,0:04:09.92,0:04:11.12,Default,S,0000,0000,0000,,Why bother?
+Dialogue: 0,0:04:11.12,0:04:13.31,Default,S,0000,0000,0000,,You're strong enough.
+Dialogue: 0,0:04:13.31,0:04:18.38,Default,T,0000,0000,0000,,No, there are many more who \Nare stronger than I!
+Dialogue: 0,0:04:18.38,0:04:20.72,Default,S,0000,0000,0000,,I'm sure you'd rank pretty high,
+Dialogue: 0,0:04:20.72,0:04:23.40,Default,S,0000,0000,0000,,if anyone ranked all humanity \Nin order of their strength.
+Dialogue: 0,0:04:23.88,0:04:25.65,Default,Y,0000,0000,0000,,I wonder where you'd place...
+Dialogue: 0,0:04:25.65,0:04:27.18,Default,T,0000,0000,0000,,I've got a way to go.
+Dialogue: 0,0:04:27.02,0:04:29.33,SignB,Sign 0428,0000,0000,0000,,{\fad(1,61)}Strongest Primate
+Dialogue: 0,0:04:27.18,0:04:29.05,Default,T,0000,0000,0000,,After all, there are people like Karelin.
+Dialogue: 0,0:04:28.70,0:04:31.33,SignC,Sign 0429,0000,0000,0000,,I see
+Dialogue: 0,0:04:29.33,0:04:31.33,SignB,Sign 0430,0000,0000,0000,,Yup
+Dialogue: 0,0:04:30.01,0:04:31.33,Default,S,0000,0000,0000,,That's good and all, but...
+Dialogue: 0,0:04:32.36,0:04:34.54,Default,S,0000,0000,0000,,If you're going to train for the match,
+Dialogue: 0,0:04:34.54,0:04:37.73,Default,S,0000,0000,0000,,doesn't that mean you won't \Nbe able to see Yamato-san
+Dialogue: 0,0:04:37.73,0:04:39.03,Default,S,0000,0000,0000,,for about a month?
+Dialogue: 0,0:04:43.15,0:04:44.53,Default - italics,T,0000,0000,0000,,I see...
+Dialogue: 0,0:04:44.53,0:04:46.25,Default,T,0000,0000,0000,,I'm sorry, Yamato.
+Dialogue: 0,0:04:46.25,0:04:48.55,Default,Y,0000,0000,0000,,I'll be fine, Takeo-kun!
+Dialogue: 0,0:04:48.88,0:04:51.64,Default,Y,0000,0000,0000,,Help the judo club.
+Dialogue: 0,0:04:51.64,0:04:53.56,Default,Y,0000,0000,0000,,It's great that they'd come to you for help.
+Dialogue: 0,0:04:54.63,0:04:56.02,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:04:56.30,0:05:00.77,Default,Y,0000,0000,0000,,Besides, I want to see you do judo.
+Dialogue: 0,0:05:00.77,0:05:02.48,Default - italics,T,0000,0000,0000,,I love her!
+Dialogue: 0,0:05:03.35,0:05:04.72,Default,T,0000,0000,0000,,If you really want to see me,
+Dialogue: 0,0:05:04.72,0:05:06.14,Default,T,0000,0000,0000,,just say the word.
+Dialogue: 0,0:05:06.14,0:05:07.46,Default,T,0000,0000,0000,,I'll come right away.
+Dialogue: 0,0:05:08.59,0:05:10.26,Default,Y,0000,0000,0000,,You will?
+Dialogue: 0,0:05:10.74,0:05:11.79,Default,Y,0000,0000,0000,,Okay!
+Dialogue: 0,0:05:11.79,0:05:14.40,Default,Y,0000,0000,0000,,I'll be cheering you on, so I'll be fine.
+Dialogue: 0,0:05:14.40,0:05:16.46,Default,Y,0000,0000,0000,,Good luck, Takeo-kun!
+Dialogue: 0,0:05:17.79,0:05:18.99,Default - italics,T,0000,0000,0000,,Yamato,
+Dialogue: 0,0:05:18.99,0:05:22.46,Default - italics,T,0000,0000,0000,,I know you're looking out for me!
+Dialogue: 0,0:05:33.25,0:05:34.06,Default,Capt,0000,0000,0000,,Begin!
+Dialogue: 0,0:05:42.08,0:05:43.73,Default,Guy,0000,0000,0000,,Okay! I'm next!
+Dialogue: 0,0:05:44.18,0:05:45.49,Default,T,0000,0000,0000,,'Kay!
+Dialogue: 0,0:05:45.49,0:05:46.40,Default - italics,T,0000,0000,0000,,I've...
+Dialogue: 0,0:05:46.40,0:05:47.24,Default - italics,T,0000,0000,0000,,got this...
+Dialogue: 0,0:05:47.24,0:05:48.74,Default - italics,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:05:48.74,0:05:50.20,Default,VC,0000,0000,0000,,Gouda...
+Dialogue: 0,0:05:48.74,0:05:52.87,SignB,Sign 0552,0000,0000,0000,,{\an8}All for us...
+Dialogue: 0,0:05:50.93,0:05:52.87,Default,Capt,0000,0000,0000,,C'mon, guys!
+Dialogue: 0,0:05:52.87,0:05:53.91,Default,Guys,0000,0000,0000,,Right!
+Dialogue: 0,0:05:55.50,0:05:58.00,Default,Guys,0000,0000,0000,,Thank you!
+Dialogue: 0,0:06:01.22,0:06:02.13,Default,T,0000,0000,0000,,Yamato!
+Dialogue: 0,0:06:02.13,0:06:04.44,Default,Y,0000,0000,0000,,Oh, Takeo-kun!
+Dialogue: 0,0:06:04.44,0:06:05.63,Default,Y,0000,0000,0000,,Good job!
+Dialogue: 0,0:06:06.25,0:06:08.06,Default,Y,0000,0000,0000,,Sorry I came without telling you.
+Dialogue: 0,0:06:08.81,0:06:10.26,Default,T,0000,0000,0000,,Something's in your hair.
+Dialogue: 0,0:06:10.26,0:06:11.14,Default,Y,0000,0000,0000,,Oh.
+Dialogue: 0,0:06:12.05,0:06:13.22,Default,Y,0000,0000,0000,,Earlier...
+Dialogue: 0,0:06:14.16,0:06:17.52,Default,Y,0000,0000,0000,,I thought about keeping it a secret,
+Dialogue: 0,0:06:17.52,0:06:19.58,Default,Y,0000,0000,0000,,but I peeked into your practice session.
+Dialogue: 0,0:06:22.38,0:06:24.65,Default,Y,0000,0000,0000,,You were so cool!
+Dialogue: 0,0:06:24.65,0:06:26.03,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:06:26.03,0:06:27.74,Default,Y,0000,0000,0000,,Oh, here. I made this for you.
+Dialogue: 0,0:06:28.63,0:06:30.34,Default,Y,0000,0000,0000,,They're rice balls.
+Dialogue: 0,0:06:30.34,0:06:33.12,Default,Y,0000,0000,0000,,I can make other things, see?
+Dialogue: 0,0:06:33.86,0:06:35.37,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:06:37.60,0:06:40.25,Default,Y,0000,0000,0000,,I got a little too into it this \Nmorning and made a ton.
+Dialogue: 0,0:06:40.88,0:06:43.41,Default,Y,0000,0000,0000,,I might have made too much.
+Dialogue: 0,0:06:42.50,0:06:44.75,SFX-BlueBlue,Sign 0645,0000,0000,0000,,{\c&HA484A0&\an8\fs18}Beware of Gropers
+Dialogue: 0,0:06:47.87,0:06:49.15,Default,Y,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:06:49.15,0:06:50.61,Default,T,0000,0000,0000,,Thank you, Yamato.
+Dialogue: 0,0:06:51.28,0:06:53.60,Default,T,0000,0000,0000,,But you shouldn't come here again.
+Dialogue: 0,0:06:53.60,0:06:54.14,Default,Y,0000,0000,0000,,Eh?
+Dialogue: 0,0:06:54.14,0:06:55.05,Default,T,0000,0000,0000,,Let's go.
+Dialogue: 0,0:06:55.05,0:06:56.37,Default,T,0000,0000,0000,,I'll walk you home.
+Dialogue: 0,0:06:56.37,0:06:58.14,Default,Y,0000,0000,0000,,Oh, okay...
+Dialogue: 0,0:06:59.49,0:07:01.96,Default - italics,T,0000,0000,0000,,It's dark and unsafe.
+Dialogue: 0,0:07:01.96,0:07:05.15,Default - italics,T,0000,0000,0000,,If anything were to happen to Yamato,
+Dialogue: 0,0:07:05.15,0:07:07.96,Default - italics,T,0000,0000,0000,,I'd never forgive myself.
+Dialogue: 0,0:07:11.50,0:07:12.91,Default,T,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:07:14.70,0:07:16.19,Default - italics,T,0000,0000,0000,,This is salmon.
+Dialogue: 0,0:07:16.73,0:07:18.20,Default - italics,T,0000,0000,0000,,This one's pickled plum.
+Dialogue: 0,0:07:18.75,0:07:19.72,Default - italics,T,0000,0000,0000,,Cod roe.
+Dialogue: 0,0:07:19.72,0:07:20.86,Default - italics,T,0000,0000,0000,,Salmon roe.
+Dialogue: 0,0:07:20.86,0:07:22.01,Default - italics,T,0000,0000,0000,,BBQ beef.
+Dialogue: 0,0:07:22.01,0:07:23.42,Default - italics,T,0000,0000,0000,,Tuna with mayo!
+Dialogue: 0,0:07:24.05,0:07:25.74,Default - italics,T,0000,0000,0000,,She made all these different kinds
+Dialogue: 0,0:07:25.74,0:07:27.42,Default - italics,T,0000,0000,0000,,with those tiny hands of hers.
+Dialogue: 0,0:07:28.21,0:07:30.55,Default - italics,T,0000,0000,0000,,The rice must've been piping hot, too.
+Dialogue: 0,0:07:31.14,0:07:32.13,Default - italics,T,0000,0000,0000,,They're delicious.
+Dialogue: 0,0:07:32.59,0:07:35.63,Default - italics,T,0000,0000,0000,,They're delicious, Yamato!
+Dialogue: 0,0:07:39.18,0:07:40.93,Default - italics,T,0000,0000,0000,,I love her!
+Dialogue: 0,0:07:41.38,0:07:43.00,Copy of Default,T,0000,0000,0000,,The rice balls are awesome!
+Dialogue: 0,0:07:43.00,0:07:43.96,Copy of Default,T,0000,0000,0000,,Thank you.
+Dialogue: 0,0:07:43.96,0:07:45.14,Copy of Default,T,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:07:45.92,0:07:47.55,Copy of Default,Y,0000,0000,0000,,Great!
+Dialogue: 0,0:07:47.55,0:07:48.90,Copy of Default,Y,0000,0000,0000,,I thought you might get hungry.
+Dialogue: 0,0:07:48.90,0:07:50.94,Copy of Default,Y,0000,0000,0000,,Eat up and good luck!
+Dialogue: 0,0:07:51.44,0:07:53.61,Default - italics,T,0000,0000,0000,,I'm gonna give it everything I've got!
+Dialogue: 0,0:07:59.03,0:08:01.30,Message Body - Default,Y,0000,0000,0000,,Takeo-kun, how's it going?
+Dialogue: 0,0:08:01.30,0:08:04.25,Message Body - Default,Y,0000,0000,0000,,Today, there are lots of flowers \Nblooming at school.
+Dialogue: 0,0:08:04.25,0:08:07.01,Message Body - Default,Y,0000,0000,0000,,I only know the name of flowers \Nlike tulips and stuff,
+Dialogue: 0,0:08:07.01,0:08:09.30,Message Body - Default,Y,0000,0000,0000,,but I'd like to go with you to a \Nbotanical garden sometime.
+Dialogue: 0,0:08:09.30,0:08:10.55,Message Body - Default,T,0000,0000,0000,,Let's do that!!
+Dialogue: 0,0:08:10.55,0:08:14.22,Default,TMom,0000,0000,0000,,Take, you're perfect for this.
+Dialogue: 0,0:08:15.46,0:08:17.22,Copy of Default,Y,0000,0000,0000,,I can't see any stars today.
+Dialogue: 0,0:08:18.56,0:08:20.46,Copy of Default,Y,0000,0000,0000,,I wonder if it's going to rain tomorrow.
+Dialogue: 0,0:08:20.46,0:08:23.53,Copy of Default,Y,0000,0000,0000,,Takeo-kun, don't forget to take an umbrella.
+Dialogue: 0,0:08:23.53,0:08:26.11,Copy of Default,Y,0000,0000,0000,,What kind of umbrella do you have?
+Dialogue: 0,0:08:26.11,0:08:28.36,Copy of Default,T,0000,0000,0000,,It's black and huge.
+Dialogue: 0,0:08:28.64,0:08:31.68,Default,S,0000,0000,0000,,Hey, that's a beach umbrella, isn't it?
+Dialogue: 0,0:08:31.68,0:08:33.28,Default,S,0000,0000,0000,,I've always wondered about that.
+Dialogue: 0,0:08:34.15,0:08:36.85,Message Body - Default,Y,0000,0000,0000,,Takeo-kun, don't get hurt, okay?
+Dialogue: 0,0:08:36.85,0:08:39.22,Message Body - Default,Y,0000,0000,0000,,I'm going to make a wish right now.
+Dialogue: 0,0:08:39.22,0:08:41.87,Message Body - Default,Y,0000,0000,0000,,Don't get hurt! Don't get hurt!
+Dialogue: 0,0:08:41.87,0:08:43.39,Message Body - Default,T,0000,0000,0000,,I can feel the good vibes!
+Dialogue: 0,0:08:43.39,0:08:44.42,Message Body - Default,T,0000,0000,0000,,Thanks!
+Dialogue: 0,0:08:44.91,0:08:47.35,Copy of Default,Y,0000,0000,0000,,Good luck, Takeo-kun!
+Dialogue: 0,0:08:47.35,0:08:50.42,Copy of Default,Y,0000,0000,0000,,I'm cheering you on 24/7.
+Dialogue: 0,0:08:50.42,0:08:51.31,Copy of Default,T,0000,0000,0000,,Thanks!
+Dialogue: 0,0:09:00.61,0:09:01.91,Default,S,0000,0000,0000,,What's all that?
+Dialogue: 0,0:09:01.91,0:09:02.97,Default,Y,0000,0000,0000,,What is it?
+Dialogue: 0,0:09:02.97,0:09:04.56,Default,Y,0000,0000,0000,,They're scones.
+Dialogue: 0,0:09:04.56,0:09:08.94,Default,Y,0000,0000,0000,,I found myself baking a ton when \NI was thinking about Takeo-kun.
+Dialogue: 0,0:09:08.94,0:09:10.44,SFX-RedBlack,Y,0000,0000,0000,,{\c&HCBC3D1&\an9\fad(1,256)} That's a bit scary...
+Dialogue: 0,0:09:09.63,0:09:12.29,Default,Y,0000,0000,0000,,Please have some, too, Sunakawa-kun.
+Dialogue: 0,0:09:12.29,0:09:14.90,Default,Y,0000,0000,0000,,Oh, sorry, I guess it might feel like leftovers.
+Dialogue: 0,0:09:14.90,0:09:16.95,Default,Y,0000,0000,0000,,I mean, they are, but...
+Dialogue: 0,0:09:16.95,0:09:19.87,Default,S,0000,0000,0000,,Well, why not just give them to Takeo?
+Dialogue: 0,0:09:20.55,0:09:22.74,Default,S,0000,0000,0000,,He wouldn't have a problem \Neating them all, would he?
+Dialogue: 0,0:09:24.29,0:09:26.10,Default,Y,0000,0000,0000,,I... I...
+Dialogue: 0,0:09:26.98,0:09:29.06,Default,Y,0000,0000,0000,,I don't know if Takeo-kun likes me anymore.
+Dialogue: 0,0:09:29.00,0:09:30.59,SFX-RedBlack,Sign 0931,0000,0000,0000,,{\c&HCBC3D1&\an9}No way
+Dialogue: 0,0:09:29.06,0:09:30.59,Default,S,0000,0000,0000,,No way.
+Dialogue: 0,0:09:30.59,0:09:32.56,Default,Y,0000,0000,0000,,But he told me not to come.
+Dialogue: 0,0:09:32.56,0:09:35.35,Default,Y,0000,0000,0000,,It might be because I got ahead of \Nmyself and showed up with food!
+Dialogue: 0,0:09:35.35,0:09:37.35,Default,Y,0000,0000,0000,,Maybe it crossed a line...
+Dialogue: 0,0:09:37.35,0:09:41.75,Default,S,0000,0000,0000,,No, I think it's just a misunderstanding \Nor you're overthinking it.
+Dialogue: 0,0:09:41.75,0:09:45.10,Default,S,0000,0000,0000,,He totally isn't the type of guy to \Nget mad about stuff like that.
+Dialogue: 0,0:09:46.56,0:09:48.29,Default,Y,0000,0000,0000,,Right...
+Dialogue: 0,0:09:48.29,0:09:49.67,Default,Y,0000,0000,0000,,You're right.
+Dialogue: 0,0:09:50.44,0:09:52.48,Default,Y,0000,0000,0000,,Takeo-kun's not like that, yeah.
+Dialogue: 0,0:09:52.48,0:09:55.19,SFX-RedBlack,Y,0000,0000,0000,,{\c&HCBC3D1&\an8\fad(1,221)}Yeah, yeah
+Dialogue: 0,0:09:53.00,0:09:55.39,Default,Y,0000,0000,0000,,Now that I'm calmer about it, I see it now.
+Dialogue: 0,0:09:54.07,0:09:55.19,SFX-RedBlack,,0000,0000,0000,,{\c&HCBC3D1&\an9\fad(1,221)}Right?
+Dialogue: 0,0:09:55.39,0:09:57.69,Default,Y,0000,0000,0000,,Thanks, Sunakawa-kun.
+Dialogue: 0,0:09:57.69,0:09:59.99,Default,S,0000,0000,0000,,I don't think you have to work \Nyourself up over this.
+Dialogue: 0,0:10:03.19,0:10:06.97,Default,Y,0000,0000,0000,,It's the first time I've fallen for anyone.
+Dialogue: 0,0:10:07.42,0:10:09.84,Default,Y,0000,0000,0000,,Meeting Takeo-kun was the first time
+Dialogue: 0,0:10:09.84,0:10:14.09,Default,Y,0000,0000,0000,,{\fad(1,1645)}that I felt this rush coming up from the \Nbottom of my heart, you know?
+Dialogue: 0,0:10:14.55,0:10:18.21,Default,Y,0000,0000,0000,,That's when I realized it's what love's like.
+Dialogue: 0,0:10:19.42,0:10:22.53,Default,Y,0000,0000,0000,,Every day, I'm excited about him \Nand can't stop smiling.
+Dialogue: 0,0:10:22.53,0:10:26.23,Default,Y,0000,0000,0000,,Every time I see him, I know I love him.
+Dialogue: 0,0:10:26.91,0:10:30.73,Default,S,0000,0000,0000,,Oh, Takeo was my first friend, too.
+Dialogue: 0,0:10:30.73,0:10:34.61,Copy of Default,Sign 1032,0000,0000,0000,,{\an9\fs18}Wow, we're the same
+Dialogue: 0,0:10:31.54,0:10:34.74,Default,S,0000,0000,0000,,Having him as your "first" is pretty intense, huh?
+Dialogue: 0,0:10:34.74,0:10:39.46,Default,Y,0000,0000,0000,,I love him so much, I even creep myself out!
+Dialogue: 0,0:10:39.46,0:10:41.49,Default,Y,0000,0000,0000,,I want to calm down already!
+Dialogue: 0,0:10:39.61,0:10:41.49,Copy of Default,Y,0000,0000,0000,,{\an9\fs18} I wonder if it'll ever calm down...
+Dialogue: 0,0:10:42.18,0:10:44.58,Default,S,0000,0000,0000,,I've been friends with him for over a decade,
+Dialogue: 0,0:10:44.58,0:10:46.50,Default,S,0000,0000,0000,,but he hasn't bored me yet.
+Dialogue: 0,0:10:46.50,0:10:48.79,Default,Y,0000,0000,0000,,Oh, my god... What am I going to do?
+Dialogue: 0,0:10:48.79,0:10:51.75,Default,Y,0000,0000,0000,,Maybe I'll feel nervous for the rest of my life!
+Dialogue: 0,0:10:51.75,0:10:56.01,Default,S,0000,0000,0000,,Maybe Takeo'd feel that way with \Nyou for the rest of his life, too.
+Dialogue: 0,0:10:56.01,0:11:00.82,Gouda,Sign 1058,0000,0000,0000,,{\fs18}Gouda!!
+Dialogue: 0,0:10:57.70,0:11:00.16,Default,Y,0000,0000,0000,,I really want to see him.
+Dialogue: 0,0:11:01.10,0:11:02.09,Default,S,0000,0000,0000,,Why don't you wait for him?
+Dialogue: 0,0:11:02.95,0:11:06.52,Default,Y,0000,0000,0000,,No, seeing him will only make me \Nwant to see him more often.
+Dialogue: 0,0:11:06.52,0:11:07.75,Default,Y,0000,0000,0000,,I'll just have to hold back!
+Dialogue: 0,0:11:07.75,0:11:09.12,Default,Y,0000,0000,0000,,I don't want to get in his way!
+Dialogue: 0,0:11:09.88,0:11:12.74,Default,S,0000,0000,0000,,I don't think he's the type to \Nthink that way, but okay.
+Dialogue: 0,0:11:13.65,0:11:17.76,Default,Y,0000,0000,0000,,When he was training, Takeo-kun was so cool.
+Dialogue: 0,0:11:18.58,0:11:20.99,Default,S,0000,0000,0000,,He'll be even cooler at the actual match.
+Dialogue: 0,0:11:19.13,0:11:22.81,SFX-RedBlack,Sign 1120,0000,0000,0000,,{\c&HCBC3D1&\an8}I've seen him at a match
+Dialogue: 0,0:11:20.99,0:11:21.65,Default,Y,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:21.65,0:11:22.81,Default,Y,0000,0000,0000,,More than he already is?
+Dialogue: 0,0:11:22.81,0:11:24.96,Default,S,0000,0000,0000,,He's like a ball of concentration.
+Dialogue: 0,0:11:24.18,0:11:27.07,SFX-RedBlack,Sign 1125,0000,0000,0000,,{\c&HCBC3D1&\an8}He's the type that never \Nmisses a penalty kick
+Dialogue: 0,0:11:24.96,0:11:26.17,Default,Y,0000,0000,0000,,Wow!
+Dialogue: 0,0:11:26.17,0:11:27.66,Default,Y,0000,0000,0000,,That'd be incredible!
+Dialogue: 0,0:11:27.66,0:11:29.96,Default,Y,0000,0000,0000,,I wonder if I'll be okay!
+Dialogue: 0,0:11:29.96,0:11:30.50,Default,Y,0000,0000,0000,,Oh!
+Dialogue: 0,0:11:30.50,0:11:32.45,Default,Y,0000,0000,0000,,That star's just like Takeo-kun.
+Dialogue: 0,0:11:32.45,0:11:33.04,Default,S,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:33.50,0:11:36.62,Default,Y,0000,0000,0000,,Look... If you draw a line between \Nthat star and the other star,
+Dialogue: 0,0:11:36.62,0:11:39.72,Default,Y,0000,0000,0000,,it looks like Takeo-kun laughing!
+Dialogue: 0,0:11:39.98,0:11:41.96,Default,S,0000,0000,0000,,Huh... So it's like the Takeo constellation.
+Dialogue: 0,0:11:41.96,0:11:43.05,Default,Y,0000,0000,0000,,Yeah!
+Dialogue: 0,0:11:42.13,0:11:43.05,Copy of Default,Sign 1143,0000,0000,0000,,{\fs18\an8}Takeo Constellation
+Dialogue: 0,0:11:43.45,0:11:48.50,Default,Y,0000,0000,0000,,Oh, those seven stars look just like Takeo-kun \Nwhen he was doing a shoulder throw!
+Dialogue: 0,0:11:48.50,0:11:49.28,Default,S,0000,0000,0000,,Huh...
+Dialogue: 0,0:11:48.97,0:11:50.68,Copy of Default,Sign 1150,0000,0000,0000,,{\an8\fs26\fad(447,1)}Takeo 2
+Dialogue: 0,0:11:49.28,0:11:50.68,Default,S,0000,0000,0000,,Guess that'd be Takeo 2.
+Dialogue: 0,0:11:50.68,0:11:53.70,Default,Y,0000,0000,0000,,And those over there are when \Nhe saved me on the train.
+Dialogue: 0,0:11:53.70,0:11:55.31,Default,S,0000,0000,0000,,Takeo 3, then.
+Dialogue: 0,0:11:56.81,0:12:00.44,Default,S,0000,0000,0000,,I think you can see anything \Nyou want in the stars.
+Dialogue: 0,0:12:01.02,0:12:02.64,Default,Y,0000,0000,0000,,Right...
+Dialogue: 0,0:12:03.70,0:12:08.38,Default,Y,0000,0000,0000,,Oh, that one is when Takeo-kun \Nescaped from the fire!
+Dialogue: 0,0:12:08.38,0:12:11.44,Default,S,0000,0000,0000,,I'm starting to see him in the stars, too.
+Dialogue: 0,0:12:15.46,0:12:16.46,Default,Capt,0000,0000,0000,,Next!
+Dialogue: 0,0:12:17.22,0:12:17.96,Default,Capt,0000,0000,0000,,Next!
+Dialogue: 0,0:12:18.45,0:12:21.09,Default,Guys,0000,0000,0000,,Takeo-kun, please spar with me next.
+Dialogue: 0,0:12:21.09,0:12:22.34,Default,Guys,0000,0000,0000,,And me, after that.
+Dialogue: 0,0:12:22.34,0:12:23.47,Default,Guys,0000,0000,0000,,Then me.
+Dialogue: 0,0:12:24.09,0:12:27.22,Default,VC,0000,0000,0000,,Gouda, you're doing this for us...
+Dialogue: 0,0:12:27.22,0:12:29.97,SFX-BlackWhite,Sign 1228,0000,0000,0000,,All for us...
+Dialogue: 0,0:12:27.54,0:12:29.97,Default,Capt,0000,0000,0000,,All right! We'll follow suit, men!
+Dialogue: 0,0:12:29.97,0:12:31.22,Default,Guys,0000,0000,0000,,Got it!
+Dialogue: 0,0:12:35.84,0:12:39.46,Default - italics,T,0000,0000,0000,,It's true that I want to give \Neverything I have to this,
+Dialogue: 0,0:12:39.46,0:12:41.18,Default - italics,T,0000,0000,0000,,given that a man bowed his head to me
+Dialogue: 0,0:12:41.18,0:12:43.76,Default - italics,T,0000,0000,0000,,and I've agreed to help.
+Dialogue: 0,0:12:44.92,0:12:48.48,Default - italics,T,0000,0000,0000,,But it's more because Yamato \Nwished me good luck.
+Dialogue: 0,0:12:50.92,0:12:52.16,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:12:52.16,0:12:54.85,Default - italics,T,0000,0000,0000,,I haven't heard her voice in a while.
+Dialogue: 0,0:12:54.95,0:12:58.79,SignD,Sign 1255,0000,0000,0000,,Fight
+Dialogue: 0,0:12:55.27,0:12:58.79,Default - italics,T,0000,0000,0000,,It's the first time I've gone this \Nlong without talking to her.
+Dialogue: 0,0:13:01.94,0:13:02.55,Copy of Default,Sign 1302,0000,0000,0000,,{\an7}Evening.
+Dialogue: 0,0:13:02.55,0:13:04.76,Copy of Default,Sign 1303,0000,0000,0000,,{\an7\fad(1,309)}Evening. \NCan I call you?
+Dialogue: 0,0:13:04.76,0:13:05.88,Copy of Default,Sign 1305,0000,0000,0000,,{\an7\fad(191,303)}Send
+Dialogue: 0,0:13:07.54,0:13:08.43,Default,Y,0000,0000,0000,,Takeo-kun?
+Dialogue: 0,0:13:08.43,0:13:09.75,Default,Y,0000,0000,0000,,It's me!
+Dialogue: 0,0:13:09.75,0:13:10.33,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:10.97,0:13:12.32,Default,Y,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:13:12.32,0:13:14.70,Default,T,0000,0000,0000,,I just wanted to hear your voice.
+Dialogue: 0,0:13:14.70,0:13:16.44,Default,Y,0000,0000,0000,,Huh? My voice?
+Dialogue: 0,0:13:17.08,0:13:19.12,Default,Y,0000,0000,0000,,My voice... Okay.
+Dialogue: 0,0:13:19.12,0:13:20.98,Default,Y,0000,0000,0000,,Okay, I'll talk.
+Dialogue: 0,0:13:20.98,0:13:23.49,Default,Y,0000,0000,0000,,Um, this is Yamato.
+Dialogue: 0,0:13:23.49,0:13:26.07,Default,Y,0000,0000,0000,,How are you, Takeo-kun?
+Dialogue: 0,0:13:26.07,0:13:28.46,Default,Y,0000,0000,0000,,I'm fine!
+Dialogue: 0,0:13:28.46,0:13:29.74,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:13:30.60,0:13:32.90,Default,Y,0000,0000,0000,,And, um...
+Dialogue: 0,0:13:34.09,0:13:35.18,Default,Y,0000,0000,0000,,Oh, man...
+Dialogue: 0,0:13:35.18,0:13:37.32,Default,Y,0000,0000,0000,,It's hard to talk!
+Dialogue: 0,0:13:37.32,0:13:38.75,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:13:38.75,0:13:41.49,Default,Y,0000,0000,0000,,Oh, your match is tomorrow, right?
+Dialogue: 0,0:13:41.49,0:13:42.70,Default,T,0000,0000,0000,,Come with Suna.
+Dialogue: 0,0:13:42.70,0:13:44.31,Default,Y,0000,0000,0000,,Okay, I will.
+Dialogue: 0,0:13:44.31,0:13:45.85,Default,Y,0000,0000,0000,,I'm looking forward to it.
+Dialogue: 0,0:13:45.85,0:13:47.13,Default,T,0000,0000,0000,,Watch me fight.
+Dialogue: 0,0:13:50.76,0:13:51.94,Default,S,0000,0000,0000,,You're done with training?
+Dialogue: 0,0:13:51.94,0:13:52.76,Default,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:53.39,0:13:56.39,Default,T,0000,0000,0000,,The match will be 6 PM tomorrow, at the arena.
+Dialogue: 0,0:13:56.39,0:13:58.27,Default,S,0000,0000,0000,,Takeo, here.
+Dialogue: 0,0:14:00.15,0:14:01.89,Default,T,0000,0000,0000,,These are Yamato's!
+Dialogue: 0,0:14:01.89,0:14:03.40,Default,S,0000,0000,0000,,You're perceptive.
+Dialogue: 0,0:14:04.09,0:14:07.66,Default,S,0000,0000,0000,,She said she made too much when \Nshe was thinking about you.
+Dialogue: 0,0:14:07.66,0:14:10.87,Default,T,0000,0000,0000,,Why didn't she bring them to me?
+Dialogue: 0,0:14:10.87,0:14:12.91,Default,S,0000,0000,0000,,She said she didn't want to bother you.
+Dialogue: 0,0:14:12.91,0:14:15.29,Default,T,0000,0000,0000,,Like she could!
+Dialogue: 0,0:14:15.29,0:14:16.63,Default,S,0000,0000,0000,,Right?
+Dialogue: 0,0:14:15.73,0:14:17.04,SFX-RedBlack,Sign 1416,0000,0000,0000,,{\an9\c&HDDDDE3&}You almost lost me there.
+Dialogue: 0,0:14:17.04,0:14:21.12,Default,S,0000,0000,0000,,Yamato-san was almost passing out \Nfrom excitement about the match.
+Dialogue: 0,0:14:22.55,0:14:24.42,Default,S,0000,0000,0000,,Show off for her, okay?
+Dialogue: 0,0:14:24.98,0:14:26.21,Default,S,0000,0000,0000,,All right, night.
+Dialogue: 0,0:14:27.93,0:14:29.46,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:14:29.46,0:14:31.76,Default - italics,T,0000,0000,0000,,She didn't say anything like that.
+Dialogue: 0,0:14:32.37,0:14:34.13,Default - italics,T,0000,0000,0000,,She just wished me good luck.
+Dialogue: 0,0:14:36.34,0:14:37.68,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:14:50.15,0:14:52.24,SFX-BlueBlue,Sign 1451,0000,0000,0000,,{\an8}Good luck, Takeo-kun!
+Dialogue: 0,0:14:58.90,0:15:02.08,Default,T,0000,0000,0000,,Yamato, this way.
+Dialogue: 0,0:15:06.59,0:15:08.91,Default,T,0000,0000,0000,,I want you watching from up close.
+Dialogue: 0,0:15:11.28,0:15:12.82,Default,Y,0000,0000,0000,,Takeo-kun...
+Dialogue: 0,0:15:12.82,0:15:14.10,Default,Iwa,0000,0000,0000,,Hey, Takeo.
+Dialogue: 0,0:15:14.10,0:15:15.60,Default,Iwa,0000,0000,0000,,Been a while.
+Dialogue: 0,0:15:15.60,0:15:19.23,SFX-BlackWhite,Sign 1517,0000,0000,0000,,{\an8}Iwayama Tsuyoshi                           Bianka HS
+Dialogue: 0,0:15:16.57,0:15:18.14,Default,T,0000,0000,0000,,Hey, Tsuyoshi.
+Dialogue: 0,0:15:18.14,0:15:19.23,Default,T,0000,0000,0000,,Long time, no see.
+Dialogue: 0,0:15:19.54,0:15:21.19,Default,T,0000,0000,0000,,Good luck today.
+Dialogue: 0,0:15:21.19,0:15:24.43,Default,T,0000,0000,0000,,He's a buddy of mine. In elementary \Nschool, we went to the same dojo.
+Dialogue: 0,0:15:24.43,0:15:26.48,Default,Y,0000,0000,0000,,Oh, nice to meet you.
+Dialogue: 0,0:15:26.48,0:15:29.45,Default,Y,0000,0000,0000,,I'm Yamato, Takeo-kun's girlfriend.
+Dialogue: 0,0:15:31.16,0:15:32.57,Default,Iwa,0000,0000,0000,,Girlfriend?!
+Dialogue: 0,0:15:38.75,0:15:41.00,Default,Iwa,0000,0000,0000,,You've already lost, Takeo!
+Dialogue: 0,0:15:41.00,0:15:44.07,Default,Iwa,0000,0000,0000,,You were stronger than me until junior high,
+Dialogue: 0,0:15:44.07,0:15:46.84,Default,Iwa,0000,0000,0000,,but after starting high school, \NI've been competing at the national level.
+Dialogue: 0,0:15:46.84,0:15:51.05,Default,Iwa,0000,0000,0000,,I won't lose to some guy who's been \Nfooling around with a girlfriend.
+Dialogue: 0,0:15:52.38,0:15:56.85,Default,Y,0000,0000,0000,,Takeo-kun, I think I'll go watch from the side.
+Dialogue: 0,0:15:56.85,0:15:59.24,Default,Y,0000,0000,0000,,I'll be fine outside, too...
+Dialogue: 0,0:15:59.24,0:16:03.23,Default,T,0000,0000,0000,,Tsuyoshi, girlfriends aren't bad.
+Dialogue: 0,0:16:03.35,0:16:04.48,Default - italics,Iwa,0000,0000,0000,,What?
+Dialogue: 0,0:16:07.24,0:16:09.74,Default,T,0000,0000,0000,,Watch right in the middle of the room, Yamato.
+Dialogue: 0,0:16:11.16,0:16:12.49,Default,Y,0000,0000,0000,,Okay!
+Dialogue: 0,0:16:12.49,0:16:14.98,Default,Y,0000,0000,0000,,Good luck, Takeo-kun!
+Dialogue: 0,0:16:16.49,0:16:19.87,Default - italics,Iwa,0000,0000,0000,,The path of judo is not paved in a single day.
+Dialogue: 0,0:16:19.87,0:16:23.03,Default - italics,Iwa,0000,0000,0000,,Takeo's been led astray, \Nwasting his time on romance.
+Dialogue: 0,0:16:23.03,0:16:25.09,Default - italics,Iwa,0000,0000,0000,,He's lost his chance.
+Dialogue: 0,0:16:26.75,0:16:29.49,Default - italics,Iwa,0000,0000,0000,,The victory is mine.
+Dialogue: 0,0:16:29.49,0:16:30.13,Default,Judge,0000,0000,0000,,Bow!
+Dialogue: 0,0:16:31.04,0:16:35.14,Default - italics,T,0000,0000,0000,,What does it mean to be strong?
+Dialogue: 0,0:16:35.14,0:16:37.26,Default,Judge,0000,0000,0000,,First player, forward.
+Dialogue: 0,0:16:37.26,0:16:38.33,Default,Capt,0000,0000,0000,,Put your back into it!
+Dialogue: 0,0:16:38.33,0:16:39.26,Default,1st,0000,0000,0000,,Got it!
+Dialogue: 0,0:16:39.26,0:16:40.22,Default,Audience,0000,0000,0000,,Fight!
+Dialogue: 0,0:16:40.22,0:16:41.27,Default,Guy,0000,0000,0000,,You've got this!
+Dialogue: 0,0:16:42.18,0:16:43.29,Default - italics,T,0000,0000,0000,,Yamato...
+Dialogue: 0,0:16:45.02,0:16:49.52,Default - italics,T,0000,0000,0000,,Everything you make tastes so heartfelt.
+Dialogue: 0,0:16:51.49,0:16:52.99,Default,Judge,0000,0000,0000,,Fourth, forward!
+Dialogue: 0,0:16:52.99,0:16:54.97,Default,VC,0000,0000,0000,,Good luck, Captain.
+Dialogue: 0,0:16:54.97,0:16:57.29,Default,Capt,0000,0000,0000,,Yeah, I'll fight twice as hard in your stead.
+Dialogue: 0,0:16:57.29,0:16:57.97,Default,Audience,0000,0000,0000,,Fight!
+Dialogue: 0,0:16:57.97,0:16:58.62,Default,Audience,0000,0000,0000,,One more win!
+Dialogue: 0,0:16:58.62,0:16:59.44,Default,Judge,0000,0000,0000,,Begin!
+Dialogue: 0,0:16:59.87,0:17:00.55,Default,VC,0000,0000,0000,,Go!
+Dialogue: 0,0:17:00.55,0:17:01.62,Default,Audience,0000,0000,0000,,Fight!
+Dialogue: 0,0:17:02.88,0:17:03.62,Default,Judge,0000,0000,0000,,Advantage.
+Dialogue: 0,0:17:05.50,0:17:11.76,SFX-BlackWhite,Sign 1706,0000,0000,0000,,{\an8\fad(1,1021)}Bianka                   Shuuei
+Dialogue: 0,0:17:14.97,0:17:16.07,Default,Judge,0000,0000,0000,,Majority vote.
+Dialogue: 0,0:17:19.61,0:17:21.17,Default,S,0000,0000,0000,,Two wins and two losses.
+Dialogue: 0,0:17:21.17,0:17:24.10,Default,S,0000,0000,0000,,The next match will be decisive.
+Dialogue: 0,0:17:25.28,0:17:29.05,Default,Judge,0000,0000,0000,,Shuuei High School's Team Champion, \NGouda Takeo, forward!
+Dialogue: 0,0:17:29.86,0:17:31.41,Default,Capt,0000,0000,0000,,Sorry, Gouda...
+Dialogue: 0,0:17:31.41,0:17:32.39,Default,Capt,0000,0000,0000,,I'm counting on you.
+Dialogue: 0,0:17:35.49,0:17:40.38,Default,Judge,0000,0000,0000,,Bianka High School's Team Champion, \NIwayama Tsuyoshi!
+Dialogue: 0,0:17:40.38,0:17:42.10,Default,Iwa,0000,0000,0000,,Here!
+Dialogue: 0,0:17:42.10,0:17:44.18,Default,Iwa,0000,0000,0000,,You might be wanting to impress your girlfriend,
+Dialogue: 0,0:17:44.18,0:17:45.83,Default,Iwa,0000,0000,0000,,but I won't let you.
+Dialogue: 0,0:17:45.83,0:17:46.95,Default,Guys,0000,0000,0000,,Go, Tsuyoshi!
+Dialogue: 0,0:17:45.83,0:17:47.38,Default,Guys,0000,0000,0000,,Go, go, Tsuyoshi!
+Dialogue: 0,0:17:46.95,0:17:49.46,Default,Guys,0000,0000,0000,,You're the best in the prefecture!
+Dialogue: 0,0:17:47.38,0:17:49.46,Default,Guys,0000,0000,0000,,Push, push, Tsuyoshi!
+Dialogue: 0,0:17:51.76,0:17:52.58,Default,Judge,0000,0000,0000,,Bow!
+Dialogue: 0,0:17:52.58,0:17:53.21,Default,Judge,0000,0000,0000,,Begin!
+Dialogue: 0,0:17:53.21,0:17:54.36,Default,Iwa,0000,0000,0000,,All right!
+Dialogue: 0,0:17:54.36,0:17:56.13,Default,Iwa,0000,0000,0000,,Come at me! Come on!
+Dialogue: 0,0:18:05.66,0:18:09.56,Default - italics,T,0000,0000,0000,,What does it mean to be strong?
+Dialogue: 0,0:18:16.68,0:18:18.85,Default - italics,Iwa,0000,0000,0000,,Judo's been my life.
+Dialogue: 0,0:18:18.85,0:18:21.78,Default - italics,Iwa,0000,0000,0000,,There's no way I'll lose to Takeo, \Nnow that he's lost his bark!
+Dialogue: 0,0:18:22.86,0:18:24.62,Default,Guys,0000,0000,0000,,Wow! This is a match to remember!
+Dialogue: 0,0:18:25.88,0:18:27.16,Default - italics,Iwa,0000,0000,0000,,There's no way I'll lose.
+Dialogue: 0,0:18:28.58,0:18:29.39,Default,Guys,0000,0000,0000,,That's a win!
+Dialogue: 0,0:18:29.39,0:18:30.08,Default,Guys,0000,0000,0000,,Not yet!
+Dialogue: 0,0:18:31.66,0:18:33.45,Default - italics,Iwa,0000,0000,0000,,I can't lose!
+Dialogue: 0,0:18:33.45,0:18:34.42,Default,Guys,0000,0000,0000,,Dig in!
+Dialogue: 0,0:18:35.67,0:18:36.92,Default,Guys,0000,0000,0000,,Almost there!
+Dialogue: 0,0:18:38.05,0:18:39.89,Default - italics,Iwa,0000,0000,0000,,There's no way I'll lose!
+Dialogue: 0,0:18:43.22,0:18:44.44,Default,Y,0000,0000,0000,,Takeo-kun...
+Dialogue: 0,0:18:46.56,0:18:48.19,Default - italics,Iwa,0000,0000,0000,,No way...
+Dialogue: 0,0:18:52.61,0:18:53.42,Default,Judge,0000,0000,0000,,Wait!
+Dialogue: 0,0:18:54.86,0:18:55.61,Default,Judge,0000,0000,0000,,Penalty!
+Dialogue: 0,0:18:55.61,0:18:56.61,Default - italics,Iwa,0000,0000,0000,,Damn it.
+Dialogue: 0,0:19:00.15,0:19:01.18,Default - italics,T,0000,0000,0000,,My heart...
+Dialogue: 0,0:19:02.25,0:19:03.41,Default - italics,T,0000,0000,0000,,It's on fire.
+Dialogue: 0,0:19:22.29,0:19:25.64,Default - italics,Iwa,0000,0000,0000,,So this... is your strength...
+Dialogue: 0,0:19:29.88,0:19:30.94,Default,Judge,0000,0000,0000,,Ippon!
+Dialogue: 0,0:19:30.94,0:19:31.92,Default,Judge,0000,0000,0000,,It's over!
+Dialogue: 0,0:19:50.84,0:19:52.92,Default,Guys,0000,0000,0000,,Thank you!
+Dialogue: 0,0:19:55.92,0:20:00.92,Default,S,0000,0000,0000,,Well, that was awesome to \Nwatch, even for a guy.
+Dialogue: 0,0:20:04.19,0:20:06.44,Default - italics,T,0000,0000,0000,,Yamato, I love you.
+Dialogue: 0,0:20:06.93,0:20:10.43,Default,Y,0000,0000,0000,,Good job, Takeo-kun!
+Dialogue: 0,0:20:10.43,0:20:11.89,Default,Y,0000,0000,0000,,It was amazing.
+Dialogue: 0,0:20:11.89,0:20:13.56,Default,Y,0000,0000,0000,,You were so cool!
+Dialogue: 0,0:20:14.21,0:20:16.32,Default,T,0000,0000,0000,,Thank you, Yamato!
+Dialogue: 0,0:20:17.57,0:20:20.90,Default,T,0000,0000,0000,,It's because you were there, cheering me on.
+Dialogue: 0,0:20:22.40,0:20:24.55,Default,Y,0000,0000,0000,,No, not at all...
+Dialogue: 0,0:20:25.30,0:20:29.04,Default,S,0000,0000,0000,,Takeo, Yamato-san's already about to pass out.
+Dialogue: 0,0:20:30.31,0:20:32.90,Default - italics,T,0000,0000,0000,,What does it mean to be strong?
+Dialogue: 0,0:20:33.82,0:20:35.46,Default - italics,T,0000,0000,0000,,I don't know.
+Dialogue: 0,0:20:35.46,0:20:40.21,Default - italics,T,0000,0000,0000,,But, Yamato, I want to become a great man.
+Dialogue: 0,0:20:42.84,0:20:44.60,Default,T,0000,0000,0000,,The stars are beautiful tonight.
+Dialogue: 0,0:20:44.60,0:20:45.66,Default,Y,0000,0000,0000,,Yeah!
+Dialogue: 0,0:20:45.66,0:20:47.60,Default,Y,0000,0000,0000,,Oh, that reminds me!
+Dialogue: 0,0:20:47.60,0:20:49.71,Default,Y,0000,0000,0000,,We found the Takeo constellation.
+Dialogue: 0,0:20:50.67,0:20:52.48,Default,Y,0000,0000,0000,,When you draw a line between \Nthat star and the other,
+Dialogue: 0,0:20:52.48,0:20:54.55,Default,Y,0000,0000,0000,,it's the one with you laughing.
+Dialogue: 0,0:20:54.55,0:20:57.86,Default,Y,0000,0000,0000,,And that's the one where you're \Ndoing a shoulder throw.
+Dialogue: 0,0:20:57.86,0:20:59.19,Default,S,0000,0000,0000,,I'm surprised you remember all of them.
+Dialogue: 0,0:21:00.84,0:21:03.07,Default,T,0000,0000,0000,,To me, they look like Yamato.
+Dialogue: 0,0:21:03.07,0:21:03.65,Default,Y,0000,0000,0000,,Eh?
+Dialogue: 0,0:21:04.74,0:21:06.66,Default,T,0000,0000,0000,,If you connect that star and the other one...
+Dialogue: 0,0:21:07.07,0:21:08.10,Default,T,0000,0000,0000,,See?
+Dialogue: 0,0:21:08.10,0:21:09.91,Default,T,0000,0000,0000,,It's Yamato's smiling face.
+Dialogue: 0,0:21:09.91,0:21:12.21,Default,Y,0000,0000,0000,,It's right next to your constellation!
+Dialogue: 0,0:21:13.11,0:21:14.08,Default,S,0000,0000,0000,,Which one?
+Dialogue: 0,0:21:14.08,0:21:15.19,Default,Y,0000,0000,0000,,Wow!
+Dialogue: 0,0:21:15.19,0:21:16.71,Default,Y,0000,0000,0000,,I'm so happy!
+Dialogue: 0,0:21:18.97,0:21:21.90,Default,T,0000,0000,0000,,That one's the constellation for \Nthe macarons you made.
+Dialogue: 0,0:21:21.90,0:21:24.38,Default,T,0000,0000,0000,,That one's for you when we first met.
+Dialogue: 0,0:21:24.38,0:21:26.98,Default,Y,0000,0000,0000,,Oh, it's next to yours again!
+Dialogue: 0,0:21:26.98,0:21:30.22,Default - italics,T,0000,0000,0000,,Yamato, let's see each other again tomorrow,
+Dialogue: 0,0:21:27.52,0:21:30.05,Default,T,0000,0000,0000,,{\an8}That one's for you when you \Npushed the beam with me.
+Dialogue: 0,0:21:30.22,0:21:34.93,Default - italics,T,0000,0000,0000,,and talk about all the little things, \Nuntil the sun goes down.
+Dialogue: 0,0:21:31.74,0:21:33.02,Default,T,0000,0000,0000,,{\an8}There's Suna, too.
+Dialogue: 0,0:22:46.01,0:22:51.01,Title2,Sign 2248,0000,0000,0000,,My Friend
+Dialogue: 0,0:22:46.77,0:22:49.14,Default - margin,Sign 2248,0000,0000,0000,,Next time: My Friend.

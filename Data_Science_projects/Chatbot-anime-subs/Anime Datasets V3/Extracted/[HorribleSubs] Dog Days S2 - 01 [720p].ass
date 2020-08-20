@@ -1,0 +1,337 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DogDays-main,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,7,7,13,1
+Style: DogDays-overlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-internal,Amira,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-narrator,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0020,0
+Style: DogDays-internaloverlap,Amira,35,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashback,Amira,35,&H00FFFFFF,&H000000FF,&H00520E10,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackinternal,Amira,35,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-flashbackoverlap,Amira,35,&H00BAFCF3,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: DogDays-note,Amira,32,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: DogDays-ep-title,Amira,50,&H00FFFFFF,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,90,100,0,0,1,0,0,2,0045,0020,0100,0
+Style: DogDays-next-ep-title,Amira,40,&H00FFFEFF,&H000000FF,&H00E436EE,&H00647E8F,1,0,0,0,100,100,0,0,1,2,0,9,0020,0050,0025,0
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,7,7,13,1
+Style: Basic Black - Big,Amira,45,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0010,0050,0020,1
+Style: Basic Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,0010,0050,0020,1
+Style: Basic kanji Black - Small,Amira,30,&H00000000,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0010,1
+Style: Basic Kanji white - Big,Amira,47,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: Basic Kanji white - Small,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,1,0,0,0,100,100,0,0,1,0,0,8,0050,0020,0025,0
+Style: orange note,Amira,27,&H00AABDF4,&H000000FF,&H00101A24,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: location,Amira,30,&H00FFFAFB,&H000000FF,&H00000000,&H00647E8F,0,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0070,0
+Style: blue note,Amira,27,&H00D69289,&H000000FF,&H00420E12,&H00DDEEFE,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: yellow note,Amira,27,&H00A8D6E1,&H000000FF,&H001A3A3F,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: violet note,Amira,27,&H00DA91CB,&H000000FF,&H00391A2C,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: grey note,Amira,27,&H00CFCFCF,&H000000FF,&H003E3E3E,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: green note,Amira,27,&H00A4F3A1,&H000000FF,&H00213F1A,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: teal note,Amira,27,&H00E7F3C0,&H000000FF,&H00212900,&H00EDF2F8,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:19.53,0:00:21.28,DogDays-narrator,Mill,0000,0000,0000,,The land of Flonyard.
+Dialogue: 0,0:00:22.34,0:00:25.41,DogDays-narrator,Mill,0000,0000,0000,,On this continent, \Nbathed in protective light,
+Dialogue: 0,0:00:25.41,0:00:30.00,DogDays-narrator,,0000,0000,0000,,the people are joyous\N and live in peace.
+Dialogue: 0,0:00:31.00,0:00:35.03,DogDays-narrator,Mill,0000,0000,0000,,However, this last spring,\N something unfortunate happened
+Dialogue: 0,0:00:35.03,0:00:39.27,DogDays-narrator,,0000,0000,0000,,in the south of the continent, \Nin the Biscotti Republic.
+Dialogue: 0,0:00:39.27,0:00:42.89,DogDays-narrator,Mill,0000,0000,0000,,Thus, Princess \NMillihiore of Biscotti
+Dialogue: 0,0:00:42.89,0:00:45.89,DogDays-narrator,Mill,0000,0000,0000,,summoned a champion \Nfrom a faraway world.
+Dialogue: 0,0:00:48.31,0:00:51.73,DogDays-narrator,Mill,0000,0000,0000,,The person who answered \Nher summons had a smile
+Dialogue: 0,0:00:52.39,0:00:57.95,DogDays-narrator,,0000,0000,0000,,for every person he met, and\N brought happiness into their hearts.
+Dialogue: 0,0:00:59.47,0:01:03.16,DogDays-narrator,Mill,0000,0000,0000,,Even though this hero returned to Earth
+Dialogue: 0,0:01:03.16,0:01:05.46,DogDays-narrator,,0000,0000,0000,,once his mission was over...
+Dialogue: 0,0:01:09.21,0:01:13.84,DogDays-narrator,Mill,0000,0000,0000,,...he promised we would \Nmeet again in summer.
+Dialogue: 0,0:01:15.91,0:01:18.72,DogDays-narrator,Mill,0000,0000,0000,,Now, summer has come.
+Dialogue: 0,0:01:29.29,0:01:32.47,DogDays-narrator,Mill,0000,0000,0000,,That's why the tale of love
+Dialogue: 0,0:01:32.47,0:01:34.86,DogDays-narrator,,0000,0000,0000,,and bravery of the hero,
+Dialogue: 0,0:01:35.21,0:01:37.82,DogDays-narrator,,0000,0000,0000,,and of us, will begin anew.
+Dialogue: 0,0:03:17.09,0:03:21.05,location,,0000,0000,0000,,{\fad(500,1)}7/22/2011, 7:05 AM\NEarth / Japan, Kinokawa City, Tokino Ward
+Dialogue: 0,0:03:22.53,0:03:26.14,DogDays-main,Reb,0000,0000,0000,,So, Sink, are you going to tell me now?
+Dialogue: 0,0:03:26.18,0:03:29.89,orange note,txt,0000,0000,0000,,{\fad(500,1)}Kinokawa International School, 2nd year Middle School student\NPlaced 2nd in the "Iron Athletics" tournament last year\NSink Izumi
+Dialogue: 0,0:03:26.51,0:03:28.15,DogDays-main,Sink,0000,0000,0000,,What exactly?
+Dialogue: 0,0:03:29.93,0:03:32.90,orange note,txt,0000,0000,0000,,{\fad(500,1)}Kinokawa International School, 2nd year Middle School student\NRebecca Anderson (Sink's childhood friend)
+Dialogue: 0,0:03:30.27,0:03:32.49,DogDays-main,Reb,0000,0000,0000,,The destination of the upcoming trip!
+Dialogue: 0,0:03:33.15,0:03:34.09,DogDays-main,Sink,0000,0000,0000,,I already told you.
+Dialogue: 0,0:03:34.09,0:03:36.52,DogDays-main,,0000,0000,0000,,I can't tell you until we get there.
+Dialogue: 0,0:03:39.03,0:03:43.28,location,txt,0000,0000,0000,,{\fad(500,1)}Same day, 11:09 PM\NEarth / Great Britain, City of London
+Dialogue: 0,0:03:44.18,0:03:46.44,DogDays-main,Nanami,0000,0000,0000,,Hi, Sink. It's me, Nanami.
+Dialogue: 0,0:03:46.44,0:03:47.37,DogDays-internal,Sink,0000,0000,0000,,Where are you?
+Dialogue: 0,0:03:47.41,0:03:51.37,blue note,txt,0000,0000,0000,,{\fad(500,1)}Winner of the "Iron Athletics" tournament last year\NTakatsuki Nanami\N(Lives in London, Sink's cousin)
+Dialogue: 0,0:03:47.63,0:03:49.63,DogDays-main,Nanami,0000,0000,0000,,Almost at the station.
+Dialogue: 0,0:03:49.63,0:03:51.37,DogDays-main,Nanami,0000,0000,0000,,I just have to wait there, right?
+Dialogue: 0,0:03:51.37,0:03:52.27,DogDays-internal,Sink,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:52.27,0:03:55.17,DogDays-internal,Sink,0000,0000,0000,,The guide will escort you from there.
+Dialogue: 0,0:03:55.44,0:03:56.68,DogDays-main,Nanami,0000,0000,0000,,Roger.
+Dialogue: 0,0:03:59.11,0:04:00.67,DogDays-main,Reb,0000,0000,0000,,What are we doing here?
+Dialogue: 0,0:04:01.47,0:04:03.02,DogDays-main,Sink,0000,0000,0000,,Tatsumaki!
+Dialogue: 0,0:04:01.47,0:04:03.02,DogDays-overlap,Sink,0000,0000,0000,,Sink!
+Dialogue: 0,0:04:04.24,0:04:06.01,DogDays-main,,0000,0000,0000,,I haven't seen you in forever.
+Dialogue: 0,0:04:06.78,0:04:08.11,DogDays-main,Sink,0000,0000,0000,,Sorry I kept you waiting, Becky.
+Dialogue: 0,0:04:08.11,0:04:10.31,DogDays-main,Sink,0000,0000,0000,,We're leaving for our trip from here.
+Dialogue: 0,0:04:23.62,0:04:25.19,DogDays-main,Nanami,0000,0000,0000,,Here, kitty kitty.
+Dialogue: 0,0:04:32.95,0:04:35.27,DogDays-main,Nanami,0000,0000,0000,,For me?
+Dialogue: 0,0:05:01.95,0:05:03.60,DogDays-main,Reb,0000,0000,0000,,H-hey, Sink...
+Dialogue: 0,0:05:03.60,0:05:04.57,DogDays-main,Sink,0000,0000,0000,,Here we go.
+Dialogue: 0,0:05:35.68,0:05:38.08,DogDays-main,Sink,0000,0000,0000,,Becky, the view is really great.
+Dialogue: 0,0:05:38.08,0:05:39.52,DogDays-main,Sink,0000,0000,0000,,Open your eyes and look!
+Dialogue: 0,0:05:42.80,0:05:45.78,DogDays-main,Reb,0000,0000,0000,,No way!
+Dialogue: 0,0:05:50.78,0:05:51.65,DogDays-main,Nanami,0000,0000,0000,,It's in the afternoon...
+Dialogue: 0,0:05:51.65,0:05:52.40,DogDays-main,Nanami,0000,0000,0000,,Is that the sea?
+Dialogue: 0,0:05:52.40,0:05:55.86,DogDays-main,Nanami,0000,0000,0000,,Wait, I'm in the sky?!
+Dialogue: 0,0:07:00.53,0:07:01.76,DogDays-main,Sink,0000,0000,0000,,I'm sorry, Becky.
+Dialogue: 0,0:07:01.76,0:07:03.02,DogDays-main,Sink,0000,0000,0000,,Wait here for a sec, okay?
+Dialogue: 0,0:07:09.77,0:07:11.36,DogDays-main,Mill,0000,0000,0000,,Sink...
+Dialogue: 0,0:07:11.60,0:07:13.87,DogDays-main,Sink,0000,0000,0000,,Yes, Princess.
+Dialogue: 0,0:07:18.60,0:07:22.70,DogDays-main,Mill,0000,0000,0000,,Sink! Sink! Sink!
+Dialogue: 0,0:07:22.70,0:07:25.68,DogDays-main,Sink,0000,0000,0000,,Princess! I'm sorry I kept you waiting.
+Dialogue: 0,0:07:25.68,0:07:27.86,DogDays-main,Sink,0000,0000,0000,,I'm back, just like I promised!
+Dialogue: 0,0:07:27.86,0:07:28.80,DogDays-main,Mill,0000,0000,0000,,Yup!
+Dialogue: 0,0:07:30.97,0:07:34.19,DogDays-main,Sink,0000,0000,0000,,Thank you for summoning me again.
+Dialogue: 0,0:07:34.19,0:07:37.89,DogDays-main,Mill,0000,0000,0000,,But of course! Thank you for answering.
+Dialogue: 0,0:07:37.89,0:07:41.40,DogDays-main,Mill,0000,0000,0000,,I'm so glad you came again.
+Dialogue: 0,0:07:41.40,0:07:42.06,DogDays-main,Sink,0000,0000,0000,,Me, too.
+Dialogue: 0,0:07:42.58,0:07:44.65,DogDays-main,Sink,0000,0000,0000,,It's not just me though.
+Dialogue: 0,0:07:44.65,0:07:46.40,DogDays-main,,0000,0000,0000,,There's also Nanami and Becky...
+Dialogue: 0,0:07:46.90,0:07:49.42,DogDays-main,Mill,0000,0000,0000,,How is Rebecca-san?
+Dialogue: 0,0:07:49.42,0:07:50.53,DogDays-main,Sink,0000,0000,0000,,Oh!
+Dialogue: 0,0:07:51.58,0:07:54.54,DogDays-main,Sink,0000,0000,0000,,I think she was a little too startled.
+Dialogue: 0,0:07:54.54,0:07:57.53,DogDays-main,Mill,0000,0000,0000,,Let's take her somewhere \Nwhere she can rest.
+Dialogue: 0,0:07:59.28,0:08:01.15,DogDays-main,Sink,0000,0000,0000,,Is Nanami doing okay?
+Dialogue: 0,0:08:01.15,0:08:01.93,DogDays-main,Mill,0000,0000,0000,,She is.
+Dialogue: 0,0:08:02.55,0:08:06.65,DogDays-main,Mill,0000,0000,0000,,I asked for her to be summoned \Nonto the Galette premises,
+Dialogue: 0,0:08:08.25,0:08:11.88,DogDays-main,Mill,0000,0000,0000,,so I'm sure Leo-sama is giving \Nher a proper welcome.
+Dialogue: 0,0:08:23.05,0:08:24.53,DogDays-main,Sink,0000,0000,0000,,So everyone's already...
+Dialogue: 0,0:08:24.53,0:08:25.58,DogDays-main,Mill,0000,0000,0000,,As you can see.
+Dialogue: 0,0:08:25.58,0:08:27.52,DogDays-main,Ric,0000,0000,0000,,Our hero!
+Dialogue: 0,0:08:27.82,0:08:30.03,DogDays-main,Ric,0000,0000,0000,,Our hero!
+Dialogue: 0,0:08:31.03,0:08:34.23,DogDays-main,Ric,0000,0000,0000,,Our hero!
+Dialogue: 0,0:08:33.13,0:08:36.28,DogDays-overlap,Yuki,0000,0000,0000,,Sink! Welcome back!
+Dialogue: 0,0:08:36.96,0:08:40.04,DogDays-main,Ecl,0000,0000,0000,,Jeez, you took too long.
+Dialogue: 0,0:08:44.74,0:08:46.87,DogDays-main,Ric,0000,0000,0000,,Our hero!
+Dialogue: 0,0:08:46.87,0:08:50.46,DogDays-main,Ric,0000,0000,0000,,I am overjoyed that the summoning \Nworked again without any problems!
+Dialogue: 0,0:08:50.87,0:08:53.72,DogDays-main,Sink,0000,0000,0000,,That's because you did all \Nthe research necessary.
+Dialogue: 0,0:08:53.98,0:08:55.03,DogDays-main,Sink,0000,0000,0000,,Thanks, Rico.
+Dialogue: 0,0:08:55.03,0:08:57.88,DogDays-main,Yuki,0000,0000,0000,,Rico, stop hogging him!
+Dialogue: 0,0:08:58.67,0:09:01.85,DogDays-main,Yuki,0000,0000,0000,,I'm going to hug him, too!
+Dialogue: 0,0:09:02.56,0:09:03.85,DogDays-main,Rico,0000,0000,0000,,Certainly.
+Dialogue: 0,0:09:03.85,0:09:06.46,DogDays-main,Sink,0000,0000,0000,,H-hey, Yukki, Yukki!
+Dialogue: 0,0:09:07.63,0:09:08.61,DogDays-main,Sink,0000,0000,0000,,Eclair!
+Dialogue: 0,0:09:09.87,0:09:11.11,DogDays-main,,0000,0000,0000,,It's good to see you again, Eclair.
+Dialogue: 0,0:09:13.06,0:09:15.70,DogDays-main,Sink,0000,0000,0000,,I came back earlier, \Njust like I promised.
+Dialogue: 0,0:09:16.57,0:09:19.42,DogDays-main,Sink,0000,0000,0000,,I hope you'll train me in all \Nsorts of subjects, again.
+Dialogue: 0,0:09:19.42,0:09:21.96,DogDays-main,Ecl,0000,0000,0000,,It's going to be tougher than last time.
+Dialogue: 0,0:09:24.40,0:09:26.28,DogDays-main,Ric,0000,0000,0000,,Hero, hero!
+Dialogue: 0,0:09:26.28,0:09:29.21,DogDays-main,Ric,0000,0000,0000,,Rebecca-dono is waking up.
+Dialogue: 0,0:09:33.41,0:09:34.72,DogDays-main,Sink,0000,0000,0000,,Good morning, Becky.
+Dialogue: 0,0:09:35.25,0:09:37.72,DogDays-main,Reb,0000,0000,0000,,Huh? Sink?
+Dialogue: 0,0:09:48.94,0:09:50.29,DogDays-main,Sink,0000,0000,0000,,Isn't it beautiful?
+Dialogue: 0,0:09:50.29,0:09:52.95,DogDays-main,Sink,0000,0000,0000,,I wanted to bring you here so much.
+Dialogue: 0,0:09:52.95,0:09:58.20,DogDays-main,Reb,0000,0000,0000,,Um, yes, I do think that \Nit's very beautiful...
+Dialogue: 0,0:09:59.04,0:10:03.27,DogDays-main,Reb,0000,0000,0000,,but the islands are floating \Nand the sky is violet.
+Dialogue: 0,0:10:03.74,0:10:06.75,DogDays-main,Sink,0000,0000,0000,,Well, you'll get used to it...
+Dialogue: 0,0:10:10.59,0:10:13.42,DogDays-main,Sink,0000,0000,0000,,So, can I introduce you \Nto my friends here?
+Dialogue: 0,0:10:14.25,0:10:15.15,DogDays-main,Reb,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:15.15,0:10:17.42,DogDays-main,Sink,0000,0000,0000,,Princess! Everyone!
+Dialogue: 0,0:10:17.42,0:10:19.18,DogDays-main,All,0000,0000,0000,,Yes!
+Dialogue: 0,0:10:22.65,0:10:25.45,DogDays-main,Ric,0000,0000,0000,,It's so wonderful to \Nmeet you, Rebecca-sama!
+Dialogue: 0,0:10:25.45,0:10:26.59,DogDays-main,Yuki,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:10:26.59,0:10:28.94,DogDays-main,Ecl,0000,0000,0000,,We welcome you.
+Dialogue: 0,0:10:29.90,0:10:31.94,DogDays-main,Reb,0000,0000,0000,,Hello... it's so nice to....
+Dialogue: 0,0:10:40.50,0:10:43.70,DogDays-main,Mill,0000,0000,0000,,Welcome to Flonyard, Rebecca-san.
+Dialogue: 0,0:10:44.34,0:10:47.20,DogDays-main,Mill,0000,0000,0000,,Thank you for coming to Biscotti!
+Dialogue: 0,0:10:50.49,0:10:54.00,DogDays-main,Reb,0000,0000,0000,,Uh... yes, I mean... thank you...
+Dialogue: 0,0:10:58.05,0:11:00.63,DogDays-main,Yuki,0000,0000,0000,,Looks like it's about to start.
+Dialogue: 0,0:11:00.63,0:11:01.30,DogDays-main,Ecl,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:01.85,0:11:04.22,DogDays-main,Mill,0000,0000,0000,,Then let's go back to the hall!
+Dialogue: 0,0:11:04.43,0:11:05.97,DogDays-main,All,0000,0000,0000,,Yes!
+Dialogue: 0,0:11:07.19,0:11:07.92,DogDays-main,Sink,0000,0000,0000,,Let's go!
+Dialogue: 0,0:11:07.92,0:11:09.28,DogDays-main,Reb,0000,0000,0000,,Sink!
+Dialogue: 0,0:11:09.28,0:11:11.65,DogDays-main,Reb,0000,0000,0000,,I've got so many questions!
+Dialogue: 0,0:11:11.65,0:11:13.98,DogDays-main,Sink,0000,0000,0000,,Don't worry, I'll explain everything.
+Dialogue: 0,0:11:14.86,0:11:17.07,DogDays-main,Yuki,0000,0000,0000,,We're off, then!
+Dialogue: 0,0:11:17.07,0:11:20.07,DogDays-main,Yuki,0000,0000,0000,,Our destination is Fournette, \Nour battle-ground for the day!
+Dialogue: 0,0:11:23.94,0:11:25.40,DogDays-main,Sink,0000,0000,0000,,Let's go!
+Dialogue: 0,0:11:30.74,0:11:35.19,DogDays-narrator,Ann,0000,0000,0000,,The sky is clear and it's \Nanother day perfect for war!
+Dialogue: 0,0:11:40.96,0:11:43.01,DogDays-narrator,Ann,0000,0000,0000,,The main players have yet to arrive,
+Dialogue: 0,0:11:43.01,0:11:47.22,DogDays-narrator,,0000,0000,0000,,but the Biscotti vs Galette \Narmy battle has already begun!
+Dialogue: 0,0:11:47.91,0:11:49.07,DogDays-narrator,Ann,0000,0000,0000,,We're your hosts today,
+Dialogue: 0,0:11:49.07,0:11:51.87,DogDays-narrator,,0000,0000,0000,,and we'll be bringing \Nyou all the action live!
+Dialogue: 0,0:11:51.87,0:11:55.05,DogDays-narrator,Ann,0000,0000,0000,,We are Framboise Charley from the \NGalette National Broadcast and...
+Dialogue: 0,0:11:55.05,0:11:58.28,DogDays-narrator,Ann2,0000,0000,0000,,Percy Gaudi from the\N Biscotti National Broadcast!
+Dialogue: 0,0:12:01.38,0:12:05.37,DogDays-narrator,Ann2,0000,0000,0000,,Now, all of our wonderful guests \Nwe invited from both countries!
+Dialogue: 0,0:12:05.66,0:12:09.62,yellow note,Text,0000,0000,0000,,{\fad(500,1)}General of the Galette Lion Army\NLeader of the Knights\NBernard Sabrage
+Dialogue: 0,0:12:05.99,0:12:08.82,DogDays-narrator,Ann,0000,0000,0000,,From Galette, we have their leader of \Nthe knights, Bernard Sabrage and...
+Dialogue: 0,0:12:08.82,0:12:09.96,DogDays-main,Ber,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:09.96,0:12:12.21,DogDays-narrator,Ann,0000,0000,0000,,Next to him, is Leo-sama's \Npersonal assistant, Violet-san.
+Dialogue: 0,0:12:10.41,0:12:14.37,violet note,Text,0000,0000,0000,,{\fad(500,1)}Leader of the Galette Lion Army's Imperial Guard\NViolet Amaret
+Dialogue: 0,0:12:12.21,0:12:13.32,DogDays-main,Vio,0000,0000,0000,,Hello.
+Dialogue: 0,0:12:14.46,0:12:18.13,orange note,Text,0000,0000,0000,,{\fad(500,1)}Knights of Biscotti\NLeader of the Knights\NRolan Martinozzi
+Dialogue: 0,0:12:14.66,0:12:17.49,DogDays-main,Ann2,0000,0000,0000,,From Biscotti, we have their leader \Nof the knights, Rolan Martinozzi.
+Dialogue: 0,0:12:17.49,0:12:18.31,DogDays-main,Rol,0000,0000,0000,,Hello.
+Dialogue: 0,0:12:18.31,0:12:21.05,DogDays-narrator,Ann2,0000,0000,0000,,Mistress d'Arquien,\N leader of the Secret Squad.
+Dialogue: 0,0:12:19.17,0:12:23.13,violet note,Text,0000,0000,0000,,{\fad(500,1)}Knights of Biscotti\NLeader of the Secret Squad\NBrioche d'Arquien
+Dialogue: 0,0:12:21.05,0:12:22.56,DogDays-main,Bri,0000,0000,0000,,Thank you for having me.
+Dialogue: 0,0:12:23.13,0:12:25.59,DogDays-narrator,Ann2,0000,0000,0000,,With these members on board,
+Dialogue: 0,0:12:25.59,0:12:27.89,DogDays-narrator,,0000,0000,0000,,we'd now like to bring \Nyou the battle live!
+Dialogue: 0,0:12:28.27,0:12:29.28,DogDays-narrator,Ann,0000,0000,0000,,That's right!
+Dialogue: 0,0:12:29.28,0:12:31.12,DogDays-narrator,Ann,0000,0000,0000,,And today's battle is
+Dialogue: 0,0:12:31.12,0:12:35.17,DogDays-narrator,,0000,0000,0000,,"Welcome back, Hero! Special \NWelcoming Battle", is that right?
+Dialogue: 0,0:12:35.17,0:12:36.16,DogDays-main,Rol,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:36.16,0:12:38.91,DogDays-main,Rol,0000,0000,0000,,Today's main character, \Nthe hero of Biscotti,
+Dialogue: 0,0:12:38.91,0:12:41.15,DogDays-main,,0000,0000,0000,,should be arriving shortly.
+Dialogue: 0,0:12:41.38,0:12:45.10,DogDays-main,Rol,0000,0000,0000,,Our princess and the leader of the \Nbodyguards are with them, as well.
+Dialogue: 0,0:12:45.10,0:12:47.57,DogDays-main,Vio,0000,0000,0000,,Leo-sama is on his way, too.
+Dialogue: 0,0:12:48.22,0:12:50.33,DogDays-main,Ann,0000,0000,0000,,And, of course, Prince Gaul.
+Dialogue: 0,0:12:53.40,0:12:55.03,DogDays-main,Ann,0000,0000,0000,,To everyone fighting in \Nthe battle right now;
+Dialogue: 0,0:12:55.03,0:12:57.64,DogDays-main,Ann,0000,0000,0000,,to the knights, warriors, \Nand regular participants,
+Dialogue: 0,0:12:57.64,0:13:02.27,DogDays-main,Ann,0000,0000,0000,,once the Hero arrives, this arena\N is going to absolutely explode!
+Dialogue: 0,0:13:02.27,0:13:06.68,DogDays-main,Ann2,0000,0000,0000,,We recommend that you gather \Nall the points you can now!
+Dialogue: 0,0:13:16.69,0:13:20.32,yellow note,Text,0000,0000,0000,,{\fad(500,1)}Knights of Galette, Gaul's personal guard\NImperial Guard Unit "Genoise"\NJaune Clafoutis
+Dialogue: 0,0:13:16.73,0:13:19.25,DogDays-main,Jau,0000,0000,0000,,All right, you've been \Nwaiting long enough.
+Dialogue: 0,0:13:19.25,0:13:20.41,DogDays-main,Jau,0000,0000,0000,,It's our turn now!
+Dialogue: 0,0:13:20.76,0:13:25.11,DogDays-main,Noir,0000,0000,0000,,Unmatched in battle, \NGaul-sama's personal guard!
+Dialogue: 0,0:13:21.57,0:13:25.07,grey note,Text2,0000,0000,0000,,{\fad(500,1)}Knights of Galette, Gaul's personal guard\NImperial Guard Unit "Genoise"\NNoir Vinocacao
+Dialogue: 0,0:13:25.11,0:13:27.49,DogDays-main,Vert,0000,0000,0000,,Who called us? Who named us?
+Dialogue: 0,0:13:25.24,0:13:27.49,green note,Vert,0000,0000,0000,,{\fad(500,1)}Knights of Galette, Gaul's personal guard\NImperial Guard Unit "Genoise"\N Vert Far-Breton
+Dialogue: 0,0:13:27.94,0:13:29.95,DogDays-main,All,0000,0000,0000,,The three of us are:
+Dialogue: 0,0:13:29.95,0:13:31.99,DogDays-main,All,0000,0000,0000,,Genoise!
+Dialogue: 0,0:13:35.05,0:13:38.80,DogDays-main,Jau,0000,0000,0000,,And no matter what they \Nsay, he's our prince!
+Dialogue: 0,0:13:38.80,0:13:40.71,DogDays-main,Noir,0000,0000,0000,,Everybody, call him!
+Dialogue: 0,0:13:40.71,0:13:41.96,DogDays-main,Vert,0000,0000,0000,,And a-one...
+Dialogue: 0,0:13:42.23,0:13:45.22,DogDays-main,All,0000,0000,0000,,Prince Gaul!
+Dialogue: 0,0:13:51.30,0:13:52.47,DogDays-main,Gau,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:52.74,0:13:54.50,DogDays-main,Gau,0000,0000,0000,,I'm here!
+Dialogue: 0,0:13:54.50,0:13:57.27,DogDays-main,Gau,0000,0000,0000,,It's me!
+Dialogue: 0,0:13:58.88,0:14:00.69,DogDays-main,Gau,0000,0000,0000,,So guys, I heard
+Dialogue: 0,0:14:00.69,0:14:05.11,DogDays-main,,0000,0000,0000,,that stupid hero was coming \Nback to Biscotti today,
+Dialogue: 0,0:14:05.11,0:14:08.82,DogDays-main,Gau,0000,0000,0000,,and I decided that I'm going \Nto fight him personally!
+Dialogue: 0,0:14:09.29,0:14:11.08,DogDays-narrator,Ann2,0000,0000,0000,,But he has absolutely no intention
+Dialogue: 0,0:14:11.08,0:14:13.40,DogDays-narrator,,0000,0000,0000,,of letting him win because \Nit's a welcoming match.
+Dialogue: 0,0:14:13.40,0:14:15.34,DogDays-main,Jau,0000,0000,0000,,We're gonna give it to both \Nthe hero and the knights.
+Dialogue: 0,0:14:15.34,0:14:17.92,DogDays-main,Jau,0000,0000,0000,,Today's victory's going \Nto Galette again!
+Dialogue: 0,0:14:17.92,0:14:20.54,DogDays-main,Noir,0000,0000,0000,,So, all you Biscottians—
+Dialogue: 0,0:14:21.81,0:14:24.86,DogDays-main,,0000,0000,0000,,come and get it!
+Dialogue: 0,0:14:32.95,0:14:35.41,DogDays-main,Reb,0000,0000,0000,,So this is... a war?
+Dialogue: 0,0:14:35.41,0:14:36.70,DogDays-main,Mill,0000,0000,0000,,That's right!
+Dialogue: 0,0:14:36.70,0:14:38.31,DogDays-main,Mill,0000,0000,0000,,Or, as you would say on Earth,
+Dialogue: 0,0:14:38.31,0:14:40.47,DogDays-main,,0000,0000,0000,,it's "an athletic event \Nsponsored by each country
+Dialogue: 0,0:14:40.47,0:14:44.38,DogDays-main,,0000,0000,0000,,and involving the\N general populace."
+Dialogue: 0,0:14:45.60,0:14:47.78,DogDays-main,Mill,0000,0000,0000,,Sink did really great things
+Dialogue: 0,0:14:47.78,0:14:50.85,DogDays-main,,0000,0000,0000,,in these events when he \Nwas here last spring.
+Dialogue: 0,0:14:50.85,0:14:54.16,DogDays-main,Mill,0000,0000,0000,,He's our, that is to \Nsay Biscotti's, hero!
+Dialogue: 0,0:15:00.12,0:15:02.43,DogDays-main,Nana,0000,0000,0000,,Sink... a hero?
+Dialogue: 0,0:15:02.43,0:15:03.29,DogDays-main,Leo,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:03.29,0:15:07.17,DogDays-main,Leo,0000,0000,0000,,And as Biscotti's hero, \Nhe saved Biscotti.
+Dialogue: 0,0:15:09.38,0:15:13.93,DogDays-main,Nana,0000,0000,0000,,I can see Sink being able to \Ndo well in events like these.
+Dialogue: 0,0:15:14.15,0:15:18.32,DogDays-main,Leo,0000,0000,0000,,Yes, he proved to be an excellent hero.
+Dialogue: 0,0:15:18.32,0:15:22.14,DogDays-main,Nana,0000,0000,0000,,That's so great.\N It looks like so much fun!
+Dialogue: 0,0:15:22.14,0:15:24.39,DogDays-main,Leo,0000,0000,0000,,Then why don't you join?
+Dialogue: 0,0:15:24.39,0:15:25.49,DogDays-main,Nana,0000,0000,0000,,Can I?!
+Dialogue: 0,0:15:25.49,0:15:29.90,DogDays-main,Leo,0000,0000,0000,,To be perfectly honest, that is \Nwhy we summoned you to our land.
+Dialogue: 0,0:15:33.04,0:15:37.70,DogDays-main,Leo,0000,0000,0000,,Takatsuki Nanami, would you like \Nto try being Galette's hero?
+Dialogue: 0,0:16:02.57,0:16:05.60,DogDays-main,Gau,0000,0000,0000,,Booyeah, we've cut \Nthrough their defense!
+Dialogue: 0,0:16:05.60,0:16:08.02,DogDays-main,Jau,0000,0000,0000,,Now it's a straight shot \Nto their stronghold.
+Dialogue: 0,0:16:08.02,0:16:09.94,DogDays-main,Vert,0000,0000,0000,,Troops, charge!
+Dialogue: 0,0:16:13.30,0:16:17.24,DogDays-narrator,Ann,0000,0000,0000,,It looks like His Highness Gaul \Nand Genoise are advancing fast!
+Dialogue: 0,0:16:17.58,0:16:18.94,DogDays-narrator,Ann2,0000,0000,0000,,The stronghold is right there!
+Dialogue: 0,0:16:18.94,0:16:21.25,DogDays-narrator,Ann2,0000,0000,0000,,It looks like the Biscotti \Ncamp is in trouble.
+Dialogue: 0,0:16:21.81,0:16:22.66,DogDays-main,Ange,0000,0000,0000,,Emi-rin!
+Dialogue: 0,0:16:22.66,0:16:24.42,DogDays-main,Ange,0000,0000,0000,,Are the captain and the \Nhero still not here?
+Dialogue: 0,0:16:25.18,0:16:26.47,DogDays-main,Emi,0000,0000,0000,,Don't despair, Ange!
+Dialogue: 0,0:16:26.47,0:16:27.98,DogDays-main,Emi,0000,0000,0000,,I know they will come.
+Dialogue: 0,0:16:30.39,0:16:31.88,DogDays-main,Jau,0000,0000,0000,,Gaul-sama, we're going ahead!
+Dialogue: 0,0:16:37.01,0:16:39.11,DogDays-main,Gau,0000,0000,0000,,Took you long enough!
+Dialogue: 0,0:16:39.78,0:16:42.40,DogDays-main,,0000,0000,0000,,I'm here now!
+Dialogue: 0,0:16:54.95,0:16:56.28,DogDays-narrator,Ann,0000,0000,0000,,H-he...
+Dialogue: 0,0:16:56.71,0:16:58.21,DogDays-main,Sink,0000,0000,0000,,Sorry to keep you waiting!
+Dialogue: 0,0:16:58.91,0:17:01.37,DogDays-main,Sink,0000,0000,0000,,I have answered the princess's \Nand your summons....
+Dialogue: 0,0:17:05.71,0:17:08.58,DogDays-main,Sink,0000,0000,0000,,Sink, reporting for duty!
+Dialogue: 0,0:17:09.34,0:17:10.95,DogDays-main,Ann,0000,0000,0000,,He's here!
+Dialogue: 0,0:17:10.95,0:17:13.27,DogDays-main,Ann,0000,0000,0000,,The hero, Sink, has appeared.
+Dialogue: 0,0:17:15.88,0:17:17.45,DogDays-main,Jau,0000,0000,0000,,Sink...
+Dialogue: 0,0:17:17.45,0:17:18.55,DogDays-main,Vert,0000,0000,0000,,Sink-kun...
+Dialogue: 0,0:17:18.55,0:17:20.82,DogDays-main,Noir,0000,0000,0000,,Sink, welcome back.
+Dialogue: 0,0:17:30.54,0:17:32.33,DogDays-main,Sink,0000,0000,0000,,Jaune! Noir! Vert!
+Dialogue: 0,0:17:32.33,0:17:33.58,DogDays-main,Sink,0000,0000,0000,,It's good to see you again.
+Dialogue: 0,0:17:33.58,0:17:35.61,DogDays-main,Sink,0000,0000,0000,,As promised, I trained hard.
+Dialogue: 0,0:17:36.98,0:17:38.12,DogDays-main,Vert,0000,0000,0000,,In one moment?
+Dialogue: 0,0:17:38.64,0:17:40.62,DogDays-main,Jau,0000,0000,0000,,I didn't even see it.
+Dialogue: 0,0:17:40.62,0:17:41.87,DogDays-main,Jau,0000,0000,0000,,He's been training too much.
+Dialogue: 0,0:17:43.30,0:17:44.87,DogDays-main,Noir,0000,0000,0000,,It's really something.
+Dialogue: 0,0:17:44.87,0:17:49.16,DogDays-main,Jau,0000,0000,0000,,It is, but that's not \Nenough to defeat us!
+Dialogue: 0,0:18:08.29,0:18:12.20,DogDays-main,Yuki,0000,0000,0000,,It looks like the Genoise \Nare out of the game for now!
+Dialogue: 0,0:18:12.20,0:18:15.78,DogDays-main,Rico,0000,0000,0000,,That's what happens when you \Ntry to upstage the hero!
+Dialogue: 0,0:18:15.95,0:18:18.89,DogDays-narrator,Ann,0000,0000,0000,,It looks like the leader \Nof Biscotti's Secret Guard
+Dialogue: 0,0:18:18.89,0:18:21.42,DogDays-narrator,,0000,0000,0000,,and the Chief Researcher \Nare both here, too!
+Dialogue: 0,0:18:21.42,0:18:22.79,DogDays-narrator,Percy,0000,0000,0000,,And...
+Dialogue: 0,0:18:24.24,0:18:29.14,DogDays-narrator,,0000,0000,0000,,the captain of our imperial guard, \NEclair, has arrived as well!
+Dialogue: 0,0:18:31.73,0:18:35.17,DogDays-main,Leo,0000,0000,0000,,It's been a long time, \NSink, Hero of Biscotti.
+Dialogue: 0,0:18:35.42,0:18:36.55,DogDays-main,Sink,0000,0000,0000,,Your Excellency!
+Dialogue: 0,0:18:36.55,0:18:38.18,DogDays-main,All,0000,0000,0000,,Oh, it's Leo-sama!
+Dialogue: 0,0:18:38.49,0:18:41.95,DogDays-main,Leo,0000,0000,0000,,I'm glad to see you've \Ncome back stronger.
+Dialogue: 0,0:18:41.95,0:18:44.71,DogDays-main,Leo,0000,0000,0000,,However, we won't be defeated.
+Dialogue: 0,0:18:44.71,0:18:49.94,DogDays-main,Leo,0000,0000,0000,,If Biscotti is using a hero, \Nmight we not do the same?
+Dialogue: 0,0:18:53.55,0:18:55.11,DogDays-main,Leo,0000,0000,0000,,Behold!
+Dialogue: 0,0:18:55.11,0:18:58.96,DogDays-main,Leo,0000,0000,0000,,This is the hero of the \NGalette Lion Army!
+Dialogue: 0,0:19:23.80,0:19:26.12,DogDays-main,Nana,0000,0000,0000,,I was summoned by Leo-sama.
+Dialogue: 0,0:19:26.12,0:19:28.67,DogDays-main,Nana,0000,0000,0000,,My name is Takatsuki Nanami,
+Dialogue: 0,0:19:28.67,0:19:30.35,DogDays-main,,0000,0000,0000,,here to fight as Galette's hero!
+Dialogue: 0,0:19:32.52,0:19:36.10,DogDays-main,Hill,0000,0000,0000,,I suspected Nanami-san would \Njoin the battle right away.
+Dialogue: 0,0:19:38.16,0:19:41.10,DogDays-main,Hill,0000,0000,0000,,Would you like to participate, too?
+Dialogue: 0,0:19:42.11,0:19:44.62,DogDays-main,Hill,0000,0000,0000,,You could be on artillery or archery!
+Dialogue: 0,0:19:44.62,0:19:48.05,DogDays-main,Reb,0000,0000,0000,,Oh no, I'm not good at this \Ntype of thing at all!
+Dialogue: 0,0:19:48.05,0:19:49.32,DogDays-main,Hill,0000,0000,0000,,That's it!
+Dialogue: 0,0:19:50.66,0:19:52.02,DogDays-main,Hill,0000,0000,0000,,Why don't I introduce you
+Dialogue: 0,0:19:52.02,0:19:54.89,DogDays-main,,0000,0000,0000,,to everyone, since you \Ncame all the way here?
+Dialogue: 0,0:19:56.03,0:19:59.21,DogDays-narrator,Ann,0000,0000,0000,,Oh, I am getting a message \Nfrom Princess Millihiore!
+Dialogue: 0,0:20:00.33,0:20:02.25,DogDays-main,Mill,0000,0000,0000,,Hello!
+Dialogue: 0,0:20:02.25,0:20:04.72,DogDays-main,Mill,0000,0000,0000,,I'm Millihiore, speaking to you \Nfrom the Fournette fortress.
+Dialogue: 0,0:20:05.36,0:20:09.48,DogDays-main,Mill,0000,0000,0000,,It looks like you're all having \Na lot of fun over there.
+Dialogue: 0,0:20:10.09,0:20:12.52,DogDays-main,Mill,0000,0000,0000,,Here, we've got childhood friend
+Dialogue: 0,0:20:12.52,0:20:15.68,DogDays-main,,0000,0000,0000,,of both heroes: Rebecca Anderson!
+Dialogue: 0,0:20:15.68,0:20:19.44,DogDays-main,Reb,0000,0000,0000,,Um, well... uh... hello!
+Dialogue: 0,0:20:19.70,0:20:23.91,DogDays-main,All,0000,0000,0000,,Hello!
+Dialogue: 0,0:20:24.68,0:20:26.83,DogDays-main,Both,0000,0000,0000,,Becky!
+Dialogue: 0,0:20:26.83,0:20:28.12,DogDays-main,Reb,0000,0000,0000,,Yes, yes...
+Dialogue: 0,0:20:33.37,0:20:41.63,location,txt,0000,0000,0000,,Principality of Pastillage\NCastle Eschenbach
+Dialogue: 0,0:20:36.18,0:20:39.37,DogDays-main,Ann,0000,0000,0000,,Both armies have resumed their advance!
+Dialogue: 0,0:20:39.37,0:20:41.63,DogDays-main,Ann,0000,0000,0000,,Is a direct clash imminent?!
+Dialogue: 0,0:20:43.56,0:20:46.25,DogDays-main,Cou,0000,0000,0000,,They're really getting into it.
+Dialogue: 0,0:20:46.25,0:20:47.43,DogDays-main,Cara,0000,0000,0000,,Quite so.
+Dialogue: 0,0:20:47.83,0:20:50.93,DogDays-main,Cou,0000,0000,0000,,Both countries summoned a hero...
+Dialogue: 0,0:20:51.17,0:20:55.19,DogDays-main,Cou,0000,0000,0000,,Millihi-nee and Leo-nee \Nare both unbelievable.
+Dialogue: 0,0:20:51.18,0:20:55.19,yellow note,txt,0000,0000,0000,,{\fad(500,1)}First Princess of the Principality of Pastillage\NFeudal Lord of the Eschenbach Lands\NCouverte E. Pastillage
+Dialogue: 0,0:20:55.69,0:20:59.19,teal note,,0000,0000,0000,,{\fad(500,1)}Pastillage Crystal Technique Knights\NCallaway Risler
+Dialogue: 0,0:20:56.51,0:20:59.19,DogDays-main,Cara,0000,0000,0000,,Everybody seems to be \Nenjoying themselves.
+Dialogue: 0,0:20:59.52,0:21:00.69,DogDays-main,Cou,0000,0000,0000,,True...
+Dialogue: 0,0:21:02.14,0:21:07.16,DogDays-main,Cou,0000,0000,0000,,Truth be told, I'd like Pastillage \Nto join the fray with gusto, too.
+Dialogue: 0,0:21:07.16,0:21:08.45,DogDays-main,Cara,0000,0000,0000,,I concur.
+Dialogue: 0,0:21:08.70,0:21:12.20,DogDays-main,Cou,0000,0000,0000,,On the other hand, I'm not that...
+Dialogue: 0,0:21:14.44,0:21:15.64,DogDays-main,Cou,0000,0000,0000,,This girl...
+Dialogue: 0,0:21:16.92,0:21:20.40,DogDays-main,Cara,0000,0000,0000,,Yes, I hear she is the \Nfriend of both heroes.
+Dialogue: 0,0:21:20.40,0:21:22.21,DogDays-main,Cara,0000,0000,0000,,A visitor from the other world.
+Dialogue: 0,0:21:22.48,0:21:23.45,DogDays-main,Cou,0000,0000,0000,,I see.
+Dialogue: 0,0:21:23.99,0:21:26.61,DogDays-main,Cou,0000,0000,0000,,So she's not the hero of \Neither country, right?
+Dialogue: 0,0:21:26.61,0:21:28.76,DogDays-main,Cara,0000,0000,0000,,Yes, I believe so.
+Dialogue: 0,0:21:29.12,0:21:31.02,DogDays-main,Cou,0000,0000,0000,,This girl... she's good.
+Dialogue: 0,0:21:31.02,0:21:33.77,DogDays-main,Cou,0000,0000,0000,,My senses are tingling!
+Dialogue: 0,0:21:34.18,0:21:36.28,DogDays-main,Cou,0000,0000,0000,,I'm going to go meet her!
+Dialogue: 0,0:21:36.28,0:21:39.77,DogDays-main,Cou,0000,0000,0000,,Since we're going anyway, \Nlet's crash their battle, as well!
+Dialogue: 0,0:21:39.97,0:21:42.28,DogDays-main,Cara,0000,0000,0000,,Certain— What?!
+Dialogue: 0,0:21:42.89,0:21:45.53,DogDays-main,Cou,0000,0000,0000,,I'm coming to pick you up right now!
+Dialogue: 0,0:21:45.94,0:21:48.29,DogDays-main,Cou,0000,0000,0000,,Just wait for me, my hero!
+Dialogue: 0,0:21:50.03,0:21:55.04,DogDays-ep-title,Title,0000,0000,0000,,A Hero Appears!
+Dialogue: 0,0:23:30.54,0:23:32.29,DogDays-main,girl,0000,0000,0000,,Our hero's finally returned!
+Dialogue: 0,0:23:32.29,0:23:34.23,DogDays-main,girl,0000,0000,0000,,Since he's brought Rebecca-sama \Nand Nanami-sama as well,
+Dialogue: 0,0:23:34.23,0:23:36.44,DogDays-main,,0000,0000,0000,,it's going to be even more fun!
+Dialogue: 0,0:23:35.18,0:23:42.00,DogDays-next-ep-title,Txt,0000,0000,0000,,{\fad(500,1)}Pastillage Joins The Battle!
+Dialogue: 0,0:23:36.44,0:23:39.55,DogDays-main,Girl,0000,0000,0000,,Let's get fired up \Ntogether next time, too!
+Dialogue: 0,0:23:40.67,0:23:42.67,DogDays-main,,0000,0000,0000,,
