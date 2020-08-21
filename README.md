@@ -14,3 +14,4 @@ https://pythonprogramming.net/
 
 https://www.kaggle.com/bunnyhopper/anime-chatbot/data
 
+https://enlight.nyc/category/machine-learning
