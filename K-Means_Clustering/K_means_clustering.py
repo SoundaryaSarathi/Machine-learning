@@ -7,6 +7,7 @@ Created on Fri Oct 25 23:33:47 2019
 """
 
 import matplotlib.pyplot as plt
+#just a comment
 from matplotlib import style
 import numpy as np
 from sklearn.datasets.samples_generator import make_blobs
